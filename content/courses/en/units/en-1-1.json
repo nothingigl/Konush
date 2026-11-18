@@ -83,16 +83,390 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-1-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Три интонации: скажите «Hello!» тепло, сонно и удивлённо:",
+          "target_text": "Hello!",
+          "translation_ru": "Привет! / Здравствуйте!",
+          "explain_ru": "Hello — универсальное приветствие в любое время дня.",
+          "audio": "en/1-1/sp-01.mp3"
+        },
+        {
+          "id": "en-1-1-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Разыграйте два голоса (благодарность и ответ):",
+          "target_text": "Thank you! — You're welcome!",
+          "translation_ru": "Спасибо! — Пожалуйста (не за что)!",
+          "explain_ru": "Please говорят при просьбе, а You're welcome — в ответ на Thank you.",
+          "audio": "en/1-1/sp-02.mp3"
+        },
+        {
+          "id": "en-1-1-sp-03",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Разыграйте два голоса (извинение и ответ):",
+          "target_text": "Sorry. — No problem.",
+          "translation_ru": "Извините. — Ничего страшного.",
+          "explain_ru": "No problem — естественный разговорный ответ на Sorry.",
+          "audio": "en/1-1/sp-03.mp3"
+        },
+        {
+          "id": "en-1-1-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух утреннее приветствие:",
+          "target_text": "Good morning! Hello!",
+          "translation_ru": "Доброе утро! Привет!",
+          "explain_ru": "Good morning используется с утра до полудня.",
+          "audio": "en/1-1/sp-04.mp3"
+        },
+        {
+          "id": "en-1-1-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Вежливо обратитесь к собеседнику:",
+          "target_text": "Excuse me, please.",
+          "translation_ru": "Простите (разрешите обратиться), пожалуйста.",
+          "explain_ru": "Excuse me используют, чтобы привлечь внимание или попросить дорогу.",
+          "audio": "en/1-1/sp-05.mp3"
+        },
+        {
+          "id": "en-1-1-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух слова прощания:",
+          "target_text": "Goodbye! See you!",
+          "translation_ru": "До свидания! Увидимся!",
+          "explain_ru": "See you — дружелюбное «Увидимся!» при прощании.",
+          "audio": "en/1-1/sp-06.mp3"
+        },
+        {
+          "id": "en-1-1-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Пожелайте спокойной ночи:",
+          "target_text": "Good night! Goodbye!",
+          "translation_ru": "Спокойной ночи! До свидания!",
+          "explain_ru": "Good night говорят именно перед сном или прощаясь поздно вечером.",
+          "audio": "en/1-1/sp-07.mp3"
+        },
+        {
+          "id": "en-1-1-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух согласие и вежливый отказ:",
+          "target_text": "Yes, please. No, thank you.",
+          "translation_ru": "Да, пожалуйста. Нет, спасибо.",
+          "explain_ru": "Стандартные вежливые формулы ответа на предложение.",
+          "audio": "en/1-1/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-1-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Время суток (1/3). Прослушайте скрипт: когда это говорят?",
+          "transcript": "Good morning!",
+          "options": ["утром", "перед сном", "при прощании", "при извинении"],
+          "correct_index": 0,
+          "explain_ru": "Good morning! — Доброе утро! Говорят утром.",
+          "audio": "en/1-1/w10.mp3"
+        },
+        {
+          "id": "en-1-1-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Время суток (2/3). Прослушайте скрипт: когда это говорят?",
+          "transcript": "Good night!",
+          "options": ["перед сном", "утром", "при знакомстве", "при благодарности"],
+          "correct_index": 0,
+          "explain_ru": "Good night! — Спокойной ночи! Говорят перед сном.",
+          "audio": "en/1-1/w11.mp3"
+        },
+        {
+          "id": "en-1-1-ls-03",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Время суток (3/3). Прослушайте скрипт: когда это говорят?",
+          "transcript": "See you!",
+          "options": ["при прощании", "утром", "когда просят воду", "когда извиняются"],
+          "correct_index": 0,
+          "explain_ru": "See you! — Увидимся! Говорят при прощании.",
+          "audio": "en/1-1/w12.mp3"
+        },
+        {
+          "id": "en-1-1-ls-04",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «привет»:",
+          "transcript": "hello",
+          "accepted": ["hello"],
+          "explain_ru": "Hello — привет.",
+          "audio": "en/1-1/w01.mp3"
+        },
+        {
+          "id": "en-1-1-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «до свидания»:",
+          "transcript": "goodbye",
+          "accepted": ["goodbye", "good bye"],
+          "explain_ru": "Goodbye — до свидания.",
+          "audio": "en/1-1/w02.mp3"
+        },
+        {
+          "id": "en-1-1-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что сказал собеседник?",
+          "transcript": "Excuse me! Sorry!",
+          "options": [
+            "Простите (чтобы обратиться)! Извините!",
+            "Доброе утро! Спокойной ночи!",
+            "Да, пожалуйста!",
+            "Спасибо! Не за что!"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Excuse me — простите (чтобы обратиться), sorry — извините.",
+          "audio": "en/1-1/w09.mp3"
+        },
+        {
+          "id": "en-1-1-ls-07",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски: «Да, пожалуйста»",
+          "transcript": "Yes, please.",
+          "accepted": ["Yes, please.", "Yes please"],
+          "explain_ru": "Yes — да, please — пожалуйста.",
+          "audio": "en/1-1/sp-08.mp3"
+        },
+        {
+          "id": "en-1-1-ls-08",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как ответили на благодарность?",
+          "transcript": "Thank you! — You're welcome!",
+          "options": [
+            "Пожалуйста (в ответ на спасибо)",
+            "До свидания",
+            "Нет, спасибо",
+            "Спокойной ночи"
+          ],
+          "correct_index": 0,
+          "explain_ru": "You're welcome — пожалуйста (в ответ на thank you).",
+          "audio": "en/1-1/sp-02.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-1-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Найди пару реплик: подберите ответ к каждой фразе",
+          "pairs": [
+            { "left": "Thank you", "right": "You're welcome" },
+            { "left": "Sorry", "right": "No problem" },
+            { "left": "See you", "right": "See you" },
+            { "left": "Good morning", "right": "Good morning" }
+          ],
+          "explain_ru": "На Thank you отвечают You're welcome, на Sorry — No problem, а приветствия и прощания зеркалятся.",
+          "audio": null
+        },
+        {
+          "id": "en-1-1-wr-02",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините английские слова с переводом:",
+          "pairs": [
+            { "left": "hello", "right": "привет" },
+            { "left": "goodbye", "right": "до свидания" },
+            { "left": "yes", "right": "да" },
+            { "left": "no", "right": "нет" }
+          ],
+          "explain_ru": "Базовые слова: hello, goodbye, yes, no.",
+          "audio": null
+        },
+        {
+          "id": "en-1-1-wr-03",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите вежливый ответ: «Да, пожалуйста. Спасибо!»",
+          "source_text": "Да, пожалуйста. Спасибо!",
+          "bank": ["thank", "yes", "please", "you"],
+          "accepted": ["Yes please thank you"],
+          "explain_ru": "Yes, please. Thank you!",
+          "audio": null
+        },
+        {
+          "id": "en-1-1-wr-04",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски: «простите (чтобы обратиться)»",
+          "source_text": "простите (чтобы обратиться)",
+          "accepted": ["excuse me"],
+          "explain_ru": "Excuse me говорят, чтобы вежливо обратиться к человеку.",
+          "audio": null
+        },
+        {
+          "id": "en-1-1-wr-05",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски: «спокойной ночи»",
+          "source_text": "спокойной ночи",
+          "accepted": ["good night"],
+          "explain_ru": "Good night — спокойной ночи.",
+          "audio": null
+        },
+        {
+          "id": "en-1-1-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в ответе на «Thank you!»:",
+          "buggy_text": "Thank you! — Please!",
+          "accepted": ["Thank you! — You're welcome!", "You're welcome", "You are welcome"],
+          "explain_ru": "В английском языке слово please не используется в ответ на «спасибо» — нужно сказать «You're welcome!».",
+          "audio": null
+        },
+        {
+          "id": "en-1-1-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите прощание: «До свидания, увидимся!»",
+          "source_text": "До свидания, увидимся!",
+          "bank": ["you", "goodbye", "see"],
+          "accepted": ["Goodbye see you"],
+          "explain_ru": "Goodbye! See you!",
+          "audio": null
+        },
+        {
+          "id": "en-1-1-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее выражение (не прощание):",
+          "items": ["goodbye", "see you", "good night", "good morning"],
+          "odd_index": 3,
+          "explain_ru": "Good morning говорят при встрече утром, а остальные три фразы — при прощании.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-1-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Мини-диалог. Прочитайте разговор и ответьте на вопрос:",
+          "passage": "— Excuse me.\n— Yes?\n— Water, please.\n— Here you are.\n— Thank you.\n— You're welcome.",
+          "questions": [
+            {
+              "question_ru": "Что попросил человек?",
+              "options": ["воду (Water)", "чай", "кофе", "молоко"],
+              "correct_index": 0,
+              "accepted": ["воду", "вода", "water"]
+            }
+          ],
+          "explain_ru": "Water, please — «Воды, пожалуйста». Here you are — «Вот, пожалуйста».",
+          "audio": null
+        },
+        {
+          "id": "en-1-1-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Чем отличаются «Excuse me» и «Sorry»?",
+          "question_text": "Excuse me / Sorry",
+          "options": [
+            "Excuse me — чтобы обратиться, Sorry — чтобы извиниться",
+            "Они означают «доброе утро» и «добрый вечер»",
+            "Excuse me — это «да», а Sorry — «нет»",
+            "Оба слова означают «спасибо»"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Excuse me говорят перед обращением («Простите, можно спросить?»), а Sorry — когда извиняются.",
+          "audio": null
+        },
+        {
+          "id": "en-1-1-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильный перевод фразы «No, thank you»:",
+          "question_text": "No, thank you.",
+          "options": ["Нет, спасибо.", "Да, пожалуйста.", "Не за что.", "До свидания."],
+          "correct_index": 0,
+          "explain_ru": "No — нет, thank you — спасибо.",
+          "audio": null
+        },
+        {
+          "id": "en-1-1-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте диалог и ответьте на вопрос:",
+          "passage": "— Good morning! Hello!\n— Good morning!\n— Sorry, goodbye! See you!\n— See you!",
+          "questions": [
+            {
+              "question_ru": "В какое время суток происходит встреча?",
+              "options": ["утром", "поздно ночью", "в полдень", "перед сном"],
+              "correct_index": 0,
+              "accepted": ["утром", "утро"]
+            }
+          ],
+          "explain_ru": "Герои приветствуют друг друга фразой «Good morning!» (Доброе утро!).",
+          "audio": null
+        },
+        {
+          "id": "en-1-1-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните ключевую фразу:",
+          "target_text": "you're welcome",
+          "translation_ru": "пожалуйста (в ответ на «спасибо»)",
+          "example_text": "— Thank you! — You're welcome!",
+          "example_ru": "— Спасибо! — Пожалуйста!",
+          "explain_ru": "You're welcome — сокращение от You are welcome.",
+          "audio": "en/1-1/w05.mp3"
+        },
+        {
+          "id": "en-1-1-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что сказать человеку, который ложится спать?",
+          "question_text": "Спокойной ночи!",
+          "options": ["Good night!", "Good morning!", "Excuse me!", "Please!"],
+          "correct_index": 0,
+          "explain_ru": "Good night! — Спокойной ночи!",
+          "audio": null
+        },
+        {
+          "id": "en-1-1-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «See you»?",
+          "question_text": "See you!",
+          "options": ["Увидимся!", "Извините!", "Привет!", "Пожалуйста!"],
+          "correct_index": 0,
+          "explain_ru": "See you! — Увидимся!",
+          "audio": null
+        },
+        {
+          "id": "en-1-1-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте реплики диалога в логическом порядке:",
+          "items_shuffled": ["You're welcome!", "Excuse me, water please.", "Thank you!"],
+          "correct_order": ["Excuse me, water please.", "Thank you!", "You're welcome!"],
+          "explain_ru": "Сначала просьба (Excuse me, water please), затем благодарность (Thank you!) и ответ (You're welcome!).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"
