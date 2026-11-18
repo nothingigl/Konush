@@ -1,0 +1,99 @@
+{
+  "id": "en-2-10",
+  "course": "en",
+  "section": 2,
+  "order": 10,
+  "slug": "2-10-talk-about-studying",
+  "title_ru": "Учёба",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-10-w01",
+      "text": "study",
+      "ru": "учиться",
+      "audio": "en/2-10/w01.mp3"
+    },
+    {
+      "id": "en-2-10-w02",
+      "text": "university",
+      "ru": "университет",
+      "audio": "en/2-10/w02.mp3"
+    },
+    {
+      "id": "en-2-10-w03",
+      "text": "lesson",
+      "ru": "урок",
+      "audio": "en/2-10/w03.mp3"
+    },
+    {
+      "id": "en-2-10-w04",
+      "text": "exam",
+      "ru": "экзамен",
+      "audio": "en/2-10/w04.mp3"
+    },
+    {
+      "id": "en-2-10-w05",
+      "text": "homework",
+      "ru": "домашнее задание",
+      "audio": "en/2-10/w05.mp3"
+    },
+    {
+      "id": "en-2-10-w06",
+      "text": "subject",
+      "ru": "предмет",
+      "audio": "en/2-10/w06.mp3"
+    },
+    {
+      "id": "en-2-10-w07",
+      "text": "math",
+      "ru": "математика",
+      "audio": "en/2-10/w07.mp3"
+    },
+    {
+      "id": "en-2-10-w08",
+      "text": "biology",
+      "ru": "биология",
+      "audio": "en/2-10/w08.mp3"
+    },
+    {
+      "id": "en-2-10-w09",
+      "text": "notebook",
+      "ru": "тетрадь",
+      "audio": "en/2-10/w09.mp3"
+    },
+    {
+      "id": "en-2-10-w10",
+      "text": "library",
+      "ru": "библиотека",
+      "audio": "en/2-10/w10.mp3"
+    },
+    {
+      "id": "en-2-10-w11",
+      "text": "pass",
+      "ru": "сдать",
+      "audio": "en/2-10/w11.mp3"
+    },
+    {
+      "id": "en-2-10-w12",
+      "text": "fail",
+      "ru": "не сдать",
+      "audio": "en/2-10/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

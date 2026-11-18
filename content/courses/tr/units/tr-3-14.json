@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-14",
+  "course": "tr",
+  "section": 3,
+  "order": 14,
+  "slug": "3-14-present-habits-aorist",
+  "title_ru": "Привычки сейчас (-ır/-er)",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-14-w01",
+      "text": "alışkanlık",
+      "ru": "привычка",
+      "audio": "tr/3-14/w01.mp3"
+    },
+    {
+      "id": "tr-3-14-w02",
+      "text": "düzenli",
+      "ru": "регулярно",
+      "audio": "tr/3-14/w02.mp3"
+    },
+    {
+      "id": "tr-3-14-w03",
+      "text": "nadiren",
+      "ru": "редко",
+      "audio": "tr/3-14/w03.mp3"
+    },
+    {
+      "id": "tr-3-14-w04",
+      "text": "her sabah",
+      "ru": "каждое утро",
+      "audio": "tr/3-14/w04.mp3"
+    },
+    {
+      "id": "tr-3-14-w05",
+      "text": "her akşam",
+      "ru": "каждый вечер",
+      "audio": "tr/3-14/w05.mp3"
+    },
+    {
+      "id": "tr-3-14-w06",
+      "text": "duş almak",
+      "ru": "принимать душ",
+      "audio": "tr/3-14/w06.mp3"
+    },
+    {
+      "id": "tr-3-14-w07",
+      "text": "diş fırçalamak",
+      "ru": "чистить зубы",
+      "audio": "tr/3-14/w07.mp3"
+    },
+    {
+      "id": "tr-3-14-w08",
+      "text": "yatmak",
+      "ru": "ложиться",
+      "audio": "tr/3-14/w08.mp3"
+    },
+    {
+      "id": "tr-3-14-w09",
+      "text": "kalkmak",
+      "ru": "вставать",
+      "audio": "tr/3-14/w09.mp3"
+    },
+    {
+      "id": "tr-3-14-w10",
+      "text": "giyinmek",
+      "ru": "одеваться",
+      "audio": "tr/3-14/w10.mp3"
+    },
+    {
+      "id": "tr-3-14-w11",
+      "text": "tıraş olmak",
+      "ru": "бриться",
+      "audio": "tr/3-14/w11.mp3"
+    },
+    {
+      "id": "tr-3-14-w12",
+      "text": "alarm",
+      "ru": "будильник",
+      "audio": "tr/3-14/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "en-2-22",
+  "course": "en",
+  "section": 2,
+  "order": 22,
+  "slug": "2-22-talk-about-work",
+  "title_ru": "Работа",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-22-w01",
+      "text": "job",
+      "ru": "работа, занятие",
+      "audio": "en/2-22/w01.mp3"
+    },
+    {
+      "id": "en-2-22-w02",
+      "text": "work",
+      "ru": "работать",
+      "audio": "en/2-22/w02.mp3"
+    },
+    {
+      "id": "en-2-22-w03",
+      "text": "salary",
+      "ru": "зарплата",
+      "audio": "en/2-22/w03.mp3"
+    },
+    {
+      "id": "en-2-22-w04",
+      "text": "interview",
+      "ru": "собеседование",
+      "audio": "en/2-22/w04.mp3"
+    },
+    {
+      "id": "en-2-22-w05",
+      "text": "company",
+      "ru": "компания",
+      "audio": "en/2-22/w05.mp3"
+    },
+    {
+      "id": "en-2-22-w06",
+      "text": "manager",
+      "ru": "менеджер",
+      "audio": "en/2-22/w06.mp3"
+    },
+    {
+      "id": "en-2-22-w07",
+      "text": "worker",
+      "ru": "работник",
+      "audio": "en/2-22/w07.mp3"
+    },
+    {
+      "id": "en-2-22-w08",
+      "text": "engineer",
+      "ru": "инженер",
+      "audio": "en/2-22/w08.mp3"
+    },
+    {
+      "id": "en-2-22-w09",
+      "text": "driver",
+      "ru": "водитель",
+      "audio": "en/2-22/w09.mp3"
+    },
+    {
+      "id": "en-2-22-w10",
+      "text": "chef",
+      "ru": "повар",
+      "audio": "en/2-22/w10.mp3"
+    },
+    {
+      "id": "en-2-22-w11",
+      "text": "part-time",
+      "ru": "неполный день",
+      "audio": "en/2-22/w11.mp3"
+    },
+    {
+      "id": "en-2-22-w12",
+      "text": "full-time",
+      "ru": "полный день",
+      "audio": "en/2-22/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

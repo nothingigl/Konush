@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-30",
+  "course": "tr",
+  "section": 2,
+  "order": 30,
+  "slug": "2-30-future-tense",
+  "title_ru": "Будущее",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-30-w01",
+      "text": "gelecek",
+      "ru": "будущее",
+      "audio": "tr/2-30/w01.mp3"
+    },
+    {
+      "id": "tr-2-30-w02",
+      "text": "yakında",
+      "ru": "скоро",
+      "audio": "tr/2-30/w02.mp3"
+    },
+    {
+      "id": "tr-2-30-w03",
+      "text": "haftaya",
+      "ru": "на следующей неделе",
+      "audio": "tr/2-30/w03.mp3"
+    },
+    {
+      "id": "tr-2-30-w04",
+      "text": "seneye",
+      "ru": "в следующем году",
+      "audio": "tr/2-30/w04.mp3"
+    },
+    {
+      "id": "tr-2-30-w05",
+      "text": "plan",
+      "ru": "план",
+      "audio": "tr/2-30/w05.mp3"
+    },
+    {
+      "id": "tr-2-30-w06",
+      "text": "hedef",
+      "ru": "цель",
+      "audio": "tr/2-30/w06.mp3"
+    },
+    {
+      "id": "tr-2-30-w07",
+      "text": "hayal",
+      "ru": "мечта",
+      "audio": "tr/2-30/w07.mp3"
+    },
+    {
+      "id": "tr-2-30-w08",
+      "text": "umut",
+      "ru": "надежда",
+      "audio": "tr/2-30/w08.mp3"
+    },
+    {
+      "id": "tr-2-30-w09",
+      "text": "planlamak",
+      "ru": "планировать",
+      "audio": "tr/2-30/w09.mp3"
+    },
+    {
+      "id": "tr-2-30-w10",
+      "text": "karar vermek",
+      "ru": "решить",
+      "audio": "tr/2-30/w10.mp3"
+    },
+    {
+      "id": "tr-2-30-w11",
+      "text": "söz vermek",
+      "ru": "обещать",
+      "audio": "tr/2-30/w11.mp3"
+    },
+    {
+      "id": "tr-2-30-w12",
+      "text": "ileride",
+      "ru": "в будущем",
+      "audio": "tr/2-30/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "en-3-17",
+  "course": "en",
+  "section": 3,
+  "order": 17,
+  "slug": "3-17-share-achievements",
+  "title_ru": "Достижения",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-17-w01",
+      "text": "achievement",
+      "ru": "достижение",
+      "audio": "en/3-17/w01.mp3"
+    },
+    {
+      "id": "en-3-17-w02",
+      "text": "prize",
+      "ru": "приз",
+      "audio": "en/3-17/w02.mp3"
+    },
+    {
+      "id": "en-3-17-w03",
+      "text": "graduate",
+      "ru": "окончить учебное заведение",
+      "audio": "en/3-17/w03.mp3"
+    },
+    {
+      "id": "en-3-17-w04",
+      "text": "succeed",
+      "ru": "добиться успеха",
+      "audio": "en/3-17/w04.mp3"
+    },
+    {
+      "id": "en-3-17-w05",
+      "text": "record",
+      "ru": "рекорд",
+      "audio": "en/3-17/w05.mp3"
+    },
+    {
+      "id": "en-3-17-w06",
+      "text": "result",
+      "ru": "результат",
+      "audio": "en/3-17/w06.mp3"
+    },
+    {
+      "id": "en-3-17-w07",
+      "text": "medal",
+      "ru": "медаль",
+      "audio": "en/3-17/w07.mp3"
+    },
+    {
+      "id": "en-3-17-w08",
+      "text": "degree",
+      "ru": "степень",
+      "audio": "en/3-17/w08.mp3"
+    },
+    {
+      "id": "en-3-17-w09",
+      "text": "diploma",
+      "ru": "диплом",
+      "audio": "en/3-17/w09.mp3"
+    },
+    {
+      "id": "en-3-17-w10",
+      "text": "hard work",
+      "ru": "упорный труд",
+      "audio": "en/3-17/w10.mp3"
+    },
+    {
+      "id": "en-3-17-w11",
+      "text": "dream",
+      "ru": "мечта",
+      "audio": "en/3-17/w11.mp3"
+    },
+    {
+      "id": "en-3-17-w12",
+      "text": "proud",
+      "ru": "гордый",
+      "audio": "en/3-17/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "en-1-4",
+  "course": "en",
+  "section": 1,
+  "order": 4,
+  "slug": "1-4-talk-about-your-family",
+  "title_ru": "Семья",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-1-4-w01",
+      "text": "mother",
+      "ru": "мама",
+      "audio": "en/1-4/w01.mp3"
+    },
+    {
+      "id": "en-1-4-w02",
+      "text": "father",
+      "ru": "папа",
+      "audio": "en/1-4/w02.mp3"
+    },
+    {
+      "id": "en-1-4-w03",
+      "text": "sister",
+      "ru": "сестра",
+      "audio": "en/1-4/w03.mp3"
+    },
+    {
+      "id": "en-1-4-w04",
+      "text": "brother",
+      "ru": "брат",
+      "audio": "en/1-4/w04.mp3"
+    },
+    {
+      "id": "en-1-4-w05",
+      "text": "parents",
+      "ru": "родители",
+      "audio": "en/1-4/w05.mp3"
+    },
+    {
+      "id": "en-1-4-w06",
+      "text": "grandmother",
+      "ru": "бабушка",
+      "audio": "en/1-4/w06.mp3"
+    },
+    {
+      "id": "en-1-4-w07",
+      "text": "grandfather",
+      "ru": "дедушка",
+      "audio": "en/1-4/w07.mp3"
+    },
+    {
+      "id": "en-1-4-w08",
+      "text": "son",
+      "ru": "сын",
+      "audio": "en/1-4/w08.mp3"
+    },
+    {
+      "id": "en-1-4-w09",
+      "text": "daughter",
+      "ru": "дочь",
+      "audio": "en/1-4/w09.mp3"
+    },
+    {
+      "id": "en-1-4-w10",
+      "text": "husband",
+      "ru": "муж",
+      "audio": "en/1-4/w10.mp3"
+    },
+    {
+      "id": "en-1-4-w11",
+      "text": "wife",
+      "ru": "жена",
+      "audio": "en/1-4/w11.mp3"
+    },
+    {
+      "id": "en-1-4-w12",
+      "text": "family",
+      "ru": "семья",
+      "audio": "en/1-4/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

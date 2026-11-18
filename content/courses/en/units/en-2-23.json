@@ -1,0 +1,99 @@
+{
+  "id": "en-2-23",
+  "course": "en",
+  "section": 2,
+  "order": 23,
+  "slug": "2-23-describe-animals",
+  "title_ru": "Животные",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-23-w01",
+      "text": "elephant",
+      "ru": "слон",
+      "audio": "en/2-23/w01.mp3"
+    },
+    {
+      "id": "en-2-23-w02",
+      "text": "lion",
+      "ru": "лев",
+      "audio": "en/2-23/w02.mp3"
+    },
+    {
+      "id": "en-2-23-w03",
+      "text": "monkey",
+      "ru": "обезьяна",
+      "audio": "en/2-23/w03.mp3"
+    },
+    {
+      "id": "en-2-23-w04",
+      "text": "snake",
+      "ru": "змея",
+      "audio": "en/2-23/w04.mp3"
+    },
+    {
+      "id": "en-2-23-w05",
+      "text": "bear",
+      "ru": "медведь",
+      "audio": "en/2-23/w05.mp3"
+    },
+    {
+      "id": "en-2-23-w06",
+      "text": "wolf",
+      "ru": "волк",
+      "audio": "en/2-23/w06.mp3"
+    },
+    {
+      "id": "en-2-23-w07",
+      "text": "tiger",
+      "ru": "тигр",
+      "audio": "en/2-23/w07.mp3"
+    },
+    {
+      "id": "en-2-23-w08",
+      "text": "giraffe",
+      "ru": "жираф",
+      "audio": "en/2-23/w08.mp3"
+    },
+    {
+      "id": "en-2-23-w09",
+      "text": "wild",
+      "ru": "дикий",
+      "audio": "en/2-23/w09.mp3"
+    },
+    {
+      "id": "en-2-23-w10",
+      "text": "zoo",
+      "ru": "зоопарк",
+      "audio": "en/2-23/w10.mp3"
+    },
+    {
+      "id": "en-2-23-w11",
+      "text": "tail",
+      "ru": "хвост",
+      "audio": "en/2-23/w11.mp3"
+    },
+    {
+      "id": "en-2-23-w12",
+      "text": "strong",
+      "ru": "сильный",
+      "audio": "en/2-23/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

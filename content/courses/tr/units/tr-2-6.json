@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-6",
+  "course": "tr",
+  "section": 2,
+  "order": 6,
+  "slug": "2-6-clothes",
+  "title_ru": "Одежда",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-6-w01",
+      "text": "gömlek",
+      "ru": "рубашка",
+      "audio": "tr/2-6/w01.mp3"
+    },
+    {
+      "id": "tr-2-6-w02",
+      "text": "pantolon",
+      "ru": "брюки",
+      "audio": "tr/2-6/w02.mp3"
+    },
+    {
+      "id": "tr-2-6-w03",
+      "text": "ceket",
+      "ru": "пиджак/куртка",
+      "audio": "tr/2-6/w03.mp3"
+    },
+    {
+      "id": "tr-2-6-w04",
+      "text": "elbise",
+      "ru": "платье",
+      "audio": "tr/2-6/w04.mp3"
+    },
+    {
+      "id": "tr-2-6-w05",
+      "text": "etek",
+      "ru": "юбка",
+      "audio": "tr/2-6/w05.mp3"
+    },
+    {
+      "id": "tr-2-6-w06",
+      "text": "ayakkabı",
+      "ru": "обувь",
+      "audio": "tr/2-6/w06.mp3"
+    },
+    {
+      "id": "tr-2-6-w07",
+      "text": "çorap",
+      "ru": "носки",
+      "audio": "tr/2-6/w07.mp3"
+    },
+    {
+      "id": "tr-2-6-w08",
+      "text": "kazak",
+      "ru": "свитер",
+      "audio": "tr/2-6/w08.mp3"
+    },
+    {
+      "id": "tr-2-6-w09",
+      "text": "mont",
+      "ru": "пальто",
+      "audio": "tr/2-6/w09.mp3"
+    },
+    {
+      "id": "tr-2-6-w10",
+      "text": "kravat",
+      "ru": "галстук",
+      "audio": "tr/2-6/w10.mp3"
+    },
+    {
+      "id": "tr-2-6-w11",
+      "text": "eldiven",
+      "ru": "перчатки",
+      "audio": "tr/2-6/w11.mp3"
+    },
+    {
+      "id": "tr-2-6-w12",
+      "text": "kemer",
+      "ru": "ремень",
+      "audio": "tr/2-6/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

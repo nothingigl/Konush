@@ -1,0 +1,99 @@
+{
+  "id": "tr-1-7",
+  "course": "tr",
+  "section": 1,
+  "order": 7,
+  "slug": "1-7-plural-nouns",
+  "title_ru": "Множественное число",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-1-7-w01",
+      "text": "çocuk",
+      "ru": "ребёнок",
+      "audio": "tr/1-7/w01.mp3"
+    },
+    {
+      "id": "tr-1-7-w02",
+      "text": "adam",
+      "ru": "мужчина",
+      "audio": "tr/1-7/w02.mp3"
+    },
+    {
+      "id": "tr-1-7-w03",
+      "text": "kadın",
+      "ru": "женщина",
+      "audio": "tr/1-7/w03.mp3"
+    },
+    {
+      "id": "tr-1-7-w04",
+      "text": "kız",
+      "ru": "девочка",
+      "audio": "tr/1-7/w04.mp3"
+    },
+    {
+      "id": "tr-1-7-w05",
+      "text": "ağaç",
+      "ru": "дерево",
+      "audio": "tr/1-7/w05.mp3"
+    },
+    {
+      "id": "tr-1-7-w06",
+      "text": "çiçek",
+      "ru": "цветок",
+      "audio": "tr/1-7/w06.mp3"
+    },
+    {
+      "id": "tr-1-7-w07",
+      "text": "araba",
+      "ru": "машина",
+      "audio": "tr/1-7/w07.mp3"
+    },
+    {
+      "id": "tr-1-7-w08",
+      "text": "sandalye",
+      "ru": "стул",
+      "audio": "tr/1-7/w08.mp3"
+    },
+    {
+      "id": "tr-1-7-w09",
+      "text": "bardak",
+      "ru": "стакан",
+      "audio": "tr/1-7/w09.mp3"
+    },
+    {
+      "id": "tr-1-7-w10",
+      "text": "tabak",
+      "ru": "тарелка",
+      "audio": "tr/1-7/w10.mp3"
+    },
+    {
+      "id": "tr-1-7-w11",
+      "text": "şehir",
+      "ru": "город",
+      "audio": "tr/1-7/w11.mp3"
+    },
+    {
+      "id": "tr-1-7-w12",
+      "text": "yıldız",
+      "ru": "звезда",
+      "audio": "tr/1-7/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

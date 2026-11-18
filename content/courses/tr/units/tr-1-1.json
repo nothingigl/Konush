@@ -1,0 +1,99 @@
+{
+  "id": "tr-1-1",
+  "course": "tr",
+  "section": 1,
+  "order": 1,
+  "slug": "1-1-food-and-drinks",
+  "title_ru": "Еда и напитки",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-1-1-w01",
+      "text": "su",
+      "ru": "вода",
+      "audio": "tr/1-1/w01.mp3"
+    },
+    {
+      "id": "tr-1-1-w02",
+      "text": "çay",
+      "ru": "чай",
+      "audio": "tr/1-1/w02.mp3"
+    },
+    {
+      "id": "tr-1-1-w03",
+      "text": "kahve",
+      "ru": "кофе",
+      "audio": "tr/1-1/w03.mp3"
+    },
+    {
+      "id": "tr-1-1-w04",
+      "text": "süt",
+      "ru": "молоко",
+      "audio": "tr/1-1/w04.mp3"
+    },
+    {
+      "id": "tr-1-1-w05",
+      "text": "ekmek",
+      "ru": "хлеб",
+      "audio": "tr/1-1/w05.mp3"
+    },
+    {
+      "id": "tr-1-1-w06",
+      "text": "peynir",
+      "ru": "сыр",
+      "audio": "tr/1-1/w06.mp3"
+    },
+    {
+      "id": "tr-1-1-w07",
+      "text": "yumurta",
+      "ru": "яйцо",
+      "audio": "tr/1-1/w07.mp3"
+    },
+    {
+      "id": "tr-1-1-w08",
+      "text": "elma",
+      "ru": "яблоко",
+      "audio": "tr/1-1/w08.mp3"
+    },
+    {
+      "id": "tr-1-1-w09",
+      "text": "portakal",
+      "ru": "апельсин",
+      "audio": "tr/1-1/w09.mp3"
+    },
+    {
+      "id": "tr-1-1-w10",
+      "text": "çorba",
+      "ru": "суп",
+      "audio": "tr/1-1/w10.mp3"
+    },
+    {
+      "id": "tr-1-1-w11",
+      "text": "tuz",
+      "ru": "соль",
+      "audio": "tr/1-1/w11.mp3"
+    },
+    {
+      "id": "tr-1-1-w12",
+      "text": "şeker",
+      "ru": "сахар",
+      "audio": "tr/1-1/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

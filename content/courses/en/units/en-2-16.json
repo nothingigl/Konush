@@ -1,0 +1,99 @@
+{
+  "id": "en-2-16",
+  "course": "en",
+  "section": 2,
+  "order": 16,
+  "slug": "2-16-talk-to-a-doctor",
+  "title_ru": "У врача",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-16-w01",
+      "text": "doctor",
+      "ru": "врач",
+      "audio": "en/2-16/w01.mp3"
+    },
+    {
+      "id": "en-2-16-w02",
+      "text": "nurse",
+      "ru": "медсестра",
+      "audio": "en/2-16/w02.mp3"
+    },
+    {
+      "id": "en-2-16-w03",
+      "text": "sick",
+      "ru": "больной",
+      "audio": "en/2-16/w03.mp3"
+    },
+    {
+      "id": "en-2-16-w04",
+      "text": "pain",
+      "ru": "боль",
+      "audio": "en/2-16/w04.mp3"
+    },
+    {
+      "id": "en-2-16-w05",
+      "text": "headache",
+      "ru": "головная боль",
+      "audio": "en/2-16/w05.mp3"
+    },
+    {
+      "id": "en-2-16-w06",
+      "text": "fever",
+      "ru": "температура",
+      "audio": "en/2-16/w06.mp3"
+    },
+    {
+      "id": "en-2-16-w07",
+      "text": "cough",
+      "ru": "кашель",
+      "audio": "en/2-16/w07.mp3"
+    },
+    {
+      "id": "en-2-16-w08",
+      "text": "medicine",
+      "ru": "лекарство",
+      "audio": "en/2-16/w08.mp3"
+    },
+    {
+      "id": "en-2-16-w09",
+      "text": "pharmacy",
+      "ru": "аптека",
+      "audio": "en/2-16/w09.mp3"
+    },
+    {
+      "id": "en-2-16-w10",
+      "text": "appointment",
+      "ru": "приём, запись",
+      "audio": "en/2-16/w10.mp3"
+    },
+    {
+      "id": "en-2-16-w11",
+      "text": "healthy",
+      "ru": "здоровый",
+      "audio": "en/2-16/w11.mp3"
+    },
+    {
+      "id": "en-2-16-w12",
+      "text": "hurt",
+      "ru": "болеть",
+      "audio": "en/2-16/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

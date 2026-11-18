@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-25",
+  "course": "tr",
+  "section": 2,
+  "order": 25,
+  "slug": "2-25-ordinal-numbers",
+  "title_ru": "Порядковые числительные",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-25-w01",
+      "text": "birinci",
+      "ru": "первый",
+      "audio": "tr/2-25/w01.mp3"
+    },
+    {
+      "id": "tr-2-25-w02",
+      "text": "ikinci",
+      "ru": "второй",
+      "audio": "tr/2-25/w02.mp3"
+    },
+    {
+      "id": "tr-2-25-w03",
+      "text": "üçüncü",
+      "ru": "третий",
+      "audio": "tr/2-25/w03.mp3"
+    },
+    {
+      "id": "tr-2-25-w04",
+      "text": "dördüncü",
+      "ru": "четвёртый",
+      "audio": "tr/2-25/w04.mp3"
+    },
+    {
+      "id": "tr-2-25-w05",
+      "text": "beşinci",
+      "ru": "пятый",
+      "audio": "tr/2-25/w05.mp3"
+    },
+    {
+      "id": "tr-2-25-w06",
+      "text": "altıncı",
+      "ru": "шестой",
+      "audio": "tr/2-25/w06.mp3"
+    },
+    {
+      "id": "tr-2-25-w07",
+      "text": "yedinci",
+      "ru": "седьмой",
+      "audio": "tr/2-25/w07.mp3"
+    },
+    {
+      "id": "tr-2-25-w08",
+      "text": "sekizinci",
+      "ru": "восьмой",
+      "audio": "tr/2-25/w08.mp3"
+    },
+    {
+      "id": "tr-2-25-w09",
+      "text": "dokuzuncu",
+      "ru": "девятый",
+      "audio": "tr/2-25/w09.mp3"
+    },
+    {
+      "id": "tr-2-25-w10",
+      "text": "onuncu",
+      "ru": "десятый",
+      "audio": "tr/2-25/w10.mp3"
+    },
+    {
+      "id": "tr-2-25-w11",
+      "text": "ilk",
+      "ru": "первый (по времени)",
+      "audio": "tr/2-25/w11.mp3"
+    },
+    {
+      "id": "tr-2-25-w12",
+      "text": "son",
+      "ru": "последний",
+      "audio": "tr/2-25/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

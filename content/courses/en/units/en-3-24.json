@@ -1,0 +1,99 @@
+{
+  "id": "en-3-24",
+  "course": "en",
+  "section": 3,
+  "order": 24,
+  "slug": "3-24-share-a-recipe",
+  "title_ru": "Рецепт",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-24-w01",
+      "text": "recipe",
+      "ru": "рецепт",
+      "audio": "en/3-24/w01.mp3"
+    },
+    {
+      "id": "en-3-24-w02",
+      "text": "ingredient",
+      "ru": "ингредиент",
+      "audio": "en/3-24/w02.mp3"
+    },
+    {
+      "id": "en-3-24-w03",
+      "text": "cup",
+      "ru": "чашка, стакан (мера)",
+      "audio": "en/3-24/w03.mp3"
+    },
+    {
+      "id": "en-3-24-w04",
+      "text": "spoon",
+      "ru": "ложка",
+      "audio": "en/3-24/w04.mp3"
+    },
+    {
+      "id": "en-3-24-w05",
+      "text": "mix",
+      "ru": "смешивать",
+      "audio": "en/3-24/w05.mp3"
+    },
+    {
+      "id": "en-3-24-w06",
+      "text": "bake",
+      "ru": "печь",
+      "audio": "en/3-24/w06.mp3"
+    },
+    {
+      "id": "en-3-24-w07",
+      "text": "boil",
+      "ru": "варить",
+      "audio": "en/3-24/w07.mp3"
+    },
+    {
+      "id": "en-3-24-w08",
+      "text": "cut",
+      "ru": "резать",
+      "audio": "en/3-24/w08.mp3"
+    },
+    {
+      "id": "en-3-24-w09",
+      "text": "add",
+      "ru": "добавлять",
+      "audio": "en/3-24/w09.mp3"
+    },
+    {
+      "id": "en-3-24-w10",
+      "text": "pinch",
+      "ru": "щепотка",
+      "audio": "en/3-24/w10.mp3"
+    },
+    {
+      "id": "en-3-24-w11",
+      "text": "oven",
+      "ru": "духовка",
+      "audio": "en/3-24/w11.mp3"
+    },
+    {
+      "id": "en-3-24-w12",
+      "text": "serve",
+      "ru": "подавать",
+      "audio": "en/3-24/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

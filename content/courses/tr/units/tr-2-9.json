@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-9",
+  "course": "tr",
+  "section": 2,
+  "order": 9,
+  "slug": "2-9-ablative-case",
+  "title_ru": "Исходный падеж (-dan/-den)",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-9-w01",
+      "text": "ülke",
+      "ru": "страна",
+      "audio": "tr/2-9/w01.mp3"
+    },
+    {
+      "id": "tr-2-9-w02",
+      "text": "memleket",
+      "ru": "родина",
+      "audio": "tr/2-9/w02.mp3"
+    },
+    {
+      "id": "tr-2-9-w03",
+      "text": "köy",
+      "ru": "деревня",
+      "audio": "tr/2-9/w03.mp3"
+    },
+    {
+      "id": "tr-2-9-w04",
+      "text": "yol",
+      "ru": "дорога",
+      "audio": "tr/2-9/w04.mp3"
+    },
+    {
+      "id": "tr-2-9-w05",
+      "text": "uzak",
+      "ru": "далёкий",
+      "audio": "tr/2-9/w05.mp3"
+    },
+    {
+      "id": "tr-2-9-w06",
+      "text": "yakın",
+      "ru": "близкий",
+      "audio": "tr/2-9/w06.mp3"
+    },
+    {
+      "id": "tr-2-9-w07",
+      "text": "çıkmak",
+      "ru": "выходить",
+      "audio": "tr/2-9/w07.mp3"
+    },
+    {
+      "id": "tr-2-9-w08",
+      "text": "inmek",
+      "ru": "сходить",
+      "audio": "tr/2-9/w08.mp3"
+    },
+    {
+      "id": "tr-2-9-w09",
+      "text": "dönmek",
+      "ru": "возвращаться",
+      "audio": "tr/2-9/w09.mp3"
+    },
+    {
+      "id": "tr-2-9-w10",
+      "text": "ayrılmak",
+      "ru": "уходить, покидать",
+      "audio": "tr/2-9/w10.mp3"
+    },
+    {
+      "id": "tr-2-9-w11",
+      "text": "korkmak",
+      "ru": "бояться",
+      "audio": "tr/2-9/w11.mp3"
+    },
+    {
+      "id": "tr-2-9-w12",
+      "text": "hoşlanmak",
+      "ru": "нравиться",
+      "audio": "tr/2-9/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

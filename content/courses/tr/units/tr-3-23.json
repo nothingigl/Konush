@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-23",
+  "course": "tr",
+  "section": 3,
+  "order": 23,
+  "slug": "3-23-possibility",
+  "title_ru": "Возможность (-ebilir)",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-23-w01",
+      "text": "olabilir",
+      "ru": "может быть",
+      "audio": "tr/3-23/w01.mp3"
+    },
+    {
+      "id": "tr-3-23-w02",
+      "text": "muhtemelen",
+      "ru": "вероятно",
+      "audio": "tr/3-23/w02.mp3"
+    },
+    {
+      "id": "tr-3-23-w03",
+      "text": "ihtimal",
+      "ru": "вероятность",
+      "audio": "tr/3-23/w03.mp3"
+    },
+    {
+      "id": "tr-3-23-w04",
+      "text": "mümkün",
+      "ru": "возможно",
+      "audio": "tr/3-23/w04.mp3"
+    },
+    {
+      "id": "tr-3-23-w05",
+      "text": "imkânsız",
+      "ru": "невозможно",
+      "audio": "tr/3-23/w05.mp3"
+    },
+    {
+      "id": "tr-3-23-w06",
+      "text": "kesin",
+      "ru": "точно",
+      "audio": "tr/3-23/w06.mp3"
+    },
+    {
+      "id": "tr-3-23-w07",
+      "text": "sanırım",
+      "ru": "думаю",
+      "audio": "tr/3-23/w07.mp3"
+    },
+    {
+      "id": "tr-3-23-w08",
+      "text": "herhalde",
+      "ru": "наверное",
+      "audio": "tr/3-23/w08.mp3"
+    },
+    {
+      "id": "tr-3-23-w09",
+      "text": "şans",
+      "ru": "шанс",
+      "audio": "tr/3-23/w09.mp3"
+    },
+    {
+      "id": "tr-3-23-w10",
+      "text": "risk",
+      "ru": "риск",
+      "audio": "tr/3-23/w10.mp3"
+    },
+    {
+      "id": "tr-3-23-w11",
+      "text": "tehlikeli",
+      "ru": "опасный",
+      "audio": "tr/3-23/w11.mp3"
+    },
+    {
+      "id": "tr-3-23-w12",
+      "text": "güvenli",
+      "ru": "безопасный",
+      "audio": "tr/3-23/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

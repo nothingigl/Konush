@@ -1,0 +1,99 @@
+{
+  "id": "tr-1-5",
+  "course": "tr",
+  "section": 1,
+  "order": 5,
+  "slug": "1-5-accusative-case",
+  "title_ru": "Винительный падеж",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-1-5-w01",
+      "text": "kitap",
+      "ru": "книга",
+      "audio": "tr/1-5/w01.mp3"
+    },
+    {
+      "id": "tr-1-5-w02",
+      "text": "kalem",
+      "ru": "ручка",
+      "audio": "tr/1-5/w02.mp3"
+    },
+    {
+      "id": "tr-1-5-w03",
+      "text": "defter",
+      "ru": "тетрадь",
+      "audio": "tr/1-5/w03.mp3"
+    },
+    {
+      "id": "tr-1-5-w04",
+      "text": "anahtar",
+      "ru": "ключ",
+      "audio": "tr/1-5/w04.mp3"
+    },
+    {
+      "id": "tr-1-5-w05",
+      "text": "telefon",
+      "ru": "телефон",
+      "audio": "tr/1-5/w05.mp3"
+    },
+    {
+      "id": "tr-1-5-w06",
+      "text": "kapı",
+      "ru": "дверь",
+      "audio": "tr/1-5/w06.mp3"
+    },
+    {
+      "id": "tr-1-5-w07",
+      "text": "görmek",
+      "ru": "видеть",
+      "audio": "tr/1-5/w07.mp3"
+    },
+    {
+      "id": "tr-1-5-w08",
+      "text": "almak",
+      "ru": "брать",
+      "audio": "tr/1-5/w08.mp3"
+    },
+    {
+      "id": "tr-1-5-w09",
+      "text": "sevmek",
+      "ru": "любить",
+      "audio": "tr/1-5/w09.mp3"
+    },
+    {
+      "id": "tr-1-5-w10",
+      "text": "açmak",
+      "ru": "открывать",
+      "audio": "tr/1-5/w10.mp3"
+    },
+    {
+      "id": "tr-1-5-w11",
+      "text": "kapatmak",
+      "ru": "закрывать",
+      "audio": "tr/1-5/w11.mp3"
+    },
+    {
+      "id": "tr-1-5-w12",
+      "text": "okumak",
+      "ru": "читать",
+      "audio": "tr/1-5/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

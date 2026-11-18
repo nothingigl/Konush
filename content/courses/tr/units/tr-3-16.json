@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-16",
+  "course": "tr",
+  "section": 3,
+  "order": 16,
+  "slug": "3-16-permission-and-rules",
+  "title_ru": "Можно и нельзя",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-16-w01",
+      "text": "izin",
+      "ru": "разрешение",
+      "audio": "tr/3-16/w01.mp3"
+    },
+    {
+      "id": "tr-3-16-w02",
+      "text": "yasak",
+      "ru": "запрещено",
+      "audio": "tr/3-16/w02.mp3"
+    },
+    {
+      "id": "tr-3-16-w03",
+      "text": "serbest",
+      "ru": "свободно",
+      "audio": "tr/3-16/w03.mp3"
+    },
+    {
+      "id": "tr-3-16-w04",
+      "text": "kural",
+      "ru": "правило",
+      "audio": "tr/3-16/w04.mp3"
+    },
+    {
+      "id": "tr-3-16-w05",
+      "text": "park etmek",
+      "ru": "парковаться",
+      "audio": "tr/3-16/w05.mp3"
+    },
+    {
+      "id": "tr-3-16-w06",
+      "text": "fotoğraf çekmek",
+      "ru": "фотографировать",
+      "audio": "tr/3-16/w06.mp3"
+    },
+    {
+      "id": "tr-3-16-w07",
+      "text": "sigara",
+      "ru": "сигарета",
+      "audio": "tr/3-16/w07.mp3"
+    },
+    {
+      "id": "tr-3-16-w08",
+      "text": "içeri",
+      "ru": "внутрь",
+      "audio": "tr/3-16/w08.mp3"
+    },
+    {
+      "id": "tr-3-16-w09",
+      "text": "dışarı",
+      "ru": "наружу",
+      "audio": "tr/3-16/w09.mp3"
+    },
+    {
+      "id": "tr-3-16-w10",
+      "text": "sessiz",
+      "ru": "тихий",
+      "audio": "tr/3-16/w10.mp3"
+    },
+    {
+      "id": "tr-3-16-w11",
+      "text": "uyarı",
+      "ru": "предупреждение",
+      "audio": "tr/3-16/w11.mp3"
+    },
+    {
+      "id": "tr-3-16-w12",
+      "text": "tabela",
+      "ru": "табличка",
+      "audio": "tr/3-16/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

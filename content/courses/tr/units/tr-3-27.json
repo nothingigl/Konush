@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-27",
+  "course": "tr",
+  "section": 3,
+  "order": 27,
+  "slug": "3-27-gerunds-and-sequence",
+  "title_ru": "Деепричастия и последовательность",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-27-w01",
+      "text": "-erek",
+      "ru": "«делая»",
+      "audio": "tr/3-27/w01.mp3"
+    },
+    {
+      "id": "tr-3-27-w02",
+      "text": "-ip",
+      "ru": "«сделав и»",
+      "audio": "tr/3-27/w02.mp3"
+    },
+    {
+      "id": "tr-3-27-w03",
+      "text": "-ince",
+      "ru": "«когда, как только»",
+      "audio": "tr/3-27/w03.mp3"
+    },
+    {
+      "id": "tr-3-27-w04",
+      "text": "-ken",
+      "ru": "«пока»",
+      "audio": "tr/3-27/w04.mp3"
+    },
+    {
+      "id": "tr-3-27-w05",
+      "text": "-dıktan sonra",
+      "ru": "«после того как»",
+      "audio": "tr/3-27/w05.mp3"
+    },
+    {
+      "id": "tr-3-27-w06",
+      "text": "-meden önce",
+      "ru": "«до того как»",
+      "audio": "tr/3-27/w06.mp3"
+    },
+    {
+      "id": "tr-3-27-w07",
+      "text": "-meden",
+      "ru": "«не делая»",
+      "audio": "tr/3-27/w07.mp3"
+    },
+    {
+      "id": "tr-3-27-w08",
+      "text": "aynı anda",
+      "ru": "одновременно",
+      "audio": "tr/3-27/w08.mp3"
+    },
+    {
+      "id": "tr-3-27-w09",
+      "text": "sırayla",
+      "ru": "по очереди",
+      "audio": "tr/3-27/w09.mp3"
+    },
+    {
+      "id": "tr-3-27-w10",
+      "text": "sürekli",
+      "ru": "постоянно",
+      "audio": "tr/3-27/w10.mp3"
+    },
+    {
+      "id": "tr-3-27-w11",
+      "text": "birlikte",
+      "ru": "вместе",
+      "audio": "tr/3-27/w11.mp3"
+    },
+    {
+      "id": "tr-3-27-w12",
+      "text": "tek tek",
+      "ru": "по одному",
+      "audio": "tr/3-27/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

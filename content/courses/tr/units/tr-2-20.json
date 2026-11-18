@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-20",
+  "course": "tr",
+  "section": 2,
+  "order": 20,
+  "slug": "2-20-existence-and-absence",
+  "title_ru": "«Чего нет»",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-20-w01",
+      "text": "yok",
+      "ru": "нет (в наличии)",
+      "audio": "tr/2-20/w01.mp3"
+    },
+    {
+      "id": "tr-2-20-w02",
+      "text": "var",
+      "ru": "есть",
+      "audio": "tr/2-20/w02.mp3"
+    },
+    {
+      "id": "tr-2-20-w03",
+      "text": "hiç",
+      "ru": "совсем",
+      "audio": "tr/2-20/w03.mp3"
+    },
+    {
+      "id": "tr-2-20-w04",
+      "text": "hiçbir şey",
+      "ru": "ничего",
+      "audio": "tr/2-20/w04.mp3"
+    },
+    {
+      "id": "tr-2-20-w05",
+      "text": "hiç kimse",
+      "ru": "никого",
+      "audio": "tr/2-20/w05.mp3"
+    },
+    {
+      "id": "tr-2-20-w06",
+      "text": "eksik",
+      "ru": "недостающий",
+      "audio": "tr/2-20/w06.mp3"
+    },
+    {
+      "id": "tr-2-20-w07",
+      "text": "fazla",
+      "ru": "лишний",
+      "audio": "tr/2-20/w07.mp3"
+    },
+    {
+      "id": "tr-2-20-w08",
+      "text": "bitti",
+      "ru": "закончилось",
+      "audio": "tr/2-20/w08.mp3"
+    },
+    {
+      "id": "tr-2-20-w09",
+      "text": "kaybetmek",
+      "ru": "терять",
+      "audio": "tr/2-20/w09.mp3"
+    },
+    {
+      "id": "tr-2-20-w10",
+      "text": "bulmak",
+      "ru": "находить",
+      "audio": "tr/2-20/w10.mp3"
+    },
+    {
+      "id": "tr-2-20-w11",
+      "text": "aramak",
+      "ru": "искать",
+      "audio": "tr/2-20/w11.mp3"
+    },
+    {
+      "id": "tr-2-20-w12",
+      "text": "kalmak",
+      "ru": "оставаться",
+      "audio": "tr/2-20/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

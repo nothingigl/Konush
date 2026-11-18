@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-3",
+  "course": "tr",
+  "section": 3,
+  "order": 3,
+  "slug": "3-3-nothing-nobody-nowhere",
+  "title_ru": "«Ничего, никто, нигде»",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-3-w01",
+      "text": "hiçbir şey",
+      "ru": "ничего",
+      "audio": "tr/3-3/w01.mp3"
+    },
+    {
+      "id": "tr-3-3-w02",
+      "text": "hiç kimse",
+      "ru": "никто",
+      "audio": "tr/3-3/w02.mp3"
+    },
+    {
+      "id": "tr-3-3-w03",
+      "text": "hiçbir yer",
+      "ru": "нигде/никуда",
+      "audio": "tr/3-3/w03.mp3"
+    },
+    {
+      "id": "tr-3-3-w04",
+      "text": "hiçbir zaman",
+      "ru": "никогда",
+      "audio": "tr/3-3/w04.mp3"
+    },
+    {
+      "id": "tr-3-3-w05",
+      "text": "hiçbiri",
+      "ru": "ни один",
+      "audio": "tr/3-3/w05.mp3"
+    },
+    {
+      "id": "tr-3-3-w06",
+      "text": "her şey",
+      "ru": "всё",
+      "audio": "tr/3-3/w06.mp3"
+    },
+    {
+      "id": "tr-3-3-w07",
+      "text": "her yer",
+      "ru": "везде",
+      "audio": "tr/3-3/w07.mp3"
+    },
+    {
+      "id": "tr-3-3-w08",
+      "text": "bir şey",
+      "ru": "что-то",
+      "audio": "tr/3-3/w08.mp3"
+    },
+    {
+      "id": "tr-3-3-w09",
+      "text": "biri",
+      "ru": "кто-то",
+      "audio": "tr/3-3/w09.mp3"
+    },
+    {
+      "id": "tr-3-3-w10",
+      "text": "bir yer",
+      "ru": "где-то",
+      "audio": "tr/3-3/w10.mp3"
+    },
+    {
+      "id": "tr-3-3-w11",
+      "text": "bazı",
+      "ru": "некоторые",
+      "audio": "tr/3-3/w11.mp3"
+    },
+    {
+      "id": "tr-3-3-w12",
+      "text": "bütün",
+      "ru": "весь",
+      "audio": "tr/3-3/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

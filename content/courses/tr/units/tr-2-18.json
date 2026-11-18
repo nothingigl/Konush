@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-18",
+  "course": "tr",
+  "section": 2,
+  "order": 18,
+  "slug": "2-18-pronouns",
+  "title_ru": "Местоимения",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-18-w01",
+      "text": "ben",
+      "ru": "я",
+      "audio": "tr/2-18/w01.mp3"
+    },
+    {
+      "id": "tr-2-18-w02",
+      "text": "sen",
+      "ru": "ты",
+      "audio": "tr/2-18/w02.mp3"
+    },
+    {
+      "id": "tr-2-18-w03",
+      "text": "o",
+      "ru": "он/она",
+      "audio": "tr/2-18/w03.mp3"
+    },
+    {
+      "id": "tr-2-18-w04",
+      "text": "biz",
+      "ru": "мы",
+      "audio": "tr/2-18/w04.mp3"
+    },
+    {
+      "id": "tr-2-18-w05",
+      "text": "siz",
+      "ru": "вы",
+      "audio": "tr/2-18/w05.mp3"
+    },
+    {
+      "id": "tr-2-18-w06",
+      "text": "onlar",
+      "ru": "они",
+      "audio": "tr/2-18/w06.mp3"
+    },
+    {
+      "id": "tr-2-18-w07",
+      "text": "bu",
+      "ru": "этот",
+      "audio": "tr/2-18/w07.mp3"
+    },
+    {
+      "id": "tr-2-18-w08",
+      "text": "şu",
+      "ru": "тот",
+      "audio": "tr/2-18/w08.mp3"
+    },
+    {
+      "id": "tr-2-18-w09",
+      "text": "herkes",
+      "ru": "все (люди)",
+      "audio": "tr/2-18/w09.mp3"
+    },
+    {
+      "id": "tr-2-18-w10",
+      "text": "kimse",
+      "ru": "никто/кто-то",
+      "audio": "tr/2-18/w10.mp3"
+    },
+    {
+      "id": "tr-2-18-w11",
+      "text": "hepsi",
+      "ru": "всё/все они",
+      "audio": "tr/2-18/w11.mp3"
+    },
+    {
+      "id": "tr-2-18-w12",
+      "text": "başka",
+      "ru": "другой",
+      "audio": "tr/2-18/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

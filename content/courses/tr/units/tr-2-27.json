@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-27",
+  "course": "tr",
+  "section": 2,
+  "order": 27,
+  "slug": "2-27-household-items",
+  "title_ru": "Предметы в доме",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-27-w01",
+      "text": "masa",
+      "ru": "стол",
+      "audio": "tr/2-27/w01.mp3"
+    },
+    {
+      "id": "tr-2-27-w02",
+      "text": "yatak",
+      "ru": "кровать",
+      "audio": "tr/2-27/w02.mp3"
+    },
+    {
+      "id": "tr-2-27-w03",
+      "text": "kanepe",
+      "ru": "диван",
+      "audio": "tr/2-27/w03.mp3"
+    },
+    {
+      "id": "tr-2-27-w04",
+      "text": "dolap",
+      "ru": "шкаф",
+      "audio": "tr/2-27/w04.mp3"
+    },
+    {
+      "id": "tr-2-27-w05",
+      "text": "lamba",
+      "ru": "лампа",
+      "audio": "tr/2-27/w05.mp3"
+    },
+    {
+      "id": "tr-2-27-w06",
+      "text": "halı",
+      "ru": "ковёр",
+      "audio": "tr/2-27/w06.mp3"
+    },
+    {
+      "id": "tr-2-27-w07",
+      "text": "ayna",
+      "ru": "зеркало",
+      "audio": "tr/2-27/w07.mp3"
+    },
+    {
+      "id": "tr-2-27-w08",
+      "text": "televizyon",
+      "ru": "телевизор",
+      "audio": "tr/2-27/w08.mp3"
+    },
+    {
+      "id": "tr-2-27-w09",
+      "text": "buzdolabı",
+      "ru": "холодильник",
+      "audio": "tr/2-27/w09.mp3"
+    },
+    {
+      "id": "tr-2-27-w10",
+      "text": "kaşık",
+      "ru": "ложка",
+      "audio": "tr/2-27/w10.mp3"
+    },
+    {
+      "id": "tr-2-27-w11",
+      "text": "çatal",
+      "ru": "вилка",
+      "audio": "tr/2-27/w11.mp3"
+    },
+    {
+      "id": "tr-2-27-w12",
+      "text": "bıçak",
+      "ru": "нож",
+      "audio": "tr/2-27/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

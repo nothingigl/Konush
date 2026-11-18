@@ -1,0 +1,99 @@
+{
+  "id": "en-2-8",
+  "course": "en",
+  "section": 2,
+  "order": 8,
+  "slug": "2-8-book-a-hotel",
+  "title_ru": "Бронь отеля",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-8-w01",
+      "text": "hotel",
+      "ru": "отель",
+      "audio": "en/2-8/w01.mp3"
+    },
+    {
+      "id": "en-2-8-w02",
+      "text": "single room",
+      "ru": "одноместный номер",
+      "audio": "en/2-8/w02.mp3"
+    },
+    {
+      "id": "en-2-8-w03",
+      "text": "reservation",
+      "ru": "бронь",
+      "audio": "en/2-8/w03.mp3"
+    },
+    {
+      "id": "en-2-8-w04",
+      "text": "key",
+      "ru": "ключ",
+      "audio": "en/2-8/w04.mp3"
+    },
+    {
+      "id": "en-2-8-w05",
+      "text": "floor",
+      "ru": "этаж",
+      "audio": "en/2-8/w05.mp3"
+    },
+    {
+      "id": "en-2-8-w06",
+      "text": "reception",
+      "ru": "стойка регистрации",
+      "audio": "en/2-8/w06.mp3"
+    },
+    {
+      "id": "en-2-8-w07",
+      "text": "night",
+      "ru": "ночь",
+      "audio": "en/2-8/w07.mp3"
+    },
+    {
+      "id": "en-2-8-w08",
+      "text": "check in",
+      "ru": "заселиться",
+      "audio": "en/2-8/w08.mp3"
+    },
+    {
+      "id": "en-2-8-w09",
+      "text": "check out",
+      "ru": "выселиться",
+      "audio": "en/2-8/w09.mp3"
+    },
+    {
+      "id": "en-2-8-w10",
+      "text": "bed",
+      "ru": "кровать",
+      "audio": "en/2-8/w10.mp3"
+    },
+    {
+      "id": "en-2-8-w11",
+      "text": "bathroom",
+      "ru": "ванная",
+      "audio": "en/2-8/w11.mp3"
+    },
+    {
+      "id": "en-2-8-w12",
+      "text": "towel",
+      "ru": "полотенце",
+      "audio": "en/2-8/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

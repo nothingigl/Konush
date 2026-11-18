@@ -1,0 +1,99 @@
+{
+  "id": "tr-1-6",
+  "course": "tr",
+  "section": 1,
+  "order": 6,
+  "slug": "1-6-animals",
+  "title_ru": "Животные",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-1-6-w01",
+      "text": "kedi",
+      "ru": "кошка",
+      "audio": "tr/1-6/w01.mp3"
+    },
+    {
+      "id": "tr-1-6-w02",
+      "text": "köpek",
+      "ru": "собака",
+      "audio": "tr/1-6/w02.mp3"
+    },
+    {
+      "id": "tr-1-6-w03",
+      "text": "kuş",
+      "ru": "птица",
+      "audio": "tr/1-6/w03.mp3"
+    },
+    {
+      "id": "tr-1-6-w04",
+      "text": "at",
+      "ru": "лошадь",
+      "audio": "tr/1-6/w04.mp3"
+    },
+    {
+      "id": "tr-1-6-w05",
+      "text": "inek",
+      "ru": "корова",
+      "audio": "tr/1-6/w05.mp3"
+    },
+    {
+      "id": "tr-1-6-w06",
+      "text": "koyun",
+      "ru": "овца",
+      "audio": "tr/1-6/w06.mp3"
+    },
+    {
+      "id": "tr-1-6-w07",
+      "text": "tavşan",
+      "ru": "кролик",
+      "audio": "tr/1-6/w07.mp3"
+    },
+    {
+      "id": "tr-1-6-w08",
+      "text": "aslan",
+      "ru": "лев",
+      "audio": "tr/1-6/w08.mp3"
+    },
+    {
+      "id": "tr-1-6-w09",
+      "text": "fil",
+      "ru": "слон",
+      "audio": "tr/1-6/w09.mp3"
+    },
+    {
+      "id": "tr-1-6-w10",
+      "text": "maymun",
+      "ru": "обезьяна",
+      "audio": "tr/1-6/w10.mp3"
+    },
+    {
+      "id": "tr-1-6-w11",
+      "text": "ördek",
+      "ru": "утка",
+      "audio": "tr/1-6/w11.mp3"
+    },
+    {
+      "id": "tr-1-6-w12",
+      "text": "kaplan",
+      "ru": "тигр",
+      "audio": "tr/1-6/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

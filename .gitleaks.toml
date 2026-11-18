@@ -1,0 +1,9 @@
+title = "Gitleaks configuration for Türkçe Duo"
+
+[allowlist]
+description = "Allowlist documentation examples and empty .env.example template"
+paths = [
+  '''^\.env\.example$''',
+  '''^docs/.*\.md$''',
+  '''^reviews/.*\.md$''',
+]

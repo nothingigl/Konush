@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-21",
+  "course": "tr",
+  "section": 2,
+  "order": 21,
+  "slug": "2-21-countries-and-origins",
+  "title_ru": "Откуда человек родом",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-21-w01",
+      "text": "Rusya",
+      "ru": "Россия",
+      "audio": "tr/2-21/w01.mp3"
+    },
+    {
+      "id": "tr-2-21-w02",
+      "text": "Türkiye",
+      "ru": "Турция",
+      "audio": "tr/2-21/w02.mp3"
+    },
+    {
+      "id": "tr-2-21-w03",
+      "text": "Almanya",
+      "ru": "Германия",
+      "audio": "tr/2-21/w03.mp3"
+    },
+    {
+      "id": "tr-2-21-w04",
+      "text": "Fransa",
+      "ru": "Франция",
+      "audio": "tr/2-21/w04.mp3"
+    },
+    {
+      "id": "tr-2-21-w05",
+      "text": "İngiltere",
+      "ru": "Англия",
+      "audio": "tr/2-21/w05.mp3"
+    },
+    {
+      "id": "tr-2-21-w06",
+      "text": "Amerika",
+      "ru": "Америка",
+      "audio": "tr/2-21/w06.mp3"
+    },
+    {
+      "id": "tr-2-21-w07",
+      "text": "Çin",
+      "ru": "Китай",
+      "audio": "tr/2-21/w07.mp3"
+    },
+    {
+      "id": "tr-2-21-w08",
+      "text": "Japonya",
+      "ru": "Япония",
+      "audio": "tr/2-21/w08.mp3"
+    },
+    {
+      "id": "tr-2-21-w09",
+      "text": "İtalya",
+      "ru": "Италия",
+      "audio": "tr/2-21/w09.mp3"
+    },
+    {
+      "id": "tr-2-21-w10",
+      "text": "İspanya",
+      "ru": "Испания",
+      "audio": "tr/2-21/w10.mp3"
+    },
+    {
+      "id": "tr-2-21-w11",
+      "text": "Ukrayna",
+      "ru": "Украина",
+      "audio": "tr/2-21/w11.mp3"
+    },
+    {
+      "id": "tr-2-21-w12",
+      "text": "Kazakistan",
+      "ru": "Казахстан",
+      "audio": "tr/2-21/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

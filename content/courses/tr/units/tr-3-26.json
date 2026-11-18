@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-26",
+  "course": "tr",
+  "section": 3,
+  "order": 26,
+  "slug": "3-26-reasons-and-conditions",
+  "title_ru": "Причины и условия",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-26-w01",
+      "text": "-dığı için",
+      "ru": "потому что",
+      "audio": "tr/3-26/w01.mp3"
+    },
+    {
+      "id": "tr-3-26-w02",
+      "text": "yüzünden",
+      "ru": "из-за (плохого)",
+      "audio": "tr/3-26/w02.mp3"
+    },
+    {
+      "id": "tr-3-26-w03",
+      "text": "sayesinde",
+      "ru": "благодаря",
+      "audio": "tr/3-26/w03.mp3"
+    },
+    {
+      "id": "tr-3-26-w04",
+      "text": "rağmen",
+      "ru": "несмотря на",
+      "audio": "tr/3-26/w04.mp3"
+    },
+    {
+      "id": "tr-3-26-w05",
+      "text": "eğer",
+      "ru": "если",
+      "audio": "tr/3-26/w05.mp3"
+    },
+    {
+      "id": "tr-3-26-w06",
+      "text": "-sa/-se",
+      "ru": "«если» (суффикс)",
+      "audio": "tr/3-26/w06.mp3"
+    },
+    {
+      "id": "tr-3-26-w07",
+      "text": "o yüzden",
+      "ru": "вот почему",
+      "audio": "tr/3-26/w07.mp3"
+    },
+    {
+      "id": "tr-3-26-w08",
+      "text": "öyleyse",
+      "ru": "раз так",
+      "audio": "tr/3-26/w08.mp3"
+    },
+    {
+      "id": "tr-3-26-w09",
+      "text": "sebep",
+      "ru": "причина",
+      "audio": "tr/3-26/w09.mp3"
+    },
+    {
+      "id": "tr-3-26-w10",
+      "text": "sonuç",
+      "ru": "результат",
+      "audio": "tr/3-26/w10.mp3"
+    },
+    {
+      "id": "tr-3-26-w11",
+      "text": "demek ki",
+      "ru": "значит",
+      "audio": "tr/3-26/w11.mp3"
+    },
+    {
+      "id": "tr-3-26-w12",
+      "text": "başarmak",
+      "ru": "добиться",
+      "audio": "tr/3-26/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "en-2-21",
+  "course": "en",
+  "section": 2,
+  "order": 21,
+  "slug": "2-21-discuss-sports",
+  "title_ru": "Спорт",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-21-w01",
+      "text": "team",
+      "ru": "команда",
+      "audio": "en/2-21/w01.mp3"
+    },
+    {
+      "id": "en-2-21-w02",
+      "text": "match",
+      "ru": "матч",
+      "audio": "en/2-21/w02.mp3"
+    },
+    {
+      "id": "en-2-21-w03",
+      "text": "win",
+      "ru": "побеждать",
+      "audio": "en/2-21/w03.mp3"
+    },
+    {
+      "id": "en-2-21-w04",
+      "text": "lose",
+      "ru": "проигрывать",
+      "audio": "en/2-21/w04.mp3"
+    },
+    {
+      "id": "en-2-21-w05",
+      "text": "goal",
+      "ru": "гол",
+      "audio": "en/2-21/w05.mp3"
+    },
+    {
+      "id": "en-2-21-w06",
+      "text": "coach",
+      "ru": "тренер",
+      "audio": "en/2-21/w06.mp3"
+    },
+    {
+      "id": "en-2-21-w07",
+      "text": "player",
+      "ru": "игрок",
+      "audio": "en/2-21/w07.mp3"
+    },
+    {
+      "id": "en-2-21-w08",
+      "text": "run",
+      "ru": "бегать",
+      "audio": "en/2-21/w08.mp3"
+    },
+    {
+      "id": "en-2-21-w09",
+      "text": "stadium",
+      "ru": "стадион",
+      "audio": "en/2-21/w09.mp3"
+    },
+    {
+      "id": "en-2-21-w10",
+      "text": "fan",
+      "ru": "болельщик",
+      "audio": "en/2-21/w10.mp3"
+    },
+    {
+      "id": "en-2-21-w11",
+      "text": "score",
+      "ru": "счёт, забивать",
+      "audio": "en/2-21/w11.mp3"
+    },
+    {
+      "id": "en-2-21-w12",
+      "text": "practice",
+      "ru": "тренировка",
+      "audio": "en/2-21/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

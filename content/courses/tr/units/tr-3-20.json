@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-20",
+  "course": "tr",
+  "section": 3,
+  "order": 20,
+  "slug": "3-20-competitions",
+  "title_ru": "Соревнования",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-20-w01",
+      "text": "berabere",
+      "ru": "вничью",
+      "audio": "tr/3-20/w01.mp3"
+    },
+    {
+      "id": "tr-3-20-w02",
+      "text": "skor",
+      "ru": "счёт",
+      "audio": "tr/3-20/w02.mp3"
+    },
+    {
+      "id": "tr-3-20-w03",
+      "text": "şampiyon",
+      "ru": "чемпион",
+      "audio": "tr/3-20/w03.mp3"
+    },
+    {
+      "id": "tr-3-20-w04",
+      "text": "kupa",
+      "ru": "кубок",
+      "audio": "tr/3-20/w04.mp3"
+    },
+    {
+      "id": "tr-3-20-w05",
+      "text": "madalya",
+      "ru": "медаль",
+      "audio": "tr/3-20/w05.mp3"
+    },
+    {
+      "id": "tr-3-20-w06",
+      "text": "rakip",
+      "ru": "соперник",
+      "audio": "tr/3-20/w06.mp3"
+    },
+    {
+      "id": "tr-3-20-w07",
+      "text": "hakem",
+      "ru": "судья",
+      "audio": "tr/3-20/w07.mp3"
+    },
+    {
+      "id": "tr-3-20-w08",
+      "text": "seyirci",
+      "ru": "зрители",
+      "audio": "tr/3-20/w08.mp3"
+    },
+    {
+      "id": "tr-3-20-w09",
+      "text": "stadyum",
+      "ru": "стадион",
+      "audio": "tr/3-20/w09.mp3"
+    },
+    {
+      "id": "tr-3-20-w10",
+      "text": "yarışma",
+      "ru": "соревнование",
+      "audio": "tr/3-20/w10.mp3"
+    },
+    {
+      "id": "tr-3-20-w11",
+      "text": "final",
+      "ru": "финал",
+      "audio": "tr/3-20/w11.mp3"
+    },
+    {
+      "id": "tr-3-20-w12",
+      "text": "galibiyet",
+      "ru": "победа",
+      "audio": "tr/3-20/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

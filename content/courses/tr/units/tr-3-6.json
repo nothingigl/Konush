@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-6",
+  "course": "tr",
+  "section": 3,
+  "order": 6,
+  "slug": "3-6-invitations",
+  "title_ru": "Приглашения",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-6-w01",
+      "text": "davet",
+      "ru": "приглашение",
+      "audio": "tr/3-6/w01.mp3"
+    },
+    {
+      "id": "tr-3-6-w02",
+      "text": "davet etmek",
+      "ru": "приглашать",
+      "audio": "tr/3-6/w02.mp3"
+    },
+    {
+      "id": "tr-3-6-w03",
+      "text": "parti",
+      "ru": "вечеринка",
+      "audio": "tr/3-6/w03.mp3"
+    },
+    {
+      "id": "tr-3-6-w04",
+      "text": "doğum günü",
+      "ru": "день рождения",
+      "audio": "tr/3-6/w04.mp3"
+    },
+    {
+      "id": "tr-3-6-w05",
+      "text": "kutlamak",
+      "ru": "праздновать",
+      "audio": "tr/3-6/w05.mp3"
+    },
+    {
+      "id": "tr-3-6-w06",
+      "text": "pasta",
+      "ru": "торт",
+      "audio": "tr/3-6/w06.mp3"
+    },
+    {
+      "id": "tr-3-6-w07",
+      "text": "adres",
+      "ru": "адрес",
+      "audio": "tr/3-6/w07.mp3"
+    },
+    {
+      "id": "tr-3-6-w08",
+      "text": "bizimle",
+      "ru": "с нами",
+      "audio": "tr/3-6/w08.mp3"
+    },
+    {
+      "id": "tr-3-6-w09",
+      "text": "bize",
+      "ru": "к нам",
+      "audio": "tr/3-6/w09.mp3"
+    },
+    {
+      "id": "tr-3-6-w10",
+      "text": "beraber",
+      "ru": "вместе",
+      "audio": "tr/3-6/w10.mp3"
+    },
+    {
+      "id": "tr-3-6-w11",
+      "text": "saat kaçta",
+      "ru": "во сколько",
+      "audio": "tr/3-6/w11.mp3"
+    },
+    {
+      "id": "tr-3-6-w12",
+      "text": "düğün",
+      "ru": "свадьба",
+      "audio": "tr/3-6/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

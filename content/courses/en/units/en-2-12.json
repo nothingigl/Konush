@@ -1,0 +1,99 @@
+{
+  "id": "en-2-12",
+  "course": "en",
+  "section": 2,
+  "order": 12,
+  "slug": "2-12-chat-with-colleagues",
+  "title_ru": "Коллеги",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-12-w01",
+      "text": "coworker",
+      "ru": "коллега по работе",
+      "audio": "en/2-12/w01.mp3"
+    },
+    {
+      "id": "en-2-12-w02",
+      "text": "boss",
+      "ru": "начальник",
+      "audio": "en/2-12/w02.mp3"
+    },
+    {
+      "id": "en-2-12-w03",
+      "text": "desk",
+      "ru": "рабочий стол",
+      "audio": "en/2-12/w03.mp3"
+    },
+    {
+      "id": "en-2-12-w04",
+      "text": "team",
+      "ru": "команда",
+      "audio": "en/2-12/w04.mp3"
+    },
+    {
+      "id": "en-2-12-w05",
+      "text": "project",
+      "ru": "проект",
+      "audio": "en/2-12/w05.mp3"
+    },
+    {
+      "id": "en-2-12-w06",
+      "text": "computer",
+      "ru": "компьютер",
+      "audio": "en/2-12/w06.mp3"
+    },
+    {
+      "id": "en-2-12-w07",
+      "text": "email",
+      "ru": "электронное письмо",
+      "audio": "en/2-12/w07.mp3"
+    },
+    {
+      "id": "en-2-12-w08",
+      "text": "break",
+      "ru": "перерыв",
+      "audio": "en/2-12/w08.mp3"
+    },
+    {
+      "id": "en-2-12-w09",
+      "text": "deadline",
+      "ru": "срок сдачи",
+      "audio": "en/2-12/w09.mp3"
+    },
+    {
+      "id": "en-2-12-w10",
+      "text": "report",
+      "ru": "отчёт",
+      "audio": "en/2-12/w10.mp3"
+    },
+    {
+      "id": "en-2-12-w11",
+      "text": "printer",
+      "ru": "принтер",
+      "audio": "en/2-12/w11.mp3"
+    },
+    {
+      "id": "en-2-12-w12",
+      "text": "ready",
+      "ru": "готов",
+      "audio": "en/2-12/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

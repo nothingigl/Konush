@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-28",
+  "course": "tr",
+  "section": 3,
+  "order": 28,
+  "slug": "3-28-reflexive-and-self",
+  "title_ru": "Возвратные формы и «сам»",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-28-w01",
+      "text": "kendi",
+      "ru": "сам, свой",
+      "audio": "tr/3-28/w01.mp3"
+    },
+    {
+      "id": "tr-3-28-w02",
+      "text": "kendime",
+      "ru": "себе",
+      "audio": "tr/3-28/w02.mp3"
+    },
+    {
+      "id": "tr-3-28-w03",
+      "text": "kendini",
+      "ru": "себя",
+      "audio": "tr/3-28/w03.mp3"
+    },
+    {
+      "id": "tr-3-28-w04",
+      "text": "yıkanmak",
+      "ru": "мыться",
+      "audio": "tr/3-28/w04.mp3"
+    },
+    {
+      "id": "tr-3-28-w05",
+      "text": "taranmak",
+      "ru": "причёсываться",
+      "audio": "tr/3-28/w05.mp3"
+    },
+    {
+      "id": "tr-3-28-w06",
+      "text": "soyunmak",
+      "ru": "раздеваться",
+      "audio": "tr/3-28/w06.mp3"
+    },
+    {
+      "id": "tr-3-28-w07",
+      "text": "sevinmek",
+      "ru": "радоваться",
+      "audio": "tr/3-28/w07.mp3"
+    },
+    {
+      "id": "tr-3-28-w08",
+      "text": "üzülmek",
+      "ru": "расстраиваться",
+      "audio": "tr/3-28/w08.mp3"
+    },
+    {
+      "id": "tr-3-28-w09",
+      "text": "tanışmak",
+      "ru": "знакомиться",
+      "audio": "tr/3-28/w09.mp3"
+    },
+    {
+      "id": "tr-3-28-w10",
+      "text": "görüşmek",
+      "ru": "видеться",
+      "audio": "tr/3-28/w10.mp3"
+    },
+    {
+      "id": "tr-3-28-w11",
+      "text": "birbirini",
+      "ru": "друг друга",
+      "audio": "tr/3-28/w11.mp3"
+    },
+    {
+      "id": "tr-3-28-w12",
+      "text": "kendi kendine",
+      "ru": "сам по себе",
+      "audio": "tr/3-28/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "en-2-11",
+  "course": "en",
+  "section": 2,
+  "order": 11,
+  "slug": "2-11-talk-on-a-date",
+  "title_ru": "Свидание",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-11-w01",
+      "text": "date",
+      "ru": "свидание",
+      "audio": "en/2-11/w01.mp3"
+    },
+    {
+      "id": "en-2-11-w02",
+      "text": "flowers",
+      "ru": "цветы",
+      "audio": "en/2-11/w02.mp3"
+    },
+    {
+      "id": "en-2-11-w03",
+      "text": "romantic",
+      "ru": "романтичный",
+      "audio": "en/2-11/w03.mp3"
+    },
+    {
+      "id": "en-2-11-w04",
+      "text": "beautiful",
+      "ru": "красивый",
+      "audio": "en/2-11/w04.mp3"
+    },
+    {
+      "id": "en-2-11-w05",
+      "text": "invite",
+      "ru": "приглашать",
+      "audio": "en/2-11/w05.mp3"
+    },
+    {
+      "id": "en-2-11-w06",
+      "text": "smile",
+      "ru": "улыбаться",
+      "audio": "en/2-11/w06.mp3"
+    },
+    {
+      "id": "en-2-11-w07",
+      "text": "walk",
+      "ru": "прогулка",
+      "audio": "en/2-11/w07.mp3"
+    },
+    {
+      "id": "en-2-11-w08",
+      "text": "compliment",
+      "ru": "комплимент",
+      "audio": "en/2-11/w08.mp3"
+    },
+    {
+      "id": "en-2-11-w09",
+      "text": "nervous",
+      "ru": "нервничающий",
+      "audio": "en/2-11/w09.mp3"
+    },
+    {
+      "id": "en-2-11-w10",
+      "text": "gift",
+      "ru": "подарок",
+      "audio": "en/2-11/w10.mp3"
+    },
+    {
+      "id": "en-2-11-w11",
+      "text": "candle",
+      "ru": "свеча",
+      "audio": "en/2-11/w11.mp3"
+    },
+    {
+      "id": "en-2-11-w12",
+      "text": "tonight",
+      "ru": "сегодня вечером",
+      "audio": "en/2-11/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "en-3-18",
+  "course": "en",
+  "section": 3,
+  "order": 18,
+  "slug": "3-18-express-preferences",
+  "title_ru": "Предпочтения",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-18-w01",
+      "text": "prefer",
+      "ru": "предпочитать",
+      "audio": "en/3-18/w01.mp3"
+    },
+    {
+      "id": "en-3-18-w02",
+      "text": "better",
+      "ru": "лучше",
+      "audio": "en/3-18/w02.mp3"
+    },
+    {
+      "id": "en-3-18-w03",
+      "text": "would rather",
+      "ru": "скорее бы",
+      "audio": "en/3-18/w03.mp3"
+    },
+    {
+      "id": "en-3-18-w04",
+      "text": "choose",
+      "ru": "выбирать",
+      "audio": "en/3-18/w04.mp3"
+    },
+    {
+      "id": "en-3-18-w05",
+      "text": "both",
+      "ru": "оба",
+      "audio": "en/3-18/w05.mp3"
+    },
+    {
+      "id": "en-3-18-w06",
+      "text": "neither",
+      "ru": "ни тот, ни другой",
+      "audio": "en/3-18/w06.mp3"
+    },
+    {
+      "id": "en-3-18-w07",
+      "text": "instead",
+      "ru": "вместо",
+      "audio": "en/3-18/w07.mp3"
+    },
+    {
+      "id": "en-3-18-w08",
+      "text": "option",
+      "ru": "вариант",
+      "audio": "en/3-18/w08.mp3"
+    },
+    {
+      "id": "en-3-18-w09",
+      "text": "more",
+      "ru": "больше",
+      "audio": "en/3-18/w09.mp3"
+    },
+    {
+      "id": "en-3-18-w10",
+      "text": "less",
+      "ru": "меньше",
+      "audio": "en/3-18/w10.mp3"
+    },
+    {
+      "id": "en-3-18-w11",
+      "text": "most",
+      "ru": "больше всего",
+      "audio": "en/3-18/w11.mp3"
+    },
+    {
+      "id": "en-3-18-w12",
+      "text": "either",
+      "ru": "любой из двух",
+      "audio": "en/3-18/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

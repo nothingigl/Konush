@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-24",
+  "course": "tr",
+  "section": 3,
+  "order": 24,
+  "slug": "3-24-passive-voice",
+  "title_ru": "Страдательный залог (-ıl/-il/-ul/-ül)",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-24-w01",
+      "text": "yapılmak",
+      "ru": "делаться",
+      "audio": "tr/3-24/w01.mp3"
+    },
+    {
+      "id": "tr-3-24-w02",
+      "text": "açılmak",
+      "ru": "открываться",
+      "audio": "tr/3-24/w02.mp3"
+    },
+    {
+      "id": "tr-3-24-w03",
+      "text": "kapanmak",
+      "ru": "закрываться",
+      "audio": "tr/3-24/w03.mp3"
+    },
+    {
+      "id": "tr-3-24-w04",
+      "text": "kırılmak",
+      "ru": "ломаться",
+      "audio": "tr/3-24/w04.mp3"
+    },
+    {
+      "id": "tr-3-24-w05",
+      "text": "satılmak",
+      "ru": "продаваться",
+      "audio": "tr/3-24/w05.mp3"
+    },
+    {
+      "id": "tr-3-24-w06",
+      "text": "gönderilmek",
+      "ru": "отправляться",
+      "audio": "tr/3-24/w06.mp3"
+    },
+    {
+      "id": "tr-3-24-w07",
+      "text": "bulunmak",
+      "ru": "находиться",
+      "audio": "tr/3-24/w07.mp3"
+    },
+    {
+      "id": "tr-3-24-w08",
+      "text": "kurulmak",
+      "ru": "основываться",
+      "audio": "tr/3-24/w08.mp3"
+    },
+    {
+      "id": "tr-3-24-w09",
+      "text": "yazılmak",
+      "ru": "писаться",
+      "audio": "tr/3-24/w09.mp3"
+    },
+    {
+      "id": "tr-3-24-w10",
+      "text": "söylenmek",
+      "ru": "говориться",
+      "audio": "tr/3-24/w10.mp3"
+    },
+    {
+      "id": "tr-3-24-w11",
+      "text": "kırmak",
+      "ru": "ломать",
+      "audio": "tr/3-24/w11.mp3"
+    },
+    {
+      "id": "tr-3-24-w12",
+      "text": "temizlenmek",
+      "ru": "убираться",
+      "audio": "tr/3-24/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

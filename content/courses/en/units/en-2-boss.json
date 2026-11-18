@@ -1,0 +1,26 @@
+{
+  "id": "en-2-boss",
+  "course": "en",
+  "section": 2,
+  "order": 27,
+  "slug": "2-boss-big-trip",
+  "title_ru": "Босс: «Спланируйте поездку»",
+  "character": "elif",
+  "boss": true,
+  "words": [],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

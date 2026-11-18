@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-19",
+  "course": "tr",
+  "section": 3,
+  "order": 19,
+  "slug": "3-19-sports",
+  "title_ru": "Спорт",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-19-w01",
+      "text": "futbol",
+      "ru": "футбол",
+      "audio": "tr/3-19/w01.mp3"
+    },
+    {
+      "id": "tr-3-19-w02",
+      "text": "basketbol",
+      "ru": "баскетбол",
+      "audio": "tr/3-19/w02.mp3"
+    },
+    {
+      "id": "tr-3-19-w03",
+      "text": "voleybol",
+      "ru": "волейбол",
+      "audio": "tr/3-19/w03.mp3"
+    },
+    {
+      "id": "tr-3-19-w04",
+      "text": "tenis",
+      "ru": "теннис",
+      "audio": "tr/3-19/w04.mp3"
+    },
+    {
+      "id": "tr-3-19-w05",
+      "text": "yüzme",
+      "ru": "плавание",
+      "audio": "tr/3-19/w05.mp3"
+    },
+    {
+      "id": "tr-3-19-w06",
+      "text": "koşu",
+      "ru": "бег",
+      "audio": "tr/3-19/w06.mp3"
+    },
+    {
+      "id": "tr-3-19-w07",
+      "text": "takım",
+      "ru": "команда",
+      "audio": "tr/3-19/w07.mp3"
+    },
+    {
+      "id": "tr-3-19-w08",
+      "text": "maç",
+      "ru": "матч",
+      "audio": "tr/3-19/w08.mp3"
+    },
+    {
+      "id": "tr-3-19-w09",
+      "text": "oyuncu",
+      "ru": "игрок",
+      "audio": "tr/3-19/w09.mp3"
+    },
+    {
+      "id": "tr-3-19-w10",
+      "text": "antrenman",
+      "ru": "тренировка",
+      "audio": "tr/3-19/w10.mp3"
+    },
+    {
+      "id": "tr-3-19-w11",
+      "text": "gol",
+      "ru": "гол",
+      "audio": "tr/3-19/w11.mp3"
+    },
+    {
+      "id": "tr-3-19-w12",
+      "text": "spor salonu",
+      "ru": "спортзал",
+      "audio": "tr/3-19/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

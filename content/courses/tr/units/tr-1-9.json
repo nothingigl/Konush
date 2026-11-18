@@ -1,0 +1,99 @@
+{
+  "id": "tr-1-9",
+  "course": "tr",
+  "section": 1,
+  "order": 9,
+  "slug": "1-9-possession",
+  "title_ru": "Принадлежность",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-1-9-w01",
+      "text": "benim",
+      "ru": "мой",
+      "audio": "tr/1-9/w01.mp3"
+    },
+    {
+      "id": "tr-1-9-w02",
+      "text": "senin",
+      "ru": "твой",
+      "audio": "tr/1-9/w02.mp3"
+    },
+    {
+      "id": "tr-1-9-w03",
+      "text": "onun",
+      "ru": "его/её",
+      "audio": "tr/1-9/w03.mp3"
+    },
+    {
+      "id": "tr-1-9-w04",
+      "text": "bizim",
+      "ru": "наш",
+      "audio": "tr/1-9/w04.mp3"
+    },
+    {
+      "id": "tr-1-9-w05",
+      "text": "sizin",
+      "ru": "ваш",
+      "audio": "tr/1-9/w05.mp3"
+    },
+    {
+      "id": "tr-1-9-w06",
+      "text": "onların",
+      "ru": "их",
+      "audio": "tr/1-9/w06.mp3"
+    },
+    {
+      "id": "tr-1-9-w07",
+      "text": "kimin",
+      "ru": "чей",
+      "audio": "tr/1-9/w07.mp3"
+    },
+    {
+      "id": "tr-1-9-w08",
+      "text": "arkadaş",
+      "ru": "друг",
+      "audio": "tr/1-9/w08.mp3"
+    },
+    {
+      "id": "tr-1-9-w09",
+      "text": "oda",
+      "ru": "комната",
+      "audio": "tr/1-9/w09.mp3"
+    },
+    {
+      "id": "tr-1-9-w10",
+      "text": "gözlük",
+      "ru": "очки",
+      "audio": "tr/1-9/w10.mp3"
+    },
+    {
+      "id": "tr-1-9-w11",
+      "text": "cüzdan",
+      "ru": "кошелёк",
+      "audio": "tr/1-9/w11.mp3"
+    },
+    {
+      "id": "tr-1-9-w12",
+      "text": "saat",
+      "ru": "часы",
+      "audio": "tr/1-9/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

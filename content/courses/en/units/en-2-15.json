@@ -1,0 +1,99 @@
+{
+  "id": "en-2-15",
+  "course": "en",
+  "section": 2,
+  "order": 15,
+  "slug": "2-15-plan-a-move",
+  "title_ru": "Переезд",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-15-w01",
+      "text": "move",
+      "ru": "переезжать",
+      "audio": "en/2-15/w01.mp3"
+    },
+    {
+      "id": "en-2-15-w02",
+      "text": "apartment",
+      "ru": "квартира",
+      "audio": "en/2-15/w02.mp3"
+    },
+    {
+      "id": "en-2-15-w03",
+      "text": "box",
+      "ru": "коробка",
+      "audio": "en/2-15/w03.mp3"
+    },
+    {
+      "id": "en-2-15-w04",
+      "text": "furniture",
+      "ru": "мебель",
+      "audio": "en/2-15/w04.mp3"
+    },
+    {
+      "id": "en-2-15-w05",
+      "text": "rent",
+      "ru": "аренда",
+      "audio": "en/2-15/w05.mp3"
+    },
+    {
+      "id": "en-2-15-w06",
+      "text": "landlord",
+      "ru": "арендодатель",
+      "audio": "en/2-15/w06.mp3"
+    },
+    {
+      "id": "en-2-15-w07",
+      "text": "address",
+      "ru": "адрес",
+      "audio": "en/2-15/w07.mp3"
+    },
+    {
+      "id": "en-2-15-w08",
+      "text": "pack",
+      "ru": "упаковывать",
+      "audio": "en/2-15/w08.mp3"
+    },
+    {
+      "id": "en-2-15-w09",
+      "text": "sofa",
+      "ru": "диван",
+      "audio": "en/2-15/w09.mp3"
+    },
+    {
+      "id": "en-2-15-w10",
+      "text": "truck",
+      "ru": "грузовик",
+      "audio": "en/2-15/w10.mp3"
+    },
+    {
+      "id": "en-2-15-w11",
+      "text": "move out",
+      "ru": "съезжать",
+      "audio": "en/2-15/w11.mp3"
+    },
+    {
+      "id": "en-2-15-w12",
+      "text": "new home",
+      "ru": "новый дом",
+      "audio": "en/2-15/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

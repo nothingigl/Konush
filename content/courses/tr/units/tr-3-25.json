@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-25",
+  "course": "tr",
+  "section": 3,
+  "order": 25,
+  "slug": "3-25-participles",
+  "title_ru": "Причастия (-an/-en, -dığı)",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-25-w01",
+      "text": "okuyan",
+      "ru": "читающий",
+      "audio": "tr/3-25/w01.mp3"
+    },
+    {
+      "id": "tr-3-25-w02",
+      "text": "gelen",
+      "ru": "приходящий",
+      "audio": "tr/3-25/w02.mp3"
+    },
+    {
+      "id": "tr-3-25-w03",
+      "text": "giden",
+      "ru": "уходящий",
+      "audio": "tr/3-25/w03.mp3"
+    },
+    {
+      "id": "tr-3-25-w04",
+      "text": "konuşan",
+      "ru": "говорящий",
+      "audio": "tr/3-25/w04.mp3"
+    },
+    {
+      "id": "tr-3-25-w05",
+      "text": "gülen",
+      "ru": "смеющийся",
+      "audio": "tr/3-25/w05.mp3"
+    },
+    {
+      "id": "tr-3-25-w06",
+      "text": "uyuyan",
+      "ru": "спящий",
+      "audio": "tr/3-25/w06.mp3"
+    },
+    {
+      "id": "tr-3-25-w07",
+      "text": "oynayan",
+      "ru": "играющий",
+      "audio": "tr/3-25/w07.mp3"
+    },
+    {
+      "id": "tr-3-25-w08",
+      "text": "bekleyen",
+      "ru": "ждущий",
+      "audio": "tr/3-25/w08.mp3"
+    },
+    {
+      "id": "tr-3-25-w09",
+      "text": "çalışan",
+      "ru": "работающий",
+      "audio": "tr/3-25/w09.mp3"
+    },
+    {
+      "id": "tr-3-25-w10",
+      "text": "yaşayan",
+      "ru": "живущий",
+      "audio": "tr/3-25/w10.mp3"
+    },
+    {
+      "id": "tr-3-25-w11",
+      "text": "aldığım",
+      "ru": "то, что я взял",
+      "audio": "tr/3-25/w11.mp3"
+    },
+    {
+      "id": "tr-3-25-w12",
+      "text": "gördüğüm",
+      "ru": "то, что я увидел",
+      "audio": "tr/3-25/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

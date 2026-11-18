@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-22",
+  "course": "tr",
+  "section": 3,
+  "order": 22,
+  "slug": "3-22-weather-and-seasons",
+  "title_ru": "Погода и времена года",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-22-w01",
+      "text": "mevsim",
+      "ru": "время года",
+      "audio": "tr/3-22/w01.mp3"
+    },
+    {
+      "id": "tr-3-22-w02",
+      "text": "ilkbahar",
+      "ru": "весна",
+      "audio": "tr/3-22/w02.mp3"
+    },
+    {
+      "id": "tr-3-22-w03",
+      "text": "yaz",
+      "ru": "лето",
+      "audio": "tr/3-22/w03.mp3"
+    },
+    {
+      "id": "tr-3-22-w04",
+      "text": "sonbahar",
+      "ru": "осень",
+      "audio": "tr/3-22/w04.mp3"
+    },
+    {
+      "id": "tr-3-22-w05",
+      "text": "kış",
+      "ru": "зима",
+      "audio": "tr/3-22/w05.mp3"
+    },
+    {
+      "id": "tr-3-22-w06",
+      "text": "derece",
+      "ru": "градус",
+      "audio": "tr/3-22/w06.mp3"
+    },
+    {
+      "id": "tr-3-22-w07",
+      "text": "güneşli",
+      "ru": "солнечный",
+      "audio": "tr/3-22/w07.mp3"
+    },
+    {
+      "id": "tr-3-22-w08",
+      "text": "nemli",
+      "ru": "влажный",
+      "audio": "tr/3-22/w08.mp3"
+    },
+    {
+      "id": "tr-3-22-w09",
+      "text": "fırtına",
+      "ru": "буря",
+      "audio": "tr/3-22/w09.mp3"
+    },
+    {
+      "id": "tr-3-22-w10",
+      "text": "sis",
+      "ru": "туман",
+      "audio": "tr/3-22/w10.mp3"
+    },
+    {
+      "id": "tr-3-22-w11",
+      "text": "buz",
+      "ru": "лёд",
+      "audio": "tr/3-22/w11.mp3"
+    },
+    {
+      "id": "tr-3-22-w12",
+      "text": "hava durumu",
+      "ru": "прогноз погоды",
+      "audio": "tr/3-22/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

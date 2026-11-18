@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-16",
+  "course": "tr",
+  "section": 2,
+  "order": 16,
+  "slug": "2-16-questions-opinions",
+  "title_ru": "Вопросы (2): мнения и уверенность",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-16-w01",
+      "text": "acaba",
+      "ru": "интересно, ли",
+      "audio": "tr/2-16/w01.mp3"
+    },
+    {
+      "id": "tr-2-16-w02",
+      "text": "tabii",
+      "ru": "конечно",
+      "audio": "tr/2-16/w02.mp3"
+    },
+    {
+      "id": "tr-2-16-w03",
+      "text": "galiba",
+      "ru": "кажется",
+      "audio": "tr/2-16/w03.mp3"
+    },
+    {
+      "id": "tr-2-16-w04",
+      "text": "sence",
+      "ru": "по-твоему",
+      "audio": "tr/2-16/w04.mp3"
+    },
+    {
+      "id": "tr-2-16-w05",
+      "text": "bence",
+      "ru": "по-моему",
+      "audio": "tr/2-16/w05.mp3"
+    },
+    {
+      "id": "tr-2-16-w06",
+      "text": "doğru",
+      "ru": "правильно",
+      "audio": "tr/2-16/w06.mp3"
+    },
+    {
+      "id": "tr-2-16-w07",
+      "text": "yanlış",
+      "ru": "неправильно",
+      "audio": "tr/2-16/w07.mp3"
+    },
+    {
+      "id": "tr-2-16-w08",
+      "text": "emin",
+      "ru": "уверенный",
+      "audio": "tr/2-16/w08.mp3"
+    },
+    {
+      "id": "tr-2-16-w09",
+      "text": "gerçekten",
+      "ru": "правда",
+      "audio": "tr/2-16/w09.mp3"
+    },
+    {
+      "id": "tr-2-16-w10",
+      "text": "tekrar",
+      "ru": "снова",
+      "audio": "tr/2-16/w10.mp3"
+    },
+    {
+      "id": "tr-2-16-w11",
+      "text": "anlamak",
+      "ru": "понимать",
+      "audio": "tr/2-16/w11.mp3"
+    },
+    {
+      "id": "tr-2-16-w12",
+      "text": "bilmek",
+      "ru": "знать",
+      "audio": "tr/2-16/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

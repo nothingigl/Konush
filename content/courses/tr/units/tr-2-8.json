@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-8",
+  "course": "tr",
+  "section": 2,
+  "order": 8,
+  "slug": "2-8-times-of-day-and-days",
+  "title_ru": "Время суток и дни",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-8-w01",
+      "text": "dakika",
+      "ru": "минута",
+      "audio": "tr/2-8/w01.mp3"
+    },
+    {
+      "id": "tr-2-8-w02",
+      "text": "saniye",
+      "ru": "секунда",
+      "audio": "tr/2-8/w02.mp3"
+    },
+    {
+      "id": "tr-2-8-w03",
+      "text": "sabah",
+      "ru": "утро",
+      "audio": "tr/2-8/w03.mp3"
+    },
+    {
+      "id": "tr-2-8-w04",
+      "text": "öğle",
+      "ru": "полдень",
+      "audio": "tr/2-8/w04.mp3"
+    },
+    {
+      "id": "tr-2-8-w05",
+      "text": "akşam",
+      "ru": "вечер",
+      "audio": "tr/2-8/w05.mp3"
+    },
+    {
+      "id": "tr-2-8-w06",
+      "text": "gece",
+      "ru": "ночь",
+      "audio": "tr/2-8/w06.mp3"
+    },
+    {
+      "id": "tr-2-8-w07",
+      "text": "bugün",
+      "ru": "сегодня",
+      "audio": "tr/2-8/w07.mp3"
+    },
+    {
+      "id": "tr-2-8-w08",
+      "text": "yarın",
+      "ru": "завтра",
+      "audio": "tr/2-8/w08.mp3"
+    },
+    {
+      "id": "tr-2-8-w09",
+      "text": "dün",
+      "ru": "вчера",
+      "audio": "tr/2-8/w09.mp3"
+    },
+    {
+      "id": "tr-2-8-w10",
+      "text": "erken",
+      "ru": "рано",
+      "audio": "tr/2-8/w10.mp3"
+    },
+    {
+      "id": "tr-2-8-w11",
+      "text": "geç",
+      "ru": "поздно",
+      "audio": "tr/2-8/w11.mp3"
+    },
+    {
+      "id": "tr-2-8-w12",
+      "text": "şimdi",
+      "ru": "сейчас",
+      "audio": "tr/2-8/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

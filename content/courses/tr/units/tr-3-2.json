@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-2",
+  "course": "tr",
+  "section": 3,
+  "order": 2,
+  "slug": "3-2-past-negation",
+  "title_ru": "Отрицание: прошедшее время",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-2-w01",
+      "text": "-madım/-medim",
+      "ru": "не (прош.)",
+      "audio": "tr/3-2/w01.mp3"
+    },
+    {
+      "id": "tr-3-2-w02",
+      "text": "ders çalışmak",
+      "ru": "учить уроки",
+      "audio": "tr/3-2/w02.mp3"
+    },
+    {
+      "id": "tr-3-2-w03",
+      "text": "telefon etmek",
+      "ru": "звонить",
+      "audio": "tr/3-2/w03.mp3"
+    },
+    {
+      "id": "tr-3-2-w04",
+      "text": "mesaj atmak",
+      "ru": "отправлять сообщение",
+      "audio": "tr/3-2/w04.mp3"
+    },
+    {
+      "id": "tr-3-2-w05",
+      "text": "yemek yapmak",
+      "ru": "готовить еду",
+      "audio": "tr/3-2/w05.mp3"
+    },
+    {
+      "id": "tr-3-2-w06",
+      "text": "haber",
+      "ru": "новость",
+      "audio": "tr/3-2/w06.mp3"
+    },
+    {
+      "id": "tr-3-2-w07",
+      "text": "vakit",
+      "ru": "время",
+      "audio": "tr/3-2/w07.mp3"
+    },
+    {
+      "id": "tr-3-2-w08",
+      "text": "fırsat",
+      "ru": "возможность",
+      "audio": "tr/3-2/w08.mp3"
+    },
+    {
+      "id": "tr-3-2-w09",
+      "text": "yorulmak",
+      "ru": "уставать",
+      "audio": "tr/3-2/w09.mp3"
+    },
+    {
+      "id": "tr-3-2-w10",
+      "text": "geçen gün",
+      "ru": "на днях",
+      "audio": "tr/3-2/w10.mp3"
+    },
+    {
+      "id": "tr-3-2-w11",
+      "text": "dün gece",
+      "ru": "вчера ночью",
+      "audio": "tr/3-2/w11.mp3"
+    },
+    {
+      "id": "tr-3-2-w12",
+      "text": "uğramak",
+      "ru": "заглянуть",
+      "audio": "tr/3-2/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

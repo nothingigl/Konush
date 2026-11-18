@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-1",
+  "course": "tr",
+  "section": 3,
+  "order": 1,
+  "slug": "3-1-present-negation",
+  "title_ru": "Отрицание: настоящее время",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-1-w01",
+      "text": "değil",
+      "ru": "не (именное сказуемое)",
+      "audio": "tr/3-1/w01.mp3"
+    },
+    {
+      "id": "tr-3-1-w02",
+      "text": "-mıyor",
+      "ru": "не (глагол, наст.)",
+      "audio": "tr/3-1/w02.mp3"
+    },
+    {
+      "id": "tr-3-1-w03",
+      "text": "duymak",
+      "ru": "слышать",
+      "audio": "tr/3-1/w03.mp3"
+    },
+    {
+      "id": "tr-3-1-w04",
+      "text": "beğenmek",
+      "ru": "одобрять",
+      "audio": "tr/3-1/w04.mp3"
+    },
+    {
+      "id": "tr-3-1-w05",
+      "text": "içmek",
+      "ru": "пить",
+      "audio": "tr/3-1/w05.mp3"
+    },
+    {
+      "id": "tr-3-1-w06",
+      "text": "yemek",
+      "ru": "есть",
+      "audio": "tr/3-1/w06.mp3"
+    },
+    {
+      "id": "tr-3-1-w07",
+      "text": "bilmek",
+      "ru": "знать",
+      "audio": "tr/3-1/w07.mp3"
+    },
+    {
+      "id": "tr-3-1-w08",
+      "text": "istemek",
+      "ru": "хотеть",
+      "audio": "tr/3-1/w08.mp3"
+    },
+    {
+      "id": "tr-3-1-w09",
+      "text": "henüz",
+      "ru": "ещё (не)",
+      "audio": "tr/3-1/w09.mp3"
+    },
+    {
+      "id": "tr-3-1-w10",
+      "text": "artık",
+      "ru": "больше (не)",
+      "audio": "tr/3-1/w10.mp3"
+    },
+    {
+      "id": "tr-3-1-w11",
+      "text": "asla",
+      "ru": "никогда",
+      "audio": "tr/3-1/w11.mp3"
+    },
+    {
+      "id": "tr-3-1-w12",
+      "text": "ne… ne de",
+      "ru": "ни… ни",
+      "audio": "tr/3-1/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

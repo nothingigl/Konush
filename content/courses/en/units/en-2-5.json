@@ -1,0 +1,99 @@
+{
+  "id": "en-2-5",
+  "course": "en",
+  "section": 2,
+  "order": 5,
+  "slug": "2-5-describe-clothes",
+  "title_ru": "Одежда",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-5-w01",
+      "text": "shirt",
+      "ru": "рубашка",
+      "audio": "en/2-5/w01.mp3"
+    },
+    {
+      "id": "en-2-5-w02",
+      "text": "dress",
+      "ru": "платье",
+      "audio": "en/2-5/w02.mp3"
+    },
+    {
+      "id": "en-2-5-w03",
+      "text": "jacket",
+      "ru": "куртка",
+      "audio": "en/2-5/w03.mp3"
+    },
+    {
+      "id": "en-2-5-w04",
+      "text": "shoes",
+      "ru": "туфли, обувь",
+      "audio": "en/2-5/w04.mp3"
+    },
+    {
+      "id": "en-2-5-w05",
+      "text": "socks",
+      "ru": "носки",
+      "audio": "en/2-5/w05.mp3"
+    },
+    {
+      "id": "en-2-5-w06",
+      "text": "hat",
+      "ru": "шапка, шляпа",
+      "audio": "en/2-5/w06.mp3"
+    },
+    {
+      "id": "en-2-5-w07",
+      "text": "jeans",
+      "ru": "джинсы",
+      "audio": "en/2-5/w07.mp3"
+    },
+    {
+      "id": "en-2-5-w08",
+      "text": "coat",
+      "ru": "пальто",
+      "audio": "en/2-5/w08.mp3"
+    },
+    {
+      "id": "en-2-5-w09",
+      "text": "sweater",
+      "ru": "свитер",
+      "audio": "en/2-5/w09.mp3"
+    },
+    {
+      "id": "en-2-5-w10",
+      "text": "skirt",
+      "ru": "юбка",
+      "audio": "en/2-5/w10.mp3"
+    },
+    {
+      "id": "en-2-5-w11",
+      "text": "wear",
+      "ru": "носить",
+      "audio": "en/2-5/w11.mp3"
+    },
+    {
+      "id": "en-2-5-w12",
+      "text": "size",
+      "ru": "размер",
+      "audio": "en/2-5/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

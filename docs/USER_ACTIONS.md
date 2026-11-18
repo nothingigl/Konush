@@ -1,0 +1,122 @@
+# Действия владельца проекта (USER_ACTIONS.md)
+
+Я (агент) не имею доступа к вашим веб-кабинетам GitHub, Supabase, Vercel и Google AI Studio. В этом файле собраны пошаговые инструкции: **что сделать, где нажать и что вставить**, привязанные к этапам разработки.
+
+---
+
+## К Этапу 1 (Фундамент — сейчас)
+
+### Шаг 1.1. Проверьте 4-й исходный файл (`duolingo_turkish_practice.md`)
+1. Сейчас в папке `content-src/` лежат 3 файла:
+   - `duolingo_turkish_skills_words.md`
+   - `duolingo_english_skills_words.md`
+   - `duolingo_english_topics.md`
+2. Если у вас есть четвёртый файл **`duolingo_turkish_practice.md`**, скопируйте его в папку `d:\igilik.k\iql26\DuoTurkish\content-src\duolingo_turkish_practice.md` без переименования.
+
+### Шаг 1.2. Создайте пустой репозиторий на GitHub и привяжите `origin`
+1. Откройте [https://github.com/new](https://github.com/new).
+2. Укажите имя репозитория (например, `turkce-duo`), выберите **Public** (на публичных репозиториях минуты GitHub Actions бесплатны без лимитов) или **Private** (2 000 бесплатных минут в месяц).
+3. **Не ставьте** галочки «Add a README file», «Add .gitignore», «Choose a license» (они уже созданы в проекте).
+4. Нажмите **Create repository**.
+5. Скопируйте URL репозитория (например, `https://github.com/<ваш-логин>/turkce-duo.git`) и пришлите его мне в чат (либо выполните в папке `d:\igilik.k\iql26\DuoTurkish`):
+   ```powershell
+   git remote add origin https://github.com/<ваш-логин>/turkce-duo.git
+   git push -u origin main
+   git push -u origin feat/stage-1-foundation
+   ```
+
+### Шаг 1.3. Создайте бесплатный проект Supabase и примените миграцию v1
+1. Откройте [https://supabase.com/dashboard](https://supabase.com/dashboard) и войдите в аккаунт.
+2. Нажмите **New project**:
+   - **Name:** `turkce-duo`
+   - **Database Password:** сгенерируйте надёжный пароль и сохраните его у себя в менеджере паролей (в код проекта он **не** добавляется).
+   - **Region:** выберите ближайший европейский регион, например **Central EU (Frankfurt)** (`eu-central-1`).
+   - **Pricing Plan:** **Free ($0/month)**.
+3. Дождитесь завершения создания проекта (~1–2 минуты).
+4. **Применение миграции `0001_initial_schema.sql`** (любым из двух способов):
+   - **Способ А (через браузер — самый быстрый без установки CLI):**
+     1. В левом меню панели Supabase откройте **SQL Editor** → нажмите **New query**.
+     2. Скопируйте весь текст файла `supabase/migrations/0001_initial_schema.sql` из нашего репозитория, вставьте в редактор и нажмите **Run** (внизу справа).
+     3. Убедитесь, что внизу появилось сообщение `Success. No rows returned`.
+     4. Перейдите в **Table Editor** — вы должны увидеть 6 таблиц (`profiles`, `unit_progress`, `review_state`, `daily_activity`, `content_feedback`, `healthcheck`) со значком замка (**RLS enabled**).
+   - **Способ Б (через Supabase CLI):**
+     ```powershell
+     npx supabase login
+     npx supabase link --project-ref <ваш-project-ref>
+     npx supabase db push
+     ```
+
+---
+
+## К Этапу 2 (Скелет, вход, синхронизация и превью на Vercel)
+
+### Шаг 2.1. Получите публичные ключи Supabase для `.env.local`
+1. В панели Supabase откройте **Project Settings** (иконка шестерёнки внизу слева) → **API** (или **Data API**).
+2. Скопируйте:
+   - **Project URL** (`https://xxxx.supabase.co`) → это `NEXT_PUBLIC_SUPABASE_URL`.
+   - **Project API Keys → `anon` `public`** → это `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
+   - ⚠️ **Никогда не копируйте `service_role` ключ!**
+3. Создайте локально файл `.env.local` (скопировав `.env.example`) и вставьте туда эти значения:
+   ```ini
+   NEXT_PUBLIC_SUPABASE_URL=https://ваш-id.supabase.co
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=ваш-anon-ключ
+   NEXT_PUBLIC_SITE_URL=http://localhost:3000
+   NEXT_PUBLIC_INCLUDE_DRAFT_CONTENT=true
+   ```
+
+### Шаг 2.2. Настройте URL-адреса и провайдеры входа в Supabase Auth
+1. В панели Supabase откройте **Authentication → URL Configuration**:
+   - **Site URL:** `http://localhost:3000` (после деплоя на Vercel замените на основной домен `https://<ваш-проект>.vercel.app`).
+   - **Redirect URLs:** нажмите **Add URL** и добавьте:
+     - `http://localhost:3000/**`
+     - `https://*.vercel.app/**`
+2. Откройте **Authentication → Providers → Email**:
+   - Убедитесь, что **Enable Email provider** включён.
+   - **Важно по лимитам почты (см. `docs/DECISIONS.md`):**
+     - Если вы пока **не** подключаете внешний SMTP (Brevo/Resend), **отключите** переключатель **Confirm email** и нажмите **Save**. Тогда регистрация по email + пароль будет работать сразу для любых пользователей без упирания в лимит 2 письма/час.
+     - Если вы хотите подтверждение по почте и сброс пароля с русскими письмами: зарегистрируйте бесплатный аккаунт на [brevo.com](https://www.brevo.com/) (300 писем/день бесплатно) или [resend.com](https://resend.com/) (3 000 писем/мес), пропишите SMTP в **Authentication → SMTP Settings**, после чего в **Authentication → Email Templates** вставьте русские шаблоны писем (тексты шаблонов я подготовлю на Этапе 2).
+3. *(Опционально, но рекомендуется)* **Вход через Google (бесплатно):**
+   - В [Google Cloud Console](https://console.cloud.google.com/apis/credentials) создайте **OAuth 2.0 Client ID** (тип: Web application).
+   - В **Authorized redirect URIs** укажите `https://<ваш-id>.supabase.co/auth/v1/callback`.
+   - Скопируйте `Client ID` и `Client Secret` в Supabase: **Authentication → Providers → Google** → включите тумблер и нажмите **Save**.
+
+### Шаг 2.3. Подключите репозиторий к Vercel (Hobby)
+1. Откройте [https://vercel.com/new](https://vercel.com/new) и импортируйте ваш GitHub-репозиторий.
+2. В разделе **Environment Variables** добавьте 3 переменные:
+   - `NEXT_PUBLIC_SUPABASE_URL` = ваш URL проекта Supabase
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY` = ваш публичный `anon`-ключ
+   - `NEXT_PUBLIC_SITE_URL` = `https://<ваш-проект>.vercel.app`
+3. Нажмите **Deploy**.
+
+---
+
+## К Этапу 3 (Дизайн по Google Stitch)
+
+### Шаг 3.1. Выгрузите экраны из Google Stitch
+1. Откройте ваш проект в Google Stitch: [https://stitch.google.com/projects/8288994452440307790](https://stitch.google.com/projects/8288994452440307790).
+2. Выгрузите сгенерированные экраны (HTML/CSS/Tailwind-код и скриншоты) в папку `d:\igilik.k\iql26\DuoTurkish\design\`.
+
+---
+
+## К Этапу 5 (Озвучка через Gemini TTS)
+
+### Шаг 5.1. Получите ключ `GEMINI_API_KEY` и прослушайте образцы голосов
+1. Откройте [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey) и создайте API-ключ.
+2. Добавьте его **только** в ваш локальный файл `.env.local`:
+   ```ini
+   GEMINI_API_KEY=ваш-ключ
+   ```
+   *(Ни в коем случае не добавляйте его в Vercel или GitHub!)*
+3. Убедитесь, что на вашем компьютере установлен `ffmpeg` (в терминале `ffmpeg -version`). Если нет — установите через `winget install Gyan.FFmpeg`.
+4. На старте Этапа 5 я сгенерирую тестовые сэмплы (минимум 8 голосов: 4 женских, 4 мужских с эмоциями на турецком и английском) в папку `reviews/voices/`. Вы послушаете их и выберете 4 финальных персонажа.
+
+---
+
+## К Этапу 6 (Сборка MVP и Keepalive)
+
+### Шаг 6.1. Добавьте секреты для GitHub Action Keepalive
+Чтобы бесплатный проект Supabase не засыпал после 7 дней простоя:
+1. В вашем репозитории на GitHub откройте **Settings → Secrets and variables → Actions → New repository secret**.
+2. Добавьте два секрета:
+   - `SUPABASE_URL` = ваш `NEXT_PUBLIC_SUPABASE_URL`
+   - `SUPABASE_ANON_KEY` = ваш `NEXT_PUBLIC_SUPABASE_ANON_KEY`

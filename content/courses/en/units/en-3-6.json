@@ -1,0 +1,99 @@
+{
+  "id": "en-3-6",
+  "course": "en",
+  "section": 3,
+  "order": 6,
+  "slug": "3-6-prepare-for-a-holiday",
+  "title_ru": "Подготовка к празднику",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-6-w01",
+      "text": "holiday",
+      "ru": "праздник",
+      "audio": "en/3-6/w01.mp3"
+    },
+    {
+      "id": "en-3-6-w02",
+      "text": "decorate",
+      "ru": "украшать",
+      "audio": "en/3-6/w02.mp3"
+    },
+    {
+      "id": "en-3-6-w03",
+      "text": "New Year",
+      "ru": "Новый год",
+      "audio": "en/3-6/w03.mp3"
+    },
+    {
+      "id": "en-3-6-w04",
+      "text": "fireworks",
+      "ru": "салют",
+      "audio": "en/3-6/w04.mp3"
+    },
+    {
+      "id": "en-3-6-w05",
+      "text": "gifts",
+      "ru": "подарки",
+      "audio": "en/3-6/w05.mp3"
+    },
+    {
+      "id": "en-3-6-w06",
+      "text": "wrap",
+      "ru": "упаковывать",
+      "audio": "en/3-6/w06.mp3"
+    },
+    {
+      "id": "en-3-6-w07",
+      "text": "tradition",
+      "ru": "традиция",
+      "audio": "en/3-6/w07.mp3"
+    },
+    {
+      "id": "en-3-6-w08",
+      "text": "prepare",
+      "ru": "готовить(ся)",
+      "audio": "en/3-6/w08.mp3"
+    },
+    {
+      "id": "en-3-6-w09",
+      "text": "shopping list",
+      "ru": "список покупок",
+      "audio": "en/3-6/w09.mp3"
+    },
+    {
+      "id": "en-3-6-w10",
+      "text": "midnight",
+      "ru": "полночь",
+      "audio": "en/3-6/w10.mp3"
+    },
+    {
+      "id": "en-3-6-w11",
+      "text": "lights",
+      "ru": "гирлянды, огни",
+      "audio": "en/3-6/w11.mp3"
+    },
+    {
+      "id": "en-3-6-w12",
+      "text": "cozy",
+      "ru": "уютный",
+      "audio": "en/3-6/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

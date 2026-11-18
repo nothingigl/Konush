@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-4",
+  "course": "tr",
+  "section": 3,
+  "order": 4,
+  "slug": "3-4-prohibitions",
+  "title_ru": "Запреты: «не делай!»",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-4-w01",
+      "text": "dikkat",
+      "ru": "осторожно",
+      "audio": "tr/3-4/w01.mp3"
+    },
+    {
+      "id": "tr-3-4-w02",
+      "text": "dur",
+      "ru": "стой",
+      "audio": "tr/3-4/w02.mp3"
+    },
+    {
+      "id": "tr-3-4-w03",
+      "text": "acele etmek",
+      "ru": "спешить",
+      "audio": "tr/3-4/w03.mp3"
+    },
+    {
+      "id": "tr-3-4-w04",
+      "text": "ağlamak",
+      "ru": "плакать",
+      "audio": "tr/3-4/w04.mp3"
+    },
+    {
+      "id": "tr-3-4-w05",
+      "text": "bağırmak",
+      "ru": "кричать",
+      "audio": "tr/3-4/w05.mp3"
+    },
+    {
+      "id": "tr-3-4-w06",
+      "text": "dokunmak",
+      "ru": "трогать",
+      "audio": "tr/3-4/w06.mp3"
+    },
+    {
+      "id": "tr-3-4-w07",
+      "text": "yalan",
+      "ru": "ложь",
+      "audio": "tr/3-4/w07.mp3"
+    },
+    {
+      "id": "tr-3-4-w08",
+      "text": "şaka",
+      "ru": "шутка",
+      "audio": "tr/3-4/w08.mp3"
+    },
+    {
+      "id": "tr-3-4-w09",
+      "text": "telaş",
+      "ru": "паника",
+      "audio": "tr/3-4/w09.mp3"
+    },
+    {
+      "id": "tr-3-4-w10",
+      "text": "merak etmek",
+      "ru": "волноваться",
+      "audio": "tr/3-4/w10.mp3"
+    },
+    {
+      "id": "tr-3-4-w11",
+      "text": "endişelenmek",
+      "ru": "переживать",
+      "audio": "tr/3-4/w11.mp3"
+    },
+    {
+      "id": "tr-3-4-w12",
+      "text": "vazgeçmek",
+      "ru": "отказаться",
+      "audio": "tr/3-4/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

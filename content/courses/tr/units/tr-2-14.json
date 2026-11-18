@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-14",
+  "course": "tr",
+  "section": 2,
+  "order": 14,
+  "slug": "2-14-describing-people",
+  "title_ru": "Описание людей",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-14-w01",
+      "text": "zayıf",
+      "ru": "худой",
+      "audio": "tr/2-14/w01.mp3"
+    },
+    {
+      "id": "tr-2-14-w02",
+      "text": "şişman",
+      "ru": "полный",
+      "audio": "tr/2-14/w02.mp3"
+    },
+    {
+      "id": "tr-2-14-w03",
+      "text": "yaşlı",
+      "ru": "пожилой",
+      "audio": "tr/2-14/w03.mp3"
+    },
+    {
+      "id": "tr-2-14-w04",
+      "text": "genç",
+      "ru": "молодой",
+      "audio": "tr/2-14/w04.mp3"
+    },
+    {
+      "id": "tr-2-14-w05",
+      "text": "yakışıklı",
+      "ru": "красивый (о мужчине)",
+      "audio": "tr/2-14/w05.mp3"
+    },
+    {
+      "id": "tr-2-14-w06",
+      "text": "mutlu",
+      "ru": "счастливый",
+      "audio": "tr/2-14/w06.mp3"
+    },
+    {
+      "id": "tr-2-14-w07",
+      "text": "üzgün",
+      "ru": "грустный",
+      "audio": "tr/2-14/w07.mp3"
+    },
+    {
+      "id": "tr-2-14-w08",
+      "text": "yorgun",
+      "ru": "уставший",
+      "audio": "tr/2-14/w08.mp3"
+    },
+    {
+      "id": "tr-2-14-w09",
+      "text": "kızgın",
+      "ru": "злой",
+      "audio": "tr/2-14/w09.mp3"
+    },
+    {
+      "id": "tr-2-14-w10",
+      "text": "nazik",
+      "ru": "вежливый",
+      "audio": "tr/2-14/w10.mp3"
+    },
+    {
+      "id": "tr-2-14-w11",
+      "text": "komik",
+      "ru": "смешной",
+      "audio": "tr/2-14/w11.mp3"
+    },
+    {
+      "id": "tr-2-14-w12",
+      "text": "saç",
+      "ru": "волосы",
+      "audio": "tr/2-14/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

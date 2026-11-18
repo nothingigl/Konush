@@ -1,0 +1,99 @@
+{
+  "id": "en-3-15",
+  "course": "en",
+  "section": 3,
+  "order": 15,
+  "slug": "3-15-go-to-the-theater",
+  "title_ru": "Театр",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-15-w01",
+      "text": "play",
+      "ru": "спектакль",
+      "audio": "en/3-15/w01.mp3"
+    },
+    {
+      "id": "en-3-15-w02",
+      "text": "stage",
+      "ru": "сцена",
+      "audio": "en/3-15/w02.mp3"
+    },
+    {
+      "id": "en-3-15-w03",
+      "text": "curtain",
+      "ru": "занавес",
+      "audio": "en/3-15/w03.mp3"
+    },
+    {
+      "id": "en-3-15-w04",
+      "text": "audience",
+      "ru": "зрители",
+      "audio": "en/3-15/w04.mp3"
+    },
+    {
+      "id": "en-3-15-w05",
+      "text": "applause",
+      "ru": "аплодисменты",
+      "audio": "en/3-15/w05.mp3"
+    },
+    {
+      "id": "en-3-15-w06",
+      "text": "ballet",
+      "ru": "балет",
+      "audio": "en/3-15/w06.mp3"
+    },
+    {
+      "id": "en-3-15-w07",
+      "text": "opera",
+      "ru": "опера",
+      "audio": "en/3-15/w07.mp3"
+    },
+    {
+      "id": "en-3-15-w08",
+      "text": "intermission",
+      "ru": "антракт",
+      "audio": "en/3-15/w08.mp3"
+    },
+    {
+      "id": "en-3-15-w09",
+      "text": "performance",
+      "ru": "представление",
+      "audio": "en/3-15/w09.mp3"
+    },
+    {
+      "id": "en-3-15-w10",
+      "text": "costume",
+      "ru": "костюм",
+      "audio": "en/3-15/w10.mp3"
+    },
+    {
+      "id": "en-3-15-w11",
+      "text": "row",
+      "ru": "ряд",
+      "audio": "en/3-15/w11.mp3"
+    },
+    {
+      "id": "en-3-15-w12",
+      "text": "stand up",
+      "ru": "вставать",
+      "audio": "en/3-15/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

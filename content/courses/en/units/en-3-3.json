@@ -1,0 +1,99 @@
+{
+  "id": "en-3-3",
+  "course": "en",
+  "section": 3,
+  "order": 3,
+  "slug": "3-3-discuss-documents",
+  "title_ru": "Документы",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-3-w01",
+      "text": "document",
+      "ru": "документ",
+      "audio": "en/3-3/w01.mp3"
+    },
+    {
+      "id": "en-3-3-w02",
+      "text": "ID card",
+      "ru": "удостоверение личности",
+      "audio": "en/3-3/w02.mp3"
+    },
+    {
+      "id": "en-3-3-w03",
+      "text": "form",
+      "ru": "бланк, анкета",
+      "audio": "en/3-3/w03.mp3"
+    },
+    {
+      "id": "en-3-3-w04",
+      "text": "sign",
+      "ru": "подписывать",
+      "audio": "en/3-3/w04.mp3"
+    },
+    {
+      "id": "en-3-3-w05",
+      "text": "signature",
+      "ru": "подпись",
+      "audio": "en/3-3/w05.mp3"
+    },
+    {
+      "id": "en-3-3-w06",
+      "text": "copy",
+      "ru": "копия",
+      "audio": "en/3-3/w06.mp3"
+    },
+    {
+      "id": "en-3-3-w07",
+      "text": "license",
+      "ru": "права, лицензия",
+      "audio": "en/3-3/w07.mp3"
+    },
+    {
+      "id": "en-3-3-w08",
+      "text": "certificate",
+      "ru": "справка, сертификат",
+      "audio": "en/3-3/w08.mp3"
+    },
+    {
+      "id": "en-3-3-w09",
+      "text": "fill out",
+      "ru": "заполнять",
+      "audio": "en/3-3/w09.mp3"
+    },
+    {
+      "id": "en-3-3-w10",
+      "text": "application",
+      "ru": "заявление",
+      "audio": "en/3-3/w10.mp3"
+    },
+    {
+      "id": "en-3-3-w11",
+      "text": "valid",
+      "ru": "действительный",
+      "audio": "en/3-3/w11.mp3"
+    },
+    {
+      "id": "en-3-3-w12",
+      "text": "expired",
+      "ru": "просроченный",
+      "audio": "en/3-3/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

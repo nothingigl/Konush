@@ -1,0 +1,99 @@
+{
+  "id": "en-3-10",
+  "course": "en",
+  "section": 3,
+  "order": 10,
+  "slug": "3-10-talk-about-food-part-2",
+  "title_ru": "Еда (часть 2): вкус",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-10-w01",
+      "text": "spicy",
+      "ru": "острый",
+      "audio": "en/3-10/w01.mp3"
+    },
+    {
+      "id": "en-3-10-w02",
+      "text": "sweet",
+      "ru": "сладкий",
+      "audio": "en/3-10/w02.mp3"
+    },
+    {
+      "id": "en-3-10-w03",
+      "text": "salty",
+      "ru": "солёный",
+      "audio": "en/3-10/w03.mp3"
+    },
+    {
+      "id": "en-3-10-w04",
+      "text": "sour",
+      "ru": "кислый",
+      "audio": "en/3-10/w04.mp3"
+    },
+    {
+      "id": "en-3-10-w05",
+      "text": "bitter",
+      "ru": "горький",
+      "audio": "en/3-10/w05.mp3"
+    },
+    {
+      "id": "en-3-10-w06",
+      "text": "tasty",
+      "ru": "вкусный",
+      "audio": "en/3-10/w06.mp3"
+    },
+    {
+      "id": "en-3-10-w07",
+      "text": "raw",
+      "ru": "сырой",
+      "audio": "en/3-10/w07.mp3"
+    },
+    {
+      "id": "en-3-10-w08",
+      "text": "fried",
+      "ru": "жареный",
+      "audio": "en/3-10/w08.mp3"
+    },
+    {
+      "id": "en-3-10-w09",
+      "text": "baked",
+      "ru": "запечённый",
+      "audio": "en/3-10/w09.mp3"
+    },
+    {
+      "id": "en-3-10-w10",
+      "text": "boiled",
+      "ru": "варёный",
+      "audio": "en/3-10/w10.mp3"
+    },
+    {
+      "id": "en-3-10-w11",
+      "text": "grilled",
+      "ru": "на гриле",
+      "audio": "en/3-10/w11.mp3"
+    },
+    {
+      "id": "en-3-10-w12",
+      "text": "taste",
+      "ru": "вкус",
+      "audio": "en/3-10/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

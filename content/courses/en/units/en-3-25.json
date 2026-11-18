@@ -1,0 +1,99 @@
+{
+  "id": "en-3-25",
+  "course": "en",
+  "section": 3,
+  "order": 25,
+  "slug": "3-25-discuss-language-learning",
+  "title_ru": "Изучение языков",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-25-w01",
+      "text": "practice",
+      "ru": "практиковаться",
+      "audio": "en/3-25/w01.mp3"
+    },
+    {
+      "id": "en-3-25-w02",
+      "text": "vocabulary",
+      "ru": "словарный запас",
+      "audio": "en/3-25/w02.mp3"
+    },
+    {
+      "id": "en-3-25-w03",
+      "text": "grammar",
+      "ru": "грамматика",
+      "audio": "en/3-25/w03.mp3"
+    },
+    {
+      "id": "en-3-25-w04",
+      "text": "mistake",
+      "ru": "ошибка",
+      "audio": "en/3-25/w04.mp3"
+    },
+    {
+      "id": "en-3-25-w05",
+      "text": "correct",
+      "ru": "исправлять",
+      "audio": "en/3-25/w05.mp3"
+    },
+    {
+      "id": "en-3-25-w06",
+      "text": "pronounce",
+      "ru": "произносить",
+      "audio": "en/3-25/w06.mp3"
+    },
+    {
+      "id": "en-3-25-w07",
+      "text": "dictionary",
+      "ru": "словарь",
+      "audio": "en/3-25/w07.mp3"
+    },
+    {
+      "id": "en-3-25-w08",
+      "text": "progress",
+      "ru": "прогресс",
+      "audio": "en/3-25/w08.mp3"
+    },
+    {
+      "id": "en-3-25-w09",
+      "text": "native speaker",
+      "ru": "носитель языка",
+      "audio": "en/3-25/w09.mp3"
+    },
+    {
+      "id": "en-3-25-w10",
+      "text": "memorize",
+      "ru": "запоминать",
+      "audio": "en/3-25/w10.mp3"
+    },
+    {
+      "id": "en-3-25-w11",
+      "text": "improve",
+      "ru": "улучшать",
+      "audio": "en/3-25/w11.mp3"
+    },
+    {
+      "id": "en-3-25-w12",
+      "text": "daily",
+      "ru": "ежедневный",
+      "audio": "en/3-25/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

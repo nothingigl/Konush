@@ -1,0 +1,99 @@
+{
+  "id": "en-3-21",
+  "course": "en",
+  "section": 3,
+  "order": 21,
+  "slug": "3-21-talk-about-cleaning",
+  "title_ru": "Уборка",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-21-w01",
+      "text": "clean",
+      "ru": "убирать",
+      "audio": "en/3-21/w01.mp3"
+    },
+    {
+      "id": "en-3-21-w02",
+      "text": "wash",
+      "ru": "мыть",
+      "audio": "en/3-21/w02.mp3"
+    },
+    {
+      "id": "en-3-21-w03",
+      "text": "vacuum",
+      "ru": "пылесосить",
+      "audio": "en/3-21/w03.mp3"
+    },
+    {
+      "id": "en-3-21-w04",
+      "text": "broom",
+      "ru": "веник",
+      "audio": "en/3-21/w04.mp3"
+    },
+    {
+      "id": "en-3-21-w05",
+      "text": "dust",
+      "ru": "пыль, вытирать пыль",
+      "audio": "en/3-21/w05.mp3"
+    },
+    {
+      "id": "en-3-21-w06",
+      "text": "trash",
+      "ru": "мусор",
+      "audio": "en/3-21/w06.mp3"
+    },
+    {
+      "id": "en-3-21-w07",
+      "text": "laundry",
+      "ru": "стирка",
+      "audio": "en/3-21/w07.mp3"
+    },
+    {
+      "id": "en-3-21-w08",
+      "text": "iron",
+      "ru": "гладить",
+      "audio": "en/3-21/w08.mp3"
+    },
+    {
+      "id": "en-3-21-w09",
+      "text": "dishes",
+      "ru": "посуда",
+      "audio": "en/3-21/w09.mp3"
+    },
+    {
+      "id": "en-3-21-w10",
+      "text": "mop",
+      "ru": "мыть пол",
+      "audio": "en/3-21/w10.mp3"
+    },
+    {
+      "id": "en-3-21-w11",
+      "text": "sponge",
+      "ru": "губка",
+      "audio": "en/3-21/w11.mp3"
+    },
+    {
+      "id": "en-3-21-w12",
+      "text": "tidy",
+      "ru": "аккуратный",
+      "audio": "en/3-21/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

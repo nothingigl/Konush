@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-21",
+  "course": "tr",
+  "section": 3,
+  "order": 21,
+  "slug": "3-21-nature",
+  "title_ru": "Природа",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-21-w01",
+      "text": "doğa",
+      "ru": "природа",
+      "audio": "tr/3-21/w01.mp3"
+    },
+    {
+      "id": "tr-3-21-w02",
+      "text": "dağ",
+      "ru": "гора",
+      "audio": "tr/3-21/w02.mp3"
+    },
+    {
+      "id": "tr-3-21-w03",
+      "text": "deniz",
+      "ru": "море",
+      "audio": "tr/3-21/w03.mp3"
+    },
+    {
+      "id": "tr-3-21-w04",
+      "text": "göl",
+      "ru": "озеро",
+      "audio": "tr/3-21/w04.mp3"
+    },
+    {
+      "id": "tr-3-21-w05",
+      "text": "nehir",
+      "ru": "река",
+      "audio": "tr/3-21/w05.mp3"
+    },
+    {
+      "id": "tr-3-21-w06",
+      "text": "orman",
+      "ru": "лес",
+      "audio": "tr/3-21/w06.mp3"
+    },
+    {
+      "id": "tr-3-21-w07",
+      "text": "ada",
+      "ru": "остров",
+      "audio": "tr/3-21/w07.mp3"
+    },
+    {
+      "id": "tr-3-21-w08",
+      "text": "çöl",
+      "ru": "пустыня",
+      "audio": "tr/3-21/w08.mp3"
+    },
+    {
+      "id": "tr-3-21-w09",
+      "text": "çimen",
+      "ru": "трава",
+      "audio": "tr/3-21/w09.mp3"
+    },
+    {
+      "id": "tr-3-21-w10",
+      "text": "taş",
+      "ru": "камень",
+      "audio": "tr/3-21/w10.mp3"
+    },
+    {
+      "id": "tr-3-21-w11",
+      "text": "kum",
+      "ru": "песок",
+      "audio": "tr/3-21/w11.mp3"
+    },
+    {
+      "id": "tr-3-21-w12",
+      "text": "hava",
+      "ru": "погода, воздух",
+      "audio": "tr/3-21/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

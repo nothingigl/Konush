@@ -1,0 +1,99 @@
+{
+  "id": "en-2-7",
+  "course": "en",
+  "section": 2,
+  "order": 7,
+  "slug": "2-7-discuss-a-trip",
+  "title_ru": "Поездка",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-7-w01",
+      "text": "trip",
+      "ru": "поездка",
+      "audio": "en/2-7/w01.mp3"
+    },
+    {
+      "id": "en-2-7-w02",
+      "text": "bus",
+      "ru": "автобус",
+      "audio": "en/2-7/w02.mp3"
+    },
+    {
+      "id": "en-2-7-w03",
+      "text": "train",
+      "ru": "поезд",
+      "audio": "en/2-7/w03.mp3"
+    },
+    {
+      "id": "en-2-7-w04",
+      "text": "ticket",
+      "ru": "билет",
+      "audio": "en/2-7/w04.mp3"
+    },
+    {
+      "id": "en-2-7-w05",
+      "text": "luggage",
+      "ru": "багаж",
+      "audio": "en/2-7/w05.mp3"
+    },
+    {
+      "id": "en-2-7-w06",
+      "text": "map",
+      "ru": "карта",
+      "audio": "en/2-7/w06.mp3"
+    },
+    {
+      "id": "en-2-7-w07",
+      "text": "passport",
+      "ru": "паспорт",
+      "audio": "en/2-7/w07.mp3"
+    },
+    {
+      "id": "en-2-7-w08",
+      "text": "airport",
+      "ru": "аэропорт",
+      "audio": "en/2-7/w08.mp3"
+    },
+    {
+      "id": "en-2-7-w09",
+      "text": "taxi",
+      "ru": "такси",
+      "audio": "en/2-7/w09.mp3"
+    },
+    {
+      "id": "en-2-7-w10",
+      "text": "arrive",
+      "ru": "прибывать",
+      "audio": "en/2-7/w10.mp3"
+    },
+    {
+      "id": "en-2-7-w11",
+      "text": "leave",
+      "ru": "уезжать",
+      "audio": "en/2-7/w11.mp3"
+    },
+    {
+      "id": "en-2-7-w12",
+      "text": "tourist",
+      "ru": "турист",
+      "audio": "en/2-7/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

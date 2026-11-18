@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-8",
+  "course": "tr",
+  "section": 3,
+  "order": 8,
+  "slug": "3-8-polite-requests",
+  "title_ru": "Вежливые просьбы и предложения",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-8-w01",
+      "text": "buyurun",
+      "ru": "пожалуйста (прошу)",
+      "audio": "tr/3-8/w01.mp3"
+    },
+    {
+      "id": "tr-3-8-w02",
+      "text": "rica etmek",
+      "ru": "просить",
+      "audio": "tr/3-8/w02.mp3"
+    },
+    {
+      "id": "tr-3-8-w03",
+      "text": "zahmet olmazsa",
+      "ru": "если не затруднит",
+      "audio": "tr/3-8/w03.mp3"
+    },
+    {
+      "id": "tr-3-8-w04",
+      "text": "sorun değil",
+      "ru": "не проблема",
+      "audio": "tr/3-8/w04.mp3"
+    },
+    {
+      "id": "tr-3-8-w05",
+      "text": "ödünç almak",
+      "ru": "брать взаймы",
+      "audio": "tr/3-8/w05.mp3"
+    },
+    {
+      "id": "tr-3-8-w06",
+      "text": "alabilir miyim",
+      "ru": "можно взять",
+      "audio": "tr/3-8/w06.mp3"
+    },
+    {
+      "id": "tr-3-8-w07",
+      "text": "ister misiniz",
+      "ru": "хотите",
+      "audio": "tr/3-8/w07.mp3"
+    },
+    {
+      "id": "tr-3-8-w08",
+      "text": "bakar mısınız",
+      "ru": "позвольте обратиться",
+      "audio": "tr/3-8/w08.mp3"
+    },
+    {
+      "id": "tr-3-8-w09",
+      "text": "bir saniye",
+      "ru": "секундочку",
+      "audio": "tr/3-8/w09.mp3"
+    },
+    {
+      "id": "tr-3-8-w10",
+      "text": "tekrar edebilir misiniz",
+      "ru": "повторите, пожалуйста",
+      "audio": "tr/3-8/w10.mp3"
+    },
+    {
+      "id": "tr-3-8-w11",
+      "text": "yardım edebilir miyim",
+      "ru": "могу помочь",
+      "audio": "tr/3-8/w11.mp3"
+    },
+    {
+      "id": "tr-3-8-w12",
+      "text": "pardon",
+      "ru": "простите",
+      "audio": "tr/3-8/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

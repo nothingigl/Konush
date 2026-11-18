@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-7",
+  "course": "tr",
+  "section": 3,
+  "order": 7,
+  "slug": "3-7-accepting-and-declining",
+  "title_ru": "Согласиться и отказаться",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-7-w01",
+      "text": "olur",
+      "ru": "ладно",
+      "audio": "tr/3-7/w01.mp3"
+    },
+    {
+      "id": "tr-3-7-w02",
+      "text": "memnuniyetle",
+      "ru": "с удовольствием",
+      "audio": "tr/3-7/w02.mp3"
+    },
+    {
+      "id": "tr-3-7-w03",
+      "text": "maalesef",
+      "ru": "к сожалению",
+      "audio": "tr/3-7/w03.mp3"
+    },
+    {
+      "id": "tr-3-7-w04",
+      "text": "müsait",
+      "ru": "свободен",
+      "audio": "tr/3-7/w04.mp3"
+    },
+    {
+      "id": "tr-3-7-w05",
+      "text": "başka zaman",
+      "ru": "в другой раз",
+      "audio": "tr/3-7/w05.mp3"
+    },
+    {
+      "id": "tr-3-7-w06",
+      "text": "kabul etmek",
+      "ru": "принимать",
+      "audio": "tr/3-7/w06.mp3"
+    },
+    {
+      "id": "tr-3-7-w07",
+      "text": "reddetmek",
+      "ru": "отклонять",
+      "audio": "tr/3-7/w07.mp3"
+    },
+    {
+      "id": "tr-3-7-w08",
+      "text": "ertelemek",
+      "ru": "отложить",
+      "audio": "tr/3-7/w08.mp3"
+    },
+    {
+      "id": "tr-3-7-w09",
+      "text": "çok isterdim",
+      "ru": "очень хотел бы",
+      "audio": "tr/3-7/w09.mp3"
+    },
+    {
+      "id": "tr-3-7-w10",
+      "text": "sağ ol",
+      "ru": "спасибо (неформ.)",
+      "audio": "tr/3-7/w10.mp3"
+    },
+    {
+      "id": "tr-3-7-w11",
+      "text": "yazık",
+      "ru": "жаль",
+      "audio": "tr/3-7/w11.mp3"
+    },
+    {
+      "id": "tr-3-7-w12",
+      "text": "bir dahaki sefer",
+      "ru": "в следующий раз",
+      "audio": "tr/3-7/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "en-3-4",
+  "course": "en",
+  "section": 3,
+  "order": 4,
+  "slug": "3-4-talk-about-family-part-2",
+  "title_ru": "Семья (часть 2)",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-4-w01",
+      "text": "uncle",
+      "ru": "дядя",
+      "audio": "en/3-4/w01.mp3"
+    },
+    {
+      "id": "en-3-4-w02",
+      "text": "aunt",
+      "ru": "тётя",
+      "audio": "en/3-4/w02.mp3"
+    },
+    {
+      "id": "en-3-4-w03",
+      "text": "cousin",
+      "ru": "двоюродный брат, сестра",
+      "audio": "en/3-4/w03.mp3"
+    },
+    {
+      "id": "en-3-4-w04",
+      "text": "nephew",
+      "ru": "племянник",
+      "audio": "en/3-4/w04.mp3"
+    },
+    {
+      "id": "en-3-4-w05",
+      "text": "niece",
+      "ru": "племянница",
+      "audio": "en/3-4/w05.mp3"
+    },
+    {
+      "id": "en-3-4-w06",
+      "text": "grandson",
+      "ru": "внук",
+      "audio": "en/3-4/w06.mp3"
+    },
+    {
+      "id": "en-3-4-w07",
+      "text": "granddaughter",
+      "ru": "внучка",
+      "audio": "en/3-4/w07.mp3"
+    },
+    {
+      "id": "en-3-4-w08",
+      "text": "relatives",
+      "ru": "родственники",
+      "audio": "en/3-4/w08.mp3"
+    },
+    {
+      "id": "en-3-4-w09",
+      "text": "twins",
+      "ru": "близнецы",
+      "audio": "en/3-4/w09.mp3"
+    },
+    {
+      "id": "en-3-4-w10",
+      "text": "baby",
+      "ru": "малыш",
+      "audio": "en/3-4/w10.mp3"
+    },
+    {
+      "id": "en-3-4-w11",
+      "text": "oldest",
+      "ru": "самый старший",
+      "audio": "en/3-4/w11.mp3"
+    },
+    {
+      "id": "en-3-4-w12",
+      "text": "youngest",
+      "ru": "самый младший",
+      "audio": "en/3-4/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

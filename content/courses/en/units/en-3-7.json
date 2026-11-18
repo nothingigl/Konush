@@ -1,0 +1,99 @@
+{
+  "id": "en-3-7",
+  "course": "en",
+  "section": 3,
+  "order": 7,
+  "slug": "3-7-talk-about-movies",
+  "title_ru": "Кино",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-7-w01",
+      "text": "movie",
+      "ru": "фильм",
+      "audio": "en/3-7/w01.mp3"
+    },
+    {
+      "id": "en-3-7-w02",
+      "text": "actor",
+      "ru": "актёр",
+      "audio": "en/3-7/w02.mp3"
+    },
+    {
+      "id": "en-3-7-w03",
+      "text": "actress",
+      "ru": "актриса",
+      "audio": "en/3-7/w03.mp3"
+    },
+    {
+      "id": "en-3-7-w04",
+      "text": "story",
+      "ru": "сюжет, история",
+      "audio": "en/3-7/w04.mp3"
+    },
+    {
+      "id": "en-3-7-w05",
+      "text": "scene",
+      "ru": "сцена",
+      "audio": "en/3-7/w05.mp3"
+    },
+    {
+      "id": "en-3-7-w06",
+      "text": "funny",
+      "ru": "смешной",
+      "audio": "en/3-7/w06.mp3"
+    },
+    {
+      "id": "en-3-7-w07",
+      "text": "scary",
+      "ru": "страшный",
+      "audio": "en/3-7/w07.mp3"
+    },
+    {
+      "id": "en-3-7-w08",
+      "text": "comedy",
+      "ru": "комедия",
+      "audio": "en/3-7/w08.mp3"
+    },
+    {
+      "id": "en-3-7-w09",
+      "text": "ending",
+      "ru": "концовка",
+      "audio": "en/3-7/w09.mp3"
+    },
+    {
+      "id": "en-3-7-w10",
+      "text": "cinema",
+      "ru": "кинотеатр",
+      "audio": "en/3-7/w10.mp3"
+    },
+    {
+      "id": "en-3-7-w11",
+      "text": "director",
+      "ru": "режиссёр",
+      "audio": "en/3-7/w11.mp3"
+    },
+    {
+      "id": "en-3-7-w12",
+      "text": "character",
+      "ru": "персонаж",
+      "audio": "en/3-7/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

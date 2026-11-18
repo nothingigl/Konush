@@ -1,0 +1,99 @@
+{
+  "id": "en-3-13",
+  "course": "en",
+  "section": 3,
+  "order": 13,
+  "slug": "3-13-talk-about-how-things-are-going",
+  "title_ru": "Как дела",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-13-w01",
+      "text": "how are you",
+      "ru": "как дела",
+      "audio": "en/3-13/w01.mp3"
+    },
+    {
+      "id": "en-3-13-w02",
+      "text": "fine",
+      "ru": "хорошо",
+      "audio": "en/3-13/w02.mp3"
+    },
+    {
+      "id": "en-3-13-w03",
+      "text": "great",
+      "ru": "отлично",
+      "audio": "en/3-13/w03.mp3"
+    },
+    {
+      "id": "en-3-13-w04",
+      "text": "so-so",
+      "ru": "так себе",
+      "audio": "en/3-13/w04.mp3"
+    },
+    {
+      "id": "en-3-13-w05",
+      "text": "not bad",
+      "ru": "неплохо",
+      "audio": "en/3-13/w05.mp3"
+    },
+    {
+      "id": "en-3-13-w06",
+      "text": "lately",
+      "ru": "в последнее время",
+      "audio": "en/3-13/w06.mp3"
+    },
+    {
+      "id": "en-3-13-w07",
+      "text": "still",
+      "ru": "всё ещё",
+      "audio": "en/3-13/w07.mp3"
+    },
+    {
+      "id": "en-3-13-w08",
+      "text": "as usual",
+      "ru": "как обычно",
+      "audio": "en/3-13/w08.mp3"
+    },
+    {
+      "id": "en-3-13-w09",
+      "text": "stressed",
+      "ru": "в стрессе",
+      "audio": "en/3-13/w09.mp3"
+    },
+    {
+      "id": "en-3-13-w10",
+      "text": "worried",
+      "ru": "обеспокоенный",
+      "audio": "en/3-13/w10.mp3"
+    },
+    {
+      "id": "en-3-13-w11",
+      "text": "relaxed",
+      "ru": "расслабленный",
+      "audio": "en/3-13/w11.mp3"
+    },
+    {
+      "id": "en-3-13-w12",
+      "text": "and you",
+      "ru": "а у тебя",
+      "audio": "en/3-13/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "en-3-23",
+  "course": "en",
+  "section": 3,
+  "order": 23,
+  "slug": "3-23-describe-a-summer-camp",
+  "title_ru": "Летний лагерь",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-23-w01",
+      "text": "camp",
+      "ru": "лагерь",
+      "audio": "en/3-23/w01.mp3"
+    },
+    {
+      "id": "en-3-23-w02",
+      "text": "tent",
+      "ru": "палатка",
+      "audio": "en/3-23/w02.mp3"
+    },
+    {
+      "id": "en-3-23-w03",
+      "text": "campfire",
+      "ru": "костёр",
+      "audio": "en/3-23/w03.mp3"
+    },
+    {
+      "id": "en-3-23-w04",
+      "text": "counselor",
+      "ru": "вожатый",
+      "audio": "en/3-23/w04.mp3"
+    },
+    {
+      "id": "en-3-23-w05",
+      "text": "canoe",
+      "ru": "каноэ",
+      "audio": "en/3-23/w05.mp3"
+    },
+    {
+      "id": "en-3-23-w06",
+      "text": "cabin",
+      "ru": "домик",
+      "audio": "en/3-23/w06.mp3"
+    },
+    {
+      "id": "en-3-23-w07",
+      "text": "flashlight",
+      "ru": "фонарик",
+      "audio": "en/3-23/w07.mp3"
+    },
+    {
+      "id": "en-3-23-w08",
+      "text": "sleeping bag",
+      "ru": "спальный мешок",
+      "audio": "en/3-23/w08.mp3"
+    },
+    {
+      "id": "en-3-23-w09",
+      "text": "hiking",
+      "ru": "поход",
+      "audio": "en/3-23/w09.mp3"
+    },
+    {
+      "id": "en-3-23-w10",
+      "text": "marshmallow",
+      "ru": "зефир",
+      "audio": "en/3-23/w10.mp3"
+    },
+    {
+      "id": "en-3-23-w11",
+      "text": "backpack",
+      "ru": "рюкзак",
+      "audio": "en/3-23/w11.mp3"
+    },
+    {
+      "id": "en-3-23-w12",
+      "text": "forest",
+      "ru": "лес",
+      "audio": "en/3-23/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}
