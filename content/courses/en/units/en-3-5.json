@@ -1,0 +1,99 @@
+{
+  "id": "en-3-5",
+  "course": "en",
+  "section": 3,
+  "order": 5,
+  "slug": "3-5-describe-a-vacation",
+  "title_ru": "Отпуск (прошедшее время)",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-5-w01",
+      "text": "last summer",
+      "ru": "прошлым летом",
+      "audio": "en/3-5/w01.mp3"
+    },
+    {
+      "id": "en-3-5-w02",
+      "text": "went",
+      "ru": "ездил (от go)",
+      "audio": "en/3-5/w02.mp3"
+    },
+    {
+      "id": "en-3-5-w03",
+      "text": "swam",
+      "ru": "плавал (от swim)",
+      "audio": "en/3-5/w03.mp3"
+    },
+    {
+      "id": "en-3-5-w04",
+      "text": "took photos",
+      "ru": "делал фото",
+      "audio": "en/3-5/w04.mp3"
+    },
+    {
+      "id": "en-3-5-w05",
+      "text": "sunset",
+      "ru": "закат",
+      "audio": "en/3-5/w05.mp3"
+    },
+    {
+      "id": "en-3-5-w06",
+      "text": "view",
+      "ru": "вид",
+      "audio": "en/3-5/w06.mp3"
+    },
+    {
+      "id": "en-3-5-w07",
+      "text": "mountains",
+      "ru": "горы",
+      "audio": "en/3-5/w07.mp3"
+    },
+    {
+      "id": "en-3-5-w08",
+      "text": "tired",
+      "ru": "уставший",
+      "audio": "en/3-5/w08.mp3"
+    },
+    {
+      "id": "en-3-5-w09",
+      "text": "wonderful",
+      "ru": "чудесный",
+      "audio": "en/3-5/w09.mp3"
+    },
+    {
+      "id": "en-3-5-w10",
+      "text": "visited",
+      "ru": "посетил",
+      "audio": "en/3-5/w10.mp3"
+    },
+    {
+      "id": "en-3-5-w11",
+      "text": "stayed",
+      "ru": "остановился",
+      "audio": "en/3-5/w11.mp3"
+    },
+    {
+      "id": "en-3-5-w12",
+      "text": "enjoyed",
+      "ru": "наслаждался",
+      "audio": "en/3-5/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

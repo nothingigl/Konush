@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-7",
+  "course": "tr",
+  "section": 2,
+  "order": 7,
+  "slug": "2-7-present-continuous",
+  "title_ru": "Что происходит сейчас",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-7-w01",
+      "text": "gelmek",
+      "ru": "приходить",
+      "audio": "tr/2-7/w01.mp3"
+    },
+    {
+      "id": "tr-2-7-w02",
+      "text": "gitmek",
+      "ru": "идти/ехать",
+      "audio": "tr/2-7/w02.mp3"
+    },
+    {
+      "id": "tr-2-7-w03",
+      "text": "beklemek",
+      "ru": "ждать",
+      "audio": "tr/2-7/w03.mp3"
+    },
+    {
+      "id": "tr-2-7-w04",
+      "text": "oynamak",
+      "ru": "играть",
+      "audio": "tr/2-7/w04.mp3"
+    },
+    {
+      "id": "tr-2-7-w05",
+      "text": "koşmak",
+      "ru": "бежать",
+      "audio": "tr/2-7/w05.mp3"
+    },
+    {
+      "id": "tr-2-7-w06",
+      "text": "yürümek",
+      "ru": "идти пешком",
+      "audio": "tr/2-7/w06.mp3"
+    },
+    {
+      "id": "tr-2-7-w07",
+      "text": "yazmak",
+      "ru": "писать",
+      "audio": "tr/2-7/w07.mp3"
+    },
+    {
+      "id": "tr-2-7-w08",
+      "text": "konuşmak",
+      "ru": "говорить",
+      "audio": "tr/2-7/w08.mp3"
+    },
+    {
+      "id": "tr-2-7-w09",
+      "text": "dinlemek",
+      "ru": "слушать",
+      "audio": "tr/2-7/w09.mp3"
+    },
+    {
+      "id": "tr-2-7-w10",
+      "text": "izlemek",
+      "ru": "смотреть",
+      "audio": "tr/2-7/w10.mp3"
+    },
+    {
+      "id": "tr-2-7-w11",
+      "text": "bakmak",
+      "ru": "смотреть (на)",
+      "audio": "tr/2-7/w11.mp3"
+    },
+    {
+      "id": "tr-2-7-w12",
+      "text": "yapmak",
+      "ru": "делать",
+      "audio": "tr/2-7/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

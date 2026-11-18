@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-13",
+  "course": "tr",
+  "section": 2,
+  "order": 13,
+  "slug": "2-13-locations-and-positions",
+  "title_ru": "Где что находится?",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-13-w01",
+      "text": "üst",
+      "ru": "верх",
+      "audio": "tr/2-13/w01.mp3"
+    },
+    {
+      "id": "tr-2-13-w02",
+      "text": "alt",
+      "ru": "низ",
+      "audio": "tr/2-13/w02.mp3"
+    },
+    {
+      "id": "tr-2-13-w03",
+      "text": "ön",
+      "ru": "перед",
+      "audio": "tr/2-13/w03.mp3"
+    },
+    {
+      "id": "tr-2-13-w04",
+      "text": "arka",
+      "ru": "зад",
+      "audio": "tr/2-13/w04.mp3"
+    },
+    {
+      "id": "tr-2-13-w05",
+      "text": "yan",
+      "ru": "бок/рядом",
+      "audio": "tr/2-13/w05.mp3"
+    },
+    {
+      "id": "tr-2-13-w06",
+      "text": "iç",
+      "ru": "внутри",
+      "audio": "tr/2-13/w06.mp3"
+    },
+    {
+      "id": "tr-2-13-w07",
+      "text": "dış",
+      "ru": "снаружи",
+      "audio": "tr/2-13/w07.mp3"
+    },
+    {
+      "id": "tr-2-13-w08",
+      "text": "orta",
+      "ru": "середина",
+      "audio": "tr/2-13/w08.mp3"
+    },
+    {
+      "id": "tr-2-13-w09",
+      "text": "karşı",
+      "ru": "напротив",
+      "audio": "tr/2-13/w09.mp3"
+    },
+    {
+      "id": "tr-2-13-w10",
+      "text": "sağ",
+      "ru": "право",
+      "audio": "tr/2-13/w10.mp3"
+    },
+    {
+      "id": "tr-2-13-w11",
+      "text": "sol",
+      "ru": "лево",
+      "audio": "tr/2-13/w11.mp3"
+    },
+    {
+      "id": "tr-2-13-w12",
+      "text": "köşe",
+      "ru": "угол",
+      "audio": "tr/2-13/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

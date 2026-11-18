@@ -1,0 +1,99 @@
+{
+  "id": "en-2-14",
+  "course": "en",
+  "section": 2,
+  "order": 14,
+  "slug": "2-14-discuss-a-birthday",
+  "title_ru": "День рождения",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-14-w01",
+      "text": "birthday",
+      "ru": "день рождения",
+      "audio": "en/2-14/w01.mp3"
+    },
+    {
+      "id": "en-2-14-w02",
+      "text": "present",
+      "ru": "подарок",
+      "audio": "en/2-14/w02.mp3"
+    },
+    {
+      "id": "en-2-14-w03",
+      "text": "balloon",
+      "ru": "воздушный шар",
+      "audio": "en/2-14/w03.mp3"
+    },
+    {
+      "id": "en-2-14-w04",
+      "text": "party",
+      "ru": "вечеринка",
+      "audio": "en/2-14/w04.mp3"
+    },
+    {
+      "id": "en-2-14-w05",
+      "text": "guest",
+      "ru": "гость",
+      "audio": "en/2-14/w05.mp3"
+    },
+    {
+      "id": "en-2-14-w06",
+      "text": "celebrate",
+      "ru": "праздновать",
+      "audio": "en/2-14/w06.mp3"
+    },
+    {
+      "id": "en-2-14-w07",
+      "text": "congratulations",
+      "ru": "поздравляю",
+      "audio": "en/2-14/w07.mp3"
+    },
+    {
+      "id": "en-2-14-w08",
+      "text": "wish",
+      "ru": "желание",
+      "audio": "en/2-14/w08.mp3"
+    },
+    {
+      "id": "en-2-14-w09",
+      "text": "candles",
+      "ru": "свечи",
+      "audio": "en/2-14/w09.mp3"
+    },
+    {
+      "id": "en-2-14-w10",
+      "text": "turn",
+      "ru": "исполняться (о возрасте)",
+      "audio": "en/2-14/w10.mp3"
+    },
+    {
+      "id": "en-2-14-w11",
+      "text": "happy birthday",
+      "ru": "с днём рождения",
+      "audio": "en/2-14/w11.mp3"
+    },
+    {
+      "id": "en-2-14-w12",
+      "text": "surprise",
+      "ru": "сюрприз",
+      "audio": "en/2-14/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

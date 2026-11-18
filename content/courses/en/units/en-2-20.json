@@ -1,0 +1,99 @@
+{
+  "id": "en-2-20",
+  "course": "en",
+  "section": 2,
+  "order": 20,
+  "slug": "2-20-talk-about-shopping",
+  "title_ru": "Покупки",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-20-w01",
+      "text": "buy",
+      "ru": "покупать",
+      "audio": "en/2-20/w01.mp3"
+    },
+    {
+      "id": "en-2-20-w02",
+      "text": "sell",
+      "ru": "продавать",
+      "audio": "en/2-20/w02.mp3"
+    },
+    {
+      "id": "en-2-20-w03",
+      "text": "discount",
+      "ru": "скидка",
+      "audio": "en/2-20/w03.mp3"
+    },
+    {
+      "id": "en-2-20-w04",
+      "text": "receipt",
+      "ru": "чек",
+      "audio": "en/2-20/w04.mp3"
+    },
+    {
+      "id": "en-2-20-w05",
+      "text": "cash",
+      "ru": "наличные",
+      "audio": "en/2-20/w05.mp3"
+    },
+    {
+      "id": "en-2-20-w06",
+      "text": "card",
+      "ru": "карта",
+      "audio": "en/2-20/w06.mp3"
+    },
+    {
+      "id": "en-2-20-w07",
+      "text": "try on",
+      "ru": "примерять",
+      "audio": "en/2-20/w07.mp3"
+    },
+    {
+      "id": "en-2-20-w08",
+      "text": "mall",
+      "ru": "торговый центр",
+      "audio": "en/2-20/w08.mp3"
+    },
+    {
+      "id": "en-2-20-w09",
+      "text": "customer",
+      "ru": "покупатель",
+      "audio": "en/2-20/w09.mp3"
+    },
+    {
+      "id": "en-2-20-w10",
+      "text": "pay",
+      "ru": "платить",
+      "audio": "en/2-20/w10.mp3"
+    },
+    {
+      "id": "en-2-20-w11",
+      "text": "sale",
+      "ru": "распродажа",
+      "audio": "en/2-20/w11.mp3"
+    },
+    {
+      "id": "en-2-20-w12",
+      "text": "change",
+      "ru": "сдача",
+      "audio": "en/2-20/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

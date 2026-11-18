@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-26",
+  "course": "tr",
+  "section": 2,
+  "order": 26,
+  "slug": "2-26-weather-right-now",
+  "title_ru": "Что происходит прямо сейчас",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-26-w01",
+      "text": "şu anda",
+      "ru": "прямо сейчас",
+      "audio": "tr/2-26/w01.mp3"
+    },
+    {
+      "id": "tr-2-26-w02",
+      "text": "yağmur",
+      "ru": "дождь",
+      "audio": "tr/2-26/w02.mp3"
+    },
+    {
+      "id": "tr-2-26-w03",
+      "text": "kar",
+      "ru": "снег",
+      "audio": "tr/2-26/w03.mp3"
+    },
+    {
+      "id": "tr-2-26-w04",
+      "text": "rüzgâr",
+      "ru": "ветер",
+      "audio": "tr/2-26/w04.mp3"
+    },
+    {
+      "id": "tr-2-26-w05",
+      "text": "güneş",
+      "ru": "солнце",
+      "audio": "tr/2-26/w05.mp3"
+    },
+    {
+      "id": "tr-2-26-w06",
+      "text": "bulut",
+      "ru": "облако",
+      "audio": "tr/2-26/w06.mp3"
+    },
+    {
+      "id": "tr-2-26-w07",
+      "text": "yağmak",
+      "ru": "идти (дождь, снег)",
+      "audio": "tr/2-26/w07.mp3"
+    },
+    {
+      "id": "tr-2-26-w08",
+      "text": "esmek",
+      "ru": "дуть",
+      "audio": "tr/2-26/w08.mp3"
+    },
+    {
+      "id": "tr-2-26-w09",
+      "text": "parlamak",
+      "ru": "сиять",
+      "audio": "tr/2-26/w09.mp3"
+    },
+    {
+      "id": "tr-2-26-w10",
+      "text": "uyanmak",
+      "ru": "просыпаться",
+      "audio": "tr/2-26/w10.mp3"
+    },
+    {
+      "id": "tr-2-26-w11",
+      "text": "hazırlanmak",
+      "ru": "готовиться",
+      "audio": "tr/2-26/w11.mp3"
+    },
+    {
+      "id": "tr-2-26-w12",
+      "text": "pişirmek",
+      "ru": "готовить (варить)",
+      "audio": "tr/2-26/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

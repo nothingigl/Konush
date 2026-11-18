@@ -1,0 +1,99 @@
+{
+  "id": "en-3-20",
+  "course": "en",
+  "section": 3,
+  "order": 20,
+  "slug": "3-20-discuss-personal-life-part-2",
+  "title_ru": "Личная жизнь (часть 2)",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-20-w01",
+      "text": "feelings",
+      "ru": "чувства",
+      "audio": "en/3-20/w01.mp3"
+    },
+    {
+      "id": "en-3-20-w02",
+      "text": "trust",
+      "ru": "доверять",
+      "audio": "en/3-20/w02.mp3"
+    },
+    {
+      "id": "en-3-20-w03",
+      "text": "secret",
+      "ru": "секрет",
+      "audio": "en/3-20/w03.mp3"
+    },
+    {
+      "id": "en-3-20-w04",
+      "text": "argue",
+      "ru": "спорить",
+      "audio": "en/3-20/w04.mp3"
+    },
+    {
+      "id": "en-3-20-w05",
+      "text": "forgive",
+      "ru": "прощать",
+      "audio": "en/3-20/w05.mp3"
+    },
+    {
+      "id": "en-3-20-w06",
+      "text": "miss",
+      "ru": "скучать",
+      "audio": "en/3-20/w06.mp3"
+    },
+    {
+      "id": "en-3-20-w07",
+      "text": "love",
+      "ru": "любить",
+      "audio": "en/3-20/w07.mp3"
+    },
+    {
+      "id": "en-3-20-w08",
+      "text": "lonely",
+      "ru": "одинокий",
+      "audio": "en/3-20/w08.mp3"
+    },
+    {
+      "id": "en-3-20-w09",
+      "text": "jealous",
+      "ru": "ревнивый",
+      "audio": "en/3-20/w09.mp3"
+    },
+    {
+      "id": "en-3-20-w10",
+      "text": "honest",
+      "ru": "честный",
+      "audio": "en/3-20/w10.mp3"
+    },
+    {
+      "id": "en-3-20-w11",
+      "text": "support",
+      "ru": "поддержка",
+      "audio": "en/3-20/w11.mp3"
+    },
+    {
+      "id": "en-3-20-w12",
+      "text": "relationship",
+      "ru": "отношения",
+      "audio": "en/3-20/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "en-1-8",
+  "course": "en",
+  "section": 1,
+  "order": 8,
+  "slug": "1-8-order-food-and-drinks",
+  "title_ru": "Еда и напитки",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-1-8-w01",
+      "text": "water",
+      "ru": "вода",
+      "audio": "en/1-8/w01.mp3"
+    },
+    {
+      "id": "en-1-8-w02",
+      "text": "tea",
+      "ru": "чай",
+      "audio": "en/1-8/w02.mp3"
+    },
+    {
+      "id": "en-1-8-w03",
+      "text": "coffee",
+      "ru": "кофе",
+      "audio": "en/1-8/w03.mp3"
+    },
+    {
+      "id": "en-1-8-w04",
+      "text": "juice",
+      "ru": "сок",
+      "audio": "en/1-8/w04.mp3"
+    },
+    {
+      "id": "en-1-8-w05",
+      "text": "milk",
+      "ru": "молоко",
+      "audio": "en/1-8/w05.mp3"
+    },
+    {
+      "id": "en-1-8-w06",
+      "text": "bread",
+      "ru": "хлеб",
+      "audio": "en/1-8/w06.mp3"
+    },
+    {
+      "id": "en-1-8-w07",
+      "text": "soup",
+      "ru": "суп",
+      "audio": "en/1-8/w07.mp3"
+    },
+    {
+      "id": "en-1-8-w08",
+      "text": "salad",
+      "ru": "салат",
+      "audio": "en/1-8/w08.mp3"
+    },
+    {
+      "id": "en-1-8-w09",
+      "text": "cake",
+      "ru": "торт",
+      "audio": "en/1-8/w09.mp3"
+    },
+    {
+      "id": "en-1-8-w10",
+      "text": "menu",
+      "ru": "меню",
+      "audio": "en/1-8/w10.mp3"
+    },
+    {
+      "id": "en-1-8-w11",
+      "text": "bill",
+      "ru": "счёт",
+      "audio": "en/1-8/w11.mp3"
+    },
+    {
+      "id": "en-1-8-w12",
+      "text": "I would like",
+      "ru": "я бы хотел",
+      "audio": "en/1-8/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

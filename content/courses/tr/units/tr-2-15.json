@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-15",
+  "course": "tr",
+  "section": 2,
+  "order": 15,
+  "slug": "2-15-complex-sentences",
+  "title_ru": "Сложные предложения",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-15-w01",
+      "text": "ve",
+      "ru": "и",
+      "audio": "tr/2-15/w01.mp3"
+    },
+    {
+      "id": "tr-2-15-w02",
+      "text": "ama",
+      "ru": "но",
+      "audio": "tr/2-15/w02.mp3"
+    },
+    {
+      "id": "tr-2-15-w03",
+      "text": "fakat",
+      "ru": "однако",
+      "audio": "tr/2-15/w03.mp3"
+    },
+    {
+      "id": "tr-2-15-w04",
+      "text": "çünkü",
+      "ru": "потому что",
+      "audio": "tr/2-15/w04.mp3"
+    },
+    {
+      "id": "tr-2-15-w05",
+      "text": "ya da",
+      "ru": "или",
+      "audio": "tr/2-15/w05.mp3"
+    },
+    {
+      "id": "tr-2-15-w06",
+      "text": "ayrıca",
+      "ru": "кроме того",
+      "audio": "tr/2-15/w06.mp3"
+    },
+    {
+      "id": "tr-2-15-w07",
+      "text": "sonra",
+      "ru": "потом",
+      "audio": "tr/2-15/w07.mp3"
+    },
+    {
+      "id": "tr-2-15-w08",
+      "text": "önce",
+      "ru": "сначала",
+      "audio": "tr/2-15/w08.mp3"
+    },
+    {
+      "id": "tr-2-15-w09",
+      "text": "yani",
+      "ru": "то есть",
+      "audio": "tr/2-15/w09.mp3"
+    },
+    {
+      "id": "tr-2-15-w10",
+      "text": "bu yüzden",
+      "ru": "поэтому",
+      "audio": "tr/2-15/w10.mp3"
+    },
+    {
+      "id": "tr-2-15-w11",
+      "text": "belki",
+      "ru": "может быть",
+      "audio": "tr/2-15/w11.mp3"
+    },
+    {
+      "id": "tr-2-15-w12",
+      "text": "için",
+      "ru": "для/ради",
+      "audio": "tr/2-15/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

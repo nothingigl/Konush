@@ -1,0 +1,99 @@
+{
+  "id": "tr-1-2",
+  "course": "tr",
+  "section": 1,
+  "order": 2,
+  "slug": "1-2-common-phrases",
+  "title_ru": "Распространённые фразы",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-1-2-w01",
+      "text": "merhaba",
+      "ru": "привет",
+      "audio": "tr/1-2/w01.mp3"
+    },
+    {
+      "id": "tr-1-2-w02",
+      "text": "günaydın",
+      "ru": "доброе утро",
+      "audio": "tr/1-2/w02.mp3"
+    },
+    {
+      "id": "tr-1-2-w03",
+      "text": "iyi akşamlar",
+      "ru": "добрый вечер",
+      "audio": "tr/1-2/w03.mp3"
+    },
+    {
+      "id": "tr-1-2-w04",
+      "text": "iyi geceler",
+      "ru": "спокойной ночи",
+      "audio": "tr/1-2/w04.mp3"
+    },
+    {
+      "id": "tr-1-2-w05",
+      "text": "evet",
+      "ru": "да",
+      "audio": "tr/1-2/w05.mp3"
+    },
+    {
+      "id": "tr-1-2-w06",
+      "text": "hayır",
+      "ru": "нет",
+      "audio": "tr/1-2/w06.mp3"
+    },
+    {
+      "id": "tr-1-2-w07",
+      "text": "lütfen",
+      "ru": "пожалуйста (просьба)",
+      "audio": "tr/1-2/w07.mp3"
+    },
+    {
+      "id": "tr-1-2-w08",
+      "text": "teşekkürler",
+      "ru": "спасибо",
+      "audio": "tr/1-2/w08.mp3"
+    },
+    {
+      "id": "tr-1-2-w09",
+      "text": "rica ederim",
+      "ru": "не за что",
+      "audio": "tr/1-2/w09.mp3"
+    },
+    {
+      "id": "tr-1-2-w10",
+      "text": "özür dilerim",
+      "ru": "прошу прощения",
+      "audio": "tr/1-2/w10.mp3"
+    },
+    {
+      "id": "tr-1-2-w11",
+      "text": "hoş geldiniz",
+      "ru": "добро пожаловать",
+      "audio": "tr/1-2/w11.mp3"
+    },
+    {
+      "id": "tr-1-2-w12",
+      "text": "görüşürüz",
+      "ru": "увидимся",
+      "audio": "tr/1-2/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

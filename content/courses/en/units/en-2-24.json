@@ -1,0 +1,99 @@
+{
+  "id": "en-2-24",
+  "course": "en",
+  "section": 2,
+  "order": 24,
+  "slug": "2-24-discuss-music",
+  "title_ru": "Музыка",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-24-w01",
+      "text": "song",
+      "ru": "песня",
+      "audio": "en/2-24/w01.mp3"
+    },
+    {
+      "id": "en-2-24-w02",
+      "text": "singer",
+      "ru": "певец",
+      "audio": "en/2-24/w02.mp3"
+    },
+    {
+      "id": "en-2-24-w03",
+      "text": "band",
+      "ru": "группа",
+      "audio": "en/2-24/w03.mp3"
+    },
+    {
+      "id": "en-2-24-w04",
+      "text": "piano",
+      "ru": "пианино",
+      "audio": "en/2-24/w04.mp3"
+    },
+    {
+      "id": "en-2-24-w05",
+      "text": "concert",
+      "ru": "концерт",
+      "audio": "en/2-24/w05.mp3"
+    },
+    {
+      "id": "en-2-24-w06",
+      "text": "listen",
+      "ru": "слушать",
+      "audio": "en/2-24/w06.mp3"
+    },
+    {
+      "id": "en-2-24-w07",
+      "text": "loud",
+      "ru": "громкий",
+      "audio": "en/2-24/w07.mp3"
+    },
+    {
+      "id": "en-2-24-w08",
+      "text": "quiet",
+      "ru": "тихий",
+      "audio": "en/2-24/w08.mp3"
+    },
+    {
+      "id": "en-2-24-w09",
+      "text": "drums",
+      "ru": "барабаны",
+      "audio": "en/2-24/w09.mp3"
+    },
+    {
+      "id": "en-2-24-w10",
+      "text": "voice",
+      "ru": "голос",
+      "audio": "en/2-24/w10.mp3"
+    },
+    {
+      "id": "en-2-24-w11",
+      "text": "album",
+      "ru": "альбом",
+      "audio": "en/2-24/w11.mp3"
+    },
+    {
+      "id": "en-2-24-w12",
+      "text": "lyrics",
+      "ru": "слова песни",
+      "audio": "en/2-24/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

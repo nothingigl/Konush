@@ -1,0 +1,99 @@
+{
+  "id": "en-1-6",
+  "course": "en",
+  "section": 1,
+  "order": 6,
+  "slug": "1-6-introduce-friends",
+  "title_ru": "Друзья",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-1-6-w01",
+      "text": "friend",
+      "ru": "друг",
+      "audio": "en/1-6/w01.mp3"
+    },
+    {
+      "id": "en-1-6-w02",
+      "text": "this is",
+      "ru": "это",
+      "audio": "en/1-6/w02.mp3"
+    },
+    {
+      "id": "en-1-6-w03",
+      "text": "they",
+      "ru": "они",
+      "audio": "en/1-6/w03.mp3"
+    },
+    {
+      "id": "en-1-6-w04",
+      "text": "we",
+      "ru": "мы",
+      "audio": "en/1-6/w04.mp3"
+    },
+    {
+      "id": "en-1-6-w05",
+      "text": "boy",
+      "ru": "мальчик",
+      "audio": "en/1-6/w05.mp3"
+    },
+    {
+      "id": "en-1-6-w06",
+      "text": "girl",
+      "ru": "девочка",
+      "audio": "en/1-6/w06.mp3"
+    },
+    {
+      "id": "en-1-6-w07",
+      "text": "man",
+      "ru": "мужчина",
+      "audio": "en/1-6/w07.mp3"
+    },
+    {
+      "id": "en-1-6-w08",
+      "text": "woman",
+      "ru": "женщина",
+      "audio": "en/1-6/w08.mp3"
+    },
+    {
+      "id": "en-1-6-w09",
+      "text": "nice",
+      "ru": "приятный",
+      "audio": "en/1-6/w09.mp3"
+    },
+    {
+      "id": "en-1-6-w10",
+      "text": "too",
+      "ru": "тоже",
+      "audio": "en/1-6/w10.mp3"
+    },
+    {
+      "id": "en-1-6-w11",
+      "text": "neighbor",
+      "ru": "сосед",
+      "audio": "en/1-6/w11.mp3"
+    },
+    {
+      "id": "en-1-6-w12",
+      "text": "colleague",
+      "ru": "коллега",
+      "audio": "en/1-6/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

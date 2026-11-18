@@ -1,0 +1,99 @@
+{
+  "id": "en-3-14",
+  "course": "en",
+  "section": 3,
+  "order": 14,
+  "slug": "3-14-share-news",
+  "title_ru": "Новости",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-14-w01",
+      "text": "news",
+      "ru": "новости",
+      "audio": "en/3-14/w01.mp3"
+    },
+    {
+      "id": "en-3-14-w02",
+      "text": "good news",
+      "ru": "хорошая новость",
+      "audio": "en/3-14/w02.mp3"
+    },
+    {
+      "id": "en-3-14-w03",
+      "text": "surprised",
+      "ru": "удивлённый",
+      "audio": "en/3-14/w03.mp3"
+    },
+    {
+      "id": "en-3-14-w04",
+      "text": "finally",
+      "ru": "наконец",
+      "audio": "en/3-14/w04.mp3"
+    },
+    {
+      "id": "en-3-14-w05",
+      "text": "get a job",
+      "ru": "получить работу",
+      "audio": "en/3-14/w05.mp3"
+    },
+    {
+      "id": "en-3-14-w06",
+      "text": "engaged",
+      "ru": "помолвлен",
+      "audio": "en/3-14/w06.mp3"
+    },
+    {
+      "id": "en-3-14-w07",
+      "text": "promotion",
+      "ru": "повышение",
+      "audio": "en/3-14/w07.mp3"
+    },
+    {
+      "id": "en-3-14-w08",
+      "text": "move",
+      "ru": "переезжать",
+      "audio": "en/3-14/w08.mp3"
+    },
+    {
+      "id": "en-3-14-w09",
+      "text": "pass",
+      "ru": "сдать",
+      "audio": "en/3-14/w09.mp3"
+    },
+    {
+      "id": "en-3-14-w10",
+      "text": "win",
+      "ru": "выиграть",
+      "audio": "en/3-14/w10.mp3"
+    },
+    {
+      "id": "en-3-14-w11",
+      "text": "unexpected",
+      "ru": "неожиданный",
+      "audio": "en/3-14/w11.mp3"
+    },
+    {
+      "id": "en-3-14-w12",
+      "text": "tell",
+      "ru": "рассказывать",
+      "audio": "en/3-14/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

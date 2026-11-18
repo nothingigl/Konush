@@ -1,0 +1,99 @@
+{
+  "id": "en-2-13",
+  "course": "en",
+  "section": 2,
+  "order": 13,
+  "slug": "2-13-talk-about-groceries",
+  "title_ru": "Продукты",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-13-w01",
+      "text": "store",
+      "ru": "магазин",
+      "audio": "en/2-13/w01.mp3"
+    },
+    {
+      "id": "en-2-13-w02",
+      "text": "butter",
+      "ru": "масло",
+      "audio": "en/2-13/w02.mp3"
+    },
+    {
+      "id": "en-2-13-w03",
+      "text": "tomato",
+      "ru": "помидор",
+      "audio": "en/2-13/w03.mp3"
+    },
+    {
+      "id": "en-2-13-w04",
+      "text": "potato",
+      "ru": "картофель",
+      "audio": "en/2-13/w04.mp3"
+    },
+    {
+      "id": "en-2-13-w05",
+      "text": "price",
+      "ru": "цена",
+      "audio": "en/2-13/w05.mp3"
+    },
+    {
+      "id": "en-2-13-w06",
+      "text": "cheap",
+      "ru": "дешёвый",
+      "audio": "en/2-13/w06.mp3"
+    },
+    {
+      "id": "en-2-13-w07",
+      "text": "expensive",
+      "ru": "дорогой",
+      "audio": "en/2-13/w07.mp3"
+    },
+    {
+      "id": "en-2-13-w08",
+      "text": "basket",
+      "ru": "корзина",
+      "audio": "en/2-13/w08.mp3"
+    },
+    {
+      "id": "en-2-13-w09",
+      "text": "bag",
+      "ru": "пакет, сумка",
+      "audio": "en/2-13/w09.mp3"
+    },
+    {
+      "id": "en-2-13-w10",
+      "text": "cashier",
+      "ru": "кассир",
+      "audio": "en/2-13/w10.mp3"
+    },
+    {
+      "id": "en-2-13-w11",
+      "text": "fresh",
+      "ru": "свежий",
+      "audio": "en/2-13/w11.mp3"
+    },
+    {
+      "id": "en-2-13-w12",
+      "text": "how much",
+      "ru": "сколько стоит",
+      "audio": "en/2-13/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

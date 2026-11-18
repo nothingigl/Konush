@@ -1,0 +1,99 @@
+{
+  "id": "en-2-18",
+  "course": "en",
+  "section": 2,
+  "order": 18,
+  "slug": "2-18-talk-about-a-city",
+  "title_ru": "Город и дорога",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-18-w01",
+      "text": "museum",
+      "ru": "музей",
+      "audio": "en/2-18/w01.mp3"
+    },
+    {
+      "id": "en-2-18-w02",
+      "text": "theater",
+      "ru": "театр",
+      "audio": "en/2-18/w02.mp3"
+    },
+    {
+      "id": "en-2-18-w03",
+      "text": "bank",
+      "ru": "банк",
+      "audio": "en/2-18/w03.mp3"
+    },
+    {
+      "id": "en-2-18-w04",
+      "text": "post office",
+      "ru": "почта",
+      "audio": "en/2-18/w04.mp3"
+    },
+    {
+      "id": "en-2-18-w05",
+      "text": "market",
+      "ru": "рынок",
+      "audio": "en/2-18/w05.mp3"
+    },
+    {
+      "id": "en-2-18-w06",
+      "text": "castle",
+      "ru": "замок",
+      "audio": "en/2-18/w06.mp3"
+    },
+    {
+      "id": "en-2-18-w07",
+      "text": "famous",
+      "ru": "знаменитый",
+      "audio": "en/2-18/w07.mp3"
+    },
+    {
+      "id": "en-2-18-w08",
+      "text": "old town",
+      "ru": "старый город",
+      "audio": "en/2-18/w08.mp3"
+    },
+    {
+      "id": "en-2-18-w09",
+      "text": "corner",
+      "ru": "угол",
+      "audio": "en/2-18/w09.mp3"
+    },
+    {
+      "id": "en-2-18-w10",
+      "text": "turn left",
+      "ru": "повернуть налево",
+      "audio": "en/2-18/w10.mp3"
+    },
+    {
+      "id": "en-2-18-w11",
+      "text": "turn right",
+      "ru": "повернуть направо",
+      "audio": "en/2-18/w11.mp3"
+    },
+    {
+      "id": "en-2-18-w12",
+      "text": "straight",
+      "ru": "прямо",
+      "audio": "en/2-18/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

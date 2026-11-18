@@ -1,0 +1,99 @@
+{
+  "id": "en-3-8",
+  "course": "en",
+  "section": 3,
+  "order": 8,
+  "slug": "3-8-plan-a-flight",
+  "title_ru": "Перелёт",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-8-w01",
+      "text": "flight",
+      "ru": "рейс",
+      "audio": "en/3-8/w01.mp3"
+    },
+    {
+      "id": "en-3-8-w02",
+      "text": "plane",
+      "ru": "самолёт",
+      "audio": "en/3-8/w02.mp3"
+    },
+    {
+      "id": "en-3-8-w03",
+      "text": "gate",
+      "ru": "выход на посадку",
+      "audio": "en/3-8/w03.mp3"
+    },
+    {
+      "id": "en-3-8-w04",
+      "text": "boarding pass",
+      "ru": "посадочный талон",
+      "audio": "en/3-8/w04.mp3"
+    },
+    {
+      "id": "en-3-8-w05",
+      "text": "seat",
+      "ru": "место",
+      "audio": "en/3-8/w05.mp3"
+    },
+    {
+      "id": "en-3-8-w06",
+      "text": "delayed",
+      "ru": "задержан",
+      "audio": "en/3-8/w06.mp3"
+    },
+    {
+      "id": "en-3-8-w07",
+      "text": "pilot",
+      "ru": "пилот",
+      "audio": "en/3-8/w07.mp3"
+    },
+    {
+      "id": "en-3-8-w08",
+      "text": "passenger",
+      "ru": "пассажир",
+      "audio": "en/3-8/w08.mp3"
+    },
+    {
+      "id": "en-3-8-w09",
+      "text": "take off",
+      "ru": "взлетать",
+      "audio": "en/3-8/w09.mp3"
+    },
+    {
+      "id": "en-3-8-w10",
+      "text": "land",
+      "ru": "приземляться",
+      "audio": "en/3-8/w10.mp3"
+    },
+    {
+      "id": "en-3-8-w11",
+      "text": "security",
+      "ru": "досмотр",
+      "audio": "en/3-8/w11.mp3"
+    },
+    {
+      "id": "en-3-8-w12",
+      "text": "check-in",
+      "ru": "регистрация",
+      "audio": "en/3-8/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

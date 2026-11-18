@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-12",
+  "course": "tr",
+  "section": 3,
+  "order": 12,
+  "slug": "3-12-at-the-doctor",
+  "title_ru": "У врача",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-12-w01",
+      "text": "muayene",
+      "ru": "осмотр",
+      "audio": "tr/3-12/w01.mp3"
+    },
+    {
+      "id": "tr-3-12-w02",
+      "text": "şikâyet",
+      "ru": "жалоба",
+      "audio": "tr/3-12/w02.mp3"
+    },
+    {
+      "id": "tr-3-12-w03",
+      "text": "tahlil",
+      "ru": "анализ",
+      "audio": "tr/3-12/w03.mp3"
+    },
+    {
+      "id": "tr-3-12-w04",
+      "text": "tansiyon",
+      "ru": "давление",
+      "audio": "tr/3-12/w04.mp3"
+    },
+    {
+      "id": "tr-3-12-w05",
+      "text": "röntgen",
+      "ru": "рентген",
+      "audio": "tr/3-12/w05.mp3"
+    },
+    {
+      "id": "tr-3-12-w06",
+      "text": "tedavi",
+      "ru": "лечение",
+      "audio": "tr/3-12/w06.mp3"
+    },
+    {
+      "id": "tr-3-12-w07",
+      "text": "rapor",
+      "ru": "справка",
+      "audio": "tr/3-12/w07.mp3"
+    },
+    {
+      "id": "tr-3-12-w08",
+      "text": "alerji",
+      "ru": "аллергия",
+      "audio": "tr/3-12/w08.mp3"
+    },
+    {
+      "id": "tr-3-12-w09",
+      "text": "acil",
+      "ru": "срочный",
+      "audio": "tr/3-12/w09.mp3"
+    },
+    {
+      "id": "tr-3-12-w10",
+      "text": "ambulans",
+      "ru": "скорая помощь",
+      "audio": "tr/3-12/w10.mp3"
+    },
+    {
+      "id": "tr-3-12-w11",
+      "text": "ameliyat",
+      "ru": "операция",
+      "audio": "tr/3-12/w11.mp3"
+    },
+    {
+      "id": "tr-3-12-w12",
+      "text": "geçmiş olsun",
+      "ru": "выздоравливайте",
+      "audio": "tr/3-12/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

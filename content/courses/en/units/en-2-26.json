@@ -1,0 +1,99 @@
+{
+  "id": "en-2-26",
+  "course": "en",
+  "section": 2,
+  "order": 26,
+  "slug": "2-26-organize-a-trip",
+  "title_ru": "Организуйте поездку",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-26-w01",
+      "text": "plan",
+      "ru": "планировать",
+      "audio": "en/2-26/w01.mp3"
+    },
+    {
+      "id": "en-2-26-w02",
+      "text": "book",
+      "ru": "бронировать",
+      "audio": "en/2-26/w02.mp3"
+    },
+    {
+      "id": "en-2-26-w03",
+      "text": "route",
+      "ru": "маршрут",
+      "audio": "en/2-26/w03.mp3"
+    },
+    {
+      "id": "en-2-26-w04",
+      "text": "destination",
+      "ru": "пункт назначения",
+      "audio": "en/2-26/w04.mp3"
+    },
+    {
+      "id": "en-2-26-w05",
+      "text": "rent",
+      "ru": "арендовать",
+      "audio": "en/2-26/w05.mp3"
+    },
+    {
+      "id": "en-2-26-w06",
+      "text": "guide",
+      "ru": "гид",
+      "audio": "en/2-26/w06.mp3"
+    },
+    {
+      "id": "en-2-26-w07",
+      "text": "visa",
+      "ru": "виза",
+      "audio": "en/2-26/w07.mp3"
+    },
+    {
+      "id": "en-2-26-w08",
+      "text": "insurance",
+      "ru": "страховка",
+      "audio": "en/2-26/w08.mp3"
+    },
+    {
+      "id": "en-2-26-w09",
+      "text": "itinerary",
+      "ru": "программа поездки",
+      "audio": "en/2-26/w09.mp3"
+    },
+    {
+      "id": "en-2-26-w10",
+      "text": "budget",
+      "ru": "бюджет",
+      "audio": "en/2-26/w10.mp3"
+    },
+    {
+      "id": "en-2-26-w11",
+      "text": "adventure",
+      "ru": "приключение",
+      "audio": "en/2-26/w11.mp3"
+    },
+    {
+      "id": "en-2-26-w12",
+      "text": "depart",
+      "ru": "отправляться",
+      "audio": "en/2-26/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

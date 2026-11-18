@@ -1,0 +1,99 @@
+{
+  "id": "en-3-19",
+  "course": "en",
+  "section": 3,
+  "order": 19,
+  "slug": "3-19-talk-about-unusual-things",
+  "title_ru": "Необычное",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-19-w01",
+      "text": "strange",
+      "ru": "странный",
+      "audio": "en/3-19/w01.mp3"
+    },
+    {
+      "id": "en-3-19-w02",
+      "text": "unusual",
+      "ru": "необычный",
+      "audio": "en/3-19/w02.mp3"
+    },
+    {
+      "id": "en-3-19-w03",
+      "text": "weird",
+      "ru": "чудной",
+      "audio": "en/3-19/w03.mp3"
+    },
+    {
+      "id": "en-3-19-w04",
+      "text": "rare",
+      "ru": "редкий",
+      "audio": "en/3-19/w04.mp3"
+    },
+    {
+      "id": "en-3-19-w05",
+      "text": "unique",
+      "ru": "уникальный",
+      "audio": "en/3-19/w05.mp3"
+    },
+    {
+      "id": "en-3-19-w06",
+      "text": "surprising",
+      "ru": "удивительный",
+      "audio": "en/3-19/w06.mp3"
+    },
+    {
+      "id": "en-3-19-w07",
+      "text": "mysterious",
+      "ru": "загадочный",
+      "audio": "en/3-19/w07.mp3"
+    },
+    {
+      "id": "en-3-19-w08",
+      "text": "ordinary",
+      "ru": "обычный",
+      "audio": "en/3-19/w08.mp3"
+    },
+    {
+      "id": "en-3-19-w09",
+      "text": "amazing",
+      "ru": "потрясающий",
+      "audio": "en/3-19/w09.mp3"
+    },
+    {
+      "id": "en-3-19-w10",
+      "text": "bizarre",
+      "ru": "причудливый",
+      "audio": "en/3-19/w10.mp3"
+    },
+    {
+      "id": "en-3-19-w11",
+      "text": "incredible",
+      "ru": "невероятный",
+      "audio": "en/3-19/w11.mp3"
+    },
+    {
+      "id": "en-3-19-w12",
+      "text": "curious",
+      "ru": "любопытный",
+      "audio": "en/3-19/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "en-3-boss",
+  "course": "en",
+  "section": 3,
+  "order": 26,
+  "slug": "3-boss-story-about-the-past",
+  "title_ru": "Босс: «Рассказ о прошлом»",
+  "character": "zeynep",
+  "boss": true,
+  "words": [],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

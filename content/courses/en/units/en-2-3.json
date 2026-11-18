@@ -1,0 +1,99 @@
+{
+  "id": "en-2-3",
+  "course": "en",
+  "section": 2,
+  "order": 3,
+  "slug": "2-3-ask-for-help",
+  "title_ru": "Просьба о помощи",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-3-w01",
+      "text": "help",
+      "ru": "помочь, помощь",
+      "audio": "en/2-3/w01.mp3"
+    },
+    {
+      "id": "en-2-3-w02",
+      "text": "can you",
+      "ru": "можешь ли ты",
+      "audio": "en/2-3/w02.mp3"
+    },
+    {
+      "id": "en-2-3-w03",
+      "text": "could you",
+      "ru": "не могли бы вы",
+      "audio": "en/2-3/w03.mp3"
+    },
+    {
+      "id": "en-2-3-w04",
+      "text": "problem",
+      "ru": "проблема",
+      "audio": "en/2-3/w04.mp3"
+    },
+    {
+      "id": "en-2-3-w05",
+      "text": "need",
+      "ru": "нуждаться",
+      "audio": "en/2-3/w05.mp3"
+    },
+    {
+      "id": "en-2-3-w06",
+      "text": "lost",
+      "ru": "заблудившийся",
+      "audio": "en/2-3/w06.mp3"
+    },
+    {
+      "id": "en-2-3-w07",
+      "text": "understand",
+      "ru": "понимать",
+      "audio": "en/2-3/w07.mp3"
+    },
+    {
+      "id": "en-2-3-w08",
+      "text": "repeat",
+      "ru": "повторять",
+      "audio": "en/2-3/w08.mp3"
+    },
+    {
+      "id": "en-2-3-w09",
+      "text": "slowly",
+      "ru": "медленно",
+      "audio": "en/2-3/w09.mp3"
+    },
+    {
+      "id": "en-2-3-w10",
+      "text": "speak",
+      "ru": "говорить",
+      "audio": "en/2-3/w10.mp3"
+    },
+    {
+      "id": "en-2-3-w11",
+      "text": "again",
+      "ru": "снова",
+      "audio": "en/2-3/w11.mp3"
+    },
+    {
+      "id": "en-2-3-w12",
+      "text": "I don't know",
+      "ru": "я не знаю",
+      "audio": "en/2-3/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

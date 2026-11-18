@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-12",
+  "course": "tr",
+  "section": 2,
+  "order": 12,
+  "slug": "2-12-telling-time",
+  "title_ru": "Который час?",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-12-w01",
+      "text": "çeyrek",
+      "ru": "четверть",
+      "audio": "tr/2-12/w01.mp3"
+    },
+    {
+      "id": "tr-2-12-w02",
+      "text": "buçuk",
+      "ru": "половина",
+      "audio": "tr/2-12/w02.mp3"
+    },
+    {
+      "id": "tr-2-12-w03",
+      "text": "tam",
+      "ru": "ровно",
+      "audio": "tr/2-12/w03.mp3"
+    },
+    {
+      "id": "tr-2-12-w04",
+      "text": "geçe",
+      "ru": "после",
+      "audio": "tr/2-12/w04.mp3"
+    },
+    {
+      "id": "tr-2-12-w05",
+      "text": "kala",
+      "ru": "до",
+      "audio": "tr/2-12/w05.mp3"
+    },
+    {
+      "id": "tr-2-12-w06",
+      "text": "randevu",
+      "ru": "встреча/приём",
+      "audio": "tr/2-12/w06.mp3"
+    },
+    {
+      "id": "tr-2-12-w07",
+      "text": "toplantı",
+      "ru": "собрание",
+      "audio": "tr/2-12/w07.mp3"
+    },
+    {
+      "id": "tr-2-12-w08",
+      "text": "ders",
+      "ru": "урок",
+      "audio": "tr/2-12/w08.mp3"
+    },
+    {
+      "id": "tr-2-12-w09",
+      "text": "program",
+      "ru": "расписание",
+      "audio": "tr/2-12/w09.mp3"
+    },
+    {
+      "id": "tr-2-12-w10",
+      "text": "film",
+      "ru": "фильм",
+      "audio": "tr/2-12/w10.mp3"
+    },
+    {
+      "id": "tr-2-12-w11",
+      "text": "konser",
+      "ru": "концерт",
+      "audio": "tr/2-12/w11.mp3"
+    },
+    {
+      "id": "tr-2-12-w12",
+      "text": "uçak",
+      "ru": "самолёт",
+      "audio": "tr/2-12/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

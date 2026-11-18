@@ -1,0 +1,93 @@
+{
+  "id": "tr-2-3",
+  "course": "tr",
+  "section": 2,
+  "order": 3,
+  "slug": "2-3-questions",
+  "title_ru": "Вопросы",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-3-w01",
+      "text": "ne",
+      "ru": "что",
+      "audio": "tr/2-3/w01.mp3"
+    },
+    {
+      "id": "tr-2-3-w02",
+      "text": "kim",
+      "ru": "кто",
+      "audio": "tr/2-3/w02.mp3"
+    },
+    {
+      "id": "tr-2-3-w03",
+      "text": "nerede",
+      "ru": "где",
+      "audio": "tr/2-3/w03.mp3"
+    },
+    {
+      "id": "tr-2-3-w04",
+      "text": "nereye",
+      "ru": "куда",
+      "audio": "tr/2-3/w04.mp3"
+    },
+    {
+      "id": "tr-2-3-w05",
+      "text": "ne zaman",
+      "ru": "когда",
+      "audio": "tr/2-3/w05.mp3"
+    },
+    {
+      "id": "tr-2-3-w06",
+      "text": "neden",
+      "ru": "почему",
+      "audio": "tr/2-3/w06.mp3"
+    },
+    {
+      "id": "tr-2-3-w07",
+      "text": "nasıl",
+      "ru": "как",
+      "audio": "tr/2-3/w07.mp3"
+    },
+    {
+      "id": "tr-2-3-w08",
+      "text": "kaç",
+      "ru": "сколько",
+      "audio": "tr/2-3/w08.mp3"
+    },
+    {
+      "id": "tr-2-3-w09",
+      "text": "hangi",
+      "ru": "какой",
+      "audio": "tr/2-3/w09.mp3"
+    },
+    {
+      "id": "tr-2-3-w10",
+      "text": "ne kadar",
+      "ru": "сколько стоит",
+      "audio": "tr/2-3/w10.mp3"
+    },
+    {
+      "id": "tr-2-3-w11",
+      "text": "mi",
+      "ru": "вопросительная частица",
+      "audio": "tr/2-3/w11.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

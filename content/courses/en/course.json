@@ -1,0 +1,1915 @@
+{
+  "id": "en",
+  "title_ru": "Английский язык для русскоязычных",
+  "description_ru": "Практический курс английского языка: 60 активных юнитов и 3 босс-вызова (Intro + A1) с полной картой тем до уровня B2 (295 юнитов).",
+  "sections": [
+    {
+      "section": 1,
+      "title_ru": "Модуль 1 — Intro",
+      "cefr": "Intro",
+      "description_ru": "Основные фразы и простая грамматика.",
+      "unit_ids": [
+        "en-1-1",
+        "en-1-2",
+        "en-1-3",
+        "en-1-4",
+        "en-1-5",
+        "en-1-6",
+        "en-1-7",
+        "en-1-8",
+        "en-1-9",
+        "en-1-boss"
+      ],
+      "planned_topics": [
+        {
+          "unit_number": "1.1",
+          "title_ru": "Узнайте основные фразы",
+          "title_en": "Learn basic phrases",
+          "implemented_unit_id": "en-1-1"
+        },
+        {
+          "unit_number": "1.2",
+          "title_ru": "Расскажите откуда вы",
+          "title_en": "Say where you are from",
+          "implemented_unit_id": "en-1-2"
+        },
+        {
+          "unit_number": "1.3",
+          "title_ru": "Представьтесь",
+          "title_en": "Introduce yourself",
+          "implemented_unit_id": "en-1-3"
+        },
+        {
+          "unit_number": "1.4",
+          "title_ru": "Расскажите о семье",
+          "title_en": "Talk about your family",
+          "implemented_unit_id": "en-1-4"
+        },
+        {
+          "unit_number": "1.5",
+          "title_ru": "Опишите места",
+          "title_en": "Describe places",
+          "implemented_unit_id": "en-1-5"
+        },
+        {
+          "unit_number": "1.6",
+          "title_ru": "Представьте друзей",
+          "title_en": "Introduce friends",
+          "implemented_unit_id": "en-1-6"
+        },
+        {
+          "unit_number": "1.7",
+          "title_ru": "Обсудите увлечения",
+          "title_en": "Discuss hobbies",
+          "implemented_unit_id": "en-1-7"
+        },
+        {
+          "unit_number": "1.8",
+          "title_ru": "Закажите еду и напитки",
+          "title_en": "Order food and drinks",
+          "implemented_unit_id": "en-1-8"
+        },
+        {
+          "unit_number": "1.9",
+          "title_ru": "Расскажите о питомцах",
+          "title_en": "Talk about pets",
+          "implemented_unit_id": "en-1-9"
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "title_ru": "Модуль 2 — Начальный A1",
+      "cefr": "A1",
+      "description_ru": "Простые разговорные слова, фразы и конструкции.",
+      "unit_ids": [
+        "en-2-1",
+        "en-2-2",
+        "en-2-3",
+        "en-2-4",
+        "en-2-5",
+        "en-2-6",
+        "en-2-7",
+        "en-2-8",
+        "en-2-9",
+        "en-2-10",
+        "en-2-11",
+        "en-2-12",
+        "en-2-13",
+        "en-2-14",
+        "en-2-15",
+        "en-2-16",
+        "en-2-17",
+        "en-2-18",
+        "en-2-19",
+        "en-2-20",
+        "en-2-21",
+        "en-2-22",
+        "en-2-23",
+        "en-2-24",
+        "en-2-25",
+        "en-2-26",
+        "en-2-boss"
+      ],
+      "planned_topics": [
+        {
+          "unit_number": "2.1",
+          "title_ru": "Поговорите о еде",
+          "title_en": "Talk about food",
+          "implemented_unit_id": "en-2-1"
+        },
+        {
+          "unit_number": "2.2",
+          "title_ru": "Обсудите личную жизнь",
+          "title_en": "Discuss personal life",
+          "implemented_unit_id": "en-2-2"
+        },
+        {
+          "unit_number": "2.3",
+          "title_ru": "Попросите о помощи",
+          "title_en": "Ask for help",
+          "implemented_unit_id": "en-2-3"
+        },
+        {
+          "unit_number": "2.4",
+          "title_ru": "Поговорите об интересах",
+          "title_en": "Talk about interests",
+          "implemented_unit_id": "en-2-4"
+        },
+        {
+          "unit_number": "2.5",
+          "title_ru": "Опишите одежду",
+          "title_en": "Describe clothes",
+          "implemented_unit_id": "en-2-5"
+        },
+        {
+          "unit_number": "2.6",
+          "title_ru": "Расскажите о расписании",
+          "title_en": "Talk about your schedule",
+          "implemented_unit_id": "en-2-6"
+        },
+        {
+          "unit_number": "2.7",
+          "title_ru": "Обсудите поездку",
+          "title_en": "Discuss a trip",
+          "implemented_unit_id": "en-2-7"
+        },
+        {
+          "unit_number": "2.8",
+          "title_ru": "Забронируйте отель",
+          "title_en": "Book a hotel",
+          "implemented_unit_id": "en-2-8"
+        },
+        {
+          "unit_number": "2.9",
+          "title_ru": "Опишите большой город",
+          "title_en": "Describe a big city",
+          "implemented_unit_id": "en-2-9"
+        },
+        {
+          "unit_number": "2.10",
+          "title_ru": "Расскажите об учебе",
+          "title_en": "Talk about studying",
+          "implemented_unit_id": "en-2-10"
+        },
+        {
+          "unit_number": "2.11",
+          "title_ru": "Поговорите на свидании",
+          "title_en": "Talk on a date",
+          "implemented_unit_id": "en-2-11"
+        },
+        {
+          "unit_number": "2.12",
+          "title_ru": "Побеседуйте с коллегами",
+          "title_en": "Chat with colleagues",
+          "implemented_unit_id": "en-2-12"
+        },
+        {
+          "unit_number": "2.13",
+          "title_ru": "Поговорите о продуктах",
+          "title_en": "Talk about groceries",
+          "implemented_unit_id": "en-2-13"
+        },
+        {
+          "unit_number": "2.14",
+          "title_ru": "Обсудите день рождения",
+          "title_en": "Discuss a birthday",
+          "implemented_unit_id": "en-2-14"
+        },
+        {
+          "unit_number": "2.15",
+          "title_ru": "Спланируйте переезд",
+          "title_en": "Plan a move",
+          "implemented_unit_id": "en-2-15"
+        },
+        {
+          "unit_number": "2.16",
+          "title_ru": "Пообщайтесь с врачом",
+          "title_en": "Talk to a doctor",
+          "implemented_unit_id": "en-2-16"
+        },
+        {
+          "unit_number": "2.17",
+          "title_ru": "Поговорите на пикнике",
+          "title_en": "Talk at a picnic",
+          "implemented_unit_id": "en-2-17"
+        },
+        {
+          "unit_number": "2.18",
+          "title_ru": "Расскажите о городе",
+          "title_en": "Talk about a city",
+          "implemented_unit_id": "en-2-18"
+        },
+        {
+          "unit_number": "2.19",
+          "title_ru": "Запланируйте отпуск",
+          "title_en": "Plan a vacation",
+          "implemented_unit_id": "en-2-19"
+        },
+        {
+          "unit_number": "2.20",
+          "title_ru": "Расскажите о покупках",
+          "title_en": "Talk about shopping",
+          "implemented_unit_id": "en-2-20"
+        },
+        {
+          "unit_number": "2.21",
+          "title_ru": "Обсудите спорт",
+          "title_en": "Discuss sports",
+          "implemented_unit_id": "en-2-21"
+        },
+        {
+          "unit_number": "2.22",
+          "title_ru": "Поговорите о работе",
+          "title_en": "Talk about work",
+          "implemented_unit_id": "en-2-22"
+        },
+        {
+          "unit_number": "2.23",
+          "title_ru": "Опишите животных",
+          "title_en": "Describe animals",
+          "implemented_unit_id": "en-2-23"
+        },
+        {
+          "unit_number": "2.24",
+          "title_ru": "Обсудите музыку",
+          "title_en": "Discuss music",
+          "implemented_unit_id": "en-2-24"
+        },
+        {
+          "unit_number": "2.25",
+          "title_ru": "Поговорите о погоде",
+          "title_en": "Talk about the weather",
+          "implemented_unit_id": "en-2-25"
+        },
+        {
+          "unit_number": "2.26",
+          "title_ru": "Организуйте поездку",
+          "title_en": "Organize a trip",
+          "implemented_unit_id": "en-2-26"
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "title_ru": "Модуль 3 — Базовый A1",
+      "cefr": "A1",
+      "description_ru": "Больше основ для общения на базовом уровне.",
+      "unit_ids": [
+        "en-3-1",
+        "en-3-2",
+        "en-3-3",
+        "en-3-4",
+        "en-3-5",
+        "en-3-6",
+        "en-3-7",
+        "en-3-8",
+        "en-3-9",
+        "en-3-10",
+        "en-3-11",
+        "en-3-12",
+        "en-3-13",
+        "en-3-14",
+        "en-3-15",
+        "en-3-16",
+        "en-3-17",
+        "en-3-18",
+        "en-3-19",
+        "en-3-20",
+        "en-3-21",
+        "en-3-22",
+        "en-3-23",
+        "en-3-24",
+        "en-3-25",
+        "en-3-boss"
+      ],
+      "planned_topics": [
+        {
+          "unit_number": "3.1",
+          "title_ru": "Расскажите о соседях",
+          "title_en": "Talk about neighbors",
+          "implemented_unit_id": "en-3-1"
+        },
+        {
+          "unit_number": "3.2",
+          "title_ru": "Поговорите о языках",
+          "title_en": "Talk about languages",
+          "implemented_unit_id": "en-3-2"
+        },
+        {
+          "unit_number": "3.3",
+          "title_ru": "Обсудите документы",
+          "title_en": "Discuss documents",
+          "implemented_unit_id": "en-3-3"
+        },
+        {
+          "unit_number": "3.4",
+          "title_ru": "Расскажите о семье",
+          "title_en": "Talk about family part 2",
+          "implemented_unit_id": "en-3-4"
+        },
+        {
+          "unit_number": "3.5",
+          "title_ru": "Опишите отпуск",
+          "title_en": "Describe a vacation",
+          "implemented_unit_id": "en-3-5"
+        },
+        {
+          "unit_number": "3.6",
+          "title_ru": "Подготовьтесь к празднику",
+          "title_en": "Prepare for a holiday",
+          "implemented_unit_id": "en-3-6"
+        },
+        {
+          "unit_number": "3.7",
+          "title_ru": "Поговорите о кино",
+          "title_en": "Talk about movies",
+          "implemented_unit_id": "en-3-7"
+        },
+        {
+          "unit_number": "3.8",
+          "title_ru": "Запланируйте перелет",
+          "title_en": "Plan a flight",
+          "implemented_unit_id": "en-3-8"
+        },
+        {
+          "unit_number": "3.9",
+          "title_ru": "Обсудите выходные",
+          "title_en": "Discuss the weekend",
+          "implemented_unit_id": "en-3-9"
+        },
+        {
+          "unit_number": "3.10",
+          "title_ru": "Поговорите о еде",
+          "title_en": "Talk about food part 2",
+          "implemented_unit_id": "en-3-10"
+        },
+        {
+          "unit_number": "3.11",
+          "title_ru": "Расскажите о детстве",
+          "title_en": "Talk about childhood",
+          "implemented_unit_id": "en-3-11"
+        },
+        {
+          "unit_number": "3.12",
+          "title_ru": "Опишите где живете",
+          "title_en": "Describe where you live",
+          "implemented_unit_id": "en-3-12"
+        },
+        {
+          "unit_number": "3.13",
+          "title_ru": "Расскажите о делах",
+          "title_en": "Talk about how things are going",
+          "implemented_unit_id": "en-3-13"
+        },
+        {
+          "unit_number": "3.14",
+          "title_ru": "Поделитесь новостями",
+          "title_en": "Share news",
+          "implemented_unit_id": "en-3-14"
+        },
+        {
+          "unit_number": "3.15",
+          "title_ru": "Устройте поход в театр",
+          "title_en": "Go to the theater",
+          "implemented_unit_id": "en-3-15"
+        },
+        {
+          "unit_number": "3.16",
+          "title_ru": "Поговорите о прошлом",
+          "title_en": "Talk about the past",
+          "implemented_unit_id": "en-3-16"
+        },
+        {
+          "unit_number": "3.17",
+          "title_ru": "Поделитесь достижениями",
+          "title_en": "Share achievements",
+          "implemented_unit_id": "en-3-17"
+        },
+        {
+          "unit_number": "3.18",
+          "title_ru": "Выразите предпочтения",
+          "title_en": "Express preferences",
+          "implemented_unit_id": "en-3-18"
+        },
+        {
+          "unit_number": "3.19",
+          "title_ru": "Расскажите о необычном",
+          "title_en": "Talk about unusual things",
+          "implemented_unit_id": "en-3-19"
+        },
+        {
+          "unit_number": "3.20",
+          "title_ru": "Обсудите личную жизнь",
+          "title_en": "Discuss personal life part 2",
+          "implemented_unit_id": "en-3-20"
+        },
+        {
+          "unit_number": "3.21",
+          "title_ru": "Поговорите об уборке",
+          "title_en": "Talk about cleaning",
+          "implemented_unit_id": "en-3-21"
+        },
+        {
+          "unit_number": "3.22",
+          "title_ru": "Назовите знаменитостей",
+          "title_en": "Name celebrities",
+          "implemented_unit_id": "en-3-22"
+        },
+        {
+          "unit_number": "3.23",
+          "title_ru": "Опишите летний лагерь",
+          "title_en": "Describe a summer camp",
+          "implemented_unit_id": "en-3-23"
+        },
+        {
+          "unit_number": "3.24",
+          "title_ru": "Поделитесь рецептом",
+          "title_en": "Share a recipe",
+          "implemented_unit_id": "en-3-24"
+        },
+        {
+          "unit_number": "3.25",
+          "title_ru": "Обсудите изучение языков",
+          "title_en": "Discuss language learning",
+          "implemented_unit_id": "en-3-25"
+        }
+      ]
+    },
+    {
+      "section": 4,
+      "title_ru": "Модуль 4 — Повседневные темы (A2)",
+      "cefr": "A2",
+      "description_ru": "Используйте предложения в разговорах на повседневные темы (в разработке).",
+      "unit_ids": [],
+      "planned_topics": [
+        {
+          "unit_number": "4.1",
+          "title_ru": "Пообщайтесь на работе",
+          "title_en": "Chat at work",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.2",
+          "title_ru": "Расскажите о здоровье",
+          "title_en": "Talk about health",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.3",
+          "title_ru": "Обсудите праздники",
+          "title_en": "Discuss holidays",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.4",
+          "title_ru": "Поговорите о городе",
+          "title_en": "Talk about a city",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.5",
+          "title_ru": "Расскажите о друзьях",
+          "title_en": "Talk about friends",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.6",
+          "title_ru": "Опишите будни",
+          "title_en": "Describe weekdays",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.7",
+          "title_ru": "Купите продукты",
+          "title_en": "Buy groceries",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.8",
+          "title_ru": "Обсудите спорт",
+          "title_en": "Discuss sports",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.9",
+          "title_ru": "Поговорите о кино",
+          "title_en": "Talk about movies",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.10",
+          "title_ru": "Опишите свой день",
+          "title_en": "Describe your day",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.11",
+          "title_ru": "Договоритесь о встрече",
+          "title_en": "Arrange a meeting",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.12",
+          "title_ru": "Поделитесь успехами",
+          "title_en": "Share your successes",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.13",
+          "title_ru": "Опишите местность",
+          "title_en": "Describe an area",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.14",
+          "title_ru": "Расскажите об учебе",
+          "title_en": "Talk about studying",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.15",
+          "title_ru": "Поговорите о деньгах",
+          "title_en": "Talk about money",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.16",
+          "title_ru": "Обсудите правила",
+          "title_en": "Discuss rules",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.17",
+          "title_ru": "Поделитесь сплетнями",
+          "title_en": "Share gossip",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.18",
+          "title_ru": "Запланируйте поездку",
+          "title_en": "Plan a trip",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.19",
+          "title_ru": "Купите вещи б/у",
+          "title_en": "Buy used things",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.20",
+          "title_ru": "Соберитесь в поездку",
+          "title_en": "Pack for a trip",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.21",
+          "title_ru": "Закажите в ресторане",
+          "title_en": "Order at a restaurant",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.22",
+          "title_ru": "Позвоните по телефону",
+          "title_en": "Make a phone call",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.23",
+          "title_ru": "Обсудите ваш новый дом",
+          "title_en": "Discuss your new home",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.24",
+          "title_ru": "Сходите за покупками",
+          "title_en": "Go shopping",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.25",
+          "title_ru": "Пройдите собеседование",
+          "title_en": "Go through a job interview",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.26",
+          "title_ru": "Поговорите об Австралии",
+          "title_en": "Talk about Australia",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.27",
+          "title_ru": "Расскажите сказку",
+          "title_en": "Tell a fairy tale",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.28",
+          "title_ru": "Пообщайтесь на свидании",
+          "title_en": "Chat on a date",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.29",
+          "title_ru": "Обсудите привычки",
+          "title_en": "Discuss habits",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.30",
+          "title_ru": "Расскажите об Америке",
+          "title_en": "Talk about America",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.31",
+          "title_ru": "Обсудите соревнования",
+          "title_en": "Discuss competitions",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.32",
+          "title_ru": "Обсудите передачи",
+          "title_en": "Discuss TV shows",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.33",
+          "title_ru": "Расскажите о ремонте",
+          "title_en": "Talk about renovation",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.34",
+          "title_ru": "Поделитесь мнением",
+          "title_en": "Share an opinion",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.35",
+          "title_ru": "Объясните причину",
+          "title_en": "Explain a reason",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.36",
+          "title_ru": "Поговорите на пикнике",
+          "title_en": "Talk at a picnic",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.37",
+          "title_ru": "Расскажите об Англии",
+          "title_en": "Talk about England",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.38",
+          "title_ru": "Обсудите домашние дела",
+          "title_en": "Discuss household chores",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.39",
+          "title_ru": "Обсудите поход в ТЦ",
+          "title_en": "Discuss a trip to the mall",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.40",
+          "title_ru": "Прокомментируйте фото",
+          "title_en": "Comment on a photo",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.41",
+          "title_ru": "Ответьте на вопросы",
+          "title_en": "Answer questions",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.42",
+          "title_ru": "Поговорите о моде",
+          "title_en": "Talk about fashion",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.43",
+          "title_ru": "Опишите начальника",
+          "title_en": "Describe your boss",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.44",
+          "title_ru": "Пообщайтесь онлайн",
+          "title_en": "Chat online",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.45",
+          "title_ru": "Поговорите о будущем",
+          "title_en": "Talk about the future",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.46",
+          "title_ru": "Обсудите разные страны",
+          "title_en": "Discuss different countries",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.47",
+          "title_ru": "Узнайте, что нового",
+          "title_en": "Find out what's new",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.48",
+          "title_ru": "Обратитесь к врачу",
+          "title_en": "See a doctor",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.49",
+          "title_ru": "Приготовьте по рецепту",
+          "title_en": "Cook from a recipe",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.50",
+          "title_ru": "Воспользуйтесь метро",
+          "title_en": "Use the subway",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.51",
+          "title_ru": "Обсудите новую работу",
+          "title_en": "Discuss a new job",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.52",
+          "title_ru": "Сходите на экскурсию",
+          "title_en": "Go on a tour",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.53",
+          "title_ru": "Узнайте о разных штатах",
+          "title_en": "Learn about different states",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.54",
+          "title_ru": "Обсудите технологии",
+          "title_en": "Discuss technology",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.55",
+          "title_ru": "Расскажите о покупках",
+          "title_en": "Talk about purchases",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.56",
+          "title_ru": "Опишите природу",
+          "title_en": "Describe nature",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.57",
+          "title_ru": "Обсудите командировку",
+          "title_en": "Discuss a business trip",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.58",
+          "title_ru": "Опишите вечерние дела",
+          "title_en": "Describe evening activities",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.59",
+          "title_ru": "Обсудите знаменитостей",
+          "title_en": "Discuss celebrities",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "4.60",
+          "title_ru": "Опишите свой район",
+          "title_en": "Describe your neighborhood",
+          "implemented_unit_id": null
+        }
+      ]
+    },
+    {
+      "section": 5,
+      "title_ru": "Модуль 5 — Разнообразные темы (B1)",
+      "cefr": "B1",
+      "description_ru": "Составляйте предложения на разнообразные темы (в разработке).",
+      "unit_ids": [],
+      "planned_topics": [
+        {
+          "unit_number": "5.1",
+          "title_ru": "Обсудите путешествие в одиночку",
+          "title_en": "Discuss traveling solo",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.2",
+          "title_ru": "Закажите доставку еды",
+          "title_en": "Order food delivery",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.3",
+          "title_ru": "Опишите день в колледже",
+          "title_en": "Describe a day in college",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.4",
+          "title_ru": "Обсудите опыт работы",
+          "title_en": "Discuss your work experience",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.5",
+          "title_ru": "Поговорите о домашних делах",
+          "title_en": "Talk about the chores",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.6",
+          "title_ru": "Поговорите на онлайн-встрече",
+          "title_en": "Talk in an online meeting",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.7",
+          "title_ru": "Встретьтесь со старыми друзьями, прошедшее время",
+          "title_en": "Catch up with old friends, use the past tense",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.8",
+          "title_ru": "Поговорите о здоровье",
+          "title_en": "Talk about your health",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.9",
+          "title_ru": "Обсудите соцсети",
+          "title_en": "Discuss social media",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.10",
+          "title_ru": "Опишите свой распорядок",
+          "title_en": "Describe your routine",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.11",
+          "title_ru": "Расскажите сказку",
+          "title_en": "Tell a fairy tale",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.12",
+          "title_ru": "Опишите свадьбу",
+          "title_en": "Describe a wedding",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.13",
+          "title_ru": "Поделитесь воспоминаниями, опишите прошлые события",
+          "title_en": "Share memories, describe past events",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.14",
+          "title_ru": "Поговорите об отношениях",
+          "title_en": "Talk about relationships",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.15",
+          "title_ru": "Опишите одежду",
+          "title_en": "Describe clothes",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.16",
+          "title_ru": "Обсудите перелёты",
+          "title_en": "Discuss traveling by plane",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.17",
+          "title_ru": "Поговорите о новостях",
+          "title_en": "Talk about the news",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.18",
+          "title_ru": "Опишите поездку на природу",
+          "title_en": "Describe a trip in nature",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.19",
+          "title_ru": "Поговорите о прошлом",
+          "title_en": "Talk about the past",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.20",
+          "title_ru": "Обсудите отношения",
+          "title_en": "Discuss relationships",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.21",
+          "title_ru": "Обсудите подготовку к вечеринке",
+          "title_en": "Discuss party preparation",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.22",
+          "title_ru": "Поговорите о визите к родным, задавайте вопросы",
+          "title_en": "Talk about visiting family, ask questions",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.23",
+          "title_ru": "Поговорите о работе",
+          "title_en": "Talk about work",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.24",
+          "title_ru": "Обсудите мнения",
+          "title_en": "Discuss opinions",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.25",
+          "title_ru": "Поговорите об искусстве",
+          "title_en": "Talk about the arts",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.26",
+          "title_ru": "Опишите привычки сна",
+          "title_en": "Describe sleeping habits",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.27",
+          "title_ru": "Обсудите спорт",
+          "title_en": "Discuss sports",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.28",
+          "title_ru": "Поговорите о Хэллоуине",
+          "title_en": "Talk about Halloween",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.29",
+          "title_ru": "Опишите брак, образуйте прошедшее время",
+          "title_en": "Describe marriage, form the past tense",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.30",
+          "title_ru": "Обсудите поездку на природу",
+          "title_en": "Discuss a trip in nature",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.31",
+          "title_ru": "Поделитесь секретом",
+          "title_en": "Share a secret",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.32",
+          "title_ru": "Обсудите проблемы со здоровьем",
+          "title_en": "Discussing medical issues",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.33",
+          "title_ru": "Поговорите об учёбе",
+          "title_en": "Talk about your studies",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.34",
+          "title_ru": "Поговорите о переезде",
+          "title_en": "Talk about a move",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.35",
+          "title_ru": "Поговорите о ежедневной дороге на работу",
+          "title_en": "Talk about your daily commute",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.36",
+          "title_ru": "Выразите удивление",
+          "title_en": "Express surprise",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.37",
+          "title_ru": "Опишите технологии, образуйте глагольные обороты",
+          "title_en": "Describe technology, form verb phrases",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.38",
+          "title_ru": "Поговорите о политике",
+          "title_en": "Talk about politics",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.39",
+          "title_ru": "Выразите страх",
+          "title_en": "Express fear",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.40",
+          "title_ru": "Поговорите о кино",
+          "title_en": "Talk about movies",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.41",
+          "title_ru": "Поговорите о турнире",
+          "title_en": "Talk about a tournament",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.42",
+          "title_ru": "Проведите денежные операции",
+          "title_en": "Make transactions",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.43",
+          "title_ru": "Наладьте контакты",
+          "title_en": "Establish contacts",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.44",
+          "title_ru": "Опишите географию",
+          "title_en": "Describe geography",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.45",
+          "title_ru": "Поешьте в ресторане",
+          "title_en": "Eat in a restaurant",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.46",
+          "title_ru": "Прокомментируйте музыку, выразите желания и потребности",
+          "title_en": "Comment on music, express wants and needs",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.47",
+          "title_ru": "Поговорите о преступности",
+          "title_en": "Talk about crime",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.48",
+          "title_ru": "Поговорите о досуге",
+          "title_en": "Talk about pastimes",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.49",
+          "title_ru": "Купите нужные вещи",
+          "title_en": "Buy items you need",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.50",
+          "title_ru": "Поговорите об исторических эпохах",
+          "title_en": "Talk about historical eras",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "5.51",
+          "title_ru": "Расскажите о пережитом",
+          "title_en": "Recount experiences",
+          "implemented_unit_id": null
+        }
+      ]
+    },
+    {
+      "section": 6,
+      "title_ru": "Модуль 6 — Более сложные темы (B1+)",
+      "cefr": "B1",
+      "description_ru": "Обсуждайте более сложные темы (в разработке).",
+      "unit_ids": [],
+      "planned_topics": [
+        {
+          "unit_number": "6.1",
+          "title_ru": "Выразите благодарность",
+          "title_en": "Express gratitude",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.2",
+          "title_ru": "Расскажите о доме, подтвердите информацию",
+          "title_en": "Talk about your home, confirm information",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.3",
+          "title_ru": "Поговорите об интересах",
+          "title_en": "Talk about interests",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.4",
+          "title_ru": "Ведите разговор",
+          "title_en": "Lead a conversation",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.5",
+          "title_ru": "Расскажите анекдоты и случаи",
+          "title_en": "Share anecdotes",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.6",
+          "title_ru": "Расскажите о последней поездке",
+          "title_en": "Recount your latest trip",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.7",
+          "title_ru": "Поговорите о новостях",
+          "title_en": "Talk about news",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.8",
+          "title_ru": "Поговорите о телевидении",
+          "title_en": "Talk about television",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.9",
+          "title_ru": "Поговорите об истории, опишите далёкое прошлое",
+          "title_en": "Talk about history, describe the distant past",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.10",
+          "title_ru": "Стройте планы с друзьями",
+          "title_en": "Make plans with friends",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.11",
+          "title_ru": "Говорите о дальних родственниках",
+          "title_en": "Refer to extended family",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.12",
+          "title_ru": "Выскажите жалобы",
+          "title_en": "Make complaints",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.13",
+          "title_ru": "Передайте чужие слова",
+          "title_en": "Report what someone said",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.14",
+          "title_ru": "Поговорите о религии",
+          "title_en": "Talk about religion",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.15",
+          "title_ru": "Вносите предложения",
+          "title_en": "Make suggestions",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.16",
+          "title_ru": "Спланируйте переезд, повторите услышанное",
+          "title_en": "Plan a move, repeat what you heard",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.17",
+          "title_ru": "Извинитесь",
+          "title_en": "Apologize",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.18",
+          "title_ru": "Поговорите о своих целях",
+          "title_en": "Talk about your goals",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.19",
+          "title_ru": "Организуйте обслуживание авто",
+          "title_en": "Arrange auto maintenance",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.20",
+          "title_ru": "Прокомментируйте еду",
+          "title_en": "Comment on food",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.21",
+          "title_ru": "Общайтесь с врачами",
+          "title_en": "Communicate with doctors",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.22",
+          "title_ru": "Поговорите о школьной жизни",
+          "title_en": "Talk about life at school",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.23",
+          "title_ru": "Спланируйте вечеринку",
+          "title_en": "Plan a party",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.24",
+          "title_ru": "Новости, страдательный залог",
+          "title_en": "Talk about news, use the passive voice",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.25",
+          "title_ru": "Поговорите о дорожном движении",
+          "title_en": "Talk about traffic",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.26",
+          "title_ru": "Опишите природу",
+          "title_en": "Describe nature",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.27",
+          "title_ru": "Просите и давайте советы",
+          "title_en": "Ask for and give advice",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.28",
+          "title_ru": "Поговорите о профессиональной жизни",
+          "title_en": "Talk about professional life",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.29",
+          "title_ru": "Поговорите о местах",
+          "title_en": "Talk about places",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.30",
+          "title_ru": "Поговорите о знаменитостях",
+          "title_en": "Talk about famous people",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.31",
+          "title_ru": "Еда, выразите надежды и планы",
+          "title_en": "Talk about food, express hopes and plans",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.32",
+          "title_ru": "Поддерживайте разговор",
+          "title_en": "Maintain a conversation",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.33",
+          "title_ru": "Верните товар",
+          "title_en": "Return an item",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.34",
+          "title_ru": "Делайте объявления",
+          "title_en": "Make announcements",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.35",
+          "title_ru": "Опишите свой дом",
+          "title_en": "Describe your home",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.36",
+          "title_ru": "Поговорите об ошибках",
+          "title_en": "Talk about mistakes",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.37",
+          "title_ru": "Выразите страх, что произошло бы",
+          "title_en": "Express fear, talk about what would have happened",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.38",
+          "title_ru": "Пользуйтесь интернетом",
+          "title_en": "Use the internet",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.39",
+          "title_ru": "Поговорите об искусстве",
+          "title_en": "Talk about the arts",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.40",
+          "title_ru": "Опишите традиции",
+          "title_en": "Describe traditions",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.41",
+          "title_ru": "Поешьте в ресторане",
+          "title_en": "Eat at a restaurant",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.42",
+          "title_ru": "Обсудите окружающую среду",
+          "title_en": "Discuss the environment",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.43",
+          "title_ru": "Выразите предпочтения",
+          "title_en": "Express preferences",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.44",
+          "title_ru": "Красота, страдательный залог",
+          "title_en": "Talk about beauty, use the passive voice",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.45",
+          "title_ru": "Покупки на распродаже",
+          "title_en": "Shop for sales",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.46",
+          "title_ru": "Прокомментируйте спорт",
+          "title_en": "Comment on sports",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.47",
+          "title_ru": "Поговорите о здоровом образе жизни",
+          "title_en": "Talk about wellness",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.48",
+          "title_ru": "Сотрудничайте на работе",
+          "title_en": "Collaborate at work",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.49",
+          "title_ru": "Решайте проблемы",
+          "title_en": "Resolve problems",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.50",
+          "title_ru": "Поговорите о новостях",
+          "title_en": "Talk about news",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.51",
+          "title_ru": "Поговорите об истории",
+          "title_en": "Talk about history",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "6.52",
+          "title_ru": "Выразите пожелания",
+          "title_en": "Express wishes",
+          "implemented_unit_id": null
+        }
+      ]
+    },
+    {
+      "section": 7,
+      "title_ru": "Модуль 7 — Абстрактные чувства и мнения (B2)",
+      "cefr": "B2",
+      "description_ru": "Говорите об абстрактных чувствах и мнениях (в разработке).",
+      "unit_ids": [],
+      "planned_topics": [
+        {
+          "unit_number": "7.1",
+          "title_ru": "Дайте и получите разрешение",
+          "title_en": "Give and get permission",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.2",
+          "title_ru": "Дайте совет по здоровью",
+          "title_en": "Give health advice",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.3",
+          "title_ru": "Обсудите переезд",
+          "title_en": "Discuss moving",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.4",
+          "title_ru": "Давайте советы",
+          "title_en": "Give advice",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.5",
+          "title_ru": "Возьмитесь за проект",
+          "title_en": "Take on a project",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.6",
+          "title_ru": "Поговорите о садоводстве",
+          "title_en": "Talk about gardening",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.7",
+          "title_ru": "Планируйте поездку, предложения и возможности",
+          "title_en": "Plan a trip, express suggestions or possibilities",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.8",
+          "title_ru": "Встреча старых друзей",
+          "title_en": "Catch up at a reunion",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.9",
+          "title_ru": "Поговорите о политике",
+          "title_en": "Talk about politics",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.10",
+          "title_ru": "Прогнозируйте погоду",
+          "title_en": "Predict the weather",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.11",
+          "title_ru": "Обсудите возможные риски",
+          "title_en": "Discuss potential risks",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.12",
+          "title_ru": "Обсудите обязанности",
+          "title_en": "Discuss obligations",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.13",
+          "title_ru": "Развенчайте американские клише",
+          "title_en": "Debunk American clichés",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.14",
+          "title_ru": "Выразите сожаление, поговорите о будущем",
+          "title_en": "Express regret, talk about the future",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.15",
+          "title_ru": "Поговорите об учёбе в колледже",
+          "title_en": "Talk about college",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.16",
+          "title_ru": "Вспомните прошлое",
+          "title_en": "Reminisce about the past",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.17",
+          "title_ru": "Выразите предпочтения",
+          "title_en": "Express preferences",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.18",
+          "title_ru": "Общайтесь на работе",
+          "title_en": "Communicate at work",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.19",
+          "title_ru": "Обсудите этикет",
+          "title_en": "Discuss etiquette",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.20",
+          "title_ru": "Опишите симптомы",
+          "title_en": "Describe symptoms",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.21",
+          "title_ru": "Поговорите о ремонте дома",
+          "title_en": "Talk about (home) renovations",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.22",
+          "title_ru": "Поговорите об отношениях",
+          "title_en": "Talk about relationships",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.23",
+          "title_ru": "Рассказывайте истории, опишите вещи и черты",
+          "title_en": "Tell stories, describe belongings or characteristics",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.24",
+          "title_ru": "Поговорите о целях",
+          "title_en": "Talk about goals",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.25",
+          "title_ru": "Обменяйтесь слухами",
+          "title_en": "Exchange gossip / talk about rumors",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.26",
+          "title_ru": "Расскажите о прошлых событиях",
+          "title_en": "Narrate past events",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.27",
+          "title_ru": "Выскажите жалобы",
+          "title_en": "Make complaints",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.28",
+          "title_ru": "Обсудите причину и следствие",
+          "title_en": "Discuss cause and effect",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.29",
+          "title_ru": "Поговорите о телевидении",
+          "title_en": "Talk about television",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.30",
+          "title_ru": "Поговорите о новостях",
+          "title_en": "Talk about news",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.31",
+          "title_ru": "Выразите мнение",
+          "title_en": "Express opinions",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.32",
+          "title_ru": "Утешьте, опишите прошлые сожаления",
+          "title_en": "Comfort somebody, describe past regrets or situations",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.33",
+          "title_ru": "Поддерживайте разговор",
+          "title_en": "Maintain a conversation",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.34",
+          "title_ru": "Ведите переговоры на работе",
+          "title_en": "Negotiate at work",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.35",
+          "title_ru": "Обвините кого-то",
+          "title_en": "Blame someone",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "7.36",
+          "title_ru": "Обсудите гипотетические ситуации",
+          "title_en": "Discuss hypotheticals",
+          "implemented_unit_id": null
+        }
+      ]
+    },
+    {
+      "section": 8,
+      "title_ru": "Модуль 8 — Уверенное общение (B2+)",
+      "cefr": "B2",
+      "description_ru": "Уверенно общайтесь даже на более узкие темы (в разработке).",
+      "unit_ids": [],
+      "planned_topics": [
+        {
+          "unit_number": "8.1",
+          "title_ru": "Приведите причины и оправдания",
+          "title_en": "Give reasons and justifications",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.2",
+          "title_ru": "Смягчённые просьбы",
+          "title_en": "Ask for things in a softened way",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.3",
+          "title_ru": "Торгуйтесь при покупках",
+          "title_en": "Negotiate while shopping",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.4",
+          "title_ru": "Поймите местный новостной репортаж",
+          "title_en": "Understand a local news report",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.5",
+          "title_ru": "История музыки, передача чужих слов",
+          "title_en": "Talk about music history, repeat what someone said",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.6",
+          "title_ru": "Present Perfect Continuous",
+          "title_en": "Use the present perfect progressive",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.7",
+          "title_ru": "Как всё изменилось",
+          "title_en": "Talk about how things have changed",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.8",
+          "title_ru": "Выразите несогласие",
+          "title_en": "Express disagreement",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.9",
+          "title_ru": "Приведите контраргумент",
+          "title_en": "Present a counter-argument",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.10",
+          "title_ru": "Выразите досаду",
+          "title_en": "Express frustration",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.11",
+          "title_ru": "Планы корпоратива",
+          "title_en": "Discuss plans for a work party",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.12",
+          "title_ru": "Выводы и догадки",
+          "title_en": "Make conclusions and deductions",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.13",
+          "title_ru": "Истории у костра, страдательный залог",
+          "title_en": "Tell stories around a campfire, use the passive voice",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.14",
+          "title_ru": "Опишите переезд в большой город",
+          "title_en": "Describe a move to the big city",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.15",
+          "title_ru": "Поездка в парк развлечений",
+          "title_en": "Navigate a trip to a theme park",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.16",
+          "title_ru": "Договоритесь о делах с соседями по квартире",
+          "title_en": "Negotiate chores with roommates",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.17",
+          "title_ru": "Степень уверенности",
+          "title_en": "Express how certain or uncertain you are",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.18",
+          "title_ru": "Подтвердите информацию",
+          "title_en": "Confirm information",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.19",
+          "title_ru": "Пожелайте добра",
+          "title_en": "Express good wishes for someone",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.20",
+          "title_ru": "Планы на поездку",
+          "title_en": "Talk about your plans for a trip",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.21",
+          "title_ru": "Future Perfect Continuous",
+          "title_en": "Use the future perfect progressive",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.22",
+          "title_ru": "Планы на вечер пятницы, глагольные обороты",
+          "title_en": "Make plans for a Friday night, form verb phrases",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.23",
+          "title_ru": "Гаражная распродажа",
+          "title_en": "Navigate transactions at a garage sale",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.24",
+          "title_ru": "Ответ на приказ или просьбу",
+          "title_en": "Respond to a command or request",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.25",
+          "title_ru": "Вежливо откажитесь",
+          "title_en": "Politely decline an offer or proposal",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.26",
+          "title_ru": "Домашние дела",
+          "title_en": "Talk about household chores",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.27",
+          "title_ru": "Встреча со старым другом",
+          "title_en": "Catch up with an old friend",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.28",
+          "title_ru": "Past Perfect Passive",
+          "title_en": "Use the past perfect passive",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.29",
+          "title_ru": "Ограничения и оговорки",
+          "title_en": "Express limitations or caveats",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.30",
+          "title_ru": "Спортивные события, планы и мнения",
+          "title_en": "Talk about sporting events, explain your plans and opinions",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.31",
+          "title_ru": "Поймите экскурсию с гидом",
+          "title_en": "Understand a guided tour",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.32",
+          "title_ru": "Строите догадки о загадках",
+          "title_en": "Speculate about mysteries",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.33",
+          "title_ru": "Магическое шоу",
+          "title_en": "Interact at a magic show",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.34",
+          "title_ru": "Вспомните детство",
+          "title_en": "Reminisce about childhood",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.35",
+          "title_ru": "Объясните сложную ситуацию",
+          "title_en": "Explain a complicated situation",
+          "implemented_unit_id": null
+        },
+        {
+          "unit_number": "8.36",
+          "title_ru": "Облегчение и поздравления",
+          "title_en": "Express relief and congratulations",
+          "implemented_unit_id": null
+        }
+      ]
+    }
+  ]
+}

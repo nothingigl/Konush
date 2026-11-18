@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-15",
+  "course": "tr",
+  "section": 3,
+  "order": 15,
+  "slug": "3-15-abilities",
+  "title_ru": "Умения",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-15-w01",
+      "text": "yüzmek",
+      "ru": "плавать",
+      "audio": "tr/3-15/w01.mp3"
+    },
+    {
+      "id": "tr-3-15-w02",
+      "text": "çalmak",
+      "ru": "играть (на инструменте)",
+      "audio": "tr/3-15/w02.mp3"
+    },
+    {
+      "id": "tr-3-15-w03",
+      "text": "şarkı söylemek",
+      "ru": "петь",
+      "audio": "tr/3-15/w03.mp3"
+    },
+    {
+      "id": "tr-3-15-w04",
+      "text": "dans etmek",
+      "ru": "танцевать",
+      "audio": "tr/3-15/w04.mp3"
+    },
+    {
+      "id": "tr-3-15-w05",
+      "text": "yemek pişirmek",
+      "ru": "готовить",
+      "audio": "tr/3-15/w05.mp3"
+    },
+    {
+      "id": "tr-3-15-w06",
+      "text": "araba kullanmak",
+      "ru": "водить машину",
+      "audio": "tr/3-15/w06.mp3"
+    },
+    {
+      "id": "tr-3-15-w07",
+      "text": "resim yapmak",
+      "ru": "рисовать",
+      "audio": "tr/3-15/w07.mp3"
+    },
+    {
+      "id": "tr-3-15-w08",
+      "text": "piyano",
+      "ru": "пианино",
+      "audio": "tr/3-15/w08.mp3"
+    },
+    {
+      "id": "tr-3-15-w09",
+      "text": "gitar",
+      "ru": "гитара",
+      "audio": "tr/3-15/w09.mp3"
+    },
+    {
+      "id": "tr-3-15-w10",
+      "text": "yetenek",
+      "ru": "талант",
+      "audio": "tr/3-15/w10.mp3"
+    },
+    {
+      "id": "tr-3-15-w11",
+      "text": "iyi",
+      "ru": "хорошо",
+      "audio": "tr/3-15/w11.mp3"
+    },
+    {
+      "id": "tr-3-15-w12",
+      "text": "kötü",
+      "ru": "плохо",
+      "audio": "tr/3-15/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

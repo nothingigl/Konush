@@ -1,0 +1,26 @@
+{
+  "id": "tr-3-boss",
+  "course": "tr",
+  "section": 3,
+  "order": 29,
+  "slug": "3-boss-clinic-marathon",
+  "title_ru": "Босс: «Поликлиника-марафон»",
+  "character": "kemal",
+  "boss": true,
+  "words": [],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "tr-2-boss",
+  "course": "tr",
+  "section": 2,
+  "order": 31,
+  "slug": "2-boss-city-quest",
+  "title_ru": "Босс: «Город-квест»",
+  "character": "elif",
+  "boss": true,
+  "words": [],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

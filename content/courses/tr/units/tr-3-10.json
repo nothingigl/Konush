@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-10",
+  "course": "tr",
+  "section": 3,
+  "order": 10,
+  "slug": "3-10-symptoms",
+  "title_ru": "Симптомы",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-10-w01",
+      "text": "ağrı",
+      "ru": "боль",
+      "audio": "tr/3-10/w01.mp3"
+    },
+    {
+      "id": "tr-3-10-w02",
+      "text": "ağrımak",
+      "ru": "болеть",
+      "audio": "tr/3-10/w02.mp3"
+    },
+    {
+      "id": "tr-3-10-w03",
+      "text": "ateş",
+      "ru": "температура",
+      "audio": "tr/3-10/w03.mp3"
+    },
+    {
+      "id": "tr-3-10-w04",
+      "text": "öksürmek",
+      "ru": "кашлять",
+      "audio": "tr/3-10/w04.mp3"
+    },
+    {
+      "id": "tr-3-10-w05",
+      "text": "hapşırmak",
+      "ru": "чихать",
+      "audio": "tr/3-10/w05.mp3"
+    },
+    {
+      "id": "tr-3-10-w06",
+      "text": "nezle",
+      "ru": "насморк",
+      "audio": "tr/3-10/w06.mp3"
+    },
+    {
+      "id": "tr-3-10-w07",
+      "text": "grip",
+      "ru": "грипп",
+      "audio": "tr/3-10/w07.mp3"
+    },
+    {
+      "id": "tr-3-10-w08",
+      "text": "boğaz",
+      "ru": "горло",
+      "audio": "tr/3-10/w08.mp3"
+    },
+    {
+      "id": "tr-3-10-w09",
+      "text": "karın",
+      "ru": "живот",
+      "audio": "tr/3-10/w09.mp3"
+    },
+    {
+      "id": "tr-3-10-w10",
+      "text": "mide",
+      "ru": "желудок",
+      "audio": "tr/3-10/w10.mp3"
+    },
+    {
+      "id": "tr-3-10-w11",
+      "text": "sırt",
+      "ru": "спина",
+      "audio": "tr/3-10/w11.mp3"
+    },
+    {
+      "id": "tr-3-10-w12",
+      "text": "titremek",
+      "ru": "дрожать",
+      "audio": "tr/3-10/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

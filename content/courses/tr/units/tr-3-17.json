@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-17",
+  "course": "tr",
+  "section": 3,
+  "order": 17,
+  "slug": "3-17-obligation-and-necessity",
+  "title_ru": "Нужно, надо, должен",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-17-w01",
+      "text": "lazım",
+      "ru": "нужно",
+      "audio": "tr/3-17/w01.mp3"
+    },
+    {
+      "id": "tr-3-17-w02",
+      "text": "gerek",
+      "ru": "надо",
+      "audio": "tr/3-17/w02.mp3"
+    },
+    {
+      "id": "tr-3-17-w03",
+      "text": "zorunda",
+      "ru": "вынужден",
+      "audio": "tr/3-17/w03.mp3"
+    },
+    {
+      "id": "tr-3-17-w04",
+      "text": "mecbur",
+      "ru": "вынужден",
+      "audio": "tr/3-17/w04.mp3"
+    },
+    {
+      "id": "tr-3-17-w05",
+      "text": "-malı/-meli",
+      "ru": "должен",
+      "audio": "tr/3-17/w05.mp3"
+    },
+    {
+      "id": "tr-3-17-w06",
+      "text": "görev",
+      "ru": "обязанность",
+      "audio": "tr/3-17/w06.mp3"
+    },
+    {
+      "id": "tr-3-17-w07",
+      "text": "ödev",
+      "ru": "домашнее задание",
+      "audio": "tr/3-17/w07.mp3"
+    },
+    {
+      "id": "tr-3-17-w08",
+      "text": "sınav",
+      "ru": "экзамен",
+      "audio": "tr/3-17/w08.mp3"
+    },
+    {
+      "id": "tr-3-17-w09",
+      "text": "iş",
+      "ru": "работа",
+      "audio": "tr/3-17/w09.mp3"
+    },
+    {
+      "id": "tr-3-17-w10",
+      "text": "temizlik",
+      "ru": "уборка",
+      "audio": "tr/3-17/w10.mp3"
+    },
+    {
+      "id": "tr-3-17-w11",
+      "text": "alışveriş",
+      "ru": "покупки",
+      "audio": "tr/3-17/w11.mp3"
+    },
+    {
+      "id": "tr-3-17-w12",
+      "text": "yarına kadar",
+      "ru": "до завтра",
+      "audio": "tr/3-17/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

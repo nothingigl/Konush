@@ -1,0 +1,99 @@
+{
+  "id": "en-1-2",
+  "course": "en",
+  "section": 1,
+  "order": 2,
+  "slug": "1-2-say-where-you-are-from",
+  "title_ru": "Откуда вы",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-1-2-w01",
+      "text": "I am",
+      "ru": "я (есть)",
+      "audio": "en/1-2/w01.mp3"
+    },
+    {
+      "id": "en-1-2-w02",
+      "text": "from",
+      "ru": "из, от",
+      "audio": "en/1-2/w02.mp3"
+    },
+    {
+      "id": "en-1-2-w03",
+      "text": "country",
+      "ru": "страна",
+      "audio": "en/1-2/w03.mp3"
+    },
+    {
+      "id": "en-1-2-w04",
+      "text": "city",
+      "ru": "город",
+      "audio": "en/1-2/w04.mp3"
+    },
+    {
+      "id": "en-1-2-w05",
+      "text": "Russia",
+      "ru": "Россия",
+      "audio": "en/1-2/w05.mp3"
+    },
+    {
+      "id": "en-1-2-w06",
+      "text": "Kazakhstan",
+      "ru": "Казахстан",
+      "audio": "en/1-2/w06.mp3"
+    },
+    {
+      "id": "en-1-2-w07",
+      "text": "Turkey",
+      "ru": "Турция",
+      "audio": "en/1-2/w07.mp3"
+    },
+    {
+      "id": "en-1-2-w08",
+      "text": "Germany",
+      "ru": "Германия",
+      "audio": "en/1-2/w08.mp3"
+    },
+    {
+      "id": "en-1-2-w09",
+      "text": "England",
+      "ru": "Англия",
+      "audio": "en/1-2/w09.mp3"
+    },
+    {
+      "id": "en-1-2-w10",
+      "text": "the USA",
+      "ru": "США",
+      "audio": "en/1-2/w10.mp3"
+    },
+    {
+      "id": "en-1-2-w11",
+      "text": "live",
+      "ru": "жить",
+      "audio": "en/1-2/w11.mp3"
+    },
+    {
+      "id": "en-1-2-w12",
+      "text": "where",
+      "ru": "где, откуда",
+      "audio": "en/1-2/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

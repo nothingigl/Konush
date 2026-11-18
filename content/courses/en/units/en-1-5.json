@@ -1,0 +1,99 @@
+{
+  "id": "en-1-5",
+  "course": "en",
+  "section": 1,
+  "order": 5,
+  "slug": "1-5-describe-places",
+  "title_ru": "Места",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-1-5-w01",
+      "text": "house",
+      "ru": "дом",
+      "audio": "en/1-5/w01.mp3"
+    },
+    {
+      "id": "en-1-5-w02",
+      "text": "school",
+      "ru": "школа",
+      "audio": "en/1-5/w02.mp3"
+    },
+    {
+      "id": "en-1-5-w03",
+      "text": "shop",
+      "ru": "магазин",
+      "audio": "en/1-5/w03.mp3"
+    },
+    {
+      "id": "en-1-5-w04",
+      "text": "park",
+      "ru": "парк",
+      "audio": "en/1-5/w04.mp3"
+    },
+    {
+      "id": "en-1-5-w05",
+      "text": "street",
+      "ru": "улица",
+      "audio": "en/1-5/w05.mp3"
+    },
+    {
+      "id": "en-1-5-w06",
+      "text": "room",
+      "ru": "комната",
+      "audio": "en/1-5/w06.mp3"
+    },
+    {
+      "id": "en-1-5-w07",
+      "text": "kitchen",
+      "ru": "кухня",
+      "audio": "en/1-5/w07.mp3"
+    },
+    {
+      "id": "en-1-5-w08",
+      "text": "office",
+      "ru": "офис",
+      "audio": "en/1-5/w08.mp3"
+    },
+    {
+      "id": "en-1-5-w09",
+      "text": "restaurant",
+      "ru": "ресторан",
+      "audio": "en/1-5/w09.mp3"
+    },
+    {
+      "id": "en-1-5-w10",
+      "text": "hospital",
+      "ru": "больница",
+      "audio": "en/1-5/w10.mp3"
+    },
+    {
+      "id": "en-1-5-w11",
+      "text": "big",
+      "ru": "большой",
+      "audio": "en/1-5/w11.mp3"
+    },
+    {
+      "id": "en-1-5-w12",
+      "text": "small",
+      "ru": "маленький",
+      "audio": "en/1-5/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

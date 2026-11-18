@@ -1,0 +1,99 @@
+{
+  "id": "en-2-2",
+  "course": "en",
+  "section": 2,
+  "order": 2,
+  "slug": "2-2-discuss-personal-life",
+  "title_ru": "Личная жизнь",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-2-w01",
+      "text": "single",
+      "ru": "не женат, не замужем",
+      "audio": "en/2-2/w01.mp3"
+    },
+    {
+      "id": "en-2-2-w02",
+      "text": "married",
+      "ru": "женат, замужем",
+      "audio": "en/2-2/w02.mp3"
+    },
+    {
+      "id": "en-2-2-w03",
+      "text": "boyfriend",
+      "ru": "парень",
+      "audio": "en/2-2/w03.mp3"
+    },
+    {
+      "id": "en-2-2-w04",
+      "text": "girlfriend",
+      "ru": "девушка",
+      "audio": "en/2-2/w04.mp3"
+    },
+    {
+      "id": "en-2-2-w05",
+      "text": "live alone",
+      "ru": "жить одному",
+      "audio": "en/2-2/w05.mp3"
+    },
+    {
+      "id": "en-2-2-w06",
+      "text": "roommate",
+      "ru": "сосед по комнате",
+      "audio": "en/2-2/w06.mp3"
+    },
+    {
+      "id": "en-2-2-w07",
+      "text": "age",
+      "ru": "возраст",
+      "audio": "en/2-2/w07.mp3"
+    },
+    {
+      "id": "en-2-2-w08",
+      "text": "born",
+      "ru": "рождённый",
+      "audio": "en/2-2/w08.mp3"
+    },
+    {
+      "id": "en-2-2-w09",
+      "text": "busy",
+      "ru": "занятой",
+      "audio": "en/2-2/w09.mp3"
+    },
+    {
+      "id": "en-2-2-w10",
+      "text": "happy",
+      "ru": "счастливый",
+      "audio": "en/2-2/w10.mp3"
+    },
+    {
+      "id": "en-2-2-w11",
+      "text": "free time",
+      "ru": "свободное время",
+      "audio": "en/2-2/w11.mp3"
+    },
+    {
+      "id": "en-2-2-w12",
+      "text": "together",
+      "ru": "вместе",
+      "audio": "en/2-2/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "en-2-4",
+  "course": "en",
+  "section": 2,
+  "order": 4,
+  "slug": "2-4-talk-about-interests",
+  "title_ru": "Интересы",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-4-w01",
+      "text": "interested in",
+      "ru": "интересоваться",
+      "audio": "en/2-4/w01.mp3"
+    },
+    {
+      "id": "en-2-4-w02",
+      "text": "art",
+      "ru": "искусство",
+      "audio": "en/2-4/w02.mp3"
+    },
+    {
+      "id": "en-2-4-w03",
+      "text": "history",
+      "ru": "история",
+      "audio": "en/2-4/w03.mp3"
+    },
+    {
+      "id": "en-2-4-w04",
+      "text": "science",
+      "ru": "наука",
+      "audio": "en/2-4/w04.mp3"
+    },
+    {
+      "id": "en-2-4-w05",
+      "text": "books",
+      "ru": "книги",
+      "audio": "en/2-4/w05.mp3"
+    },
+    {
+      "id": "en-2-4-w06",
+      "text": "sport",
+      "ru": "спорт",
+      "audio": "en/2-4/w06.mp3"
+    },
+    {
+      "id": "en-2-4-w07",
+      "text": "games",
+      "ru": "игры",
+      "audio": "en/2-4/w07.mp3"
+    },
+    {
+      "id": "en-2-4-w08",
+      "text": "movies",
+      "ru": "фильмы",
+      "audio": "en/2-4/w08.mp3"
+    },
+    {
+      "id": "en-2-4-w09",
+      "text": "photography",
+      "ru": "фотография",
+      "audio": "en/2-4/w09.mp3"
+    },
+    {
+      "id": "en-2-4-w10",
+      "text": "nature",
+      "ru": "природа",
+      "audio": "en/2-4/w10.mp3"
+    },
+    {
+      "id": "en-2-4-w11",
+      "text": "favorite",
+      "ru": "любимый",
+      "audio": "en/2-4/w11.mp3"
+    },
+    {
+      "id": "en-2-4-w12",
+      "text": "really",
+      "ru": "действительно",
+      "audio": "en/2-4/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

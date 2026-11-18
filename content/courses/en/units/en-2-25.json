@@ -1,0 +1,99 @@
+{
+  "id": "en-2-25",
+  "course": "en",
+  "section": 2,
+  "order": 25,
+  "slug": "2-25-talk-about-the-weather",
+  "title_ru": "Погода",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-25-w01",
+      "text": "weather",
+      "ru": "погода",
+      "audio": "en/2-25/w01.mp3"
+    },
+    {
+      "id": "en-2-25-w02",
+      "text": "sunny",
+      "ru": "солнечный",
+      "audio": "en/2-25/w02.mp3"
+    },
+    {
+      "id": "en-2-25-w03",
+      "text": "cloudy",
+      "ru": "облачный",
+      "audio": "en/2-25/w03.mp3"
+    },
+    {
+      "id": "en-2-25-w04",
+      "text": "rain",
+      "ru": "дождь",
+      "audio": "en/2-25/w04.mp3"
+    },
+    {
+      "id": "en-2-25-w05",
+      "text": "snow",
+      "ru": "снег",
+      "audio": "en/2-25/w05.mp3"
+    },
+    {
+      "id": "en-2-25-w06",
+      "text": "wind",
+      "ru": "ветер",
+      "audio": "en/2-25/w06.mp3"
+    },
+    {
+      "id": "en-2-25-w07",
+      "text": "foggy",
+      "ru": "туманный",
+      "audio": "en/2-25/w07.mp3"
+    },
+    {
+      "id": "en-2-25-w08",
+      "text": "cold",
+      "ru": "холодный",
+      "audio": "en/2-25/w08.mp3"
+    },
+    {
+      "id": "en-2-25-w09",
+      "text": "warm",
+      "ru": "тёплый",
+      "audio": "en/2-25/w09.mp3"
+    },
+    {
+      "id": "en-2-25-w10",
+      "text": "cool",
+      "ru": "прохладный",
+      "audio": "en/2-25/w10.mp3"
+    },
+    {
+      "id": "en-2-25-w11",
+      "text": "storm",
+      "ru": "буря",
+      "audio": "en/2-25/w11.mp3"
+    },
+    {
+      "id": "en-2-25-w12",
+      "text": "temperature",
+      "ru": "температура",
+      "audio": "en/2-25/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

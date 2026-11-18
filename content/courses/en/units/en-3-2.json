@@ -1,0 +1,99 @@
+{
+  "id": "en-3-2",
+  "course": "en",
+  "section": 3,
+  "order": 2,
+  "slug": "3-2-talk-about-languages",
+  "title_ru": "Языки",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-2-w01",
+      "text": "language",
+      "ru": "язык",
+      "audio": "en/3-2/w01.mp3"
+    },
+    {
+      "id": "en-3-2-w02",
+      "text": "English",
+      "ru": "английский",
+      "audio": "en/3-2/w02.mp3"
+    },
+    {
+      "id": "en-3-2-w03",
+      "text": "Russian",
+      "ru": "русский",
+      "audio": "en/3-2/w03.mp3"
+    },
+    {
+      "id": "en-3-2-w04",
+      "text": "Turkish",
+      "ru": "турецкий",
+      "audio": "en/3-2/w04.mp3"
+    },
+    {
+      "id": "en-3-2-w05",
+      "text": "foreign",
+      "ru": "иностранный",
+      "audio": "en/3-2/w05.mp3"
+    },
+    {
+      "id": "en-3-2-w06",
+      "text": "learn",
+      "ru": "учить",
+      "audio": "en/3-2/w06.mp3"
+    },
+    {
+      "id": "en-3-2-w07",
+      "text": "translate",
+      "ru": "переводить",
+      "audio": "en/3-2/w07.mp3"
+    },
+    {
+      "id": "en-3-2-w08",
+      "text": "word",
+      "ru": "слово",
+      "audio": "en/3-2/w08.mp3"
+    },
+    {
+      "id": "en-3-2-w09",
+      "text": "accent",
+      "ru": "акцент",
+      "audio": "en/3-2/w09.mp3"
+    },
+    {
+      "id": "en-3-2-w10",
+      "text": "fluent",
+      "ru": "свободно владеющий",
+      "audio": "en/3-2/w10.mp3"
+    },
+    {
+      "id": "en-3-2-w11",
+      "text": "native",
+      "ru": "родной",
+      "audio": "en/3-2/w11.mp3"
+    },
+    {
+      "id": "en-3-2-w12",
+      "text": "bilingual",
+      "ru": "двуязычный",
+      "audio": "en/3-2/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

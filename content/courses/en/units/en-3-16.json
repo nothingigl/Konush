@@ -1,0 +1,99 @@
+{
+  "id": "en-3-16",
+  "course": "en",
+  "section": 3,
+  "order": 16,
+  "slug": "3-16-talk-about-the-past",
+  "title_ru": "Прошлое",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-16-w01",
+      "text": "yesterday",
+      "ru": "вчера",
+      "audio": "en/3-16/w01.mp3"
+    },
+    {
+      "id": "en-3-16-w02",
+      "text": "last week",
+      "ru": "на прошлой неделе",
+      "audio": "en/3-16/w02.mp3"
+    },
+    {
+      "id": "en-3-16-w03",
+      "text": "ago",
+      "ru": "назад",
+      "audio": "en/3-16/w03.mp3"
+    },
+    {
+      "id": "en-3-16-w04",
+      "text": "last year",
+      "ru": "в прошлом году",
+      "audio": "en/3-16/w04.mp3"
+    },
+    {
+      "id": "en-3-16-w05",
+      "text": "then",
+      "ru": "тогда",
+      "audio": "en/3-16/w05.mp3"
+    },
+    {
+      "id": "en-3-16-w06",
+      "text": "before",
+      "ru": "раньше",
+      "audio": "en/3-16/w06.mp3"
+    },
+    {
+      "id": "en-3-16-w07",
+      "text": "remember",
+      "ru": "помнить",
+      "audio": "en/3-16/w07.mp3"
+    },
+    {
+      "id": "en-3-16-w08",
+      "text": "forget",
+      "ru": "забывать",
+      "audio": "en/3-16/w08.mp3"
+    },
+    {
+      "id": "en-3-16-w09",
+      "text": "once",
+      "ru": "однажды",
+      "audio": "en/3-16/w09.mp3"
+    },
+    {
+      "id": "en-3-16-w10",
+      "text": "in the past",
+      "ru": "в прошлом",
+      "audio": "en/3-16/w10.mp3"
+    },
+    {
+      "id": "en-3-16-w11",
+      "text": "long ago",
+      "ru": "давным-давно",
+      "audio": "en/3-16/w11.mp3"
+    },
+    {
+      "id": "en-3-16-w12",
+      "text": "last night",
+      "ru": "вчера вечером",
+      "audio": "en/3-16/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

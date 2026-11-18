@@ -1,0 +1,99 @@
+{
+  "id": "en-2-9",
+  "course": "en",
+  "section": 2,
+  "order": 9,
+  "slug": "2-9-describe-a-big-city",
+  "title_ru": "Большой город",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-9-w01",
+      "text": "traffic",
+      "ru": "движение, пробки",
+      "audio": "en/2-9/w01.mp3"
+    },
+    {
+      "id": "en-2-9-w02",
+      "text": "building",
+      "ru": "здание",
+      "audio": "en/2-9/w02.mp3"
+    },
+    {
+      "id": "en-2-9-w03",
+      "text": "bridge",
+      "ru": "мост",
+      "audio": "en/2-9/w03.mp3"
+    },
+    {
+      "id": "en-2-9-w04",
+      "text": "subway",
+      "ru": "метро",
+      "audio": "en/2-9/w04.mp3"
+    },
+    {
+      "id": "en-2-9-w05",
+      "text": "crowded",
+      "ru": "многолюдный",
+      "audio": "en/2-9/w05.mp3"
+    },
+    {
+      "id": "en-2-9-w06",
+      "text": "noisy",
+      "ru": "шумный",
+      "audio": "en/2-9/w06.mp3"
+    },
+    {
+      "id": "en-2-9-w07",
+      "text": "tall",
+      "ru": "высокий",
+      "audio": "en/2-9/w07.mp3"
+    },
+    {
+      "id": "en-2-9-w08",
+      "text": "busy",
+      "ru": "оживлённый",
+      "audio": "en/2-9/w08.mp3"
+    },
+    {
+      "id": "en-2-9-w09",
+      "text": "downtown",
+      "ru": "центр города",
+      "audio": "en/2-9/w09.mp3"
+    },
+    {
+      "id": "en-2-9-w10",
+      "text": "square",
+      "ru": "площадь",
+      "audio": "en/2-9/w10.mp3"
+    },
+    {
+      "id": "en-2-9-w11",
+      "text": "tower",
+      "ru": "башня",
+      "audio": "en/2-9/w11.mp3"
+    },
+    {
+      "id": "en-2-9-w12",
+      "text": "skyscraper",
+      "ru": "небоскрёб",
+      "audio": "en/2-9/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

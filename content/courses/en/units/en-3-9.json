@@ -1,0 +1,99 @@
+{
+  "id": "en-3-9",
+  "course": "en",
+  "section": 3,
+  "order": 9,
+  "slug": "3-9-discuss-the-weekend",
+  "title_ru": "Выходные",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-9-w01",
+      "text": "weekend",
+      "ru": "выходные",
+      "audio": "en/3-9/w01.mp3"
+    },
+    {
+      "id": "en-3-9-w02",
+      "text": "Saturday",
+      "ru": "суббота",
+      "audio": "en/3-9/w02.mp3"
+    },
+    {
+      "id": "en-3-9-w03",
+      "text": "Sunday",
+      "ru": "воскресенье",
+      "audio": "en/3-9/w03.mp3"
+    },
+    {
+      "id": "en-3-9-w04",
+      "text": "sleep in",
+      "ru": "поспать подольше",
+      "audio": "en/3-9/w04.mp3"
+    },
+    {
+      "id": "en-3-9-w05",
+      "text": "stay home",
+      "ru": "остаться дома",
+      "audio": "en/3-9/w05.mp3"
+    },
+    {
+      "id": "en-3-9-w06",
+      "text": "go out",
+      "ru": "выйти куда-то",
+      "audio": "en/3-9/w06.mp3"
+    },
+    {
+      "id": "en-3-9-w07",
+      "text": "lazy",
+      "ru": "ленивый",
+      "audio": "en/3-9/w07.mp3"
+    },
+    {
+      "id": "en-3-9-w08",
+      "text": "barbecue",
+      "ru": "барбекю",
+      "audio": "en/3-9/w08.mp3"
+    },
+    {
+      "id": "en-3-9-w09",
+      "text": "usually",
+      "ru": "обычно",
+      "audio": "en/3-9/w09.mp3"
+    },
+    {
+      "id": "en-3-9-w10",
+      "text": "sometimes",
+      "ru": "иногда",
+      "audio": "en/3-9/w10.mp3"
+    },
+    {
+      "id": "en-3-9-w11",
+      "text": "nothing special",
+      "ru": "ничего особенного",
+      "audio": "en/3-9/w11.mp3"
+    },
+    {
+      "id": "en-3-9-w12",
+      "text": "free day",
+      "ru": "свободный день",
+      "audio": "en/3-9/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

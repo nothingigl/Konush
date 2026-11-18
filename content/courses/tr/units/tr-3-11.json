@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-11",
+  "course": "tr",
+  "section": 3,
+  "order": 11,
+  "slug": "3-11-at-the-pharmacy",
+  "title_ru": "В аптеке",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-11-w01",
+      "text": "ilaç",
+      "ru": "лекарство",
+      "audio": "tr/3-11/w01.mp3"
+    },
+    {
+      "id": "tr-3-11-w02",
+      "text": "eczane",
+      "ru": "аптека",
+      "audio": "tr/3-11/w02.mp3"
+    },
+    {
+      "id": "tr-3-11-w03",
+      "text": "eczacı",
+      "ru": "фармацевт",
+      "audio": "tr/3-11/w03.mp3"
+    },
+    {
+      "id": "tr-3-11-w04",
+      "text": "hap",
+      "ru": "таблетка",
+      "audio": "tr/3-11/w04.mp3"
+    },
+    {
+      "id": "tr-3-11-w05",
+      "text": "şurup",
+      "ru": "сироп",
+      "audio": "tr/3-11/w05.mp3"
+    },
+    {
+      "id": "tr-3-11-w06",
+      "text": "krem",
+      "ru": "крем",
+      "audio": "tr/3-11/w06.mp3"
+    },
+    {
+      "id": "tr-3-11-w07",
+      "text": "reçete",
+      "ru": "рецепт",
+      "audio": "tr/3-11/w07.mp3"
+    },
+    {
+      "id": "tr-3-11-w08",
+      "text": "günde",
+      "ru": "в день",
+      "audio": "tr/3-11/w08.mp3"
+    },
+    {
+      "id": "tr-3-11-w09",
+      "text": "kez",
+      "ru": "раз",
+      "audio": "tr/3-11/w09.mp3"
+    },
+    {
+      "id": "tr-3-11-w10",
+      "text": "yemekten önce",
+      "ru": "перед едой",
+      "audio": "tr/3-11/w10.mp3"
+    },
+    {
+      "id": "tr-3-11-w11",
+      "text": "yemekten sonra",
+      "ru": "после еды",
+      "audio": "tr/3-11/w11.mp3"
+    },
+    {
+      "id": "tr-3-11-w12",
+      "text": "iyileşmek",
+      "ru": "выздороветь",
+      "audio": "tr/3-11/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

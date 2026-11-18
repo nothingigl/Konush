@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-13",
+  "course": "tr",
+  "section": 3,
+  "order": 13,
+  "slug": "3-13-past-habits",
+  "title_ru": "Привычки в прошлом (-ardım/-erdim)",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-13-w01",
+      "text": "çocukken",
+      "ru": "в детстве",
+      "audio": "tr/3-13/w01.mp3"
+    },
+    {
+      "id": "tr-3-13-w02",
+      "text": "gençken",
+      "ru": "в молодости",
+      "audio": "tr/3-13/w02.mp3"
+    },
+    {
+      "id": "tr-3-13-w03",
+      "text": "eskiden",
+      "ru": "раньше",
+      "audio": "tr/3-13/w03.mp3"
+    },
+    {
+      "id": "tr-3-13-w04",
+      "text": "her yaz",
+      "ru": "каждое лето",
+      "audio": "tr/3-13/w04.mp3"
+    },
+    {
+      "id": "tr-3-13-w05",
+      "text": "hafta sonları",
+      "ru": "по выходным",
+      "audio": "tr/3-13/w05.mp3"
+    },
+    {
+      "id": "tr-3-13-w06",
+      "text": "bahçe",
+      "ru": "сад",
+      "audio": "tr/3-13/w06.mp3"
+    },
+    {
+      "id": "tr-3-13-w07",
+      "text": "oyuncak",
+      "ru": "игрушка",
+      "audio": "tr/3-13/w07.mp3"
+    },
+    {
+      "id": "tr-3-13-w08",
+      "text": "top",
+      "ru": "мяч",
+      "audio": "tr/3-13/w08.mp3"
+    },
+    {
+      "id": "tr-3-13-w09",
+      "text": "masal",
+      "ru": "сказка",
+      "audio": "tr/3-13/w09.mp3"
+    },
+    {
+      "id": "tr-3-13-w10",
+      "text": "bisiklet",
+      "ru": "велосипед",
+      "audio": "tr/3-13/w10.mp3"
+    },
+    {
+      "id": "tr-3-13-w11",
+      "text": "mahalle",
+      "ru": "район, двор",
+      "audio": "tr/3-13/w11.mp3"
+    },
+    {
+      "id": "tr-3-13-w12",
+      "text": "oyun",
+      "ru": "игра",
+      "audio": "tr/3-13/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

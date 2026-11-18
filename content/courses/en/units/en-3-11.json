@@ -1,0 +1,99 @@
+{
+  "id": "en-3-11",
+  "course": "en",
+  "section": 3,
+  "order": 11,
+  "slug": "3-11-talk-about-childhood",
+  "title_ru": "Детство",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-3-11-w01",
+      "text": "child",
+      "ru": "ребёнок",
+      "audio": "en/3-11/w01.mp3"
+    },
+    {
+      "id": "en-3-11-w02",
+      "text": "toy",
+      "ru": "игрушка",
+      "audio": "en/3-11/w02.mp3"
+    },
+    {
+      "id": "en-3-11-w03",
+      "text": "kindergarten",
+      "ru": "детский сад",
+      "audio": "en/3-11/w03.mp3"
+    },
+    {
+      "id": "en-3-11-w04",
+      "text": "cartoon",
+      "ru": "мультфильм",
+      "audio": "en/3-11/w04.mp3"
+    },
+    {
+      "id": "en-3-11-w05",
+      "text": "candy",
+      "ru": "конфета",
+      "audio": "en/3-11/w05.mp3"
+    },
+    {
+      "id": "en-3-11-w06",
+      "text": "ride a bike",
+      "ru": "ездить на велосипеде",
+      "audio": "en/3-11/w06.mp3"
+    },
+    {
+      "id": "en-3-11-w07",
+      "text": "swing",
+      "ru": "качели",
+      "audio": "en/3-11/w07.mp3"
+    },
+    {
+      "id": "en-3-11-w08",
+      "text": "school bag",
+      "ru": "школьный портфель",
+      "audio": "en/3-11/w08.mp3"
+    },
+    {
+      "id": "en-3-11-w09",
+      "text": "nickname",
+      "ru": "прозвище",
+      "audio": "en/3-11/w09.mp3"
+    },
+    {
+      "id": "en-3-11-w10",
+      "text": "grow up",
+      "ru": "вырасти",
+      "audio": "en/3-11/w10.mp3"
+    },
+    {
+      "id": "en-3-11-w11",
+      "text": "used to",
+      "ru": "раньше (делал)",
+      "audio": "en/3-11/w11.mp3"
+    },
+    {
+      "id": "en-3-11-w12",
+      "text": "as a kid",
+      "ru": "в детстве",
+      "audio": "en/3-11/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

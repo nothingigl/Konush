@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-11",
+  "course": "tr",
+  "section": 2,
+  "order": 11,
+  "slug": "2-11-dative-case",
+  "title_ru": "Дательный падеж (-a/-e)",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-11-w01",
+      "text": "binmek",
+      "ru": "садиться (в транспорт)",
+      "audio": "tr/2-11/w01.mp3"
+    },
+    {
+      "id": "tr-2-11-w02",
+      "text": "girmek",
+      "ru": "входить",
+      "audio": "tr/2-11/w02.mp3"
+    },
+    {
+      "id": "tr-2-11-w03",
+      "text": "varmak",
+      "ru": "прибывать",
+      "audio": "tr/2-11/w03.mp3"
+    },
+    {
+      "id": "tr-2-11-w04",
+      "text": "başlamak",
+      "ru": "начинать",
+      "audio": "tr/2-11/w04.mp3"
+    },
+    {
+      "id": "tr-2-11-w05",
+      "text": "benzemek",
+      "ru": "быть похожим",
+      "audio": "tr/2-11/w05.mp3"
+    },
+    {
+      "id": "tr-2-11-w06",
+      "text": "inanmak",
+      "ru": "верить",
+      "audio": "tr/2-11/w06.mp3"
+    },
+    {
+      "id": "tr-2-11-w07",
+      "text": "gülmek",
+      "ru": "смеяться",
+      "audio": "tr/2-11/w07.mp3"
+    },
+    {
+      "id": "tr-2-11-w08",
+      "text": "katılmak",
+      "ru": "присоединяться",
+      "audio": "tr/2-11/w08.mp3"
+    },
+    {
+      "id": "tr-2-11-w09",
+      "text": "alışmak",
+      "ru": "привыкать",
+      "audio": "tr/2-11/w09.mp3"
+    },
+    {
+      "id": "tr-2-11-w10",
+      "text": "teşekkür etmek",
+      "ru": "благодарить",
+      "audio": "tr/2-11/w10.mp3"
+    },
+    {
+      "id": "tr-2-11-w11",
+      "text": "otobüs",
+      "ru": "автобус",
+      "audio": "tr/2-11/w11.mp3"
+    },
+    {
+      "id": "tr-2-11-w12",
+      "text": "tren",
+      "ru": "поезд",
+      "audio": "tr/2-11/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

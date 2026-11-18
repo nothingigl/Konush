@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-5",
+  "course": "tr",
+  "section": 2,
+  "order": 5,
+  "slug": "2-5-numbers",
+  "title_ru": "Числа",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-5-w01",
+      "text": "sıfır",
+      "ru": "0",
+      "audio": "tr/2-5/w01.mp3"
+    },
+    {
+      "id": "tr-2-5-w02",
+      "text": "on",
+      "ru": "10",
+      "audio": "tr/2-5/w02.mp3"
+    },
+    {
+      "id": "tr-2-5-w03",
+      "text": "yirmi",
+      "ru": "20",
+      "audio": "tr/2-5/w03.mp3"
+    },
+    {
+      "id": "tr-2-5-w04",
+      "text": "otuz",
+      "ru": "30",
+      "audio": "tr/2-5/w04.mp3"
+    },
+    {
+      "id": "tr-2-5-w05",
+      "text": "kırk",
+      "ru": "40",
+      "audio": "tr/2-5/w05.mp3"
+    },
+    {
+      "id": "tr-2-5-w06",
+      "text": "elli",
+      "ru": "50",
+      "audio": "tr/2-5/w06.mp3"
+    },
+    {
+      "id": "tr-2-5-w07",
+      "text": "altmış",
+      "ru": "60",
+      "audio": "tr/2-5/w07.mp3"
+    },
+    {
+      "id": "tr-2-5-w08",
+      "text": "yetmiş",
+      "ru": "70",
+      "audio": "tr/2-5/w08.mp3"
+    },
+    {
+      "id": "tr-2-5-w09",
+      "text": "seksen",
+      "ru": "80",
+      "audio": "tr/2-5/w09.mp3"
+    },
+    {
+      "id": "tr-2-5-w10",
+      "text": "doksan",
+      "ru": "90",
+      "audio": "tr/2-5/w10.mp3"
+    },
+    {
+      "id": "tr-2-5-w11",
+      "text": "yüz",
+      "ru": "100",
+      "audio": "tr/2-5/w11.mp3"
+    },
+    {
+      "id": "tr-2-5-w12",
+      "text": "bin",
+      "ru": "1000",
+      "audio": "tr/2-5/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "tr-1-8",
+  "course": "tr",
+  "section": 1,
+  "order": 8,
+  "slug": "1-8-describing-objects-2",
+  "title_ru": "Описание предметов (2)",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-1-8-w01",
+      "text": "temiz",
+      "ru": "чистый",
+      "audio": "tr/1-8/w01.mp3"
+    },
+    {
+      "id": "tr-1-8-w02",
+      "text": "kirli",
+      "ru": "грязный",
+      "audio": "tr/1-8/w02.mp3"
+    },
+    {
+      "id": "tr-1-8-w03",
+      "text": "sıcak",
+      "ru": "горячий",
+      "audio": "tr/1-8/w03.mp3"
+    },
+    {
+      "id": "tr-1-8-w04",
+      "text": "soğuk",
+      "ru": "холодный",
+      "audio": "tr/1-8/w04.mp3"
+    },
+    {
+      "id": "tr-1-8-w05",
+      "text": "hızlı",
+      "ru": "быстрый",
+      "audio": "tr/1-8/w05.mp3"
+    },
+    {
+      "id": "tr-1-8-w06",
+      "text": "yavaş",
+      "ru": "медленный",
+      "audio": "tr/1-8/w06.mp3"
+    },
+    {
+      "id": "tr-1-8-w07",
+      "text": "kolay",
+      "ru": "лёгкий (простой)",
+      "audio": "tr/1-8/w07.mp3"
+    },
+    {
+      "id": "tr-1-8-w08",
+      "text": "zor",
+      "ru": "трудный",
+      "audio": "tr/1-8/w08.mp3"
+    },
+    {
+      "id": "tr-1-8-w09",
+      "text": "boş",
+      "ru": "пустой",
+      "audio": "tr/1-8/w09.mp3"
+    },
+    {
+      "id": "tr-1-8-w10",
+      "text": "dolu",
+      "ru": "полный",
+      "audio": "tr/1-8/w10.mp3"
+    },
+    {
+      "id": "tr-1-8-w11",
+      "text": "açık",
+      "ru": "открытый",
+      "audio": "tr/1-8/w11.mp3"
+    },
+    {
+      "id": "tr-1-8-w12",
+      "text": "kapalı",
+      "ru": "закрытый",
+      "audio": "tr/1-8/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

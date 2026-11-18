@@ -1,0 +1,26 @@
+{
+  "id": "en-1-boss",
+  "course": "en",
+  "section": 1,
+  "order": 10,
+  "slug": "1-boss-first-day-in-english",
+  "title_ru": "Босс: «Первый день на английском»",
+  "character": "kemal",
+  "boss": true,
+  "words": [],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

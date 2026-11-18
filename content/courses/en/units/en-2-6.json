@@ -1,0 +1,99 @@
+{
+  "id": "en-2-6",
+  "course": "en",
+  "section": 2,
+  "order": 6,
+  "slug": "2-6-talk-about-your-schedule",
+  "title_ru": "Расписание",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-6-w01",
+      "text": "morning",
+      "ru": "утро",
+      "audio": "en/2-6/w01.mp3"
+    },
+    {
+      "id": "en-2-6-w02",
+      "text": "afternoon",
+      "ru": "время после полудня",
+      "audio": "en/2-6/w02.mp3"
+    },
+    {
+      "id": "en-2-6-w03",
+      "text": "evening",
+      "ru": "вечер",
+      "audio": "en/2-6/w03.mp3"
+    },
+    {
+      "id": "en-2-6-w04",
+      "text": "o'clock",
+      "ru": "час ровно",
+      "audio": "en/2-6/w04.mp3"
+    },
+    {
+      "id": "en-2-6-w05",
+      "text": "early",
+      "ru": "рано",
+      "audio": "en/2-6/w05.mp3"
+    },
+    {
+      "id": "en-2-6-w06",
+      "text": "late",
+      "ru": "поздно",
+      "audio": "en/2-6/w06.mp3"
+    },
+    {
+      "id": "en-2-6-w07",
+      "text": "wake up",
+      "ru": "просыпаться",
+      "audio": "en/2-6/w07.mp3"
+    },
+    {
+      "id": "en-2-6-w08",
+      "text": "start",
+      "ru": "начинать",
+      "audio": "en/2-6/w08.mp3"
+    },
+    {
+      "id": "en-2-6-w09",
+      "text": "finish",
+      "ru": "заканчивать",
+      "audio": "en/2-6/w09.mp3"
+    },
+    {
+      "id": "en-2-6-w10",
+      "text": "meeting",
+      "ru": "встреча",
+      "audio": "en/2-6/w10.mp3"
+    },
+    {
+      "id": "en-2-6-w11",
+      "text": "class",
+      "ru": "урок",
+      "audio": "en/2-6/w11.mp3"
+    },
+    {
+      "id": "en-2-6-w12",
+      "text": "week",
+      "ru": "неделя",
+      "audio": "en/2-6/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

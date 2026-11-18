@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-22",
+  "course": "tr",
+  "section": 2,
+  "order": 22,
+  "slug": "2-22-infinitives",
+  "title_ru": "Инфинитивы",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-22-w01",
+      "text": "öğrenmek",
+      "ru": "учить(ся)",
+      "audio": "tr/2-22/w01.mp3"
+    },
+    {
+      "id": "tr-2-22-w02",
+      "text": "öğretmek",
+      "ru": "преподавать",
+      "audio": "tr/2-22/w02.mp3"
+    },
+    {
+      "id": "tr-2-22-w03",
+      "text": "anlamak",
+      "ru": "понимать",
+      "audio": "tr/2-22/w03.mp3"
+    },
+    {
+      "id": "tr-2-22-w04",
+      "text": "düşünmek",
+      "ru": "думать",
+      "audio": "tr/2-22/w04.mp3"
+    },
+    {
+      "id": "tr-2-22-w05",
+      "text": "hatırlamak",
+      "ru": "вспоминать",
+      "audio": "tr/2-22/w05.mp3"
+    },
+    {
+      "id": "tr-2-22-w06",
+      "text": "unutmak",
+      "ru": "забывать",
+      "audio": "tr/2-22/w06.mp3"
+    },
+    {
+      "id": "tr-2-22-w07",
+      "text": "bitirmek",
+      "ru": "заканчивать",
+      "audio": "tr/2-22/w07.mp3"
+    },
+    {
+      "id": "tr-2-22-w08",
+      "text": "denemek",
+      "ru": "пробовать",
+      "audio": "tr/2-22/w08.mp3"
+    },
+    {
+      "id": "tr-2-22-w09",
+      "text": "seçmek",
+      "ru": "выбирать",
+      "audio": "tr/2-22/w09.mp3"
+    },
+    {
+      "id": "tr-2-22-w10",
+      "text": "kullanmak",
+      "ru": "использовать",
+      "audio": "tr/2-22/w10.mp3"
+    },
+    {
+      "id": "tr-2-22-w11",
+      "text": "yaşamak",
+      "ru": "жить",
+      "audio": "tr/2-22/w11.mp3"
+    },
+    {
+      "id": "tr-2-22-w12",
+      "text": "uyumak",
+      "ru": "спать",
+      "audio": "tr/2-22/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

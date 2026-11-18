@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-29",
+  "course": "tr",
+  "section": 2,
+  "order": 29,
+  "slug": "2-29-materials-and-shapes",
+  "title_ru": "Описание предметов (3)",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-29-w01",
+      "text": "ahşap",
+      "ru": "деревянный",
+      "audio": "tr/2-29/w01.mp3"
+    },
+    {
+      "id": "tr-2-29-w02",
+      "text": "demir",
+      "ru": "железный",
+      "audio": "tr/2-29/w02.mp3"
+    },
+    {
+      "id": "tr-2-29-w03",
+      "text": "cam",
+      "ru": "стекло",
+      "audio": "tr/2-29/w03.mp3"
+    },
+    {
+      "id": "tr-2-29-w04",
+      "text": "kağıt",
+      "ru": "бумага",
+      "audio": "tr/2-29/w04.mp3"
+    },
+    {
+      "id": "tr-2-29-w05",
+      "text": "kumaş",
+      "ru": "ткань",
+      "audio": "tr/2-29/w05.mp3"
+    },
+    {
+      "id": "tr-2-29-w06",
+      "text": "yuvarlak",
+      "ru": "круглый",
+      "audio": "tr/2-29/w06.mp3"
+    },
+    {
+      "id": "tr-2-29-w07",
+      "text": "kare",
+      "ru": "квадратный",
+      "audio": "tr/2-29/w07.mp3"
+    },
+    {
+      "id": "tr-2-29-w08",
+      "text": "düz",
+      "ru": "ровный",
+      "audio": "tr/2-29/w08.mp3"
+    },
+    {
+      "id": "tr-2-29-w09",
+      "text": "kalın",
+      "ru": "толстый",
+      "audio": "tr/2-29/w09.mp3"
+    },
+    {
+      "id": "tr-2-29-w10",
+      "text": "ince",
+      "ru": "тонкий",
+      "audio": "tr/2-29/w10.mp3"
+    },
+    {
+      "id": "tr-2-29-w11",
+      "text": "geniş",
+      "ru": "широкий",
+      "audio": "tr/2-29/w11.mp3"
+    },
+    {
+      "id": "tr-2-29-w12",
+      "text": "dar",
+      "ru": "узкий",
+      "audio": "tr/2-29/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

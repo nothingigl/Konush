@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-17",
+  "course": "tr",
+  "section": 2,
+  "order": 17,
+  "slug": "2-17-family",
+  "title_ru": "Семья",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-17-w01",
+      "text": "anne",
+      "ru": "мама",
+      "audio": "tr/2-17/w01.mp3"
+    },
+    {
+      "id": "tr-2-17-w02",
+      "text": "baba",
+      "ru": "папа",
+      "audio": "tr/2-17/w02.mp3"
+    },
+    {
+      "id": "tr-2-17-w03",
+      "text": "kardeş",
+      "ru": "младший брат/сестра",
+      "audio": "tr/2-17/w03.mp3"
+    },
+    {
+      "id": "tr-2-17-w04",
+      "text": "abla",
+      "ru": "старшая сестра",
+      "audio": "tr/2-17/w04.mp3"
+    },
+    {
+      "id": "tr-2-17-w05",
+      "text": "abi",
+      "ru": "старший брат",
+      "audio": "tr/2-17/w05.mp3"
+    },
+    {
+      "id": "tr-2-17-w06",
+      "text": "dede",
+      "ru": "дедушка",
+      "audio": "tr/2-17/w06.mp3"
+    },
+    {
+      "id": "tr-2-17-w07",
+      "text": "babaanne",
+      "ru": "бабушка (по отцу)",
+      "audio": "tr/2-17/w07.mp3"
+    },
+    {
+      "id": "tr-2-17-w08",
+      "text": "anneanne",
+      "ru": "бабушка (по матери)",
+      "audio": "tr/2-17/w08.mp3"
+    },
+    {
+      "id": "tr-2-17-w09",
+      "text": "amca",
+      "ru": "дядя (брат отца)",
+      "audio": "tr/2-17/w09.mp3"
+    },
+    {
+      "id": "tr-2-17-w10",
+      "text": "teyze",
+      "ru": "тётя (сестра матери)",
+      "audio": "tr/2-17/w10.mp3"
+    },
+    {
+      "id": "tr-2-17-w11",
+      "text": "dayı",
+      "ru": "дядя (брат матери)",
+      "audio": "tr/2-17/w11.mp3"
+    },
+    {
+      "id": "tr-2-17-w12",
+      "text": "hala",
+      "ru": "тётя (сестра отца)",
+      "audio": "tr/2-17/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

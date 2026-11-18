@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-10",
+  "course": "tr",
+  "section": 2,
+  "order": 10,
+  "slug": "2-10-colors",
+  "title_ru": "Цвета",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-10-w01",
+      "text": "siyah",
+      "ru": "чёрный",
+      "audio": "tr/2-10/w01.mp3"
+    },
+    {
+      "id": "tr-2-10-w02",
+      "text": "beyaz",
+      "ru": "белый",
+      "audio": "tr/2-10/w02.mp3"
+    },
+    {
+      "id": "tr-2-10-w03",
+      "text": "turuncu",
+      "ru": "оранжевый",
+      "audio": "tr/2-10/w03.mp3"
+    },
+    {
+      "id": "tr-2-10-w04",
+      "text": "mor",
+      "ru": "фиолетовый",
+      "audio": "tr/2-10/w04.mp3"
+    },
+    {
+      "id": "tr-2-10-w05",
+      "text": "pembe",
+      "ru": "розовый",
+      "audio": "tr/2-10/w05.mp3"
+    },
+    {
+      "id": "tr-2-10-w06",
+      "text": "kahverengi",
+      "ru": "коричневый",
+      "audio": "tr/2-10/w06.mp3"
+    },
+    {
+      "id": "tr-2-10-w07",
+      "text": "gri",
+      "ru": "серый",
+      "audio": "tr/2-10/w07.mp3"
+    },
+    {
+      "id": "tr-2-10-w08",
+      "text": "lacivert",
+      "ru": "тёмно-синий",
+      "audio": "tr/2-10/w08.mp3"
+    },
+    {
+      "id": "tr-2-10-w09",
+      "text": "renk",
+      "ru": "цвет",
+      "audio": "tr/2-10/w09.mp3"
+    },
+    {
+      "id": "tr-2-10-w10",
+      "text": "koyu",
+      "ru": "тёмный",
+      "audio": "tr/2-10/w10.mp3"
+    },
+    {
+      "id": "tr-2-10-w11",
+      "text": "parlak",
+      "ru": "яркий",
+      "audio": "tr/2-10/w11.mp3"
+    },
+    {
+      "id": "tr-2-10-w12",
+      "text": "gökkuşağı",
+      "ru": "радуга",
+      "audio": "tr/2-10/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "tr-1-3",
+  "course": "tr",
+  "section": 1,
+  "order": 3,
+  "slug": "1-3-describing-objects",
+  "title_ru": "Описание предметов",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-1-3-w01",
+      "text": "büyük",
+      "ru": "большой",
+      "audio": "tr/1-3/w01.mp3"
+    },
+    {
+      "id": "tr-1-3-w02",
+      "text": "küçük",
+      "ru": "маленький",
+      "audio": "tr/1-3/w02.mp3"
+    },
+    {
+      "id": "tr-1-3-w03",
+      "text": "yeni",
+      "ru": "новый",
+      "audio": "tr/1-3/w03.mp3"
+    },
+    {
+      "id": "tr-1-3-w04",
+      "text": "eski",
+      "ru": "старый (о вещи)",
+      "audio": "tr/1-3/w04.mp3"
+    },
+    {
+      "id": "tr-1-3-w05",
+      "text": "güzel",
+      "ru": "красивый",
+      "audio": "tr/1-3/w05.mp3"
+    },
+    {
+      "id": "tr-1-3-w06",
+      "text": "çirkin",
+      "ru": "некрасивый",
+      "audio": "tr/1-3/w06.mp3"
+    },
+    {
+      "id": "tr-1-3-w07",
+      "text": "uzun",
+      "ru": "длинный",
+      "audio": "tr/1-3/w07.mp3"
+    },
+    {
+      "id": "tr-1-3-w08",
+      "text": "kısa",
+      "ru": "короткий",
+      "audio": "tr/1-3/w08.mp3"
+    },
+    {
+      "id": "tr-1-3-w09",
+      "text": "ağır",
+      "ru": "тяжёлый",
+      "audio": "tr/1-3/w09.mp3"
+    },
+    {
+      "id": "tr-1-3-w10",
+      "text": "hafif",
+      "ru": "лёгкий",
+      "audio": "tr/1-3/w10.mp3"
+    },
+    {
+      "id": "tr-1-3-w11",
+      "text": "pahalı",
+      "ru": "дорогой",
+      "audio": "tr/1-3/w11.mp3"
+    },
+    {
+      "id": "tr-1-3-w12",
+      "text": "ucuz",
+      "ru": "дешёвый",
+      "audio": "tr/1-3/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

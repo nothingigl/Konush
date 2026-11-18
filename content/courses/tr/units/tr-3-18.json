@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-18",
+  "course": "tr",
+  "section": 3,
+  "order": 18,
+  "slug": "3-18-giving-advice",
+  "title_ru": "Советы: стоит / не стоит",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-18-w01",
+      "text": "tavsiye",
+      "ru": "совет",
+      "audio": "tr/3-18/w01.mp3"
+    },
+    {
+      "id": "tr-3-18-w02",
+      "text": "sağlıklı",
+      "ru": "здоровый",
+      "audio": "tr/3-18/w02.mp3"
+    },
+    {
+      "id": "tr-3-18-w03",
+      "text": "zararlı",
+      "ru": "вредный",
+      "audio": "tr/3-18/w03.mp3"
+    },
+    {
+      "id": "tr-3-18-w04",
+      "text": "faydalı",
+      "ru": "полезный",
+      "audio": "tr/3-18/w04.mp3"
+    },
+    {
+      "id": "tr-3-18-w05",
+      "text": "dinlenmek",
+      "ru": "отдыхать",
+      "audio": "tr/3-18/w05.mp3"
+    },
+    {
+      "id": "tr-3-18-w06",
+      "text": "spor yapmak",
+      "ru": "заниматься спортом",
+      "audio": "tr/3-18/w06.mp3"
+    },
+    {
+      "id": "tr-3-18-w07",
+      "text": "vitamin",
+      "ru": "витамин",
+      "audio": "tr/3-18/w07.mp3"
+    },
+    {
+      "id": "tr-3-18-w08",
+      "text": "uyku",
+      "ru": "сон",
+      "audio": "tr/3-18/w08.mp3"
+    },
+    {
+      "id": "tr-3-18-w09",
+      "text": "bol",
+      "ru": "много, вдоволь",
+      "audio": "tr/3-18/w09.mp3"
+    },
+    {
+      "id": "tr-3-18-w10",
+      "text": "mutlaka",
+      "ru": "обязательно",
+      "audio": "tr/3-18/w10.mp3"
+    },
+    {
+      "id": "tr-3-18-w11",
+      "text": "temiz hava",
+      "ru": "свежий воздух",
+      "audio": "tr/3-18/w11.mp3"
+    },
+    {
+      "id": "tr-3-18-w12",
+      "text": "yeterince",
+      "ru": "достаточно",
+      "audio": "tr/3-18/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

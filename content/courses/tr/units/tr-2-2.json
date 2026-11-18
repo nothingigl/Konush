@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-2",
+  "course": "tr",
+  "section": 2,
+  "order": 2,
+  "slug": "2-2-indirect-objects-dative",
+  "title_ru": "Косвенные дополнения (дательный падеж)",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-2-w01",
+      "text": "vermek",
+      "ru": "давать",
+      "audio": "tr/2-2/w01.mp3"
+    },
+    {
+      "id": "tr-2-2-w02",
+      "text": "göndermek",
+      "ru": "отправлять",
+      "audio": "tr/2-2/w02.mp3"
+    },
+    {
+      "id": "tr-2-2-w03",
+      "text": "söylemek",
+      "ru": "сказать",
+      "audio": "tr/2-2/w03.mp3"
+    },
+    {
+      "id": "tr-2-2-w04",
+      "text": "göstermek",
+      "ru": "показывать",
+      "audio": "tr/2-2/w04.mp3"
+    },
+    {
+      "id": "tr-2-2-w05",
+      "text": "anlatmak",
+      "ru": "рассказывать",
+      "audio": "tr/2-2/w05.mp3"
+    },
+    {
+      "id": "tr-2-2-w06",
+      "text": "yardım etmek",
+      "ru": "помогать",
+      "audio": "tr/2-2/w06.mp3"
+    },
+    {
+      "id": "tr-2-2-w07",
+      "text": "hediye",
+      "ru": "подарок",
+      "audio": "tr/2-2/w07.mp3"
+    },
+    {
+      "id": "tr-2-2-w08",
+      "text": "mektup",
+      "ru": "письмо",
+      "audio": "tr/2-2/w08.mp3"
+    },
+    {
+      "id": "tr-2-2-w09",
+      "text": "mesaj",
+      "ru": "сообщение",
+      "audio": "tr/2-2/w09.mp3"
+    },
+    {
+      "id": "tr-2-2-w10",
+      "text": "para",
+      "ru": "деньги",
+      "audio": "tr/2-2/w10.mp3"
+    },
+    {
+      "id": "tr-2-2-w11",
+      "text": "soru",
+      "ru": "вопрос",
+      "audio": "tr/2-2/w11.mp3"
+    },
+    {
+      "id": "tr-2-2-w12",
+      "text": "cevap",
+      "ru": "ответ",
+      "audio": "tr/2-2/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

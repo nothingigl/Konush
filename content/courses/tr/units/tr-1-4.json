@@ -1,0 +1,99 @@
+{
+  "id": "tr-1-4",
+  "course": "tr",
+  "section": 1,
+  "order": 4,
+  "slug": "1-4-food-2",
+  "title_ru": "Еда (продолжение)",
+  "character": "emre",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-1-4-w01",
+      "text": "et",
+      "ru": "мясо",
+      "audio": "tr/1-4/w01.mp3"
+    },
+    {
+      "id": "tr-1-4-w02",
+      "text": "tavuk",
+      "ru": "курица",
+      "audio": "tr/1-4/w02.mp3"
+    },
+    {
+      "id": "tr-1-4-w03",
+      "text": "balık",
+      "ru": "рыба",
+      "audio": "tr/1-4/w03.mp3"
+    },
+    {
+      "id": "tr-1-4-w04",
+      "text": "pilav",
+      "ru": "рис",
+      "audio": "tr/1-4/w04.mp3"
+    },
+    {
+      "id": "tr-1-4-w05",
+      "text": "makarna",
+      "ru": "макароны",
+      "audio": "tr/1-4/w05.mp3"
+    },
+    {
+      "id": "tr-1-4-w06",
+      "text": "salata",
+      "ru": "салат",
+      "audio": "tr/1-4/w06.mp3"
+    },
+    {
+      "id": "tr-1-4-w07",
+      "text": "sebze",
+      "ru": "овощи",
+      "audio": "tr/1-4/w07.mp3"
+    },
+    {
+      "id": "tr-1-4-w08",
+      "text": "meyve",
+      "ru": "фрукты",
+      "audio": "tr/1-4/w08.mp3"
+    },
+    {
+      "id": "tr-1-4-w09",
+      "text": "domates",
+      "ru": "помидор",
+      "audio": "tr/1-4/w09.mp3"
+    },
+    {
+      "id": "tr-1-4-w10",
+      "text": "patates",
+      "ru": "картофель",
+      "audio": "tr/1-4/w10.mp3"
+    },
+    {
+      "id": "tr-1-4-w11",
+      "text": "kahvaltı",
+      "ru": "завтрак",
+      "audio": "tr/1-4/w11.mp3"
+    },
+    {
+      "id": "tr-1-4-w12",
+      "text": "lezzetli",
+      "ru": "вкусный",
+      "audio": "tr/1-4/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

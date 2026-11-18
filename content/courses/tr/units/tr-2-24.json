@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-24",
+  "course": "tr",
+  "section": 2,
+  "order": 24,
+  "slug": "2-24-people",
+  "title_ru": "Люди",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-24-w01",
+      "text": "insan",
+      "ru": "человек",
+      "audio": "tr/2-24/w01.mp3"
+    },
+    {
+      "id": "tr-2-24-w02",
+      "text": "kişi",
+      "ru": "персона",
+      "audio": "tr/2-24/w02.mp3"
+    },
+    {
+      "id": "tr-2-24-w03",
+      "text": "komşu",
+      "ru": "сосед",
+      "audio": "tr/2-24/w03.mp3"
+    },
+    {
+      "id": "tr-2-24-w04",
+      "text": "misafir",
+      "ru": "гость",
+      "audio": "tr/2-24/w04.mp3"
+    },
+    {
+      "id": "tr-2-24-w05",
+      "text": "yabancı",
+      "ru": "иностранец",
+      "audio": "tr/2-24/w05.mp3"
+    },
+    {
+      "id": "tr-2-24-w06",
+      "text": "müşteri",
+      "ru": "клиент",
+      "audio": "tr/2-24/w06.mp3"
+    },
+    {
+      "id": "tr-2-24-w07",
+      "text": "patron",
+      "ru": "босс",
+      "audio": "tr/2-24/w07.mp3"
+    },
+    {
+      "id": "tr-2-24-w08",
+      "text": "bebek",
+      "ru": "младенец",
+      "audio": "tr/2-24/w08.mp3"
+    },
+    {
+      "id": "tr-2-24-w09",
+      "text": "hasta",
+      "ru": "больной",
+      "audio": "tr/2-24/w09.mp3"
+    },
+    {
+      "id": "tr-2-24-w10",
+      "text": "turist",
+      "ru": "турист",
+      "audio": "tr/2-24/w10.mp3"
+    },
+    {
+      "id": "tr-2-24-w11",
+      "text": "tanıdık",
+      "ru": "знакомый",
+      "audio": "tr/2-24/w11.mp3"
+    },
+    {
+      "id": "tr-2-24-w12",
+      "text": "kalabalık",
+      "ru": "толпа",
+      "audio": "tr/2-24/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

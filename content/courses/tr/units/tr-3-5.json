@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-5",
+  "course": "tr",
+  "section": 3,
+  "order": 5,
+  "slug": "3-5-lets-optative",
+  "title_ru": "«Давайте!» (-elim/-alım)",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-5-w01",
+      "text": "hadi",
+      "ru": "давай",
+      "audio": "tr/3-5/w01.mp3"
+    },
+    {
+      "id": "tr-3-5-w02",
+      "text": "gidelim",
+      "ru": "пойдём",
+      "audio": "tr/3-5/w02.mp3"
+    },
+    {
+      "id": "tr-3-5-w03",
+      "text": "yapalım",
+      "ru": "сделаем",
+      "audio": "tr/3-5/w03.mp3"
+    },
+    {
+      "id": "tr-3-5-w04",
+      "text": "oynayalım",
+      "ru": "поиграем",
+      "audio": "tr/3-5/w04.mp3"
+    },
+    {
+      "id": "tr-3-5-w05",
+      "text": "yiyelim",
+      "ru": "поедим",
+      "audio": "tr/3-5/w05.mp3"
+    },
+    {
+      "id": "tr-3-5-w06",
+      "text": "içelim",
+      "ru": "выпьем",
+      "audio": "tr/3-5/w06.mp3"
+    },
+    {
+      "id": "tr-3-5-w07",
+      "text": "başlayalım",
+      "ru": "начнём",
+      "audio": "tr/3-5/w07.mp3"
+    },
+    {
+      "id": "tr-3-5-w08",
+      "text": "buluşalım",
+      "ru": "встретимся",
+      "audio": "tr/3-5/w08.mp3"
+    },
+    {
+      "id": "tr-3-5-w09",
+      "text": "yürüyelim",
+      "ru": "прогуляемся",
+      "audio": "tr/3-5/w09.mp3"
+    },
+    {
+      "id": "tr-3-5-w10",
+      "text": "dinlenelim",
+      "ru": "отдохнём",
+      "audio": "tr/3-5/w10.mp3"
+    },
+    {
+      "id": "tr-3-5-w11",
+      "text": "sinema",
+      "ru": "кино",
+      "audio": "tr/3-5/w11.mp3"
+    },
+    {
+      "id": "tr-3-5-w12",
+      "text": "tiyatro",
+      "ru": "театр",
+      "audio": "tr/3-5/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

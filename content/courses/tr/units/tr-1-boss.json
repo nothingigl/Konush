@@ -1,0 +1,26 @@
+{
+  "id": "tr-1-boss",
+  "course": "tr",
+  "section": 1,
+  "order": 10,
+  "slug": "1-boss-cafe",
+  "title_ru": "Босс: «Кафе»",
+  "character": "kemal",
+  "boss": true,
+  "words": [],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

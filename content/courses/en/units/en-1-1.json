@@ -1,0 +1,99 @@
+{
+  "id": "en-1-1",
+  "course": "en",
+  "section": 1,
+  "order": 1,
+  "slug": "1-1-learn-basic-phrases",
+  "title_ru": "Основные фразы",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-1-1-w01",
+      "text": "hello",
+      "ru": "привет",
+      "audio": "en/1-1/w01.mp3"
+    },
+    {
+      "id": "en-1-1-w02",
+      "text": "goodbye",
+      "ru": "до свидания",
+      "audio": "en/1-1/w02.mp3"
+    },
+    {
+      "id": "en-1-1-w03",
+      "text": "please",
+      "ru": "пожалуйста (просьба)",
+      "audio": "en/1-1/w03.mp3"
+    },
+    {
+      "id": "en-1-1-w04",
+      "text": "thank you",
+      "ru": "спасибо",
+      "audio": "en/1-1/w04.mp3"
+    },
+    {
+      "id": "en-1-1-w05",
+      "text": "you're welcome",
+      "ru": "пожалуйста (в ответ)",
+      "audio": "en/1-1/w05.mp3"
+    },
+    {
+      "id": "en-1-1-w06",
+      "text": "yes",
+      "ru": "да",
+      "audio": "en/1-1/w06.mp3"
+    },
+    {
+      "id": "en-1-1-w07",
+      "text": "no",
+      "ru": "нет",
+      "audio": "en/1-1/w07.mp3"
+    },
+    {
+      "id": "en-1-1-w08",
+      "text": "sorry",
+      "ru": "извините",
+      "audio": "en/1-1/w08.mp3"
+    },
+    {
+      "id": "en-1-1-w09",
+      "text": "excuse me",
+      "ru": "простите (чтобы обратиться)",
+      "audio": "en/1-1/w09.mp3"
+    },
+    {
+      "id": "en-1-1-w10",
+      "text": "good morning",
+      "ru": "доброе утро",
+      "audio": "en/1-1/w10.mp3"
+    },
+    {
+      "id": "en-1-1-w11",
+      "text": "good night",
+      "ru": "спокойной ночи",
+      "audio": "en/1-1/w11.mp3"
+    },
+    {
+      "id": "en-1-1-w12",
+      "text": "see you",
+      "ru": "увидимся",
+      "audio": "en/1-1/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

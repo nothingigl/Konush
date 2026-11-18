@@ -1,0 +1,99 @@
+{
+  "id": "en-2-17",
+  "course": "en",
+  "section": 2,
+  "order": 17,
+  "slug": "2-17-talk-at-a-picnic",
+  "title_ru": "Пикник",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "en-2-17-w01",
+      "text": "picnic",
+      "ru": "пикник",
+      "audio": "en/2-17/w01.mp3"
+    },
+    {
+      "id": "en-2-17-w02",
+      "text": "blanket",
+      "ru": "плед",
+      "audio": "en/2-17/w02.mp3"
+    },
+    {
+      "id": "en-2-17-w03",
+      "text": "sandwich",
+      "ru": "бутерброд",
+      "audio": "en/2-17/w03.mp3"
+    },
+    {
+      "id": "en-2-17-w04",
+      "text": "grass",
+      "ru": "трава",
+      "audio": "en/2-17/w04.mp3"
+    },
+    {
+      "id": "en-2-17-w05",
+      "text": "sun",
+      "ru": "солнце",
+      "audio": "en/2-17/w05.mp3"
+    },
+    {
+      "id": "en-2-17-w06",
+      "text": "lake",
+      "ru": "озеро",
+      "audio": "en/2-17/w06.mp3"
+    },
+    {
+      "id": "en-2-17-w07",
+      "text": "tree",
+      "ru": "дерево",
+      "audio": "en/2-17/w07.mp3"
+    },
+    {
+      "id": "en-2-17-w08",
+      "text": "shade",
+      "ru": "тень",
+      "audio": "en/2-17/w08.mp3"
+    },
+    {
+      "id": "en-2-17-w09",
+      "text": "fruit",
+      "ru": "фрукты",
+      "audio": "en/2-17/w09.mp3"
+    },
+    {
+      "id": "en-2-17-w10",
+      "text": "ball",
+      "ru": "мяч",
+      "audio": "en/2-17/w10.mp3"
+    },
+    {
+      "id": "en-2-17-w11",
+      "text": "sunscreen",
+      "ru": "крем от загара",
+      "audio": "en/2-17/w11.mp3"
+    },
+    {
+      "id": "en-2-17-w12",
+      "text": "enjoy",
+      "ru": "наслаждаться",
+      "audio": "en/2-17/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

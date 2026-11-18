@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-28",
+  "course": "tr",
+  "section": 2,
+  "order": 28,
+  "slug": "2-28-past-events",
+  "title_ru": "Прошедшие события",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-28-w01",
+      "text": "geçen",
+      "ru": "прошлый",
+      "audio": "tr/2-28/w01.mp3"
+    },
+    {
+      "id": "tr-2-28-w02",
+      "text": "önce",
+      "ru": "назад",
+      "audio": "tr/2-28/w02.mp3"
+    },
+    {
+      "id": "tr-2-28-w03",
+      "text": "az önce",
+      "ru": "только что",
+      "audio": "tr/2-28/w03.mp3"
+    },
+    {
+      "id": "tr-2-28-w04",
+      "text": "doğmak",
+      "ru": "родиться",
+      "audio": "tr/2-28/w04.mp3"
+    },
+    {
+      "id": "tr-2-28-w05",
+      "text": "büyümek",
+      "ru": "вырасти",
+      "audio": "tr/2-28/w05.mp3"
+    },
+    {
+      "id": "tr-2-28-w06",
+      "text": "evlenmek",
+      "ru": "жениться",
+      "audio": "tr/2-28/w06.mp3"
+    },
+    {
+      "id": "tr-2-28-w07",
+      "text": "taşınmak",
+      "ru": "переехать",
+      "audio": "tr/2-28/w07.mp3"
+    },
+    {
+      "id": "tr-2-28-w08",
+      "text": "kazanmak",
+      "ru": "выиграть",
+      "audio": "tr/2-28/w08.mp3"
+    },
+    {
+      "id": "tr-2-28-w09",
+      "text": "buluşmak",
+      "ru": "встретиться",
+      "audio": "tr/2-28/w09.mp3"
+    },
+    {
+      "id": "tr-2-28-w10",
+      "text": "satın almak",
+      "ru": "купить",
+      "audio": "tr/2-28/w10.mp3"
+    },
+    {
+      "id": "tr-2-28-w11",
+      "text": "geç kalmak",
+      "ru": "опоздать",
+      "audio": "tr/2-28/w11.mp3"
+    },
+    {
+      "id": "tr-2-28-w12",
+      "text": "hafta",
+      "ru": "неделя",
+      "audio": "tr/2-28/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

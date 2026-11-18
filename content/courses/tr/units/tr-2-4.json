@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-4",
+  "course": "tr",
+  "section": 2,
+  "order": 4,
+  "slug": "2-4-places",
+  "title_ru": "Места",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-4-w01",
+      "text": "okul",
+      "ru": "школа",
+      "audio": "tr/2-4/w01.mp3"
+    },
+    {
+      "id": "tr-2-4-w02",
+      "text": "hastane",
+      "ru": "больница",
+      "audio": "tr/2-4/w02.mp3"
+    },
+    {
+      "id": "tr-2-4-w03",
+      "text": "market",
+      "ru": "магазин",
+      "audio": "tr/2-4/w03.mp3"
+    },
+    {
+      "id": "tr-2-4-w04",
+      "text": "banka",
+      "ru": "банк",
+      "audio": "tr/2-4/w04.mp3"
+    },
+    {
+      "id": "tr-2-4-w05",
+      "text": "park",
+      "ru": "парк",
+      "audio": "tr/2-4/w05.mp3"
+    },
+    {
+      "id": "tr-2-4-w06",
+      "text": "restoran",
+      "ru": "ресторан",
+      "audio": "tr/2-4/w06.mp3"
+    },
+    {
+      "id": "tr-2-4-w07",
+      "text": "kütüphane",
+      "ru": "библиотека",
+      "audio": "tr/2-4/w07.mp3"
+    },
+    {
+      "id": "tr-2-4-w08",
+      "text": "havaalanı",
+      "ru": "аэропорт",
+      "audio": "tr/2-4/w08.mp3"
+    },
+    {
+      "id": "tr-2-4-w09",
+      "text": "istasyon",
+      "ru": "вокзал",
+      "audio": "tr/2-4/w09.mp3"
+    },
+    {
+      "id": "tr-2-4-w10",
+      "text": "müze",
+      "ru": "музей",
+      "audio": "tr/2-4/w10.mp3"
+    },
+    {
+      "id": "tr-2-4-w11",
+      "text": "otel",
+      "ru": "отель",
+      "audio": "tr/2-4/w11.mp3"
+    },
+    {
+      "id": "tr-2-4-w12",
+      "text": "sokak",
+      "ru": "улица",
+      "audio": "tr/2-4/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

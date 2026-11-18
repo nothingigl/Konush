@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-23",
+  "course": "tr",
+  "section": 2,
+  "order": 23,
+  "slug": "2-23-travel",
+  "title_ru": "Поездки",
+  "character": "elif",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-23-w01",
+      "text": "seyahat",
+      "ru": "путешествие",
+      "audio": "tr/2-23/w01.mp3"
+    },
+    {
+      "id": "tr-2-23-w02",
+      "text": "tatil",
+      "ru": "отпуск",
+      "audio": "tr/2-23/w02.mp3"
+    },
+    {
+      "id": "tr-2-23-w03",
+      "text": "gezi",
+      "ru": "поездка",
+      "audio": "tr/2-23/w03.mp3"
+    },
+    {
+      "id": "tr-2-23-w04",
+      "text": "bilet",
+      "ru": "билет",
+      "audio": "tr/2-23/w04.mp3"
+    },
+    {
+      "id": "tr-2-23-w05",
+      "text": "pasaport",
+      "ru": "паспорт",
+      "audio": "tr/2-23/w05.mp3"
+    },
+    {
+      "id": "tr-2-23-w06",
+      "text": "bavul",
+      "ru": "чемодан",
+      "audio": "tr/2-23/w06.mp3"
+    },
+    {
+      "id": "tr-2-23-w07",
+      "text": "rezervasyon",
+      "ru": "бронь",
+      "audio": "tr/2-23/w07.mp3"
+    },
+    {
+      "id": "tr-2-23-w08",
+      "text": "harita",
+      "ru": "карта",
+      "audio": "tr/2-23/w08.mp3"
+    },
+    {
+      "id": "tr-2-23-w09",
+      "text": "rehber",
+      "ru": "гид",
+      "audio": "tr/2-23/w09.mp3"
+    },
+    {
+      "id": "tr-2-23-w10",
+      "text": "plaj",
+      "ru": "пляж",
+      "audio": "tr/2-23/w10.mp3"
+    },
+    {
+      "id": "tr-2-23-w11",
+      "text": "yolculuk",
+      "ru": "дорога",
+      "audio": "tr/2-23/w11.mp3"
+    },
+    {
+      "id": "tr-2-23-w12",
+      "text": "vize",
+      "ru": "виза",
+      "audio": "tr/2-23/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

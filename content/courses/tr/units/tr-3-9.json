@@ -1,0 +1,99 @@
+{
+  "id": "tr-3-9",
+  "course": "tr",
+  "section": 3,
+  "order": 9,
+  "slug": "3-9-body-parts",
+  "title_ru": "Части тела",
+  "character": "kemal",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-3-9-w01",
+      "text": "baş",
+      "ru": "голова",
+      "audio": "tr/3-9/w01.mp3"
+    },
+    {
+      "id": "tr-3-9-w02",
+      "text": "göz",
+      "ru": "глаз",
+      "audio": "tr/3-9/w02.mp3"
+    },
+    {
+      "id": "tr-3-9-w03",
+      "text": "kulak",
+      "ru": "ухо",
+      "audio": "tr/3-9/w03.mp3"
+    },
+    {
+      "id": "tr-3-9-w04",
+      "text": "burun",
+      "ru": "нос",
+      "audio": "tr/3-9/w04.mp3"
+    },
+    {
+      "id": "tr-3-9-w05",
+      "text": "ağız",
+      "ru": "рот",
+      "audio": "tr/3-9/w05.mp3"
+    },
+    {
+      "id": "tr-3-9-w06",
+      "text": "diş",
+      "ru": "зуб",
+      "audio": "tr/3-9/w06.mp3"
+    },
+    {
+      "id": "tr-3-9-w07",
+      "text": "boyun",
+      "ru": "шея",
+      "audio": "tr/3-9/w07.mp3"
+    },
+    {
+      "id": "tr-3-9-w08",
+      "text": "el",
+      "ru": "кисть руки",
+      "audio": "tr/3-9/w08.mp3"
+    },
+    {
+      "id": "tr-3-9-w09",
+      "text": "parmak",
+      "ru": "палец",
+      "audio": "tr/3-9/w09.mp3"
+    },
+    {
+      "id": "tr-3-9-w10",
+      "text": "kol",
+      "ru": "рука",
+      "audio": "tr/3-9/w10.mp3"
+    },
+    {
+      "id": "tr-3-9-w11",
+      "text": "bacak",
+      "ru": "нога",
+      "audio": "tr/3-9/w11.mp3"
+    },
+    {
+      "id": "tr-3-9-w12",
+      "text": "ayak",
+      "ru": "ступня",
+      "audio": "tr/3-9/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}

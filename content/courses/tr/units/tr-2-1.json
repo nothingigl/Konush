@@ -1,0 +1,99 @@
+{
+  "id": "tr-2-1",
+  "course": "tr",
+  "section": 2,
+  "order": 1,
+  "slug": "2-1-professions",
+  "title_ru": "Профессии",
+  "character": "zeynep",
+  "boss": false,
+  "words": [
+    {
+      "id": "tr-2-1-w01",
+      "text": "hemşire",
+      "ru": "медсестра",
+      "audio": "tr/2-1/w01.mp3"
+    },
+    {
+      "id": "tr-2-1-w02",
+      "text": "polis",
+      "ru": "полицейский",
+      "audio": "tr/2-1/w02.mp3"
+    },
+    {
+      "id": "tr-2-1-w03",
+      "text": "aşçı",
+      "ru": "повар",
+      "audio": "tr/2-1/w03.mp3"
+    },
+    {
+      "id": "tr-2-1-w04",
+      "text": "garson",
+      "ru": "официант",
+      "audio": "tr/2-1/w04.mp3"
+    },
+    {
+      "id": "tr-2-1-w05",
+      "text": "şoför",
+      "ru": "водитель",
+      "audio": "tr/2-1/w05.mp3"
+    },
+    {
+      "id": "tr-2-1-w06",
+      "text": "avukat",
+      "ru": "адвокат",
+      "audio": "tr/2-1/w06.mp3"
+    },
+    {
+      "id": "tr-2-1-w07",
+      "text": "işçi",
+      "ru": "рабочий",
+      "audio": "tr/2-1/w07.mp3"
+    },
+    {
+      "id": "tr-2-1-w08",
+      "text": "satıcı",
+      "ru": "продавец",
+      "audio": "tr/2-1/w08.mp3"
+    },
+    {
+      "id": "tr-2-1-w09",
+      "text": "çiftçi",
+      "ru": "фермер",
+      "audio": "tr/2-1/w09.mp3"
+    },
+    {
+      "id": "tr-2-1-w10",
+      "text": "berber",
+      "ru": "парикмахер",
+      "audio": "tr/2-1/w10.mp3"
+    },
+    {
+      "id": "tr-2-1-w11",
+      "text": "gazeteci",
+      "ru": "журналист",
+      "audio": "tr/2-1/w11.mp3"
+    },
+    {
+      "id": "tr-2-1-w12",
+      "text": "müdür",
+      "ru": "директор",
+      "audio": "tr/2-1/w12.mp3"
+    }
+  ],
+  "skills": {
+    "speaking": {
+      "exercises": []
+    },
+    "listening": {
+      "exercises": []
+    },
+    "writing": {
+      "exercises": []
+    },
+    "reading": {
+      "exercises": []
+    }
+  },
+  "review": "draft"
+}
