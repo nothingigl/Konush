@@ -62,7 +62,6 @@ export function computeStreakDays(
 
   let cursor = parseDay(todayStr);
   if (!activeDays.has(todayStr)) {
-    // Check if streak is still alive from yesterday
     cursor = new Date(cursor.getTime() - 24 * 60 * 60 * 1000);
     if (!activeDays.has(toLocalDayString(cursor))) {
       return 0;
@@ -79,14 +78,13 @@ export function computeStreakDays(
 
 /**
  * Last-Write-Wins (LWW) comparison by ISO-8601 `updatedAt`.
- * Returns true if `a` is strictly newer than or equal to `b`.
  */
 export function isNewerOrEqual(aIso: string, bIso: string): boolean {
   return new Date(aIso).getTime() >= new Date(bIso).getTime();
 }
 
 /**
- * 1. Merge `profiles`: Last-Write-Wins by `updatedAt`.
+ * 1. Merge `profiles`: Last-Write-Wins by `updatedAt`, preserving local UI preferences.
  */
 export function mergeProfile(
   local: LocalProfileRecord,
@@ -102,6 +100,10 @@ export function mergeProfile(
   return {
     ...remote,
     id: 'current',
+    theme: local.theme ?? remote.theme ?? 'system',
+    speechRate: local.speechRate ?? remote.speechRate ?? 1.0,
+    fontScale: local.fontScale ?? remote.fontScale ?? 'normal',
+    onboardingDone: Boolean(local.onboardingDone || remote.onboardingDone),
   };
 }
 
@@ -119,8 +121,7 @@ function minIsoNullable(a: string | null, b: string | null): string | null {
 
 /**
  * 2. Merge `unit_progress`:
- * Preserves best skill scores (`Math.max`) and `wordsDone` (`||`) across devices/guest mode,
- * while taking the newer `updatedAt`.
+ * Preserves best skill scores (`Math.max`) and `wordsDone` (`||`) across devices/guest mode.
  */
 export function mergeUnitProgress(
   local: LocalUnitProgressRecord,

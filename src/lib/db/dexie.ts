@@ -3,6 +3,9 @@ import type { CourseId, Unit } from '../content/schema';
 
 export type DailyGoalXp = 10 | 20 | 30;
 export type SkillKey = 'speaking' | 'listening' | 'writing' | 'reading';
+export type ThemePreference = 'light' | 'dark' | 'system';
+export type SpeechRatePreference = 0.75 | 1.0 | 1.15;
+export type FontScalePreference = 'normal' | 'large' | 'xlarge';
 
 export interface LocalProfileRecord {
   id: 'current';
@@ -13,6 +16,10 @@ export interface LocalProfileRecord {
   uiLang: 'ru';
   preferredCourse: CourseId;
   dailyGoalXp: DailyGoalXp;
+  theme?: ThemePreference;
+  speechRate?: SpeechRatePreference;
+  fontScale?: FontScalePreference;
+  onboardingDone?: boolean;
   updatedAt: string;
 }
 
@@ -111,6 +118,10 @@ export function getDefaultLocalProfile(): LocalProfileRecord {
     uiLang: 'ru',
     preferredCourse: 'tr',
     dailyGoalXp: 20,
+    theme: 'system',
+    speechRate: 1.0,
+    fontScale: 'normal',
+    onboardingDone: false,
     updatedAt: new Date(0).toISOString(),
   };
 }
