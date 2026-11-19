@@ -10,16 +10,214 @@
   "words": [],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-boss-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "За 30 секунд представьтесь по шаблону (Hello! My name is ___. I am from ___. I have a ___. I like ___.) — повторите пример и подставьте своё:",
+          "target_text": "Hello! My name is Ali. I am from Turkey. I have a dog. I like music.",
+          "translation_ru": "Привет! Меня зовут Али. Я из Турции. У меня есть собака. Я люблю музыку.",
+          "explain_ru": "Соединяет юниты 1.1–1.3, 1.7 и 1.9 в единый рассказ о себе.",
+          "audio": "en/1-boss/sp-01.mp3"
+        },
+        {
+          "id": "en-1-boss-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Сделайте вежливый заказ в кафе:",
+          "target_text": "Excuse me! I would like a coffee and a cake, please. Thank you!",
+          "translation_ru": "Простите! Я бы хотел кофе и торт, пожалуйста. Спасибо!",
+          "explain_ru": "Повторяем вежливые фразы (1.1) и заказ в кафе (1.8).",
+          "audio": "en/1-boss/sp-02.mp3"
+        },
+        {
+          "id": "en-1-boss-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите о семье и доме:",
+          "target_text": "This is my family. We live in a big house. My street is small.",
+          "translation_ru": "Это моя семья. Мы живём в большом доме. Моя улица маленькая.",
+          "explain_ru": "Повторяем семью (1.4), места (1.5) и местоимение we (1.6).",
+          "audio": "en/1-boss/sp-03.mp3"
+        },
+        {
+          "id": "en-1-boss-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите о подруге, её хобби и питомце:",
+          "target_text": "This is my friend Anna. She likes to swim and read. She has a rabbit.",
+          "translation_ru": "Это моя подруга Анна. Она любит плавать и читать. У неё есть кролик.",
+          "explain_ru": "Повторяем юниты 1.6 (друзья), 1.7 (увлечения) и 1.9 (питомцы).",
+          "audio": "en/1-boss/sp-04.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-boss-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Прослушайте рассказ Сэма (1/2): откуда он и кто у него есть?",
+          "transcript": "Hello, I am Sam. I am from England. I have a dog and a sister. I like music.",
+          "options": [
+            "из Англии; у него есть собака и сестра",
+            "из Германии; у него есть кошка и брат",
+            "из Турции; у него есть кролик и мама",
+            "из России; у него есть птица и друг"
+          ],
+          "correct_index": 0,
+          "explain_ru": "I am from England. I have a dog and a sister — Я из Англии. У меня есть собака и сестра.",
+          "audio": "en/1-boss/ls-01.mp3"
+        },
+        {
+          "id": "en-1-boss-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Прослушайте рассказ Сэма (2/2): что он любит?",
+          "transcript": "Hello, I am Sam. I am from England. I have a dog and a sister. I like music.",
+          "options": ["музыку", "футбол", "готовку", "рисование"],
+          "correct_index": 0,
+          "explain_ru": "I like music — Я люблю музыку.",
+          "audio": "en/1-boss/ls-02.mp3"
+        },
+        {
+          "id": "en-1-boss-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I would like tea, please.",
+          "accepted": ["I would like tea, please."],
+          "explain_ru": "I would like tea, please — Я бы хотел чай, пожалуйста.",
+          "audio": "en/1-boss/ls-03.mp3"
+        },
+        {
+          "id": "en-1-boss-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что мы узнали о соседе Томе?",
+          "transcript": "My neighbor Tom is a teacher. He likes football and has a big dog.",
+          "options": [
+            "он учитель, любит футбол и у него большая собака",
+            "он студент, любит рисовать и у него котёнок",
+            "он коллега, любит музыку и у него хомяк",
+            "он из США и любит готовить суп"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Teacher (учитель), likes football (любит футбол), has a big dog (есть большая собака).",
+          "audio": "en/1-boss/ls-04.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-boss-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Переведите на английский (1/3): «Меня зовут Али. Я из Турции.»",
+          "source_text": "Меня зовут Али. Я из Турции.",
+          "accepted": ["My name is Ali. I am from Turkey."],
+          "explain_ru": "My name is Ali (1.3) + I am from Turkey (1.2).",
+          "audio": null
+        },
+        {
+          "id": "en-1-boss-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Переведите на английский (2/3): «У меня есть сестра.»",
+          "source_text": "У меня есть сестра.",
+          "accepted": ["I have a sister."],
+          "explain_ru": "I have + a sister (артикль a перед существительным в ед. ч.).",
+          "audio": null
+        },
+        {
+          "id": "en-1-boss-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Переведите на английский (3/3): «Она любит кошек.»",
+          "source_text": "Она любит кошек.",
+          "accepted": ["She likes cats."],
+          "explain_ru": "She likes (с окончанием -s) + cats (мн. ч.).",
+          "audio": null
+        },
+        {
+          "id": "en-1-boss-wr-04",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "She have a small kitten.",
+          "accepted": ["She has a small kitten."],
+          "explain_ru": "После he/she/it используется форма has: She has a small kitten.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-boss-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Прочитайте рассказ о семье и ответьте на вопросы (driver — водитель):",
+          "passage": "This is my family. My mother is a teacher. My father is a driver. We have a dog. Its name is Max.",
+          "questions": [
+            {
+              "question_ru": "Кто водитель?",
+              "options": ["папа", "мама", "брат", "дедушка"],
+              "correct_index": 0,
+              "accepted": ["папа", "отец", "father"]
+            },
+            {
+              "question_ru": "Как зовут собаку?",
+              "options": ["Макс", "Сэм", "Том", "Али"],
+              "correct_index": 0,
+              "accepted": ["Макс", "Max"]
+            }
+          ],
+          "explain_ru": "My father is a driver — Мой папа водитель; Its name is Max — Его зовут Макс.",
+          "audio": null
+        },
+        {
+          "id": "en-1-boss-rd-02",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте сцену в ресторане и ответьте на вопрос:",
+          "passage": "Kate and her friend Jack are in a small restaurant. Kate would like soup and tea. Jack would like a salad and juice. They like to travel.",
+          "questions": [
+            {
+              "question_ru": "Что заказала Кейт?",
+              "options": [
+                "суп и чай",
+                "салат и сок",
+                "кофе и торт",
+                "хлеб и молоко"
+              ],
+              "correct_index": 0,
+              "accepted": ["суп и чай"]
+            }
+          ],
+          "explain_ru": "Kate would like soup and tea — Кейт хотела бы суп и чай.",
+          "audio": null
+        },
+        {
+          "id": "en-1-boss-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Финальный вопрос босса Модуля 1: выберите вежливый ответ на «Thank you!»:",
+          "question_text": "Thank you!",
+          "options": [
+            "You're welcome!",
+            "Goodbye!",
+            "Excuse me!",
+            "Good night!"
+          ],
+          "correct_index": 0,
+          "explain_ru": "На «Thank you!» (Спасибо!) вежливо отвечают «You're welcome!» (Пожалуйста!).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

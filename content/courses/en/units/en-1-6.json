@@ -83,16 +83,422 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-6-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Представь друзей (1/2): представьте Анну и Тома вслух:",
+          "target_text": "This is my friend Anna. She is nice. This is my friend Tom. He is nice too.",
+          "translation_ru": "Это моя подруга Анна. Она приятная. Это мой друг Том. Он тоже приятный.",
+          "explain_ru": "В английском friend — и друг, и подруга; too («тоже») ставится в конце фразы.",
+          "audio": "en/1-6/sp-01.mp3"
+        },
+        {
+          "id": "en-1-6-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Представь друзей (2/2): представьте третьего друга:",
+          "target_text": "This is my friend Ali. He is a student. He is nice too.",
+          "translation_ru": "Это мой друг Али. Он студент. Он тоже приятный.",
+          "explain_ru": "Конструкция This is... используется, чтобы познакомить людей.",
+          "audio": "en/1-6/sp-02.mp3"
+        },
+        {
+          "id": "en-1-6-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите о мальчике и девочке:",
+          "target_text": "He is a nice boy. She is a nice girl.",
+          "translation_ru": "Он приятный мальчик. Она приятная девочка.",
+          "explain_ru": "Перед существительным с прилагательным в единственном числе ставится артикль a.",
+          "audio": "en/1-6/sp-03.mp3"
+        },
+        {
+          "id": "en-1-6-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что они ваши друзья:",
+          "target_text": "They are my friends.",
+          "translation_ru": "Они мои друзья.",
+          "explain_ru": "С местоимением they глагол to be имеет форму are; friend + -s = friends.",
+          "audio": "en/1-6/sp-04.mp3"
+        },
+        {
+          "id": "en-1-6-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что мы студенты:",
+          "target_text": "We are students. We are friends too.",
+          "translation_ru": "Мы студенты. Мы тоже друзья.",
+          "explain_ru": "We are — мы есть; после we существительное ставится во множественном числе.",
+          "audio": "en/1-6/sp-05.mp3"
+        },
+        {
+          "id": "en-1-6-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите мужчину и женщину:",
+          "target_text": "He is a nice man. She is a nice woman.",
+          "translation_ru": "Он приятный мужчина. Она приятная женщина.",
+          "explain_ru": "Man — мужчина, woman — женщина.",
+          "audio": "en/1-6/sp-06.mp3"
+        },
+        {
+          "id": "en-1-6-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Представьте своего соседа:",
+          "target_text": "This is my neighbor. He is a nice man.",
+          "translation_ru": "Это мой сосед. Он приятный мужчина.",
+          "explain_ru": "Neighbor (в британском варианте neighbour) — сосед.",
+          "audio": "en/1-6/sp-07.mp3"
+        },
+        {
+          "id": "en-1-6-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Представьте коллегу:",
+          "target_text": "This is my colleague Kate. She is a nice woman.",
+          "translation_ru": "Это моя коллега Кейт. Она приятная женщина.",
+          "explain_ru": "Colleague — коллега (и о мужчине, и о женщине).",
+          "audio": "en/1-6/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-6-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Кто они? Прослушайте скрипт и ответьте: кто такой «he»?",
+          "transcript": "They are my friends. We are students. This is my neighbor. He is a nice man.",
+          "options": [
+            "сосед, приятный мужчина",
+            "коллега, учитель",
+            "брат, студент",
+            "мальчик из школы"
+          ],
+          "correct_index": 0,
+          "explain_ru": "This is my neighbor. He is a nice man — Это мой сосед. Он приятный мужчина.",
+          "audio": "en/1-6/ls-01.mp3"
+        },
+        {
+          "id": "en-1-6-ls-02",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кем работают или учатся говорящий и его друзья?",
+          "transcript": "They are my friends. We are students.",
+          "options": ["студенты", "учителя", "соседи по офису", "родители"],
+          "correct_index": 0,
+          "explain_ru": "We are students — Мы студенты.",
+          "audio": "en/1-6/ls-02.mp3"
+        },
+        {
+          "id": "en-1-6-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кого представляет говорящий?",
+          "transcript": "This is my colleague. She is a nice woman.",
+          "options": [
+            "коллегу, приятную женщину",
+            "сестру, студентку",
+            "соседа, мужчину",
+            "маму, учительницу"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Colleague — коллега, nice woman — приятная женщина.",
+          "audio": "en/1-6/ls-03.mp3"
+        },
+        {
+          "id": "en-1-6-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О ком идёт речь в фразе?",
+          "transcript": "Tom is a nice boy and Emma is a nice girl.",
+          "options": [
+            "о мальчике Томе и девочке Эмме",
+            "о мужчине Томе и женщине Эмме",
+            "о папе и маме",
+            "о соседе и коллеге"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Boy — мальчик, girl — девочка.",
+          "audio": "en/1-6/ls-04.mp3"
+        },
+        {
+          "id": "en-1-6-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кто Анна для говорящего?",
+          "transcript": "Anna is my neighbor. She is my friend too.",
+          "options": [
+            "соседка и подруга",
+            "только коллега",
+            "учительница",
+            "сестра"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Neighbor (соседка) и friend too (тоже подруга).",
+          "audio": "en/1-6/ls-05.mp3"
+        },
+        {
+          "id": "en-1-6-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "This is my friend.",
+          "accepted": ["This is my friend."],
+          "explain_ru": "This is my friend — Это мой друг.",
+          "audio": "en/1-6/ls-06.mp3"
+        },
+        {
+          "id": "en-1-6-ls-07",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "He is nice too.",
+          "accepted": ["He is nice too."],
+          "explain_ru": "He is nice too — Он тоже приятный.",
+          "audio": "en/1-6/ls-07.mp3"
+        },
+        {
+          "id": "en-1-6-ls-08",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой офис у коллеги говорящего?",
+          "transcript": "Jack is my colleague. We live in a big city. Our office is small.",
+          "options": [
+            "маленький",
+            "большой",
+            "в другом городе",
+            "рядом с больницей"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Our office is small — Наш офис маленький.",
+          "audio": "en/1-6/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-6-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Подбери местоимение (1/2): Anna and I — ___ are friends.",
+          "source_text": "Anna and I — ___ are friends.",
+          "accepted": ["We"],
+          "explain_ru": "«Анна и я» = «мы» → We.",
+          "audio": null
+        },
+        {
+          "id": "en-1-6-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Подбери местоимение (2/2): Tom and Ali — ___ are students.",
+          "source_text": "Tom and Ali — ___ are students.",
+          "accepted": ["They"],
+          "explain_ru": "«Том и Али» = «они» → They.",
+          "audio": null
+        },
+        {
+          "id": "en-1-6-wr-03",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Это мой друг»:",
+          "source_text": "Это мой друг.",
+          "bank": ["my", "this", "is", "friend"],
+          "accepted": ["This is my friend"],
+          "explain_ru": "Порядок слов: This is + my friend.",
+          "audio": null
+        },
+        {
+          "id": "en-1-6-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о людях с переводом:",
+          "pairs": [
+            { "left": "friend", "right": "друг" },
+            { "left": "neighbor", "right": "сосед" },
+            { "left": "colleague", "right": "коллега" },
+            { "left": "nice", "right": "приятный" }
+          ],
+          "explain_ru": "Friend — друг, neighbor — сосед, colleague — коллега, nice — приятный.",
+          "audio": null
+        },
+        {
+          "id": "en-1-6-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините пары по возрасту и полу:",
+          "pairs": [
+            { "left": "boy", "right": "мальчик" },
+            { "left": "girl", "right": "девочка" },
+            { "left": "man", "right": "мужчина" },
+            { "left": "woman", "right": "женщина" }
+          ],
+          "explain_ru": "Boy / girl — мальчик / девочка; man / woman — мужчина / женщина.",
+          "audio": null
+        },
+        {
+          "id": "en-1-6-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "They is nice friends.",
+          "accepted": ["They are nice friends."],
+          "explain_ru": "С местоимением they используется форма are: They are nice friends.",
+          "audio": null
+        },
+        {
+          "id": "en-1-6-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Она тоже приятная»:",
+          "source_text": "Она тоже приятная.",
+          "bank": ["too", "is", "nice", "she"],
+          "accepted": ["She is nice too"],
+          "explain_ru": "Слово too («тоже») ставится в конце предложения.",
+          "audio": null
+        },
+        {
+          "id": "en-1-6-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите на английский: «Мы соседи.»",
+          "source_text": "Мы соседи.",
+          "accepted": ["We are neighbors.", "We are neighbours."],
+          "explain_ru": "We are + neighbors (мн. ч. от neighbor).",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-6-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Вечеринка: прочитайте текст и ответьте на вопросы (people — люди):",
+          "passage": "Today I am at a party. Kate is my friend. Her colleague Jack is here too. They are nice people.",
+          "questions": [
+            {
+              "question_ru": "Кто друг автора?",
+              "options": ["Кейт", "Джек", "Том", "Али"],
+              "correct_index": 0,
+              "accepted": ["Кейт", "Kate"]
+            },
+            {
+              "question_ru": "Кто ещё пришёл?",
+              "options": [
+                "Джек (коллега Кейт)",
+                "брат автора",
+                "сосед автора",
+                "учитель"
+              ],
+              "correct_index": 0,
+              "accepted": ["Джек", "Jack"]
+            }
+          ],
+          "explain_ru": "Kate is my friend — Кейт мой друг; Her colleague Jack is here too — Её коллега Джек тоже здесь.",
+          "audio": null
+        },
+        {
+          "id": "en-1-6-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «boy»:",
+          "question_text": "boy",
+          "options": ["мальчик", "девочка", "мужчина", "сосед"],
+          "correct_index": 0,
+          "explain_ru": "Boy — мальчик.",
+          "audio": null
+        },
+        {
+          "id": "en-1-6-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «girl»:",
+          "question_text": "girl",
+          "options": ["девочка", "мальчик", "женщина", "коллега"],
+          "correct_index": 0,
+          "explain_ru": "Girl — девочка.",
+          "audio": null
+        },
+        {
+          "id": "en-1-6-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как по-английски представить человека: «Это Анна»?",
+          "question_text": "Это Анна.",
+          "options": [
+            "This is Anna.",
+            "They are Anna.",
+            "We are Anna.",
+            "Too is Anna."
+          ],
+          "correct_index": 0,
+          "explain_ru": "This is + имя — стандартная фраза для знакомства.",
+          "audio": null
+        },
+        {
+          "id": "en-1-6-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое местоимение означает «мы»?",
+          "question_text": "мы",
+          "options": ["we", "they", "you", "he"],
+          "correct_index": 0,
+          "explain_ru": "We — мы, they — они.",
+          "audio": null
+        },
+        {
+          "id": "en-1-6-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткое описание и ответьте на вопрос:",
+          "passage": "This is Paul. He is a nice man. His wife Maria is a nice woman. They live in a big house.",
+          "questions": [
+            {
+              "question_ru": "Где живут Пол и Мария?",
+              "options": [
+                "в большом доме",
+                "в маленькой комнате",
+                "рядом со школой",
+                "в офисе"
+              ],
+              "correct_index": 0,
+              "accepted": ["в большом доме"]
+            }
+          ],
+          "explain_ru": "They live in a big house — Они живут в большом доме.",
+          "audio": null
+        },
+        {
+          "id": "en-1-6-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Кто такой «neighbor»?",
+          "question_text": "neighbor",
+          "options": ["сосед", "коллега", "учитель", "брат"],
+          "correct_index": 0,
+          "explain_ru": "Neighbor — сосед (живёт рядом).",
+          "audio": null
+        },
+        {
+          "id": "en-1-6-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Кто такой «colleague»?",
+          "question_text": "colleague",
+          "options": ["коллега", "сосед", "студент", "друг детства"],
+          "correct_index": 0,
+          "explain_ru": "Colleague — коллега по работе.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -243,7 +243,7 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и напишите по-английски: «Да, пожалуйста»",
           "transcript": "Yes, please.",
-          "accepted": ["Yes, please.", "Yes please"],
+          "accepted": ["Yes, please."],
           "explain_ru": "Yes — да, please — пожалуйста.",
           "audio": "en/1-1/sp-08.mp3"
         },
@@ -271,14 +271,14 @@
           "id": "en-1-1-wr-01",
           "type": "match_pairs",
           "origin": "source",
-          "prompt_ru": "Найди пару реплик: подберите ответ к каждой фразе",
+          "prompt_ru": "Соедините фразу с ситуацией или ответом",
           "pairs": [
-            { "left": "Thank you", "right": "You're welcome" },
-            { "left": "Sorry", "right": "No problem" },
-            { "left": "See you", "right": "See you" },
-            { "left": "Good morning", "right": "Good morning" }
+            { "left": "Thank you", "right": "в ответ «You're welcome»" },
+            { "left": "Sorry", "right": "в ответ «No problem»" },
+            { "left": "Good night", "right": "перед сном" },
+            { "left": "Good morning", "right": "утром" }
           ],
-          "explain_ru": "На Thank you отвечают You're welcome, на Sorry — No problem, а приветствия и прощания зеркалятся.",
+          "explain_ru": "На Thank you отвечают You're welcome, на Sorry — No problem («Ничего страшного» — разговорный ответ).",
           "audio": null
         },
         {
@@ -332,7 +332,7 @@
           "origin": "derived",
           "prompt_ru": "Исправьте ошибку в ответе на «Thank you!»:",
           "buggy_text": "Thank you! — Please!",
-          "accepted": ["Thank you! — You're welcome!", "You're welcome", "You are welcome"],
+          "accepted": ["Thank you! — You're welcome!", "You're welcome!"],
           "explain_ru": "В английском языке слово please не используется в ответ на «спасибо» — нужно сказать «You're welcome!».",
           "audio": null
         },

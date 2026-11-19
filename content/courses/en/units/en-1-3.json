@@ -83,16 +83,390 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-3-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Знакомство (1/2): представьтесь вслух по образцу:",
+          "target_text": "Hello! My name is Ali. I am 20 years old. I am a student.",
+          "translation_ru": "Привет! Меня зовут Али. Мне 20 лет. Я студент.",
+          "explain_ru": "О возрасте в английском говорят через «я есть»: I am 20 years old.",
+          "audio": "en/1-3/sp-01.mp3"
+        },
+        {
+          "id": "en-1-3-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Знакомство (2/2): спросите собеседника про имя и возраст:",
+          "target_text": "What is your name? How old are you?",
+          "translation_ru": "Как тебя зовут? Сколько тебе лет?",
+          "explain_ru": "How old are you? — стандартный вопрос о возрасте.",
+          "audio": "en/1-3/sp-02.mp3"
+        },
+        {
+          "id": "en-1-3-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите вежливую фразу при знакомстве:",
+          "target_text": "Nice to meet you!",
+          "translation_ru": "Приятно познакомиться!",
+          "explain_ru": "Nice to meet you говорят при первой встрече.",
+          "audio": "en/1-3/sp-03.mp3"
+        },
+        {
+          "id": "en-1-3-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Представьте учителя и студента:",
+          "target_text": "She is a teacher. He is a student.",
+          "translation_ru": "Она учитель. Он студент.",
+          "explain_ru": "Перед профессией в единственном числе ставится артикль a: a teacher, a student.",
+          "audio": "en/1-3/sp-04.mp3"
+        },
+        {
+          "id": "en-1-3-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите фразу с фамилией:",
+          "target_text": "My name is Emma. My last name is Brown.",
+          "translation_ru": "Меня зовут Эмма. Моя фамилия Браун.",
+          "explain_ru": "Name — имя, last name — фамилия.",
+          "audio": "en/1-3/sp-05.mp3"
+        },
+        {
+          "id": "en-1-3-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Задайте вопрос «Кто это?» и ответьте:",
+          "target_text": "Who is he? — He is Max.",
+          "translation_ru": "Кто он? — Он Макс.",
+          "explain_ru": "Who — кто.",
+          "audio": "en/1-3/sp-06.mp3"
+        },
+        {
+          "id": "en-1-3-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите три формы глагола to be с местоимениями:",
+          "target_text": "I am a student. You are a teacher. She is from England.",
+          "translation_ru": "Я студент. Вы учитель. Она из Англии.",
+          "explain_ru": "I am, you are, he is, she is.",
+          "audio": "en/1-3/sp-07.mp3"
+        },
+        {
+          "id": "en-1-3-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, сколько лет собеседнику и как приятно познакомиться:",
+          "target_text": "You are 22 years old. Nice to meet you!",
+          "translation_ru": "Тебе 22 года. Приятно познакомиться!",
+          "explain_ru": "You are — ты есть / вы есть.",
+          "audio": "en/1-3/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-3-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Кто есть кто (1/2). Прослушайте скрипт: кто учитель?",
+          "transcript": "This is Anna. She is a teacher. He is Max. He is a student.",
+          "options": ["Анна (Anna)", "Макс (Max)", "Эмма", "Том"],
+          "correct_index": 0,
+          "explain_ru": "This is Anna. She is a teacher — Это Анна. Она учитель.",
+          "audio": "en/1-3/ls-01.mp3"
+        },
+        {
+          "id": "en-1-3-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Кто есть кто (2/2). Прослушайте тот же скрипт: кто студент?",
+          "transcript": "This is Anna. She is a teacher. He is Max. He is a student.",
+          "options": ["Макс (Max)", "Анна (Anna)", "Али", "Браун"],
+          "correct_index": 0,
+          "explain_ru": "He is Max. He is a student — Он Макс. Он студент.",
+          "audio": "en/1-3/ls-01.mp3"
+        },
+        {
+          "id": "en-1-3-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «учитель»:",
+          "transcript": "teacher",
+          "accepted": ["teacher"],
+          "explain_ru": "Teacher — учитель.",
+          "audio": "en/1-3/w09.mp3"
+        },
+        {
+          "id": "en-1-3-ls-04",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «студент»:",
+          "transcript": "student",
+          "accepted": ["student"],
+          "explain_ru": "Student — студент.",
+          "audio": "en/1-3/w08.mp3"
+        },
+        {
+          "id": "en-1-3-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О чём спрашивает собеседник?",
+          "transcript": "What is your name? How old are you?",
+          "options": [
+            "Как тебя зовут и сколько тебе лет",
+            "Откуда ты и где ты живёшь",
+            "Кто учитель и кто студент",
+            "Какая у тебя фамилия"
+          ],
+          "correct_index": 0,
+          "explain_ru": "What is your name? — Как тебя зовут? How old are you? — Сколько тебе лет?",
+          "audio": "en/1-3/sp-02.mp3"
+        },
+        {
+          "id": "en-1-3-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «кто»:",
+          "transcript": "who",
+          "accepted": ["who"],
+          "explain_ru": "Who — кто.",
+          "audio": "en/1-3/w07.mp3"
+        },
+        {
+          "id": "en-1-3-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какая фамилия у Эммы?",
+          "transcript": "My name is Emma. My last name is Brown.",
+          "options": ["Brown (Браун)", "Emma", "Max", "Ali"],
+          "correct_index": 0,
+          "explain_ru": "Last name — фамилия.",
+          "audio": "en/1-3/sp-05.mp3"
+        },
+        {
+          "id": "en-1-3-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски «приятно познакомиться»:",
+          "transcript": "Nice to meet you!",
+          "accepted": ["Nice to meet you!"],
+          "explain_ru": "Nice to meet you — приятно познакомиться.",
+          "audio": "en/1-3/w03.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-3-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Выбери am / is / are (1/3): «I ___ a student.»",
+          "source_text": "I ___ a student.",
+          "accepted": ["am"],
+          "explain_ru": "С местоимением I всегда используется форма am.",
+          "audio": null
+        },
+        {
+          "id": "en-1-3-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Выбери am / is / are (2/3): «She ___ a teacher.»",
+          "source_text": "She ___ a teacher.",
+          "accepted": ["is"],
+          "explain_ru": "С местоимениями he и she используется форма is.",
+          "audio": null
+        },
+        {
+          "id": "en-1-3-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Выбери am / is / are (3/3): «You ___ nice.»",
+          "source_text": "You ___ nice.",
+          "accepted": ["are"],
+          "explain_ru": "С местоимением you используется форма are.",
+          "audio": null
+        },
+        {
+          "id": "en-1-3-wr-04",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Меня зовут Али»",
+          "source_text": "Меня зовут Али.",
+          "bank": ["is", "name", "my", "Ali"],
+          "accepted": ["My name is Ali"],
+          "explain_ru": "My name is Ali — Меня зовут Али.",
+          "audio": null
+        },
+        {
+          "id": "en-1-3-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините выражения с переводом",
+          "pairs": [
+            { "left": "name", "right": "имя" },
+            { "left": "last name", "right": "фамилия" },
+            { "left": "how old", "right": "сколько лет" },
+            { "left": "years old", "right": "лет (о возрасте)" }
+          ],
+          "explain_ru": "Name — имя, last name — фамилия, how old — сколько лет, years old — лет.",
+          "audio": null
+        },
+        {
+          "id": "en-1-3-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините местоимения и связки с переводом",
+          "pairs": [
+            { "left": "you are", "right": "ты есть, вы есть" },
+            { "left": "he is", "right": "он есть" },
+            { "left": "she is", "right": "она есть" },
+            { "left": "who", "right": "кто" }
+          ],
+          "explain_ru": "You are, he is, she is, who.",
+          "audio": null
+        },
+        {
+          "id": "en-1-3-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите фразу «Приятно познакомиться»",
+          "source_text": "Приятно познакомиться.",
+          "bank": ["meet", "nice", "you", "to"],
+          "accepted": ["Nice to meet you"],
+          "explain_ru": "Nice to meet you.",
+          "audio": null
+        },
+        {
+          "id": "en-1-3-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не вопросительное слово):",
+          "items": ["who", "where", "how old", "teacher"],
+          "odd_index": 3,
+          "explain_ru": "Teacher — «учитель» (существительное), остальные три — вопросительные слова.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-3-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Анкета. Прочитайте карточку и ответьте на два вопроса (Job — занятие):",
+          "passage": "Name: Emma.\nLast name: Brown.\nAge: 22.\nJob: student.",
+          "questions": [
+            {
+              "question_ru": "Сколько лет Эмме?",
+              "options": ["22", "20", "25", "18"],
+              "correct_index": 0,
+              "accepted": ["22"]
+            },
+            {
+              "question_ru": "Какая у неё фамилия (Last name)?",
+              "options": ["Brown", "Emma", "Student", "Anna"],
+              "correct_index": 0,
+              "accepted": ["Brown"]
+            }
+          ],
+          "explain_ru": "Age: 22 (возраст 22), Last name: Brown (фамилия Браун).",
+          "audio": null
+        },
+        {
+          "id": "en-1-3-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какую форму глагола to be выбрать для «He ___ from Germany»?",
+          "question_text": "He ___ from Germany.",
+          "options": ["is", "am", "are", "who"],
+          "correct_index": 0,
+          "explain_ru": "С местоимением he используется is: He is from Germany.",
+          "audio": null
+        },
+        {
+          "id": "en-1-3-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает вопрос «Who is she?»?",
+          "question_text": "Who is she?",
+          "options": ["Кто она?", "Откуда она?", "Сколько ей лет?", "Как её зовут?"],
+          "correct_index": 0,
+          "explain_ru": "Who — кто, she — она.",
+          "audio": null
+        },
+        {
+          "id": "en-1-3-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте диалог знакомства и ответьте на вопрос:",
+          "passage": "— Hello! My name is Max. Nice to meet you!\n— Nice to meet you, Max! I am Anna. I am a teacher.\n— How old are you?\n— I am 28 years old.",
+          "questions": [
+            {
+              "question_ru": "Кем работает Анна?",
+              "options": ["учитель (a teacher)", "студентка (a student)", "водитель", "врач"],
+              "correct_index": 0,
+              "accepted": ["учитель", "teacher"]
+            }
+          ],
+          "explain_ru": "I am a teacher — Я учитель.",
+          "audio": null
+        },
+        {
+          "id": "en-1-3-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните фразу для представления:",
+          "target_text": "my name is",
+          "translation_ru": "меня зовут",
+          "example_text": "My name is Tom.",
+          "example_ru": "Меня зовут Том.",
+          "explain_ru": "Буквально переводится как «моё имя есть».",
+          "audio": "en/1-3/w02.mp3"
+        },
+        {
+          "id": "en-1-3-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «last name»:",
+          "question_text": "last name",
+          "options": ["фамилия", "имя", "возраст", "страна"],
+          "correct_index": 0,
+          "explain_ru": "Last name — фамилия.",
+          "audio": "en/1-3/w12.mp3"
+        },
+        {
+          "id": "en-1-3-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать «Мне 22 года» по-английски?",
+          "question_text": "Мне 22 года.",
+          "options": [
+            "I am 22 years old.",
+            "I is 22 years old.",
+            "You am 22 years old.",
+            "My age are 22."
+          ],
+          "correct_index": 0,
+          "explain_ru": "С местоимением I используется am: I am 22 years old.",
+          "audio": null
+        },
+        {
+          "id": "en-1-3-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте фразы знакомства по порядку:",
+          "items_shuffled": ["Nice to meet you!", "Hello! My name is Emma.", "I am a student from England."],
+          "correct_order": ["Hello! My name is Emma.", "I am a student from England.", "Nice to meet you!"],
+          "explain_ru": "Приветствие и имя → коротко о себе → «Приятно познакомиться!».",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

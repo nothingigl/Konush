@@ -83,16 +83,395 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-5-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Экскурсовод (1/2): покажите вокруг и опишите дом и магазин:",
+          "target_text": "This is my house. It is big. That is a small shop.",
+          "translation_ru": "Это мой дом. Он большой. То маленький магазин.",
+          "explain_ru": "This — этот (рядом), that — тот (подальше); it заменяет неодушевлённые предметы.",
+          "audio": "en/1-5/sp-01.mp3"
+        },
+        {
+          "id": "en-1-5-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Экскурсовод (2/2): назовите вслух шесть городских мест:",
+          "target_text": "school, park, street, office, restaurant, hospital",
+          "translation_ru": "школа, парк, улица, офис, ресторан, больница",
+          "explain_ru": "В слове school сочетание ch читается как [k].",
+          "audio": "en/1-5/sp-02.mp3"
+        },
+        {
+          "id": "en-1-5-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите комнату и кухню:",
+          "target_text": "My room is small. My kitchen is big.",
+          "translation_ru": "Моя комната маленькая. Моя кухня большая.",
+          "explain_ru": "Room — комната, kitchen — кухня.",
+          "audio": "en/1-5/sp-03.mp3"
+        },
+        {
+          "id": "en-1-5-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что есть на вашей улице:",
+          "target_text": "There is a park and a restaurant on my street.",
+          "translation_ru": "На моей улице есть парк и ресторан.",
+          "explain_ru": "Оборот There is используется, чтобы сказать, что где-то что-то находится.",
+          "audio": "en/1-5/sp-04.mp3"
+        },
+        {
+          "id": "en-1-5-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про офис и больницу:",
+          "target_text": "The office is big. The hospital is near the park.",
+          "translation_ru": "Офис большой. Больница рядом с парком.",
+          "explain_ru": "Near — рядом с.",
+          "audio": "en/1-5/sp-05.mp3"
+        },
+        {
+          "id": "en-1-5-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про школу и магазин:",
+          "target_text": "The school is big. The shop is small.",
+          "translation_ru": "Школа большая. Магазин маленький.",
+          "explain_ru": "Определённый артикль the указывает на конкретную школу и конкретный магазин.",
+          "audio": "en/1-5/sp-06.mp3"
+        },
+        {
+          "id": "en-1-5-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите фразу про свой дом и улицу:",
+          "target_text": "I live in a small house on a big street.",
+          "translation_ru": "Я живу в маленьком доме на большой улице.",
+          "explain_ru": "В доме — in a house, на улице — on a street.",
+          "audio": "en/1-5/sp-07.mp3"
+        },
+        {
+          "id": "en-1-5-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите пару антонимов с примерами:",
+          "target_text": "big — small: a big restaurant, a small kitchen",
+          "translation_ru": "большой — маленький: большой ресторан, маленькая кухня",
+          "explain_ru": "Прилагательное в английском ставится перед существительным.",
+          "audio": "en/1-5/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-5-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Где что? (1/2). Прослушайте скрипт: какое место большое?",
+          "transcript": "The park is big. The shop is small. The school is near the park.",
+          "options": ["парк (the park)", "магазин (the shop)", "школа (the school)", "офис"],
+          "correct_index": 0,
+          "explain_ru": "The park is big — Парк большой.",
+          "audio": "en/1-5/ls-01.mp3"
+        },
+        {
+          "id": "en-1-5-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Где что? (2/2). Прослушайте тот же скрипт: что находится рядом с парком?",
+          "transcript": "The park is big. The shop is small. The school is near the park.",
+          "options": ["школа (the school)", "больница (the hospital)", "ресторан", "дом"],
+          "correct_index": 0,
+          "explain_ru": "The school is near the park — Школа рядом с парком (near — рядом с).",
+          "audio": "en/1-5/ls-01.mp3"
+        },
+        {
+          "id": "en-1-5-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «кухня»:",
+          "transcript": "kitchen",
+          "accepted": ["kitchen"],
+          "explain_ru": "Kitchen — кухня.",
+          "audio": "en/1-5/w07.mp3"
+        },
+        {
+          "id": "en-1-5-ls-04",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «больница»:",
+          "transcript": "hospital",
+          "accepted": ["hospital"],
+          "explain_ru": "Hospital — больница.",
+          "audio": "en/1-5/w10.mp3"
+        },
+        {
+          "id": "en-1-5-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какие размеры у комнаты и кухни?",
+          "transcript": "My room is small. My kitchen is big.",
+          "options": [
+            "Комната маленькая, кухня большая",
+            "Комната большая, кухня маленькая",
+            "Обе комнаты большие",
+            "Дом маленький"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Small — маленькая, big — большая.",
+          "audio": "en/1-5/sp-03.mp3"
+        },
+        {
+          "id": "en-1-5-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «улица»:",
+          "transcript": "street",
+          "accepted": ["street"],
+          "explain_ru": "Street — улица.",
+          "audio": "en/1-5/w05.mp3"
+        },
+        {
+          "id": "en-1-5-ls-07",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «офис»:",
+          "transcript": "office",
+          "accepted": ["office"],
+          "explain_ru": "Office — офис.",
+          "audio": "en/1-5/w08.mp3"
+        },
+        {
+          "id": "en-1-5-ls-08",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что есть на улице говорящего?",
+          "transcript": "There is a park and a restaurant on my street.",
+          "options": [
+            "парк и ресторан",
+            "школа и больница",
+            "офис и магазин",
+            "только один дом"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A park and a restaurant — парк и ресторан.",
+          "audio": "en/1-5/sp-04.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-5-wr-01",
+          "type": "odd_one_out",
+          "origin": "source",
+          "prompt_ru": "Найди лишнее (1/2): выберите слово, которое не является частью дома:",
+          "items": ["house", "room", "kitchen", "hospital"],
+          "odd_index": 3,
+          "explain_ru": "Hospital (больница) — отдельное городское здание, а не часть жилого дома.",
+          "audio": null
+        },
+        {
+          "id": "en-1-5-wr-02",
+          "type": "odd_one_out",
+          "origin": "source",
+          "prompt_ru": "Найди лишнее (2/2): выберите место, которое находится внутри дома, а не на улице:",
+          "items": ["park", "street", "shop", "kitchen"],
+          "odd_index": 3,
+          "explain_ru": "Kitchen (кухня) — помещение внутри дома, а park, street и shop находятся в городе.",
+          "audio": null
+        },
+        {
+          "id": "en-1-5-wr-03",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Дом большой»",
+          "source_text": "Дом большой.",
+          "bank": ["is", "big", "the", "house"],
+          "accepted": ["The house is big"],
+          "explain_ru": "The house is big — (Этот) дом большой.",
+          "audio": null
+        },
+        {
+          "id": "en-1-5-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините места в городе с переводом",
+          "pairs": [
+            { "left": "school", "right": "школа" },
+            { "left": "shop", "right": "магазин" },
+            { "left": "restaurant", "right": "ресторан" },
+            { "left": "hospital", "right": "больница" }
+          ],
+          "explain_ru": "School, shop, restaurant, hospital.",
+          "audio": null
+        },
+        {
+          "id": "en-1-5-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом",
+          "pairs": [
+            { "left": "room", "right": "комната" },
+            { "left": "office", "right": "офис" },
+            { "left": "big", "right": "большой" },
+            { "left": "small", "right": "маленький" }
+          ],
+          "explain_ru": "Room — комната, office — офис, big — большой, small — маленький.",
+          "audio": null
+        },
+        {
+          "id": "en-1-5-wr-06",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски: «маленький магазин» (с артиклем a)",
+          "source_text": "маленький магазин",
+          "accepted": ["a small shop"],
+          "explain_ru": "A small shop — маленький магазин.",
+          "audio": null
+        },
+        {
+          "id": "en-1-5-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Моя улица маленькая»",
+          "source_text": "Моя улица маленькая.",
+          "bank": ["small", "my", "is", "street"],
+          "accepted": ["My street is small"],
+          "explain_ru": "My street is small — Моя улица маленькая.",
+          "audio": null
+        },
+        {
+          "id": "en-1-5-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски слово «ресторан»:",
+          "source_text": "ресторан",
+          "accepted": ["restaurant"],
+          "explain_ru": "Обратите внимание на написание: r-e-s-t-a-u-r-a-n-t.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-5-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Мой район. Прочитайте текст и ответьте на два вопроса (There is — есть):",
+          "passage": "My street is small. There is a park and a shop. There is no hospital.",
+          "questions": [
+            {
+              "question_ru": "Что есть на улице?",
+              "options": ["парк и магазин (a park and a shop)", "школа и офис", "ресторан и больница", "только дома"],
+              "correct_index": 0,
+              "accepted": ["парк и магазин", "a park and a shop"]
+            },
+            {
+              "question_ru": "Чего нет на улице?",
+              "options": ["больницы (hospital)", "парка (park)", "магазина (shop)", "домов"],
+              "correct_index": 0,
+              "accepted": ["больницы", "hospital"]
+            }
+          ],
+          "explain_ru": "There is a park and a shop (Есть парк и магазин). There is no hospital (Больницы нет).",
+          "audio": null
+        },
+        {
+          "id": "en-1-5-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите антоним к слову «big»:",
+          "question_text": "big ↔ ?",
+          "options": ["small", "house", "room", "street"],
+          "correct_index": 0,
+          "explain_ru": "Big (большой) ↔ small (маленький).",
+          "audio": null
+        },
+        {
+          "id": "en-1-5-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «kitchen»?",
+          "question_text": "kitchen",
+          "options": ["кухня", "комната", "офис", "школа"],
+          "correct_index": 0,
+          "explain_ru": "Kitchen — кухня.",
+          "audio": "en/1-5/w07.mp3"
+        },
+        {
+          "id": "en-1-5-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте описание дома и ответьте на вопрос:",
+          "passage": "This is my house. It has a big kitchen and two small rooms. My father's office is near our house.",
+          "questions": [
+            {
+              "question_ru": "Какая кухня в этом доме?",
+              "options": ["большая (big)", "маленькая (small)", "её нет", "старая"],
+              "correct_index": 0,
+              "accepted": ["большая", "big"]
+            }
+          ],
+          "explain_ru": "It has a big kitchen — В нём большая кухня.",
+          "audio": null
+        },
+        {
+          "id": "en-1-5-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слово «дом»:",
+          "target_text": "house",
+          "translation_ru": "дом (здание)",
+          "example_text": "This is my house. It is big.",
+          "example_ru": "Это мой дом. Он большой.",
+          "explain_ru": "House обозначает именно здание дома.",
+          "audio": "en/1-5/w01.mp3"
+        },
+        {
+          "id": "en-1-5-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Где обычно работают учителя (teachers) и учатся ученики?",
+          "question_text": "teacher → ?",
+          "options": ["school (школа)", "restaurant (ресторан)", "shop (магазин)", "kitchen (кухня)"],
+          "correct_index": 0,
+          "explain_ru": "School — школа.",
+          "audio": null
+        },
+        {
+          "id": "en-1-5-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «There is a big restaurant in my city»?",
+          "question_text": "There is a big restaurant in my city.",
+          "options": [
+            "В моём городе есть большой ресторан.",
+            "На моей улице нет магазина.",
+            "Моя комната маленькая.",
+            "Больница находится рядом с парком."
+          ],
+          "correct_index": 0,
+          "explain_ru": "There is a big restaurant — есть большой ресторан, in my city — в моём городе.",
+          "audio": null
+        },
+        {
+          "id": "en-1-5-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте места от меньшего к большему («комната → дом → улица → город»):",
+          "items_shuffled": ["city", "room", "street", "house"],
+          "correct_order": ["room", "house", "street", "city"],
+          "explain_ru": "Room (комната) → house (дом) → street (улица) → city (город).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

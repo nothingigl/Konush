@@ -83,16 +83,385 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-4-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Моё древо (1/2): представьте родителей, сестру и брата:",
+          "target_text": "This is my mother. This is my father. I have a sister and a brother.",
+          "translation_ru": "Это моя мама. Это мой папа. У меня есть сестра и брат.",
+          "explain_ru": "I have — «у меня есть».",
+          "audio": "en/1-4/sp-01.mp3"
+        },
+        {
+          "id": "en-1-4-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Моё древо (2/2): представьте бабушку, дедушку и родителей:",
+          "target_text": "This is my grandmother. This is my grandfather. They are my parents.",
+          "translation_ru": "Это моя бабушка. Это мой дедушка. Они мои родители.",
+          "explain_ru": "Grandmother — бабушка, grandfather — дедушка, parents — родители.",
+          "audio": "en/1-4/sp-02.mp3"
+        },
+        {
+          "id": "en-1-4-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про сына и дочь:",
+          "target_text": "I have a son and a daughter.",
+          "translation_ru": "У меня есть сын и дочь.",
+          "explain_ru": "Son — сын, daughter — дочь (буквы gh в daughter не читаются).",
+          "audio": "en/1-4/sp-03.mp3"
+        },
+        {
+          "id": "en-1-4-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Представьте мужа и жену:",
+          "target_text": "He is my husband. She is my wife.",
+          "translation_ru": "Он мой муж. Она моя жена.",
+          "explain_ru": "Husband — муж, wife — жена.",
+          "audio": "en/1-4/sp-04.mp3"
+        },
+        {
+          "id": "en-1-4-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите о своей семье:",
+          "target_text": "This is my family. My family is from Kazakhstan.",
+          "translation_ru": "Это моя семья. Моя семья из Казахстана.",
+          "explain_ru": "Family — семья.",
+          "audio": "en/1-4/sp-05.mp3"
+        },
+        {
+          "id": "en-1-4-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, кто ваша мама и кто ваш брат:",
+          "target_text": "My mother is a teacher. My brother is a student.",
+          "translation_ru": "Моя мама учитель. Мой брат студент.",
+          "explain_ru": "Повторяем профессии teacher и student из юнита 1.3.",
+          "audio": "en/1-4/sp-06.mp3"
+        },
+        {
+          "id": "en-1-4-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, где живут ваши родители:",
+          "target_text": "My parents live in Turkey.",
+          "translation_ru": "Мои родители живут в Турции.",
+          "explain_ru": "Parents — множественное число, поэтому глагол live без -s.",
+          "audio": "en/1-4/sp-07.mp3"
+        },
+        {
+          "id": "en-1-4-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Назовите пары родственников вслух:",
+          "target_text": "mother and father, sister and brother, grandmother and grandfather",
+          "translation_ru": "мама и папа, сестра и брат, бабушка и дедушка",
+          "explain_ru": "В словах mother, father, brother сочетание th даёт звонкий межзубный звук.",
+          "audio": "en/1-4/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-4-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Кто это? (1/2). Прослушайте скрипт: как зовут сестру?",
+          "transcript": "My brother is Tom. My sister is Kate. My parents are Anna and Paul.",
+          "options": ["Кейт (Kate)", "Том (Tom)", "Анна (Anna)", "Пол (Paul)"],
+          "correct_index": 0,
+          "explain_ru": "My sister is Kate — Мою сестру зовут Кейт.",
+          "audio": "en/1-4/ls-01.mp3"
+        },
+        {
+          "id": "en-1-4-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Кто это? (2/2). Прослушайте тот же скрипт: кто родители?",
+          "transcript": "My brother is Tom. My sister is Kate. My parents are Anna and Paul.",
+          "options": ["Анна и Пол (Anna and Paul)", "Том и Кейт", "Майк и Анна", "Том и Пол"],
+          "correct_index": 0,
+          "explain_ru": "My parents are Anna and Paul — Мои родители Анна и Пол.",
+          "audio": "en/1-4/ls-01.mp3"
+        },
+        {
+          "id": "en-1-4-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «семья»:",
+          "transcript": "family",
+          "accepted": ["family"],
+          "explain_ru": "Family — семья.",
+          "audio": "en/1-4/w12.mp3"
+        },
+        {
+          "id": "en-1-4-ls-04",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «дочь»:",
+          "transcript": "daughter",
+          "accepted": ["daughter"],
+          "explain_ru": "Daughter — дочь.",
+          "audio": "en/1-4/w09.mp3"
+        },
+        {
+          "id": "en-1-4-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О каких родственниках идёт речь?",
+          "transcript": "He is my husband. She is my wife.",
+          "options": ["муж и жена", "брат и сестра", "сын и дочь", "дедушка и бабушка"],
+          "correct_index": 0,
+          "explain_ru": "Husband — муж, wife — жена.",
+          "audio": "en/1-4/sp-04.mp3"
+        },
+        {
+          "id": "en-1-4-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «родители»:",
+          "transcript": "parents",
+          "accepted": ["parents"],
+          "explain_ru": "Parents — родители.",
+          "audio": "en/1-4/w05.mp3"
+        },
+        {
+          "id": "en-1-4-ls-07",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «сын»:",
+          "transcript": "son",
+          "accepted": ["son"],
+          "explain_ru": "Son — сын.",
+          "audio": "en/1-4/w08.mp3"
+        },
+        {
+          "id": "en-1-4-ls-08",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кто учитель в этой семье?",
+          "transcript": "My mother is a teacher. My brother is a student.",
+          "options": ["мама (mother)", "брат (brother)", "папа (father)", "сестра (sister)"],
+          "correct_index": 0,
+          "explain_ru": "My mother is a teacher — Моя мама учитель.",
+          "audio": "en/1-4/sp-06.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-4-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Пары: соедините родственников парами (женский ↔ мужской)",
+          "pairs": [
+            { "left": "mother", "right": "father" },
+            { "left": "daughter", "right": "son" },
+            { "left": "wife", "right": "husband" },
+            { "left": "grandmother", "right": "grandfather" }
+          ],
+          "explain_ru": "Mother↔father, daughter↔son, wife↔husband, grandmother↔grandfather.",
+          "audio": null
+        },
+        {
+          "id": "en-1-4-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «У меня есть брат»",
+          "source_text": "У меня есть брат.",
+          "bank": ["have", "I", "a", "brother"],
+          "accepted": ["I have a brother"],
+          "explain_ru": "I have a brother — У меня есть брат.",
+          "audio": null
+        },
+        {
+          "id": "en-1-4-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: поставьте правильную форму глагола to be («Она моя сестра»)",
+          "buggy_text": "She are my sister",
+          "accepted": ["She is my sister."],
+          "explain_ru": "С местоимением she используется форма is, а не are: She is my sister.",
+          "audio": null
+        },
+        {
+          "id": "en-1-4-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом",
+          "pairs": [
+            { "left": "sister", "right": "сестра" },
+            { "left": "brother", "right": "брат" },
+            { "left": "parents", "right": "родители" },
+            { "left": "family", "right": "семья" }
+          ],
+          "explain_ru": "Sister — сестра, brother — брат, parents — родители, family — семья.",
+          "audio": null
+        },
+        {
+          "id": "en-1-4-wr-05",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски: «муж и жена»",
+          "source_text": "муж и жена",
+          "accepted": ["husband and wife"],
+          "explain_ru": "Husband — муж, wife — жена.",
+          "audio": null
+        },
+        {
+          "id": "en-1-4-wr-06",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски: «бабушка»",
+          "source_text": "бабушка",
+          "accepted": ["grandmother"],
+          "explain_ru": "Grandmother — бабушка.",
+          "audio": null
+        },
+        {
+          "id": "en-1-4-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Это мой дедушка»",
+          "source_text": "Это мой дедушка.",
+          "bank": ["grandfather", "is", "this", "my"],
+          "accepted": ["This is my grandfather"],
+          "explain_ru": "This is my grandfather — Это мой дедушка.",
+          "audio": null
+        },
+        {
+          "id": "en-1-4-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не член семьи):",
+          "items": ["mother", "son", "daughter", "city"],
+          "odd_index": 3,
+          "explain_ru": "City — «город» (из юнита 1.2), остальные три слова — члены семьи.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-4-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Семья Майка. Прочитайте текст и ответьте на два вопроса (small — маленькая, driver — водитель):",
+          "passage": "Mike has a small family. His mother is a teacher. His father is a driver. He has one sister.",
+          "questions": [
+            {
+              "question_ru": "Кто мама Майка по профессии?",
+              "options": ["учитель (a teacher)", "водитель (a driver)", "студентка", "врач"],
+              "correct_index": 0,
+              "accepted": ["учитель", "teacher"]
+            },
+            {
+              "question_ru": "Сколько у Майка сестёр?",
+              "options": ["одна (one)", "две", "три", "ни одной"],
+              "correct_index": 0,
+              "accepted": ["одна", "one", "1"]
+            }
+          ],
+          "explain_ru": "His mother is a teacher (Его мама учитель). He has one sister (У него есть одна сестра).",
+          "audio": null
+        },
+        {
+          "id": "en-1-4-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «husband»?",
+          "question_text": "husband",
+          "options": ["муж", "жена", "брат", "дедушка"],
+          "correct_index": 0,
+          "explain_ru": "Husband — муж.",
+          "audio": "en/1-4/w10.mp3"
+        },
+        {
+          "id": "en-1-4-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «daughter»:",
+          "question_text": "daughter",
+          "options": ["дочь", "сын", "сестра", "мама"],
+          "correct_index": 0,
+          "explain_ru": "Daughter — дочь.",
+          "audio": "en/1-4/w09.mp3"
+        },
+        {
+          "id": "en-1-4-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте рассказ и ответьте на вопрос:",
+          "passage": "Hello! My name is Anna. My husband is Tom. We have a son and a daughter. My grandmother and grandfather live in England.",
+          "questions": [
+            {
+              "question_ru": "Где живут бабушка и дедушка Анны?",
+              "options": ["в Англии (in England)", "в России", "в Германии", "в США"],
+              "correct_index": 0,
+              "accepted": ["в Англии", "England"]
+            }
+          ],
+          "explain_ru": "My grandmother and grandfather live in England.",
+          "audio": null
+        },
+        {
+          "id": "en-1-4-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слово «родители»:",
+          "target_text": "parents",
+          "translation_ru": "родители",
+          "example_text": "My parents are Anna and Paul.",
+          "example_ru": "Мои родители — Анна и Пол.",
+          "explain_ru": "Parents — мама и папа вместе (всегда с are во множественном числе).",
+          "audio": "en/1-4/w05.mp3"
+        },
+        {
+          "id": "en-1-4-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать «жена» по-английски?",
+          "question_text": "жена",
+          "options": ["wife", "sister", "mother", "daughter"],
+          "correct_index": 0,
+          "explain_ru": "Wife — жена.",
+          "audio": null
+        },
+        {
+          "id": "en-1-4-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «I have a big family»?",
+          "question_text": "I have a big family.",
+          "options": [
+            "У меня большая семья.",
+            "Я живу в большом городе.",
+            "У меня есть старший брат.",
+            "Мои родители из Англии."
+          ],
+          "correct_index": 0,
+          "explain_ru": "I have — у меня есть, a big family — большая семья.",
+          "audio": null
+        },
+        {
+          "id": "en-1-4-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте поколения от старшего к младшему («дедушка → папа → сын»):",
+          "items_shuffled": ["son", "grandfather", "father"],
+          "correct_order": ["grandfather", "father", "son"],
+          "explain_ru": "Grandfather (дедушка) → father (папа) → son (сын).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"
