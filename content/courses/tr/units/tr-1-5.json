@@ -53,7 +53,7 @@
     {
       "id": "tr-1-5-w08",
       "text": "almak",
-      "ru": "брать",
+      "ru": "брать; покупать",
       "audio": "tr/1-5/w08.mp3"
     },
     {
@@ -131,7 +131,7 @@
           "prompt_ru": "Скажите, что вы любите эту книгу и эту тетрадь:",
           "target_text": "Bu kitabı ve bu defteri seviyorum.",
           "translation_ru": "Я люблю эту книгу и эту тетрадь.",
-          "explain_ru": "Глагол sevmek (любить) всегда требует винительного падежа.",
+          "explain_ru": "Глагол sevmek (любить) обычно ставится с винительным падежом (kitabı sevmek).",
           "audio": "tr/1-5/sp-05.mp3"
         },
         {
@@ -272,32 +272,32 @@
       "exercises": [
         {
           "id": "tr-1-5-wr-01",
-          "type": "fix_bug",
+          "type": "type_answer",
           "origin": "source",
-          "prompt_ru": "Поставь в винительный падеж (1/3): добавьте окончание определённого предмета к «Anahtar»:",
-          "buggy_text": "Anahtar görüyorum",
-          "accepted": ["Anahtarı görüyorum.", "Anahtarı görüyorum"],
-          "explain_ru": "Последняя гласная в anahtar — твёрдая «a», поэтому добавляется аффикс -ı: Anahtarı görüyorum.",
+          "prompt_ru": "Поставь в винительный падеж (1/3): Я вижу *этот* ключ: Anahtar___ görüyorum",
+          "source_text": "Anahtar___ görüyorum",
+          "accepted": ["Anahtarı"],
+          "explain_ru": "Последняя гласная в anahtar — a, поэтому добавляется -ı: anahtarı.",
           "audio": null
         },
         {
           "id": "tr-1-5-wr-02",
-          "type": "fix_bug",
+          "type": "type_answer",
           "origin": "source",
-          "prompt_ru": "Поставь в винительный падеж (2/3): добавьте окончание определённого предмета к «Kapı»:",
-          "buggy_text": "Kapı kapatıyorum",
-          "accepted": ["Kapıyı kapatıyorum.", "Kapıyı kapatıyorum"],
-          "explain_ru": "Слово kapı оканчивается на гласную ı, поэтому через соединительную y добавляется -yı: Kapıyı kapatıyorum.",
+          "prompt_ru": "Поставь в винительный падеж (2/3): Я закрываю *эту* дверь: Kapı___ kapatıyorum",
+          "source_text": "Kapı___ kapatıyorum",
+          "accepted": ["Kapıyı"],
+          "explain_ru": "Слово kapı заканчивается на гласную, поэтому между гласными появляется буква y: kapıyı.",
           "audio": null
         },
         {
           "id": "tr-1-5-wr-03",
-          "type": "fix_bug",
+          "type": "type_answer",
           "origin": "source",
-          "prompt_ru": "Поставь в винительный падеж (3/3): добавьте окончание определённого предмета к «Telefon»:",
-          "buggy_text": "Telefon alıyorum",
-          "accepted": ["Telefonu alıyorum.", "Telefonu alıyorum"],
-          "explain_ru": "Последняя гласная в telefon — губная «o», поэтому по гармонии гласных добавляется -u: Telefonu alıyorum.",
+          "prompt_ru": "Поставь в винительный падеж (3/3): Я беру *этот* телефон: Telefon___ alıyorum",
+          "source_text": "Telefon___ alıyorum",
+          "accepted": ["Telefonu"],
+          "explain_ru": "Последняя гласная в telefon — o, поэтому добавляется -u: telefonu.",
           "audio": null
         },
         {
@@ -335,7 +335,7 @@
           "prompt_ru": "Соберите предложение: «Я беру ручку и открываю тетрадь»",
           "source_text": "Я беру ручку и открываю тетрадь.",
           "bank": ["açıyorum", "kalemi", "alıyorum", "ve", "defteri"],
-          "accepted": ["Kalemi alıyorum ve defteri açıyorum."],
+          "accepted": ["Kalemi alıyorum ve defteri açıyorum"],
           "explain_ru": "Kalemi alıyorum ve defteri açıyorum.",
           "audio": null
         },
@@ -418,7 +418,7 @@
           "type": "read_comprehension",
           "origin": "derived",
           "prompt_ru": "Прочитайте короткую сцену и ответьте на вопрос:",
-          "passage": "Ben yeni telefonu görüyorum. Telefon çok güzel ama pahalı. Ben eski kitabı ve defteri alıyorum.",
+          "passage": "Ben yeni telefonu görüyorum. Telefon çok güzel ama pahalı. Ben eski kitabı ve eski defteri alıyorum.",
           "questions": [
             {
               "question_ru": "Что видит автор?",
@@ -444,7 +444,7 @@
           "translation_ru": "любить",
           "example_text": "Ben çayı ve kahveyi seviyorum.",
           "example_ru": "Я люблю чай и кофе.",
-          "explain_ru": "Sevmek требует винительного падежа (-ı/-i/-u/-ü).",
+          "explain_ru": "Sevmek обычно ставится с винительным падежом (kitabı sevmek).",
           "audio": "tr/1-5/w09.mp3"
         },
         {

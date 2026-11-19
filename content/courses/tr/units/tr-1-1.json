@@ -111,7 +111,7 @@
           "prompt_ru": "Скажите по образцу «Ben ___ istiyorum» («Я хочу ___») с кофе:",
           "target_text": "Ben kahve istiyorum.",
           "translation_ru": "Я хочу кофе.",
-          "explain_ru": "Глагол «хочу» (istiyorum) в турецком всегда стоит в самом конце предложения.",
+          "explain_ru": "Глагол «хочу» (istiyorum) в турецком обычно стоит в самом конце предложения.",
           "audio": "tr/1-1/sp-03.mp3"
         },
         {
@@ -283,7 +283,7 @@
           "prompt_ru": "Кубики: соберите предложение «Я хочу (один) апельсин»",
           "source_text": "Я хочу апельсин",
           "bank": ["istiyorum", "portakal", "ben", "bir"],
-          "accepted": ["Ben bir portakal istiyorum."],
+          "accepted": ["Ben bir portakal istiyorum"],
           "explain_ru": "Порядок слов в турецком: подлежащее (Ben) + дополнение (bir portakal) + сказуемое в конце (istiyorum).",
           "audio": null
         },
@@ -293,7 +293,7 @@
           "origin": "source",
           "prompt_ru": "Исправь баг: найдите и исправьте ошибку в окончании глагола",
           "buggy_text": "Ben su istiyorsun",
-          "accepted": ["Ben su istiyorum.", "Ben su istiyorum"],
+          "accepted": ["Ben su istiyorum."],
           "explain_ru": "С местоимением Ben («я») глагол оканчивается на -um (istiyorum), а -sun используется для Sen («ты»).",
           "audio": null
         },
@@ -342,7 +342,7 @@
           "prompt_ru": "Соберите предложение: «Мы хотим хлеб и сыр»",
           "source_text": "Мы хотим хлеб и сыр.",
           "bank": ["istiyoruz", "peynir", "biz", "ekmek", "ve"],
-          "accepted": ["Biz ekmek ve peynir istiyoruz.", "Biz peynir ve ekmek istiyoruz."],
+          "accepted": ["Biz ekmek ve peynir istiyoruz", "Biz peynir ve ekmek istiyoruz"],
           "explain_ru": "С местоимением Biz («мы») глагол принимает форму istiyoruz.",
           "audio": null
         },

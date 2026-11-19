@@ -23,7 +23,7 @@
     {
       "id": "tr-1-8-w03",
       "text": "sıcak",
-      "ru": "горячий",
+      "ru": "горячий (о погоде: жаркий)",
       "audio": "tr/1-8/w03.mp3"
     },
     {
@@ -91,7 +91,7 @@
           "prompt_ru": "Спорщики (1/3): сыграйте двумя голосами пары антонимов:",
           "target_text": "Sıcak! — Soğuk! Temiz! — Kirli!",
           "translation_ru": "Горячий! — Холодный! Чистый! — Грязный!",
-          "explain_ru": "Sıcak — горячий/тёплый, soğuk — холодный, temiz — чистый, kirli — грязный.",
+          "explain_ru": "Sıcak — горячий (о погоде: жаркий), soğuk — холодный, temiz — чистый, kirli — грязный.",
           "audio": "tr/1-8/sp-01.mp3"
         },
         {
@@ -158,7 +158,7 @@
           "id": "tr-1-8-sp-08",
           "type": "speak_repeat",
           "origin": "derived",
-          "prompt_ru": "Скажите про закрытую дверь, грязную тарелку и трудную книгу:",
+          "prompt_ru": "Скажите про закрытую дверь, грязную тарелку и простую книгу",
           "target_text": "Kapı kapalı, tabak kirli, kitap zor değil, kolay.",
           "translation_ru": "Дверь закрыта, тарелка грязная, книга не трудная, а простая.",
           "explain_ru": "Kapalı — закрытый, kirli — грязный, zor — трудный, kolay — простой.",
@@ -335,7 +335,7 @@
           "prompt_ru": "Соберите предложение: «Горячий суп и холодная вода»",
           "source_text": "Горячий суп и холодная вода.",
           "bank": ["su", "sıcak", "çorba", "ve", "soğuk"],
-          "accepted": ["Sıcak çorba ve soğuk su."],
+          "accepted": ["Sıcak çorba ve soğuk su"],
           "explain_ru": "Прилагательное в турецком стоит перед существительным: sıcak çorba, soğuk su.",
           "audio": null
         },
@@ -346,7 +346,7 @@
           "prompt_ru": "Соберите предложение: «Дверь не открыта, а закрыта»",
           "source_text": "Дверь не открыта, а закрыта.",
           "bank": ["kapalı", "kapı", "açık", "değil"],
-          "accepted": ["Kapı açık değil, kapalı."],
+          "accepted": ["Kapı açık değil kapalı"],
           "explain_ru": "Kapı açık değil, kapalı.",
           "audio": null
         },

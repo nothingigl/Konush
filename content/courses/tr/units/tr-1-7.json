@@ -290,7 +290,7 @@
           "origin": "source",
           "prompt_ru": "Исправь баг: после числительного существительное в турецком всегда стоит в единственном числе (üç — три):",
           "buggy_text": "Üç kitaplar",
-          "accepted": ["Üç kitap", "Üç kitap."],
+          "accepted": ["Üç kitap"],
           "explain_ru": "Важное правило турецкой грамматики: после любого числа (iki, üç и т. д.) аффикс -lar/-ler НЕ ставится: Üç kitap («три книги»).",
           "audio": null
         },
@@ -349,7 +349,7 @@
           "prompt_ru": "Соберите предложение: «Эти стаканы и тарелки новые»",
           "source_text": "Эти стаканы и тарелки новые.",
           "bank": ["yeni", "bu", "bardaklar", "ve", "tabaklar"],
-          "accepted": ["Bu bardaklar ve tabaklar yeni.", "Bu tabaklar ve bardaklar yeni."],
+          "accepted": ["Bu bardaklar ve tabaklar yeni", "Bu tabaklar ve bardaklar yeni"],
           "explain_ru": "Bu bardaklar ve tabaklar yeni.",
           "audio": null
         },

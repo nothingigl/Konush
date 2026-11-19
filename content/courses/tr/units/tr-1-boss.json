@@ -35,9 +35,9 @@
           "id": "tr-1-boss-sp-03",
           "type": "speak_repeat",
           "origin": "derived",
-          "prompt_ru": "Поприветствуйте официанта и попросите меню/завтрак:",
-          "target_text": "Günaydın! Ben sıcak çorba, tavuk ve salata istiyorum.",
-          "translation_ru": "Доброе утро! Я хочу горячий суп, курицу и салат.",
+          "prompt_ru": "Поприветствуйте официанта и закажите завтрак",
+          "target_text": "Günaydın! Kahvaltı lütfen. Peynir, yumurta ve sıcak çay istiyorum.",
+          "translation_ru": "Доброе утро! Завтрак, пожалуйста. Я хочу сыр, яйцо и горячий чай.",
           "explain_ru": "Повторяем юниты 1.1, 1.2, 1.4 и 1.8.",
           "audio": "tr/1-boss/sp-03.mp3"
         },
@@ -93,7 +93,7 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и напишите по-турецки: «Спасибо! — Не за что!»",
           "transcript": "Teşekkürler! Rica ederim!",
-          "accepted": ["Teşekkürler! Rica ederim!", "Teşekkürler rica ederim"],
+          "accepted": ["Teşekkürler! Rica ederim!"],
           "explain_ru": "Teşekkürler — спасибо, rica ederim — не за что.",
           "audio": "tr/1-boss/ls-03.mp3"
         },
@@ -144,7 +144,7 @@
           "prompt_ru": "Соберите предложение: «Я беру книгу и открываю тетрадь»",
           "source_text": "Я беру книгу и открываю тетрадь.",
           "bank": ["açıyorum", "kitabı", "alıyorum", "ve", "defteri"],
-          "accepted": ["Kitabı alıyorum ve defteri açıyorum."],
+          "accepted": ["Kitabı alıyorum ve defteri açıyorum"],
           "explain_ru": "Винительный падеж из юнита 1.5: kitabı, defteri.",
           "audio": null
         },
@@ -152,10 +152,10 @@
           "id": "tr-1-boss-wr-04",
           "type": "fix_bug",
           "origin": "derived",
-          "prompt_ru": "Исправьте две ошибки в предложении «Üç bardaklar dolu değil, boş»:",
-          "buggy_text": "Üç bardaklar dolu",
-          "accepted": ["Üç bardak dolu.", "Üç bardak dolu"],
-          "explain_ru": "После числительного üç существительное bardak стоит в единственном числе без -lar.",
+          "prompt_ru": "Исправьте ошибку в предложении",
+          "buggy_text": "Üç bardaklar dolu değil, boş.",
+          "accepted": ["Üç bardak dolu değil, boş."],
+          "explain_ru": "После числительного üç существительное остаётся в единственном числе: üç bardak.",
           "audio": null
         }
       ]
@@ -166,22 +166,22 @@
           "id": "tr-1-boss-rd-01",
           "type": "read_comprehension",
           "origin": "source",
-          "prompt_ru": "Прочитайте отзыв о кафе и ответьте на вопрос (fiyatlar — цены):",
-          "passage": "Bu restoranda çorba sıcak ve lezzetli. Salata temiz. Fiyatlar ucuz.",
+          "prompt_ru": "Прочитайте отзыв о кафе и ответьте на вопрос (fiyatlar — цены, masa — стол):",
+          "passage": "Bu restoranda çorba sıcak ve lezzetli. Masa temiz. Fiyatlar ucuz.",
           "questions": [
             {
-              "question_ru": "Какая здесь еда и цены?",
+              "question_ru": "Какая здесь еда, стол и цены?",
               "options": [
-                "суп горячий и вкусный, салат чистый (свежий), цены дешёвые",
-                "суп холодный, а цены дорогие",
-                "ресторан закрыт, еды нет",
-                "тарелки грязные и пустые"
+                "суп горячий и вкусный, стол чистый, цены дешёвые",
+                "суп холодный, стол грязный, цены дорогие",
+                "суп горячий, но стол грязный и цены высокие",
+                "суп невкусный, стол пустой, цены средние"
               ],
               "correct_index": 0,
-              "accepted": ["суп горячий и вкусный, салат чистый"]
+              "accepted": ["суп горячий и вкусный, стол чистый, цены дешёвые"]
             }
           ],
-          "explain_ru": "Çorba sıcak ve lezzetli (суп горячий и вкусный), salata temiz (салат чистый/свежий), fiyatlar ucuz (цены дешёвые).",
+          "explain_ru": "Çorba sıcak ve lezzetli (суп горячий и вкусный), masa temiz (стол чистый), fiyatlar ucuz (цены дешёвые).",
           "audio": null
         },
         {
@@ -189,21 +189,21 @@
           "type": "read_comprehension",
           "origin": "derived",
           "prompt_ru": "Прочитайте сцену у кафе и ответьте на вопрос:",
-          "passage": "Parkta büyük ağaçlar ve güzel çiçekler var. Çocuklar kedi ve köpeği seviyor. Bizim masada sıcak çay, kahve, peynir ve ekmek var.",
+          "passage": "Parkta büyük ağaçlar ve güzel çiçekler var. Çocuklar kediyi ve köpeği seviyor. Bizim masada sıcak çay, kahve, peynir ve ekmek var.",
           "questions": [
             {
               "question_ru": "Кого любят дети (çocuklar)?",
               "options": [
-                "кошку и собаку (kedi ve köpeği)",
+                "кошку и собаку (kediyi ve köpeği)",
                 "льва и тигра",
                 "слона и обезьяну",
                 "лошадь"
               ],
               "correct_index": 0,
-              "accepted": ["кошку и собаку", "kedi ve köpeği"]
+              "accepted": ["кошку и собаку", "kediyi ve köpeği"]
             }
           ],
-          "explain_ru": "Çocuklar kedi ve köpeği seviyor — Дети любят кошку и собаку.",
+          "explain_ru": "Çocuklar kediyi ve köpeği seviyor — Дети любят кошку и собаку.",
           "audio": null
         },
         {
@@ -212,7 +212,7 @@
           "origin": "derived",
           "prompt_ru": "Финальный вопрос босса Секции 1: выберите правильный ответ гостя на приветствие «Hoş geldiniz!»:",
           "question_text": "— Hoş geldiniz!",
-          "options": ["— Hoş bulduk!", "— Özür dilerim!", "— İyi geceler!", "— Hayır!"],
+          "options": ["Hoş bulduk!", "Özür dilerim!", "İyi geceler!", "Hayır!"],
           "correct_index": 0,
           "explain_ru": "На «Hoş geldiniz!» (Добро пожаловать!) всегда отвечают «Hoş bulduk!» (Рад быть у вас!).",
           "audio": null

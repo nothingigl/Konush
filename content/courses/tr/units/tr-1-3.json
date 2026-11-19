@@ -297,7 +297,7 @@
           "prompt_ru": "Кубики: соберите предложение «Эта книга новая»",
           "source_text": "Эта книга новая.",
           "bank": ["kitap", "yeni", "bu"],
-          "accepted": ["Bu kitap yeni."],
+          "accepted": ["Bu kitap yeni"],
           "explain_ru": "Bu kitap yeni — Эта книга новая (kitap — книга).",
           "audio": null
         },
@@ -343,7 +343,7 @@
           "id": "tr-1-3-wr-07",
           "type": "build_sentence",
           "origin": "derived",
-          "prompt_ru": "Соберите предложение: «Это яблоко маленькое, но вкусное/красивое»",
+          "prompt_ru": "Соберите предложение: «Это яблоко маленькое, но красивое»",
           "source_text": "Это яблоко маленькое, но красивое.",
           "bank": ["güzel", "bu", "elma", "küçük", "ama"],
           "accepted": ["Bu elma küçük ama güzel."],

@@ -318,7 +318,7 @@
           "id": "tr-1-4-wr-05",
           "type": "match_pairs",
           "origin": "derived",
-          "prompt_ru": "Соедините овощи, фрукты и гарниры с переводом:",
+          "prompt_ru": "Соедините продукты с переводом",
           "pairs": [
             { "left": "makarna", "right": "макароны" },
             { "left": "salata", "right": "салат" },
@@ -335,7 +335,7 @@
           "prompt_ru": "Соберите предложение: «Я хочу курицу, рис и салат»",
           "source_text": "Я хочу курицу, рис и салат.",
           "bank": ["istiyorum", "tavuk", "ben", "pilav", "ve", "salata"],
-          "accepted": ["Ben tavuk pilav ve salata istiyorum."],
+          "accepted": ["Ben tavuk pilav ve salata istiyorum"],
           "explain_ru": "Подлежащее Ben в начале, глагол istiyorum в конце.",
           "audio": null
         },
@@ -353,11 +353,11 @@
           "id": "tr-1-4-wr-08",
           "type": "build_sentence",
           "origin": "derived",
-          "prompt_ru": "Соберите предложение: «Этот картофель и помидор вкусные»",
-          "source_text": "Этот картофель и помидор вкусные.",
-          "bank": ["lezzetli", "bu", "patates", "ve", "domates"],
-          "accepted": ["Bu patates ve domates lezzetli.", "Bu domates ve patates lezzetli."],
-          "explain_ru": "Lezzetli ставится в конце как именное сказуемое.",
+          "prompt_ru": "Соберите предложение: «Картофель и помидор вкусные.»",
+          "source_text": "Картофель и помидор вкусные.",
+          "bank": ["lezzetli", "patates", "ve", "domates"],
+          "accepted": ["Patates ve domates lezzetli.", "Domates ve patates lezzetli."],
+          "explain_ru": "Lezzetli ставится в конце как сказуемое.",
           "audio": null
         }
       ]

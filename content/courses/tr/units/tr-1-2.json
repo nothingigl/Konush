@@ -271,14 +271,14 @@
           "id": "tr-1-2-wr-01",
           "type": "match_pairs",
           "origin": "source",
-          "prompt_ru": "Найди пару реплик: соедините фразу и ответ на неё",
+          "prompt_ru": "Соедините фразу с ситуацией или ответом",
           "pairs": [
-            { "left": "Teşekkürler", "right": "Rica ederim" },
-            { "left": "Hoş geldiniz", "right": "Hoş bulduk" },
-            { "left": "Görüşürüz", "right": "Görüşürüz" },
-            { "left": "İyi geceler", "right": "İyi geceler" }
+            { "left": "Teşekkürler", "right": "в ответ «Rica ederim»" },
+            { "left": "Hoş geldiniz", "right": "в ответ «Hoş bulduk»" },
+            { "left": "İyi geceler", "right": "перед сном" },
+            { "left": "Günaydın", "right": "утром" }
           ],
-          "explain_ru": "На Hoş geldiniz («Добро пожаловать») гость всегда отвечает Hoş bulduk («Рад быть у вас»).",
+          "explain_ru": "На Hoş geldiniz отвечают Hoş bulduk («Рад быть у вас» — новое выражение для ответа гостя).",
           "audio": null
         },
         {

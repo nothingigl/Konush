@@ -149,9 +149,9 @@
           "type": "speak_repeat",
           "origin": "derived",
           "prompt_ru": "Скажите, что вы любите кошек и собак:",
-          "target_text": "Ben kediyi ve köpeği seviyorum.",
-          "translation_ru": "Я люблю (эту) кошку и (эту) собаку.",
-          "explain_ru": "Kedi → kediyi, köpek → köpeği (в винительном падеже k переходит в ğ).",
+          "target_text": "Ben kedileri ve köpekleri seviyorum.",
+          "translation_ru": "Я люблю кошек и собак.",
+          "explain_ru": "Kedi → kediler → kedileri, köpek → köpekler → köpekleri: множественное число, затем винительный падеж. Про общий класс («кошек вообще») по-турецки обычно используют винительный.",
           "audio": "tr/1-6/sp-07.mp3"
         },
         {
@@ -277,7 +277,7 @@
           "prompt_ru": "Кубики: соберите предложение «Это не собака, а кошка»",
           "source_text": "Это не собака, а кошка.",
           "bank": ["köpek", "bu", "değil", "kedi"],
-          "accepted": ["Bu köpek değil, kedi.", "Bu köpek değil kedi"],
+          "accepted": ["Bu köpek değil kedi"],
           "explain_ru": "Bu köpek değil, kedi — Это не собака, (а) кошка.",
           "audio": null
         },
@@ -299,7 +299,7 @@
           "id": "tr-1-6-wr-03",
           "type": "match_pairs",
           "origin": "derived",
-          "prompt_ru": "Соедините диких животных и птиц с переводом:",
+          "prompt_ru": "Соедините диких животных с переводом",
           "pairs": [
             { "left": "aslan", "right": "лев" },
             { "left": "fil", "right": "слон" },
@@ -340,7 +340,7 @@
           "prompt_ru": "Соберите предложение: «Эта лошадь большая и красивая»",
           "source_text": "Эта лошадь большая и красивая.",
           "bank": ["güzel", "bu", "at", "büyük", "ve"],
-          "accepted": ["Bu at büyük ve güzel."],
+          "accepted": ["Bu at büyük ve güzel"],
           "explain_ru": "Bu at büyük ve güzel.",
           "audio": null
         },

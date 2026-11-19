@@ -158,7 +158,7 @@
           "id": "tr-1-9-sp-08",
           "type": "speak_repeat",
           "origin": "derived",
-          "prompt_ru": "Скажите: «Это ваш ключ или их телефон?»:",
+          "prompt_ru": "Скажите: «Это ваш ключ, а то их телефон»",
           "target_text": "Bu sizin anahtarınız, şu onların telefonu.",
           "translation_ru": "Это ваш ключ, а то их телефон.",
           "explain_ru": "Sizin anahtarınız — ваш ключ, onların telefonu — их телефон.",
@@ -277,7 +277,7 @@
           "prompt_ru": "Кубики: соберите предложение «Это наша комната»",
           "source_text": "Это наша комната.",
           "bank": ["odamız", "bizim", "bu"],
-          "accepted": ["Bu bizim odamız."],
+          "accepted": ["Bu bizim odamız"],
           "explain_ru": "Bu bizim odamız — Это наша комната.",
           "audio": null
         },
@@ -287,7 +287,7 @@
           "origin": "source",
           "prompt_ru": "Исправь баг: добавьте пропущенный притяжательный аффикс к слову «arkadaş» («Это мой друг»):",
           "buggy_text": "Bu benim arkadaş",
-          "accepted": ["Bu benim arkadaşım.", "Bu benim arkadaşım"],
+          "accepted": ["Bu benim arkadaşım."],
           "explain_ru": "С местоимением benim существительное обязательно получает аффикс -ım/-im/-um/-üm: benim arkadaşım.",
           "audio": null
         },
@@ -309,7 +309,7 @@
           "id": "tr-1-9-wr-04",
           "type": "match_pairs",
           "origin": "derived",
-          "prompt_ru": "Соедините притяжательные местоимения множественного числа и предметы:",
+          "prompt_ru": "Соедините местоимения и слово с переводом",
           "pairs": [
             { "left": "bizim", "right": "наш" },
             { "left": "sizin", "right": "ваш" },
@@ -350,7 +350,7 @@
           "prompt_ru": "Соберите вопрос: «Чьи это часы?»",
           "source_text": "Чьи это часы?",
           "bank": ["saati", "bu", "kimin"],
-          "accepted": ["Bu kimin saati?"],
+          "accepted": ["Bu kimin saati"],
           "explain_ru": "Bu kimin saati? — Чьи это часы?",
           "audio": null
         },
