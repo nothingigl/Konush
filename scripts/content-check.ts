@@ -223,8 +223,8 @@ function main(): void {
         }
       }
 
-      // Enforce exercise session rules on claude_ok units (or when --strict-exercises is passed)
-      if (unit.review === 'claude_ok' || strictExercises) {
+      // Enforce exercise session rules on claude_ok units, units with exercises populated, or when --strict-exercises is passed
+      if (unit.review === 'claude_ok' || allExercises.length > 0 || strictExercises) {
         if (unit.boss) {
           if (allExercises.length !== 15) {
             errors.push(

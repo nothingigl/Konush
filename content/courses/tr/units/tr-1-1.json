@@ -83,16 +83,405 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-1-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Эмодзи-блиц (1/2): назовите напитки и продукты вслух: 💧 🍵 ☕ 🥛 🍞",
+          "target_text": "su, çay, kahve, süt, ekmek",
+          "translation_ru": "вода, чай, кофе, молоко, хлеб",
+          "explain_ru": "Следите за произношением букв ç («ч» в çay) и ü (мягкое «ю» в süt).",
+          "audio": "tr/1-1/sp-01.mp3"
+        },
+        {
+          "id": "tr-1-1-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Эмодзи-блиц (2/2): назовите продукты вслух: 🧀 🥚 🍎 🍊 🍲",
+          "target_text": "peynir, yumurta, elma, portakal, çorba",
+          "translation_ru": "сыр, яйцо, яблоко, апельсин, суп",
+          "explain_ru": "В турецком языке ударение обычно падает на последний слог.",
+          "audio": "tr/1-1/sp-02.mp3"
+        },
+        {
+          "id": "tr-1-1-sp-03",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Скажите по образцу «Ben ___ istiyorum» («Я хочу ___») с кофе:",
+          "target_text": "Ben kahve istiyorum.",
+          "translation_ru": "Я хочу кофе.",
+          "explain_ru": "Глагол «хочу» (istiyorum) в турецком всегда стоит в самом конце предложения.",
+          "audio": "tr/1-1/sp-03.mp3"
+        },
+        {
+          "id": "tr-1-1-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух заказ с чаем и сахаром:",
+          "target_text": "Ben çay ve şeker istiyorum.",
+          "translation_ru": "Я хочу чай и сахар.",
+          "explain_ru": "Союз ve означает «и», буква ş читается как «ш».",
+          "audio": "tr/1-1/sp-04.mp3"
+        },
+        {
+          "id": "tr-1-1-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух просьбу о супе и соли:",
+          "target_text": "Ben çorba ve tuz istiyorum.",
+          "translation_ru": "Я хочу суп и соль.",
+          "explain_ru": "Tuz — соль, çorba — суп.",
+          "audio": "tr/1-1/sp-05.mp3"
+        },
+        {
+          "id": "tr-1-1-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух фразу про хлеб, сыр и яйцо:",
+          "target_text": "Ben ekmek, peynir ve yumurta istiyorum.",
+          "translation_ru": "Я хочу хлеб, сыр и яйцо.",
+          "explain_ru": "Классический набор для турецкого завтрака: ekmek, peynir, yumurta.",
+          "audio": "tr/1-1/sp-06.mp3"
+        },
+        {
+          "id": "tr-1-1-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух фразу про фрукты:",
+          "target_text": "Ben elma ve portakal istiyorum.",
+          "translation_ru": "Я хочу яблоко и апельсин.",
+          "explain_ru": "Elma — яблоко, portakal — апельсин.",
+          "audio": "tr/1-1/sp-07.mp3"
+        },
+        {
+          "id": "tr-1-1-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух фразу про воду и молоко:",
+          "target_text": "Ben su ve süt istiyorum.",
+          "translation_ru": "Я хочу воду и молоко.",
+          "explain_ru": "Su — вода (с твёрдым «у»), süt — молоко (с мягким «ю»).",
+          "audio": "tr/1-1/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-1-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Заказ вслепую. Прослушайте скрипт и выберите, что заказали:",
+          "transcript": "Çay, şeker ve süt lütfen.",
+          "options": [
+            "чай, сахар, молоко",
+            "кофе, соль, воду",
+            "суп, хлеб, сыр",
+            "яблоко, апельсин, яйцо"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Çay (чай), şeker (сахар) ve (и) süt (молоко) lütfen (пожалуйста).",
+          "audio": "tr/1-1/ls-01.mp3"
+        },
+        {
+          "id": "tr-1-1-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-турецки название напитка:",
+          "transcript": "kahve",
+          "accepted": ["kahve"],
+          "explain_ru": "Kahve — кофе.",
+          "audio": "tr/1-1/w03.mp3"
+        },
+        {
+          "id": "tr-1-1-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что хочет говорящий?",
+          "transcript": "Ben ekmek, peynir ve yumurta istiyorum.",
+          "options": [
+            "хлеб, сыр и яйцо",
+            "чай, кофе и молоко",
+            "суп, соль и воду",
+            "яблоко и апельсин"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Ekmek — хлеб, peynir — сыр, yumurta — яйцо.",
+          "audio": "tr/1-1/sp-06.mp3"
+        },
+        {
+          "id": "tr-1-1-ls-04",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-турецки услышанное слово:",
+          "transcript": "çorba",
+          "accepted": ["çorba"],
+          "explain_ru": "Çorba — суп (пишется через букву ç с хвостиком).",
+          "audio": "tr/1-1/w10.mp3"
+        },
+        {
+          "id": "tr-1-1-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какие фрукты прозвучали?",
+          "transcript": "Ben elma ve portakal istiyorum.",
+          "options": [
+            "яблоко и апельсин",
+            "сыр и яйцо",
+            "хлеб и молоко",
+            "соль и сахар"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Elma — яблоко, portakal — апельсин.",
+          "audio": "tr/1-1/sp-07.mp3"
+        },
+        {
+          "id": "tr-1-1-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «сахар»:",
+          "transcript": "şeker",
+          "accepted": ["şeker"],
+          "explain_ru": "Şeker — сахар (первая буква ş читается как «ш»).",
+          "audio": "tr/1-1/w12.mp3"
+        },
+        {
+          "id": "tr-1-1-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что попросил гость?",
+          "transcript": "Ben çorba ve tuz istiyorum.",
+          "options": [
+            "суп и соль",
+            "кофе и сахар",
+            "воду и молоко",
+            "хлеб и сыр"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Çorba — суп, tuz — соль.",
+          "audio": "tr/1-1/sp-05.mp3"
+        },
+        {
+          "id": "tr-1-1-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки услышанную фразу:",
+          "transcript": "Ben kahve istiyorum.",
+          "accepted": ["Ben kahve istiyorum."],
+          "explain_ru": "Ben kahve istiyorum — Я хочу кофе.",
+          "audio": "tr/1-1/sp-03.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-1-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Я хочу (один) апельсин»",
+          "source_text": "Я хочу апельсин",
+          "bank": ["istiyorum", "portakal", "ben", "bir"],
+          "accepted": ["Ben bir portakal istiyorum."],
+          "explain_ru": "Порядок слов в турецком: подлежащее (Ben) + дополнение (bir portakal) + сказуемое в конце (istiyorum).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-1-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите и исправьте ошибку в окончании глагола",
+          "buggy_text": "Ben su istiyorsun",
+          "accepted": ["Ben su istiyorum.", "Ben su istiyorum"],
+          "explain_ru": "С местоимением Ben («я») глагол оканчивается на -um (istiyorum), а -sun используется для Sen («ты»).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-1-wr-03",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините турецкие слова с их переводом:",
+          "pairs": [
+            { "left": "su", "right": "вода" },
+            { "left": "çay", "right": "чай" },
+            { "left": "kahve", "right": "кофе" },
+            { "left": "süt", "right": "молоко" }
+          ],
+          "explain_ru": "Четыре базовых напитка: su (вода), çay (чай), kahve (кофе), süt (молоко).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-1-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините продукты с переводом:",
+          "pairs": [
+            { "left": "ekmek", "right": "хлеб" },
+            { "left": "peynir", "right": "сыр" },
+            { "left": "yumurta", "right": "яйцо" },
+            { "left": "çorba", "right": "суп" }
+          ],
+          "explain_ru": "Ekmek — хлеб, peynir — сыр, yumurta — яйцо, çorba — суп.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-1-wr-05",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите на турецкий: «соль и сахар»",
+          "source_text": "соль и сахар",
+          "accepted": ["tuz ve şeker"],
+          "explain_ru": "Tuz — соль, ve — и, şeker — сахар.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-1-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Мы хотим хлеб и сыр»",
+          "source_text": "Мы хотим хлеб и сыр.",
+          "bank": ["istiyoruz", "peynir", "biz", "ekmek", "ve"],
+          "accepted": ["Biz ekmek ve peynir istiyoruz.", "Biz peynir ve ekmek istiyoruz."],
+          "explain_ru": "С местоимением Biz («мы») глагол принимает форму istiyoruz.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-1-wr-07",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите на турецкий: «Я хочу яблоко»",
+          "source_text": "Я хочу яблоко.",
+          "accepted": ["Ben elma istiyorum.", "Ben bir elma istiyorum."],
+          "explain_ru": "Elma — яблоко, istiyorum — я хочу.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-1-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не напиток):",
+          "items": ["su", "çay", "kahve", "yumurta"],
+          "odd_index": 3,
+          "explain_ru": "Yumurta — яйцо (еда), а su, çay и kahve — напитки.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-1-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Кто что хочет. Прочитайте текст и ответьте на вопросы:",
+          "passage": "Ben elma istiyorum. Sen portakal istiyorsun. O çorba istiyor. Biz ekmek ve peynir istiyoruz.",
+          "questions": [
+            {
+              "question_ru": "Кто хочет суп (çorba)?",
+              "options": ["он/она (O)", "я (Ben)", "ты (Sen)", "мы (Biz)"],
+              "correct_index": 0,
+              "accepted": ["он/она", "он", "она", "o"]
+            },
+            {
+              "question_ru": "Что хотим мы (Biz)?",
+              "options": ["хлеб и сыр", "яблоко и апельсин", "чай и сахар", "воду и соль"],
+              "correct_index": 0,
+              "accepted": ["хлеб и сыр", "ekmek ve peynir"]
+            }
+          ],
+          "explain_ru": "O çorba istiyor — Он/она хочет суп. Biz ekmek ve peynir istiyoruz — Мы хотим хлеб и сыр.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-1-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «yumurta»?",
+          "question_text": "yumurta",
+          "options": ["яйцо", "молоко", "апельсин", "сахар"],
+          "correct_index": 0,
+          "explain_ru": "Yumurta — яйцо.",
+          "audio": "tr/1-1/w07.mp3"
+        },
+        {
+          "id": "tr-1-1-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «tuz»:",
+          "question_text": "tuz",
+          "options": ["соль", "суп", "сыр", "чай"],
+          "correct_index": 0,
+          "explain_ru": "Tuz — соль.",
+          "audio": "tr/1-1/w11.mp3"
+        },
+        {
+          "id": "tr-1-1-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте заказ на завтрак и ответьте на вопрос:",
+          "passage": "Ben kahve ve süt istiyorum. Sen çay ve şeker istiyorsun. O yumurta, ekmek ve peynir istiyor.",
+          "questions": [
+            {
+              "question_ru": "Что добавляют к кофе в первом предложении?",
+              "options": ["молоко (süt)", "соль (tuz)", "лимон", "воду (su)"],
+              "correct_index": 0,
+              "accepted": ["молоко", "süt"]
+            }
+          ],
+          "explain_ru": "Ben kahve ve süt istiyorum — Я хочу кофе и молоко.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-1-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает предложение «Sen portakal istiyorsun»?",
+          "question_text": "Sen portakal istiyorsun.",
+          "options": [
+            "Ты хочешь апельсин.",
+            "Я хочу яблоко.",
+            "Он хочет суп.",
+            "Мы хотим хлеб."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Sen — ты, portakal — апельсин, istiyorsun — хочешь.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-1-rd-06",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Проверьте знание карточки слова:",
+          "target_text": "çorba",
+          "translation_ru": "суп",
+          "example_text": "O çorba ve tuz istiyor.",
+          "example_ru": "Он/она хочет суп и соль.",
+          "explain_ru": "Çorba — суп.",
+          "audio": "tr/1-1/w10.mp3"
+        },
+        {
+          "id": "tr-1-1-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое слово переводится как «яблоко»?",
+          "question_text": "яблоко",
+          "options": ["elma", "ekmek", "peynir", "kahve"],
+          "correct_index": 0,
+          "explain_ru": "Elma — яблоко.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-1-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте слова в порядке, в котором они идут во фразе «Я хочу воду, чай и молоко»:",
+          "items_shuffled": ["süt", "su", "çay"],
+          "correct_order": ["su", "çay", "süt"],
+          "explain_ru": "Su (вода) → çay (чай) → süt (молоко).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"
