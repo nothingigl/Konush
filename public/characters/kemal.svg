@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Кемаль">
+  <circle cx="60" cy="60" r="58" fill="#e0f2fe" stroke="#0284c7" stroke-width="4"/>
+  <circle cx="60" cy="58" r="23" fill="#fed7aa"/>
+  <path d="M37 50c2-14 12-22 23-22s21 8 23 22c-7-5-15-7-23-7s-16 2-23 7z" fill="#334155"/>
+  <rect x="44" y="52" width="13" height="9" rx="3" fill="none" stroke="#0f172a" stroke-width="2.5"/>
+  <rect x="63" y="52" width="13" height="9" rx="3" fill="none" stroke="#0f172a" stroke-width="2.5"/>
+  <line x1="57" y1="56" x2="63" y2="56" stroke="#0f172a" stroke-width="2.5"/>
+  <path d="M53 68q7 5 14 0" fill="none" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M34 104c5-14 15-20 26-20s21 6 26 20" fill="#0284c7"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Элиф">
+  <circle cx="60" cy="60" r="58" fill="#ffe4e6" stroke="#e11d48" stroke-width="4"/>
+  <path d="M28 58c0-20 14-34 32-34s32 14 32 34v22H28V58z" fill="#1e293b"/>
+  <circle cx="60" cy="60" r="23" fill="#fde68a"/>
+  <circle cx="52" cy="57" r="3" fill="#0f172a"/>
+  <circle cx="68" cy="57" r="3" fill="#0f172a"/>
+  <path d="M52 68q8 7 16 0" fill="none" stroke="#e11d48" stroke-width="3" stroke-linecap="round"/>
+  <path d="M35 104c5-14 15-20 25-20s20 6 25 20" fill="#e11d48"/>
+</svg>

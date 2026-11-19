@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Зейнеп">
+  <circle cx="60" cy="60" r="58" fill="#ede9fe" stroke="#7c3aed" stroke-width="4"/>
+  <path d="M26 60c0-21 15-36 34-36s34 15 34 36v24H26V60z" fill="#4c1d95"/>
+  <circle cx="60" cy="59" r="22" fill="#fde68a"/>
+  <circle cx="52" cy="56" r="3" fill="#0f172a"/>
+  <circle cx="68" cy="56" r="3" fill="#0f172a"/>
+  <path d="M51 67q9 8 18 0" fill="none" stroke="#7c3aed" stroke-width="3" stroke-linecap="round"/>
+  <path d="M35 104c5-14 15-20 25-20s20 6 25 20" fill="#7c3aed"/>
+</svg>

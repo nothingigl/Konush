@@ -1,4 +1,4 @@
-import type { CourseId } from '../content/schema';
+﻿import type { CourseId } from '../content/schema';
 import {
   getDefaultLocalProfile,
   getLocalDb,
@@ -78,7 +78,17 @@ export async function ensureLocalProfile(
  */
 export async function updateLocalProfilePreferences(
   patch: Partial<
-    Pick<LocalProfileRecord, 'displayName' | 'preferredCourse' | 'dailyGoalXp' | 'avatarKey'>
+    Pick<
+      LocalProfileRecord,
+      | 'displayName'
+      | 'preferredCourse'
+      | 'dailyGoalXp'
+      | 'avatarKey'
+      | 'theme'
+      | 'speechRate'
+      | 'fontScale'
+      | 'onboardingDone'
+    >
   >,
   db: TurkceDuoDatabase = getLocalDb(),
 ): Promise<LocalProfileRecord> {
@@ -102,7 +112,7 @@ export async function updateLocalProfilePreferences(
 }
 
 /**
- * Marks a unit's vocabulary list as reviewed ("Прочитайте список вслух два раза") in Dexie.
+ * Marks a unit's vocabulary list as reviewed ("РџСЂРѕС‡РёС‚Р°Р№С‚Рµ СЃРїРёСЃРѕРє РІСЃР»СѓС… РґРІР° СЂР°Р·Р°") in Dexie.
  */
 export async function recordWordsCompleted(
   unitId: string,
@@ -298,7 +308,9 @@ export async function reportExerciseIssue(
 ): Promise<void> {
   const trimmed = params.message.trim();
   if (trimmed.length < 3) {
-    throw new Error('Сообщение должно содержать не менее 3 символов');
+    throw new Error(
+      'РЎРѕРѕР±С‰РµРЅРёРµ РґРѕР»Р¶РЅРѕ СЃРѕРґРµСЂР¶Р°С‚СЊ РЅРµ РјРµРЅРµРµ 3 СЃРёРјРІРѕР»РѕРІ',
+    );
   }
   await enqueueSyncChange(db, 'content_feedback', `${params.exerciseId}-${Date.now()}`, {
     course_id: params.courseId,
@@ -381,7 +393,9 @@ export async function synchronizeWithCloud(
         userId,
         email: user.email ?? null,
         displayName:
-          (remoteProfileRow.display_name as string | null) ?? user.email?.split('@')[0] ?? 'Ученик',
+          (remoteProfileRow.display_name as string | null) ??
+          user.email?.split('@')[0] ??
+          'РЈС‡РµРЅРёРє',
         avatarKey: (remoteProfileRow.avatar_key as string | null) ?? 'elif',
         uiLang: 'ru',
         preferredCourse: (remoteProfileRow.preferred_course as CourseId | null) ?? 'tr',
@@ -398,9 +412,9 @@ export async function synchronizeWithCloud(
         userId,
         email: user.email ?? null,
         displayName:
-          localProfile.displayName !== 'Гость'
+          localProfile.displayName !== 'Р“РѕСЃС‚СЊ'
             ? localProfile.displayName
-            : (user.email?.split('@')[0] ?? 'Ученик'),
+            : (user.email?.split('@')[0] ?? 'РЈС‡РµРЅРёРє'),
         updatedAt: new Date().toISOString(),
       };
     }
@@ -605,7 +619,9 @@ export async function deleteAccountAndLocalData(
     if (session?.user) {
       const { error } = await supabase.rpc('delete_my_account');
       if (error) {
-        throw new Error(`Ошибка удаления аккаунта в облаке: ${error.message}`);
+        throw new Error(
+          `РћС€РёР±РєР° СѓРґР°Р»РµРЅРёСЏ Р°РєРєР°СѓРЅС‚Р° РІ РѕР±Р»Р°РєРµ: ${error.message}`,
+        );
       }
       await supabase.auth.signOut();
     }

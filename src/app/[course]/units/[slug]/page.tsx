@@ -34,10 +34,10 @@ export async function generateMetadata({
     .join(', ');
 
   return {
-    title: `${unit.title_ru} — ${langLabel} | Türkçe Duo`,
+    title: `${unit.title_ru} — ${langLabel} | Konuş!`,
     description: unit.boss
-      ? `Босс-вызов секции ${unit.section} (${langLabel}): практика говорения, слушания, письма и чтения.`
-      : `Урок «${unit.title_ru}» (${langLabel}): ${unit.words.length} слов (${wordsPreview}) и 4 мини-игры по навыкам.`,
+      ? `Босс-вызов секции ${unit.section} (${langLabel}): практика говорения, слушания, письма и чтения в Konuş!.`
+      : `Урок «${unit.title_ru}» (${langLabel}): ${unit.words.length} слов (${wordsPreview}) и 4 мини-игры по навыкам в Konuş!.`,
   };
 }
 

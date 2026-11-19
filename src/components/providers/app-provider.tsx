@@ -7,11 +7,14 @@ import {
   getDefaultLocalProfile,
   getLocalDb,
   type DailyGoalXp,
+  type FontScalePreference,
   type LocalDailyActivityRecord,
   type LocalProfileRecord,
   type LocalReviewStateRecord,
   type LocalUnitProgressRecord,
   type SkillKey,
+  type SpeechRatePreference,
+  type ThemePreference,
 } from '@/lib/db/dexie';
 import { getSupabaseBrowserClient, isSupabaseConfigured } from '@/lib/supabase/client';
 import {
@@ -42,6 +45,16 @@ export interface AppContextValue {
   setPreferredCourse: (course: CourseId) => Promise<void>;
   setDailyGoalXp: (goal: DailyGoalXp) => Promise<void>;
   setDisplayName: (name: string) => Promise<void>;
+  setAvatarKey: (avatarKey: string) => Promise<void>;
+  setTheme: (theme: ThemePreference) => Promise<void>;
+  setSpeechRate: (rate: SpeechRatePreference) => Promise<void>;
+  setFontScale: (scale: FontScalePreference) => Promise<void>;
+  completeOnboarding: (params: {
+    course: CourseId;
+    dailyGoalXp: DailyGoalXp;
+    displayName?: string;
+    avatarKey?: string;
+  }) => Promise<void>;
   markWordsDone: (unitId: string, courseId: CourseId) => Promise<void>;
   completeSkillSession: (params: {
     unitId: string;
@@ -88,6 +101,39 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   });
 
   const supabaseEnabled = isSupabaseConfigured();
+
+  // Apply theme (light/dark/system) and font-scale to document.documentElement
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const root = document.documentElement;
+    const theme = profile.theme ?? 'system';
+    const fontScale = profile.fontScale ?? 'normal';
+
+    root.setAttribute('data-font-scale', fontScale);
+
+    const applyDark = (isDark: boolean) => {
+      if (isDark) {
+        root.classList.add('dark');
+      } else {
+        root.classList.remove('dark');
+      }
+    };
+
+    if (theme === 'dark') {
+      applyDark(true);
+      return;
+    }
+    if (theme === 'light') {
+      applyDark(false);
+      return;
+    }
+
+    const media = window.matchMedia('(prefers-color-scheme: dark)');
+    applyDark(media.matches);
+    const listener = (e: MediaQueryListEvent) => applyDark(e.matches);
+    media.addEventListener('change', listener);
+    return () => media.removeEventListener('change', listener);
+  }, [profile.theme, profile.fontScale]);
 
   const reloadFromDexie = useCallback(async () => {
     const db = getLocalDb();
@@ -224,6 +270,59 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     [reloadFromDexie, triggerSync],
   );
 
+  const setAvatarKey = useCallback(
+    async (avatarKey: string) => {
+      await updateLocalProfilePreferences({ avatarKey });
+      await reloadFromDexie();
+      void triggerSync();
+    },
+    [reloadFromDexie, triggerSync],
+  );
+
+  const setTheme = useCallback(
+    async (theme: ThemePreference) => {
+      await updateLocalProfilePreferences({ theme });
+      await reloadFromDexie();
+    },
+    [reloadFromDexie],
+  );
+
+  const setSpeechRate = useCallback(
+    async (speechRate: SpeechRatePreference) => {
+      await updateLocalProfilePreferences({ speechRate });
+      await reloadFromDexie();
+    },
+    [reloadFromDexie],
+  );
+
+  const setFontScale = useCallback(
+    async (fontScale: FontScalePreference) => {
+      await updateLocalProfilePreferences({ fontScale });
+      await reloadFromDexie();
+    },
+    [reloadFromDexie],
+  );
+
+  const completeOnboarding = useCallback(
+    async (params: {
+      course: CourseId;
+      dailyGoalXp: DailyGoalXp;
+      displayName?: string;
+      avatarKey?: string;
+    }) => {
+      await updateLocalProfilePreferences({
+        preferredCourse: params.course,
+        dailyGoalXp: params.dailyGoalXp,
+        ...(params.displayName ? { displayName: params.displayName.trim().slice(0, 80) } : {}),
+        ...(params.avatarKey ? { avatarKey: params.avatarKey } : {}),
+        onboardingDone: true,
+      });
+      await reloadFromDexie();
+      void triggerSync();
+    },
+    [reloadFromDexie, triggerSync],
+  );
+
   const markWordsDone = useCallback(
     async (unitId: string, courseId: CourseId) => {
       await recordWordsCompleted(unitId, courseId);
@@ -322,6 +421,11 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
         setPreferredCourse,
         setDailyGoalXp,
         setDisplayName,
+        setAvatarKey,
+        setTheme,
+        setSpeechRate,
+        setFontScale,
+        completeOnboarding,
         markWordsDone,
         completeSkillSession,
         submitFeedback,

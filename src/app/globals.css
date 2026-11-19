@@ -1,1 +1,51 @@
 @import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg-primary: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-elevated: #f1f5f9;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --border-default: #e2e8f0;
+  --accent-primary: #0284c7;
+}
+
+.dark {
+  --bg-primary: #020617;
+  --bg-surface: #0f172a;
+  --bg-elevated: #1e293b;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --border-default: #1e293b;
+  --accent-primary: #38bdf8;
+}
+
+html[data-font-scale='normal'] {
+  font-size: 100%;
+}
+
+html[data-font-scale='large'] {
+  font-size: 112.5%;
+}
+
+html[data-font-scale='xlarge'] {
+  font-size: 125%;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
