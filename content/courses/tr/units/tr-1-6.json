@@ -83,16 +83,407 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-6-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Зоопарк-озвучка (1/2): назовите животных по эмодзи: 🐱 🐶 🐦 🐴 🐮 🐑",
+          "target_text": "kedi, köpek, kuş, at, inek, koyun",
+          "translation_ru": "кошка, собака, птица, лошадь, корова, овца",
+          "explain_ru": "Следите за мягким гласным ö в слове köpek (собака).",
+          "audio": "tr/1-6/sp-01.mp3"
+        },
+        {
+          "id": "tr-1-6-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Зоопарк-озвучка (2/2): назовите животных по эмодзи: 🐰 🦁 🐘 🐒 🦆 🐯",
+          "target_text": "tavşan, aslan, fil, maymun, ördek, kaplan",
+          "translation_ru": "кролик, лев, слон, обезьяна, утка, тигр",
+          "explain_ru": "В слове ördek первая буква ö, в tavşan буква ş читается как «ш».",
+          "audio": "tr/1-6/sp-02.mp3"
+        },
+        {
+          "id": "tr-1-6-sp-03",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Скажите о трёх животных по образцу «Bu bir ___» («Это ___»):",
+          "target_text": "Bu bir kedi. Bu bir köpek. Bu bir kuş.",
+          "translation_ru": "Это кошка. Это собака. Это птица.",
+          "explain_ru": "Слово bir перед существительным играет роль неопределённого артикля.",
+          "audio": "tr/1-6/sp-03.mp3"
+        },
+        {
+          "id": "tr-1-6-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите большого слона и маленького кролика:",
+          "target_text": "Fil büyük ama tavşan küçük.",
+          "translation_ru": "Слон большой, но кролик маленький.",
+          "explain_ru": "Fil — слон, tavşan — кролик.",
+          "audio": "tr/1-6/sp-04.mp3"
+        },
+        {
+          "id": "tr-1-6-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про льва, тигра и обезьяну:",
+          "target_text": "Bu bir aslan, bu bir kaplan ve şu bir maymun.",
+          "translation_ru": "Это лев, это тигр, а то обезьяна.",
+          "explain_ru": "Aslan — лев, kaplan — тигр, maymun — обезьяна.",
+          "audio": "tr/1-6/sp-05.mp3"
+        },
+        {
+          "id": "tr-1-6-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про животных на ферме:",
+          "target_text": "At, inek, koyun ve ördek.",
+          "translation_ru": "Лошадь, корова, овца и утка.",
+          "explain_ru": "At — лошадь, inek — корова, koyun — овца, ördek — утка.",
+          "audio": "tr/1-6/sp-06.mp3"
+        },
+        {
+          "id": "tr-1-6-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы любите кошек и собак:",
+          "target_text": "Ben kedileri ve köpekleri seviyorum.",
+          "translation_ru": "Я люблю кошек и собак.",
+          "explain_ru": "Kedi → kediler → kedileri, köpek → köpekler → köpekleri: множественное число, затем винительный падеж. Про общий класс («кошек вообще») по-турецки обычно используют винительный.",
+          "audio": "tr/1-6/sp-07.mp3"
+        },
+        {
+          "id": "tr-1-6-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что птица маленькая и лёгкая, а слон тяжёлый:",
+          "target_text": "Kuş küçük ve hafif, ama fil ağır.",
+          "translation_ru": "Птица маленькая и лёгкая, но слон тяжёлый.",
+          "explain_ru": "Kuş — птица, hafif — лёгкий, ağır — тяжёлый (из юнита 1.3).",
+          "audio": "tr/1-6/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-6-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Кто это? Прослушайте скрипт: какое животное названо последним?",
+          "transcript": "Bu bir kedi. Bu bir köpek. Bu bir kuş.",
+          "options": [
+            "птица (kuş)",
+            "кошка (kedi)",
+            "собака (köpek)",
+            "лошадь (at)"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Последнее предложение: «Bu bir kuş» — Это птица.",
+          "audio": "tr/1-6/sp-03.mp3"
+        },
+        {
+          "id": "tr-1-6-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «кролик»:",
+          "transcript": "tavşan",
+          "accepted": ["tavşan"],
+          "explain_ru": "Tavşan — кролик.",
+          "audio": "tr/1-6/w07.mp3"
+        },
+        {
+          "id": "tr-1-6-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «утка»:",
+          "transcript": "ördek",
+          "accepted": ["ördek"],
+          "explain_ru": "Ördek — утка.",
+          "audio": "tr/1-6/w11.mp3"
+        },
+        {
+          "id": "tr-1-6-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О каких двух животных говорится во фразе?",
+          "transcript": "Fil büyük ama tavşan küçük.",
+          "options": [
+            "о слоне и кролике",
+            "о льве и тигре",
+            "о корове и овце",
+            "о кошке и собаке"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Fil — слон, tavşan — кролик.",
+          "audio": "tr/1-6/sp-04.mp3"
+        },
+        {
+          "id": "tr-1-6-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «обезьяна»:",
+          "transcript": "maymun",
+          "accepted": ["maymun"],
+          "explain_ru": "Maymun — обезьяна.",
+          "audio": "tr/1-6/w10.mp3"
+        },
+        {
+          "id": "tr-1-6-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «тигр»:",
+          "transcript": "kaplan",
+          "accepted": ["kaplan"],
+          "explain_ru": "Kaplan — тигр.",
+          "audio": "tr/1-6/w12.mp3"
+        },
+        {
+          "id": "tr-1-6-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какие четыре животных прозвучали?",
+          "transcript": "At, inek, koyun ve ördek.",
+          "options": [
+            "лошадь, корова, овца и утка",
+            "лев, тигр, слон и обезьяна",
+            "кошка, собака, птица и кролик",
+            "рыба, курица, корова и лошадь"
+          ],
+          "correct_index": 0,
+          "explain_ru": "At — лошадь, inek — корова, koyun — овца, ördek — утка.",
+          "audio": "tr/1-6/sp-06.mp3"
+        },
+        {
+          "id": "tr-1-6-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «лев»:",
+          "transcript": "aslan",
+          "accepted": ["aslan"],
+          "explain_ru": "Aslan — лев.",
+          "audio": "tr/1-6/w08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-6-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Это не собака, а кошка»",
+          "source_text": "Это не собака, а кошка.",
+          "bank": ["köpek", "bu", "değil", "kedi"],
+          "accepted": ["Bu köpek değil kedi"],
+          "explain_ru": "Bu köpek değil, kedi — Это не собака, (а) кошка.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-6-wr-02",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Пары: соедините животных фермы с их переводом:",
+          "pairs": [
+            { "left": "at", "right": "лошадь" },
+            { "left": "inek", "right": "корова" },
+            { "left": "koyun", "right": "овца" },
+            { "left": "tavşan", "right": "кролик" }
+          ],
+          "explain_ru": "At — лошадь, inek — корова, koyun — овца, tavşan — кролик.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-6-wr-03",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините диких животных с переводом",
+          "pairs": [
+            { "left": "aslan", "right": "лев" },
+            { "left": "fil", "right": "слон" },
+            { "left": "maymun", "right": "обезьяна" },
+            { "left": "kaplan", "right": "тигр" }
+          ],
+          "explain_ru": "Aslan — лев, fil — слон, maymun — обезьяна, kaplan — тигр.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-6-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините домашних животных и птиц с переводом:",
+          "pairs": [
+            { "left": "kedi", "right": "кошка" },
+            { "left": "köpek", "right": "собака" },
+            { "left": "kuş", "right": "птица" },
+            { "left": "ördek", "right": "утка" }
+          ],
+          "explain_ru": "Kedi — кошка, köpek — собака, kuş — птица, ördek — утка.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-6-wr-05",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «Это слон»",
+          "source_text": "Это слон.",
+          "accepted": ["Bu bir fil.", "Bu fil."],
+          "explain_ru": "Bu bir fil — Это слон.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-6-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Эта лошадь большая и красивая»",
+          "source_text": "Эта лошадь большая и красивая.",
+          "bank": ["güzel", "bu", "at", "büyük", "ve"],
+          "accepted": ["Bu at büyük ve güzel"],
+          "explain_ru": "Bu at büyük ve güzel.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-6-wr-07",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите на турецкий: «корова и овца»",
+          "source_text": "корова и овца",
+          "accepted": ["inek ve koyun", "koyun ve inek"],
+          "explain_ru": "İnek — корова, koyun — овца.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-6-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не птица):",
+          "items": ["kuş", "ördek", "tavuk", "kaplan"],
+          "odd_index": 3,
+          "explain_ru": "Kaplan — тигр, а kuş (птица), ördek (утка) и tavuk (курица из юнита 1.4) — птицы.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-6-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Ферма. Прочитайте текст и ответьте на вопрос (çiftlikte — на ферме):",
+          "passage": "Çiftlikte inek, koyun ve at var. Ördek de var. Aslan ve fil yok.",
+          "questions": [
+            {
+              "question_ru": "Кого на ферме нет (yok)?",
+              "options": [
+                "льва и слона (aslan ve fil)",
+                "коровы и овцы",
+                "лошади и утки",
+                "кошки и собаки"
+              ],
+              "correct_index": 0,
+              "accepted": ["льва и слона", "aslan ve fil"]
+            }
+          ],
+          "explain_ru": "Aslan ve fil yok — Льва и слона нет.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-6-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «tavşan»?",
+          "question_text": "tavşan",
+          "options": ["кролик", "тигр", "утка", "овца"],
+          "correct_index": 0,
+          "explain_ru": "Tavşan — кролик.",
+          "audio": "tr/1-6/w07.mp3"
+        },
+        {
+          "id": "tr-1-6-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «maymun»:",
+          "question_text": "maymun",
+          "options": ["обезьяна", "лев", "слон", "птица"],
+          "correct_index": 0,
+          "explain_ru": "Maymun — обезьяна.",
+          "audio": "tr/1-6/w10.mp3"
+        },
+        {
+          "id": "tr-1-6-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте описание животных и ответьте на вопрос:",
+          "passage": "Bu kaplan büyük ve ağır. Şu maymun küçük ve hafif. Tavşan süt değil, su ve elma istiyor.",
+          "questions": [
+            {
+              "question_ru": "Какой тигр (kaplan) в этом тексте?",
+              "options": [
+                "большой и тяжёлый (büyük ve ağır)",
+                "маленький и лёгкий",
+                "старый",
+                "дешёвый"
+              ],
+              "correct_index": 0,
+              "accepted": ["большой и тяжёлый", "büyük ve ağır"]
+            }
+          ],
+          "explain_ru": "Bu kaplan büyük ve ağır — Этот тигр большой и тяжёлый.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-6-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слово «утка»:",
+          "target_text": "ördek",
+          "translation_ru": "утка",
+          "example_text": "Bu küçük bir ördek.",
+          "example_ru": "Это маленькая утка.",
+          "explain_ru": "Ördek — утка.",
+          "audio": "tr/1-6/w11.mp3"
+        },
+        {
+          "id": "tr-1-6-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое животное даёт молоко (süt)?",
+          "question_text": "süt → ?",
+          "options": ["inek (корова)", "kuş (птица)", "ördek (утка)", "balık (рыба)"],
+          "correct_index": 0,
+          "explain_ru": "İnek — корова.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-6-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает предложение «Ben atı ve köpeği görüyorum»?",
+          "question_text": "Ben atı ve köpeği görüyorum.",
+          "options": [
+            "Я вижу лошадь и собаку.",
+            "Я беру кошку и птицу.",
+            "Лев видит тигра.",
+            "Это большая корова."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Atı (лошадь в вин. падеже) ve köpeği (и собаку в вин. падеже) görüyorum (я вижу).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-6-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте животных от самого маленького к самому большому («птица → собака → слон»):",
+          "items_shuffled": ["fil", "kuş", "köpek"],
+          "correct_order": ["kuş", "köpek", "fil"],
+          "explain_ru": "Kuş (птица) → köpek (собака) → fil (слон).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

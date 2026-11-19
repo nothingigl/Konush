@@ -23,7 +23,7 @@
     {
       "id": "tr-1-8-w03",
       "text": "sıcak",
-      "ru": "горячий",
+      "ru": "горячий (о погоде: жаркий)",
       "audio": "tr/1-8/w03.mp3"
     },
     {
@@ -83,16 +83,414 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-8-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Спорщики (1/3): сыграйте двумя голосами пары антонимов:",
+          "target_text": "Sıcak! — Soğuk! Temiz! — Kirli!",
+          "translation_ru": "Горячий! — Холодный! Чистый! — Грязный!",
+          "explain_ru": "Sıcak — горячий (о погоде: жаркий), soğuk — холодный, temiz — чистый, kirli — грязный.",
+          "audio": "tr/1-8/sp-01.mp3"
+        },
+        {
+          "id": "tr-1-8-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Спорщики (2/3): сыграйте двумя голосами пары по сложности и дверям:",
+          "target_text": "Kolay! — Zor! Açık! — Kapalı!",
+          "translation_ru": "Простой! — Трудный! Открытый! — Закрытый!",
+          "explain_ru": "Kolay — лёгкий (простой по сложности, в отличие от hafif — лёгкий по весу).",
+          "audio": "tr/1-8/sp-02.mp3"
+        },
+        {
+          "id": "tr-1-8-sp-03",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Спорщики (3/3): сыграйте двумя голосами пары по наполненности и скорости:",
+          "target_text": "Boş! — Dolu! Hızlı! — Yavaş!",
+          "translation_ru": "Пустой! — Полный! Быстрый! — Медленный!",
+          "explain_ru": "Boş — пустой, dolu — полный, hızlı — быстрый, yavaş — медленный.",
+          "audio": "tr/1-8/sp-03.mp3"
+        },
+        {
+          "id": "tr-1-8-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про горячий чай и холодную воду:",
+          "target_text": "Çay sıcak, su soğuk.",
+          "translation_ru": "Чай горячий, вода холодная.",
+          "explain_ru": "Sıcak — горячий, soğuk — холодный.",
+          "audio": "tr/1-8/sp-04.mp3"
+        },
+        {
+          "id": "tr-1-8-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про открытую дверь и пустой стакан:",
+          "target_text": "Kapı açık, bardak boş.",
+          "translation_ru": "Дверь открыта, стакан пустой.",
+          "explain_ru": "Kapı — дверь (из юнита 1.5), bardak — стакан (из юнита 1.7).",
+          "audio": "tr/1-8/sp-05.mp3"
+        },
+        {
+          "id": "tr-1-8-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про чистую тарелку и полный стакан:",
+          "target_text": "Bu tabak temiz, şu bardak dolu.",
+          "translation_ru": "Эта тарелка чистая, тот стакан полный.",
+          "explain_ru": "Temiz — чистый, dolu — полный.",
+          "audio": "tr/1-8/sp-06.mp3"
+        },
+        {
+          "id": "tr-1-8-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про быструю и медленную машину:",
+          "target_text": "Yeni araba hızlı ama eski araba yavaş.",
+          "translation_ru": "Новая машина быстрая, но старая машина медленная.",
+          "explain_ru": "Hızlı — быстрый, yavaş — медленный.",
+          "audio": "tr/1-8/sp-07.mp3"
+        },
+        {
+          "id": "tr-1-8-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про закрытую дверь, грязную тарелку и простую книгу",
+          "target_text": "Kapı kapalı, tabak kirli, kitap zor değil, kolay.",
+          "translation_ru": "Дверь закрыта, тарелка грязная, книга не трудная, а простая.",
+          "explain_ru": "Kapalı — закрытый, kirli — грязный, zor — трудный, kolay — простой.",
+          "audio": "tr/1-8/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-8-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Что что? Прослушайте скрипт: что открыто и что пусто?",
+          "transcript": "Çay sıcak. Su soğuk. Kapı açık. Bardak boş.",
+          "options": [
+            "открыта дверь (kapı); пуст стакан (bardak)",
+            "открыт стакан; пуста дверь",
+            "открыта книга; пуста тарелка",
+            "всё закрыто и полно"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kapı açık — дверь открыта; Bardak boş — стакан пуст.",
+          "audio": "tr/1-8/ls-01.mp3"
+        },
+        {
+          "id": "tr-1-8-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «чистый»:",
+          "transcript": "temiz",
+          "accepted": ["temiz"],
+          "explain_ru": "Temiz — чистый.",
+          "audio": "tr/1-8/w01.mp3"
+        },
+        {
+          "id": "tr-1-8-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «горячий»:",
+          "transcript": "sıcak",
+          "accepted": ["sıcak"],
+          "explain_ru": "Sıcak — горячий.",
+          "audio": "tr/1-8/w03.mp3"
+        },
+        {
+          "id": "tr-1-8-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что сказано про машины?",
+          "transcript": "Yeni araba hızlı ama eski araba yavaş.",
+          "options": [
+            "Новая машина быстрая, но старая медленная",
+            "Обе машины очень быстрые",
+            "Старая машина чистая, а новая грязная",
+            "Машина открыта"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hızlı — быстрая, yavaş — медленная.",
+          "audio": "tr/1-8/sp-07.mp3"
+        },
+        {
+          "id": "tr-1-8-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «холодный»:",
+          "transcript": "soğuk",
+          "accepted": ["soğuk"],
+          "explain_ru": "Soğuk — холодный.",
+          "audio": "tr/1-8/w04.mp3"
+        },
+        {
+          "id": "tr-1-8-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «полный»:",
+          "transcript": "dolu",
+          "accepted": ["dolu"],
+          "explain_ru": "Dolu — полный.",
+          "audio": "tr/1-8/w10.mp3"
+        },
+        {
+          "id": "tr-1-8-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какие тарелка и стакан в аудиозаписи?",
+          "transcript": "Bu tabak temiz, şu bardak dolu.",
+          "options": [
+            "Эта тарелка чистая, тот стакан полный",
+            "Эта тарелка грязная, тот стакан пустой",
+            "Тарелка горячая, стакан холодный",
+            "Стакан закрыт"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Temiz — чистая, dolu — полный.",
+          "audio": "tr/1-8/sp-06.mp3"
+        },
+        {
+          "id": "tr-1-8-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «закрытый»:",
+          "transcript": "kapalı",
+          "accepted": ["kapalı"],
+          "explain_ru": "Kapalı — закрытый.",
+          "audio": "tr/1-8/w12.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-8-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допиши антоним (1/3): «Bu soru kolay, şu soru ___» («Этот вопрос простой, тот вопрос трудный»):",
+          "source_text": "Bu soru kolay, şu soru ___.",
+          "accepted": ["zor", "Bu soru kolay, şu soru zor."],
+          "explain_ru": "Антоним к слову kolay (простой) — zor (трудный).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-8-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допиши антоним (2/3): «Oda temiz, mutfak ___» («Комната чистая, кухня грязная»):",
+          "source_text": "Oda temiz, mutfak ___.",
+          "accepted": ["kirli", "Oda temiz, mutfak kirli."],
+          "explain_ru": "Антоним к слову temiz (чистый) — kirli (грязный).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-8-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допиши антоним (3/3): «Bardak dolu değil, ___» («Стакан не полный, а пустой»):",
+          "source_text": "Bardak dolu değil, ___.",
+          "accepted": ["boş", "Bardak dolu değil, boş."],
+          "explain_ru": "Антоним к слову dolu (полный) — boş (пустой).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-8-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините пары антонимов:",
+          "pairs": [
+            { "left": "sıcak (горячий)", "right": "soğuk (холодный)" },
+            { "left": "hızlı (быстрый)", "right": "yavaş (медленный)" },
+            { "left": "açık (открытый)", "right": "kapalı (закрытый)" },
+            { "left": "kolay (простой)", "right": "zor (трудный)" }
+          ],
+          "explain_ru": "Sıcak↔soğuk, hızlı↔yavaş, açık↔kapalı, kolay↔zor.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-8-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините турецкие слова с переводом:",
+          "pairs": [
+            { "left": "temiz", "right": "чистый" },
+            { "left": "kirli", "right": "грязный" },
+            { "left": "boş", "right": "пустой" },
+            { "left": "dolu", "right": "полный" }
+          ],
+          "explain_ru": "Temiz — чистый, kirli — грязный, boş — пустой, dolu — полный.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-8-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Горячий суп и холодная вода»",
+          "source_text": "Горячий суп и холодная вода.",
+          "bank": ["su", "sıcak", "çorba", "ve", "soğuk"],
+          "accepted": ["Sıcak çorba ve soğuk su"],
+          "explain_ru": "Прилагательное в турецком стоит перед существительным: sıcak çorba, soğuk su.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-8-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Дверь не открыта, а закрыта»",
+          "source_text": "Дверь не открыта, а закрыта.",
+          "bank": ["kapalı", "kapı", "açık", "değil"],
+          "accepted": ["Kapı açık değil kapalı"],
+          "explain_ru": "Kapı açık değil, kapalı.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-8-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не прилагательное):",
+          "items": ["hızlı", "yavaş", "kolay", "tabak"],
+          "odd_index": 3,
+          "explain_ru": "Tabak — тарелка (существительное из юнита 1.7), остальные три слова — прилагательные.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-8-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Мини-тест. Прочитайте диалог и ответьте на два вопроса:",
+          "passage": "— Bu test kolay mı?\n— Hayır, zor.\n— Kapı açık mı?\n— Hayır, kapalı.",
+          "questions": [
+            {
+              "question_ru": "Что трудное (zor)?",
+              "options": ["тест (test)", "дверь (kapı)", "стакан (bardak)", "чай (çay)"],
+              "correct_index": 0,
+              "accepted": ["тест", "test"]
+            },
+            {
+              "question_ru": "Что закрыто (kapalı)?",
+              "options": ["дверь (kapı)", "тест (test)", "книга (kitap)", "машина (araba)"],
+              "correct_index": 0,
+              "accepted": ["дверь", "kapı"]
+            }
+          ],
+          "explain_ru": "Вопросительная частица mı/mi делает предложение вопросом: Kolay mı? (Простой?), Açık mı? (Открыта?).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-8-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Чем отличаются слова «hafif» (из 1.3) и «kolay» (из 1.8)?",
+          "question_text": "hafif vs. kolay",
+          "options": [
+            "hafif — лёгкий по весу, kolay — лёгкий (простой) по сложности",
+            "оба слова означают «горячий»",
+            "hafif — закрытый, kolay — открытый",
+            "hafif — быстрый, kolay — медленный"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hafif (антоним ağır) — о весе предмета; kolay (антоним zor) — о простоте задачи.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-8-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод пары «hızlı — yavaş»:",
+          "question_text": "hızlı — yavaş",
+          "options": [
+            "быстрый — медленный",
+            "чистый — грязный",
+            "пустой — полный",
+            "горячий — холодный"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hızlı — быстрый, yavaş — медленный.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-8-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте описание стола в кафе и ответьте на вопрос:",
+          "passage": "Bu tabaklar temiz ve dolu. Çorba sıcak ve lezzetli. Ama şu bardak kirli ve boş.",
+          "questions": [
+            {
+              "question_ru": "Что в тексте грязное и пустое (kirli ve boş)?",
+              "options": [
+                "тот стакан (şu bardak)",
+                "эти тарелки (bu tabaklar)",
+                "горячий суп (çorba)",
+                "дверь"
+              ],
+              "correct_index": 0,
+              "accepted": ["стакан", "тот стакан", "şu bardak"]
+            }
+          ],
+          "explain_ru": "Ama şu bardak kirli ve boş — Но тот стакан грязный и пустой.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-8-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните пару «пустой — полный»:",
+          "target_text": "boş — dolu",
+          "translation_ru": "пустой — полный",
+          "example_text": "Bu bardak boş, şu bardak dolu.",
+          "example_ru": "Этот стакан пустой, тот стакан полный.",
+          "explain_ru": "Boş — пустой, dolu — полный.",
+          "audio": "tr/1-8/w09.mp3"
+        },
+        {
+          "id": "tr-1-8-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое слово является антонимом к «açık»?",
+          "question_text": "açık ↔ ?",
+          "options": ["kapalı", "kirli", "soğuk", "yavaş"],
+          "correct_index": 0,
+          "explain_ru": "Açık (открытый) ↔ kapalı (закрытый).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-8-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «Kahve sıcak ama süt soğuk»?",
+          "question_text": "Kahve sıcak ama süt soğuk.",
+          "options": [
+            "Кофе горячий, но молоко холодное.",
+            "Кофе холодный, но молоко горячее.",
+            "Кофе дорогой, а молоко дешёвое.",
+            "Стакан чистый и полный."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Sıcak — горячий, soğuk — холодный.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-8-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте прилагательные в порядке «чистый, горячий, полный»:",
+          "items_shuffled": ["dolu", "temiz", "sıcak"],
+          "correct_order": ["temiz", "sıcak", "dolu"],
+          "explain_ru": "Temiz (чистый) → sıcak (горячий) → dolu (полный).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

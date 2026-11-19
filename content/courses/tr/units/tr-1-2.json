@@ -83,16 +83,385 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-2-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Три интонации: скажите «Merhaba!» тепло, сонно и удивлённо:",
+          "target_text": "Merhaba!",
+          "translation_ru": "Привет! / Здравствуйте!",
+          "explain_ru": "Merhaba — универсальное приветствие в любое время суток.",
+          "audio": "tr/1-2/sp-01.mp3"
+        },
+        {
+          "id": "tr-1-2-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Разыграйте два голоса (благодарность и ответ):",
+          "target_text": "— Teşekkürler! — Rica ederim!",
+          "translation_ru": "— Спасибо! — Не за что!",
+          "explain_ru": "На Teşekkürler принято отвечать Rica ederim («не за что / пожалуйста»).",
+          "audio": "tr/1-2/sp-02.mp3"
+        },
+        {
+          "id": "tr-1-2-sp-03",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Разыграйте два голоса (извинение и ответ «Ничего страшного»):",
+          "target_text": "— Özür dilerim. — Önemli değil.",
+          "translation_ru": "— Прошу прощения. — Ничего страшного.",
+          "explain_ru": "Önemli değil буквально означает «не важно» («ничего страшного»).",
+          "audio": "tr/1-2/sp-03.mp3"
+        },
+        {
+          "id": "tr-1-2-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух утреннее приветствие и заказ кофе:",
+          "target_text": "Günaydın! Kahve, lütfen.",
+          "translation_ru": "Доброе утро! Кофе, пожалуйста.",
+          "explain_ru": "Günaydın говорят утром, lütfen — при вежливой просьбе.",
+          "audio": "tr/1-2/sp-04.mp3"
+        },
+        {
+          "id": "tr-1-2-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух приветствие гостям:",
+          "target_text": "Merhaba, hoş geldiniz!",
+          "translation_ru": "Здравствуйте, добро пожаловать!",
+          "explain_ru": "Hoş geldiniz говорят входящему гостю или клиенту.",
+          "audio": "tr/1-2/sp-05.mp3"
+        },
+        {
+          "id": "tr-1-2-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вечернее приветствие и прощание:",
+          "target_text": "İyi akşamlar! Görüşürüz!",
+          "translation_ru": "Добрый вечер! Увидимся!",
+          "explain_ru": "İyi akşamlar — добрый вечер, görüşürüz — увидимся.",
+          "audio": "tr/1-2/sp-06.mp3"
+        },
+        {
+          "id": "tr-1-2-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите пожелание перед сном:",
+          "target_text": "İyi geceler!",
+          "translation_ru": "Спокойной ночи!",
+          "explain_ru": "İyi geceler желают перед сном или прощаясь поздно ночью.",
+          "audio": "tr/1-2/sp-07.mp3"
+        },
+        {
+          "id": "tr-1-2-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух вежливое согласие и отказ:",
+          "target_text": "Evet, lütfen. Hayır, teşekkürler.",
+          "translation_ru": "Да, пожалуйста. Нет, спасибо.",
+          "explain_ru": "Evet — да, hayır — нет.",
+          "audio": "tr/1-2/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-2-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Время суток (1/3). Прослушайте скрипт: когда это говорят?",
+          "transcript": "Günaydın!",
+          "options": ["утром", "вечером", "перед сном", "при извинении"],
+          "correct_index": 0,
+          "explain_ru": "Günaydın! — Доброе утро! Говорят утром.",
+          "audio": "tr/1-2/w02.mp3"
+        },
+        {
+          "id": "tr-1-2-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Время суток (2/3). Прослушайте скрипт: когда это говорят?",
+          "transcript": "İyi akşamlar!",
+          "options": ["вечером", "утром", "перед сном", "в ответ на спасибо"],
+          "correct_index": 0,
+          "explain_ru": "İyi akşamlar! — Добрый вечер! Говорят вечером.",
+          "audio": "tr/1-2/w03.mp3"
+        },
+        {
+          "id": "tr-1-2-ls-03",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Время суток (3/3). Прослушайте скрипт: когда это говорят?",
+          "transcript": "İyi geceler!",
+          "options": ["перед сном", "утром", "днём при встрече", "при заказе чая"],
+          "correct_index": 0,
+          "explain_ru": "İyi geceler! — Спокойной ночи! Говорят перед сном.",
+          "audio": "tr/1-2/w04.mp3"
+        },
+        {
+          "id": "tr-1-2-ls-04",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «привет»:",
+          "transcript": "merhaba",
+          "accepted": ["merhaba"],
+          "explain_ru": "Merhaba — привет.",
+          "audio": "tr/1-2/w01.mp3"
+        },
+        {
+          "id": "tr-1-2-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как говорящий отреагировал на предложение?",
+          "transcript": "Hayır, teşekkürler.",
+          "options": [
+            "Вежливо отказался («Нет, спасибо»)",
+            "Согласился («Да, пожалуйста»)",
+            "Попросил прощения",
+            "Пожелал доброго утра"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hayır — нет, teşekkürler — спасибо.",
+          "audio": "tr/1-2/w06.mp3"
+        },
+        {
+          "id": "tr-1-2-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-турецки слово «увидимся»:",
+          "transcript": "görüşürüz",
+          "accepted": ["görüşürüz"],
+          "explain_ru": "Görüşürüz — увидимся.",
+          "audio": "tr/1-2/w12.mp3"
+        },
+        {
+          "id": "tr-1-2-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что сказал хозяин гостю?",
+          "transcript": "Merhaba, hoş geldiniz!",
+          "options": [
+            "Здравствуйте, добро пожаловать!",
+            "Прошу прощения!",
+            "Спокойной ночи!",
+            "Не за что!"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hoş geldiniz — добро пожаловать.",
+          "audio": "tr/1-2/w11.mp3"
+        },
+        {
+          "id": "tr-1-2-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-турецки «прошу прощения»:",
+          "transcript": "özür dilerim",
+          "accepted": ["özür dilerim"],
+          "explain_ru": "Özür dilerim — прошу прощения / извините.",
+          "audio": "tr/1-2/w10.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-2-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Соедините фразу с ситуацией или ответом",
+          "pairs": [
+            { "left": "Teşekkürler", "right": "в ответ «Rica ederim»" },
+            { "left": "Hoş geldiniz", "right": "в ответ «Hoş bulduk»" },
+            { "left": "İyi geceler", "right": "перед сном" },
+            { "left": "Günaydın", "right": "утром" }
+          ],
+          "explain_ru": "На Hoş geldiniz отвечают Hoş bulduk («Рад быть у вас» — новое выражение для ответа гостя).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-2-wr-02",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините турецкие слова с переводом:",
+          "pairs": [
+            { "left": "evet", "right": "да" },
+            { "left": "hayır", "right": "нет" },
+            { "left": "lütfen", "right": "пожалуйста (просьба)" },
+            { "left": "özür dilerim", "right": "прошу прощения" }
+          ],
+          "explain_ru": "Базовые слова вежливости: evet, hayır, lütfen, özür dilerim.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-2-wr-03",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите вежливую просьбу: «Да, чай, пожалуйста»",
+          "source_text": "Да, чай, пожалуйста.",
+          "bank": ["lütfen", "evet", "çay"],
+          "accepted": ["Evet çay lütfen"],
+          "explain_ru": "Evet, çay, lütfen!",
+          "audio": null
+        },
+        {
+          "id": "tr-1-2-wr-04",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «доброе утро»",
+          "source_text": "доброе утро",
+          "accepted": ["günaydın"],
+          "explain_ru": "Günaydın — доброе утро.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-2-wr-05",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «добрый вечер»",
+          "source_text": "добрый вечер",
+          "accepted": ["iyi akşamlar"],
+          "explain_ru": "İyi akşamlar — добрый вечер.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-2-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в ответе на «Teşekkürler!»:",
+          "buggy_text": "Teşekkürler! — Lütfen!",
+          "accepted": ["Teşekkürler! — Rica ederim!", "Rica ederim"],
+          "explain_ru": "Lütfen используется только для просьбы. В ответ на «спасибо» говорят «Rica ederim!».",
+          "audio": null
+        },
+        {
+          "id": "tr-1-2-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите фразу: «Нет, спасибо, увидимся!»",
+          "source_text": "Нет, спасибо, увидимся!",
+          "bank": ["teşekkürler", "hayır", "görüşürüz"],
+          "accepted": ["Hayır teşekkürler görüşürüz"],
+          "explain_ru": "Hayır, teşekkürler. Görüşürüz!",
+          "audio": null
+        },
+        {
+          "id": "tr-1-2-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не приветствие при встрече):",
+          "items": ["merhaba", "günaydın", "hoş geldiniz", "iyi geceler"],
+          "odd_index": 3,
+          "explain_ru": "İyi geceler («спокойной ночи») говорят перед сном, а остальные три фразы — при встрече.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-2-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Мини-диалог. Прочитайте разговор и ответьте на вопрос:",
+          "passage": "— Günaydın!\n— Günaydın!\n— Çay, lütfen.\n— Buyurun.\n— Teşekkürler.\n— Rica ederim.",
+          "questions": [
+            {
+              "question_ru": "Что попросил человек?",
+              "options": ["чай (çay)", "кофе (kahve)", "воду (su)", "молоко (süt)"],
+              "correct_index": 0,
+              "accepted": ["чай", "çay"]
+            }
+          ],
+          "explain_ru": "Çay, lütfen — «Чай, пожалуйста». Buyurun — «Пожалуйста, берите».",
+          "audio": null
+        },
+        {
+          "id": "tr-1-2-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает выражение «Özür dilerim»?",
+          "question_text": "Özür dilerim.",
+          "options": ["Прошу прощения.", "Добро пожаловать.", "Не за что.", "Спокойной ночи."],
+          "correct_index": 0,
+          "explain_ru": "Özür dilerim — прошу прощения / извините.",
+          "audio": "tr/1-2/w10.mp3"
+        },
+        {
+          "id": "tr-1-2-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что говорят хозяева, когда гость входит в дом?",
+          "question_text": "Добро пожаловать!",
+          "options": ["Hoş geldiniz!", "Görüşürüz!", "Özür dilerim!", "Rica ederim!"],
+          "correct_index": 0,
+          "explain_ru": "Hoş geldiniz! — Добро пожаловать!",
+          "audio": null
+        },
+        {
+          "id": "tr-1-2-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте вечерний диалог и ответьте на вопрос:",
+          "passage": "— İyi akşamlar! Hoş geldiniz!\n— İyi akşamlar! Kahve ve su, lütfen.\n— Evet, buyurun.\n— Teşekkürler! Görüşürüz!",
+          "questions": [
+            {
+              "question_ru": "В какое время суток пришёл гость?",
+              "options": ["вечером (İyi akşamlar)", "ранним утром", "глубокой ночью", "в полдень"],
+              "correct_index": 0,
+              "accepted": ["вечером", "iyi akşamlar"]
+            }
+          ],
+          "explain_ru": "Герои приветствуют друг друга словами «İyi akşamlar!» (Добрый вечер!).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-2-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните вежливый ответ на благодарность:",
+          "target_text": "rica ederim",
+          "translation_ru": "не за что / пожалуйста (в ответ на «спасибо»)",
+          "example_text": "— Teşekkürler! — Rica ederim!",
+          "example_ru": "— Спасибо! — Не за что!",
+          "explain_ru": "Rica ederim используется в ответ на Teşekkürler.",
+          "audio": "tr/1-2/w09.mp3"
+        },
+        {
+          "id": "tr-1-2-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «hayır»:",
+          "question_text": "hayır",
+          "options": ["нет", "да", "привет", "увидимся"],
+          "correct_index": 0,
+          "explain_ru": "Hayır — нет, evet — да.",
+          "audio": "tr/1-2/w06.mp3"
+        },
+        {
+          "id": "tr-1-2-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать «Спокойной ночи» по-турецки?",
+          "question_text": "Спокойной ночи",
+          "options": ["İyi geceler", "İyi akşamlar", "Günaydın", "Merhaba"],
+          "correct_index": 0,
+          "explain_ru": "İyi geceler — спокойной ночи.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-2-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте приветствия по ходу дня (от утра к ночи):",
+          "items_shuffled": ["İyi geceler", "Günaydın", "İyi akşamlar"],
+          "correct_order": ["Günaydın", "İyi akşamlar", "İyi geceler"],
+          "explain_ru": "Утро (Günaydın) → вечер (İyi akşamlar) → ночь (İyi geceler).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -16,6 +16,15 @@ const CONTENT_DIR = path.join(ROOT_DIR, 'content');
 const PUBLIC_AUDIO_DIR = path.join(ROOT_DIR, 'public', 'audio');
 const MAX_UNIT_JSON_BYTES = 40 * 1024; // 40 KB ceiling per unit JSON
 
+/**
+ * Approved Russian translation clarifications explicitly logged in docs/CONTENT_CHANGELOG.md.
+ * Any other deviation from content-src/*.md fails Zero-Trust validation.
+ */
+const APPROVED_WORD_RU_OVERRIDES: Record<string, string> = {
+  'tr-1-5-w08': 'брать; покупать',
+  'tr-1-8-w03': 'горячий (о погоде: жаркий)',
+};
+
 function collectExerciseText(ex: Exercise): string {
   const parts: string[] = [ex.prompt_ru];
   if (ex.explain_ru) parts.push(ex.explain_ru);
@@ -179,9 +188,10 @@ function main(): void {
           for (let i = 0; i < unit.words.length; i++) {
             const w = unit.words[i]!;
             const srcW = sourceUnit.words[i]!;
-            if (w.text !== srcW.text || w.ru !== srcW.ru) {
+            const expectedRu = APPROVED_WORD_RU_OVERRIDES[w.id] ?? srcW.ru;
+            if (w.text !== srcW.text || w.ru !== expectedRu) {
               errors.push(
-                `Zero-Trust violation in ${unit.id} word #${i + 1}: JSON has "${w.text} — ${w.ru}", source markdown has "${srcW.text} — ${srcW.ru}"`,
+                `Zero-Trust violation in ${unit.id} word #${i + 1}: JSON has "${w.text} — ${w.ru}", expected "${srcW.text} — ${expectedRu}"`,
               );
             }
           }

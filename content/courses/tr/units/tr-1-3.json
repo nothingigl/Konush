@@ -83,16 +83,398 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-3-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Антонимы-пинг-понг (1/3): произнесите пары противоположностей вслух:",
+          "target_text": "büyük — küçük, yeni — eski",
+          "translation_ru": "большой — маленький, новый — старый",
+          "explain_ru": "Eski используется для неодушевлённых предметов («старая вещь»).",
+          "audio": "tr/1-3/sp-01.mp3"
+        },
+        {
+          "id": "tr-1-3-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Антонимы-пинг-понг (2/3): произнесите пары по длине и красоте:",
+          "target_text": "güzel — çirkin, uzun — kısa",
+          "translation_ru": "красивый — некрасивый, длинный — короткий",
+          "explain_ru": "В слове kısa буква ı читается как русское «ы».",
+          "audio": "tr/1-3/sp-02.mp3"
+        },
+        {
+          "id": "tr-1-3-sp-03",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Антонимы-пинг-понг (3/3): произнесите пары по весу и цене:",
+          "target_text": "ağır — hafif, pahalı — ucuz",
+          "translation_ru": "тяжёлый — лёгкий, дорогой — дешёвый",
+          "explain_ru": "В слове ağır буква ğ (yumuşak ge) не читается как «г», а удлиняет гласный.",
+          "audio": "tr/1-3/sp-03.mp3"
+        },
+        {
+          "id": "tr-1-3-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите большой и красивый предмет:",
+          "target_text": "Bu elma büyük ve güzel.",
+          "translation_ru": "Это яблоко большое и красивое.",
+          "explain_ru": "Bu — этот/эта/это.",
+          "audio": "tr/1-3/sp-04.mp3"
+        },
+        {
+          "id": "tr-1-3-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что кофе дорогой, а чай дешёвый:",
+          "target_text": "Kahve pahalı ama çay ucuz.",
+          "translation_ru": "Кофе дорогой, но чай дешёвый.",
+          "explain_ru": "Союз ama означает «но».",
+          "audio": "tr/1-3/sp-05.mp3"
+        },
+        {
+          "id": "tr-1-3-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите фразу про новую и лёгкую сумку:",
+          "target_text": "Bu çanta yeni ve hafif.",
+          "translation_ru": "Эта сумка новая и лёгкая.",
+          "explain_ru": "Çanta — сумка, yeni — новый, hafif — лёгкий.",
+          "audio": "tr/1-3/sp-06.mp3"
+        },
+        {
+          "id": "tr-1-3-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите фразу про старый и тяжёлый предмет:",
+          "target_text": "Şu çanta eski ve ağır.",
+          "translation_ru": "Та сумка старая и тяжёлая.",
+          "explain_ru": "Şu — тот/та (предмет чуть дальше).",
+          "audio": "tr/1-3/sp-07.mp3"
+        },
+        {
+          "id": "tr-1-3-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите фразу с антонимами küçük, çirkin, uzun, kısa:",
+          "target_text": "Küçük değil, büyük. Çirkin değil, güzel. Kısa değil, uzun.",
+          "translation_ru": "Не маленький, а большой. Не некрасивый, а красивый. Не короткий, а длинный.",
+          "explain_ru": "Слово değil ставится после прилагательного для отрицания («не»).",
+          "audio": "tr/1-3/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-3-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Ловец слов. Прослушайте скрипт: какие три свойства прозвучали?",
+          "transcript": "Bu ev büyük. Bu çanta ağır. Bu telefon pahalı.",
+          "options": [
+            "большой, тяжёлый, дорогой",
+            "маленький, лёгкий, дешёвый",
+            "новый, красивый, длинный",
+            "старый, некрасивый, короткий"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Büyük — большой, ağır — тяжёлый, pahalı — дорогой (ev — дом, çanta — сумка, telefon — телефон).",
+          "audio": "tr/1-3/ls-01.mp3"
+        },
+        {
+          "id": "tr-1-3-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «маленький»:",
+          "transcript": "küçük",
+          "accepted": ["küçük"],
+          "explain_ru": "Küçük — маленький.",
+          "audio": "tr/1-3/w02.mp3"
+        },
+        {
+          "id": "tr-1-3-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «красивый»:",
+          "transcript": "güzel",
+          "accepted": ["güzel"],
+          "explain_ru": "Güzel — красивый / хороший.",
+          "audio": "tr/1-3/w05.mp3"
+        },
+        {
+          "id": "tr-1-3-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какая эта сумка по описанию?",
+          "transcript": "Bu çanta yeni ve hafif.",
+          "options": [
+            "новая и лёгкая",
+            "старая и тяжёлая",
+            "дорогая и маленькая",
+            "дешёвая и некрасивая"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yeni — новая, hafif — лёгкая.",
+          "audio": "tr/1-3/sp-06.mp3"
+        },
+        {
+          "id": "tr-1-3-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «дешёвый»:",
+          "transcript": "ucuz",
+          "accepted": ["ucuz"],
+          "explain_ru": "Ucuz — дешёвый.",
+          "audio": "tr/1-3/w12.mp3"
+        },
+        {
+          "id": "tr-1-3-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что сказано про кофе и чай?",
+          "transcript": "Kahve pahalı ama çay ucuz.",
+          "options": [
+            "Кофе дорогой, но чай дешёвый",
+            "Кофе дешёвый, а чай дорогой",
+            "Кофе и чай новые",
+            "Чай тяжёлый"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Pahalı — дорогой, ucuz — дешёвый.",
+          "audio": "tr/1-3/sp-05.mp3"
+        },
+        {
+          "id": "tr-1-3-ls-07",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «длинный»:",
+          "transcript": "uzun",
+          "accepted": ["uzun"],
+          "explain_ru": "Uzun — длинный.",
+          "audio": "tr/1-3/w07.mp3"
+        },
+        {
+          "id": "tr-1-3-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «короткий»:",
+          "transcript": "kısa",
+          "accepted": ["kısa"],
+          "explain_ru": "Kısa — короткий.",
+          "audio": "tr/1-3/w08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-3-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допиши антоним (1/2): «Bu çanta hafif değil, ___.» («Эта сумка не лёгкая, а тяжёлая»)",
+          "source_text": "Bu çanta hafif değil, ___.",
+          "accepted": ["ağır", "Bu çanta hafif değil, ağır."],
+          "explain_ru": "Антоним к слову hafif (лёгкий) — ağır (тяжёлый).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-3-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допиши антоним (2/2): «Bu ev eski değil, ___.» («Этот дом не старый, а новый»)",
+          "source_text": "Bu ev eski değil, ___.",
+          "accepted": ["yeni", "Bu ev eski değil, yeni."],
+          "explain_ru": "Антоним к слову eski (старый) — yeni (новый).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-3-wr-03",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Эта книга новая»",
+          "source_text": "Эта книга новая.",
+          "bank": ["kitap", "yeni", "bu"],
+          "accepted": ["Bu kitap yeni"],
+          "explain_ru": "Bu kitap yeni — Эта книга новая (kitap — книга).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-3-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините пары антонимов:",
+          "pairs": [
+            { "left": "büyük", "right": "küçük" },
+            { "left": "güzel", "right": "çirkin" },
+            { "left": "uzun", "right": "kısa" },
+            { "left": "pahalı", "right": "ucuz" }
+          ],
+          "explain_ru": "Büyük↔küçük, güzel↔çirkin, uzun↔kısa, pahalı↔ucuz.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-3-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините турецкие прилагательные с переводом:",
+          "pairs": [
+            { "left": "yeni", "right": "новый" },
+            { "left": "eski", "right": "старый (о вещи)" },
+            { "left": "ağır", "right": "тяжёлый" },
+            { "left": "hafif", "right": "лёгкий" }
+          ],
+          "explain_ru": "Yeni — новый, eski — старый, ağır — тяжёлый, hafif — лёгкий.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-3-wr-06",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки антоним к слову «güzel» (некрасивый):",
+          "source_text": "некрасивый",
+          "accepted": ["çirkin"],
+          "explain_ru": "Çirkin — некрасивый.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-3-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Это яблоко маленькое, но красивое»",
+          "source_text": "Это яблоко маленькое, но красивое.",
+          "bank": ["güzel", "bu", "elma", "küçük", "ama"],
+          "accepted": ["Bu elma küçük ama güzel."],
+          "explain_ru": "Bu elma küçük ama güzel.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-3-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не прилагательное):",
+          "items": ["uzun", "kısa", "pahalı", "peynir"],
+          "odd_index": 3,
+          "explain_ru": "Peynir — сыр (существительное из юнита 1.1), остальные слова — прилагательные.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-3-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "В магазине. Прочитайте текст и ответьте на вопрос (ama — но, şu — та):",
+          "passage": "Bu çanta pahalı ama çok güzel. Şu çanta ucuz ama eski.",
+          "questions": [
+            {
+              "question_ru": "Какая сумка дешёвая (ucuz)?",
+              "options": [
+                "та, которая старая (eski)",
+                "эта, которая очень красивая",
+                "обе сумки дорогие",
+                "новая и тяжёлая"
+              ],
+              "correct_index": 0,
+              "accepted": ["та, которая старая", "старая", "eski"]
+            }
+          ],
+          "explain_ru": "Şu çanta ucuz ama eski — Та сумка дешёвая, но старая.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-3-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «çirkin»?",
+          "question_text": "çirkin",
+          "options": ["некрасивый", "красивый", "короткий", "лёгкий"],
+          "correct_index": 0,
+          "explain_ru": "Çirkin — некрасивый (антоним к güzel).",
+          "audio": "tr/1-3/w06.mp3"
+        },
+        {
+          "id": "tr-1-3-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «hafif»:",
+          "question_text": "hafif",
+          "options": ["лёгкий (по весу)", "тяжёлый", "длинный", "дорогой"],
+          "correct_index": 0,
+          "explain_ru": "Hafif — лёгкий по весу (антоним к ağır).",
+          "audio": "tr/1-3/w10.mp3"
+        },
+        {
+          "id": "tr-1-3-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте описание предметов и ответьте на вопрос:",
+          "passage": "Bu ekmek büyük ve ucuz. Şu peynir küçük ama pahalı.",
+          "questions": [
+            {
+              "question_ru": "Что маленькое, но дорогое?",
+              "options": ["сыр (peynir)", "хлеб (ekmek)", "вода (su)", "яблоко (elma)"],
+              "correct_index": 0,
+              "accepted": ["сыр", "peynir"]
+            }
+          ],
+          "explain_ru": "Şu peynir küçük ama pahalı — Тот сыр маленький, но дорогой.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-3-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните пару по длине:",
+          "target_text": "uzun — kısa",
+          "translation_ru": "длинный — короткий",
+          "example_text": "Bu kısa değil, uzun.",
+          "example_ru": "Это не короткое, а длинное.",
+          "explain_ru": "Uzun — длинный, kısa — короткий.",
+          "audio": "tr/1-3/w07.mp3"
+        },
+        {
+          "id": "tr-1-3-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое слово является антонимом к «büyük»?",
+          "question_text": "büyük ↔ ?",
+          "options": ["küçük", "eski", "ağır", "ucuz"],
+          "correct_index": 0,
+          "explain_ru": "Büyük (большой) ↔ küçük (маленький).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-3-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает фраза «Bu telefon yeni ve pahalı»?",
+          "question_text": "Bu telefon yeni ve pahalı.",
+          "options": [
+            "Этот телефон новый и дорогой.",
+            "Этот телефон старый и дешёвый.",
+            "Эта сумка лёгкая и маленькая.",
+            "Этот дом большой и старый."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yeni — новый, pahalı — дорогой.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-3-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте свойства в том же порядке, что и в переводе «большой, новый, красивый»:",
+          "items_shuffled": ["güzel", "büyük", "yeni"],
+          "correct_order": ["büyük", "yeni", "güzel"],
+          "explain_ru": "Büyük (большой) → yeni (новый) → güzel (красивый).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"
