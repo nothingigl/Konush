@@ -10,16 +10,214 @@
   "words": [],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-boss-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Босс-заказ (1/2): вслух закажите как вежливый гость в кафе:",
+          "target_text": "Çay, ekmek ve peynir lütfen. Teşekkürler!",
+          "translation_ru": "Чай, хлеб и сыр, пожалуйста. Спасибо!",
+          "explain_ru": "Сочетает лексику юнитов 1.1 (Еда) и 1.2 (Вежливые фразы).",
+          "audio": "tr/1-boss/sp-01.mp3"
+        },
+        {
+          "id": "tr-1-boss-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Босс-заказ (2/2): попросите воду и соль:",
+          "target_text": "Su ve tuz lütfen.",
+          "translation_ru": "Воду и соль, пожалуйста.",
+          "explain_ru": "Su — вода, tuz — соль.",
+          "audio": "tr/1-boss/sp-02.mp3"
+        },
+        {
+          "id": "tr-1-boss-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Поприветствуйте официанта и попросите меню/завтрак:",
+          "target_text": "Günaydın! Ben sıcak çorba, tavuk ve salata istiyorum.",
+          "translation_ru": "Доброе утро! Я хочу горячий суп, курицу и салат.",
+          "explain_ru": "Повторяем юниты 1.1, 1.2, 1.4 и 1.8.",
+          "audio": "tr/1-boss/sp-03.mp3"
+        },
+        {
+          "id": "tr-1-boss-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите о своих вещах на столике в кафе:",
+          "target_text": "Bu benim telefonum, bu benim cüzdanım ve bu benim anahtarım.",
+          "translation_ru": "Это мой телефон, это мой кошелёк и это мой ключ.",
+          "explain_ru": "Повторяем юниты 1.5 и 1.9 (принадлежность).",
+          "audio": "tr/1-boss/sp-04.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-boss-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Прослушайте скрипт: что нового у друга?",
+          "transcript": "Merhaba! Bu benim arkadaşım. Onun gözlüğü yeni. Çok güzel!",
+          "options": [
+            "очки (gözlüğü)",
+            "кошелёк (cüzdanı)",
+            "часы (saati)",
+            "машина (arabası)"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Onun gözlüğü yeni — Его/её очки новые.",
+          "audio": "tr/1-boss/ls-01.mp3"
+        },
+        {
+          "id": "tr-1-boss-ls-02",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что заказали гости за соседним столиком?",
+          "transcript": "Biz kahve, süt ve yumurta istiyoruz.",
+          "options": [
+            "кофе, молоко и яйцо",
+            "чай, рыбу и рис",
+            "воду, хлеб и соль",
+            "яблоко и апельсин"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kahve (кофе), süt (молоко) ve yumurta (яйцо).",
+          "audio": "tr/1-boss/ls-02.mp3"
+        },
+        {
+          "id": "tr-1-boss-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-турецки: «Спасибо! — Не за что!»",
+          "transcript": "Teşekkürler! Rica ederim!",
+          "accepted": ["Teşekkürler! Rica ederim!", "Teşekkürler rica ederim"],
+          "explain_ru": "Teşekkürler — спасибо, rica ederim — не за что.",
+          "audio": "tr/1-boss/ls-03.mp3"
+        },
+        {
+          "id": "tr-1-boss-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что делает гость у входа в кафе?",
+          "transcript": "Ben kapıyı açıyorum ve menüyü okuyorum.",
+          "options": [
+            "Открывает дверь и читает меню",
+            "Закрывает дверь и берёт ключ",
+            "Пьёт горячий чай",
+            "Зовет кошку и собаку"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kapıyı açıyorum — я открываю дверь (винительный падеж из юнита 1.5).",
+          "audio": "tr/1-boss/ls-04.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-boss-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Переведите на турецкий (1/2): «Мои яблоки большие.»",
+          "source_text": "Мои яблоки большие.",
+          "accepted": ["Elmalarım büyük.", "Benim elmalarım büyük."],
+          "explain_ru": "Elma + -lar (мн. ч.) + -ım (мои) = Elmalarım büyük.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-boss-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Переведите на турецкий (2/2): «Это не твоя собака.»",
+          "source_text": "Это не твоя собака.",
+          "accepted": ["Bu senin köpeğin değil."],
+          "explain_ru": "Köpek + -in (твоя, с переходом k → ğ) = senin köpeğin; отрицание değil в конце.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-boss-wr-03",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Я беру книгу и открываю тетрадь»",
+          "source_text": "Я беру книгу и открываю тетрадь.",
+          "bank": ["açıyorum", "kitabı", "alıyorum", "ve", "defteri"],
+          "accepted": ["Kitabı alıyorum ve defteri açıyorum."],
+          "explain_ru": "Винительный падеж из юнита 1.5: kitabı, defteri.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-boss-wr-04",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте две ошибки в предложении «Üç bardaklar dolu değil, boş»:",
+          "buggy_text": "Üç bardaklar dolu",
+          "accepted": ["Üç bardak dolu.", "Üç bardak dolu"],
+          "explain_ru": "После числительного üç существительное bardak стоит в единственном числе без -lar.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-boss-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Прочитайте отзыв о кафе и ответьте на вопрос (fiyatlar — цены):",
+          "passage": "Bu restoranda çorba sıcak ve lezzetli. Salata temiz. Fiyatlar ucuz.",
+          "questions": [
+            {
+              "question_ru": "Какая здесь еда и цены?",
+              "options": [
+                "суп горячий и вкусный, салат чистый (свежий), цены дешёвые",
+                "суп холодный, а цены дорогие",
+                "ресторан закрыт, еды нет",
+                "тарелки грязные и пустые"
+              ],
+              "correct_index": 0,
+              "accepted": ["суп горячий и вкусный, салат чистый"]
+            }
+          ],
+          "explain_ru": "Çorba sıcak ve lezzetli (суп горячий и вкусный), salata temiz (салат чистый/свежий), fiyatlar ucuz (цены дешёвые).",
+          "audio": null
+        },
+        {
+          "id": "tr-1-boss-rd-02",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте сцену у кафе и ответьте на вопрос:",
+          "passage": "Parkta büyük ağaçlar ve güzel çiçekler var. Çocuklar kedi ve köpeği seviyor. Bizim masada sıcak çay, kahve, peynir ve ekmek var.",
+          "questions": [
+            {
+              "question_ru": "Кого любят дети (çocuklar)?",
+              "options": [
+                "кошку и собаку (kedi ve köpeği)",
+                "льва и тигра",
+                "слона и обезьяну",
+                "лошадь"
+              ],
+              "correct_index": 0,
+              "accepted": ["кошку и собаку", "kedi ve köpeği"]
+            }
+          ],
+          "explain_ru": "Çocuklar kedi ve köpeği seviyor — Дети любят кошку и собаку.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-boss-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Финальный вопрос босса Секции 1: выберите правильный ответ гостя на приветствие «Hoş geldiniz!»:",
+          "question_text": "— Hoş geldiniz!",
+          "options": ["— Hoş bulduk!", "— Özür dilerim!", "— İyi geceler!", "— Hayır!"],
+          "correct_index": 0,
+          "explain_ru": "На «Hoş geldiniz!» (Добро пожаловать!) всегда отвечают «Hoş bulduk!» (Рад быть у вас!).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

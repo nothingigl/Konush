@@ -17,6 +17,8 @@
     "test:watch": "vitest",
     "content:init": "tsx scripts/content-init.ts",
     "content:check": "tsx scripts/content-check.ts",
+    "content:export-review": "tsx scripts/content-export-review.ts",
+    "tts:sample-voices": "tsx scripts/tts/sample-voices.ts",
     "secrets:check": "tsx scripts/secret-scan.ts",
     "prepare": "tsx scripts/install-hooks.ts"
   },

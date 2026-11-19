@@ -83,16 +83,408 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-5-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Проверка сумки (1/2): назовите действия с предметами в винительном падеже:",
+          "target_text": "Kalemi alıyorum. Defteri açıyorum. Anahtarı görüyorum.",
+          "translation_ru": "Я беру (эту) ручку. Я открываю (эту) тетрадь. Я вижу (этот) ключ.",
+          "explain_ru": "Определённый предмет в винительном падеже получает аффикс -ı/-i/-u/-ü по гармонии гласных.",
+          "audio": "tr/1-5/sp-01.mp3"
+        },
+        {
+          "id": "tr-1-5-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Проверка сумки (2/2): произнесите формы kitabı, telefonu, kapıyı в предложениях:",
+          "target_text": "Kitabı okuyorum. Telefonu alıyorum. Kapıyı kapatıyorum.",
+          "translation_ru": "Я читаю (эту) книгу. Я беру (этот) телефон. Я закрываю (эту) дверь.",
+          "explain_ru": "В слове kitap глухая p перед гласной озвончается в b (kitabı), а после гласной в kapı вставляется соединительная y (kapıyı).",
+          "audio": "tr/1-5/sp-02.mp3"
+        },
+        {
+          "id": "tr-1-5-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите инфинитивы первых трёх глаголов:",
+          "target_text": "görmek, almak, sevmek",
+          "translation_ru": "видеть, брать, любить",
+          "explain_ru": "Инфинитив глагола в турецком оканчивается на -mak или -mek.",
+          "audio": "tr/1-5/sp-03.mp3"
+        },
+        {
+          "id": "tr-1-5-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите инфинитивы остальных трёх глаголов:",
+          "target_text": "açmak, kapatmak, okumak",
+          "translation_ru": "открывать, закрывать, читать",
+          "explain_ru": "Açmak — открывать, kapatmak — закрывать, okumak — читать.",
+          "audio": "tr/1-5/sp-04.mp3"
+        },
+        {
+          "id": "tr-1-5-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы любите эту книгу и эту тетрадь:",
+          "target_text": "Bu kitabı ve bu defteri seviyorum.",
+          "translation_ru": "Я люблю эту книгу и эту тетрадь.",
+          "explain_ru": "Глагол sevmek (любить) всегда требует винительного падежа.",
+          "audio": "tr/1-5/sp-05.mp3"
+        },
+        {
+          "id": "tr-1-5-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух названия шести предметов в начальной форме:",
+          "target_text": "kitap, kalem, defter, anahtar, telefon, kapı",
+          "translation_ru": "книга, ручка, тетрадь, ключ, телефон, дверь",
+          "explain_ru": "Начальная форма используется, когда предмет неопределённый или выступает подлежащим.",
+          "audio": "tr/1-5/sp-06.mp3"
+        },
+        {
+          "id": "tr-1-5-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я открываю дверь и вижу ключ»:",
+          "target_text": "Kapıyı açıyorum ve anahtarı görüyorum.",
+          "translation_ru": "Я открываю дверь и вижу ключ.",
+          "explain_ru": "Kapı → kapıyı, anahtar → anahtarı.",
+          "audio": "tr/1-5/sp-07.mp3"
+        },
+        {
+          "id": "tr-1-5-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я закрываю тетрадь и беру ручку»:",
+          "target_text": "Defteri kapatıyorum ve kalemi alıyorum.",
+          "translation_ru": "Я закрываю тетрадь и беру ручку.",
+          "explain_ru": "Defter → defteri, kalem → kalemi.",
+          "audio": "tr/1-5/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-5-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Что делают? Прослушайте скрипт и выберите три предмета в винительном падеже:",
+          "transcript": "Kapıyı açıyorum. Telefonu görüyorum. Kitabı okuyorum.",
+          "options": [
+            "kapıyı, telefonu, kitabı",
+            "kalemi, defteri, anahtarı",
+            "çayı, kahveyi, sütü",
+            "ekmeği, peyniri, çorbayı"
+          ],
+          "correct_index": 0,
+          "explain_ru": "В скрипте звучат: Kapıyı (дверь), Telefonu (телефон), Kitabı (книгу).",
+          "audio": "tr/1-5/ls-01.mp3"
+        },
+        {
+          "id": "tr-1-5-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «ключ»:",
+          "transcript": "anahtar",
+          "accepted": ["anahtar"],
+          "explain_ru": "Anahtar — ключ.",
+          "audio": "tr/1-5/w04.mp3"
+        },
+        {
+          "id": "tr-1-5-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки глагол «читать» (инфинитив):",
+          "transcript": "okumak",
+          "accepted": ["okumak"],
+          "explain_ru": "Okumak — читать.",
+          "audio": "tr/1-5/w12.mp3"
+        },
+        {
+          "id": "tr-1-5-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что делает говорящий?",
+          "transcript": "Defteri kapatıyorum ve kalemi alıyorum.",
+          "options": [
+            "Закрывает тетрадь и берёт ручку",
+            "Открывает дверь и берёт телефон",
+            "Читает книгу и пьёт чай",
+            "Видит ключ и открывает тетрадь"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Defteri kapatıyorum (закрываю тетрадь) ve kalemi alıyorum (и беру ручку).",
+          "audio": "tr/1-5/sp-08.mp3"
+        },
+        {
+          "id": "tr-1-5-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки глагол «открывать»:",
+          "transcript": "açmak",
+          "accepted": ["açmak"],
+          "explain_ru": "Açmak — открывать.",
+          "audio": "tr/1-5/w10.mp3"
+        },
+        {
+          "id": "tr-1-5-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки глагол «закрывать»:",
+          "transcript": "kapatmak",
+          "accepted": ["kapatmak"],
+          "explain_ru": "Kapatmak — закрывать.",
+          "audio": "tr/1-5/w11.mp3"
+        },
+        {
+          "id": "tr-1-5-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что любит говорящий?",
+          "transcript": "Bu kitabı ve bu defteri seviyorum.",
+          "options": [
+            "эту книгу и эту тетрадь",
+            "этот телефон и этот ключ",
+            "эту дверь и этот дом",
+            "эту ручку и эту сумку"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bu kitabı (эту книгу) ve bu defteri (и эту тетрадь) seviyorum (я люблю).",
+          "audio": "tr/1-5/sp-05.mp3"
+        },
+        {
+          "id": "tr-1-5-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки глагол «видеть»:",
+          "transcript": "görmek",
+          "accepted": ["görmek"],
+          "explain_ru": "Görmek — видеть.",
+          "audio": "tr/1-5/w07.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-5-wr-01",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Поставь в винительный падеж (1/3): добавьте окончание определённого предмета к «Anahtar»:",
+          "buggy_text": "Anahtar görüyorum",
+          "accepted": ["Anahtarı görüyorum.", "Anahtarı görüyorum"],
+          "explain_ru": "Последняя гласная в anahtar — твёрдая «a», поэтому добавляется аффикс -ı: Anahtarı görüyorum.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-5-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Поставь в винительный падеж (2/3): добавьте окончание определённого предмета к «Kapı»:",
+          "buggy_text": "Kapı kapatıyorum",
+          "accepted": ["Kapıyı kapatıyorum.", "Kapıyı kapatıyorum"],
+          "explain_ru": "Слово kapı оканчивается на гласную ı, поэтому через соединительную y добавляется -yı: Kapıyı kapatıyorum.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-5-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Поставь в винительный падеж (3/3): добавьте окончание определённого предмета к «Telefon»:",
+          "buggy_text": "Telefon alıyorum",
+          "accepted": ["Telefonu alıyorum.", "Telefonu alıyorum"],
+          "explain_ru": "Последняя гласная в telefon — губная «o», поэтому по гармонии гласных добавляется -u: Telefonu alıyorum.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-5-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините предметы с их формой в винительном падеже:",
+          "pairs": [
+            { "left": "kitap (книга)", "right": "kitabı" },
+            { "left": "kalem (ручка)", "right": "kalemi" },
+            { "left": "defter (тетрадь)", "right": "defteri" },
+            { "left": "kapı (дверь)", "right": "kapıyı" }
+          ],
+          "explain_ru": "Гармония гласных винительного падежа: a/ı → -ı, e/i → -i, o/u → -u, ö/ü → -ü.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-5-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы с переводом:",
+          "pairs": [
+            { "left": "görmek", "right": "видеть" },
+            { "left": "almak", "right": "брать" },
+            { "left": "sevmek", "right": "любить" },
+            { "left": "okumak", "right": "читать" }
+          ],
+          "explain_ru": "Все эти переходные глаголы управляют винительным падежом.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-5-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Я беру ручку и открываю тетрадь»",
+          "source_text": "Я беру ручку и открываю тетрадь.",
+          "bank": ["açıyorum", "kalemi", "alıyorum", "ve", "defteri"],
+          "accepted": ["Kalemi alıyorum ve defteri açıyorum."],
+          "explain_ru": "Kalemi alıyorum ve defteri açıyorum.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-5-wr-07",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Поставьте слово «kitap» в винительный падеж («Я читаю эту книгу: ___ okuyorum»):",
+          "source_text": "kitap → ?",
+          "accepted": ["kitabı"],
+          "explain_ru": "Глухая p переходит в звонкую b перед гласной: kitap → kitabı.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-5-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не глагол):",
+          "items": ["almak", "sevmek", "açmak", "anahtar"],
+          "odd_index": 3,
+          "explain_ru": "Anahtar — ключ (существительное), остальные три слова — инфинитивы глаголов на -mak/-mek.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-1-5-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Утро. Прочитайте текст и ответьте на два вопроса (sabah — утром):",
+          "passage": "Sabah anahtarı alıyorum, kapıyı kapatıyorum ve kitabı okuyorum.",
+          "questions": [
+            {
+              "question_ru": "Что я закрываю (kapatıyorum)?",
+              "options": ["дверь (kapıyı)", "книгу (kitabı)", "тетрадь (defteri)", "телефон"],
+              "correct_index": 0,
+              "accepted": ["дверь", "kapıyı"]
+            },
+            {
+              "question_ru": "Что я читаю (okuyorum)?",
+              "options": ["книгу (kitabı)", "тетрадь (defteri)", "ключ", "меню"],
+              "correct_index": 0,
+              "accepted": ["книгу", "kitabı"]
+            }
+          ],
+          "explain_ru": "Kapıyı kapatıyorum — закрываю дверь; kitabı okuyorum — читаю книгу.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-5-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает глагол «almak»?",
+          "question_text": "almak",
+          "options": ["брать / покупать", "закрывать", "видеть", "любить"],
+          "correct_index": 0,
+          "explain_ru": "Almak — брать (а также покупать).",
+          "audio": "tr/1-5/w08.mp3"
+        },
+        {
+          "id": "tr-1-5-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какая пара глаголов является антонимами?",
+          "question_text": "открывать ↔ закрывать",
+          "options": [
+            "açmak ↔ kapatmak",
+            "görmek ↔ okumak",
+            "almak ↔ sevmek",
+            "kitap ↔ defter"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Açmak — открывать, kapatmak — закрывать.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-5-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткую сцену и ответьте на вопрос:",
+          "passage": "Ben yeni telefonu görüyorum. Telefon çok güzel ama pahalı. Ben eski kitabı ve defteri alıyorum.",
+          "questions": [
+            {
+              "question_ru": "Что видит автор?",
+              "options": [
+                "новый телефон (yeni telefonu)",
+                "старый ключ",
+                "большую дверь",
+                "ручку"
+              ],
+              "correct_index": 0,
+              "accepted": ["новый телефон", "телефон"]
+            }
+          ],
+          "explain_ru": "Ben yeni telefonu görüyorum — Я вижу новый телефон.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-5-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните глагол «любить»:",
+          "target_text": "sevmek",
+          "translation_ru": "любить",
+          "example_text": "Ben çayı ve kahveyi seviyorum.",
+          "example_ru": "Я люблю чай и кофе.",
+          "explain_ru": "Sevmek требует винительного падежа (-ı/-i/-u/-ü).",
+          "audio": "tr/1-5/w09.mp3"
+        },
+        {
+          "id": "tr-1-5-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Почему в «Kalemi alıyorum» у слова kalem стоит окончание -i?",
+          "question_text": "Kalemi alıyorum.",
+          "options": [
+            "Речь идёт о конкретной (этой) ручке — прямое дополнение в винительном падеже",
+            "Потому что ручек много",
+            "Это вопрос",
+            "Это отрицание"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Аффикс -i указывает на конкретный предмет, на который направлено действие.",
+          "audio": null
+        },
+        {
+          "id": "tr-1-5-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «defter»:",
+          "question_text": "defter",
+          "options": ["тетрадь", "дверь", "ключ", "книга"],
+          "correct_index": 0,
+          "explain_ru": "Defter — тетрадь.",
+          "audio": "tr/1-5/w03.mp3"
+        },
+        {
+          "id": "tr-1-5-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте действия в том порядке, как в утренней истории («беру ключ → закрываю дверь → читаю книгу»):",
+          "items_shuffled": ["Kitabı okuyorum.", "Anahtarı alıyorum.", "Kapıyı kapatıyorum."],
+          "correct_order": ["Anahtarı alıyorum.", "Kapıyı kapatıyorum.", "Kitabı okuyorum."],
+          "explain_ru": "Сначала берём ключ (Anahtarı alıyorum), затем закрываем дверь (Kapıyı kapatıyorum) и читаем книгу (Kitabı okuyorum).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"
