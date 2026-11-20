@@ -83,16 +83,498 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-9-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Саймон говорит» (1/2): показывайте на себя и называйте части головы и лица:",
+          "target_text": "Bu benim başım. Bu gözüm. Bu kulağım. Bu burnum. Bu ağzım.",
+          "translation_ru": "Это моя голова. Это мой глаз. Это моё ухо. Это мой нос. Это мой рот.",
+          "explain_ru": "Baş → başım, göz → gözüm, kulak → kulağım (k → ğ). В словах burun и ağız выпадает вторая узкая гласная: burnum, ağzım.",
+          "audio": "tr/3-9/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-9-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Саймон говорит» (2/2): скажите про пальцы и ступни:",
+          "target_text": "Parmaklarım uzun. Ayaklarım küçük.",
+          "translation_ru": "Мои пальцы длинные. Мои ступни маленькие.",
+          "explain_ru": "Parmak → parmaklarım (мои пальцы), ayak → ayaklarım (мои ступни). Перед -lar согласная k не озвончается.",
+          "audio": "tr/3-9/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-9-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про руки, ноги и кисти рук (el, kol, bacak):",
+          "target_text": "Ellerim temiz. Kollarım ve bacaklarım uzun.",
+          "translation_ru": "Мои руки (кисти) чистые. Мои руки и ноги длинные.",
+          "explain_ru": "El — кисть руки, kol — рука (от плеча до кисти), bacak — нога (от бедра до ступни).",
+          "audio": "tr/3-9/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-9-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про белые зубы и длинную шею (diş и boyun):",
+          "target_text": "Dişlerim beyaz. Bu kuşun boynu çok uzun.",
+          "translation_ru": "Мои зубы белые. У этой птицы очень длинная шея.",
+          "explain_ru": "Diş — зуб; в слове boyun (шея) перед гласным выпадает u: boynum (моя шея), boynu (его/её шея).",
+          "audio": "tr/3-9/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-9-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите глаза и волосы друга:",
+          "target_text": "Arkadaşımın gözleri yeşil, saçları siyah.",
+          "translation_ru": "У моего друга глаза зелёные, волосы чёрные.",
+          "explain_ru": "Göz — глаз, gözleri — его/её глаза.",
+          "audio": "tr/3-9/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-9-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «На моей руке пять пальцев»:",
+          "target_text": "Bir elimde beş parmak var. İki elimde on parmak var.",
+          "translation_ru": "На одной моей руке пять пальцев. На двух моих руках десять пальцев.",
+          "explain_ru": "После числительного существительное стоит в единственном числе: beş parmak, on parmak.",
+          "audio": "tr/3-9/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-9-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите котёнка с маленьким носом и большими ушами:",
+          "target_text": "Bu kedinin küçük bir burnu ve büyük kulakları var.",
+          "translation_ru": "У этой кошки маленький нос и большие уши.",
+          "explain_ru": "Burun → burnu (её нос), kulak → kulakları (её уши).",
+          "audio": "tr/3-9/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-9-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите ребёнка вымыть руки перед завтраком (el и ağız):",
+          "target_text": "Kahvaltıdan önce ellerini ve ağzını yıka!",
+          "translation_ru": "Перед завтраком помой руки и рот!",
+          "explain_ru": "El → ellerini (твои руки, вин. падеж); ağız → ağzını (твой рот, вин. падеж).",
+          "audio": "tr/3-9/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-9-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Покажи на себе: что просят закрыть, открыть и показать?",
+          "transcript": "Gözünü kapat. Elini aç. Ayağını göster.",
+          "options": [
+            "Закрыть глаза, открыть руку (ладонь), показать ногу (ступню)",
+            "Закрыть рот, открыть глаза, показать ухо",
+            "Закрыть дверь, открыть окно, показать пальцы",
+            "Показать голову, открыть рот, закрыть уши"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Gözünü kapat (закрой глаз), elini aç (открой кисть руки), ayağını göster (покажи ступню).",
+          "audio": "tr/3-9/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-9-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «нос» в начальной форме:",
+          "transcript": "burun",
+          "accepted": [
+            "burun"
+          ],
+          "explain_ru": "Burun — нос (при склонении: burnum — мой нос).",
+          "audio": "tr/3-9/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-9-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «рот» в начальной форме:",
+          "transcript": "ağız",
+          "accepted": [
+            "ağız"
+          ],
+          "explain_ru": "Ağız — рот (пишется с ğ и ı без точки; мой рот — ağzım).",
+          "audio": "tr/3-9/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-9-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О каком животном идёт речь по описанию частей тела?",
+          "transcript": "Bu hayvanın boynu ve bacakları çok uzun, kulakları küçük.",
+          "options": [
+            "О животном с очень длинной шеей, длинными ногами и маленькими ушами",
+            "О животном с короткими ногами и огромными ушами",
+            "О животном без ног и с длинным носом",
+            "О животном с большими зубами и короткой шеей"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Boyun → boynu (шея), bacak → bacakları (ноги), kulak → kulakları (уши).",
+          "audio": "tr/3-9/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-9-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «шея» в начальной форме:",
+          "transcript": "boyun",
+          "accepted": [
+            "boyun"
+          ],
+          "explain_ru": "Boyun — шея (моя шея — boynum).",
+          "audio": "tr/3-9/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-9-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «палец»:",
+          "transcript": "parmak",
+          "accepted": [
+            "parmak"
+          ],
+          "explain_ru": "Parmak — палец.",
+          "audio": "tr/3-9/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-9-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что надевает ребёнок зимой?",
+          "transcript": "Hava soğuk! Başına şapka, ellerine eldiven, ayaklarına kalın çorap giyiyor.",
+          "options": [
+            "Шапку на голову, перчатки на руки, тёплые носки на ноги",
+            "Очки на глаза и галстук на шею",
+            "Рубашку на руки и обувь на пальцы",
+            "Пальто на плечи без перчаток"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Baş (голова) → başına, el (кисть руки) → ellerine, ayak (ступня) → ayaklarına.",
+          "audio": "tr/3-9/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-9-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «зуб»:",
+          "transcript": "diş",
+          "accepted": [
+            "diş"
+          ],
+          "explain_ru": "Diş — зуб.",
+          "audio": "tr/3-9/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-9-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Моё (1/5): образуйте форму «мой глаз» от слова «göz»:",
+          "source_text": "göz → ?",
+          "accepted": [
+            "gözüm",
+            "benim gözüm"
+          ],
+          "explain_ru": "После гласной ö добавляется аффикс -üm: göz → gözüm.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-9-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Моё (2/5): образуйте форму «моё ухо» от слова «kulak» (озвончение k → ğ):",
+          "source_text": "kulak → ?",
+          "accepted": [
+            "kulağım",
+            "benim kulağım"
+          ],
+          "explain_ru": "Перед гласной буква k озвончается в ğ: kulak + -ım → kulağım.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-9-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Моё (3/5): образуйте форму «мой нос» от слова «burun» (выпадение гласной!):",
+          "source_text": "burun → ?",
+          "accepted": [
+            "burnum",
+            "benim burnum"
+          ],
+          "explain_ru": "В двусложном слове burun при добавлении гласной выпадает второе u: burun + -um → burnum.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-9-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Моё (4/5): образуйте форму «мой рот» от слова «ağız» (выпадение гласной!):",
+          "source_text": "ağız → ?",
+          "accepted": [
+            "ağzım",
+            "benim ağzım"
+          ],
+          "explain_ru": "В слове ağız выпадает узкая гласная ı: ağız + -ım → ağzım.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-9-wr-05",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Моё (5/5): образуйте форму «мой зуб» от слова «diş»:",
+          "source_text": "diş → ?",
+          "accepted": [
+            "dişim",
+            "benim dişim"
+          ],
+          "explain_ru": "Diş + -im → dişim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-9-wr-06",
+          "type": "odd_one_out",
+          "origin": "source",
+          "prompt_ru": "Найди лишнее: какая часть тела НЕ находится на голове?",
+          "items": [
+            "baş",
+            "göz",
+            "kulak",
+            "ayak"
+          ],
+          "odd_index": 3,
+          "explain_ru": "Ayak — ступня (не на голове), а baş (голова), göz (глаз) и kulak (ухо) относятся к голове.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-9-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините части головы и лица с переводом:",
+          "pairs": [
+            {
+              "left": "baş",
+              "right": "голова"
+            },
+            {
+              "left": "göz",
+              "right": "глаз"
+            },
+            {
+              "left": "kulak",
+              "right": "ухо"
+            },
+            {
+              "left": "burun",
+              "right": "нос"
+            },
+            {
+              "left": "ağız",
+              "right": "рот"
+            },
+            {
+              "left": "diş",
+              "right": "зуб"
+            }
+          ],
+          "explain_ru": "Baş, göz, kulak, burun, ağız, diş.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-9-wr-08",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините остальные части тела с переводом:",
+          "pairs": [
+            {
+              "left": "boyun",
+              "right": "шея"
+            },
+            {
+              "left": "el",
+              "right": "кисть руки"
+            },
+            {
+              "left": "parmak",
+              "right": "палец"
+            },
+            {
+              "left": "kol",
+              "right": "рука"
+            },
+            {
+              "left": "bacak",
+              "right": "нога"
+            },
+            {
+              "left": "ayak",
+              "right": "ступня"
+            }
+          ],
+          "explain_ru": "Boyun, el, parmak, kol, bacak, ayak.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-9-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Робот. Прочитайте описание и ответьте на вопрос:",
+          "passage": "Robotun büyük bir başı var. İki gözü, iki kulağı ve bir burnu var. Kolları uzun, bacakları kısa.",
+          "questions": [
+            {
+              "question_ru": "Какие у робота ноги (bacakları)?",
+              "options": [
+                "Короткие (kısa)",
+                "Длинные (uzun)",
+                "Большие (büyük)",
+                "У робота нет ног"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "короткие",
+                "kısa"
+              ]
+            }
+          ],
+          "explain_ru": "Kolları uzun, bacakları kısa — Руки у него длинные, а ноги короткие.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-9-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слова с выпадением гласной на примере «burun»:",
+          "target_text": "burun",
+          "translation_ru": "нос",
+          "example_text": "Kardan adamın (у снеговика) turuncu bir burnu var.",
+          "example_ru": "У снеговика оранжевый нос.",
+          "explain_ru": "Три слова этого юнита теряют узкую гласную перед аффиксом на гласную: burun → burnum, ağız → ağzım, boyun → boynum.",
+          "audio": "tr/3-9/w04.mp3"
+        },
+        {
+          "id": "tr-3-9-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильную форму «моя шея» от слова «boyun»:",
+          "question_text": "boyun + -um → ?",
+          "options": [
+            "boynum",
+            "boyunum",
+            "boynım",
+            "boyunım"
+          ],
+          "correct_index": 0,
+          "explain_ru": "В слове boyun выпадает гласная u: boynum.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-9-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Чем отличаются турецкие слова «el» и «kol»?",
+          "question_text": "Выберите правильную пару значений:",
+          "options": [
+            "el — кисть руки, kol — рука (вся целиком)",
+            "el — нога, kol — ступня",
+            "el — палец, kol — ухо",
+            "el — рука целиком, kol — кисть руки"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Как и в английском (hand/arm): el — кисть руки, kol — рука; аналогично ayak — ступня, bacak — нога.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-9-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильную форму «моя ступня» от слова «ayak»:",
+          "question_text": "ayak + -ım → ?",
+          "options": [
+            "ayağım",
+            "ayakım",
+            "ayğım",
+            "ayağim"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Глухая согласная k между гласными озвончается в ğ: ayak → ayağım (аналогично bacak → bacağım, parmak → parmağım).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-9-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «bacak»?",
+          "question_text": "bacak",
+          "options": [
+            "нога",
+            "рука",
+            "шея",
+            "палец"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bacak — нога.",
+          "audio": "tr/3-9/w11.mp3"
+        },
+        {
+          "id": "tr-3-9-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "На какую часть тела надевают перчатки (eldiven)?",
+          "question_text": "eldiven ↔ ?",
+          "options": [
+            "el (кисть руки)",
+            "ayak (ступня)",
+            "baş (голова)",
+            "kulak (ухо)"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Слово eldiven (перчатки) прямо связано со словом el (кисть руки).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-9-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте загадку о животном и ответьте на вопрос:",
+          "passage": "Bu hayvan büyük ve gri. Büyük kulakları ve çok uzun bir burnu var. Dört kalın bacağı ve küçük gözleri var.",
+          "questions": [
+            {
+              "question_ru": "Какое животное описано в тексте?",
+              "options": [
+                "Слон (fil)",
+                "Кролик (tavşan)",
+                "Утка (ördek)",
+                "Кошка (kedi)"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "слон",
+                "fil"
+              ]
+            }
+          ],
+          "explain_ru": "Большие уши (büyük kulakları), очень длинный нос (çok uzun bir burnu), четыре толстые ноги (dört kalın bacağı) — это слон (fil).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,405 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-19-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Комментатор (1/2): озвучьте матч вслух:",
+          "target_text": "Maç başlıyor! Takımlar hazır. Gol! Takımımız kazanıyor!",
+          "translation_ru": "Матч начинается! Команды готовы. Гол! Наша команда побеждает!",
+          "explain_ru": "Maç — матч, takım — команда (takımımız — наша команда), gol — гол.",
+          "audio": "tr/3-19/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-19-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Комментатор (2/2): расскажите о любимых видах спорта:",
+          "target_text": "Futbol oynamayı seviyorum. Tenis oynamayı seviyorum.",
+          "translation_ru": "Я люблю играть в футбол. Я люблю играть в теннис.",
+          "explain_ru": "Конструкция -mayı/-meyi seviyorum означает «люблю (что делать)»: oynamayı seviyorum.",
+          "audio": "tr/3-19/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-19-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы ходите в спортзал три раза в неделю:",
+          "target_text": "Haftada üç kez spor salonuna gidiyorum.",
+          "translation_ru": "Три раза в неделю я хожу в спортзал.",
+          "explain_ru": "Spor salonu — спортзал (spor salonuna — в спортзал).",
+          "audio": "tr/3-19/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-19-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что утром у вас бег, а вечером тренировка:",
+          "target_text": "Sabah koşu yapıyorum, akşam antrenman var.",
+          "translation_ru": "Утром я бегаю (делаю пробежку), вечером тренировка.",
+          "explain_ru": "Koşu — бег, antrenman — тренировка.",
+          "audio": "tr/3-19/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-19-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что этот игрок очень быстрый и забил два гола (gol attı — забил гол):",
+          "target_text": "Bu oyuncu çok hızlı ve iki gol attı.",
+          "translation_ru": "Этот игрок очень быстрый и забил два гола.",
+          "explain_ru": "Oyuncu — игрок, gol atmak — забивать гол.",
+          "audio": "tr/3-19/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-19-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваша сестра любит волейбол и плавание:",
+          "target_text": "Kız kardeşim voleybol ve yüzme seviyor.",
+          "translation_ru": "Моя сестра любит волейбол и плавание.",
+          "explain_ru": "Voleybol — волейбол, yüzme — плавание.",
+          "audio": "tr/3-19/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-19-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что баскетбольная команда тренируется в спортзале:",
+          "target_text": "Basketbol takımı bugün spor salonunda antrenman yapıyor.",
+          "translation_ru": "Баскетбольная команда сегодня тренируется в спортзале.",
+          "explain_ru": "Basketbol takımı — баскетбольная команда, spor salonunda — в спортзале.",
+          "audio": "tr/3-19/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-19-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите друга, в какую команду он играет:",
+          "target_text": "Sen hangi takımda oynuyorsun? Ben futbol oyuncusuyum.",
+          "translation_ru": "В какой команде ты играешь? Я футбольный игрок.",
+          "explain_ru": "Takım — команда (takımda — в команде), oyuncu — игрок.",
+          "audio": "tr/3-19/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-19-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Расписание. Прослушайте запись (cumartesi günü — в субботу) и ответьте: когда матч и где играют баскетболисты?",
+          "transcript": "Antrenman saat altıda. Maç cumartesi günü. Basketbol takımı spor salonunda oynuyor.",
+          "options": [
+            "В субботу; в спортзале",
+            "В пятницу; на улице",
+            "В шесть утра; в бассейне",
+            "В воскресенье; в школе"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Maç cumartesi günü (матч в субботу); basketbol takımı spor salonunda oynuyor (играют в спортзале).",
+          "audio": "tr/3-19/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-19-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «тренировка»:",
+          "transcript": "antrenman",
+          "accepted": ["antrenman"],
+          "explain_ru": "Antrenman — тренировка.",
+          "audio": "tr/3-19/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-19-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «игрок»:",
+          "transcript": "oyuncu",
+          "accepted": ["oyuncu"],
+          "explain_ru": "Oyuncu — игрок (от oyun — игра + -cu).",
+          "audio": "tr/3-19/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-19-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какими видами спорта занимается Зейнеп?",
+          "transcript": "Zeynep yüzme ve koşu yapıyor, hafta sonları da arkadaşlarıyla tenis oynuyor.",
+          "options": [
+            "Плаванием, бегом и по выходным теннисом",
+            "Футболом и баскетболом",
+            "Только волейболом в спортзале",
+            "Только бегом по вечерам"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yüzme (плавание), koşu (бег), tenis (теннис).",
+          "audio": "tr/3-19/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-19-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «команда»:",
+          "transcript": "takım",
+          "accepted": ["takım"],
+          "explain_ru": "Takım — команда (вторая гласная ı без точки).",
+          "audio": "tr/3-19/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-19-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «бег»:",
+          "transcript": "koşu",
+          "accepted": ["koşu"],
+          "explain_ru": "Koşu — бег, пробежка (от koşmak — бежать).",
+          "audio": "tr/3-19/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-19-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что произошло на футбольном матче (harika — отличный)?",
+          "transcript": "Bugün büyük futbol maçı vardı. Bizim oyuncu harika bir gol attı ve takımımız kazandı.",
+          "options": [
+            "Игрок забил отличный гол, и наша команда победила",
+            "Матч отменили из-за дождя",
+            "Команда проиграла в волейбол",
+            "Тренировка закончилась рано"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Oyuncu — игрок, gol attı — забил гол, takımımız kazandı — наша команда победила.",
+          "audio": "tr/3-19/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-19-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «матч»:",
+          "transcript": "maç",
+          "accepted": ["maç"],
+          "explain_ru": "Maç — матч (на конце ç).",
+          "audio": "tr/3-19/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-19-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → слово (1/5): напишите вид спорта по эмодзи ⚽:",
+          "source_text": "⚽ → ?",
+          "accepted": ["futbol"],
+          "explain_ru": "Futbol — футбол.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-19-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → слово (2/5): напишите вид спорта по эмодзи 🏀:",
+          "source_text": "🏀 → ?",
+          "accepted": ["basketbol"],
+          "explain_ru": "Basketbol — баскетбол.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-19-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → слово (3/5): напишите вид спорта по эмодзи 🏐:",
+          "source_text": "🏐 → ?",
+          "accepted": ["voleybol"],
+          "explain_ru": "Voleybol — волейбол.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-19-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → слово (4/5): напишите вид спорта по эмодзи 🎾:",
+          "source_text": "🎾 → ?",
+          "accepted": ["tenis"],
+          "explain_ru": "Tenis — теннис (в турецком пишется с одной n).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-19-wr-05",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → слово (5/5): напишите вид спорта по эмодзи 🏊:",
+          "source_text": "🏊 → ?",
+          "accepted": ["yüzme"],
+          "explain_ru": "Yüzme — плавание (от глагола yüzmek — плавать).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-19-wr-06",
+          "type": "odd_one_out",
+          "origin": "source",
+          "prompt_ru": "Найдите лишнее (не вид спорта):",
+          "items": ["futbol", "basketbol", "voleybol", "gol"],
+          "odd_index": 3,
+          "explain_ru": "Gol — гол (игровое событие), а futbol, basketbol и voleybol — виды спорта.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-19-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините спортивные слова с переводом:",
+          "pairs": [
+            { "left": "koşu", "right": "бег" },
+            { "left": "oyuncu", "right": "игрок" },
+            { "left": "antrenman", "right": "тренировка" },
+            { "left": "spor salonu", "right": "спортзал" }
+          ],
+          "explain_ru": "Koşu, oyuncu, antrenman, spor salonu.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-19-wr-08",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Кубики: соберите предложение «Наша команда выигрывает матч»:",
+          "source_text": "Наша команда выигрывает матч.",
+          "bank": ["kazanıyor", "takımımız", "maçı"],
+          "accepted": ["Takımımız maçı kazanıyor"],
+          "explain_ru": "Takımımız maçı kazanıyor (maç + винительный падеж -ı → maçı).",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-19-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Мой спорт. Прочитайте текст и ответьте на вопросы:",
+          "passage": "Ben her hafta üç kez antrenman yapıyorum. Sabahları koşuyorum, akşamları spor salonuna gidiyorum. Takımımızla hafta sonu maç oynuyoruz.",
+          "questions": [
+            {
+              "question_ru": "Сколько тренировок в неделю у рассказчика?",
+              "options": [
+                "три (üç kez)",
+                "две (iki kez)",
+                "пять (beş kez)",
+                "одна (bir kez)"
+              ],
+              "correct_index": 0,
+              "accepted": ["три", "3", "три раза", "üç", "üç kez"]
+            },
+            {
+              "question_ru": "Когда команда играет матч?",
+              "options": [
+                "в выходные (hafta sonu)",
+                "утром в понедельник",
+                "каждый вечер",
+                "в пятницу днём"
+              ],
+              "correct_index": 0,
+              "accepted": ["в выходные", "на выходных", "hafta sonu"]
+            }
+          ],
+          "explain_ru": "Her hafta üç kez antrenman yapıyorum (три тренировки в неделю); hafta sonu maç oynuyoruz (матч в выходные).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-19-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните выражение «spor salonu»:",
+          "target_text": "spor salonu",
+          "translation_ru": "спортзал",
+          "example_text": "Yeni spor salonu evime çok yakın.",
+          "example_ru": "Новый спортзал очень близко к моему дому.",
+          "explain_ru": "Spor salonu — изафетная конструкция: salon + аффикс принадлежности -u (зал спорта).",
+          "audio": "tr/3-19/w12.mp3"
+        },
+        {
+          "id": "tr-3-19-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «oyuncu»:",
+          "question_text": "oyuncu",
+          "options": ["игрок", "команда", "тренировка", "гол"],
+          "correct_index": 0,
+          "explain_ru": "Oyuncu — игрок.",
+          "audio": "tr/3-19/w09.mp3"
+        },
+        {
+          "id": "tr-3-19-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «koşu»:",
+          "question_text": "koşu",
+          "options": ["бег", "плавание", "теннис", "волейбол"],
+          "correct_index": 0,
+          "explain_ru": "Koşu — бег.",
+          "audio": "tr/3-19/w06.mp3"
+        },
+        {
+          "id": "tr-3-19-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какой вид спорта проходит в воде?",
+          "question_text": "Suda yapılan spor (спорт в воде):",
+          "options": ["yüzme", "basketbol", "voleybol", "tenis"],
+          "correct_index": 0,
+          "explain_ru": "Yüzme — плавание.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-19-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте объявление спортивного клуба и ответьте на вопрос:",
+          "passage": "Kulübümüzde futbol, basketbol ve voleybol takımları var. Genç oyuncular pazartesi ve çarşamba günleri antrenman yapıyor. Tenis kursumuz (курс) da başlıyor!",
+          "questions": [
+            {
+              "question_ru": "По каким дням тренируются молодые игроки?",
+              "options": [
+                "по понедельникам и средам (pazartesi ve çarşamba)",
+                "по субботам и воскресеньям",
+                "каждый день утром",
+                "только по пятницам"
+              ],
+              "correct_index": 0,
+              "accepted": ["по понедельникам и средам", "понедельник и среда", "pazartesi ve çarşamba"]
+            }
+          ],
+          "explain_ru": "Pazartesi ve çarşamba günleri antrenman yapıyor — Тренируются по понедельникам и средам.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-19-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «takım»:",
+          "question_text": "takım",
+          "options": ["команда", "матч", "спортзал", "игрок"],
+          "correct_index": 0,
+          "explain_ru": "Takım — команда.",
+          "audio": "tr/3-19/w07.mp3"
+        },
+        {
+          "id": "tr-3-19-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что кричат болельщики, когда мяч влетает в ворота?",
+          "question_text": "Top kaleye (в ворота) girdi!",
+          "options": ["Gol!", "Koşu!", "Yüzme!", "Antrenman!"],
+          "correct_index": 0,
+          "explain_ru": "Gol! — Гол!",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

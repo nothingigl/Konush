@@ -83,16 +83,500 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-4-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Строгий воспитатель» (1/2): произнесите строгим голосом первые четыре запрета:",
+          "target_text": "Dokunma! Bağırma! Ağlama! Acele etme!",
+          "translation_ru": "Не трогай! Не кричи! Не плачь! Не спеши!",
+          "explain_ru": "Запрет на «ты» образуется просто: уберите -k от инфинитива (-mak → -ma, -mek → -me): dokunmak → dokunma, bağırmak → bağırma, ağlamak → ağlama, acele etmek → acele etme.",
+          "audio": "tr/3-4/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-4-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Строгий воспитатель» (2/2): скажите строго, а затем мягко успокойте:",
+          "target_text": "Yalan söyleme! Vazgeçme! Merak etme. Endişelenme.",
+          "translation_ru": "Не ври! Не сдавайся (не отказывайся)! Не волнуйся. Не переживай.",
+          "explain_ru": "Yalan söyleme (не говори ложь), vazgeçmek → vazgeçme (не отказывайся), merak etmek → merak etme (не волнуйся), endişelenmek → endişelenme (не переживай).",
+          "audio": "tr/3-4/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-4-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Предупредите человека на улице (dur и dikkat):",
+          "target_text": "Dur! Dikkat et, araba geliyor!",
+          "translation_ru": "Стой! Осторожно (будь внимателен), едет машина!",
+          "explain_ru": "Dur! — Стой! Dikkat et! — Осторожно! (букв. «обрати внимание»).",
+          "audio": "tr/3-4/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-4-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Успокойте друга: «Не паникуй, это просто шутка!»",
+          "target_text": "Telaş etme! Bu sadece bir şaka.",
+          "translation_ru": "Не паникуй! Это просто шутка.",
+          "explain_ru": "Telaş — паника (telaş etme — не паникуй), şaka — шутка.",
+          "audio": "tr/3-4/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-4-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Предупредите о горячем стакане:",
+          "target_text": "Dikkat! Bu bardak çok sıcak, dokunma!",
+          "translation_ru": "Осторожно! Этот стакан очень горячий, не трогай!",
+          "explain_ru": "Dikkat — осторожно; dokunma — не трогай (от dokunmak).",
+          "audio": "tr/3-4/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-4-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите ребёнка не кричать и не плакать:",
+          "target_text": "Lütfen bağırma ve ağlama. Her şey yolunda.",
+          "translation_ru": "Пожалуйста, не кричи и не плачь. Всё в порядке.",
+          "explain_ru": "Bağırmak → bağırma (не кричи), ağlamak → ağlama (не плачь).",
+          "audio": "tr/3-4/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-4-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Поддержите друга перед экзаменом:",
+          "target_text": "Acele etme ve hedeflerinden vazgeçme!",
+          "translation_ru": "Не спеши и не отказывайся от своих целей!",
+          "explain_ru": "Acele etme (не спеши) и vazgeçme (не сдавайся, не отказывайся; с исходным падежом -den).",
+          "audio": "tr/3-4/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-4-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите вежливо на «вы» не волноваться и не переживать:",
+          "target_text": "Merak etmeyin, endişelenmeyin. Vaktimiz var.",
+          "translation_ru": "Не волнуйтесь, не переживайте. У нас есть время.",
+          "explain_ru": "Вежливый запрет на «вы» образуется добавлением -yın/-yin: merak etmeyin, endişelenmeyin.",
+          "audio": "tr/3-4/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-4-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Тревога или утешение? Какие фразы в записи успокаивают собеседника?",
+          "transcript": "Dur! Dikkat et! Ağlama, merak etme. Her şey yolunda.",
+          "options": [
+            "Ağlama, merak etme (Не плачь, не волнуйся)",
+            "Dur! Dikkat et! (Стой! Осторожно!)",
+            "Только слово Dur!",
+            "Все фразы выражают тревогу"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Dur! Dikkat et! — предупреждение об опасности, а Ağlama, merak etme (и Her şey yolunda — всё в порядке) — утешение.",
+          "audio": "tr/3-4/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-4-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «осторожно»:",
+          "transcript": "dikkat",
+          "accepted": [
+            "dikkat"
+          ],
+          "explain_ru": "Dikkat — осторожно, внимание (пишется с двумя k).",
+          "audio": "tr/3-4/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-4-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «ложь»:",
+          "transcript": "yalan",
+          "accepted": [
+            "yalan"
+          ],
+          "explain_ru": "Yalan — ложь (yalan söyleme — не ври).",
+          "audio": "tr/3-4/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-4-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что запрещают делать в музее?",
+          "transcript": "Müzede yüksek sesle bağırma ve eski eşyalara dokunma!",
+          "options": [
+            "Кричать и трогать старые вещи",
+            "Плакать и спешить",
+            "Шутить и говорить ложь",
+            "Входить внутрь и смотреть"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bağırma (не кричи, от bağırmak), dokunma (не трогай, от dokunmak).",
+          "audio": "tr/3-4/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-4-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «шутка»:",
+          "transcript": "şaka",
+          "accepted": [
+            "şaka"
+          ],
+          "explain_ru": "Şaka — шутка.",
+          "audio": "tr/3-4/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-4-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «паника»:",
+          "transcript": "telaş",
+          "accepted": [
+            "telaş"
+          ],
+          "explain_ru": "Telaş — паника, суета (telaş etme — не паникуй).",
+          "audio": "tr/3-4/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-4-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что советует друг в этой записи?",
+          "transcript": "Türkçe zor değil, sakın vazgeçme! Acele etme, her gün biraz çalış.",
+          "options": [
+            "Не сдаваться, не спешить и заниматься понемногу каждый день",
+            "Отказаться от турецкого, потому что он слишком трудный",
+            "Спешить и выучить всё за один день",
+            "Не разговаривать по-турецки"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Vazgeçme — не отказывайся/не сдавайся (от vazgeçmek); acele etme — не спеши (от acele etmek).",
+          "audio": "tr/3-4/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-4-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите команду «Стой!»:",
+          "transcript": "Dur!",
+          "accepted": [
+            "Dur"
+          ],
+          "explain_ru": "Dur — стой! (от глагола durmak — стоять, останавливаться).",
+          "audio": "tr/3-4/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-4-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Запрет (1/5): образуйте форму «не делай!» от глагола «yapmak»:",
+          "source_text": "yapmak → ?",
+          "accepted": [
+            "yapma"
+          ],
+          "explain_ru": "Yapmak → уберите -k → yapma (не делай).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-4-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Запрет (2/5): образуйте форму «не уходи / не иди!» от глагола «gitmek»:",
+          "source_text": "gitmek → ?",
+          "accepted": [
+            "gitme"
+          ],
+          "explain_ru": "Gitmek → gitme (не иди).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-4-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Запрет (3/5): образуйте форму «не плачь!» от глагола «ağlamak»:",
+          "source_text": "ağlamak → ?",
+          "accepted": [
+            "ağlama"
+          ],
+          "explain_ru": "Ağlamak → ağlama (не плачь).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-4-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Запрет (4/5): образуйте форму «не трогай!» от глагола «dokunmak»:",
+          "source_text": "dokunmak → ?",
+          "accepted": [
+            "dokunma"
+          ],
+          "explain_ru": "Dokunmak → dokunma (не трогай).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-4-wr-05",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Запрет (5/5): образуйте форму «не спеши!» от глагола «acele etmek»:",
+          "source_text": "acele etmek → ?",
+          "accepted": [
+            "acele etme"
+          ],
+          "explain_ru": "Acele etmek → acele etme (не спеши).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-4-wr-06",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → запрет: соедините каждый эмодзи с подходящим запретом:",
+          "pairs": [
+            {
+              "left": "✋",
+              "right": "Dokunma!"
+            },
+            {
+              "left": "😢",
+              "right": "Ağlama!"
+            },
+            {
+              "left": "📢",
+              "right": "Bağırma!"
+            }
+          ],
+          "explain_ru": "✋ Dokunma! (Не трогай!), 😢 Ağlama! (Не плачь!), 📢 Bağırma! (Не кричи!).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-4-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы юнита с их русским переводом:",
+          "pairs": [
+            {
+              "left": "acele etmek",
+              "right": "спешить"
+            },
+            {
+              "left": "ağlamak",
+              "right": "плакать"
+            },
+            {
+              "left": "bağırmak",
+              "right": "кричать"
+            },
+            {
+              "left": "dokunmak",
+              "right": "трогать"
+            },
+            {
+              "left": "merak etmek",
+              "right": "волноваться"
+            },
+            {
+              "left": "endişelenmek",
+              "right": "переживать"
+            }
+          ],
+          "explain_ru": "Запомните инфинитивы: чтобы сделать запрет на «ты», просто уберите -k.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-4-wr-08",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините остальные слова юнита с переводом:",
+          "pairs": [
+            {
+              "left": "dikkat",
+              "right": "осторожно"
+            },
+            {
+              "left": "dur",
+              "right": "стой"
+            },
+            {
+              "left": "yalan",
+              "right": "ложь"
+            },
+            {
+              "left": "şaka",
+              "right": "шутка"
+            },
+            {
+              "left": "telaş",
+              "right": "паника"
+            },
+            {
+              "left": "vazgeçmek",
+              "right": "отказаться"
+            }
+          ],
+          "explain_ru": "Dikkat, dur, yalan, şaka, telaş, vazgeçmek.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-4-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Первый день на работе. Прочитайте слова директора и ответьте на вопрос:",
+          "passage": "Müdür diyor ki: «Telaş etme. Acele etme. Dikkat et! Ama endişelenme, herkes yardım edecek.»",
+          "questions": [
+            {
+              "question_ru": "Что директор запрещает делать?",
+              "options": [
+                "Паниковать и спешить (и переживать)",
+                "Помогать коллегам и быть внимательным",
+                "Говорить правду и спрашивать",
+                "Приходить на работу вовремя"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "паниковать и спешить",
+                "не паниковать, не спешить"
+              ]
+            }
+          ],
+          "explain_ru": "Telaş etme (не паникуй), acele etme (не спеши), endişelenme (не переживай). Herkes yardım edecek — все помогут.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-4-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните полезную фразу утешения с глаголом «merak etmek»:",
+          "target_text": "merak etmek",
+          "translation_ru": "волноваться",
+          "example_text": "Merak etme, yarın erken geleceğim.",
+          "example_ru": "Не волнуйся, завтра я приду рано.",
+          "explain_ru": "Merak etme (на «ты») и Merak etmeyin (на «вы») — одна из самых частых фраз в турецком.",
+          "audio": "tr/3-4/w10.mp3"
+        },
+        {
+          "id": "tr-3-4-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать «Не отказывайся / не сдавайся!» от глагола vazgeçmek?",
+          "question_text": "vazgeçmek → ?",
+          "options": [
+            "Vazgeçme!",
+            "Vazgeçma!",
+            "Vazgeçmiyor!",
+            "Vazgeç değil!"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Убираем -k от vazgeçmek → vazgeçme!",
+          "audio": null
+        },
+        {
+          "id": "tr-3-4-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «şaka»?",
+          "question_text": "şaka",
+          "options": [
+            "шутка",
+            "ложь",
+            "паника",
+            "осторожно"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Şaka — шутка (yalan — ложь, telaş — паника).",
+          "audio": "tr/3-4/w08.mp3"
+        },
+        {
+          "id": "tr-3-4-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как перевести «Yalan söyleme!»?",
+          "question_text": "Yalan söyleme!",
+          "options": [
+            "Не ври!",
+            "Не шути!",
+            "Не кричи!",
+            "Не плачь!"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yalan — ложь, söylemek — говорить → yalan söyleme — не говори ложь (не ври).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-4-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильный перевод глагола «endişelenmek»:",
+          "question_text": "endişelenmek",
+          "options": [
+            "переживать",
+            "кричать",
+            "трогать",
+            "спешить"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Endişelenmek — переживать, тревожиться (endişelenme — не переживай).",
+          "audio": "tr/3-4/w11.mp3"
+        },
+        {
+          "id": "tr-3-4-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какой запрет образован от глагола «bağırmak»?",
+          "question_text": "bağırmak → ?",
+          "options": [
+            "Bağırma!",
+            "Bağırme!",
+            "Bağır değil!",
+            "Bağırmıyor!"
+          ],
+          "correct_index": 0,
+          "explain_ru": "От bağırmak (кричать) убираем -k → Bağırma! (Не кричи!).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-4-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий диалог и ответьте на вопрос:",
+          "passage": "— Dur! Masadaki sıcak çorbaya dokunma! — Tamam (ладно), dikkat ediyorum. Şaka yapıyorum, merak etme.",
+          "questions": [
+            {
+              "question_ru": "Чего нельзя трогать на столе?",
+              "options": [
+                "Горячий суп",
+                "Холодный чай",
+                "Новую книгу",
+                "Ключи"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "горячий суп",
+                "суп"
+              ]
+            }
+          ],
+          "explain_ru": "Sıcak çorbaya dokunma — не трогай горячий суп.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

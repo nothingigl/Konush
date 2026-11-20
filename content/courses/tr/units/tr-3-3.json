@@ -83,16 +83,520 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-3-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Всё или ничего» (1/2): произнесите контрастные пары с her şey, hiçbir şey и hiç kimse:",
+          "target_text": "Her şey var. Hiçbir şey yok. Herkes burada. Hiç kimse yok.",
+          "translation_ru": "Всё есть. Ничего нет. Все здесь. Никого нет.",
+          "explain_ru": "Отрицательные местоимения hiçbir şey (ничего) и hiç kimse (никто) в турецком всегда требуют отрицательного сказуемого (yok / -ma-).",
+          "audio": "tr/3-3/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-3-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Всё или ничего» (2/2): произнесите пару про места и добавьте ещё одну пару с bütün и hiçbiri:",
+          "target_text": "Her yerde arıyorum. Hiçbir yerde yok. Bütün kitaplar burada. Hiçbiri yok.",
+          "translation_ru": "Ищу везде. Нигде нет. Все книги здесь. Ни одной нет.",
+          "explain_ru": "Her yer (везде) → her yerde; hiçbir yer (нигде/никуда) → hiçbir yerde. Bütün — весь/все, hiçbiri — ни один.",
+          "audio": "tr/3-3/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-3-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы никогда не опаздываете (с hiçbir zaman):",
+          "target_text": "Ben hiçbir zaman geç kalmıyorum.",
+          "translation_ru": "Я никогда не опаздываю.",
+          "explain_ru": "Hiçbir zaman — никогда. Глагол обязательно стоит в отрицательной форме (kalmıyorum).",
+          "audio": "tr/3-3/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-3-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите о чём-то, ком-то и где-то (bir şey, biri, bir yer):",
+          "target_text": "Çantada bir şey var. Kapıda biri bekliyor. Anahtar bir yerde.",
+          "translation_ru": "В сумке что-то есть. У двери кто-то ждёт. Ключ где-то (лежит).",
+          "explain_ru": "Bir şey — что-то, biri — кто-то, bir yer — где-то (bir yerde — в каком-то месте).",
+          "audio": "tr/3-3/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-3-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Сравните «некоторые» (bazı) и «весь/все» (bütün):",
+          "target_text": "Bazı öğrenciler burada, ama bütün sınıf henüz gelmedi.",
+          "translation_ru": "Некоторые ученики здесь, но весь класс ещё не пришёл.",
+          "explain_ru": "После bazı существительное обычно во множественном числе (bazı öğrenciler), а bütün значит «весь» (bütün sınıf — весь класс; sınıf — класс).",
+          "audio": "tr/3-3/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-3-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что никто не знает ответа и ни один друг не звонил:",
+          "target_text": "Hiç kimse cevabı bilmiyor. Arkadaşlarımın hiçbiri telefon etmedi.",
+          "translation_ru": "Никто не знает ответа. Ни один из моих друзей не позвонил.",
+          "explain_ru": "Hiç kimse — никто; hiçbiri — ни один (из них).",
+          "audio": "tr/3-3/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-3-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы весь день искали очки везде:",
+          "target_text": "Bütün gün gözlüğümü her yerde aradım.",
+          "translation_ru": "Весь день я искал свои очки везде.",
+          "explain_ru": "Bütün gün — весь день, her yerde — везде.",
+          "audio": "tr/3-3/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-3-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я хочу пойти в тихое место, где нет никого»:",
+          "target_text": "Ben sakin bir yere gitmek istiyorum. Orada hiç kimse yok.",
+          "translation_ru": "Я хочу пойти в тихое место. Там никого нет.",
+          "explain_ru": "Bir yer + дательный падеж -e → bir yere (куда-то, в какое-то место).",
+          "audio": "tr/3-3/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-3-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Пустой дом: есть ли кто-то дома и куда идёт говорящий?",
+          "transcript": "Evde kimse yok. Mutfakta hiçbir şey yok. Ben hiçbir yere gitmiyorum.",
+          "options": [
+            "Дома никого нет; говорящий никуда не идёт",
+            "Дома кто-то есть; говорящий идёт в магазин",
+            "Дома вся семья; на кухне много еды",
+            "Дома никого нет; говорящий идёт на кухню"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Evde kimse yok (дома никого нет), hiçbir yere gitmiyorum (никуда не иду).",
+          "audio": "tr/3-3/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-3-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите выражение «никогда» (два слова):",
+          "transcript": "hiçbir zaman",
+          "accepted": [
+            "hiçbir zaman"
+          ],
+          "explain_ru": "Hiçbir zaman — никогда (hiçbir пишется слитно, zaman — отдельно).",
+          "audio": "tr/3-3/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-3-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что произошло с книгами?",
+          "transcript": "Masada üç kitap vardı ama ben hiçbirini beğenmedim.",
+          "options": [
+            "На столе было три книги, но ни одна не понравилась",
+            "Он купил все три книги со стола",
+            "На столе не было ни одной книги",
+            "Ему понравились некоторые книги"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hiçbiri — ни один; в винительном падеже hiçbirini (ни одну из них).",
+          "audio": "tr/3-3/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-3-ls-04",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «некоторые»:",
+          "transcript": "bazı",
+          "accepted": [
+            "bazı"
+          ],
+          "explain_ru": "Bazı — некоторые (пишется с ı без точки).",
+          "audio": "tr/3-3/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-3-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «весь»:",
+          "transcript": "bütün",
+          "accepted": [
+            "bütün"
+          ],
+          "explain_ru": "Bütün — весь, целый (обе гласные — ü).",
+          "audio": "tr/3-3/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-3-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кто звонил говорящему?",
+          "transcript": "Az önce biri beni aradı ama adını duymadım.",
+          "options": [
+            "Только что кто-то позвонил, но имя он не расслышал",
+            "Никто не звонил весь день",
+            "Позвонил Али и сказал своё имя",
+            "Все друзья позвонили одновременно"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Biri — кто-то; az önce — только что; duymadım — не услышал.",
+          "audio": "tr/3-3/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-3-ls-07",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите выражение «всё» (два слова):",
+          "transcript": "her şey",
+          "accepted": [
+            "her şey"
+          ],
+          "explain_ru": "Her şey — всё (в турецком şey всегда пишется отдельно!).",
+          "audio": "tr/3-3/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-3-ls-08",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какая погода сегодня по всему городу?",
+          "transcript": "Bugün her yer çok güzel, güneş parlıyor. Bazı sokaklar kalabalık.",
+          "options": [
+            "Везде очень красиво, светит солнце, на некоторых улицах людно",
+            "Нигде нет солнца, везде идёт дождь",
+            "Все улицы пустые, никого нет",
+            "Где-то идёт снег"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Her yer — везде; bazı sokaklar — некоторые улицы.",
+          "audio": "tr/3-3/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-3-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Подбери слово (1/4): вставьте слово со значением «никого» в «Evde ___ yok»:",
+          "source_text": "Evde ___ yok («никого»)",
+          "accepted": [
+            "kimse",
+            "hiç kimse",
+            "Evde kimse yok",
+            "Evde hiç kimse yok"
+          ],
+          "explain_ru": "Evde kimse yok (или Evde hiç kimse yok) — Дома никого нет.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-3-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Подбери слово (2/4): вставьте «ничего» в «Çantada ___ yok»:",
+          "source_text": "Çantada ___ yok («ничего»)",
+          "accepted": [
+            "hiçbir şey",
+            "Çantada hiçbir şey yok"
+          ],
+          "explain_ru": "Hiçbir şey — ничего. Çantada hiçbir şey yok — В сумке ничего нет.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-3-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Подбери слово (3/4): вставьте слово в «Ben ___ yere gitmiyorum» («Я никуда не иду»):",
+          "source_text": "Ben ___ yere gitmiyorum («никуда»)",
+          "accepted": [
+            "hiçbir",
+            "Ben hiçbir yere gitmiyorum"
+          ],
+          "explain_ru": "Hiçbir yer — нигде/никуда. С дательным падежом: hiçbir yere gitmiyorum.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-3-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Подбери слово (4/4): вставьте слово в «___ şey var» («Что-то есть»):",
+          "source_text": "___ şey var («что-то»)",
+          "accepted": [
+            "Bir",
+            "Bir şey var"
+          ],
+          "explain_ru": "Bir şey — что-то. Bir şey var — Что-то есть.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-3-wr-05",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Я никуда не ходил»:",
+          "source_text": "Я никуда не ходил.",
+          "bank": [
+            "gitmedim",
+            "hiçbir",
+            "yere",
+            "ben"
+          ],
+          "accepted": [
+            "Ben hiçbir yere gitmedim"
+          ],
+          "explain_ru": "Ben hiçbir yere gitmedim — Я никуда не ходил.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-3-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините отрицательные местоимения и «всё» с переводом:",
+          "pairs": [
+            {
+              "left": "hiçbir şey",
+              "right": "ничего"
+            },
+            {
+              "left": "hiç kimse",
+              "right": "никто"
+            },
+            {
+              "left": "hiçbir yer",
+              "right": "нигде/никуда"
+            },
+            {
+              "left": "hiçbir zaman",
+              "right": "никогда"
+            },
+            {
+              "left": "hiçbiri",
+              "right": "ни один"
+            },
+            {
+              "left": "her şey",
+              "right": "всё"
+            }
+          ],
+          "explain_ru": "Обратите внимание: hiçbir пишется слитно, а şey, yer, zaman — отдельно; hiçbiri — одно слово.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-3-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините неопределённые и определительные слова с переводом:",
+          "pairs": [
+            {
+              "left": "her yer",
+              "right": "везде"
+            },
+            {
+              "left": "bir şey",
+              "right": "что-то"
+            },
+            {
+              "left": "biri",
+              "right": "кто-то"
+            },
+            {
+              "left": "bir yer",
+              "right": "где-то"
+            },
+            {
+              "left": "bazı",
+              "right": "некоторые"
+            },
+            {
+              "left": "bütün",
+              "right": "весь"
+            }
+          ],
+          "explain_ru": "Her yer, bir şey, biri, bir yer, bazı, bütün.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-3-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: со словом «hiçbir zaman» глагол должен быть в отрицательной форме:",
+          "buggy_text": "Ben hiçbir zaman kahve içiyorum.",
+          "accepted": [
+            "Ben hiçbir zaman kahve içmiyorum."
+          ],
+          "explain_ru": "В турецком со словами hiçbir zaman, hiçbir şey, hiç kimse глагол обязательно стоит в отрицании: içmiyorum.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-3-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Куда делся ключ? Прочитайте историю и ответьте на вопросы:",
+          "passage": "Ayşe anahtarını arıyor. Çantada hiçbir şey yok. Kimse anahtarı görmedi. Sonunda (наконец) biri anahtarı masada buluyor.",
+          "questions": [
+            {
+              "question_ru": "Кто нашёл ключ?",
+              "options": [
+                "Кто-то (biri)",
+                "Никто (hiç kimse)",
+                "Али",
+                "Мама Айше"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "кто-то",
+                "biri"
+              ]
+            },
+            {
+              "question_ru": "Где нашли ключ?",
+              "options": [
+                "На столе (masada)",
+                "В сумке (çantada)",
+                "На улице (sokakta)",
+                "В машине (arabada)"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "на столе",
+                "masada"
+              ]
+            }
+          ],
+          "explain_ru": "Sonunda biri anahtarı masada buluyor — Наконец кто-то находит ключ на столе.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-3-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните двойное отрицание со словом «hiçbiri»:",
+          "target_text": "hiçbiri",
+          "translation_ru": "ни один",
+          "example_text": "Bu filmlerin hiçbiri komik değil.",
+          "example_ru": "Ни один из этих фильмов не смешной.",
+          "explain_ru": "Hiçbiri всегда сочетается с отрицанием (değil, yok или глагол с -ma/-me).",
+          "audio": "tr/3-3/w05.mp3"
+        },
+        {
+          "id": "tr-3-3-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое предложение написано грамматически правильно?",
+          "question_text": "Выберите правильный перевод «Никто не пришёл»:",
+          "options": [
+            "Hiç kimse gelmedi.",
+            "Hiç kimse geldi.",
+            "Biri gelmedi hiç.",
+            "Herkes gelmedi yok."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hiç kimse (никто) всегда требует отрицательного глагола: gelmedi.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-3-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильный перевод слова «bir yer»:",
+          "question_text": "bir yer",
+          "options": [
+            "где-то",
+            "везде",
+            "нигде/никуда",
+            "кто-то"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bir yer — где-то, какое-то место (her yer — везде, hiçbir yer — нигде/никуда).",
+          "audio": "tr/3-3/w10.mp3"
+        },
+        {
+          "id": "tr-3-3-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое слово подходит в пропуск: «___ insanlar erken kalkıyor» («Некоторые люди встают рано»)?",
+          "question_text": "___ insanlar erken kalkıyor.",
+          "options": [
+            "Bazı",
+            "Hiçbiri",
+            "Biri",
+            "Her şey"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bazı — некоторые (bazı insanlar — некоторые люди).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-3-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает выражение «bütün gün»?",
+          "question_text": "bütün gün",
+          "options": [
+            "весь день",
+            "каждый раз",
+            "никогда",
+            "некоторые дни"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bütün — весь, целый; gün — день.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-3-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите антоним к выражению «her şey» («всё»):",
+          "question_text": "her şey ↔ ?",
+          "options": [
+            "hiçbir şey",
+            "bir şey",
+            "her yer",
+            "hiç kimse"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Her şey (всё) ↔ hiçbir şey (ничего).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-3-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку и ответьте на вопрос:",
+          "passage": "Bütün hafta çok çalıştım ve hiçbir yere gitmedim. Bazı günler hiç kimse ile konuşmadım. Şimdi güzel bir yer bulmak ve dinlenmek (отдыхать) istiyorum.",
+          "questions": [
+            {
+              "question_ru": "Куда ходил автор всю неделю?",
+              "options": [
+                "Никуда (hiçbir yere gitmedim)",
+                "В парк с друзьями",
+                "В разные места каждый день",
+                "К соседям"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "никуда",
+                "нигде не был"
+              ]
+            }
+          ],
+          "explain_ru": "Bütün hafta hiçbir yere gitmedim — Всю неделю я никуда не ходил.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

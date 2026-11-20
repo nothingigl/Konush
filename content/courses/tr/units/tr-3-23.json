@@ -83,16 +83,487 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-23-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Что может случиться? (1/2): произнесите три предположения с -abilir:",
+          "target_text": "Yarın yağmur yağabilir. Geç kalabilirim. Bu tehlikeli olabilir.",
+          "translation_ru": "Завтра может пойти дождь. Я могу опоздать. Это может быть опасно.",
+          "explain_ru": "Аффикс -abilir/-ebilir выражает не только умение, но и вероятность события: yağabilir (может пойти), olabilir (может быть).",
+          "audio": "tr/3-23/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-23-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Что может случиться? (2/2): скажите, что вероятно придёте завтра:",
+          "target_text": "Muhtemelen yarın gelirim.",
+          "translation_ru": "Вероятно, завтра я приду.",
+          "explain_ru": "Muhtemelen — вероятно, скорее всего.",
+          "audio": "tr/3-23/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-23-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Сравните «возможно» и «невозможно»:",
+          "target_text": "Bu mümkün ama şu tamamen imkânsız.",
+          "translation_ru": "Это возможно, а то совершенно невозможно.",
+          "explain_ru": "Mümkün — возможно, imkânsız — невозможно (пишется с â).",
+          "audio": "tr/3-23/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-23-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите о шансе на победу и о риске:",
+          "target_text": "Bizim büyük bir şansımız var ama biraz risk de var.",
+          "translation_ru": "У нас есть большой шанс, но есть и небольшой риск.",
+          "explain_ru": "Şans — шанс (şansımız — наш шанс), risk — риск.",
+          "audio": "tr/3-23/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-23-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Сравните безопасную и опасную дорогу:",
+          "target_text": "Bu yol güvenli. Dağ yolu kışın tehlikeli olabilir.",
+          "translation_ru": "Эта дорога безопасная. Горная дорога зимой может быть опасной.",
+          "explain_ru": "Güvenli — безопасный, tehlikeli — опасный.",
+          "audio": "tr/3-23/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-23-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Выскажите предположение со словами «думаю» и «наверное»:",
+          "target_text": "Sanırım Ali evde. Herhalde birazdan gelir.",
+          "translation_ru": "Думаю, Али дома. Наверное, он скоро придёт.",
+          "explain_ru": "Sanırım — думаю (полагаю), herhalde — наверное.",
+          "audio": "tr/3-23/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-23-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что есть вероятность дождя, но вы точно придёте:",
+          "target_text": "Yağmur ihtimali var ama yarın kesin geleceğim.",
+          "translation_ru": "Есть вероятность дождя, но завтра я точно приду.",
+          "explain_ru": "İhtimal — вероятность, kesin — точно.",
+          "audio": "tr/3-23/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-23-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух шесть ключевых слов вероятности:",
+          "target_text": "olabilir, muhtemelen, ihtimal, mümkün, imkânsız, kesin",
+          "translation_ru": "может быть, вероятно, вероятность, возможно, невозможно, точно",
+          "explain_ru": "Обратите внимание на мягкое произношение k перед â в слове imkânsız.",
+          "audio": "tr/3-23/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-23-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Шанс. Прослушайте запись и ответьте: что может случиться и что решил говорящий?",
+          "transcript": "Yarın kar yağabilir. Herhalde yol tehlikeli olur. Sanırım evde kalacağım.",
+          "options": [
+            "может пойти снег; говорящий решил остаться дома",
+            "будет солнечно; говорящий поедет в горы",
+            "пойдёт дождь; говорящий пойдёт в кино",
+            "дорога безопасная; говорящий поедет на работу"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kar yağabilir (может пойти снег), herhalde yol tehlikeli olur (наверное, дорога будет опасной), sanırım evde kalacağım (думаю, останусь дома).",
+          "audio": "tr/3-23/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-23-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «возможно»:",
+          "transcript": "mümkün",
+          "accepted": [
+            "mümkün"
+          ],
+          "explain_ru": "Mümkün — возможно (обе гласные — ü).",
+          "audio": "tr/3-23/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-23-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «точно»:",
+          "transcript": "kesin",
+          "accepted": [
+            "kesin"
+          ],
+          "explain_ru": "Kesin — точно.",
+          "audio": "tr/3-23/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-23-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что говорит тренер перед матчем?",
+          "transcript": "Kazanma şansımız yüksek, ama risk almamalıyız. Güvenli oynamalıyız.",
+          "options": [
+            "Шанс победить высокий, но нельзя рисковать — надо играть безопасно",
+            "Победить невозможно, потому что соперник слишком сильный",
+            "Матч точно закончится вничью",
+            "Играть сегодня опасно из-за бури"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Şans — шанс, risk — риск, güvenli — безопасный.",
+          "audio": "tr/3-23/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-23-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «наверное»:",
+          "transcript": "herhalde",
+          "accepted": [
+            "herhalde"
+          ],
+          "explain_ru": "Herhalde — наверное.",
+          "audio": "tr/3-23/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-23-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «думаю»:",
+          "transcript": "sanırım",
+          "accepted": [
+            "sanırım"
+          ],
+          "explain_ru": "Sanırım — думаю, полагаю.",
+          "audio": "tr/3-23/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-23-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Придёт ли Айше сегодня на встречу?",
+          "transcript": "Ayşe bugün çok hasta. Muhtemelen toplantıya gelemeyecek, bu neredeyse imkânsız.",
+          "options": [
+            "Вероятно, не сможет прийти — это почти невозможно",
+            "Она точно придёт в пять часов",
+            "Она уже ждёт в офисе",
+            "У неё есть большой шанс прийти раньше"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Muhtemelen (вероятно) gelemeyecek (не сможет прийти), imkânsız (невозможно).",
+          "audio": "tr/3-23/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-23-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки «может быть»:",
+          "transcript": "olabilir",
+          "accepted": [
+            "olabilir"
+          ],
+          "explain_ru": "Olabilir — может быть (olmak + -abilir).",
+          "audio": "tr/3-23/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-23-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Точно или возможно? Соедините каждую фразу со степенью уверенности:",
+          "pairs": [
+            {
+              "left": "Yarın kesin gelirim.",
+              "right": "точно"
+            },
+            {
+              "left": "Yarın gelebilirim.",
+              "right": "возможно"
+            },
+            {
+              "left": "Bu mümkün değil.",
+              "right": "невозможно"
+            }
+          ],
+          "explain_ru": "Kesin — точно; -ebilir — возможно (могу прийти); mümkün değil — невозможно (синоним imkânsız).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-23-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допиши аффикс возможности («Али может опоздать»): «Ali geç kal___»",
+          "source_text": "Ali geç kal___ (может опоздать)",
+          "accepted": [
+            "abilir",
+            "kalabilir",
+            "Ali geç kalabilir"
+          ],
+          "explain_ru": "После гласной заднего ряда a в основе kal- присоединяется -abilir: kalabilir.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-23-wr-03",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с их русским переводом:",
+          "pairs": [
+            {
+              "left": "şans",
+              "right": "шанс"
+            },
+            {
+              "left": "risk",
+              "right": "риск"
+            },
+            {
+              "left": "tehlikeli",
+              "right": "опасный"
+            },
+            {
+              "left": "güvenli",
+              "right": "безопасный"
+            }
+          ],
+          "explain_ru": "Şans, risk, tehlikeli, güvenli.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-23-wr-04",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Завтра может пойти дождь»:",
+          "source_text": "Завтра может пойти дождь.",
+          "bank": [
+            "yağabilir",
+            "yağmur",
+            "yarın"
+          ],
+          "accepted": [
+            "Yarın yağmur yağabilir"
+          ],
+          "explain_ru": "Yarın yağmur yağabilir — Завтра может пойти дождь.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-23-wr-05",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: проверьте гармонию гласных в аффиксе возможности («Я могу прийти»):",
+          "buggy_text": "Yarın gelabilirim.",
+          "accepted": [
+            "Yarın gelebilirim."
+          ],
+          "explain_ru": "В основе gel- гласная переднего ряда e, поэтому нужен вариант -ebilir: gelebilirim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-23-wr-06",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «Это невозможно» (используйте слово imkânsız)",
+          "source_text": "Это невозможно.",
+          "accepted": [
+            "Bu imkânsız",
+            "Bu imkansız"
+          ],
+          "explain_ru": "Bu imkânsız — Это невозможно.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-23-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Думаю, я останусь дома»:",
+          "source_text": "Думаю, я останусь дома.",
+          "bank": [
+            "kalacağım",
+            "evde",
+            "sanırım"
+          ],
+          "accepted": [
+            "Sanırım evde kalacağım"
+          ],
+          "explain_ru": "Sanırım evde kalacağım — Думаю, я останусь дома.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-23-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее: какое слово выражает стопроцентную уверенность, а не предположение?",
+          "items": [
+            "muhtemelen",
+            "herhalde",
+            "olabilir",
+            "kesin"
+          ],
+          "odd_index": 3,
+          "explain_ru": "Kesin — «точно», а muhtemelen (вероятно), herhalde (наверное) и olabilir (может быть) выражают предположение.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-23-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Риск в горах. Прочитайте предупреждение и ответьте на вопрос:",
+          "passage": "Dağda hava çok değişebilir. Fırtına ihtimali var. Bu yüzden erken çıkmalıyız. Yol tehlikeli olabilir.",
+          "questions": [
+            {
+              "question_ru": "Что вероятно в горах?",
+              "options": [
+                "буря, погода может резко измениться, а дорога стать опасной",
+                "жаркая солнечная погода без ветра",
+                "тёплая вода и безопасная прогулка",
+                "снег точно не пойдёт"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "буря",
+                "буря, погода может резко измениться",
+                "погода может измениться"
+              ]
+            }
+          ],
+          "explain_ru": "Hava çok değişebilir (погода может сильно измениться), fırtına ihtimali var (есть вероятность бури).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-23-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слово «imkânsız» (невозможно) и его написание с â:",
+          "target_text": "imkânsız",
+          "translation_ru": "невозможно",
+          "example_text": "Bir saatte oraya gitmek imkânsız.",
+          "example_ru": "Добраться туда за один час невозможно.",
+          "explain_ru": "Образовано от imkân (возможность) + аффикс отсутствия -sız: imkânsız.",
+          "audio": "tr/3-23/w05.mp3"
+        },
+        {
+          "id": "tr-3-23-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите антоним (противоположность) к слову «tehlikeli»:",
+          "question_text": "tehlikeli ↔ ?",
+          "options": [
+            "güvenli",
+            "risk",
+            "kesin",
+            "imkânsız"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Tehlikeli (опасный) ↔ güvenli (безопасный).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-23-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «ihtimal»:",
+          "question_text": "ihtimal",
+          "options": [
+            "вероятность",
+            "точно",
+            "риск",
+            "думаю"
+          ],
+          "correct_index": 0,
+          "explain_ru": "İhtimal — вероятность.",
+          "audio": "tr/3-23/w03.mp3"
+        },
+        {
+          "id": "tr-3-23-rd-05",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте диалог и ответьте на вопрос:",
+          "passage": "— Akşam sinemaya gider miyiz? — Sanırım vaktim olacak, ama kesin değil. İşten geç çıkabilirim. — Sorun değil, yarın da mümkün.",
+          "questions": [
+            {
+              "question_ru": "Почему второй собеседник не уверен насчёт кино сегодня вечером?",
+              "options": [
+                "он может поздно выйти с работы (işten geç çıkabilir)",
+                "билетов точно нет",
+                "он заболел и остаётся дома",
+                "идти в кино невозможно"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "может поздно выйти с работы",
+                "işten geç çıkabilir"
+              ]
+            }
+          ],
+          "explain_ru": "İşten geç çıkabilirim — Я могу поздно выйти с работы.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-23-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какая форма означает «он может прийти»?",
+          "question_text": "gelmek + возможность",
+          "options": [
+            "gelebilir",
+            "gelabilir",
+            "geliyor",
+            "gelmeli"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Gel- + -ebilir = gelebilir (он может прийти).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-23-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «şans» в предложении «Bugün şansımız var»?",
+          "question_text": "Bugün şansımız var.",
+          "options": [
+            "шанс, удача",
+            "риск",
+            "вероятность",
+            "опасность"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Şans — шанс, удача; şansımız — наш шанс.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-23-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое предложение выражает риск?",
+          "question_text": "risk",
+          "options": [
+            "Fırtınada yüzmek büyük bir risk.",
+            "Bu park çocuklar için çok güvenli.",
+            "Yarın kesin güneşli olacak.",
+            "Burada hava çok temiz."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Fırtınada yüzmek büyük bir risk — Плавать в бурю — большой риск.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

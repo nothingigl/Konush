@@ -190,7 +190,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «подарок»:",
           "transcript": "hediye",
-          "accepted": ["hediye"],
+          "accepted": [
+            "hediye"
+          ],
           "explain_ru": "Hediye — подарок.",
           "audio": "tr/2-2/ls-02.mp3"
         },
@@ -200,7 +202,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «письмо»:",
           "transcript": "mektup",
-          "accepted": ["mektup"],
+          "accepted": [
+            "mektup"
+          ],
           "explain_ru": "Mektup — письмо.",
           "audio": "tr/2-2/ls-03.mp3"
         },
@@ -226,7 +230,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «сообщение»:",
           "transcript": "mesaj",
-          "accepted": ["mesaj"],
+          "accepted": [
+            "mesaj"
+          ],
           "explain_ru": "Mesaj — сообщение.",
           "audio": "tr/2-2/ls-05.mp3"
         },
@@ -236,7 +242,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «деньги»:",
           "transcript": "para",
-          "accepted": ["para"],
+          "accepted": [
+            "para"
+          ],
           "explain_ru": "Para — деньги.",
           "audio": "tr/2-2/ls-06.mp3"
         },
@@ -245,7 +253,7 @@
           "type": "listen_choose",
           "origin": "derived",
           "prompt_ru": "Что делает друг в записи?",
-          "transcript": "Arkadaşım bana yeni saatini gösteriyor ve hikayeyi (историю) anlatıyor.",
+          "transcript": "Arkadaşım bana yeni saatini gösteriyor ve hikayeyi anlatıyor.",
           "options": [
             "Показывает мне свои новые часы и рассказывает историю",
             "Даёт мне кошелёк и отправляет письмо",
@@ -262,7 +270,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «ответ»:",
           "transcript": "cevap",
-          "accepted": ["cevap"],
+          "accepted": [
+            "cevap"
+          ],
           "explain_ru": "Cevap — ответ.",
           "audio": "tr/2-2/ls-08.mp3"
         }
@@ -276,7 +286,10 @@
           "origin": "source",
           "prompt_ru": "Поставьте имя в дательный падеж: «Ben Ali___ para veriyorum.» (Я даю деньги Али)",
           "source_text": "Ben Ali___ para veriyorum.",
-          "accepted": ["Ali'ye", "Ben Ali'ye para veriyorum"],
+          "accepted": [
+            "Ali'ye",
+            "Ben Ali'ye para veriyorum"
+          ],
           "explain_ru": "После имени собственного ставится апостроф; так как Ali оканчивается на гласную i, добавляется -ye: Ali'ye.",
           "audio": null
         },
@@ -286,7 +299,10 @@
           "origin": "source",
           "prompt_ru": "Поставьте слово «baba» (папа) в дательный падеж: «O baba___ mektup gönderiyor.»",
           "source_text": "O baba___ mektup gönderiyor.",
-          "accepted": ["babaya", "O babaya mektup gönderiyor"],
+          "accepted": [
+            "babaya",
+            "O babaya mektup gönderiyor"
+          ],
           "explain_ru": "После гласной a вставляется соединительная y + аффикс -a: babaya.",
           "audio": null
         },
@@ -296,7 +312,10 @@
           "origin": "source",
           "prompt_ru": "Поставьте слово «çocuk» в дательный падеж: «Biz çocuk___ hediye veriyoruz.»",
           "source_text": "Biz çocuk___ hediye veriyoruz.",
-          "accepted": ["çocuğa", "Biz çocuğa hediye veriyoruz"],
+          "accepted": [
+            "çocuğa",
+            "Biz çocuğa hediye veriyoruz"
+          ],
           "explain_ru": "Перед гласным аффиксом -a глухая k на конце многосложного слова озвончается в ğ: çocuk → çocuğa.",
           "audio": null
         },
@@ -306,10 +325,22 @@
           "origin": "derived",
           "prompt_ru": "Соедините глаголы с их переводом (1/2):",
           "pairs": [
-            { "left": "vermek", "right": "давать" },
-            { "left": "göndermek", "right": "отправлять" },
-            { "left": "söylemek", "right": "сказать" },
-            { "left": "göstermek", "right": "показывать" }
+            {
+              "left": "vermek",
+              "right": "давать"
+            },
+            {
+              "left": "göndermek",
+              "right": "отправлять"
+            },
+            {
+              "left": "söylemek",
+              "right": "сказать"
+            },
+            {
+              "left": "göstermek",
+              "right": "показывать"
+            }
           ],
           "explain_ru": "Vermek, göndermek, söylemek, göstermek.",
           "audio": null
@@ -320,10 +351,22 @@
           "origin": "derived",
           "prompt_ru": "Соедините глаголы и существительные с переводом (2/2):",
           "pairs": [
-            { "left": "anlatmak", "right": "рассказывать" },
-            { "left": "yardım etmek", "right": "помогать" },
-            { "left": "soru", "right": "вопрос" },
-            { "left": "cevap", "right": "ответ" }
+            {
+              "left": "anlatmak",
+              "right": "рассказывать"
+            },
+            {
+              "left": "yardım etmek",
+              "right": "помогать"
+            },
+            {
+              "left": "soru",
+              "right": "вопрос"
+            },
+            {
+              "left": "cevap",
+              "right": "ответ"
+            }
           ],
           "explain_ru": "Anlatmak, yardım etmek, soru, cevap.",
           "audio": null
@@ -334,8 +377,15 @@
           "origin": "derived",
           "prompt_ru": "Соберите предложение: «Я отправляю другу сообщение»:",
           "source_text": "Я отправляю другу сообщение.",
-          "bank": ["mesaj", "gönderiyorum", "arkadaşıma", "ben"],
-          "accepted": ["Ben arkadaşıma mesaj gönderiyorum"],
+          "bank": [
+            "mesaj",
+            "gönderiyorum",
+            "arkadaşıma",
+            "ben"
+          ],
+          "accepted": [
+            "Ben arkadaşıma mesaj gönderiyorum"
+          ],
           "explain_ru": "Ben arkadaşıma mesaj gönderiyorum.",
           "audio": null
         },
@@ -345,7 +395,9 @@
           "origin": "derived",
           "prompt_ru": "Исправь баг: проверьте дательный падеж после имени «Ayşe» («Я даю Айше подарок»):",
           "buggy_text": "Ayşe'a hediye veriyorum.",
-          "accepted": ["Ayşe'ye hediye veriyorum."],
+          "accepted": [
+            "Ayşe'ye hediye veriyorum."
+          ],
           "explain_ru": "Ayşe оканчивается на переднюю гласную e, поэтому нужны соединительная y и -e: Ayşe'ye.",
           "audio": null
         },
@@ -354,7 +406,12 @@
           "type": "odd_one_out",
           "origin": "derived",
           "prompt_ru": "Найдите лишнее (не существительное):",
-          "items": ["hediye", "mektup", "para", "anlatmak"],
+          "items": [
+            "hediye",
+            "mektup",
+            "para",
+            "anlatmak"
+          ],
           "odd_index": 3,
           "explain_ru": "Anlatmak — глагол («рассказывать»), остальные три слова — существительные.",
           "audio": null
@@ -379,7 +436,11 @@
                 "Али (Ali'ye)"
               ],
               "correct_index": 0,
-              "accepted": ["маме", "своей маме", "annesine"]
+              "accepted": [
+                "маме",
+                "своей маме",
+                "annesine"
+              ]
             }
           ],
           "explain_ru": "Sonra Ayşe annesine yardım ediyor — Потом Айше помогает своей маме.",
@@ -391,7 +452,12 @@
           "origin": "derived",
           "prompt_ru": "Что означает глагол «göstermek»?",
           "question_text": "göstermek",
-          "options": ["показывать", "отправлять", "рассказывать", "давать"],
+          "options": [
+            "показывать",
+            "отправлять",
+            "рассказывать",
+            "давать"
+          ],
           "correct_index": 0,
           "explain_ru": "Göstermek — показывать.",
           "audio": "tr/2-2/w04.mp3"
@@ -402,7 +468,12 @@
           "origin": "derived",
           "prompt_ru": "Выберите правильную форму «помогаю» от глагола «yardım etmek»:",
           "question_text": "Ben anneme ___.",
-          "options": ["yardım ediyorum", "yardım etiyorum", "yardım edıyorum", "yardım atıyorum"],
+          "options": [
+            "yardım ediyorum",
+            "yardım etiyorum",
+            "yardım edıyorum",
+            "yardım atıyorum"
+          ],
           "correct_index": 0,
           "explain_ru": "В глаголе etmek согласная t перед гласной озвончается в d: yardım ediyorum.",
           "audio": null
@@ -423,7 +494,11 @@
                 "маме (anneme)"
               ],
               "correct_index": 0,
-              "accepted": ["папе", "своему папе", "babama"]
+              "accepted": [
+                "папе",
+                "своему папе",
+                "babama"
+              ]
             }
           ],
           "explain_ru": "Babama mektup gönderiyorum — Я отправляю папе письмо.",
@@ -447,7 +522,12 @@
           "origin": "derived",
           "prompt_ru": "Какую форму дательного падежа примет слово «kedi» (кошка)?",
           "question_text": "kedi + дательный падеж («кошке»)",
-          "options": ["kediye", "kedia", "kedie", "kedya"],
+          "options": [
+            "kediye",
+            "kedia",
+            "kedie",
+            "kedya"
+          ],
           "correct_index": 0,
           "explain_ru": "Kedi оканчивается на переднюю гласную i, поэтому добавляется буферная y + e: kediye.",
           "audio": null
@@ -474,7 +554,12 @@
           "origin": "derived",
           "prompt_ru": "Выберите пару антонимов из этого юнита:",
           "question_text": "soru ↔ ?",
-          "options": ["cevap", "para", "mesaj", "hediye"],
+          "options": [
+            "cevap",
+            "para",
+            "mesaj",
+            "hediye"
+          ],
           "correct_index": 0,
           "explain_ru": "Soru — вопрос, cevap — ответ.",
           "audio": null

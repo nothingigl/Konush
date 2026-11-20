@@ -83,16 +83,409 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-17-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Список дел (1/2): произнесите первые две обязанности:",
+          "target_text": "Ödev yapmam lazım. Alışverişe gitmem gerek.",
+          "translation_ru": "Мне нужно сделать домашнее задание. Мне надо сходить за покупками.",
+          "explain_ru": "Слова lazım и gerek требуют глагола на -mam/-mem (1-е лицо): yapmam lazım, gitmem gerek.",
+          "audio": "tr/3-17/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-17-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Список дел (2/2): произнесите ещё две обязанности:",
+          "target_text": "Temizlik yapmalıyım. Yarına kadar çalışmak zorundayım.",
+          "translation_ru": "Я должен сделать уборку. Я вынужден работать до завтра.",
+          "explain_ru": "Аффикс -malı/-meli выражает долженствование (yapmalıyım), а -mak zorunda — вынужденность.",
+          "audio": "tr/3-17/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-17-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы вынуждены сегодня пойти на работу:",
+          "target_text": "Bugün işe gitmeye mecburum.",
+          "translation_ru": "Я вынужден сегодня пойти на работу.",
+          "explain_ru": "Mecbur — вынужден (mecburum — я вынужден), iş — работа.",
+          "audio": "tr/3-17/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-17-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что это ваша обязанность:",
+          "target_text": "Bu benim görevim, bunu bitirmeliyim.",
+          "translation_ru": "Это моя обязанность, я должен это закончить.",
+          "explain_ru": "Görev — обязанность, задача (görevim — моя обязанность).",
+          "audio": "tr/3-17/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-17-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что завтра экзамен и нужно много заниматься:",
+          "target_text": "Yarın sınav var, çok çalışmam lazım.",
+          "translation_ru": "Завтра экзамен, мне нужно много заниматься.",
+          "explain_ru": "Sınav — экзамен, çalışmam lazım — мне нужно заниматься.",
+          "audio": "tr/3-17/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-17-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вам нужно сдать домашнее задание до завтра:",
+          "target_text": "Ödevimi yarına kadar bitirmem gerek.",
+          "translation_ru": "Мне надо закончить домашнее задание до завтра.",
+          "explain_ru": "Yarına kadar — до завтра, ödev — домашнее задание.",
+          "audio": "tr/3-17/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-17-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вечером у вас много работы и покупок:",
+          "target_text": "Bu akşam çok iş var ve alışveriş yapmalıyım.",
+          "translation_ru": "Сегодня вечером много работы, и я должен сделать покупки.",
+          "explain_ru": "İş — работа, alışveriş — покупки.",
+          "audio": "tr/3-17/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-17-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы не обязаны убираться сегодня:",
+          "target_text": "Bugün temizlik yapmak zorunda değilim.",
+          "translation_ru": "Я не обязан сегодня делать уборку.",
+          "explain_ru": "Zorunda değilim — я не обязан / не вынужден.",
+          "audio": "tr/3-17/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-17-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Ловец «надо». Прослушайте запись и ответьте: что нужно сделать сегодня вечером?",
+          "transcript": "Yarın sınavım var. Bu akşam ders çalışmam lazım. Alışverişe gitmeyeceğim.",
+          "options": [
+            "Учить уроки (ders çalışmak)",
+            "Пойти за покупками (alışverişe gitmek)",
+            "Сделать уборку (temizlik yapmak)",
+            "Пойти на работу (işe gitmek)"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bu akşam ders çalışmam lazım — Сегодня вечером мне нужно учить уроки.",
+          "audio": "tr/3-17/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-17-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «экзамен»:",
+          "transcript": "sınav",
+          "accepted": ["sınav"],
+          "explain_ru": "Sınav — экзамен (первая гласная — ı без точки).",
+          "audio": "tr/3-17/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-17-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «обязанность»:",
+          "transcript": "görev",
+          "accepted": ["görev"],
+          "explain_ru": "Görev — обязанность, задание.",
+          "audio": "tr/3-17/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-17-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Али должен остаться дома?",
+          "transcript": "Ali yarına kadar görevini bitirmek zorunda. Bu yüzden dışarı çıkamaz, evde çalışmaya mecbur.",
+          "options": [
+            "Он обязан закончить своё задание до завтра",
+            "Он хочет пойти за покупками",
+            "У него завтра выходной",
+            "Он уже закончил домашнее задание"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yarına kadar görevini bitirmek zorunda — Он вынужден закончить своё задание до завтра.",
+          "audio": "tr/3-17/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-17-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «уборка»:",
+          "transcript": "temizlik",
+          "accepted": ["temizlik"],
+          "explain_ru": "Temizlik — уборка, чистота (от temiz — чистый).",
+          "audio": "tr/3-17/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-17-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «покупки»:",
+          "transcript": "alışveriş",
+          "accepted": ["alışveriş"],
+          "explain_ru": "Alışveriş — покупки, шопинг (букв. «брать-давать»).",
+          "audio": "tr/3-17/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-17-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что нужно сделать сегодня по дому?",
+          "transcript": "Bugün evde temizlik yapmamız gerek ve ekmek almak için alışverişe gitmeliyiz.",
+          "options": [
+            "Сделать уборку дома и сходить за покупками",
+            "Написать экзамен и сделать домашнее задание",
+            "Пойти на работу до завтра",
+            "Ничего не нужно делать"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Temizlik yapmamız gerek (нам надо убраться) ve alışverişe gitmeliyiz (должны пойти за покупками).",
+          "audio": "tr/3-17/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-17-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «вынужден» (mecbur):",
+          "transcript": "mecbur",
+          "accepted": ["mecbur"],
+          "explain_ru": "Mecbur — вынужден, обязан.",
+          "audio": "tr/3-17/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-17-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Образуй -malı/-meli (1/3): поставьте «gitmek» в форму «ben» («я должен пойти»):",
+          "source_text": "gitmek, ben → ?",
+          "accepted": ["gitmeliyim", "Ben gitmeliyim"],
+          "explain_ru": "Основа git- (гласная переднего ряда i) + -meli + -yim → gitmeliyim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-17-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Образуй -malı/-meli (2/3): поставьте «yapmak» в форму «sen» («ты должен сделать»):",
+          "source_text": "yapmak, sen → ?",
+          "accepted": ["yapmalısın", "Sen yapmalısın"],
+          "explain_ru": "Основа yap- (гласная заднего ряда a) + -malı + -sın → yapmalısın.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-17-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Образуй -malı/-meli (3/3): поставьте «çalışmak» в форму «o» («он должен работать»):",
+          "source_text": "çalışmak, o → ?",
+          "accepted": ["çalışmalı", "O çalışmalı"],
+          "explain_ru": "В 3-м лице единственного числа личное окончание не добавляется: çalışmalı.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-17-wr-04",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Сегодня мне надо пойти на работу»:",
+          "source_text": "Сегодня мне надо пойти на работу.",
+          "bank": ["gerek", "gitmem", "işe", "bugün"],
+          "accepted": ["Bugün işe gitmem gerek"],
+          "explain_ru": "Bugün işe gitmem gerek — Сегодня мне надо пойти на работу.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-17-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова долженствования с переводом:",
+          "pairs": [
+            { "left": "lazım", "right": "нужно" },
+            { "left": "gerek", "right": "надо" },
+            { "left": "zorunda", "right": "вынужден (обязан)" },
+            { "left": "mecbur", "right": "вынужден (нет выбора)" }
+          ],
+          "explain_ru": "Lazım, gerek, zorunda, mecbur.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-17-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините дела и сроки с переводом:",
+          "pairs": [
+            { "left": "görev", "right": "обязанность" },
+            { "left": "ödev", "right": "домашнее задание" },
+            { "left": "temizlik", "right": "уборка" },
+            { "left": "yarına kadar", "right": "до завтра" }
+          ],
+          "explain_ru": "Görev, ödev, temizlik, yarına kadar.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-17-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: проверьте гармонию гласных в аффиксе -malı/-meli («Я должен пойти домой»):",
+          "buggy_text": "Ben eve gitmalıyım.",
+          "accepted": ["Ben eve gitmeliyim."],
+          "explain_ru": "В корне git- гласная переднего ряда i, поэтому нужен вариант -meli- + -yim: gitmeliyim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-17-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не связано с делами и учёбой):",
+          "items": ["ödev", "sınav", "görev", "piyano"],
+          "odd_index": 3,
+          "explain_ru": "Piyano — музыкальный инструмент, а ödev, sınav и görev относятся к обязанностям и учёбе.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-17-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Неделя студентки. Прочитайте текст и ответьте на вопросы:",
+          "passage": "Ayşe'nin yarın sınavı var. Bu akşam ders çalışmalı. Temizlik yapmak zorunda değil, ama ödevini bitirmeli.",
+          "questions": [
+            {
+              "question_ru": "Что Айше должна сделать сегодня вечером?",
+              "options": [
+                "учиться и закончить домашнее задание",
+                "сделать уборку дома",
+                "пойти за покупками",
+                "пойти на работу"
+              ],
+              "correct_index": 0,
+              "accepted": ["учиться и закончить задание", "учиться и закончить домашнее задание", "ders çalışmalı ve ödevini bitirmeli"]
+            },
+            {
+              "question_ru": "Чего Айше не обязана делать?",
+              "options": [
+                "убираться (temizlik yapmak)",
+                "заниматься (ders çalışmak)",
+                "закончить домашнее задание (ödevini bitirmek)",
+                "сдавать экзамен (sınav)"
+              ],
+              "correct_index": 0,
+              "accepted": ["убираться", "делать уборку", "уборку", "temizlik", "temizlik yapmak"]
+            }
+          ],
+          "explain_ru": "Ders çalışmalı ve ödevini bitirmeli (должна заниматься и закончить задание); temizlik yapmak zorunda değil (не обязана убираться).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-17-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните аффикс долженствования «-malı/-meli»:",
+          "target_text": "-malı/-meli",
+          "translation_ru": "должен",
+          "example_text": "Yarın sınavım var, erken yatmalıyım.",
+          "example_ru": "У меня завтра экзамен, я должен лечь рано.",
+          "explain_ru": "После гласных заднего ряда (a, ı, o, u) ставится -malı, после переднего (e, i, ö, ü) — -meli.",
+          "audio": "tr/3-17/w05.mp3"
+        },
+        {
+          "id": "tr-3-17-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «yarına kadar»:",
+          "question_text": "yarına kadar",
+          "options": ["до завтра", "каждое утро", "по выходным", "после еды"],
+          "correct_index": 0,
+          "explain_ru": "Yarın — завтра, -a kadar — до какого-либо срока.",
+          "audio": "tr/3-17/w12.mp3"
+        },
+        {
+          "id": "tr-3-17-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «iş»:",
+          "question_text": "iş",
+          "options": ["работа", "уборка", "экзамен", "покупки"],
+          "correct_index": 0,
+          "explain_ru": "İş — работа, дело.",
+          "audio": "tr/3-17/w09.mp3"
+        },
+        {
+          "id": "tr-3-17-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какая форма означает «Мы должны сделать покупки»?",
+          "question_text": "Biz alışveriş ___.",
+          "options": ["yapmalıyız", "yapmeliyiz", "yapmalıyım", "yapmalısın"],
+          "correct_index": 0,
+          "explain_ru": "Yap- + -malı + -yız (1-е лицо мн. ч.) → yapmalıyız.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-17-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте сообщение коллеги и ответьте на вопрос:",
+          "passage": "Bugün işte çok görev var. Raporu yarına kadar yazmam gerek. Geç kalmaya mecburum, eve akşam dokuzda geleceğim.",
+          "questions": [
+            {
+              "question_ru": "К какому сроку нужно написать отчёт?",
+              "options": [
+                "до завтра (yarına kadar)",
+                "через неделю",
+                "до вечера понедельника",
+                "срок не указан"
+              ],
+              "correct_index": 0,
+              "accepted": ["до завтра", "yarına kadar"]
+            }
+          ],
+          "explain_ru": "Raporu yarına kadar yazmam gerek — Мне надо написать отчёт до завтра.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-17-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «ödev»:",
+          "question_text": "ödev",
+          "options": ["домашнее задание", "экзамен", "обязанность", "уборка"],
+          "correct_index": 0,
+          "explain_ru": "Ödev — домашнее задание.",
+          "audio": "tr/3-17/w07.mp3"
+        },
+        {
+          "id": "tr-3-17-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое слово близко по смыслу к «zorunda» (вынужден)?",
+          "question_text": "zorunda ≈ ?",
+          "options": ["mecbur", "serbest", "nadiren", "kötü"],
+          "correct_index": 0,
+          "explain_ru": "Zorunda и mecbur — синонимы со значением «вынужден».",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

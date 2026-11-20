@@ -83,16 +83,485 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-28-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Сам-сам (1/2): произнесите фразы со словами kendi и kendime:",
+          "target_text": "Ben kendim yapıyorum. Kendime kahve yapıyorum. Aynada kendime bakıyorum.",
+          "translation_ru": "Я делаю сам. Я делаю себе кофе. Я смотрю на себя в зеркале.",
+          "explain_ru": "Kendi — сам/свой, kendim — я сам, kendime — себе / на себя (дательный падеж с bakmak).",
+          "audio": "tr/3-28/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-28-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Сам-сам (2/2): расскажите про утренние возвратные действия:",
+          "target_text": "Ben her sabah yıkanıyorum, taranıyorum.",
+          "translation_ru": "Я каждое утро моюсь и причёсываюсь.",
+          "explain_ru": "Возвратные глаголы yıkanmak (мыться) и taranmak (причёсываться) образуются с помощью суффикса -n.",
+          "audio": "tr/3-28/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-28-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про «себя» (kendini) и «раздеваться» (soyunmak):",
+          "target_text": "Kendini nasıl hissediyorsun? Çocuk uyku için soyunuyor.",
+          "translation_ru": "Как ты себя чувствуешь? Ребёнок раздевается ко сну.",
+          "explain_ru": "Kendini — себя (винительный падеж), soyunmak — раздеваться.",
+          "audio": "tr/3-28/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-28-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы рады и не нужно расстраиваться:",
+          "target_text": "Bu habere çok sevindim. Lütfen hiç üzülme!",
+          "translation_ru": "Я очень обрадовался этой новости. Пожалуйста, совсем не расстраивайся!",
+          "explain_ru": "Sevinmek — радоваться, üzülmek — расстраиваться.",
+          "audio": "tr/3-28/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-28-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Познакомьтесь и договоритесь увидеться завтра:",
+          "target_text": "Seninle tanışmak çok güzel. Yarın tekrar görüşelim!",
+          "translation_ru": "Очень приятно с тобой познакомиться. Давай завтра снова увидимся!",
+          "explain_ru": "Взаимные глаголы на -ş: tanışmak (знакомиться), görüşmek (видеться).",
+          "audio": "tr/3-28/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-28-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите «Они любят друг друга» и «Ребёнок сам по себе учится»:",
+          "target_text": "Onlar birbirini çok seviyor. Çocuk kendi kendine okuyor.",
+          "translation_ru": "Они очень любят друг друга. Ребёнок читает сам по себе (самостоятельно).",
+          "explain_ru": "Birbirini — друг друга, kendi kendine — сам по себе, самостоятельно.",
+          "audio": "tr/3-28/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-28-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я готовлю еду в своей комнате, сам себе»:",
+          "target_text": "Kendi evimde kendime çay yapıyorum. Kendini iyi hisset!",
+          "translation_ru": "В своём доме я делаю себе чай. Чувствуй себя хорошо!",
+          "explain_ru": "Kendi — свой/сам, kendime — себе, kendini — себя.",
+          "audio": "tr/3-28/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-28-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух шесть возвратных и взаимных глаголов в начальной форме:",
+          "target_text": "yıkanmak, taranmak, soyunmak, sevinmek, üzülmek, tanışmak, görüşmek",
+          "translation_ru": "мыться, причёсываться, раздеваться, радоваться, расстраиваться, знакомиться, видеться",
+          "explain_ru": "Суффикс -n/-l часто даёт возвратное значение, а -ş (tanışmak, görüşmek) — взаимное действие.",
+          "audio": "tr/3-28/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-28-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Знакомство. Прослушайте диалог и ответьте: что говорят при знакомстве и когда увидятся?",
+          "transcript": "Merhaba, ben Ali. Tanıştığımıza memnun oldum. Yarın görüşelim.",
+          "options": [
+            "«рад знакомству» (Tanıştığımıza memnun oldum); увидятся завтра",
+            "«выздоравливайте»; увидятся на следующей неделе",
+            "«не расстраивайся»; увидятся сегодня вечером",
+            "«раз так»; увидятся в парке"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Tanıştığımıza memnun oldum (от tanışmak — рад, что мы познакомились). Yarın görüşelim (от görüşmek — увидимся завтра).",
+          "audio": "tr/3-28/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-28-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «себе»:",
+          "transcript": "kendime",
+          "accepted": [
+            "kendime"
+          ],
+          "explain_ru": "Kendime — себе.",
+          "audio": "tr/3-28/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-28-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «себя»:",
+          "transcript": "kendini",
+          "accepted": [
+            "kendini"
+          ],
+          "explain_ru": "Kendini — себя.",
+          "audio": "tr/3-28/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-28-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что делает малыш сам?",
+          "transcript": "Küçük kardeşim artık kendi kendine giyiniyor ve akşamları soyunuyor. Annem buna çok seviniyor.",
+          "options": [
+            "сам по себе одевается и вечером раздевается; мама очень радуется",
+            "расстраивается и не хочет мыться",
+            "причёсывается перед зеркалом и делает себе кофе",
+            "знакомится с соседями во дворе"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kendi kendine giyiniyor (сам по себе одевается), soyunuyor (soyunmak — раздевается), seviniyor (sevinmek — радуется).",
+          "audio": "tr/3-28/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-28-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки глагол «радоваться»:",
+          "transcript": "sevinmek",
+          "accepted": [
+            "sevinmek"
+          ],
+          "explain_ru": "Sevinmek — радоваться.",
+          "audio": "tr/3-28/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-28-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки глагол «расстраиваться»:",
+          "transcript": "üzülmek",
+          "accepted": [
+            "üzülmek"
+          ],
+          "explain_ru": "Üzülmek — расстраиваться (обе первые гласные — ü).",
+          "audio": "tr/3-28/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-28-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какие отношения у двух друзей?",
+          "transcript": "Ahmet ve Hasan geçen yıl tanıştı. Şimdi her hafta görüşüyorlar ve birbirini çok iyi anlıyorlar.",
+          "options": [
+            "познакомились в прошлом году, видятся каждую неделю и хорошо понимают друг друга",
+            "не виделись уже год и расстроились",
+            "только что познакомились на вокзале",
+            "живут в разных странах и никогда не видятся"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Tanıştı (tanışmak — познакомились), görüşüyorlar (görüşmek — видятся), birbirini (друг друга).",
+          "audio": "tr/3-28/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-28-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки «друг друга»:",
+          "transcript": "birbirini",
+          "accepted": [
+            "birbirini"
+          ],
+          "explain_ru": "Birbirini — друг друга (винительный падеж).",
+          "audio": "tr/3-28/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-28-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Возвратные глаголы: соедините исходный глагол с его возвратной формой:",
+          "pairs": [
+            {
+              "left": "yıkamak",
+              "right": "yıkanmak"
+            },
+            {
+              "left": "taramak",
+              "right": "taranmak"
+            },
+            {
+              "left": "giymek",
+              "right": "giyinmek"
+            }
+          ],
+          "explain_ru": "Yıkamak (мыть) → yıkanmak (мыться), taramak (причёсывать) → taranmak (причёсываться), giymek (надевать) → giyinmek (одеваться).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-28-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Вставь недостающее слово («Ребёнок одевается сам по себе»): «Çocuk kendi ___ giyiniyor»",
+          "source_text": "Çocuk kendi ___ giyiniyor.",
+          "accepted": [
+            "kendine",
+            "Çocuk kendi kendine giyiniyor"
+          ],
+          "explain_ru": "Устойчивое выражение kendi kendine — «сам по себе, самостоятельно».",
+          "audio": null
+        },
+        {
+          "id": "tr-3-28-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: глагол sevmek требует винительного падежа («Али и Айше любят друг друга»):",
+          "buggy_text": "Ali ve Ayşe birbirine seviyor.",
+          "accepted": [
+            "Ali ve Ayşe birbirini seviyor."
+          ],
+          "explain_ru": "Sevmek управляет винительным падежом (кого?): birbirini seviyor.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-28-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы с их русским переводом:",
+          "pairs": [
+            {
+              "left": "soyunmak",
+              "right": "раздеваться"
+            },
+            {
+              "left": "sevinmek",
+              "right": "радоваться"
+            },
+            {
+              "left": "üzülmek",
+              "right": "расстраиваться"
+            },
+            {
+              "left": "tanışmak",
+              "right": "знакомиться"
+            }
+          ],
+          "explain_ru": "Soyunmak, sevinmek, üzülmek, tanışmak.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-28-wr-05",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Я делаю себе кофе»:",
+          "source_text": "Я делаю себе кофе.",
+          "bank": [
+            "yapıyorum",
+            "kahve",
+            "kendime"
+          ],
+          "accepted": [
+            "Kendime kahve yapıyorum"
+          ],
+          "explain_ru": "Kendime kahve yapıyorum — Я делаю себе кофе.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-28-wr-06",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «Увидимся завтра!» (используйте глагол görüşmek)",
+          "source_text": "Увидимся завтра!",
+          "accepted": [
+            "Yarın görüşelim",
+            "Yarın görüşürüz"
+          ],
+          "explain_ru": "Yarın görüşelim («давай увидимся завтра») или Yarın görüşürüz («увидимся завтра»).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-28-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите фразу «Я делаю это сам»:",
+          "source_text": "Я делаю это сам.",
+          "bank": [
+            "yapıyorum",
+            "kendim",
+            "bunu",
+            "ben"
+          ],
+          "accepted": [
+            "Ben bunu kendim yapıyorum",
+            "Bunu ben kendim yapıyorum"
+          ],
+          "explain_ru": "Ben bunu kendim yapıyorum — Я делаю это сам.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-28-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: в выражении «Я смотрю на себя в зеркале» глагол bakmak требует дательного падежа (-e):",
+          "buggy_text": "Aynada kendimi bakıyorum.",
+          "accepted": [
+            "Aynada kendime bakıyorum."
+          ],
+          "explain_ru": "Глагол bakmak (смотреть на) требует дательного падежа: kendime bakıyorum.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-28-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Новость. Прочитайте текст и ответьте на вопросы:",
+          "passage": "Ali haberi duyunca çok sevindi. Ama Ayşe üzüldü. Mehmet ona dedi ki: «Üzülme!»",
+          "questions": [
+            {
+              "question_ru": "Кто обрадовался, кто расстроился и что сказал Мехмет?",
+              "options": [
+                "обрадовался Али; расстроилась Айше; Мехмет сказал «не расстраивайся!»",
+                "обрадовалась Айше; расстроился Али; Мехмет сказал «увидимся!»",
+                "обрадовался Мехмет; расстроился Али; Айше сказала «рад знакомству»",
+                "все обрадовались и пошли в парк"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "Али; Айше; не расстраивайся",
+                "обрадовался Али; расстроилась Айше; не расстраивайся"
+              ]
+            }
+          ],
+          "explain_ru": "Ali sevindi (Али обрадовался), Ayşe üzüldü (Айше расстроилась), «Üzülme!» («Не расстраивайся!»).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-28-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните выражение «kendi kendine» (сам по себе, самостоятельно):",
+          "target_text": "kendi kendine",
+          "translation_ru": "сам по себе",
+          "example_text": "Kapı rüzgârla kendi kendine kapandı.",
+          "example_ru": "Дверь сама по себе закрылась от ветра.",
+          "explain_ru": "Kendi kendine используется и для «сам по себе (без чужой помощи)», и для «сам с собой» (kendi kendine konuşmak).",
+          "audio": "tr/3-28/w12.mp3"
+        },
+        {
+          "id": "tr-3-28-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод глагола «yıkanmak»:",
+          "question_text": "yıkanmak",
+          "options": [
+            "мыться",
+            "причёсываться",
+            "раздеваться",
+            "знакомиться"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yıkanmak — мыться (от yıkamak — мыть).",
+          "audio": "tr/3-28/w04.mp3"
+        },
+        {
+          "id": "tr-3-28-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает глагол «soyunmak»?",
+          "question_text": "soyunmak",
+          "options": [
+            "раздеваться",
+            "одеваться",
+            "мыться",
+            "причёсываться"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Soyunmak — раздеваться (антоним giyinmek — одеваться).",
+          "audio": "tr/3-28/w06.mp3"
+        },
+        {
+          "id": "tr-3-28-rd-05",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий рассказ и ответьте на вопрос:",
+          "passage": "Zeynep her sabah erken kalkıp yıkanıyor ve aynada taranıyor. Sonra kendine sıcak bir çay yapıyor. Akşam arkadaşıyla görüşecek, o yüzden çok mutlu.",
+          "questions": [
+            {
+              "question_ru": "Почему Зейнеп сегодня очень счастлива?",
+              "options": [
+                "потому что вечером она увидится с другом/подругой",
+                "потому что она купила новое зеркало",
+                "потому что она не пошла на работу",
+                "потому что она познакомилась с врачом"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "вечером увидится с другом",
+                "вечером увидится с подругой",
+                "akşam arkadaşıyla görüşecek"
+              ]
+            }
+          ],
+          "explain_ru": "Akşam arkadaşıyla görüşecek, o yüzden çok mutlu — Вечером она увидится с другом/подругой (görüşmek), поэтому очень счастлива.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-28-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод глагола «taranmak»:",
+          "question_text": "taranmak",
+          "options": [
+            "причёсываться",
+            "радоваться",
+            "видеться",
+            "расстраиваться"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Taranmak — причёсываться (от taramak — расчёсывать).",
+          "audio": "tr/3-28/w05.mp3"
+        },
+        {
+          "id": "tr-3-28-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какая форма означает «увидеться, видеться друг с другом»?",
+          "question_text": "видеться",
+          "options": [
+            "görüşmek",
+            "tanışmak",
+            "sevinmek",
+            "üzülmek"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Görüşmek — видеться (от görmek + взаимный суффикс -üş).",
+          "audio": "tr/3-28/w10.mp3"
+        },
+        {
+          "id": "tr-3-28-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое предложение правильно переводит «Береги себя!» / «Позаботься о себе»?",
+          "question_text": "Позаботься о себе / присмотри за собой:",
+          "options": [
+            "Kendine iyi bak!",
+            "Kendini iyi bak!",
+            "Kendi iyi bak!",
+            "Birbirini iyi bak!"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Глагол bakmak требует дательного падежа: kendine (тебе/себе) iyi bak — популярное турецкое прощание «береги себя!».",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

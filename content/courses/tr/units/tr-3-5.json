@@ -83,16 +83,407 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-5-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Организатор» (1/2): предложите пойти в кино и прогуляться, ответив согласием:",
+          "target_text": "Hadi sinemaya gidelim! Olur! Hadi yürüyelim! Olur!",
+          "translation_ru": "Давай пойдём в кино! Ладно! Давай прогуляемся! Ладно!",
+          "explain_ru": "Форма совместного действия «давай(те) …» образуется аффиксом -(y)elim / -(y)alım: gitmek → gidelim (t → d), yürümek → yürüyelim.",
+          "audio": "tr/3-5/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-5-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Организатор» (2/2): предложите ещё три дела и ответьте отказом на последнее:",
+          "target_text": "Hadi oynayalım! Çay içelim mi? Dinlenelim mi? Hayır, istemiyorum.",
+          "translation_ru": "Давай поиграем! Выпьем чаю? Отдохнём? Нет, не хочу.",
+          "explain_ru": "Вопросительная частица mi после -elim/-alım делает предложение мягче: Çay içelim mi? (Выпьем чаю?), Dinlenelim mi? (Отдохнём?).",
+          "audio": "tr/3-5/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-5-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Предложите встретиться в парке и что-нибудь поесть:",
+          "target_text": "Parkta buluşalım ve sonra güzel bir yemek yiyelim.",
+          "translation_ru": "Давай встретимся в парке, а потом вкусно поедим.",
+          "explain_ru": "Buluşmak → buluşalım (встретимся); yemek → yiyelim (поедим — гласная e сужается в i перед y).",
+          "audio": "tr/3-5/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-5-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Предложите начать урок и сделать план:",
+          "target_text": "Hadi derse başlayalım ve yeni bir plan yapalım!",
+          "translation_ru": "Давай начнём урок и составим новый план!",
+          "explain_ru": "Başlamak → başlayalım (после гласной добавляется y); yapmak → yapalım.",
+          "audio": "tr/3-5/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-5-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Предложите вечером пойти в театр:",
+          "target_text": "Bu akşam tiyatroya gidelim mi?",
+          "translation_ru": "Пойдём сегодня вечером в театр?",
+          "explain_ru": "Tiyatro — театр (в дательном падеже: tiyatroya — в театр).",
+          "audio": "tr/3-5/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-5-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы устали, и предложите отдохнуть дома:",
+          "target_text": "Çok yorgunuz, evde biraz dinlenelim ve çay içelim.",
+          "translation_ru": "Мы очень устали, давай немного отдохнём дома и выпьем чаю.",
+          "explain_ru": "Dinlenelim — отдохнём, içelim — выпьем.",
+          "audio": "tr/3-5/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-5-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите: «Что сделаем завтра? Пойдём в кино или в театр?»",
+          "target_text": "Yarın ne yapalım? Sinemaya mı gidelim, tiyatroya mı?",
+          "translation_ru": "Что сделаем завтра? Пойдём в кино или в театр?",
+          "explain_ru": "Ne yapalım? — Что нам сделать? Sinema — кино, tiyatro — театр.",
+          "audio": "tr/3-5/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-5-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Предложите встретиться в шесть часов и прогуляться:",
+          "target_text": "Saat altıda buluşalım ve sokakta yürüyelim.",
+          "translation_ru": "Встретимся в шесть часов и прогуляемся по улице.",
+          "explain_ru": "Buluşalım — встретимся, yürüyelim — прогуляемся.",
+          "audio": "tr/3-5/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-5-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Планы на вечер: в каком порядке говорящий предлагает провести вечер?",
+          "transcript": "Hadi tiyatroya gidelim! Sonra bir şeyler yiyelim. Ondan sonra yürüyelim.",
+          "options": [
+            "Театр → еда → прогулка",
+            "Кино → прогулка → еда",
+            "Еда → театр → отдых",
+            "Прогулка → театр → чай"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Tiyatroya gidelim (в театр), sonra bir şeyler yiyelim (потом поедим), ondan sonra yürüyelim (затем прогуляемся).",
+          "audio": "tr/3-5/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-5-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «давай»:",
+          "transcript": "hadi",
+          "accepted": ["hadi"],
+          "explain_ru": "Hadi — давай(те)!",
+          "audio": "tr/3-5/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-5-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «встретимся»:",
+          "transcript": "buluşalım",
+          "accepted": ["buluşalım"],
+          "explain_ru": "Buluşalım — встретимся (от buluşmak).",
+          "audio": "tr/3-5/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-5-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что предлагает говорящий сделать сейчас?",
+          "transcript": "Çok çalıştık. Şimdi biraz dinlenelim ve kahve içelim.",
+          "options": [
+            "Немного отдохнуть и выпить кофе",
+            "Начать новый урок",
+            "Пойти в кино и поесть",
+            "Поиграть в парке"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Dinlenelim (отдохнём), kahve içelim (выпьем кофе).",
+          "audio": "tr/3-5/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-5-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «театр»:",
+          "transcript": "tiyatro",
+          "accepted": ["tiyatro"],
+          "explain_ru": "Tiyatro — театр (обратите внимание на y в середине).",
+          "audio": "tr/3-5/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-5-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «кино»:",
+          "transcript": "sinema",
+          "accepted": ["sinema"],
+          "explain_ru": "Sinema — кино, кинотеатр.",
+          "audio": "tr/3-5/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-5-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что предлагают дети сделать в парке?",
+          "transcript": "Hava çok güzel! Hadi parka gidelim ve orada oynayalım.",
+          "options": [
+            "Пойти в парк и поиграть там",
+            "Остаться дома и смотреть фильм",
+            "Пойти в театр и выпить чаю",
+            "Начать делать уроки"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Parka gidelim (пойдём в парк) ve orada oynayalım (и там поиграем).",
+          "audio": "tr/3-5/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-5-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «начнём»:",
+          "transcript": "başlayalım",
+          "accepted": ["başlayalım"],
+          "explain_ru": "Başlayalım — начнём (от başlamak + -yalım).",
+          "audio": "tr/3-5/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-5-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Образуй -elim/-alım (1/5): поставьте глагол «gitmek» в форму «пойдём»:",
+          "source_text": "gitmek → ?",
+          "accepted": ["gidelim"],
+          "explain_ru": "В глаголе gitmek перед гласной t озвончается в d: gidelim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-5-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Образуй -elim/-alım (2/5): поставьте глагол «yemek» в форму «поедим»:",
+          "source_text": "yemek → ?",
+          "accepted": ["yiyelim"],
+          "explain_ru": "В yemek основа ye сужается в yi перед соединительной y: yiyelim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-5-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Образуй -elim/-alım (3/5): поставьте глагол «oynamak» в форму «поиграем»:",
+          "source_text": "oynamak → ?",
+          "accepted": ["oynayalım"],
+          "explain_ru": "После гласной a добавляется соединительная y + -alım → oynayalım.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-5-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Образуй -elim/-alım (4/5): поставьте глагол «başlamak» в форму «начнём»:",
+          "source_text": "başlamak → ?",
+          "accepted": ["başlayalım"],
+          "explain_ru": "Başlamak → başla + -yalım = başlayalım.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-5-wr-05",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Образуй -elim/-alım (5/5): поставьте глагол «içmek» в форму «выпьем»:",
+          "source_text": "içmek → ?",
+          "accepted": ["içelim"],
+          "explain_ru": "İçmek → iç + -elim = içelim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-5-wr-06",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Давай пойдём в кино»:",
+          "source_text": "Давай пойдём в кино.",
+          "bank": ["gidelim", "hadi", "sinemaya"],
+          "accepted": ["Hadi sinemaya gidelim"],
+          "explain_ru": "Hadi sinemaya gidelim — Давай пойдём в кино.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-5-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините первые шесть слов юнита с переводом:",
+          "pairs": [
+            { "left": "hadi", "right": "давай" },
+            { "left": "gidelim", "right": "пойдём" },
+            { "left": "yapalım", "right": "сделаем" },
+            { "left": "oynayalım", "right": "поиграем" },
+            { "left": "yiyelim", "right": "поедим" },
+            { "left": "içelim", "right": "выпьем" }
+          ],
+          "explain_ru": "Hadi, gidelim, yapalım, oynayalım, yiyelim, içelim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-5-wr-08",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините остальные шесть слов юнита с переводом:",
+          "pairs": [
+            { "left": "başlayalım", "right": "начнём" },
+            { "left": "buluşalım", "right": "встретимся" },
+            { "left": "yürüyelim", "right": "прогуляемся" },
+            { "left": "dinlenelim", "right": "отдохнём" },
+            { "left": "sinema", "right": "кино" },
+            { "left": "tiyatro", "right": "театр" }
+          ],
+          "explain_ru": "Başlayalım, buluşalım, yürüyelim, dinlenelim, sinema, tiyatro.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-5-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Выходные. Прочитайте диалог и ответьте на вопрос:",
+          "passage": "— Hafta sonu (на выходных) ne yapalım? — Sinemaya gidelim mi? — Hayır, film izlemeyelim. Parkta yürüyelim.",
+          "questions": [
+            {
+              "question_ru": "Что предложили вместо кино?",
+              "options": [
+                "Прогулку в парке",
+                "Пойти в театр",
+                "Остаться дома и отдохнуть",
+                "Поесть в ресторане"
+              ],
+              "correct_index": 0,
+              "accepted": ["прогулку в парке", "прогуляться в парке"]
+            }
+          ],
+          "explain_ru": "Parkta yürüyelim — Давай прогуляемся в парке. İzlemeyelim — давай не будем смотреть.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-5-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните форму предложения «пойдём» с озвончением t → d:",
+          "target_text": "gidelim",
+          "translation_ru": "пойдём",
+          "example_text": "Hadi yarın müzeye gidelim!",
+          "example_ru": "Давай завтра пойдём в музей!",
+          "explain_ru": "После передних гласных (e, i, ö, ü) используется -(y)elim, после задних (a, ı, o, u) — -(y)alım.",
+          "audio": "tr/3-5/w02.mp3"
+        },
+        {
+          "id": "tr-3-5-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильную форму «прогуляемся» от глагола yürümek:",
+          "question_text": "Parkta ___ .",
+          "options": ["yürüyelim", "yürüelim", "yürüyalım", "yürümeyelim"],
+          "correct_index": 0,
+          "explain_ru": "Основа yürü оканчивается на переднюю гласную ü → соединительная y + -elim → yürüyelim.",
+          "audio": "tr/3-5/w09.mp3"
+        },
+        {
+          "id": "tr-3-5-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает фраза «Saat beşte buluşalım mı?»?",
+          "question_text": "Saat beşte buluşalım mı?",
+          "options": [
+            "Встретимся в пять часов?",
+            "Поедим в пять часов?",
+            "Отдохнём в пять часов?",
+            "Начнём в пять часов?"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Buluşalım — встретимся (от buluşmak).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-5-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать «Давай отдохнём!»?",
+          "question_text": "Hadi ___ !",
+          "options": ["dinlenelim", "dinlenalım", "dinlenyelim", "dinleniyoruz"],
+          "correct_index": 0,
+          "explain_ru": "Dinlenmek (отдыхать) → dinlen + -elim = dinlenelim.",
+          "audio": "tr/3-5/w10.mp3"
+        },
+        {
+          "id": "tr-3-5-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какая форма правильна для «Давай сделаем завтрак»?",
+          "question_text": "Hadi kahvaltı ___ !",
+          "options": ["yapalım", "yapelim", "yapyalım", "yapıyoruz"],
+          "correct_index": 0,
+          "explain_ru": "Yapmak → после задней гласной a ставится -alım → yapalım.",
+          "audio": "tr/3-5/w03.mp3"
+        },
+        {
+          "id": "tr-3-5-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильную форму отрицания «давай не пойдём»:",
+          "question_text": "Bugün sinemaya ___ .",
+          "options": ["gitmeyelim", "gitmayalım", "gidmeyelim", "gitmiyelim"],
+          "correct_index": 0,
+          "explain_ru": "Отрицание строится через -me/-ma + -yelim/-yalım: git + -me + -yelim = gitmeyelim (t не озвончается перед согласной m).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-5-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте переписку друзей и ответьте на вопрос:",
+          "passage": "— Ali, akşam ne yapalım? — Önce kafede buluşalım ve çay içelim. Sonra tiyatroya gidelim mi? — Olur! Saat yedide başlayalım.",
+          "questions": [
+            {
+              "question_ru": "Что друзья планируют сделать СНАЧАЛА?",
+              "options": [
+                "Встретиться в кафе и выпить чаю",
+                "Пойти сразу в театр",
+                "Погулять в парке",
+                "Посмотреть фильм в кино"
+              ],
+              "correct_index": 0,
+              "accepted": ["встретиться в кафе и выпить чаю", "выпить чаю в кафе"]
+            }
+          ],
+          "explain_ru": "Önce kafede buluşalım ve çay içelim — Сначала встретимся в кафе и выпьем чаю.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

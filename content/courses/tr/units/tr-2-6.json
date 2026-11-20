@@ -190,7 +190,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «рубашка»:",
           "transcript": "gömlek",
-          "accepted": ["gömlek"],
+          "accepted": [
+            "gömlek"
+          ],
           "explain_ru": "Gömlek — рубашка.",
           "audio": "tr/2-6/ls-02.mp3"
         },
@@ -200,7 +202,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «юбка»:",
           "transcript": "etek",
-          "accepted": ["etek"],
+          "accepted": [
+            "etek"
+          ],
           "explain_ru": "Etek — юбка.",
           "audio": "tr/2-6/ls-03.mp3"
         },
@@ -226,7 +230,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «галстук»:",
           "transcript": "kravat",
-          "accepted": ["kravat"],
+          "accepted": [
+            "kravat"
+          ],
           "explain_ru": "Kravat — галстук.",
           "audio": "tr/2-6/ls-05.mp3"
         },
@@ -236,7 +242,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «перчатки»:",
           "transcript": "eldiven",
-          "accepted": ["eldiven"],
+          "accepted": [
+            "eldiven"
+          ],
           "explain_ru": "Eldiven — перчатки (от el — рука).",
           "audio": "tr/2-6/ls-06.mp3"
         },
@@ -245,7 +253,7 @@
           "type": "listen_choose",
           "origin": "derived",
           "prompt_ru": "Сколько стоит куртка/пиджак в записи?",
-          "transcript": "Bu ceket çok güzel ve sadece (всего) yüz lira.",
+          "transcript": "Bu ceket çok güzel ve sadece yüz lira.",
           "options": [
             "100 лир (yüz lira)",
             "50 лир (elli lira)",
@@ -262,7 +270,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «ремень»:",
           "transcript": "kemer",
-          "accepted": ["kemer"],
+          "accepted": [
+            "kemer"
+          ],
           "explain_ru": "Kemer — ремень.",
           "audio": "tr/2-6/ls-08.mp3"
         }
@@ -276,7 +286,9 @@
           "origin": "source",
           "prompt_ru": "Допишите пропущенную букву («рубашка»): g_mlek",
           "source_text": "g_mlek",
-          "accepted": ["gömlek"],
+          "accepted": [
+            "gömlek"
+          ],
           "explain_ru": "Gömlek — рубашка (пишется с буквой ö).",
           "audio": null
         },
@@ -286,7 +298,9 @@
           "origin": "source",
           "prompt_ru": "Допишите пропущенную букву («брюки»): pan_olon",
           "source_text": "pan_olon",
-          "accepted": ["pantolon"],
+          "accepted": [
+            "pantolon"
+          ],
           "explain_ru": "Pantolon — брюки.",
           "audio": null
         },
@@ -296,7 +310,9 @@
           "origin": "source",
           "prompt_ru": "Допишите пропущенную букву («носки»): çor_p",
           "source_text": "çor_p",
-          "accepted": ["çorap"],
+          "accepted": [
+            "çorap"
+          ],
           "explain_ru": "Çorap — носки.",
           "audio": null
         },
@@ -306,7 +322,9 @@
           "origin": "source",
           "prompt_ru": "Допишите пропущенные буквы («обувь»): ay_kkab_",
           "source_text": "ay_kkab_",
-          "accepted": ["ayakkabı"],
+          "accepted": [
+            "ayakkabı"
+          ],
           "explain_ru": "Ayakkabı — обувь (от ayak — нога + kap — футляр).",
           "audio": null
         },
@@ -316,8 +334,14 @@
           "origin": "source",
           "prompt_ru": "Кубики: соберите предложение «Я надеваю новое платье»:",
           "source_text": "Я надеваю новое платье.",
-          "bank": ["giyiyorum", "elbise", "yeni"],
-          "accepted": ["Yeni elbise giyiyorum"],
+          "bank": [
+            "giyiyorum",
+            "elbise",
+            "yeni"
+          ],
+          "accepted": [
+            "Yeni elbise giyiyorum"
+          ],
           "explain_ru": "Yeni elbise giyiyorum — Я надеваю новое платье.",
           "audio": null
         },
@@ -327,10 +351,22 @@
           "origin": "derived",
           "prompt_ru": "Соедините предметы одежды с переводом (1/2):",
           "pairs": [
-            { "left": "ceket", "right": "пиджак / куртка" },
-            { "left": "etek", "right": "юбка" },
-            { "left": "kazak", "right": "свитер" },
-            { "left": "mont", "right": "пальто" }
+            {
+              "left": "ceket",
+              "right": "пиджак / куртка"
+            },
+            {
+              "left": "etek",
+              "right": "юбка"
+            },
+            {
+              "left": "kazak",
+              "right": "свитер"
+            },
+            {
+              "left": "mont",
+              "right": "пальто"
+            }
           ],
           "explain_ru": "Ceket, etek, kazak, mont.",
           "audio": null
@@ -341,10 +377,22 @@
           "origin": "derived",
           "prompt_ru": "Соедините одежду и аксессуары с переводом (2/2):",
           "pairs": [
-            { "left": "kravat", "right": "галстук" },
-            { "left": "eldiven", "right": "перчатки" },
-            { "left": "kemer", "right": "ремень" },
-            { "left": "pantolon", "right": "брюки" }
+            {
+              "left": "kravat",
+              "right": "галстук"
+            },
+            {
+              "left": "eldiven",
+              "right": "перчатки"
+            },
+            {
+              "left": "kemer",
+              "right": "ремень"
+            },
+            {
+              "left": "pantolon",
+              "right": "брюки"
+            }
           ],
           "explain_ru": "Kravat, eldiven, kemer, pantolon.",
           "audio": null
@@ -354,7 +402,12 @@
           "type": "odd_one_out",
           "origin": "derived",
           "prompt_ru": "Найдите лишнее (не одежда и не аксессуар):",
-          "items": ["gömlek", "mont", "eldiven", "istasyon"],
+          "items": [
+            "gömlek",
+            "mont",
+            "eldiven",
+            "istasyon"
+          ],
           "odd_index": 3,
           "explain_ru": "İstasyon — вокзал (место), а gömlek, mont и eldiven — одежда.",
           "audio": null
@@ -379,7 +432,11 @@
                 "в тексте не сказано"
               ],
               "correct_index": 0,
-              "accepted": ["белая", "белого", "beyaz"]
+              "accepted": [
+                "белая",
+                "белого",
+                "beyaz"
+              ]
             }
           ],
           "explain_ru": "Ayakkabısı beyaz — Его обувь белая.",
@@ -391,7 +448,12 @@
           "origin": "derived",
           "prompt_ru": "Выберите перевод слова «mont»:",
           "question_text": "mont",
-          "options": ["пальто", "свитер", "юбка", "носки"],
+          "options": [
+            "пальто",
+            "свитер",
+            "юбка",
+            "носки"
+          ],
           "correct_index": 0,
           "explain_ru": "Mont — пальто, зимняя куртка.",
           "audio": "tr/2-6/w09.mp3"
@@ -402,7 +464,12 @@
           "origin": "derived",
           "prompt_ru": "Что обычно надевают на ноги?",
           "question_text": "Ayak (нога) için:",
-          "options": ["çorap ve ayakkabı", "kravat ve kemer", "eldiven ve gömlek", "ceket ve mont"],
+          "options": [
+            "çorap ve ayakkabı",
+            "kravat ve kemer",
+            "eldiven ve gömlek",
+            "ceket ve mont"
+          ],
           "correct_index": 0,
           "explain_ru": "Çorap (носки) и ayakkabı (обувь) носят на ногах.",
           "audio": null
@@ -423,7 +490,11 @@
                 "рубашка (gömleği)"
               ],
               "correct_index": 0,
-              "accepted": ["пальто", "mont", "montu"]
+              "accepted": [
+                "пальто",
+                "mont",
+                "montu"
+              ]
             }
           ],
           "explain_ru": "Ama montu eski — Но её пальто старое. Обратите внимание на чередование k → ğ: etek → eteği, kazak → kazağı, gömlek → gömleği.",
@@ -447,7 +518,12 @@
           "origin": "derived",
           "prompt_ru": "Как изменится слово «çorap» (носки) с притяжательным аффиксом «мои носки»?",
           "question_text": "benim çorap + -ım → ?",
-          "options": ["çorabım", "çorapım", "çorapim", "çorabim"],
+          "options": [
+            "çorabım",
+            "çorapım",
+            "çorapim",
+            "çorabim"
+          ],
           "correct_index": 0,
           "explain_ru": "По закону озвончения согласных перед гласной p переходит в b: çorap → çorabım.",
           "audio": null
@@ -474,7 +550,12 @@
           "origin": "derived",
           "prompt_ru": "Какая вещь нужна для рук в холодную погоду?",
           "question_text": "Soğuk hava (холодная погода) için:",
-          "options": ["eldiven", "kravat", "kemer", "etek"],
+          "options": [
+            "eldiven",
+            "kravat",
+            "kemer",
+            "etek"
+          ],
           "correct_index": 0,
           "explain_ru": "Eldiven — перчатки.",
           "audio": null

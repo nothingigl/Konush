@@ -139,7 +139,7 @@
           "type": "speak_repeat",
           "origin": "derived",
           "prompt_ru": "Скажите: «Мы говорим по-турецки и делаем завтрак»:",
-          "target_text": "Biz Türkçe (по-турецки) konuşuyoruz ve kahvaltı yapıyoruz.",
+          "target_text": "Biz Türkçe konuşuyoruz ve kahvaltı yapıyoruz.",
           "translation_ru": "Мы говорим по-турецки и делаем завтрак.",
           "explain_ru": "Konuşmak → konuşuyoruz, yapmak → yapıyoruz.",
           "audio": "tr/2-7/sp-06.mp3"
@@ -190,7 +190,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки инфинитив «говорить»:",
           "transcript": "konuşmak",
-          "accepted": ["konuşmak"],
+          "accepted": [
+            "konuşmak"
+          ],
           "explain_ru": "Konuşmak — говорить.",
           "audio": "tr/2-7/ls-02.mp3"
         },
@@ -200,7 +202,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки инфинитив «смотреть (на)»:",
           "transcript": "bakmak",
-          "accepted": ["bakmak"],
+          "accepted": [
+            "bakmak"
+          ],
           "explain_ru": "Bakmak — смотреть (на кого-то / на что-то).",
           "audio": "tr/2-7/ls-03.mp3"
         },
@@ -226,7 +230,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки инфинитив «делать»:",
           "transcript": "yapmak",
-          "accepted": ["yapmak"],
+          "accepted": [
+            "yapmak"
+          ],
           "explain_ru": "Yapmak — делать.",
           "audio": "tr/2-7/ls-05.mp3"
         },
@@ -236,7 +242,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки инфинитив «идти/ехать»:",
           "transcript": "gitmek",
-          "accepted": ["gitmek"],
+          "accepted": [
+            "gitmek"
+          ],
           "explain_ru": "Gitmek — идти/ехать (в настоящем времени gidiyor).",
           "audio": "tr/2-7/ls-06.mp3"
         },
@@ -262,7 +270,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки инфинитив «слушать»:",
           "transcript": "dinlemek",
-          "accepted": ["dinlemek"],
+          "accepted": [
+            "dinlemek"
+          ],
           "explain_ru": "Dinlemek — слушать.",
           "audio": "tr/2-7/ls-08.mp3"
         }
@@ -276,7 +286,10 @@
           "origin": "source",
           "prompt_ru": "Проспрягайте глагол в настоящем времени (-yor): gelmek, ben →",
           "source_text": "gelmek (ben)",
-          "accepted": ["geliyorum", "Ben geliyorum"],
+          "accepted": [
+            "geliyorum",
+            "Ben geliyorum"
+          ],
           "explain_ru": "Gel- + -iyor + -um → geliyorum (я прихожу).",
           "audio": null
         },
@@ -286,7 +299,10 @@
           "origin": "source",
           "prompt_ru": "Проспрягайте глагол в настоящем времени (-yor): beklemek, sen →",
           "source_text": "beklemek (sen)",
-          "accepted": ["bekliyorsun", "Sen bekliyorsun"],
+          "accepted": [
+            "bekliyorsun",
+            "Sen bekliyorsun"
+          ],
           "explain_ru": "У глаголов на -e/-a перед -yor конечная гласная сужается: bekle- → bekli- → bekliyorsun (ты ждёшь).",
           "audio": null
         },
@@ -296,7 +312,10 @@
           "origin": "source",
           "prompt_ru": "Проспрягайте глагол в настоящем времени (-yor): oynamak, o →",
           "source_text": "oynamak (o)",
-          "accepted": ["oynuyor", "O oynuyor"],
+          "accepted": [
+            "oynuyor",
+            "O oynuyor"
+          ],
           "explain_ru": "В глаголе oynamak конечная a сужается до u под влиянием o: oyna- → oynu- → oynuyor.",
           "audio": null
         },
@@ -306,7 +325,10 @@
           "origin": "source",
           "prompt_ru": "Проспрягайте глагол в настоящем времени (-yor): yürümek, biz →",
           "source_text": "yürümek (biz)",
-          "accepted": ["yürüyoruz", "Biz yürüyoruz"],
+          "accepted": [
+            "yürüyoruz",
+            "Biz yürüyoruz"
+          ],
           "explain_ru": "Основа yürü- уже оканчивается на узкую гласную ü, поэтому просто добавляется -yor + -uz: yürüyoruz.",
           "audio": null
         },
@@ -316,7 +338,10 @@
           "origin": "source",
           "prompt_ru": "Проспрягайте глагол в настоящем времени (-yor): yazmak, onlar →",
           "source_text": "yazmak (onlar)",
-          "accepted": ["yazıyorlar", "Onlar yazıyorlar"],
+          "accepted": [
+            "yazıyorlar",
+            "Onlar yazıyorlar"
+          ],
           "explain_ru": "Yaz- + -ıyor + -lar → yazıyorlar (они пишут).",
           "audio": null
         },
@@ -326,10 +351,22 @@
           "origin": "derived",
           "prompt_ru": "Соедините глаголы в инфинитиве с переводом (1/2):",
           "pairs": [
-            { "left": "gelmek", "right": "приходить" },
-            { "left": "gitmek", "right": "идти / ехать" },
-            { "left": "koşmak", "right": "бежать" },
-            { "left": "izlemek", "right": "смотреть (фильм)" }
+            {
+              "left": "gelmek",
+              "right": "приходить"
+            },
+            {
+              "left": "gitmek",
+              "right": "идти / ехать"
+            },
+            {
+              "left": "koşmak",
+              "right": "бежать"
+            },
+            {
+              "left": "izlemek",
+              "right": "смотреть (фильм)"
+            }
           ],
           "explain_ru": "Gelmek, gitmek, koşmak, izlemek.",
           "audio": null
@@ -340,10 +377,22 @@
           "origin": "derived",
           "prompt_ru": "Соедините глаголы в инфинитиве с переводом (2/2):",
           "pairs": [
-            { "left": "konuşmak", "right": "говорить" },
-            { "left": "dinlemek", "right": "слушать" },
-            { "left": "bakmak", "right": "смотреть (на)" },
-            { "left": "yapmak", "right": "делать" }
+            {
+              "left": "konuşmak",
+              "right": "говорить"
+            },
+            {
+              "left": "dinlemek",
+              "right": "слушать"
+            },
+            {
+              "left": "bakmak",
+              "right": "смотреть (на)"
+            },
+            {
+              "left": "yapmak",
+              "right": "делать"
+            }
           ],
           "explain_ru": "Konuşmak, dinlemek, bakmak, yapmak.",
           "audio": null
@@ -354,7 +403,9 @@
           "origin": "derived",
           "prompt_ru": "Исправь баг: в глаголе «gitmek» перед гласной t переходит в d («Я иду в школу»):",
           "buggy_text": "Ben okula gitiyorum.",
-          "accepted": ["Ben okula gidiyorum."],
+          "accepted": [
+            "Ben okula gidiyorum."
+          ],
           "explain_ru": "Gitmek — один из немногих глаголов, где t озвончается в d перед гласной: gidiyorum.",
           "audio": null
         }
@@ -378,7 +429,10 @@
                 "никто"
               ],
               "correct_index": 0,
-              "accepted": ["Али", "Ali"]
+              "accepted": [
+                "Али",
+                "Ali"
+              ]
             },
             {
               "question_ru": "Что делают дети?",
@@ -389,7 +443,11 @@
                 "пишут письмо"
               ],
               "correct_index": 0,
-              "accepted": ["играют", "oynuyor", "oynuyorlar"]
+              "accepted": [
+                "играют",
+                "oynuyor",
+                "oynuyorlar"
+              ]
             }
           ],
           "explain_ru": "Ali parkta koşuyor (Али бежит в парке). Çocuklar oynuyor (дети играют).",
@@ -401,7 +459,12 @@
           "origin": "derived",
           "prompt_ru": "Какую форму даст глагол «izlemek» в настоящем времени (o)?",
           "question_text": "izlemek (o) → ?",
-          "options": ["izliyor", "izleyor", "izlıyor", "izlüyor"],
+          "options": [
+            "izliyor",
+            "izleyor",
+            "izlıyor",
+            "izlüyor"
+          ],
           "correct_index": 0,
           "explain_ru": "Перед -yor широкая гласная e сужается в i: izle- → izli- → izliyor.",
           "audio": null
@@ -412,7 +475,12 @@
           "origin": "derived",
           "prompt_ru": "Выберите перевод глагола «beklemek»:",
           "question_text": "beklemek",
-          "options": ["ждать", "бежать", "писать", "играть"],
+          "options": [
+            "ждать",
+            "бежать",
+            "писать",
+            "играть"
+          ],
           "correct_index": 0,
           "explain_ru": "Beklemek — ждать.",
           "audio": "tr/2-7/w03.mp3"
@@ -433,7 +501,11 @@
                 "ждёт друга"
               ],
               "correct_index": 0,
-              "accepted": ["пишет в тетрадь", "пишет", "yazıyorum"]
+              "accepted": [
+                "пишет в тетрадь",
+                "пишет",
+                "yazıyorum"
+              ]
             }
           ],
           "explain_ru": "Deftere yazıyorum — я пишу в тетрадь (от yazmak).",
@@ -473,7 +545,12 @@
           "origin": "derived",
           "prompt_ru": "Выберите антоним глагола «gelmek» (приходить):",
           "question_text": "gelmek ↔ ?",
-          "options": ["gitmek", "oynamak", "yapmak", "yazmak"],
+          "options": [
+            "gitmek",
+            "oynamak",
+            "yapmak",
+            "yazmak"
+          ],
           "correct_index": 0,
           "explain_ru": "Gelmek (приходить) ↔ gitmek (уходить/идти).",
           "audio": null

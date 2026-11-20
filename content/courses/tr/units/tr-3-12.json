@@ -83,16 +83,415 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-12-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Приём (1/2): разыграйте начало разговора у врача:",
+          "target_text": "Şikâyetiniz ne? Başım ağrıyor ve ateşim var.",
+          "translation_ru": "На что жалуетесь? У меня болит голова и температура.",
+          "explain_ru": "Şikâyet — жалоба (şikâyetiniz — ваша жалоба). Обратите внимание на букву â.",
+          "audio": "tr/3-12/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-12-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Приём (2/2): произнесите реплики врача при осмотре и на прощание:",
+          "target_text": "Muayene edelim. Tansiyonunuza bakalım. Geçmiş olsun!",
+          "translation_ru": "Давайте проведём осмотр. Посмотрим ваше давление. Выздоравливайте!",
+          "explain_ru": "Muayene etmek — осматривать, tansiyon — давление, geçmiş olsun — выздоравливайте (букв. «пусть останется в прошлом»).",
+          "audio": "tr/3-12/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-12-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите врачу, что у вас аллергия на лекарство:",
+          "target_text": "Doktor bey, bu ilaca alerjim var.",
+          "translation_ru": "Господин врач, у меня аллергия на это лекарство.",
+          "explain_ru": "Alerji — аллергия (alerjim var — у меня есть аллергия).",
+          "audio": "tr/3-12/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-12-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите срочно вызвать скорую помощь:",
+          "target_text": "Çok acil! Lütfen ambulans çağırın.",
+          "translation_ru": "Очень срочно! Пожалуйста, вызовите скорую помощь.",
+          "explain_ru": "Acil — срочный, ambulans — скорая помощь, çağırın — вызовите.",
+          "audio": "tr/3-12/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-12-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что сначала нужен анализ, а потом рентген:",
+          "target_text": "Önce tahlil, sonra röntgen lazım.",
+          "translation_ru": "Сначала нужен анализ, потом рентген.",
+          "explain_ru": "Tahlil — анализ, röntgen — рентген, lazım — нужно.",
+          "audio": "tr/3-12/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-12-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что лечение началось и операция не нужна:",
+          "target_text": "Tedavi başladı, ameliyat yok.",
+          "translation_ru": "Лечение началось, операции нет.",
+          "explain_ru": "Tedavi — лечение, ameliyat — операция.",
+          "audio": "tr/3-12/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-12-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите у врача справку для работы:",
+          "target_text": "İş için rapor alabilir miyim?",
+          "translation_ru": "Могу ли я получить справку для работы?",
+          "explain_ru": "Rapor — медицинская справка, больничный лист.",
+          "audio": "tr/3-12/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-12-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Пожелайте заболевшему другу скорейшего выздоровления:",
+          "target_text": "Çok geçmiş olsun, çabuk iyileş!",
+          "translation_ru": "Скорейшего выздоровления, поправляйся скорее!",
+          "explain_ru": "Çok geçmiş olsun — очень распространённое пожелание выздоровления.",
+          "audio": "tr/3-12/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-12-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "В регистратуре. Прослушайте диалог (randevu — запись на приём) и ответьте: что нужно сделать сначала?",
+          "transcript": "Acil mi? Hayır. Randevunuz saat ikide. Önce tahlil, sonra röntgen.",
+          "options": [
+            "Сдать анализы (tahlil)",
+            "Сделать рентген (röntgen)",
+            "Вызвать скорую (ambulans)",
+            "Получить справку (rapor)"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Önce tahlil, sonra röntgen — Сначала анализ, потом рентген.",
+          "audio": "tr/3-12/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-12-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «осмотр»:",
+          "transcript": "muayene",
+          "accepted": ["muayene"],
+          "explain_ru": "Muayene — медицинский осмотр.",
+          "audio": "tr/3-12/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-12-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «давление»:",
+          "transcript": "tansiyon",
+          "accepted": ["tansiyon"],
+          "explain_ru": "Tansiyon — артериальное давление.",
+          "audio": "tr/3-12/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-12-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О чём говорит врач пациенту (gerekmiyor — не требуется)?",
+          "transcript": "Tansiyonunuz normal. Ameliyat gerekmiyor, sadece kısa bir tedavi.",
+          "options": [
+            "Давление в норме, операция не нужна, только короткое лечение",
+            "Давление высокое, нужна срочная операция",
+            "Нужно вызвать скорую помощь",
+            "У пациента сильная аллергия"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Tansiyon — давление, ameliyat — операция, tedavi — лечение.",
+          "audio": "tr/3-12/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-12-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «скорая помощь»:",
+          "transcript": "ambulans",
+          "accepted": ["ambulans"],
+          "explain_ru": "Ambulans — скорая помощь.",
+          "audio": "tr/3-12/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-12-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «лечение»:",
+          "transcript": "tedavi",
+          "accepted": ["tedavi"],
+          "explain_ru": "Tedavi — лечение.",
+          "audio": "tr/3-12/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-12-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "На что жалуется пациент?",
+          "transcript": "Şikâyetiniz ne? Boğazım ağrıyor ve alerjim var. Doktor bana rapor verdi.",
+          "options": [
+            "У него болит горло и есть аллергия, врач дал справку",
+            "У него болит спина, врач назначил операцию",
+            "Он здоров и пришёл за рецептом",
+            "У него высокое давление"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Şikâyet — жалоба, alerji — аллергия, rapor — справка.",
+          "audio": "tr/3-12/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-12-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «операция»:",
+          "transcript": "ameliyat",
+          "accepted": ["ameliyat"],
+          "explain_ru": "Ameliyat — хирургическая операция.",
+          "audio": "tr/3-12/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-12-wr-01",
+          "type": "odd_one_out",
+          "origin": "source",
+          "prompt_ru": "Найдите лишнее (не медицинское понятие):",
+          "items": ["muayene", "tahlil", "röntgen", "kalem"],
+          "odd_index": 3,
+          "explain_ru": "Kalem — ручка, а muayene (осмотр), tahlil (анализ) и röntgen (рентген) — термины у врача.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-12-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допишите слово «нужно»: «Doktora gitmem ___»",
+          "source_text": "Doktora gitmem ___ (нужно)",
+          "accepted": ["lazım", "Doktora gitmem lazım"],
+          "explain_ru": "Lazım — нужно: Doktora gitmem lazım (Мне нужно пойти к врачу).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-12-wr-03",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите фразу «У меня аллергия»:",
+          "source_text": "У меня аллергия.",
+          "bank": ["alerjim", "var"],
+          "accepted": ["Alerjim var"],
+          "explain_ru": "Alerjim var — У меня есть аллергия (alerji + -m).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-12-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините медицинские слова с их переводом (1/2):",
+          "pairs": [
+            { "left": "şikâyet", "right": "жалоба" },
+            { "left": "tansiyon", "right": "давление" },
+            { "left": "tedavi", "right": "лечение" },
+            { "left": "rapor", "right": "справка" }
+          ],
+          "explain_ru": "Şikâyet — жалоба, tansiyon — давление, tedavi — лечение, rapor — справка.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-12-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините медицинские слова с их переводом (2/2):",
+          "pairs": [
+            { "left": "acil", "right": "срочный" },
+            { "left": "ambulans", "right": "скорая помощь" },
+            { "left": "ameliyat", "right": "операция" },
+            { "left": "geçmiş olsun", "right": "выздоравливайте" }
+          ],
+          "explain_ru": "Acil — срочный, ambulans — скорая помощь, ameliyat — операция, geçmiş olsun — выздоравливайте.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-12-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Кубики: соберите фразу «Сначала анализ, потом рентген»:",
+          "source_text": "Сначала анализ, потом рентген.",
+          "bank": ["röntgen", "önce", "tahlil", "sonra"],
+          "accepted": ["Önce tahlil sonra röntgen"],
+          "explain_ru": "Önce tahlil, sonra röntgen — Сначала анализ, потом рентген.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-12-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: проверьте гармонию гласных в глаголе («Врач даёт справку»):",
+          "buggy_text": "Doktor rapor verıyor.",
+          "accepted": ["Doktor rapor veriyor."],
+          "explain_ru": "Корень ver- содержит гласную переднего ряда e, поэтому суффикс -iyor пишется с точкой над i: veriyor.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-12-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки пожелание «выздоравливайте»:",
+          "source_text": "выздоравливайте",
+          "accepted": ["geçmiş olsun"],
+          "explain_ru": "Geçmiş olsun — стандартное пожелание выздоровления в турецком языке.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-12-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Справка. Прочитайте текст и ответьте на вопросы:",
+          "passage": "Ali iki gündür hasta. Doktor ona rapor veriyor. Üç gün işe gitmeyecek.",
+          "questions": [
+            {
+              "question_ru": "Что выдал врач Али?",
+              "options": [
+                "справку (rapor)",
+                "рентген (röntgen)",
+                "скорую помощь (ambulans)",
+                "анализ (tahlil)"
+              ],
+              "correct_index": 0,
+              "accepted": ["справку", "справка", "rapor"]
+            },
+            {
+              "question_ru": "Сколько дней Али не пойдёт на работу?",
+              "options": [
+                "три дня (üç gün)",
+                "два дня (iki gün)",
+                "один день (bir gün)",
+                "пять дней (beş gün)"
+              ],
+              "correct_index": 0,
+              "accepted": ["три", "три дня", "3", "üç", "üç gün"]
+            }
+          ],
+          "explain_ru": "Doktor ona rapor veriyor (врач выдаёт ему справку). Üç gün işe gitmeyecek (три дня не пойдёт на работу).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-12-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните написание слова «şikâyet»:",
+          "target_text": "şikâyet",
+          "translation_ru": "жалоба",
+          "example_text": "Şikâyetiniz ne?",
+          "example_ru": "На что вы жалуетесь?",
+          "explain_ru": "Слово şikâyet пишется со знаком циркумфлекса над a (â), который смягчает предыдущее k.",
+          "audio": "tr/3-12/w02.mp3"
+        },
+        {
+          "id": "tr-3-12-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «acil»:",
+          "question_text": "acil",
+          "options": ["срочный", "здоровый", "тихий", "дорогой"],
+          "correct_index": 0,
+          "explain_ru": "Acil — срочный; Acil Servis — отделение скорой помощи.",
+          "audio": "tr/3-12/w09.mp3"
+        },
+        {
+          "id": "tr-3-12-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «muayene»?",
+          "question_text": "muayene",
+          "options": ["осмотр", "операция", "аллергия", "давление"],
+          "correct_index": 0,
+          "explain_ru": "Muayene — осмотр у врача.",
+          "audio": "tr/3-12/w01.mp3"
+        },
+        {
+          "id": "tr-3-12-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что обычно говорят человеку, который заболел или попал в больницу?",
+          "question_text": "Arkadaşım hastanede (в больнице). Ona ne diyorum?",
+          "options": [
+            "Geçmiş olsun!",
+            "Afiyet olsun!",
+            "İyi akşamlar!",
+            "Hoş bulduk!"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Geçmiş olsun! — Выздоравливайте! (Afiyet olsun — Приятного аппетита).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-12-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте запись из клиники и ответьте на вопрос:",
+          "passage": "Ayşe'nin alerjisi var. Hemşire önce tansiyonuna baktı, sonra doktor muayene etti. Tedavi beş gün sürecek (продлится).",
+          "questions": [
+            {
+              "question_ru": "Что медсестра сделала в первую очередь?",
+              "options": [
+                "измерила давление (tansiyon)",
+                "сделала рентген (röntgen)",
+                "вызвала скорую (ambulans)",
+                "провела операцию (ameliyat)"
+              ],
+              "correct_index": 0,
+              "accepted": ["измерила давление", "посмотрела давление", "давление", "tansiyon"]
+            }
+          ],
+          "explain_ru": "Hemşire önce tansiyonuna baktı — Медсестра сначала измерила её давление.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-12-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «röntgen»:",
+          "question_text": "röntgen",
+          "options": ["рентген", "анализ", "лечение", "справка"],
+          "correct_index": 0,
+          "explain_ru": "Röntgen — рентген.",
+          "audio": "tr/3-12/w05.mp3"
+        },
+        {
+          "id": "tr-3-12-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какую машину вызывают при срочной медицинской помощи?",
+          "question_text": "Acil durumda (в срочной ситуации) ne gelir?",
+          "options": ["ambulans", "bisiklet", "otobüs", "gemi"],
+          "correct_index": 0,
+          "explain_ru": "Ambulans — скорая помощь.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"
