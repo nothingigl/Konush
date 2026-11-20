@@ -83,16 +83,390 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-2-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Паспортный контроль (1/3): ответьте вслух на вопрос «Откуда вы?»:",
+          "target_text": "Where are you from? — I am from Kazakhstan.",
+          "translation_ru": "Откуда вы? — Я из Казахстана.",
+          "explain_ru": "В английском нельзя опускать глагол-связку am: I am from Kazakhstan.",
+          "audio": "en/1-2/sp-01.mp3"
+        },
+        {
+          "id": "en-1-2-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Паспортный контроль (2/3): повторите с тремя другими странами:",
+          "target_text": "I am from Russia. I am from Turkey. I am from Germany.",
+          "translation_ru": "Я из России. Я из Турции. Я из Германии.",
+          "explain_ru": "Названия стран в английском всегда пишутся с заглавной буквы.",
+          "audio": "en/1-2/sp-02.mp3"
+        },
+        {
+          "id": "en-1-2-sp-03",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Паспортный контроль (3/3): повторите с Англией и США:",
+          "target_text": "I am from England. I am from the USA.",
+          "translation_ru": "Я из Англии. Я из США.",
+          "explain_ru": "С аббревиатурой the USA всегда ставится определённый артикль the.",
+          "audio": "en/1-2/sp-03.mp3"
+        },
+        {
+          "id": "en-1-2-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, где вы живёте:",
+          "target_text": "I live in a big city.",
+          "translation_ru": "Я живу в большом городе.",
+          "explain_ru": "Live — жить, city — город (big — большой).",
+          "audio": "en/1-2/sp-04.mp3"
+        },
+        {
+          "id": "en-1-2-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух фразу про страну и город:",
+          "target_text": "Turkey is a country. Istanbul is a city.",
+          "translation_ru": "Турция — это страна. Стамбул — это город.",
+          "explain_ru": "Country — страна, city — город.",
+          "audio": "en/1-2/sp-05.mp3"
+        },
+        {
+          "id": "en-1-2-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, откуда собеседник, и скажите, где живёте:",
+          "target_text": "Hello! Where are you from? I live in Kazakhstan.",
+          "translation_ru": "Привет! Откуда вы? Я живу в Казахстане.",
+          "explain_ru": "Where — где / откуда, live in — жить в.",
+          "audio": "en/1-2/sp-06.mp3"
+        },
+        {
+          "id": "en-1-2-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух, что вы из Германии, но живёте в России:",
+          "target_text": "I am from Germany. I live in Russia.",
+          "translation_ru": "Я из Германии. Я живу в России.",
+          "explain_ru": "Предлог from означает «из» (откуда родом), in — «в» (где живёте).",
+          "audio": "en/1-2/sp-07.mp3"
+        },
+        {
+          "id": "en-1-2-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите прощание после знакомства:",
+          "target_text": "I am from the USA. Thank you! Goodbye!",
+          "translation_ru": "Я из США. Спасибо! До свидания!",
+          "explain_ru": "Повторяем вежливые слова из юнита 1.1.",
+          "audio": "en/1-2/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-2-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Откуда они? (1/2). Прослушайте скрипт: кто из Турции?",
+          "transcript": "Anna is from Germany. Ali is from Turkey. I live in Russia.",
+          "options": ["Али (Ali)", "Анна (Anna)", "Говорящий", "Том"],
+          "correct_index": 0,
+          "explain_ru": "Ali is from Turkey — Али из Турции.",
+          "audio": "en/1-2/ls-01.mp3"
+        },
+        {
+          "id": "en-1-2-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Откуда они? (2/2). Прослушайте тот же скрипт: где живёт говорящий?",
+          "transcript": "Anna is from Germany. Ali is from Turkey. I live in Russia.",
+          "options": ["в России (in Russia)", "в Германии", "в Турции", "в Англии"],
+          "correct_index": 0,
+          "explain_ru": "I live in Russia — Я живу в России.",
+          "audio": "en/1-2/ls-01.mp3"
+        },
+        {
+          "id": "en-1-2-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «страна»:",
+          "transcript": "country",
+          "accepted": ["country"],
+          "explain_ru": "Country — страна.",
+          "audio": "en/1-2/w03.mp3"
+        },
+        {
+          "id": "en-1-2-ls-04",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «город»:",
+          "transcript": "city",
+          "accepted": ["city"],
+          "explain_ru": "City — город.",
+          "audio": "en/1-2/w04.mp3"
+        },
+        {
+          "id": "en-1-2-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Откуда говорящий в этой записи?",
+          "transcript": "Where are you from? — I am from Kazakhstan.",
+          "options": ["из Казахстана", "из США", "из Англии", "из Германии"],
+          "correct_index": 0,
+          "explain_ru": "I am from Kazakhstan — Я из Казахстана.",
+          "audio": "en/1-2/sp-01.mp3"
+        },
+        {
+          "id": "en-1-2-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски глагол «жить»:",
+          "transcript": "live",
+          "accepted": ["live"],
+          "explain_ru": "Live — жить.",
+          "audio": "en/1-2/w11.mp3"
+        },
+        {
+          "id": "en-1-2-ls-07",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите по-английски слово «где / откуда»:",
+          "transcript": "where",
+          "accepted": ["where"],
+          "explain_ru": "Where — где / откуда.",
+          "audio": "en/1-2/w12.mp3"
+        },
+        {
+          "id": "en-1-2-ls-08",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какие две страны назвал диктор?",
+          "transcript": "I am from England. I am from the USA.",
+          "options": [
+            "Англия и США",
+            "Россия и Казахстан",
+            "Турция и Германия",
+            "Англия и Россия"
+          ],
+          "correct_index": 0,
+          "explain_ru": "England — Англия, the USA — США.",
+          "audio": "en/1-2/sp-03.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-2-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Я из Турции»",
+          "source_text": "Я из Турции.",
+          "bank": ["from", "I", "am", "Turkey"],
+          "accepted": ["I am from Turkey"],
+          "explain_ru": "Порядок слов: подлежащее (I) + глагол (am) + предлог (from) + страна (Turkey).",
+          "audio": null
+        },
+        {
+          "id": "en-1-2-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: добавьте пропущенный глагол-связку в предложении «Я из Англии»",
+          "buggy_text": "I from England",
+          "accepted": ["I am from England."],
+          "explain_ru": "В английском предложении обязательно нужен глагол am после I: I am from England.",
+          "audio": null
+        },
+        {
+          "id": "en-1-2-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допиши пропущенный глагол: «Where ___ you from?» («Откуда вы?»)",
+          "source_text": "Where ___ you from?",
+          "accepted": ["are"],
+          "explain_ru": "С местоимением you используется форма глагола to be — are: Where are you from?",
+          "audio": null
+        },
+        {
+          "id": "en-1-2-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините названия стран с переводом",
+          "pairs": [
+            { "left": "Russia", "right": "Россия" },
+            { "left": "Kazakhstan", "right": "Казахстан" },
+            { "left": "Turkey", "right": "Турция" },
+            { "left": "Germany", "right": "Германия" }
+          ],
+          "explain_ru": "Russia, Kazakhstan, Turkey, Germany.",
+          "audio": null
+        },
+        {
+          "id": "en-1-2-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом",
+          "pairs": [
+            { "left": "country", "right": "страна" },
+            { "left": "city", "right": "город" },
+            { "left": "live", "right": "жить" },
+            { "left": "where", "right": "где, откуда" }
+          ],
+          "explain_ru": "Country — страна, city — город, live — жить, where — где/откуда.",
+          "audio": null
+        },
+        {
+          "id": "en-1-2-wr-06",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски: «Я из США» (не забудьте артикль the)",
+          "source_text": "Я из США.",
+          "accepted": ["I am from the USA."],
+          "explain_ru": "Перед USA ставится артикль the: I am from the USA.",
+          "audio": null
+        },
+        {
+          "id": "en-1-2-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Я живу в Германии»",
+          "source_text": "Я живу в Германии.",
+          "bank": ["in", "live", "I", "Germany"],
+          "accepted": ["I live in Germany"],
+          "explain_ru": "I live in Germany — Я живу в Германии.",
+          "audio": null
+        },
+        {
+          "id": "en-1-2-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не название страны):",
+          "items": ["Russia", "England", "Turkey", "city"],
+          "odd_index": 3,
+          "explain_ru": "City — «город», а Russia, England и Turkey — названия стран.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-2-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Карточка. Прочитайте текст и ответьте на два вопроса (big — большой):",
+          "passage": "Hello! My name is Tom. I am from England. I live in a big city.",
+          "questions": [
+            {
+              "question_ru": "Откуда Том?",
+              "options": ["из Англии (England)", "из Турции", "из Германии", "из США"],
+              "correct_index": 0,
+              "accepted": ["из Англии", "England"]
+            },
+            {
+              "question_ru": "Где он живёт?",
+              "options": ["в большом городе (in a big city)", "в деревне", "в Казахстане", "в России"],
+              "correct_index": 0,
+              "accepted": ["в большом городе", "in a big city"]
+            }
+          ],
+          "explain_ru": "I am from England (Я из Англии). I live in a big city (Я живу в большом городе).",
+          "audio": null
+        },
+        {
+          "id": "en-1-2-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какая страна пишется с артиклем «the»?",
+          "question_text": "I am from ___.",
+          "options": ["the USA", "the Russia", "the Turkey", "the Germany"],
+          "correct_index": 0,
+          "explain_ru": "Обычные названия стран идут без артикля, но с the USA артикль обязателен.",
+          "audio": null
+        },
+        {
+          "id": "en-1-2-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «from»:",
+          "question_text": "from",
+          "options": ["из, от", "жить", "город", "страна"],
+          "correct_index": 0,
+          "explain_ru": "From — предлог «из, от» (I am from Kazakhstan).",
+          "audio": "en/1-2/w02.mp3"
+        },
+        {
+          "id": "en-1-2-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте анкету и ответьте на вопрос:",
+          "passage": "Good morning! I am from Kazakhstan. Kazakhstan is a big country. Now I live in Turkey.",
+          "questions": [
+            {
+              "question_ru": "Где сейчас живёт автор?",
+              "options": ["в Турции (in Turkey)", "в Казахстане", "в Англии", "в Германии"],
+              "correct_index": 0,
+              "accepted": ["в Турции", "Turkey"]
+            }
+          ],
+          "explain_ru": "I am from Kazakhstan (Я родом из Казахстана), Now I live in Turkey (Сейчас я живу в Турции).",
+          "audio": null
+        },
+        {
+          "id": "en-1-2-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните связку «I am»:",
+          "target_text": "I am",
+          "translation_ru": "я (есть)",
+          "example_text": "I am from Russia.",
+          "example_ru": "Я из России.",
+          "explain_ru": "В английском глагол-связка am обязателен там, где в русском его опускают.",
+          "audio": "en/1-2/w01.mp3"
+        },
+        {
+          "id": "en-1-2-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как спросить «Откуда ты / вы?» по-английски?",
+          "question_text": "Откуда вы?",
+          "options": [
+            "Where are you from?",
+            "Good morning from you?",
+            "I am from where?",
+            "Where live country?"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Стандартный вопрос о происхождении: Where are you from?",
+          "audio": null
+        },
+        {
+          "id": "en-1-2-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «England»:",
+          "question_text": "England",
+          "options": ["Англия", "Германия", "США", "Казахстан"],
+          "correct_index": 0,
+          "explain_ru": "England — Англия.",
+          "audio": "en/1-2/w09.mp3"
+        },
+        {
+          "id": "en-1-2-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте реплики мини-диалога в правильном порядке:",
+          "items_shuffled": ["I am from Turkey.", "Hello! Where are you from?", "Nice! Welcome!"],
+          "correct_order": ["Hello! Where are you from?", "I am from Turkey.", "Nice! Welcome!"],
+          "explain_ru": "Сначала приветствие и вопрос, затем ответ о стране, затем реакция собеседника.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,401 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-8-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "В кафе (1/2): вежливо закажите чай и торт:",
+          "target_text": "I would like a tea and a cake, please.",
+          "translation_ru": "Я бы хотел чай и торт, пожалуйста.",
+          "explain_ru": "I would like... — вежливый способ сделать заказ в кафе или ресторане.",
+          "audio": "en/1-8/sp-01.mp3"
+        },
+        {
+          "id": "en-1-8-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "В кафе (2/2): закажите ещё две комбинации напитков и блюд:",
+          "target_text": "I would like coffee and bread, please. I would like water and soup.",
+          "translation_ru": "Я бы хотел кофе и хлеб, пожалуйста. Я бы хотел воду и суп.",
+          "explain_ru": "Water (вода), coffee (кофе), bread (хлеб), soup (суп).",
+          "audio": "en/1-8/sp-02.mp3"
+        },
+        {
+          "id": "en-1-8-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Закажите сок:",
+          "target_text": "I would like juice, please.",
+          "translation_ru": "Я бы хотел сок, пожалуйста.",
+          "explain_ru": "Juice — сок (произносится [dʒuːs]).",
+          "audio": "en/1-8/sp-03.mp3"
+        },
+        {
+          "id": "en-1-8-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите молоко и торт:",
+          "target_text": "I would like milk and a cake, please.",
+          "translation_ru": "Я бы хотел молоко и торт, пожалуйста.",
+          "explain_ru": "Milk — молоко, cake — торт.",
+          "audio": "en/1-8/sp-04.mp3"
+        },
+        {
+          "id": "en-1-8-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что любите хлеб и суп:",
+          "target_text": "I like soup and bread.",
+          "translation_ru": "Я люблю суп и хлеб.",
+          "explain_ru": "Bread — хлеб (ea здесь читается как краткое [e]).",
+          "audio": "en/1-8/sp-05.mp3"
+        },
+        {
+          "id": "en-1-8-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Закажите суп и салат:",
+          "target_text": "One soup and one salad, please.",
+          "translation_ru": "Один суп и один салат, пожалуйста.",
+          "explain_ru": "В кафе часто заказывают коротко: One soup..., please.",
+          "audio": "en/1-8/sp-06.mp3"
+        },
+        {
+          "id": "en-1-8-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите меню у официанта:",
+          "target_text": "Excuse me, the menu, please.",
+          "translation_ru": "Простите, меню, пожалуйста.",
+          "explain_ru": "Excuse me помогает вежливо привлечь внимание официанта; menu — меню.",
+          "audio": "en/1-8/sp-07.mp3"
+        },
+        {
+          "id": "en-1-8-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите счёт в конце ужина:",
+          "target_text": "Excuse me, the bill, please. Thank you!",
+          "translation_ru": "Простите, счёт, пожалуйста. Спасибо!",
+          "explain_ru": "The bill, please — Счёт, пожалуйста.",
+          "audio": "en/1-8/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-8-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Что заказали? (1/2): прослушайте скрипт и выберите заказ:",
+          "transcript": "One coffee, one soup and a salad, please. And the bill.",
+          "options": [
+            "кофе, суп и салат",
+            "чай, хлеб и торт",
+            "воду, сок и молоко",
+            "кофе и торт"
+          ],
+          "correct_index": 0,
+          "explain_ru": "One coffee, one soup and a salad — один кофе, один суп и салат.",
+          "audio": "en/1-8/ls-01.mp3"
+        },
+        {
+          "id": "en-1-8-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Что заказали? (2/2): что попросили в конце?",
+          "transcript": "One coffee, one soup and a salad, please. And the bill.",
+          "options": ["счёт", "меню", "воду", "торт"],
+          "correct_index": 0,
+          "explain_ru": "And the bill — И счёт.",
+          "audio": "en/1-8/ls-02.mp3"
+        },
+        {
+          "id": "en-1-8-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I would like water.",
+          "accepted": ["I would like water."],
+          "explain_ru": "I would like water — Я бы хотел воды.",
+          "audio": "en/1-8/ls-03.mp3"
+        },
+        {
+          "id": "en-1-8-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой напиток любит мама?",
+          "transcript": "My mother likes tea, and my father likes coffee.",
+          "options": ["чай", "кофе", "сок", "молоко"],
+          "correct_index": 0,
+          "explain_ru": "My mother likes tea — Моя мама любит чай.",
+          "audio": "en/1-8/ls-04.mp3"
+        },
+        {
+          "id": "en-1-8-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что заказали для детей?",
+          "transcript": "I would like juice and milk, please.",
+          "options": ["сок и молоко", "чай и кофе", "суп и хлеб", "салат и воду"],
+          "correct_index": 0,
+          "explain_ru": "Juice — сок, milk — молоко.",
+          "audio": "en/1-8/ls-05.mp3"
+        },
+        {
+          "id": "en-1-8-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что есть на кухне?",
+          "transcript": "There is bread and soup in the kitchen.",
+          "options": ["хлеб и суп", "торт и сок", "чай и молоко", "салат и кофе"],
+          "correct_index": 0,
+          "explain_ru": "Bread (хлеб) and soup (суп) in the kitchen.",
+          "audio": "en/1-8/ls-06.mp3"
+        },
+        {
+          "id": "en-1-8-ls-07",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "A tea and a cake, please.",
+          "accepted": ["A tea and a cake, please."],
+          "explain_ru": "A tea and a cake, please — Чай и торт, пожалуйста.",
+          "audio": "en/1-8/ls-07.mp3"
+        },
+        {
+          "id": "en-1-8-ls-08",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что просит гость в ресторане?",
+          "transcript": "Hello! I would like the menu, please.",
+          "options": ["меню", "счёт", "воду", "хлеб"],
+          "correct_index": 0,
+          "explain_ru": "The menu, please — Меню, пожалуйста.",
+          "audio": "en/1-8/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-8-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Я бы хотел воды»:",
+          "source_text": "Я бы хотел воды.",
+          "bank": ["like", "I", "would", "water"],
+          "accepted": ["I would like water"],
+          "explain_ru": "Устойчивая формула заказа: I would like + что вы хотите.",
+          "audio": null
+        },
+        {
+          "id": "en-1-8-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите и исправьте ошибку в предложении:",
+          "buggy_text": "I would like a soups",
+          "accepted": ["I would like a soup."],
+          "explain_ru": "Артикль a используется только с единственным числом, без -s: a soup.",
+          "audio": null
+        },
+        {
+          "id": "en-1-8-wr-03",
+          "type": "multiple_choice",
+          "origin": "source",
+          "prompt_ru": "Найди лишнее слово в ряду: tea – coffee – juice – bread",
+          "question_text": "tea – coffee – juice – bread",
+          "options": [
+            "bread (не напиток)",
+            "tea",
+            "coffee",
+            "juice"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Tea, coffee и juice — напитки, а bread (хлеб) — еда.",
+          "audio": null
+        },
+        {
+          "id": "en-1-8-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините напитки с переводом:",
+          "pairs": [
+            { "left": "water", "right": "вода" },
+            { "left": "tea", "right": "чай" },
+            { "left": "juice", "right": "сок" },
+            { "left": "milk", "right": "молоко" }
+          ],
+          "explain_ru": "Water — вода, tea — чай, juice — сок, milk — молоко.",
+          "audio": null
+        },
+        {
+          "id": "en-1-8-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините блюда с переводом:",
+          "pairs": [
+            { "left": "bread", "right": "хлеб" },
+            { "left": "soup", "right": "суп" },
+            { "left": "salad", "right": "салат" },
+            { "left": "cake", "right": "торт" }
+          ],
+          "explain_ru": "Bread — хлеб, soup — суп, salad — салат, cake — торт.",
+          "audio": null
+        },
+        {
+          "id": "en-1-8-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова и фразы для кафе с переводом:",
+          "pairs": [
+            { "left": "menu", "right": "меню" },
+            { "left": "bill", "right": "счёт" },
+            { "left": "coffee", "right": "кофе" },
+            { "left": "I would like", "right": "я бы хотел" }
+          ],
+          "explain_ru": "Menu — меню, bill — счёт, coffee — кофе, I would like — я бы хотел.",
+          "audio": null
+        },
+        {
+          "id": "en-1-8-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите фразу: «Я бы хотел салат»:",
+          "source_text": "Я бы хотел салат.",
+          "bank": ["salad", "a", "like", "would", "I"],
+          "accepted": ["I would like a salad"],
+          "explain_ru": "I would like a salad — Я бы хотел салат.",
+          "audio": null
+        },
+        {
+          "id": "en-1-8-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите на английский: «Счёт, пожалуйста.»",
+          "source_text": "Счёт, пожалуйста.",
+          "accepted": ["The bill, please.", "Bill, please."],
+          "explain_ru": "The bill, please — Счёт, пожалуйста.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-8-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Меню: прочитайте цены и ответьте на вопрос:",
+          "passage": "Menu: soup 5, salad 4, cake 3, tea 2, coffee 2.",
+          "questions": [
+            {
+              "question_ru": "Сколько стоят суп и чай вместе?",
+              "options": ["7", "6", "8", "9"],
+              "correct_index": 0,
+              "accepted": ["7", "семь"]
+            }
+          ],
+          "explain_ru": "Soup (5) + tea (2) = 7.",
+          "audio": null
+        },
+        {
+          "id": "en-1-8-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «water»:",
+          "question_text": "water",
+          "options": ["вода", "молоко", "сок", "чай"],
+          "correct_index": 0,
+          "explain_ru": "Water — вода.",
+          "audio": null
+        },
+        {
+          "id": "en-1-8-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «juice»:",
+          "question_text": "juice",
+          "options": ["сок", "суп", "кофе", "вода"],
+          "correct_index": 0,
+          "explain_ru": "Juice — сок.",
+          "audio": null
+        },
+        {
+          "id": "en-1-8-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «milk»:",
+          "question_text": "milk",
+          "options": ["молоко", "хлеб", "торт", "салат"],
+          "correct_index": 0,
+          "explain_ru": "Milk — молоко.",
+          "audio": null
+        },
+        {
+          "id": "en-1-8-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «bread»:",
+          "question_text": "bread",
+          "options": ["хлеб", "торт", "суп", "меню"],
+          "correct_index": 0,
+          "explain_ru": "Bread — хлеб.",
+          "audio": null
+        },
+        {
+          "id": "en-1-8-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «bill» в ресторане?",
+          "question_text": "bill",
+          "options": ["счёт", "меню", "салат", "напиток"],
+          "correct_index": 0,
+          "explain_ru": "Bill — счёт.",
+          "audio": null
+        },
+        {
+          "id": "en-1-8-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как вежливо сказать «Я бы хотел кофе»?",
+          "question_text": "Я бы хотел кофе.",
+          "options": [
+            "I would like coffee.",
+            "I am coffee.",
+            "This is bill.",
+            "Menu coffee."
+          ],
+          "correct_index": 0,
+          "explain_ru": "I would like — вежливое «я бы хотел».",
+          "audio": null
+        },
+        {
+          "id": "en-1-8-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий диалог в кафе и ответьте на вопрос:",
+          "passage": "Anna: I would like a salad and juice, please. Tom: I would like soup, bread and coffee. Anna: And a cake for both, please!",
+          "questions": [
+            {
+              "question_ru": "Что заказал Том?",
+              "options": [
+                "суп, хлеб и кофе",
+                "салат и сок",
+                "чай и молоко",
+                "только воду"
+              ],
+              "correct_index": 0,
+              "accepted": ["суп, хлеб и кофе"]
+            }
+          ],
+          "explain_ru": "Tom: I would like soup, bread and coffee — Том заказал суп, хлеб и кофе.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

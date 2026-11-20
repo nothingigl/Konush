@@ -83,16 +83,388 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-7-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Моё хобби (1/2): расскажите о любимых и нелюбимых занятиях:",
+          "target_text": "I like music. I like to swim. I do not like to cook.",
+          "translation_ru": "Я люблю музыку. Я люблю плавать. Я не люблю готовить.",
+          "explain_ru": "Перед вторым глаголом ставится частица to: like to swim. Отрицание: I do not like.",
+          "audio": "en/1-7/sp-01.mp3"
+        },
+        {
+          "id": "en-1-7-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Моё хобби (2/2): назовите три своих хобби и одно нелюбимое:",
+          "target_text": "My hobby is music. I like to read, draw and travel. I do not like football.",
+          "translation_ru": "Моё хобби — музыка. Я люблю читать, рисовать и путешествовать. Я не люблю футбол.",
+          "explain_ru": "Hobby — хобби; перечисляя глаголы после like to, частицу to можно не повторять.",
+          "audio": "en/1-7/sp-02.mp3"
+        },
+        {
+          "id": "en-1-7-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что она любит танцевать и петь:",
+          "target_text": "She likes to dance and sing.",
+          "translation_ru": "Она любит танцевать и петь.",
+          "explain_ru": "После he/she/it к глаголу в настоящем времени добавляется -s: she likes.",
+          "audio": "en/1-7/sp-03.mp3"
+        },
+        {
+          "id": "en-1-7-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы любите читать:",
+          "target_text": "I like to read in my room.",
+          "translation_ru": "Я люблю читать в своей комнате.",
+          "explain_ru": "Read — читать (читается [riːd]).",
+          "audio": "en/1-7/sp-04.mp3"
+        },
+        {
+          "id": "en-1-7-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите о любви к футболу:",
+          "target_text": "My brother likes football. He plays in the park.",
+          "translation_ru": "Мой брат любит футбол. Он играет в парке.",
+          "explain_ru": "He plays — он играет (добавляем -s к play).",
+          "audio": "en/1-7/sp-05.mp3"
+        },
+        {
+          "id": "en-1-7-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что сестра любит рисовать:",
+          "target_text": "My sister likes to draw.",
+          "translation_ru": "Моя сестра любит рисовать.",
+          "explain_ru": "Draw — рисовать.",
+          "audio": "en/1-7/sp-06.mp3"
+        },
+        {
+          "id": "en-1-7-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что мы любим путешествовать:",
+          "target_text": "We like to travel.",
+          "translation_ru": "Мы любим путешествовать.",
+          "explain_ru": "После we глагол без -s: we like.",
+          "audio": "en/1-7/sp-07.mp3"
+        },
+        {
+          "id": "en-1-7-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что мама любит готовить:",
+          "target_text": "My mother likes to cook in the kitchen.",
+          "translation_ru": "Моя мама любит готовить на кухне.",
+          "explain_ru": "Cook — готовить еду; kitchen — кухня.",
+          "audio": "en/1-7/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-7-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Кто что любит? (1/2): прослушайте скрипт и ответьте, кто любит футбол:",
+          "transcript": "Anna likes to dance. Tom likes football. Both like music.",
+          "options": ["Том", "Анна", "оба", "никто"],
+          "correct_index": 0,
+          "explain_ru": "Tom likes football — Том любит футбол.",
+          "audio": "en/1-7/ls-01.mp3"
+        },
+        {
+          "id": "en-1-7-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Кто что любит? (2/2): что любят оба (both)?",
+          "transcript": "Anna likes to dance. Tom likes football. Both like music.",
+          "options": ["музыку", "футбол", "танцы", "плавание"],
+          "correct_index": 0,
+          "explain_ru": "Both like music — Оба любят музыку.",
+          "audio": "en/1-7/ls-02.mp3"
+        },
+        {
+          "id": "en-1-7-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какое хобби у говорящего?",
+          "transcript": "My hobby is music. I like to sing.",
+          "options": ["музыка и пение", "футбол", "готовка", "путешествия"],
+          "correct_index": 0,
+          "explain_ru": "My hobby is music. I like to sing — Моё хобби — музыка. Я люблю петь.",
+          "audio": "en/1-7/ls-03.mp3"
+        },
+        {
+          "id": "en-1-7-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что НЕ любит делать говорящий?",
+          "transcript": "I like to read, but I do not like to cook.",
+          "options": ["готовить", "читать", "плавать", "рисовать"],
+          "correct_index": 0,
+          "explain_ru": "I do not like to cook — Я не люблю готовить.",
+          "audio": "en/1-7/ls-04.mp3"
+        },
+        {
+          "id": "en-1-7-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что любят делать родители?",
+          "transcript": "My parents like to travel and swim.",
+          "options": [
+            "путешествовать и плавать",
+            "играть в футбол",
+            "петь и танцевать",
+            "рисовать дома"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Travel — путешествовать, swim — плавать.",
+          "audio": "en/1-7/ls-05.mp3"
+        },
+        {
+          "id": "en-1-7-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I play football.",
+          "accepted": ["I play football."],
+          "explain_ru": "I play football — Я играю в футбол.",
+          "audio": "en/1-7/ls-06.mp3"
+        },
+        {
+          "id": "en-1-7-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Чем увлекается девочка?",
+          "transcript": "She is a nice girl. She likes to draw.",
+          "options": ["рисованием", "футболом", "готовкой", "плаванием"],
+          "correct_index": 0,
+          "explain_ru": "She likes to draw — Она любит рисовать.",
+          "audio": "en/1-7/ls-07.mp3"
+        },
+        {
+          "id": "en-1-7-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "She likes to sing.",
+          "accepted": ["She likes to sing."],
+          "explain_ru": "She likes to sing — Она любит петь.",
+          "audio": "en/1-7/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-7-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Добавь -s (1/3): She ___ (like) music.",
+          "source_text": "She ___ (like) music.",
+          "accepted": ["likes"],
+          "explain_ru": "С she добавляем -s к глаголу: likes.",
+          "audio": null
+        },
+        {
+          "id": "en-1-7-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Добавь -s (2/3): He ___ (swim) every day.",
+          "source_text": "He ___ (swim) every day.",
+          "accepted": ["swims"],
+          "explain_ru": "С he добавляем -s к глаголу: swims.",
+          "audio": null
+        },
+        {
+          "id": "en-1-7-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Добавь -s (3/3): I ___ (play) football.",
+          "source_text": "I ___ (play) football.",
+          "accepted": ["play"],
+          "explain_ru": "С I окончание -s не нужно: I play.",
+          "audio": null
+        },
+        {
+          "id": "en-1-7-wr-04",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Она любит петь»:",
+          "source_text": "Она любит петь.",
+          "bank": ["likes", "she", "to", "sing"],
+          "accepted": ["She likes to sing"],
+          "explain_ru": "She + likes + to sing.",
+          "audio": null
+        },
+        {
+          "id": "en-1-7-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы увлечений с переводом:",
+          "pairs": [
+            { "left": "read", "right": "читать" },
+            { "left": "draw", "right": "рисовать" },
+            { "left": "cook", "right": "готовить" },
+            { "left": "travel", "right": "путешествовать" }
+          ],
+          "explain_ru": "Read — читать, draw — рисовать, cook — готовить, travel — путешествовать.",
+          "audio": null
+        },
+        {
+          "id": "en-1-7-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "Anna like to dance.",
+          "accepted": ["Anna likes to dance."],
+          "explain_ru": "Anna = she, поэтому к глаголу нужно добавить -s: Anna likes to dance.",
+          "audio": null
+        },
+        {
+          "id": "en-1-7-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Моё хобби — музыка»:",
+          "source_text": "Моё хобби — музыка.",
+          "bank": ["music", "is", "hobby", "my"],
+          "accepted": ["My hobby is music"],
+          "explain_ru": "My hobby is music — Моё хобби — музыка.",
+          "audio": null
+        },
+        {
+          "id": "en-1-7-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Допишите глагол в нужной форме: He ___ (read) every day.",
+          "source_text": "He ___ (read) every day.",
+          "accepted": ["reads"],
+          "explain_ru": "С he добавляем -s: reads.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-7-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Мои увлечения: прочитайте текст и ответьте на вопросы (guitar — гитара):",
+          "passage": "My hobby is music. I play the guitar and sing. My brother likes football. He plays every day.",
+          "questions": [
+            {
+              "question_ru": "Что делает автор?",
+              "options": [
+                "играет на гитаре и поёт",
+                "играет в футбол",
+                "плавает каждый день",
+                "рисует и танцует"
+              ],
+              "correct_index": 0,
+              "accepted": ["играет на гитаре и поёт"]
+            },
+            {
+              "question_ru": "Что любит брат?",
+              "options": ["футбол", "музыку", "готовку", "путешествия"],
+              "correct_index": 0,
+              "accepted": ["футбол", "football"]
+            }
+          ],
+          "explain_ru": "I play the guitar and sing — Я играю на гитаре и пою; My brother likes football — Мой брат любит футбол.",
+          "audio": null
+        },
+        {
+          "id": "en-1-7-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «dance»:",
+          "question_text": "dance",
+          "options": ["танцевать", "петь", "рисовать", "плавать"],
+          "correct_index": 0,
+          "explain_ru": "Dance — танцевать.",
+          "audio": null
+        },
+        {
+          "id": "en-1-7-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «read»:",
+          "question_text": "read",
+          "options": ["читать", "играть", "готовить", "путешествовать"],
+          "correct_index": 0,
+          "explain_ru": "Read — читать.",
+          "audio": null
+        },
+        {
+          "id": "en-1-7-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «swim»:",
+          "question_text": "swim",
+          "options": ["плавать", "петь", "танцевать", "готовить"],
+          "correct_index": 0,
+          "explain_ru": "Swim — плавать.",
+          "audio": null
+        },
+        {
+          "id": "en-1-7-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «draw»:",
+          "question_text": "draw",
+          "options": ["рисовать", "читать", "играть", "путешествовать"],
+          "correct_index": 0,
+          "explain_ru": "Draw — рисовать.",
+          "audio": null
+        },
+        {
+          "id": "en-1-7-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «cook»:",
+          "question_text": "cook",
+          "options": ["готовить", "плавать", "танцевать", "рисовать"],
+          "correct_index": 0,
+          "explain_ru": "Cook — готовить.",
+          "audio": null
+        },
+        {
+          "id": "en-1-7-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «travel»:",
+          "question_text": "travel",
+          "options": ["путешествовать", "петь", "играть", "читать"],
+          "correct_index": 0,
+          "explain_ru": "Travel — путешествовать.",
+          "audio": null
+        },
+        {
+          "id": "en-1-7-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку о друзьях и ответьте на вопрос:",
+          "passage": "Kate likes to travel and draw. Her friend Max likes to cook. They both like music.",
+          "questions": [
+            {
+              "question_ru": "Что любит Макс?",
+              "options": ["готовить", "путешествовать", "играть в футбол", "плавать"],
+              "correct_index": 0,
+              "accepted": ["готовить"]
+            }
+          ],
+          "explain_ru": "Her friend Max likes to cook — Её друг Макс любит готовить.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

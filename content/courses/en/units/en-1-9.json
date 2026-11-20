@@ -83,16 +83,402 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-9-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мой питомец (1/2): расскажите про кота Макса:",
+          "target_text": "I have a cat. Its name is Max. I feed it every day.",
+          "translation_ru": "У меня есть кот. Его зовут Макс. Я кормлю его каждый день.",
+          "explain_ru": "Для животных часто используют местоимение it / its; feed — кормить.",
+          "audio": "en/1-9/sp-01.mp3"
+        },
+        {
+          "id": "en-1-9-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мой питомец (2/2): расскажите про воображаемого щенка:",
+          "target_text": "I have a puppy. Its name is Rex. I walk my puppy in the park.",
+          "translation_ru": "У меня есть щенок. Его зовут Рекс. Я выгуливаю щенка в парке.",
+          "explain_ru": "Walk — гулять, а walk my dog/puppy — выгуливать собаку/щенка.",
+          "audio": "en/1-9/sp-02.mp3"
+        },
+        {
+          "id": "en-1-9-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите о своём домашнем животном:",
+          "target_text": "My pet is small and nice.",
+          "translation_ru": "Мой питомец маленький и приятный.",
+          "explain_ru": "Pet — домашнее животное, питомец.",
+          "audio": "en/1-9/sp-03.mp3"
+        },
+        {
+          "id": "en-1-9-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы гуляете с собакой:",
+          "target_text": "I walk my dog every day.",
+          "translation_ru": "Я выгуливаю свою собаку каждый день.",
+          "explain_ru": "В слове walk буква l не читается: [wɔːk].",
+          "audio": "en/1-9/sp-04.mp3"
+        },
+        {
+          "id": "en-1-9-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про птицу и рыбу:",
+          "target_text": "She has a bird and a fish.",
+          "translation_ru": "У неё есть птица и рыба.",
+          "explain_ru": "С she глагол have меняется на has: she has.",
+          "audio": "en/1-9/sp-05.mp3"
+        },
+        {
+          "id": "en-1-9-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про кролика и лошадь:",
+          "target_text": "The rabbit is small. The horse is big.",
+          "translation_ru": "Кролик маленький. Лошадь большая.",
+          "explain_ru": "Rabbit — кролик, horse — лошадь.",
+          "audio": "en/1-9/sp-06.mp3"
+        },
+        {
+          "id": "en-1-9-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про хомяка и котёнка:",
+          "target_text": "My sister has a hamster and a kitten.",
+          "translation_ru": "У моей сестры есть хомяк и котёнок.",
+          "explain_ru": "Hamster — хомяк, kitten — котёнок.",
+          "audio": "en/1-9/sp-07.mp3"
+        },
+        {
+          "id": "en-1-9-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы кормите питомца каждый день:",
+          "target_text": "I feed my pet every day.",
+          "translation_ru": "Я кормлю своего питомца каждый день.",
+          "explain_ru": "Feed — кормить (ee читается как долгое [iː]).",
+          "audio": "en/1-9/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-9-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Кто у кого? (1/2): прослушайте скрипт и ответьте, у кого собака:",
+          "transcript": "Anna has a dog. Tom has two cats. Kate has a fish.",
+          "options": ["у Анны", "у Тома", "у Кейт", "ни у кого"],
+          "correct_index": 0,
+          "explain_ru": "Anna has a dog — У Анны есть собака.",
+          "audio": "en/1-9/ls-01.mp3"
+        },
+        {
+          "id": "en-1-9-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Кто у кого? (2/2): сколько кошек у Тома?",
+          "transcript": "Anna has a dog. Tom has two cats. Kate has a fish.",
+          "options": ["две", "одна", "три", "ни одной"],
+          "correct_index": 0,
+          "explain_ru": "Tom has two cats — У Тома две кошки.",
+          "audio": "en/1-9/ls-02.mp3"
+        },
+        {
+          "id": "en-1-9-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой питомец у мальчика?",
+          "transcript": "This boy has a nice pet. It is a small rabbit.",
+          "options": ["маленький кролик", "большая лошадь", "птица", "щенок"],
+          "correct_index": 0,
+          "explain_ru": "It is a small rabbit — Это маленький кролик.",
+          "audio": "en/1-9/ls-03.mp3"
+        },
+        {
+          "id": "en-1-9-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какое животное умеет петь в истории?",
+          "transcript": "My grandmother has a bird. It likes to sing.",
+          "options": ["птица", "рыба", "хомяк", "кролик"],
+          "correct_index": 0,
+          "explain_ru": "Bird — птица; sing — петь.",
+          "audio": "en/1-9/ls-04.mp3"
+        },
+        {
+          "id": "en-1-9-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какие два питомца живут в комнате у девочки?",
+          "transcript": "She has a hamster and a rabbit in her room.",
+          "options": [
+            "хомяк и кролик",
+            "кошка и собака",
+            "щенок и котёнок",
+            "птица и рыба"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hamster — хомяк, rabbit — кролик.",
+          "audio": "en/1-9/ls-05.mp3"
+        },
+        {
+          "id": "en-1-9-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какое животное есть у дедушки?",
+          "transcript": "My grandfather has a big horse.",
+          "options": ["большая лошадь", "маленький котёнок", "хомяк", "птица"],
+          "correct_index": 0,
+          "explain_ru": "A big horse — большая лошадь.",
+          "audio": "en/1-9/ls-06.mp3"
+        },
+        {
+          "id": "en-1-9-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кого любит семья?",
+          "transcript": "We have a puppy and a kitten. They are very nice.",
+          "options": [
+            "щенка и котёнка",
+            "лошадь и птицу",
+            "двух рыб",
+            "кролика и хомяка"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Puppy — щенок, kitten — котёнок.",
+          "audio": "en/1-9/ls-07.mp3"
+        },
+        {
+          "id": "en-1-9-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I feed my dog.",
+          "accepted": ["I feed my dog."],
+          "explain_ru": "I feed my dog — Я кормлю свою собаку.",
+          "audio": "en/1-9/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-9-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Множественное число (исключение): напишите множественное число слова fish (одна рыба — fish, две рыбы — ___):",
+          "source_text": "two ___ (fish)",
+          "accepted": ["fish"],
+          "explain_ru": "Слово fish во множественном числе форму не меняет: one fish, two fish.",
+          "audio": null
+        },
+        {
+          "id": "en-1-9-wr-02",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Множественное число: соедините слово в единственном числе с формой множественного числа:",
+          "pairs": [
+            { "left": "cat", "right": "cats" },
+            { "left": "dog", "right": "dogs" },
+            { "left": "bird", "right": "birds" },
+            { "left": "horse", "right": "horses" }
+          ],
+          "explain_ru": "К большинству существительных во множественном числе просто добавляется -s.",
+          "audio": null
+        },
+        {
+          "id": "en-1-9-wr-03",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «У неё есть кролик»:",
+          "source_text": "У неё есть кролик.",
+          "bank": ["a", "has", "she", "rabbit"],
+          "accepted": ["She has a rabbit"],
+          "explain_ru": "С she используется has: She has a rabbit.",
+          "audio": null
+        },
+        {
+          "id": "en-1-9-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "pet", "right": "домашнее животное" },
+            { "left": "hamster", "right": "хомяк" },
+            { "left": "rabbit", "right": "кролик" },
+            { "left": "fish", "right": "рыба" }
+          ],
+          "explain_ru": "Pet — домашнее животное, hamster — хомяк, rabbit — кролик, fish — рыба.",
+          "audio": null
+        },
+        {
+          "id": "en-1-9-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините детёнышей и действия с переводом:",
+          "pairs": [
+            { "left": "puppy", "right": "щенок" },
+            { "left": "kitten", "right": "котёнок" },
+            { "left": "feed", "right": "кормить" },
+            { "left": "walk", "right": "гулять" }
+          ],
+          "explain_ru": "Puppy — щенок, kitten — котёнок, feed — кормить, walk — гулять.",
+          "audio": null
+        },
+        {
+          "id": "en-1-9-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "He feed his cat every day.",
+          "accepted": ["He feeds his cat every day."],
+          "explain_ru": "После he к глаголу добавляется -s: He feeds his cat every day.",
+          "audio": null
+        },
+        {
+          "id": "en-1-9-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Я выгуливаю свою собаку»:",
+          "source_text": "Я выгуливаю свою собаку.",
+          "bank": ["dog", "walk", "my", "I"],
+          "accepted": ["I walk my dog"],
+          "explain_ru": "I walk my dog — Я выгуливаю свою собаку.",
+          "audio": null
+        },
+        {
+          "id": "en-1-9-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Допишите глагол have или has: Anna ___ a kitten.",
+          "source_text": "Anna ___ a kitten.",
+          "accepted": ["has"],
+          "explain_ru": "Anna = she, поэтому нужна форма has.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-1-9-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Прогулка: прочитайте текст и ответьте на вопросы:",
+          "passage": "Every morning I walk my dog. He is a big puppy. He likes the park.",
+          "questions": [
+            {
+              "question_ru": "Что делает автор утром?",
+              "options": [
+                "гуляет с собакой",
+                "кормит кошку",
+                "ходит в школу",
+                "играет в футбол"
+              ],
+              "correct_index": 0,
+              "accepted": ["гуляет с собакой"]
+            },
+            {
+              "question_ru": "Что любит пёс?",
+              "options": ["парк", "кухню", "магазин", "офис"],
+              "correct_index": 0,
+              "accepted": ["парк", "the park", "park"]
+            }
+          ],
+          "explain_ru": "Every morning I walk my dog — Каждое утро я гуляю с собакой; He likes the park — Он любит парк.",
+          "audio": null
+        },
+        {
+          "id": "en-1-9-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «pet»:",
+          "question_text": "pet",
+          "options": ["домашнее животное", "парк", "друг", "сосед"],
+          "correct_index": 0,
+          "explain_ru": "Pet — домашнее животное, питомец.",
+          "audio": null
+        },
+        {
+          "id": "en-1-9-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «bird»:",
+          "question_text": "bird",
+          "options": ["птица", "рыба", "кролик", "лошадь"],
+          "correct_index": 0,
+          "explain_ru": "Bird — птица.",
+          "audio": null
+        },
+        {
+          "id": "en-1-9-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «fish»:",
+          "question_text": "fish",
+          "options": ["рыба", "птица", "хомяк", "щенок"],
+          "correct_index": 0,
+          "explain_ru": "Fish — рыба.",
+          "audio": null
+        },
+        {
+          "id": "en-1-9-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «rabbit»:",
+          "question_text": "rabbit",
+          "options": ["кролик", "хомяк", "котёнок", "кошка"],
+          "correct_index": 0,
+          "explain_ru": "Rabbit — кролик.",
+          "audio": null
+        },
+        {
+          "id": "en-1-9-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «horse»:",
+          "question_text": "horse",
+          "options": ["лошадь", "собака", "птица", "кролик"],
+          "correct_index": 0,
+          "explain_ru": "Horse — лошадь.",
+          "audio": null
+        },
+        {
+          "id": "en-1-9-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «hamster»:",
+          "question_text": "hamster",
+          "options": ["хомяк", "котёнок", "щенок", "кролик"],
+          "correct_index": 0,
+          "explain_ru": "Hamster — хомяк.",
+          "audio": null
+        },
+        {
+          "id": "en-1-9-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий рассказ о питомцах и ответьте на вопрос:",
+          "passage": "My friend Kate has a cat and a small kitten. Every morning she feeds them milk in the kitchen.",
+          "questions": [
+            {
+              "question_ru": "Где Кейт кормит кошку и котёнка?",
+              "options": ["на кухне", "в парке", "в школе", "в магазине"],
+              "correct_index": 0,
+              "accepted": ["на кухне"]
+            }
+          ],
+          "explain_ru": "In the kitchen — на кухне.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"
