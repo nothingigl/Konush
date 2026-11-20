@@ -83,16 +83,397 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-18-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Как пройти? Объясните дорогу до музея и банка:",
+          "target_text": "The museum is on the corner. Go straight, then turn left. The bank is near the post office.",
+          "translation_ru": "Музей на углу. Идите прямо, затем поверните налево. Банк рядом с почтой.",
+          "explain_ru": "On the corner — на углу; go straight — идти прямо; turn left — повернуть налево.",
+          "audio": "en/2-18/sp-01.mp3"
+        },
+        {
+          "id": "en-2-18-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Объясните дорогу до театра:",
+          "target_text": "Go straight and turn right at the theater.",
+          "translation_ru": "Идите прямо и поверните направо у театра.",
+          "explain_ru": "Turn right — повернуть направо; theater — театр.",
+          "audio": "en/2-18/sp-02.mp3"
+        },
+        {
+          "id": "en-2-18-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите про знаменитый замок в старом городе:",
+          "target_text": "There is a famous castle in the old town.",
+          "translation_ru": "В старом городе есть знаменитый замок.",
+          "explain_ru": "Famous — знаменитый; castle — замок (буква t не читается); old town — старый город.",
+          "audio": "en/2-18/sp-03.mp3"
+        },
+        {
+          "id": "en-2-18-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что рынок рядом с почтой:",
+          "target_text": "The fresh market is near the post office.",
+          "translation_ru": "Рынок свежих продуктов рядом с почтой.",
+          "explain_ru": "Market — рынок; post office — почта.",
+          "audio": "en/2-18/sp-04.mp3"
+        },
+        {
+          "id": "en-2-18-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, где находится знаменитый театр:",
+          "target_text": "Excuse me, where is the famous theater?",
+          "translation_ru": "Простите, где находится знаменитый театр?",
+          "explain_ru": "Excuse me, where is...? — вежливый способ спросить дорогу.",
+          "audio": "en/2-18/sp-05.mp3"
+        },
+        {
+          "id": "en-2-18-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что банк на углу этой улицы:",
+          "target_text": "The bank is on the corner of this street.",
+          "translation_ru": "Банк находится на углу этой улицы.",
+          "explain_ru": "On the corner of... — на углу...",
+          "audio": "en/2-18/sp-06.mp3"
+        },
+        {
+          "id": "en-2-18-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Подскажите повернуть налево возле замка:",
+          "target_text": "Turn left near the castle, then go straight.",
+          "translation_ru": "Поверните налево возле замка, затем идите прямо.",
+          "explain_ru": "Turn left — повернуть налево; go straight — идти прямо.",
+          "audio": "en/2-18/sp-07.mp3"
+        },
+        {
+          "id": "en-2-18-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы любите гулять в старом городе:",
+          "target_text": "I like to walk in the old town.",
+          "translation_ru": "Мне нравится гулять в старом городе.",
+          "explain_ru": "In the old town — в старом городе.",
+          "audio": "en/2-18/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-18-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Маршрут (1/2): прослушайте скрипт и ответьте, что рядом с банком:",
+          "transcript": "The bank is near the post office. The market is on the corner. Go straight and turn right.",
+          "options": ["почта", "музей", "театр", "замок"],
+          "correct_index": 0,
+          "explain_ru": "The bank is near the post office — Банк рядом с почтой.",
+          "audio": "en/2-18/ls-01.mp3"
+        },
+        {
+          "id": "en-2-18-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Маршрут (2/2): куда нужно повернуть?",
+          "transcript": "The bank is near the post office. The market is on the corner. Go straight and turn right.",
+          "options": ["направо", "налево", "назад", "в парк"],
+          "correct_index": 0,
+          "explain_ru": "Go straight and turn right — Идите прямо и поверните направо.",
+          "audio": "en/2-18/ls-02.mp3"
+        },
+        {
+          "id": "en-2-18-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что турист ищет в старом городе?",
+          "transcript": "Tourist: Excuse me, I am lost. Where is the famous castle in the old town?",
+          "options": ["знаменитый замок", "аптеку", "аэропорт", "вокзал"],
+          "correct_index": 0,
+          "explain_ru": "The famous castle — знаменитый замок.",
+          "audio": "en/2-18/ls-03.mp3"
+        },
+        {
+          "id": "en-2-18-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как дойти до театра?",
+          "transcript": "Go straight to the big square, then turn left. The theater is on the corner.",
+          "options": [
+            "идти прямо до площади и повернуть налево",
+            "повернуть направо у банка",
+            "сесть на поезд",
+            "перейти через мост"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Go straight to the big square, then turn left — идти прямо до площади, затем повернуть налево.",
+          "audio": "en/2-18/ls-04.mp3"
+        },
+        {
+          "id": "en-2-18-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где Анна покупает свежие помидоры и фрукты?",
+          "transcript": "Anna goes to the market in the old town. The tomatoes and fruit there are fresh and cheap.",
+          "options": ["на рынке в старом городе", "в музее", "на почте", "в банке"],
+          "correct_index": 0,
+          "explain_ru": "The market in the old town — рынок в старом городе.",
+          "audio": "en/2-18/ls-05.mp3"
+        },
+        {
+          "id": "en-2-18-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какое здание рядом с музеем?",
+          "transcript": "The museum is very famous. Next to the museum there is a small theater.",
+          "options": ["маленький театр", "большая больница", "новый отель", "университет"],
+          "correct_index": 0,
+          "explain_ru": "There is a small theater — Есть маленький театр.",
+          "audio": "en/2-18/ls-06.mp3"
+        },
+        {
+          "id": "en-2-18-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Куда идёт Макс после банка?",
+          "transcript": "Max goes to the bank first. After that he turns right and goes to the post office.",
+          "options": ["на почту", "в замок", "на пикник", "в ресторан"],
+          "correct_index": 0,
+          "explain_ru": "Goes to the post office — идёт на почту.",
+          "audio": "en/2-18/ls-07.mp3"
+        },
+        {
+          "id": "en-2-18-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "The museum is on the corner.",
+          "accepted": ["The museum is on the corner."],
+          "explain_ru": "The museum is on the corner — Музей находится на углу.",
+          "audio": "en/2-18/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-18-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите маршрут «Идите прямо, затем поверните налево»:",
+          "source_text": "Идите прямо, затем поверните налево.",
+          "bank": ["turn", "then", "left", "straight", "go"],
+          "accepted": ["Go straight then turn left"],
+          "explain_ru": "Go straight, then turn left — Идите прямо, затем поверните налево.",
+          "audio": null
+        },
+        {
+          "id": "en-2-18-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Антоним: напишите противоположное слово для left (налево):",
+          "source_text": "left ↔ ___",
+          "accepted": ["right"],
+          "explain_ru": "Left (налево) ↔ right (направо).",
+          "audio": null
+        },
+        {
+          "id": "en-2-18-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите и исправьте ошибку в предлоге:",
+          "buggy_text": "The museum is in the corner.",
+          "accepted": ["The museum is on the corner."],
+          "explain_ru": "О зданиях на углу улицы говорят с предлогом on: on the corner.",
+          "audio": null
+        },
+        {
+          "id": "en-2-18-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините места в городе с переводом:",
+          "pairs": [
+            { "left": "museum", "right": "музей" },
+            { "left": "theater", "right": "театр" },
+            { "left": "bank", "right": "банк" },
+            { "left": "post office", "right": "почта" }
+          ],
+          "explain_ru": "Museum — музей, theater — театр, bank — банк, post office — почта.",
+          "audio": null
+        },
+        {
+          "id": "en-2-18-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "castle", "right": "замок" },
+            { "left": "market", "right": "рынок" },
+            { "left": "famous", "right": "знаменитый" },
+            { "left": "old town", "right": "старый город" }
+          ],
+          "explain_ru": "Castle — замок, market — рынок, famous — знаменитый, old town — старый город.",
+          "audio": null
+        },
+        {
+          "id": "en-2-18-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините указания маршрута с переводом:",
+          "pairs": [
+            { "left": "turn left", "right": "повернуть налево" },
+            { "left": "turn right", "right": "повернуть направо" },
+            { "left": "straight", "right": "прямо" },
+            { "left": "corner", "right": "угол" }
+          ],
+          "explain_ru": "Turn left — повернуть налево, turn right — повернуть направо, straight — прямо, corner — угол.",
+          "audio": null
+        },
+        {
+          "id": "en-2-18-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите фразу «Идите прямо и поверните направо»:",
+          "source_text": "Идите прямо и поверните направо.",
+          "bank": ["right", "straight", "and", "go", "turn"],
+          "accepted": ["Go straight and turn right"],
+          "explain_ru": "Go straight and turn right — Идите прямо и поверните направо.",
+          "audio": null
+        },
+        {
+          "id": "en-2-18-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «замок» по-английски:",
+          "source_text": "замок",
+          "accepted": ["castle"],
+          "explain_ru": "Castle — замок.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-18-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Старый город: прочитайте текст и ответьте на вопросы:",
+          "passage": "The old town is small but beautiful. There is a castle, a museum and a market. Many tourists come here.",
+          "questions": [
+            {
+              "question_ru": "Что есть в старом городе?",
+              "options": [
+                "замок, музей и рынок",
+                "аэропорт и метро",
+                "университет и библиотека",
+                "больница и аптека"
+              ],
+              "correct_index": 0,
+              "accepted": ["замок, музей и рынок", "замок, музей, рынок"]
+            },
+            {
+              "question_ru": "Кто приезжает в старый город?",
+              "options": ["туристы", "врачи", "кассиры", "арендодатели"],
+              "correct_index": 0,
+              "accepted": ["туристы", "много туристов", "many tourists", "tourists"]
+            }
+          ],
+          "explain_ru": "There is a castle, a museum and a market — Есть замок, музей и рынок; Many tourists come here — Сюда приезжает много туристов.",
+          "audio": null
+        },
+        {
+          "id": "en-2-18-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «post office»:",
+          "question_text": "post office",
+          "options": ["почта", "банк", "офис", "рынок"],
+          "correct_index": 0,
+          "explain_ru": "Post office — почта.",
+          "audio": null
+        },
+        {
+          "id": "en-2-18-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «famous»:",
+          "question_text": "famous",
+          "options": ["знаменитый", "романтичный", "дешёвый", "свежий"],
+          "correct_index": 0,
+          "explain_ru": "Famous — знаменитый.",
+          "audio": null
+        },
+        {
+          "id": "en-2-18-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «theater»:",
+          "question_text": "theater",
+          "options": ["театр", "музей", "замок", "рынок"],
+          "correct_index": 0,
+          "explain_ru": "Theater — театр.",
+          "audio": null
+        },
+        {
+          "id": "en-2-18-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «corner»:",
+          "question_text": "corner",
+          "options": ["угол", "улица", "площадь", "мост"],
+          "correct_index": 0,
+          "explain_ru": "Corner — угол.",
+          "audio": null
+        },
+        {
+          "id": "en-2-18-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «turn left»:",
+          "question_text": "turn left",
+          "options": ["повернуть налево", "повернуть направо", "идти прямо", "на углу"],
+          "correct_index": 0,
+          "explain_ru": "Turn left — повернуть налево.",
+          "audio": null
+        },
+        {
+          "id": "en-2-18-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «straight»:",
+          "question_text": "straight",
+          "options": ["прямо", "налево", "направо", "рядом"],
+          "correct_index": 0,
+          "explain_ru": "Straight — прямо.",
+          "audio": null
+        },
+        {
+          "id": "en-2-18-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий маршрут и ответьте на вопрос:",
+          "passage": "Start at the bank. Go straight for two minutes. Turn right at the post office. The famous theater is on the corner, opposite the museum.",
+          "questions": [
+            {
+              "question_ru": "Где нужно повернуть направо?",
+              "options": ["у почты", "у банка", "у замка", "у рынка"],
+              "correct_index": 0,
+              "accepted": ["у почты", "at the post office", "post office"]
+            }
+          ],
+          "explain_ru": "Turn right at the post office — Поверните направо у почты.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,403 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-14-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Поздравление (1/2): поздравьте друга с днём рождения:",
+          "target_text": "Happy birthday! Congratulations! I have a present for you. Make a wish!",
+          "translation_ru": "С днём рождения! Поздравляю! У меня есть для тебя подарок. Загадай желание!",
+          "explain_ru": "Happy birthday — с днём рождения; make a wish — загадать желание.",
+          "audio": "en/2-14/sp-01.mp3"
+        },
+        {
+          "id": "en-2-14-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Поздравление (2/2): расскажите о своём дне рождения:",
+          "target_text": "My birthday is in May. I turn twenty-five.",
+          "translation_ru": "Мой день рождения в мае. Мне исполняется двадцать пять.",
+          "explain_ru": "I turn twenty-five — Мне исполняется 25 (глагол turn в значении «исполняться о возрасте»).",
+          "audio": "en/2-14/sp-02.mp3"
+        },
+        {
+          "id": "en-2-14-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы празднуете с друзьями на вечеринке:",
+          "target_text": "We celebrate at a big birthday party.",
+          "translation_ru": "Мы празднуем на большой вечеринке по случаю дня рождения.",
+          "explain_ru": "Celebrate — праздновать; party — вечеринка.",
+          "audio": "en/2-14/sp-03.mp3"
+        },
+        {
+          "id": "en-2-14-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про воздушный шар и свечи на торте:",
+          "target_text": "There is a red balloon and twenty candles on the cake.",
+          "translation_ru": "Здесь красный воздушный шар и двадцать свечей на торте.",
+          "explain_ru": "Balloon — воздушный шар; candles — свечи.",
+          "audio": "en/2-14/sp-04.mp3"
+        },
+        {
+          "id": "en-2-14-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что каждый гость приносит сюрприз:",
+          "target_text": "Every guest has a nice surprise.",
+          "translation_ru": "У каждого гостя есть приятный сюрприз.",
+          "explain_ru": "Guest — гость; surprise — сюрприз.",
+          "audio": "en/2-14/sp-05.mp3"
+        },
+        {
+          "id": "en-2-14-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Поздравьте и пожелайте хорошего праздника:",
+          "target_text": "Happy birthday, Anna! Let us celebrate tonight.",
+          "translation_ru": "С днём рождения, Анна! Давай отпразднуем сегодня вечером.",
+          "explain_ru": "Happy birthday — с днём рождения; celebrate — праздновать.",
+          "audio": "en/2-14/sp-06.mp3"
+        },
+        {
+          "id": "en-2-14-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вечеринка — это сюрприз для брата:",
+          "target_text": "The party is a surprise for my brother.",
+          "translation_ru": "Вечеринка — это сюрприз для моего брата.",
+          "explain_ru": "A surprise for... — сюрприз для...",
+          "audio": "en/2-14/sp-07.mp3"
+        },
+        {
+          "id": "en-2-14-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Поздравьте и передайте подарок:",
+          "target_text": "Congratulations! This present is for you.",
+          "translation_ru": "Поздравляю! Этот подарок для тебя.",
+          "explain_ru": "Слово congratulations всегда используется во множественном числе (с -s на конце).",
+          "audio": "en/2-14/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-14-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Тридцать свечей (1/2): прослушайте скрипт и ответьте, сколько лет исполняется Анне:",
+          "transcript": "Today Anna turns thirty. Her friends bring presents and balloons. There are thirty candles on the cake.",
+          "options": ["30", "20", "25", "13"],
+          "correct_index": 0,
+          "explain_ru": "Today Anna turns thirty — Сегодня Анне исполняется тридцать.",
+          "audio": "en/2-14/ls-01.mp3"
+        },
+        {
+          "id": "en-2-14-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Тридцать свечей (2/2): сколько свечей на торте?",
+          "transcript": "Today Anna turns thirty. Her friends bring presents and balloons. There are thirty candles on the cake.",
+          "options": ["30", "10", "15", "25"],
+          "correct_index": 0,
+          "explain_ru": "There are thirty candles on the cake — На торте тридцать свечей.",
+          "audio": "en/2-14/ls-02.mp3"
+        },
+        {
+          "id": "en-2-14-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что делает Том перед тем, как задуть свечи?",
+          "transcript": "Tom smiles at the candles on his birthday cake and makes a wish.",
+          "options": [
+            "загадывает желание",
+            "отправляет письмо",
+            "звонит кассиру",
+            "идёт на работу"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Makes a wish — загадывает желание.",
+          "audio": "en/2-14/ls-03.mp3"
+        },
+        {
+          "id": "en-2-14-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как семья празднует день рождения мамы?",
+          "transcript": "We celebrate our mother's birthday at a restaurant. Every guest brings flowers or a present.",
+          "options": [
+            "в ресторане с гостями, цветами и подарками",
+            "в библиотеке за учёбой",
+            "на работе в офисе",
+            "в аэропорту"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Celebrate at a restaurant — праздновать в ресторане; guest — гость; present — подарок.",
+          "audio": "en/2-14/ls-04.mp3"
+        },
+        {
+          "id": "en-2-14-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой сюрприз приготовили друзья для Макса?",
+          "transcript": "Max opens the door. His friends shout: Happy birthday! Congratulations! It is a surprise party.",
+          "options": [
+            "вечеринку-сюрприз",
+            "новый компьютер",
+            "билет на поезд",
+            "корзину овощей"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A surprise party — вечеринка-сюрприз.",
+          "audio": "en/2-14/ls-05.mp3"
+        },
+        {
+          "id": "en-2-14-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что держит маленький гость на вечеринке?",
+          "transcript": "There is a small boy at the party. He has a big blue balloon.",
+          "options": ["большой синий воздушный шар", "красный торт", "новую тетрадь", "свечу"],
+          "correct_index": 0,
+          "explain_ru": "A big blue balloon — большой синий воздушный шар.",
+          "audio": "en/2-14/ls-06.mp3"
+        },
+        {
+          "id": "en-2-14-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Сколько лет исполняется Кейт сегодня?",
+          "transcript": "Today is Kate's birthday. She turns twenty and celebrates with her family.",
+          "options": ["20", "30", "25", "18"],
+          "correct_index": 0,
+          "explain_ru": "She turns twenty — Ей исполняется двадцать.",
+          "audio": "en/2-14/ls-07.mp3"
+        },
+        {
+          "id": "en-2-14-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите поздравление по-английски:",
+          "transcript": "Happy birthday!",
+          "accepted": ["Happy birthday!"],
+          "explain_ru": "Happy birthday! — С днём рождения!",
+          "audio": "en/2-14/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-14-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Мне сегодня исполняется двадцать»:",
+          "source_text": "Мне сегодня исполняется двадцать.",
+          "bank": ["turn", "I", "twenty", "today"],
+          "accepted": ["I turn twenty today"],
+          "explain_ru": "I turn twenty today — Мне сегодня исполняется двадцать.",
+          "audio": null
+        },
+        {
+          "id": "en-2-14-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите и исправьте ошибку в слове поздравления:",
+          "buggy_text": "Congratulation!",
+          "accepted": ["Congratulations!"],
+          "explain_ru": "Поздравление по-английски всегда пишется с окончанием -s: Congratulations!",
+          "audio": null
+        },
+        {
+          "id": "en-2-14-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Подбери перевод: напишите по-английски слово «гость»:",
+          "source_text": "гость",
+          "accepted": ["guest"],
+          "explain_ru": "Guest — гость.",
+          "audio": null
+        },
+        {
+          "id": "en-2-14-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините праздничные слова с переводом:",
+          "pairs": [
+            { "left": "birthday", "right": "день рождения" },
+            { "left": "present", "right": "подарок" },
+            { "left": "balloon", "right": "воздушный шар" },
+            { "left": "party", "right": "вечеринка" }
+          ],
+          "explain_ru": "Birthday — день рождения, present — подарок, balloon — воздушный шар, party — вечеринка.",
+          "audio": null
+        },
+        {
+          "id": "en-2-14-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "celebrate", "right": "праздновать" },
+            { "left": "wish", "right": "желание" },
+            { "left": "candles", "right": "свечи" },
+            { "left": "surprise", "right": "сюрприз" }
+          ],
+          "explain_ru": "Celebrate — праздновать, wish — желание, candles — свечи, surprise — сюрприз.",
+          "audio": null
+        },
+        {
+          "id": "en-2-14-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в глаголе:",
+          "buggy_text": "Anna turn thirty today.",
+          "accepted": ["Anna turns thirty today."],
+          "explain_ru": "После Anna (she) к глаголу добавляется -s: Anna turns thirty.",
+          "audio": null
+        },
+        {
+          "id": "en-2-14-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «У меня есть подарок для тебя»:",
+          "source_text": "У меня есть подарок для тебя.",
+          "bank": ["present", "for", "a", "I", "have", "you"],
+          "accepted": ["I have a present for you"],
+          "explain_ru": "I have a present for you — У меня есть подарок для тебя.",
+          "audio": null
+        },
+        {
+          "id": "en-2-14-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «праздновать» по-английски:",
+          "source_text": "праздновать",
+          "accepted": ["celebrate"],
+          "explain_ru": "Celebrate — праздновать.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-14-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Вечеринка: прочитайте текст («bring» — приносят) и ответьте на вопросы:",
+          "passage": "The party is at six. There are ten guests. They bring a surprise: a big cake with balloons.",
+          "questions": [
+            {
+              "question_ru": "Сколько гостей на вечеринке?",
+              "options": ["десять", "шесть", "тридцать", "двадцать"],
+              "correct_index": 0,
+              "accepted": ["десять", "10", "ten"]
+            },
+            {
+              "question_ru": "Что за сюрприз принесли гости?",
+              "options": [
+                "большой торт с шарами",
+                "цветы и свечи",
+                "новый принтер",
+                "корзину фруктов"
+              ],
+              "correct_index": 0,
+              "accepted": ["большой торт с шарами", "торт с шарами"]
+            }
+          ],
+          "explain_ru": "Ten guests — десять гостей; a big cake with balloons — большой торт с воздушными шарами.",
+          "audio": null
+        },
+        {
+          "id": "en-2-14-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «celebrate»:",
+          "question_text": "celebrate",
+          "options": ["праздновать", "приглашать", "улыбаться", "учиться"],
+          "correct_index": 0,
+          "explain_ru": "Celebrate — праздновать.",
+          "audio": null
+        },
+        {
+          "id": "en-2-14-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «congratulations»:",
+          "question_text": "congratulations",
+          "options": ["поздравляю", "извините", "увидимся", "доброе утро"],
+          "correct_index": 0,
+          "explain_ru": "Congratulations — поздравляю / поздравления.",
+          "audio": null
+        },
+        {
+          "id": "en-2-14-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «wish»:",
+          "question_text": "wish",
+          "options": ["желание", "подарок", "гость", "сюрприз"],
+          "correct_index": 0,
+          "explain_ru": "Wish — желание.",
+          "audio": null
+        },
+        {
+          "id": "en-2-14-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «balloon»:",
+          "question_text": "balloon",
+          "options": ["воздушный шар", "свеча", "вечеринка", "торт"],
+          "correct_index": 0,
+          "explain_ru": "Balloon — воздушный шар.",
+          "audio": null
+        },
+        {
+          "id": "en-2-14-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «turn» в контексте возраста:",
+          "question_text": "turn",
+          "options": ["исполняться (о возрасте)", "праздновать", "улыбаться", "приносить"],
+          "correct_index": 0,
+          "explain_ru": "Turn (о возрасте) — исполняться (например, I turn twenty).",
+          "audio": null
+        },
+        {
+          "id": "en-2-14-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «happy birthday»:",
+          "question_text": "happy birthday",
+          "options": ["с днём рождения", "спокойной ночи", "приятно познакомиться", "доброе утро"],
+          "correct_index": 0,
+          "explain_ru": "Happy birthday — с днём рождения.",
+          "audio": null
+        },
+        {
+          "id": "en-2-14-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте открытку на день рождения и ответьте на вопрос:",
+          "passage": "Dear Emma, happy birthday! Congratulations! Today you turn twenty-five. Make a wish and have a nice party with your guests.",
+          "questions": [
+            {
+              "question_ru": "Сколько лет сегодня исполняется Эмме?",
+              "options": ["25", "20", "30", "15"],
+              "correct_index": 0,
+              "accepted": ["25", "двадцать пять", "twenty-five"]
+            }
+          ],
+          "explain_ru": "Today you turn twenty-five — Сегодня тебе исполняется двадцать пять.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

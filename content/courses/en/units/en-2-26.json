@@ -83,16 +83,408 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-26-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Планирую поездку (1/2): расскажите о планах, брони отеля и аренде машины:",
+          "target_text": "I plan a trip to Turkey. I book a hotel and rent a car.",
+          "translation_ru": "Я планирую поездку в Турцию. Я бронирую отель и арендую машину.",
+          "explain_ru": "Book как глагол означает «бронировать»; rent — арендовать.",
+          "audio": "en/2-26/sp-01.mp3"
+        },
+        {
+          "id": "en-2-26-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Планирую поездку (2/2): скажите про бюджет и желание приключений:",
+          "target_text": "My budget is small, but I want an adventure.",
+          "translation_ru": "Мой бюджет небольшой, но я хочу приключений.",
+          "explain_ru": "Budget — бюджет; перед словом adventure на гласный ставится артикль an.",
+          "audio": "en/2-26/sp-02.mp3"
+        },
+        {
+          "id": "en-2-26-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Назовите пункт назначения вашей поездки:",
+          "target_text": "Our destination is a small island.",
+          "translation_ru": "Наш пункт назначения — маленький остров.",
+          "explain_ru": "Destination — пункт назначения.",
+          "audio": "en/2-26/sp-03.mp3"
+        },
+        {
+          "id": "en-2-26-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про маршрут на карте и ранний отъезд:",
+          "target_text": "The route is on the map. We depart early.",
+          "translation_ru": "Маршрут на карте. Мы отправляемся рано.",
+          "explain_ru": "Route — маршрут; depart — отправляться, уезжать.",
+          "audio": "en/2-26/sp-04.mp3"
+        },
+        {
+          "id": "en-2-26-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, нужны ли виза и страховка для этой поездки:",
+          "target_text": "Do I need a visa and insurance for this trip?",
+          "translation_ru": "Мне нужны виза и страховка для этой поездки?",
+          "explain_ru": "Visa — виза (исчисляемое: a visa); insurance — страховка (неисчисляемое).",
+          "audio": "en/2-26/sp-05.mp3"
+        },
+        {
+          "id": "en-2-26-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у гида есть программа поездки на три дня:",
+          "target_text": "Our guide has a good itinerary for three days.",
+          "translation_ru": "У нашего гида хорошая программа поездки на три дня.",
+          "explain_ru": "Guide — гид; itinerary — программа поездки, маршрут по дням.",
+          "audio": "en/2-26/sp-06.mp3"
+        },
+        {
+          "id": "en-2-26-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы сегодня планируете маршрут и бронируете билеты:",
+          "target_text": "We plan the route and book the tickets today.",
+          "translation_ru": "Сегодня мы планируем маршрут и бронируем билеты.",
+          "explain_ru": "Plan the route — планировать маршрут; book the tickets — бронировать билеты.",
+          "audio": "en/2-26/sp-07.mp3"
+        },
+        {
+          "id": "en-2-26-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, можно ли арендовать машину в аэропорту:",
+          "target_text": "Can we rent a car at the airport?",
+          "translation_ru": "Можем ли мы арендовать машину в аэропорту?",
+          "explain_ru": "Rent a car — арендовать машину; at the airport — в аэропорту.",
+          "audio": "en/2-26/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-26-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Отъезд (1/2): прослушайте запись и ответьте, когда отъезд:",
+          "transcript": "We depart on Monday. The route is long. We have a guide and a visa.",
+          "options": ["в понедельник", "во вторник", "в пятницу", "в субботу"],
+          "correct_index": 0,
+          "explain_ru": "We depart on Monday — Мы отправляемся в понедельник.",
+          "audio": "en/2-26/ls-01.mp3"
+        },
+        {
+          "id": "en-2-26-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Отъезд (2/2): что есть у путешественников?",
+          "transcript": "We depart on Monday. The route is long. We have a guide and a visa.",
+          "options": [
+            "гид и виза",
+            "чемодан и карта",
+            "машина и билет",
+            "отель и страховка"
+          ],
+          "correct_index": 0,
+          "explain_ru": "We have a guide and a visa — У нас есть гид и виза.",
+          "audio": "en/2-26/ls-02.mp3"
+        },
+        {
+          "id": "en-2-26-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой пункт назначения у героев?",
+          "transcript": "Our destination is Germany. We need a visa and insurance.",
+          "options": ["Германия", "Турция", "Англия", "США"],
+          "correct_index": 0,
+          "explain_ru": "Our destination is Germany — Наш пункт назначения — Германия.",
+          "audio": "en/2-26/ls-03.mp3"
+        },
+        {
+          "id": "en-2-26-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Куда Анна записывает программу поездки (writes — пишет)?",
+          "transcript": "Anna plans a big adventure. She writes the itinerary in her notebook.",
+          "options": ["в тетрадь", "в телефон", "на карту", "в паспорт"],
+          "correct_index": 0,
+          "explain_ru": "In her notebook — в своей тетради.",
+          "audio": "en/2-26/ls-04.mp3"
+        },
+        {
+          "id": "en-2-26-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему герои бронируют дешёвый отель и едут на автобусе?",
+          "transcript": "Our budget is small, so we book a cheap hotel and take the bus.",
+          "options": [
+            "у них небольшой бюджет",
+            "они любят автобусы",
+            "все поезда заняты",
+            "у них нет визы"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Our budget is small — Наш бюджет небольшой.",
+          "audio": "en/2-26/ls-05.mp3"
+        },
+        {
+          "id": "en-2-26-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что герои делают в аэропорту?",
+          "transcript": "At the airport we rent a car and go to the resort.",
+          "options": [
+            "арендуют машину",
+            "покупают сувениры",
+            "встречают гида",
+            "идут в ресторан"
+          ],
+          "correct_index": 0,
+          "explain_ru": "We rent a car — Мы арендуем машину.",
+          "audio": "en/2-26/ls-06.mp3"
+        },
+        {
+          "id": "en-2-26-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что есть у гида для экскурсии по старому городу?",
+          "transcript": "The guide has the map and the itinerary for the old town.",
+          "options": [
+            "карта и программа поездки",
+            "билеты и паспорта",
+            "ключи и багаж",
+            "виза и страховка"
+          ],
+          "correct_index": 0,
+          "explain_ru": "The map and the itinerary — карта и программа поездки.",
+          "audio": "en/2-26/ls-07.mp3"
+        },
+        {
+          "id": "en-2-26-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "We depart on Monday.",
+          "accepted": ["We depart on Monday."],
+          "explain_ru": "We depart on Monday — Мы отправляемся в понедельник.",
+          "audio": "en/2-26/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-26-wr-01",
+          "type": "order_items",
+          "origin": "source",
+          "prompt_ru": "Порядок: расставьте этапы подготовки к поездке в логическом порядке:",
+          "items_shuffled": ["depart", "pack", "plan", "book"],
+          "correct_order": ["plan", "book", "pack", "depart"],
+          "explain_ru": "Сначала планируем (plan), потом бронируем (book), собираем вещи (pack) и отправляемся (depart).",
+          "audio": null
+        },
+        {
+          "id": "en-2-26-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Я бронирую отель»:",
+          "source_text": "Я бронирую отель.",
+          "bank": ["book", "I", "hotel", "a"],
+          "accepted": ["I book a hotel"],
+          "explain_ru": "I book a hotel — Я бронирую отель.",
+          "audio": null
+        },
+        {
+          "id": "en-2-26-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите ошибку в числе существительного и напишите верно:",
+          "buggy_text": "I need a visas.",
+          "accepted": ["I need a visa."],
+          "explain_ru": "С артиклем a существительное используется в единственном числе: a visa.",
+          "audio": null
+        },
+        {
+          "id": "en-2-26-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о маршруте с переводом:",
+          "pairs": [
+            { "left": "route", "right": "маршрут" },
+            { "left": "destination", "right": "пункт назначения" },
+            { "left": "guide", "right": "гид" },
+            { "left": "itinerary", "right": "программа поездки" }
+          ],
+          "explain_ru": "Route — маршрут, destination — пункт назначения, guide — гид, itinerary — программа поездки.",
+          "audio": null
+        },
+        {
+          "id": "en-2-26-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова об организации поездки с переводом:",
+          "pairs": [
+            { "left": "insurance", "right": "страховка" },
+            { "left": "budget", "right": "бюджет" },
+            { "left": "adventure", "right": "приключение" },
+            { "left": "rent", "right": "арендовать" }
+          ],
+          "explain_ru": "Insurance — страховка, budget — бюджет, adventure — приключение, rent — арендовать.",
+          "audio": null
+        },
+        {
+          "id": "en-2-26-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Мы планируем поездку»:",
+          "source_text": "Мы планируем поездку.",
+          "bank": ["plan", "we", "trip", "a"],
+          "accepted": ["We plan a trip"],
+          "explain_ru": "We plan a trip — Мы планируем поездку.",
+          "audio": null
+        },
+        {
+          "id": "en-2-26-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "He book a single room.",
+          "accepted": ["He books a single room."],
+          "explain_ru": "После he к глаголу добавляется окончание -s: He books a single room.",
+          "audio": null
+        },
+        {
+          "id": "en-2-26-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Допишите пропущенное слово «страховка» по-английски:",
+          "source_text": "We need ___ for the trip. (страховка)",
+          "accepted": ["insurance"],
+          "explain_ru": "Insurance — страховка.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-26-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Программа: прочитайте план поездки и ответьте на вопросы:",
+          "passage": "Day 1: city tour. Day 2: museum. Day 3: beach. The budget is 300 dollars. We have insurance.",
+          "questions": [
+            {
+              "question_ru": "В какой день запланирован пляж?",
+              "options": ["в 3-й день", "в 1-й день", "во 2-й день", "в 4-й день"],
+              "correct_index": 0,
+              "accepted": ["в 3-й день", "в 3-й", "3"]
+            },
+            {
+              "question_ru": "Какой бюджет поездки?",
+              "options": [
+                "300 долларов",
+                "100 долларов",
+                "500 долларов",
+                "200 долларов"
+              ],
+              "correct_index": 0,
+              "accepted": ["300 долларов", "300"]
+            }
+          ],
+          "explain_ru": "Day 3: beach — День 3: пляж; The budget is 300 dollars — Бюджет 300 долларов.",
+          "audio": null
+        },
+        {
+          "id": "en-2-26-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «destination»:",
+          "question_text": "destination",
+          "options": ["пункт назначения", "программа поездки", "страховка", "маршрут"],
+          "correct_index": 0,
+          "explain_ru": "Destination — пункт назначения.",
+          "audio": null
+        },
+        {
+          "id": "en-2-26-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «itinerary»:",
+          "question_text": "itinerary",
+          "options": ["программа поездки", "бюджет", "приключение", "виза"],
+          "correct_index": 0,
+          "explain_ru": "Itinerary — программа поездки, подробный план маршрута.",
+          "audio": null
+        },
+        {
+          "id": "en-2-26-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «insurance»:",
+          "question_text": "insurance",
+          "options": ["страховка", "виза", "гид", "бюджет"],
+          "correct_index": 0,
+          "explain_ru": "Insurance — страховка.",
+          "audio": null
+        },
+        {
+          "id": "en-2-26-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «adventure»:",
+          "question_text": "adventure",
+          "options": ["приключение", "отпуск", "маршрут", "экскурсия"],
+          "correct_index": 0,
+          "explain_ru": "Adventure — приключение.",
+          "audio": null
+        },
+        {
+          "id": "en-2-26-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод глагола «depart»:",
+          "question_text": "depart",
+          "options": ["отправляться", "прибывать", "бронировать", "арендовать"],
+          "correct_index": 0,
+          "explain_ru": "Depart — отправляться (антоним к arrive — прибывать).",
+          "audio": null
+        },
+        {
+          "id": "en-2-26-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «route»:",
+          "question_text": "route",
+          "options": ["маршрут", "билет", "багаж", "поездка"],
+          "correct_index": 0,
+          "explain_ru": "Route — маршрут.",
+          "audio": null
+        },
+        {
+          "id": "en-2-26-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий текст о поездке Тома и ответьте на вопрос:",
+          "passage": "Tom plans a trip to England. His destination is a famous city. He has a visa, insurance and a small budget. On Monday he departs from the airport and wants a nice adventure.",
+          "questions": [
+            {
+              "question_ru": "В какую страну Том планирует поездку?",
+              "options": ["в Англию", "в Германию", "в Турцию", "в США"],
+              "correct_index": 0,
+              "accepted": ["в Англию", "Англия", "England"]
+            }
+          ],
+          "explain_ru": "Tom plans a trip to England — Том планирует поездку в Англию.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

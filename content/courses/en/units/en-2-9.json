@@ -83,16 +83,412 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-9-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мой город (1/2): опишите шум и движение (a lot of — «много»):",
+          "target_text": "My city is big and noisy. There is a lot of traffic.",
+          "translation_ru": "Мой город большой и шумный. Там много пробок / сильное движение.",
+          "explain_ru": "Noisy — шумный; traffic — движение, пробки (неисчисляемое, поэтому There is).",
+          "audio": "en/2-9/sp-01.mp3"
+        },
+        {
+          "id": "en-2-9-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мой город (2/2): расскажите про центр города:",
+          "target_text": "Downtown there are tall buildings and a big square.",
+          "translation_ru": "В центре города есть высокие здания и большая площадь.",
+          "explain_ru": "Downtown — центр города, tall — высокий, building — здание, square — площадь.",
+          "audio": "en/2-9/sp-02.mp3"
+        },
+        {
+          "id": "en-2-9-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про старую башню и высокий небоскрёб (old — «старый»):",
+          "target_text": "There is an old tower and a tall skyscraper.",
+          "translation_ru": "Там есть старая башня и высокий небоскрёб.",
+          "explain_ru": "Tower — башня, skyscraper — небоскрёб.",
+          "audio": "en/2-9/sp-03.mp3"
+        },
+        {
+          "id": "en-2-9-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что метро многолюдное утром:",
+          "target_text": "The subway is very crowded in the morning.",
+          "translation_ru": "Метро очень многолюдное утром.",
+          "explain_ru": "Subway — метро, crowded — многолюдный.",
+          "audio": "en/2-9/sp-04.mp3"
+        },
+        {
+          "id": "en-2-9-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про мост в городе:",
+          "target_text": "There is a big bridge near the park.",
+          "translation_ru": "Рядом с парком есть большой мост.",
+          "explain_ru": "Bridge — мост.",
+          "audio": "en/2-9/sp-05.mp3"
+        },
+        {
+          "id": "en-2-9-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что центр города оживлённый вечером:",
+          "target_text": "Downtown is busy in the evening.",
+          "translation_ru": "Центр города оживлённый вечером.",
+          "explain_ru": "В значении про город busy переводится как «оживлённый».",
+          "audio": "en/2-9/sp-06.mp3"
+        },
+        {
+          "id": "en-2-9-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про здание рядом с площадью:",
+          "target_text": "My office is in a tall building near the square.",
+          "translation_ru": "Мой офис находится в высоком здании рядом с площадью.",
+          "explain_ru": "Building — здание, square — площадь.",
+          "audio": "en/2-9/sp-07.mp3"
+        },
+        {
+          "id": "en-2-9-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы едете в центр на метро:",
+          "target_text": "I take the subway downtown every morning.",
+          "translation_ru": "Я езжу в центр на метро каждое утро.",
+          "explain_ru": "Take the subway — ездить на метро; перед downtown предлог to обычно не ставится.",
+          "audio": "en/2-9/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-9-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Нью-Йорк (1/2): прослушайте скрипт и ответьте, что есть в городе:",
+          "transcript": "New York is a big city. There are many skyscrapers. The subway is crowded.",
+          "options": ["небоскрёбы", "маленькие дома", "только парки", "лошади"],
+          "correct_index": 0,
+          "explain_ru": "There are many skyscrapers — Там много небоскрёбов.",
+          "audio": "en/2-9/ls-01.mp3"
+        },
+        {
+          "id": "en-2-9-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Нью-Йорк (2/2): какое метро в Нью-Йорке?",
+          "transcript": "New York is a big city. There are many skyscrapers. The subway is crowded.",
+          "options": ["многолюдное", "пустое", "маленькое", "тихое"],
+          "correct_index": 0,
+          "explain_ru": "The subway is crowded — Метро многолюдное.",
+          "audio": "en/2-9/ls-02.mp3"
+        },
+        {
+          "id": "en-2-9-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Том едет на метро, а не на автобусе?",
+          "transcript": "There is a lot of traffic today, so Tom takes the subway.",
+          "options": [
+            "сегодня большие пробки",
+            "автобус не работает",
+            "метро пустое",
+            "он потерял билет"
+          ],
+          "correct_index": 0,
+          "explain_ru": "There is a lot of traffic today — Сегодня сильные пробки.",
+          "audio": "en/2-9/ls-03.mp3"
+        },
+        {
+          "id": "en-2-9-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что фотографирует турист (takes photos of — «фотографирует»)?",
+          "transcript": "The tourist likes photography. He takes photos of the bridge and the tall tower.",
+          "options": [
+            "мост и высокую башню",
+            "метро и автобус",
+            "отель и ресторан",
+            "парк и школу"
+          ],
+          "correct_index": 0,
+          "explain_ru": "The bridge and the tall tower — мост и высокая башня.",
+          "audio": "en/2-9/ls-04.mp3"
+        },
+        {
+          "id": "en-2-9-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где находится отель Анны?",
+          "transcript": "Anna's hotel is downtown, near the big square. It is noisy at night.",
+          "options": [
+            "в центре города, рядом с большой площадью",
+            "у аэропорта",
+            "на тихой улице у парка",
+            "рядом со школой"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Downtown, near the big square — в центре города, рядом с большой площадью.",
+          "audio": "en/2-9/ls-05.mp3"
+        },
+        {
+          "id": "en-2-9-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какое здание нравится Кейт?",
+          "transcript": "Kate works in a busy building downtown. It is a very tall skyscraper.",
+          "options": [
+            "очень высокий небоскрёб",
+            "маленький дом",
+            "старый мост",
+            "тихий магазин"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A very tall skyscraper — очень высокий небоскрёб.",
+          "audio": "en/2-9/ls-06.mp3"
+        },
+        {
+          "id": "en-2-9-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какая улица у Али?",
+          "transcript": "Downtown is crowded and noisy, but Ali's street is small and nice.",
+          "options": [
+            "маленькая и приятная",
+            "шумная и многолюдная",
+            "большая и оживлённая",
+            "длинная с пробками"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Ali's street is small and nice — Улица Али маленькая и приятная.",
+          "audio": "en/2-9/ls-07.mp3"
+        },
+        {
+          "id": "en-2-9-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "The city is noisy.",
+          "accepted": ["The city is noisy."],
+          "explain_ru": "The city is noisy — Город шумный.",
+          "audio": "en/2-9/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-9-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Антонимы: соедините прилагательные с противоположными по смыслу (quiet — «тихий», empty — «пустой»):",
+          "pairs": [
+            { "left": "noisy", "right": "quiet" },
+            { "left": "big", "right": "small" },
+            { "left": "crowded", "right": "empty" },
+            { "left": "early", "right": "late" }
+          ],
+          "explain_ru": "Noisy ↔ quiet (шумный ↔ тихий), big ↔ small (большой ↔ маленький), crowded ↔ empty (многолюдный ↔ пустой).",
+          "audio": null
+        },
+        {
+          "id": "en-2-9-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Там много пробок / сильное движение»:",
+          "source_text": "Там сильное движение.",
+          "bank": ["lot", "traffic", "there", "is", "a", "of"],
+          "accepted": ["There is a lot of traffic"],
+          "explain_ru": "There is a lot of traffic — Там сильное движение (a lot of — «много»).",
+          "audio": null
+        },
+        {
+          "id": "en-2-9-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в предложении «Там много зданий»:",
+          "buggy_text": "There is many buildings.",
+          "accepted": ["There are many buildings."],
+          "explain_ru": "Перед существительным во множественном числе (many buildings) используется There are.",
+          "audio": null
+        },
+        {
+          "id": "en-2-9-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините городские объекты с переводом:",
+          "pairs": [
+            { "left": "building", "right": "здание" },
+            { "left": "bridge", "right": "мост" },
+            { "left": "tower", "right": "башня" },
+            { "left": "skyscraper", "right": "небоскрёб" }
+          ],
+          "explain_ru": "Building — здание, bridge — мост, tower — башня, skyscraper — небоскрёб.",
+          "audio": null
+        },
+        {
+          "id": "en-2-9-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова города с переводом:",
+          "pairs": [
+            { "left": "subway", "right": "метро" },
+            { "left": "downtown", "right": "центр города" },
+            { "left": "square", "right": "площадь" },
+            { "left": "traffic", "right": "движение, пробки" }
+          ],
+          "explain_ru": "Subway — метро, downtown — центр города, square — площадь, traffic — движение, пробки.",
+          "audio": null
+        },
+        {
+          "id": "en-2-9-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Башня очень высокая»:",
+          "source_text": "Башня очень высокая.",
+          "bank": ["tall", "the", "very", "tower", "is"],
+          "accepted": ["The tower is very tall"],
+          "explain_ru": "The tower is very tall — Башня очень высокая.",
+          "audio": null
+        },
+        {
+          "id": "en-2-9-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении «Центр города оживлённый»:",
+          "buggy_text": "Downtown are busy.",
+          "accepted": ["Downtown is busy."],
+          "explain_ru": "Downtown — единственное число, поэтому нужен глагол is: Downtown is busy.",
+          "audio": null
+        },
+        {
+          "id": "en-2-9-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «мост» на английский:",
+          "source_text": "мост",
+          "accepted": ["bridge"],
+          "explain_ru": "Bridge — мост.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-9-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Центр и моя улица: прочитайте текст (river — «река», fast — «быстрый», quiet — «тихий») и ответьте на вопросы:",
+          "passage": "The city has a river and a bridge. The subway is fast. Downtown is busy, but my street is quiet.",
+          "questions": [
+            {
+              "question_ru": "Какой центр города?",
+              "options": ["оживлённый", "тихий", "пустой", "маленький"],
+              "correct_index": 0,
+              "accepted": ["оживлённый", "busy"]
+            },
+            {
+              "question_ru": "Какая улица у автора?",
+              "options": ["тихая", "шумная", "многолюдная", "оживлённая"],
+              "correct_index": 0,
+              "accepted": ["тихая", "quiet"]
+            }
+          ],
+          "explain_ru": "Downtown is busy — Центр оживлённый; my street is quiet — моя улица тихая.",
+          "audio": null
+        },
+        {
+          "id": "en-2-9-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «skyscraper»:",
+          "question_text": "skyscraper",
+          "options": ["небоскрёб", "мост", "площадь", "метро"],
+          "correct_index": 0,
+          "explain_ru": "Skyscraper — небоскрёб.",
+          "audio": null
+        },
+        {
+          "id": "en-2-9-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «tower»:",
+          "question_text": "tower",
+          "options": ["башня", "мост", "здание", "улица"],
+          "correct_index": 0,
+          "explain_ru": "Tower — башня.",
+          "audio": null
+        },
+        {
+          "id": "en-2-9-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «crowded»:",
+          "question_text": "crowded",
+          "options": ["многолюдный", "шумный", "высокий", "оживлённый"],
+          "correct_index": 0,
+          "explain_ru": "Crowded — многолюдный.",
+          "audio": null
+        },
+        {
+          "id": "en-2-9-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «downtown»:",
+          "question_text": "downtown",
+          "options": ["центр города", "площадь", "аэропорт", "парк"],
+          "correct_index": 0,
+          "explain_ru": "Downtown — центр города.",
+          "audio": null
+        },
+        {
+          "id": "en-2-9-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «tall»:",
+          "question_text": "tall",
+          "options": ["высокий", "шумный", "многолюдный", "большой"],
+          "correct_index": 0,
+          "explain_ru": "Tall — высокий (о зданиях, башнях, людях, деревьях).",
+          "audio": null
+        },
+        {
+          "id": "en-2-9-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «square»:",
+          "question_text": "square",
+          "options": ["площадь", "мост", "метро", "пробки"],
+          "correct_index": 0,
+          "explain_ru": "Square — площадь (в городе).",
+          "audio": null
+        },
+        {
+          "id": "en-2-9-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте открытку от друга и ответьте на вопрос:",
+          "passage": "Hello from Istanbul! The city is very busy. There is a famous bridge and an old tower. Every day I walk in a big square and take the subway.",
+          "questions": [
+            {
+              "question_ru": "Каким транспортом пользуется друг каждый день (famous — «знаменитый»)?",
+              "options": ["метро", "автобусом", "такси", "поездом"],
+              "correct_index": 0,
+              "accepted": ["метро", "subway", "the subway"]
+            }
+          ],
+          "explain_ru": "Take the subway — ездить на метро.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,403 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-13-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "В магазине: спросите цену масла, опишите помидоры и попросите пакет:",
+          "target_text": "How much is the butter? The tomatoes are fresh and cheap. I need a bag, please.",
+          "translation_ru": "Сколько стоит масло? Помидоры свежие и дешёвые. Мне нужен пакет, пожалуйста.",
+          "explain_ru": "How much is...? — Сколько стоит...?; fresh — свежий; cheap — дешёвый.",
+          "audio": "en/2-13/sp-01.mp3"
+        },
+        {
+          "id": "en-2-13-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы идёте в магазин с корзиной:",
+          "target_text": "I am at the store. I take a basket.",
+          "translation_ru": "Я в магазине. Я беру корзину.",
+          "explain_ru": "At the store — в магазине; basket — корзина.",
+          "audio": "en/2-13/sp-02.mp3"
+        },
+        {
+          "id": "en-2-13-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что этот сыр дорогой, а картофель дешёвый:",
+          "target_text": "This cheese is expensive, but the potato is cheap.",
+          "translation_ru": "Этот сыр дорогой, но картофель дешёвый.",
+          "explain_ru": "Expensive — дорогой; cheap — дешёвый.",
+          "audio": "en/2-13/sp-03.mp3"
+        },
+        {
+          "id": "en-2-13-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите кассира о цене помидора:",
+          "target_text": "Excuse me, what is the price of this tomato?",
+          "translation_ru": "Простите, какая цена у этого помидора?",
+          "explain_ru": "Price — цена; tomato — помидор.",
+          "audio": "en/2-13/sp-04.mp3"
+        },
+        {
+          "id": "en-2-13-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, сколько стоит свежий хлеб:",
+          "target_text": "How much is the fresh bread?",
+          "translation_ru": "Сколько стоит свежий хлеб?",
+          "explain_ru": "How much is...? — Сколько стоит...?; fresh bread — свежий хлеб.",
+          "audio": "en/2-13/sp-05.mp3"
+        },
+        {
+          "id": "en-2-13-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что кассир очень приятный:",
+          "target_text": "The cashier at this store is very nice.",
+          "translation_ru": "Кассир в этом магазине очень приятный.",
+          "explain_ru": "Cashier — кассир.",
+          "audio": "en/2-13/sp-06.mp3"
+        },
+        {
+          "id": "en-2-13-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас в корзине масло и картофель:",
+          "target_text": "I have butter and potatoes in my basket.",
+          "translation_ru": "У меня в корзине масло и картофель.",
+          "explain_ru": "Butter — масло (неисчисляемое); potato во множественном числе — potatoes.",
+          "audio": "en/2-13/sp-07.mp3"
+        },
+        {
+          "id": "en-2-13-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас большая сумка для продуктов:",
+          "target_text": "I have a big bag for the vegetables.",
+          "translation_ru": "У меня большая сумка для овощей.",
+          "explain_ru": "Bag — пакет или сумка.",
+          "audio": "en/2-13/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-13-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Цены: прослушайте скрипт и посчитайте, сколько стоят картофель и помидоры вместе:",
+          "transcript": "Potatoes — two dollars. Tomatoes — three dollars. Milk — one dollar.",
+          "options": ["5 долларов", "3 доллара", "4 доллара", "6 долларов"],
+          "correct_index": 0,
+          "explain_ru": "Potatoes (2) + Tomatoes (3) = 5 долларов.",
+          "audio": "en/2-13/ls-01.mp3"
+        },
+        {
+          "id": "en-2-13-ls-02",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Сколько стоит молоко в этом магазине?",
+          "transcript": "Potatoes — two dollars. Tomatoes — three dollars. Milk — one dollar.",
+          "options": ["1 доллар", "2 доллара", "3 доллара", "5 долларов"],
+          "correct_index": 0,
+          "explain_ru": "Milk — one dollar (Молоко — один доллар).",
+          "audio": "en/2-13/ls-02.mp3"
+        },
+        {
+          "id": "en-2-13-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Том не покупает сыр?",
+          "transcript": "Tom looks at the price of the cheese. It is very expensive, so he takes butter.",
+          "options": [
+            "сыр очень дорогой",
+            "сыр несвежий",
+            "у него нет корзины",
+            "он не любит масло"
+          ],
+          "correct_index": 0,
+          "explain_ru": "It is very expensive — Он очень дорогой.",
+          "audio": "en/2-13/ls-03.mp3"
+        },
+        {
+          "id": "en-2-13-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что спрашивает покупатель у кассира?",
+          "transcript": "Customer: How much is the butter? Cashier: Three dollars. Do you need a bag?",
+          "options": [
+            "сколько стоит масло",
+            "где находится парк",
+            "свежие ли помидоры",
+            "где взять корзину"
+          ],
+          "correct_index": 0,
+          "explain_ru": "How much is the butter? — Сколько стоит масло?",
+          "audio": "en/2-13/ls-04.mp3"
+        },
+        {
+          "id": "en-2-13-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какие овощи в корзине у Сары?",
+          "transcript": "Sara puts fresh tomatoes and potatoes in her basket.",
+          "options": [
+            "свежие помидоры и картофель",
+            "яблоки и бананы",
+            "хлеб и масло",
+            "суп и салат"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Fresh tomatoes and potatoes — свежие помидоры и картофель.",
+          "audio": "en/2-13/ls-05.mp3"
+        },
+        {
+          "id": "en-2-13-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой магазин рядом с домом Макса?",
+          "transcript": "There is a small store near my house. The prices are cheap and the bread is fresh.",
+          "options": [
+            "маленький магазин с низкими ценами и свежим хлебом",
+            "большой дорогой ресторан",
+            "шумный отель в центре",
+            "новый университет"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A small store... prices are cheap... bread is fresh — маленький магазин, цены дешёвые, хлеб свежий.",
+          "audio": "en/2-13/ls-06.mp3"
+        },
+        {
+          "id": "en-2-13-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что кассир даёт Кейт?",
+          "transcript": "Kate needs a bag for her apples and butter. The cashier gives her a big bag.",
+          "options": ["большой пакет", "маленькую корзину", "свежий помидор", "меню"],
+          "correct_index": 0,
+          "explain_ru": "The cashier gives her a big bag — Кассир даёт ей большой пакет.",
+          "audio": "en/2-13/ls-07.mp3"
+        },
+        {
+          "id": "en-2-13-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите вопрос по-английски:",
+          "transcript": "How much is the butter?",
+          "accepted": ["How much is the butter?"],
+          "explain_ru": "How much is the butter? — Сколько стоит масло?",
+          "audio": "en/2-13/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-13-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите вопрос «Сколько стоит масло?»:",
+          "source_text": "Сколько стоит масло?",
+          "bank": ["much", "how", "is", "butter", "the"],
+          "accepted": ["How much is the butter"],
+          "explain_ru": "How much is the butter? — Сколько стоит масло?",
+          "audio": null
+        },
+        {
+          "id": "en-2-13-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите и исправьте ошибку в вопросе о цене:",
+          "buggy_text": "How many is the milk?",
+          "accepted": ["How much is the milk?"],
+          "explain_ru": "Для вопроса о цене всегда используется How much, а не How many.",
+          "audio": null
+        },
+        {
+          "id": "en-2-13-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Антонимы: напишите противоположное по смыслу слово для cheap (дешёвый):",
+          "source_text": "cheap ↔ ___",
+          "accepted": ["expensive"],
+          "explain_ru": "Cheap (дешёвый) ↔ expensive (дорогой).",
+          "audio": null
+        },
+        {
+          "id": "en-2-13-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините продукты с переводом:",
+          "pairs": [
+            { "left": "butter", "right": "масло" },
+            { "left": "tomato", "right": "помидор" },
+            { "left": "potato", "right": "картофель" },
+            { "left": "fresh", "right": "свежий" }
+          ],
+          "explain_ru": "Butter — масло, tomato — помидор, potato — картофель, fresh — свежий.",
+          "audio": null
+        },
+        {
+          "id": "en-2-13-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова магазина с переводом:",
+          "pairs": [
+            { "left": "store", "right": "магазин" },
+            { "left": "price", "right": "цена" },
+            { "left": "basket", "right": "корзина" },
+            { "left": "cashier", "right": "кассир" }
+          ],
+          "explain_ru": "Store — магазин, price — цена, basket — корзина, cashier — кассир.",
+          "audio": null
+        },
+        {
+          "id": "en-2-13-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в числе существительного:",
+          "buggy_text": "The tomato are fresh and cheap.",
+          "accepted": ["The tomatoes are fresh and cheap."],
+          "explain_ru": "С глаголом are нужно множественное число: tomato → tomatoes.",
+          "audio": null
+        },
+        {
+          "id": "en-2-13-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Мне нужен пакет, пожалуйста»:",
+          "source_text": "Мне нужен пакет, пожалуйста.",
+          "bank": ["bag", "need", "a", "I", "please"],
+          "accepted": ["I need a bag please"],
+          "explain_ru": "I need a bag, please — Мне нужен пакет, пожалуйста.",
+          "audio": null
+        },
+        {
+          "id": "en-2-13-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «цена» по-английски:",
+          "source_text": "цена",
+          "accepted": ["price"],
+          "explain_ru": "Price — цена.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-13-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Анна в магазине: прочитайте текст («buys» — покупает, «pays» — платит) и ответьте на вопросы:",
+          "passage": "Anna is at the store. She takes a basket. She buys potatoes, tomatoes and butter. At the end she pays the cashier.",
+          "questions": [
+            {
+              "question_ru": "Что Анна берёт сначала?",
+              "options": ["корзину", "пакет", "меню", "тетрадь"],
+              "correct_index": 0,
+              "accepted": ["корзину", "a basket", "basket"]
+            },
+            {
+              "question_ru": "Кому она платит в конце?",
+              "options": ["кассиру", "начальнику", "учителю", "соседу"],
+              "correct_index": 0,
+              "accepted": ["кассиру", "the cashier", "cashier"]
+            }
+          ],
+          "explain_ru": "She takes a basket — Она берёт корзину; she pays the cashier — она платит кассиру.",
+          "audio": null
+        },
+        {
+          "id": "en-2-13-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «expensive»:",
+          "question_text": "expensive",
+          "options": ["дорогой", "дешёвый", "свежий", "вкусный"],
+          "correct_index": 0,
+          "explain_ru": "Expensive — дорогой.",
+          "audio": null
+        },
+        {
+          "id": "en-2-13-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «cheap»:",
+          "question_text": "cheap",
+          "options": ["дешёвый", "дорогой", "большой", "маленький"],
+          "correct_index": 0,
+          "explain_ru": "Cheap — дешёвый.",
+          "audio": null
+        },
+        {
+          "id": "en-2-13-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «basket»:",
+          "question_text": "basket",
+          "options": ["корзина", "пакет", "кассир", "цена"],
+          "correct_index": 0,
+          "explain_ru": "Basket — корзина.",
+          "audio": null
+        },
+        {
+          "id": "en-2-13-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «cashier»:",
+          "question_text": "cashier",
+          "options": ["кассир", "коллега", "водитель", "турист"],
+          "correct_index": 0,
+          "explain_ru": "Cashier — кассир.",
+          "audio": null
+        },
+        {
+          "id": "en-2-13-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «how much»:",
+          "question_text": "how much",
+          "options": ["сколько стоит", "сколько лет", "откуда ты", "как тебя зовут"],
+          "correct_index": 0,
+          "explain_ru": "How much — сколько (стоит / о неисчисляемом).",
+          "audio": null
+        },
+        {
+          "id": "en-2-13-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «fresh»:",
+          "question_text": "fresh",
+          "options": ["свежий", "дорогой", "голодный", "тихий"],
+          "correct_index": 0,
+          "explain_ru": "Fresh — свежий.",
+          "audio": null
+        },
+        {
+          "id": "en-2-13-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий диалог в магазине и ответьте на вопрос:",
+          "passage": "Tom: Excuse me, how much is this potato bag? Cashier: Two dollars. The potatoes are fresh today. Tom: Great! That is a cheap price.",
+          "questions": [
+            {
+              "question_ru": "Сколько стоит пакет картофеля?",
+              "options": ["два доллара", "три доллара", "один доллар", "пять долларов"],
+              "correct_index": 0,
+              "accepted": ["два доллара", "2 доллара", "two dollars"]
+            }
+          ],
+          "explain_ru": "Two dollars — два доллара; cheap price — низкая (дешёвая) цена.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

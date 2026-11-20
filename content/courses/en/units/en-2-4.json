@@ -83,16 +83,408 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-4-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мои интересы: расскажите, чем вы интересуетесь:",
+          "target_text": "I am interested in science and history. My favorite hobby is photography. I really like nature.",
+          "translation_ru": "Я интересуюсь наукой и историей. Моё любимое хобби — фотография. Мне действительно нравится природа.",
+          "explain_ru": "Be interested in — интересоваться чем-либо; really like — действительно любить.",
+          "audio": "en/2-4/sp-01.mp3"
+        },
+        {
+          "id": "en-2-4-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы интересуетесь искусством и фильмами:",
+          "target_text": "I am interested in art and movies.",
+          "translation_ru": "Я интересуюсь искусством и фильмами.",
+          "explain_ru": "Art — искусство, movies — фильмы.",
+          "audio": "en/2-4/sp-02.mp3"
+        },
+        {
+          "id": "en-2-4-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы любите читать книги в свободное время:",
+          "target_text": "In my free time I really like books.",
+          "translation_ru": "В свободное время я действительно люблю книги.",
+          "explain_ru": "Books — книги, really — действительно.",
+          "audio": "en/2-4/sp-03.mp3"
+        },
+        {
+          "id": "en-2-4-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про спорт и игры:",
+          "target_text": "My brother likes sport and games.",
+          "translation_ru": "Мой брат любит спорт и игры.",
+          "explain_ru": "Sport — спорт, games — игры.",
+          "audio": "en/2-4/sp-04.mp3"
+        },
+        {
+          "id": "en-2-4-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про ваш любимый фильм:",
+          "target_text": "This is my favorite hobby. I like movies.",
+          "translation_ru": "Это моё любимое хобби. Я люблю фильмы.",
+          "explain_ru": "Favorite — любимый.",
+          "audio": "en/2-4/sp-05.mp3"
+        },
+        {
+          "id": "en-2-4-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про природу и фотографию:",
+          "target_text": "She is interested in nature and photography.",
+          "translation_ru": "Она интересуется природой и фотографией.",
+          "explain_ru": "С she используется is: She is interested in...",
+          "audio": "en/2-4/sp-06.mp3"
+        },
+        {
+          "id": "en-2-4-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваш друг любит науку:",
+          "target_text": "My friend Tom really likes science.",
+          "translation_ru": "Мой друг Том действительно любит науку.",
+          "explain_ru": "Science — наука.",
+          "audio": "en/2-4/sp-07.mp3"
+        },
+        {
+          "id": "en-2-4-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы любите историю и спорт:",
+          "target_text": "We like history and sport.",
+          "translation_ru": "Мы любим историю и спорт.",
+          "explain_ru": "History — история, sport — спорт.",
+          "audio": "en/2-4/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-4-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Макс (1/2): прослушайте скрипт (subject — «предмет») и ответьте, чем интересуется Макс:",
+          "transcript": "Max is interested in art. His favorite subject is history. He really likes books.",
+          "options": ["искусством", "спортом", "играми", "фотографией"],
+          "correct_index": 0,
+          "explain_ru": "Max is interested in art — Макс интересуется искусством.",
+          "audio": "en/2-4/ls-01.mp3"
+        },
+        {
+          "id": "en-2-4-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Макс (2/2): что Макс действительно любит?",
+          "transcript": "Max is interested in art. His favorite subject is history. He really likes books.",
+          "options": ["книги", "фильмы", "природу", "науку"],
+          "correct_index": 0,
+          "explain_ru": "He really likes books — Он действительно любит книги.",
+          "audio": "en/2-4/ls-02.mp3"
+        },
+        {
+          "id": "en-2-4-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какое любимое хобби у Анны?",
+          "transcript": "Anna likes nature. Her favorite hobby is photography.",
+          "options": ["фотография", "рисование", "футбол", "музыка"],
+          "correct_index": 0,
+          "explain_ru": "Her favorite hobby is photography — Её любимое хобби — фотография.",
+          "audio": "en/2-4/ls-03.mp3"
+        },
+        {
+          "id": "en-2-4-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что любят Али и его сосед по комнате?",
+          "transcript": "Ali and his roommate really like movies and games.",
+          "options": [
+            "фильмы и игры",
+            "науку и историю",
+            "искусство и книги",
+            "спорт и природу"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Movies — фильмы, games — игры.",
+          "audio": "en/2-4/ls-04.mp3"
+        },
+        {
+          "id": "en-2-4-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Чем интересуется Сара?",
+          "transcript": "Sara is a student. She is interested in science and books.",
+          "options": [
+            "наукой и книгами",
+            "спортом и играми",
+            "фильмами и искусством",
+            "природой и музыкой"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Science — наука, books — книги.",
+          "audio": "en/2-4/ls-05.mp3"
+        },
+        {
+          "id": "en-2-4-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Чем занимается Павел в свободное время?",
+          "transcript": "Paul likes sport. He plays football and swims every day.",
+          "options": [
+            "спортом (футбол и плавание)",
+            "фотографией",
+            "чтением книг по истории",
+            "рисованием"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Paul likes sport — Пол любит спорт.",
+          "audio": "en/2-4/ls-06.mp3"
+        },
+        {
+          "id": "en-2-4-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что нравится учителю?",
+          "transcript": "Our teacher is interested in history and art.",
+          "options": [
+            "история и искусство",
+            "фильмы и игры",
+            "природа и спорт",
+            "наука и фотография"
+          ],
+          "correct_index": 0,
+          "explain_ru": "History and art — история и искусство.",
+          "audio": "en/2-4/ls-07.mp3"
+        },
+        {
+          "id": "en-2-4-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I really like movies.",
+          "accepted": ["I really like movies."],
+          "explain_ru": "I really like movies — Я действительно люблю фильмы.",
+          "audio": "en/2-4/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-4-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Предлог: впишите правильный предлог после interested:",
+          "source_text": "I am interested ___ music.",
+          "accepted": ["in"],
+          "explain_ru": "После interested всегда используется предлог in: interested in.",
+          "audio": null
+        },
+        {
+          "id": "en-2-4-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «История — моя любимая»:",
+          "source_text": "История — моя любимая.",
+          "bank": ["favorite", "is", "my", "history"],
+          "accepted": ["History is my favorite"],
+          "explain_ru": "History is my favorite — История — моя любимая.",
+          "audio": null
+        },
+        {
+          "id": "en-2-4-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в предложении «Я интересуюсь играми»:",
+          "buggy_text": "I interested in games.",
+          "accepted": ["I am interested in games."],
+          "explain_ru": "В английском нельзя пропускать глагол-связку am: I am interested in games.",
+          "audio": null
+        },
+        {
+          "id": "en-2-4-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "art", "right": "искусство" },
+            { "left": "science", "right": "наука" },
+            { "left": "books", "right": "книги" },
+            { "left": "movies", "right": "фильмы" }
+          ],
+          "explain_ru": "Art — искусство, science — наука, books — книги, movies — фильмы.",
+          "audio": null
+        },
+        {
+          "id": "en-2-4-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "sport", "right": "спорт" },
+            { "left": "photography", "right": "фотография" },
+            { "left": "nature", "right": "природа" },
+            { "left": "really", "right": "действительно" }
+          ],
+          "explain_ru": "Sport — спорт, photography — фотография, nature — природа, really — действительно.",
+          "audio": null
+        },
+        {
+          "id": "en-2-4-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Она интересуется наукой»:",
+          "source_text": "Она интересуется наукой.",
+          "bank": ["science", "in", "interested", "is", "she"],
+          "accepted": ["She is interested in science"],
+          "explain_ru": "She is interested in science — Она интересуется наукой.",
+          "audio": null
+        },
+        {
+          "id": "en-2-4-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении «Ему действительно нравится спорт»:",
+          "buggy_text": "He really like sport.",
+          "accepted": ["He really likes sport."],
+          "explain_ru": "После he к глаголу добавляется -s: He really likes sport.",
+          "audio": null
+        },
+        {
+          "id": "en-2-4-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «любимый» на английский:",
+          "source_text": "любимый",
+          "accepted": ["favorite", "favourite"],
+          "explain_ru": "Favorite (амер.) / favourite (брит.) — любимый.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-4-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Брат и сестра: прочитайте текст (takes photos — «фотографирует», trees — «деревья», every evening — «каждый вечер») и ответьте на вопросы:",
+          "passage": "Kate likes nature. She takes photos of trees and birds. Her brother likes games. He plays every evening.",
+          "questions": [
+            {
+              "question_ru": "Что снимает Кейт?",
+              "options": [
+                "деревья и птиц",
+                "кошек и собак",
+                "улицы и дома",
+                "книги и картины"
+              ],
+              "correct_index": 0,
+              "accepted": ["деревья и птиц", "trees and birds"]
+            },
+            {
+              "question_ru": "Что любит брат Кейт?",
+              "options": ["игры", "фотографию", "историю", "фильмы"],
+              "correct_index": 0,
+              "accepted": ["игры", "games"]
+            }
+          ],
+          "explain_ru": "She takes photos of trees and birds — Она фотографирует деревья и птиц; Her brother likes games — Её брат любит игры.",
+          "audio": null
+        },
+        {
+          "id": "en-2-4-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «interested in»:",
+          "question_text": "interested in",
+          "options": ["интересоваться", "любить", "понимать", "нуждаться"],
+          "correct_index": 0,
+          "explain_ru": "Interested in — интересоваться (чем-то).",
+          "audio": null
+        },
+        {
+          "id": "en-2-4-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «photography»:",
+          "question_text": "photography",
+          "options": ["фотография", "искусство", "природа", "история"],
+          "correct_index": 0,
+          "explain_ru": "Photography — фотография.",
+          "audio": null
+        },
+        {
+          "id": "en-2-4-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «science»:",
+          "question_text": "science",
+          "options": ["наука", "история", "спорт", "книги"],
+          "correct_index": 0,
+          "explain_ru": "Science — наука.",
+          "audio": null
+        },
+        {
+          "id": "en-2-4-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «movies»:",
+          "question_text": "movies",
+          "options": ["фильмы", "книги", "игры", "музыка"],
+          "correct_index": 0,
+          "explain_ru": "Movies — фильмы.",
+          "audio": null
+        },
+        {
+          "id": "en-2-4-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «favorite»:",
+          "question_text": "favorite",
+          "options": ["любимый", "действительно", "счастливый", "приятный"],
+          "correct_index": 0,
+          "explain_ru": "Favorite — любимый.",
+          "audio": null
+        },
+        {
+          "id": "en-2-4-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «nature»:",
+          "question_text": "nature",
+          "options": ["природа", "искусство", "наука", "хобби"],
+          "correct_index": 0,
+          "explain_ru": "Nature — природа.",
+          "audio": null
+        },
+        {
+          "id": "en-2-4-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий рассказ о друзьях и ответьте на вопрос:",
+          "passage": "Tom and Emma are friends. Tom is interested in sport and games. Emma does not like games, but she really likes art, books and movies.",
+          "questions": [
+            {
+              "question_ru": "Что НЕ любит Эмма?",
+              "options": ["игры", "искусство", "книги", "фильмы"],
+              "correct_index": 0,
+              "accepted": ["игры", "games"]
+            }
+          ],
+          "explain_ru": "Emma does not like games — Эмма не любит игры.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

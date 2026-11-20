@@ -83,16 +83,408 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-17-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Давайте на пикник! Пригласите друзей на пикник у озера («Let's» — давайте):",
+          "target_text": "Let's have a picnic! I bring sandwiches and fruit. We sit on the grass near the lake.",
+          "translation_ru": "Давайте устроим пикник! Я принесу бутерброды и фрукты. Мы сидим на траве рядом с озером.",
+          "explain_ru": "Let's have a picnic — Давайте устроим пикник; on the grass — на траве.",
+          "audio": "en/2-17/sp-01.mp3"
+        },
+        {
+          "id": "en-2-17-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас есть большой плед и крем от загара:",
+          "target_text": "I have a big blanket and sunscreen in my bag.",
+          "translation_ru": "У меня в сумке большой плед и крем от загара.",
+          "explain_ru": "Blanket — плед; sunscreen — крем от загара.",
+          "audio": "en/2-17/sp-02.mp3"
+        },
+        {
+          "id": "en-2-17-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы сидите в тени под деревом:",
+          "target_text": "We sit in the shade under a big tree.",
+          "translation_ru": "Мы сидим в тени под большим деревом.",
+          "explain_ru": "In the shade — в тени; tree — дерево.",
+          "audio": "en/2-17/sp-03.mp3"
+        },
+        {
+          "id": "en-2-17-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что этот бутерброд вкусный:",
+          "target_text": "This cheese sandwich is very delicious.",
+          "translation_ru": "Этот бутерброд с сыром очень вкусный.",
+          "explain_ru": "Sandwich — бутерброд (во множественном числе — sandwiches).",
+          "audio": "en/2-17/sp-04.mp3"
+        },
+        {
+          "id": "en-2-17-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы наслаждаетесь солнцем и природой:",
+          "target_text": "We enjoy the sun and nature near the lake.",
+          "translation_ru": "Мы наслаждаемся солнцем и природой возле озера.",
+          "explain_ru": "Enjoy — наслаждаться (употребляется без предлога: enjoy the sun).",
+          "audio": "en/2-17/sp-05.mp3"
+        },
+        {
+          "id": "en-2-17-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Предложите поиграть с мячом на траве:",
+          "target_text": "Let's play with the ball on the grass.",
+          "translation_ru": "Давайте поиграем с мячом на траве.",
+          "explain_ru": "Ball — мяч; grass — трава.",
+          "audio": "en/2-17/sp-06.mp3"
+        },
+        {
+          "id": "en-2-17-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы любите свежие фрукты на пикнике:",
+          "target_text": "I like fresh fruit at a picnic.",
+          "translation_ru": "Мне нравятся свежие фрукты на пикнике.",
+          "explain_ru": "Слово fruit обычно неисчисляемое, когда речь идёт о фруктах вообще.",
+          "audio": "en/2-17/sp-07.mp3"
+        },
+        {
+          "id": "en-2-17-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Напомните взять крем от загара:",
+          "target_text": "Please bring sunscreen, the sun is strong today.",
+          "translation_ru": "Пожалуйста, возьми крем от загара, солнце сегодня сильное.",
+          "explain_ru": "Sunscreen — крем от загара; sun — солнце.",
+          "audio": "en/2-17/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-17-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Солнечный день (1/2): прослушайте скрипт («weather» — погода, «sunny» — солнечный) и ответьте, где они сидят:",
+          "transcript": "The weather is sunny. We sit in the shade of a big tree. The sandwiches are delicious.",
+          "options": [
+            "в тени большого дерева",
+            "в ресторане",
+            "на кухне",
+            "в автобусе"
+          ],
+          "correct_index": 0,
+          "explain_ru": "We sit in the shade of a big tree — Мы сидим в тени большого дерева.",
+          "audio": "en/2-17/ls-01.mp3"
+        },
+        {
+          "id": "en-2-17-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Солнечный день (2/2): какие бутерброды?",
+          "transcript": "The weather is sunny. We sit in the shade of a big tree. The sandwiches are delicious.",
+          "options": ["вкусные", "дорогие", "маленькие", "старые"],
+          "correct_index": 0,
+          "explain_ru": "The sandwiches are delicious — Бутерброды вкусные.",
+          "audio": "en/2-17/ls-02.mp3"
+        },
+        {
+          "id": "en-2-17-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что Анна кладёт на траву возле озера?",
+          "transcript": "Anna puts a big blanket on the grass near the lake.",
+          "options": ["большой плед", "новую тетрадь", "компьютер", "подарок"],
+          "correct_index": 0,
+          "explain_ru": "A big blanket on the grass — большой плед на траву.",
+          "audio": "en/2-17/ls-03.mp3"
+        },
+        {
+          "id": "en-2-17-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что забыл взять Том на пикник?",
+          "transcript": "Tom has fruit and a sandwich, but he needs sunscreen because of the sun.",
+          "options": ["крем от загара", "мяч", "воду", "плед"],
+          "correct_index": 0,
+          "explain_ru": "He needs sunscreen — Ему нужен крем от загара.",
+          "audio": "en/2-17/ls-04.mp3"
+        },
+        {
+          "id": "en-2-17-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Чем заняты братья в парке?",
+          "transcript": "The brothers play with a red ball on the grass. They really enjoy the picnic.",
+          "options": [
+            "играют с красным мячом на траве",
+            "учатся к экзамену",
+            "упаковывают коробки",
+            "идут в аптеку"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Play with a red ball on the grass — играют с красным мячом на траве.",
+          "audio": "en/2-17/ls-05.mp3"
+        },
+        {
+          "id": "en-2-17-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что лежит в корзине у Сары?",
+          "transcript": "Sara brings a basket with fresh fruit, juice and cheese sandwiches.",
+          "options": [
+            "свежие фрукты, сок и бутерброды с сыром",
+            "картофель и масло",
+            "суп и торт",
+            "лекарство и вода"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Fresh fruit, juice and cheese sandwiches — свежие фрукты, сок и бутерброды с сыром.",
+          "audio": "en/2-17/ls-06.mp3"
+        },
+        {
+          "id": "en-2-17-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где семья устраивает пикник?",
+          "transcript": "Our family enjoys a quiet picnic near the blue lake.",
+          "options": ["рядом с синим озером", "в центре города", "в библиотеке", "на площади"],
+          "correct_index": 0,
+          "explain_ru": "Near the blue lake — рядом с синим озером.",
+          "audio": "en/2-17/ls-07.mp3"
+        },
+        {
+          "id": "en-2-17-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "Let's have a picnic.",
+          "accepted": ["Let's have a picnic."],
+          "explain_ru": "Let's have a picnic — Давайте устроим пикник.",
+          "audio": "en/2-17/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-17-wr-01",
+          "type": "odd_one_out",
+          "origin": "source",
+          "prompt_ru": "Найди лишнее: выберите слово, которое не относится к природе:",
+          "items": ["grass", "tree", "lake", "blanket"],
+          "odd_index": 3,
+          "explain_ru": "Blanket (плед) — предмет, а grass (трава), tree (дерево) и lake (озеро) — природа.",
+          "audio": null
+        },
+        {
+          "id": "en-2-17-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Давайте устроим пикник»:",
+          "source_text": "Давайте устроим пикник.",
+          "bank": ["picnic", "let's", "a", "have"],
+          "accepted": ["Let's have a picnic"],
+          "explain_ru": "Let's have a picnic — Давайте устроим пикник.",
+          "audio": null
+        },
+        {
+          "id": "en-2-17-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите и исправьте ошибку в глаголе:",
+          "buggy_text": "We eats sandwiches.",
+          "accepted": ["We eat sandwiches."],
+          "explain_ru": "С местоимением we глагол используется без -s: We eat sandwiches.",
+          "audio": null
+        },
+        {
+          "id": "en-2-17-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова природы с переводом:",
+          "pairs": [
+            { "left": "grass", "right": "трава" },
+            { "left": "sun", "right": "солнце" },
+            { "left": "lake", "right": "озеро" },
+            { "left": "shade", "right": "тень" }
+          ],
+          "explain_ru": "Grass — трава, sun — солнце, lake — озеро, shade — тень.",
+          "audio": null
+        },
+        {
+          "id": "en-2-17-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините вещи для пикника с переводом:",
+          "pairs": [
+            { "left": "blanket", "right": "плед" },
+            { "left": "sandwich", "right": "бутерброд" },
+            { "left": "ball", "right": "мяч" },
+            { "left": "sunscreen", "right": "крем от загара" }
+          ],
+          "explain_ru": "Blanket — плед, sandwich — бутерброд, ball — мяч, sunscreen — крем от загара.",
+          "audio": null
+        },
+        {
+          "id": "en-2-17-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в форме глагола:",
+          "buggy_text": "She enjoy the sun in the park.",
+          "accepted": ["She enjoys the sun in the park."],
+          "explain_ru": "После she к глаголу добавляется -s: She enjoys the sun.",
+          "audio": null
+        },
+        {
+          "id": "en-2-17-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Мы наслаждаемся солнцем»:",
+          "source_text": "Мы наслаждаемся солнцем.",
+          "bank": ["sun", "we", "the", "enjoy"],
+          "accepted": ["We enjoy the sun"],
+          "explain_ru": "We enjoy the sun — Мы наслаждаемся солнцем.",
+          "audio": null
+        },
+        {
+          "id": "en-2-17-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «дерево» по-английски:",
+          "source_text": "дерево",
+          "accepted": ["tree"],
+          "explain_ru": "Tree — дерево.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-17-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Воскресенье: прочитайте текст («kids» — дети) и ответьте на вопросы:",
+          "passage": "On Sunday we go to the park. We bring a blanket, a ball and a basket with fruit. The kids play and we enjoy the sun.",
+          "questions": [
+            {
+              "question_ru": "Что они берут с собой в парк?",
+              "options": [
+                "плед, мяч и корзину с фруктами",
+                "тетрадь, книгу и принтер",
+                "паспорт, карту и чемодан",
+                "цветы, свечи и подарок"
+              ],
+              "correct_index": 0,
+              "accepted": ["плед, мяч и корзину с фруктами", "плед, мяч, корзину с фруктами"]
+            },
+            {
+              "question_ru": "Что делают дети?",
+              "options": ["играют", "учатся", "готовят обед", "спят"],
+              "correct_index": 0,
+              "accepted": ["играют", "play"]
+            }
+          ],
+          "explain_ru": "A blanket, a ball and a basket with fruit — плед, мяч и корзину с фруктами; The kids play — Дети играют.",
+          "audio": null
+        },
+        {
+          "id": "en-2-17-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «shade»:",
+          "question_text": "shade",
+          "options": ["тень", "солнце", "трава", "озеро"],
+          "correct_index": 0,
+          "explain_ru": "Shade — тень.",
+          "audio": null
+        },
+        {
+          "id": "en-2-17-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «sunscreen»:",
+          "question_text": "sunscreen",
+          "options": ["крем от загара", "лекарство", "плед", "солнце"],
+          "correct_index": 0,
+          "explain_ru": "Sunscreen — солнцезащитный крем (крем от загара).",
+          "audio": null
+        },
+        {
+          "id": "en-2-17-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «enjoy»:",
+          "question_text": "enjoy",
+          "options": ["наслаждаться", "упаковывать", "праздновать", "улыбаться"],
+          "correct_index": 0,
+          "explain_ru": "Enjoy — наслаждаться.",
+          "audio": null
+        },
+        {
+          "id": "en-2-17-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «blanket»:",
+          "question_text": "blanket",
+          "options": ["плед", "корзина", "диван", "полотенце"],
+          "correct_index": 0,
+          "explain_ru": "Blanket — плед, одеяло.",
+          "audio": null
+        },
+        {
+          "id": "en-2-17-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «lake»:",
+          "question_text": "lake",
+          "options": ["озеро", "мост", "парк", "дерево"],
+          "correct_index": 0,
+          "explain_ru": "Lake — озеро.",
+          "audio": null
+        },
+        {
+          "id": "en-2-17-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «fruit»:",
+          "question_text": "fruit",
+          "options": ["фрукты", "овощи", "бутерброд", "мяч"],
+          "correct_index": 0,
+          "explain_ru": "Fruit — фрукты.",
+          "audio": null
+        },
+        {
+          "id": "en-2-17-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткую историю о пикнике и ответьте на вопрос:",
+          "passage": "Kate and Paul have a picnic near a quiet lake. They sit on a blanket in the shade of a tall tree. They eat sandwiches and fresh fruit.",
+          "questions": [
+            {
+              "question_ru": "Где Кейт и Пол сидят на пледе?",
+              "options": [
+                "в тени высокого дерева",
+                "возле больницы",
+                "на шумной улице",
+                "в библиотеке"
+              ],
+              "correct_index": 0,
+              "accepted": ["в тени высокого дерева", "в тени дерева"]
+            }
+          ],
+          "explain_ru": "In the shade of a tall tree — в тени высокого дерева.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,403 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-21-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Я болельщик (1/2): расскажите про пробежки и любимую команду (Saturday — суббота):",
+          "target_text": "I run every morning. My favorite team plays on Saturday.",
+          "translation_ru": "Я бегаю каждое утро. Моя любимая команда играет в субботу.",
+          "explain_ru": "Run — бегать; с днями недели используется предлог on: on Saturday.",
+          "audio": "en/2-21/sp-01.mp3"
+        },
+        {
+          "id": "en-2-21-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Я болельщик (2/2): скажите, что вы болельщик и надеетесь на победу (hope — надеяться):",
+          "target_text": "I am a big fan. I hope they win!",
+          "translation_ru": "Я большой болельщик. Надеюсь, они победят!",
+          "explain_ru": "Fan — болельщик; win — побеждать.",
+          "audio": "en/2-21/sp-02.mp3"
+        },
+        {
+          "id": "en-2-21-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что сегодня вечером на стадионе футбольный матч:",
+          "target_text": "We have a football match at the stadium tonight.",
+          "translation_ru": "Сегодня вечером у нас футбольный матч на стадионе.",
+          "explain_ru": "Match — матч; at the stadium — на стадионе.",
+          "audio": "en/2-21/sp-03.mp3"
+        },
+        {
+          "id": "en-2-21-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про вашего тренера:",
+          "target_text": "Our coach is nice and very busy.",
+          "translation_ru": "Наш тренер приятный и очень занятой.",
+          "explain_ru": "Coach — тренер.",
+          "audio": "en/2-21/sp-04.mp3"
+        },
+        {
+          "id": "en-2-21-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Похвалите игрока, который забивает гол:",
+          "target_text": "He is a good player. He scores a goal!",
+          "translation_ru": "Он хороший игрок. Он забивает гол!",
+          "explain_ru": "Player — игрок; score a goal — забить гол.",
+          "audio": "en/2-21/sp-05.mp3"
+        },
+        {
+          "id": "en-2-21-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, во сколько у вас тренировка:",
+          "target_text": "I have practice at five o'clock.",
+          "translation_ru": "У меня тренировка в пять часов.",
+          "explain_ru": "Practice — тренировка; перед временем ставится предлог at.",
+          "audio": "en/2-21/sp-06.mp3"
+        },
+        {
+          "id": "en-2-21-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что в спорте бывают и победы, и поражения (sometimes — иногда):",
+          "target_text": "Sometimes we win and sometimes we lose.",
+          "translation_ru": "Иногда мы побеждаем, а иногда проигрываем.",
+          "explain_ru": "Win — побеждать, lose — проигрывать.",
+          "audio": "en/2-21/sp-07.mp3"
+        },
+        {
+          "id": "en-2-21-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, какой счёт матча:",
+          "target_text": "What is the score of the match?",
+          "translation_ru": "Какой счёт матча?",
+          "explain_ru": "Слово score может быть и глаголом «забивать», и существительным «счёт».",
+          "audio": "en/2-21/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-21-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Матч (1/2): прослушайте репортаж и ответьте, кто забил гол:",
+          "transcript": "The match is today. Our team has a good player. He scores a goal! We win two to one.",
+          "options": ["хороший игрок", "тренер", "болельщик", "судья"],
+          "correct_index": 0,
+          "explain_ru": "Our team has a good player. He scores a goal! — У нашей команды хороший игрок. Он забивает гол!",
+          "audio": "en/2-21/ls-01.mp3"
+        },
+        {
+          "id": "en-2-21-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Матч (2/2): с каким счётом победила команда?",
+          "transcript": "The match is today. Our team has a good player. He scores a goal! We win two to one.",
+          "options": ["2:1", "1:1", "3:1", "2:0"],
+          "correct_index": 0,
+          "explain_ru": "We win two to one — Мы побеждаем со счётом два-один (2:1).",
+          "audio": "en/2-21/ls-02.mp3"
+        },
+        {
+          "id": "en-2-21-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что делает говорящий каждое утро?",
+          "transcript": "Every morning I run in the park near my house.",
+          "options": [
+            "бегает в парке рядом с домом",
+            "плавает в море",
+            "играет в футбол на стадионе",
+            "гуляет с собакой на пляже"
+          ],
+          "correct_index": 0,
+          "explain_ru": "I run in the park near my house — Я бегаю в парке рядом с моим домом.",
+          "audio": "en/2-21/ls-03.mp3"
+        },
+        {
+          "id": "en-2-21-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой сегодня стадион?",
+          "transcript": "The stadium is big and crowded today. Many fans are here.",
+          "options": [
+            "большой и многолюдный",
+            "маленький и пустой",
+            "тихий и старый",
+            "новый и дорогой"
+          ],
+          "correct_index": 0,
+          "explain_ru": "The stadium is big and crowded — Стадион большой и многолюдный.",
+          "audio": "en/2-21/ls-04.mp3"
+        },
+        {
+          "id": "en-2-21-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "В какие дни у команды тренировка?",
+          "transcript": "Our coach says we have practice on Monday and Wednesday.",
+          "options": [
+            "в понедельник и среду",
+            "во вторник и пятницу",
+            "в субботу и воскресенье",
+            "каждый день"
+          ],
+          "correct_index": 0,
+          "explain_ru": "On Monday and Wednesday — в понедельник и среду.",
+          "audio": "en/2-21/ls-05.mp3"
+        },
+        {
+          "id": "en-2-21-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Чего не любит брат говорящего?",
+          "transcript": "My brother is a football fan. He does not like to lose.",
+          "options": ["проигрывать", "бегать", "учиться", "готовить"],
+          "correct_index": 0,
+          "explain_ru": "He does not like to lose — Он не любит проигрывать.",
+          "audio": "en/2-21/ls-06.mp3"
+        },
+        {
+          "id": "en-2-21-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой итоговый счёт в этом матче?",
+          "transcript": "The score is three to two. Our team wins the match!",
+          "options": ["3:2", "2:1", "1:0", "4:2"],
+          "correct_index": 0,
+          "explain_ru": "The score is three to two — Счёт три-два (3:2).",
+          "audio": "en/2-21/ls-07.mp3"
+        },
+        {
+          "id": "en-2-21-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "Our team wins.",
+          "accepted": ["Our team wins."],
+          "explain_ru": "Our team wins — Наша команда побеждает.",
+          "audio": "en/2-21/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-21-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Моя команда играет в субботу»:",
+          "source_text": "Моя команда играет в субботу.",
+          "bank": ["plays", "team", "my", "Saturday", "on"],
+          "accepted": ["My team plays on Saturday"],
+          "explain_ru": "My team plays (моя команда играет) + on Saturday (в субботу).",
+          "audio": null
+        },
+        {
+          "id": "en-2-21-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Антоним: напишите противоположное по смыслу слово к win (побеждать):",
+          "source_text": "win ↔ ___ (проигрывать)",
+          "accepted": ["lose"],
+          "explain_ru": "Win (побеждать) ↔ lose (проигрывать).",
+          "audio": null
+        },
+        {
+          "id": "en-2-21-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите ошибку в глаголе и напишите верное предложение:",
+          "buggy_text": "He score a goal.",
+          "accepted": ["He scores a goal."],
+          "explain_ru": "После he к глаголу добавляется окончание -s: He scores a goal.",
+          "audio": null
+        },
+        {
+          "id": "en-2-21-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините спортивные слова с переводом:",
+          "pairs": [
+            { "left": "coach", "right": "тренер" },
+            { "left": "player", "right": "игрок" },
+            { "left": "fan", "right": "болельщик" },
+            { "left": "stadium", "right": "стадион" }
+          ],
+          "explain_ru": "Coach — тренер, player — игрок, fan — болельщик, stadium — стадион.",
+          "audio": null
+        },
+        {
+          "id": "en-2-21-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова об игре с переводом:",
+          "pairs": [
+            { "left": "match", "right": "матч" },
+            { "left": "goal", "right": "гол" },
+            { "left": "score", "right": "счёт, забивать" },
+            { "left": "practice", "right": "тренировка" }
+          ],
+          "explain_ru": "Match — матч, goal — гол, score — счёт/забивать, practice — тренировка.",
+          "audio": null
+        },
+        {
+          "id": "en-2-21-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Я бегаю каждое утро»:",
+          "source_text": "Я бегаю каждое утро.",
+          "bank": ["every", "run", "I", "morning"],
+          "accepted": ["I run every morning"],
+          "explain_ru": "I run every morning — Я бегаю каждое утро.",
+          "audio": null
+        },
+        {
+          "id": "en-2-21-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "My friend run in the park.",
+          "accepted": ["My friend runs in the park."],
+          "explain_ru": "My friend = he/she, поэтому к глаголу run добавляется -s: runs.",
+          "audio": null
+        },
+        {
+          "id": "en-2-21-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Допишите пропущенное слово «тренировка» по-английски:",
+          "source_text": "We have football ___ on Tuesday. (тренировка)",
+          "accepted": ["practice"],
+          "explain_ru": "Practice — тренировка.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-21-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "На стадионе: прочитайте текст и ответьте на вопросы (full — полный, calm — спокойный, exciting — захватывающий):",
+          "passage": "The stadium is full. The fans sing. The coach is calm. The match is exciting. The score is one to one.",
+          "questions": [
+            {
+              "question_ru": "Какой счёт в матче?",
+              "options": ["1:1", "2:1", "0:0", "3:1"],
+              "correct_index": 0,
+              "accepted": ["1:1", "один-один", "one to one"]
+            },
+            {
+              "question_ru": "Что делают болельщики?",
+              "options": ["поют", "бегают", "спят", "едят"],
+              "correct_index": 0,
+              "accepted": ["поют", "sing"]
+            }
+          ],
+          "explain_ru": "The score is one to one — Счёт 1:1; The fans sing — Болельщики поют.",
+          "audio": null
+        },
+        {
+          "id": "en-2-21-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «coach»:",
+          "question_text": "coach",
+          "options": ["тренер", "игрок", "болельщик", "команда"],
+          "correct_index": 0,
+          "explain_ru": "Coach — тренер.",
+          "audio": null
+        },
+        {
+          "id": "en-2-21-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «player»:",
+          "question_text": "player",
+          "options": ["игрок", "тренер", "матч", "гол"],
+          "correct_index": 0,
+          "explain_ru": "Player — игрок.",
+          "audio": null
+        },
+        {
+          "id": "en-2-21-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «lose»:",
+          "question_text": "lose",
+          "options": ["проигрывать", "побеждать", "бегать", "забивать"],
+          "correct_index": 0,
+          "explain_ru": "Lose — проигрывать.",
+          "audio": null
+        },
+        {
+          "id": "en-2-21-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «practice»:",
+          "question_text": "practice",
+          "options": ["тренировка", "команда", "стадион", "счёт"],
+          "correct_index": 0,
+          "explain_ru": "Practice — тренировка.",
+          "audio": null
+        },
+        {
+          "id": "en-2-21-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «stadium»:",
+          "question_text": "stadium",
+          "options": ["стадион", "площадь", "парк", "университет"],
+          "correct_index": 0,
+          "explain_ru": "Stadium — стадион.",
+          "audio": null
+        },
+        {
+          "id": "en-2-21-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «goal»:",
+          "question_text": "goal",
+          "options": ["гол", "мяч", "матч", "болельщик"],
+          "correct_index": 0,
+          "explain_ru": "Goal — гол.",
+          "audio": null
+        },
+        {
+          "id": "en-2-21-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий рассказ о футболе и ответьте на вопрос (three times a week — три раза в неделю):",
+          "passage": "Tom plays in a university football team. They have practice three times a week. His coach says Tom is a good player. On Saturday they have a match at a big stadium.",
+          "questions": [
+            {
+              "question_ru": "Сколько раз в неделю у команды Тома тренировка?",
+              "options": [
+                "три раза в неделю",
+                "один раз в неделю",
+                "два раза в неделю",
+                "каждый день"
+              ],
+              "correct_index": 0,
+              "accepted": ["три раза в неделю", "три", "3"]
+            }
+          ],
+          "explain_ru": "They have practice three times a week — У них тренировка три раза в неделю.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

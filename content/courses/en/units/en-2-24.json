@@ -83,16 +83,388 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-24-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Моя музыка (1/2): расскажите, какую музыку и инструменты вы любите:",
+          "target_text": "I listen to music every day. I like the piano and the drums.",
+          "translation_ru": "Я слушаю музыку каждый день. Мне нравятся пианино и барабаны.",
+          "explain_ru": "Listen to music — слушать музыку (буква t в слове listen не читается).",
+          "audio": "en/2-24/sp-01.mp3"
+        },
+        {
+          "id": "en-2-24-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Моя музыка (2/2): расскажите о любимой группе и её новом альбоме:",
+          "target_text": "My favorite band is famous. They have a new album.",
+          "translation_ru": "Моя любимая группа знаменита. У них новый альбом.",
+          "explain_ru": "Band — музыкальная группа; album — альбом.",
+          "audio": "en/2-24/sp-02.mp3"
+        },
+        {
+          "id": "en-2-24-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у этой песни красивые слова:",
+          "target_text": "This song has beautiful lyrics.",
+          "translation_ru": "У этой песни красивые слова.",
+          "explain_ru": "Song — песня; lyrics — слова (текст) песни.",
+          "audio": "en/2-24/sp-03.mp3"
+        },
+        {
+          "id": "en-2-24-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у певца сильный голос:",
+          "target_text": "The singer has a strong voice.",
+          "translation_ru": "У певца сильный голос.",
+          "explain_ru": "Singer — певец, певица; voice — голос.",
+          "audio": "en/2-24/sp-04.mp3"
+        },
+        {
+          "id": "en-2-24-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что в пятницу вечером вы идёте на концерт:",
+          "target_text": "We go to a concert on Friday evening.",
+          "translation_ru": "В пятницу вечером мы идём на концерт.",
+          "explain_ru": "Concert — концерт; on Friday evening — в пятницу вечером.",
+          "audio": "en/2-24/sp-05.mp3"
+        },
+        {
+          "id": "en-2-24-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Сравните громкость барабанов и пианино:",
+          "target_text": "The drums are loud, but the piano is quiet.",
+          "translation_ru": "Барабаны громкие, а пианино тихое.",
+          "explain_ru": "Loud — громкий, quiet — тихий; drums во множественном числе (are).",
+          "audio": "en/2-24/sp-06.mp3"
+        },
+        {
+          "id": "en-2-24-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы слушаете этот альбом каждое утро:",
+          "target_text": "I listen to this album every morning.",
+          "translation_ru": "Я слушаю этот альбом каждое утро.",
+          "explain_ru": "После listen всегда используется предлог to: listen to this album.",
+          "audio": "en/2-24/sp-07.mp3"
+        },
+        {
+          "id": "en-2-24-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что она читает слова песни и поёт:",
+          "target_text": "She reads the lyrics and sings the song.",
+          "translation_ru": "Она читает слова песни и поёт песню.",
+          "explain_ru": "Lyrics — слова песни; с she глаголы получают окончание -s.",
+          "audio": "en/2-24/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-24-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Концерт (1/2): прослушайте запись и ответьте, когда концерт:",
+          "transcript": "The singer has a beautiful voice. The concert is on Friday. The band plays loud songs.",
+          "options": ["в пятницу", "в понедельник", "в среду", "в субботу"],
+          "correct_index": 0,
+          "explain_ru": "The concert is on Friday — Концерт в пятницу.",
+          "audio": "en/2-24/ls-01.mp3"
+        },
+        {
+          "id": "en-2-24-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Концерт (2/2): какие песни играет группа?",
+          "transcript": "The singer has a beautiful voice. The concert is on Friday. The band plays loud songs.",
+          "options": ["громкие", "тихие", "короткие", "грустные"],
+          "correct_index": 0,
+          "explain_ru": "The band plays loud songs — Группа играет громкие песни.",
+          "audio": "en/2-24/ls-02.mp3"
+        },
+        {
+          "id": "en-2-24-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "На каком инструменте играет сестра говорящего?",
+          "transcript": "My sister plays the piano every afternoon. Her music is quiet and nice.",
+          "options": ["на пианино", "на барабанах", "на гитаре", "ни на каком"],
+          "correct_index": 0,
+          "explain_ru": "Plays the piano — играет на пианино.",
+          "audio": "en/2-24/ls-03.mp3"
+        },
+        {
+          "id": "en-2-24-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "На чём Том играет в маленькой группе?",
+          "transcript": "Tom plays the drums in a small band.",
+          "options": ["на барабанах", "на пианино", "он поёт", "он менеджер"],
+          "correct_index": 0,
+          "explain_ru": "Plays the drums in a small band — играет на барабанах в маленькой группе.",
+          "audio": "en/2-24/ls-04.mp3"
+        },
+        {
+          "id": "en-2-24-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какие слова песен на новом альбоме?",
+          "transcript": "I really like this new album. The lyrics are romantic.",
+          "options": ["романтичные", "громкие", "смешные", "старые"],
+          "correct_index": 0,
+          "explain_ru": "The lyrics are romantic — Слова песен романтичные.",
+          "audio": "en/2-24/ls-05.mp3"
+        },
+        {
+          "id": "en-2-24-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где сегодня вечером выступает знаменитый певец?",
+          "transcript": "The famous singer has a big concert at the stadium tonight.",
+          "options": ["на стадионе", "в театре", "в парке", "в ресторане"],
+          "correct_index": 0,
+          "explain_ru": "A big concert at the stadium — большой концерт на стадионе.",
+          "audio": "en/2-24/ls-06.mp3"
+        },
+        {
+          "id": "en-2-24-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой голос в этой песне?",
+          "transcript": "Please listen to this song. The voice is very loud.",
+          "options": ["очень громкий", "очень тихий", "спокойный", "детский"],
+          "correct_index": 0,
+          "explain_ru": "The voice is very loud — Голос очень громкий.",
+          "audio": "en/2-24/ls-07.mp3"
+        },
+        {
+          "id": "en-2-24-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I listen to music.",
+          "accepted": ["I listen to music."],
+          "explain_ru": "I listen to music — Я слушаю музыку.",
+          "audio": "en/2-24/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-24-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Антоним: напишите противоположное по смыслу слово к loud (громкий):",
+          "source_text": "loud ↔ ___ (тихий)",
+          "accepted": ["quiet"],
+          "explain_ru": "Loud (громкий) ↔ quiet (тихий).",
+          "audio": null
+        },
+        {
+          "id": "en-2-24-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Я слушаю музыку»:",
+          "source_text": "Я слушаю музыку.",
+          "bank": ["listen", "I", "to", "music"],
+          "accepted": ["I listen to music"],
+          "explain_ru": "Listen to music — слушать музыку.",
+          "audio": null
+        },
+        {
+          "id": "en-2-24-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: в фразе пропущен обязательный предлог — напишите верный вариант:",
+          "buggy_text": "I listen music.",
+          "accepted": ["I listen to music."],
+          "explain_ru": "Глагол listen требует предлога to перед дополнением: I listen to music.",
+          "audio": null
+        },
+        {
+          "id": "en-2-24-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините музыкальные слова с переводом:",
+          "pairs": [
+            { "left": "song", "right": "песня" },
+            { "left": "singer", "right": "певец" },
+            { "left": "band", "right": "группа" },
+            { "left": "concert", "right": "концерт" }
+          ],
+          "explain_ru": "Song — песня, singer — певец, band — группа, concert — концерт.",
+          "audio": null
+        },
+        {
+          "id": "en-2-24-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините инструменты и слова о музыке с переводом:",
+          "pairs": [
+            { "left": "piano", "right": "пианино" },
+            { "left": "drums", "right": "барабаны" },
+            { "left": "voice", "right": "голос" },
+            { "left": "lyrics", "right": "слова песни" }
+          ],
+          "explain_ru": "Piano — пианино, drums — барабаны, voice — голос, lyrics — слова песни.",
+          "audio": null
+        },
+        {
+          "id": "en-2-24-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «У неё новый альбом»:",
+          "source_text": "У неё новый альбом.",
+          "bank": ["a", "new", "has", "she", "album"],
+          "accepted": ["She has a new album"],
+          "explain_ru": "She has a new album — У неё новый альбом.",
+          "audio": null
+        },
+        {
+          "id": "en-2-24-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "He play the piano every day.",
+          "accepted": ["He plays the piano every day."],
+          "explain_ru": "После he к глаголу добавляется окончание -s: He plays the piano every day.",
+          "audio": null
+        },
+        {
+          "id": "en-2-24-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Допишите пропущенное слово «голос» по-английски:",
+          "source_text": "She has a beautiful ___. (голос)",
+          "accepted": ["voice"],
+          "explain_ru": "Voice — голос.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-24-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Новый альбом: прочитайте текст и ответьте на вопросы:",
+          "passage": "Anna has a new album. The songs are quiet, and her voice is beautiful. She has a concert in May. Tickets are cheap.",
+          "questions": [
+            {
+              "question_ru": "Какие песни на новом альбоме Анны?",
+              "options": ["тихие", "громкие", "быстрые", "длинные"],
+              "correct_index": 0,
+              "accepted": ["тихие", "quiet"]
+            },
+            {
+              "question_ru": "Какие билеты на концерт?",
+              "options": ["дешёвые", "дорогие", "бесплатные", "распроданные"],
+              "correct_index": 0,
+              "accepted": ["дешёвые", "cheap"]
+            }
+          ],
+          "explain_ru": "The songs are quiet — Песни тихие; Tickets are cheap — Билеты дешёвые.",
+          "audio": null
+        },
+        {
+          "id": "en-2-24-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «singer»:",
+          "question_text": "singer",
+          "options": ["певец", "группа", "болельщик", "игрок"],
+          "correct_index": 0,
+          "explain_ru": "Singer — певец, певица.",
+          "audio": null
+        },
+        {
+          "id": "en-2-24-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «band»:",
+          "question_text": "band",
+          "options": ["группа", "концерт", "альбом", "песня"],
+          "correct_index": 0,
+          "explain_ru": "Band — музыкальная группа.",
+          "audio": null
+        },
+        {
+          "id": "en-2-24-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «drums»:",
+          "question_text": "drums",
+          "options": ["барабаны", "пианино", "голос", "слова песни"],
+          "correct_index": 0,
+          "explain_ru": "Drums — барабаны.",
+          "audio": null
+        },
+        {
+          "id": "en-2-24-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «loud»:",
+          "question_text": "loud",
+          "options": ["громкий", "тихий", "сильный", "дикий"],
+          "correct_index": 0,
+          "explain_ru": "Loud — громкий.",
+          "audio": null
+        },
+        {
+          "id": "en-2-24-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «album»:",
+          "question_text": "album",
+          "options": ["альбом", "концерт", "песня", "билет"],
+          "correct_index": 0,
+          "explain_ru": "Album — альбом.",
+          "audio": null
+        },
+        {
+          "id": "en-2-24-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «lyrics»:",
+          "question_text": "lyrics",
+          "options": ["слова песни", "голос", "музыка", "барабаны"],
+          "correct_index": 0,
+          "explain_ru": "Lyrics — слова (текст) песни.",
+          "audio": null
+        },
+        {
+          "id": "en-2-24-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий текст о Максе и ответьте на вопрос:",
+          "passage": "Max is a big fan of music. Every evening he listens to his favorite band. He likes the loud drums and the quiet piano. He reads the lyrics of every song.",
+          "questions": [
+            {
+              "question_ru": "Когда Макс слушает свою любимую группу?",
+              "options": [
+                "каждый вечер",
+                "каждое утро",
+                "только по пятницам",
+                "после обеда"
+              ],
+              "correct_index": 0,
+              "accepted": ["каждый вечер", "every evening"]
+            }
+          ],
+          "explain_ru": "Every evening he listens to his favorite band — Каждый вечер он слушает любимую группу.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

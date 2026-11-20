@@ -83,16 +83,393 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-7-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Моя поездка (1/2): расскажите про поездку на поезде (take the train — «ехать на поезде», hours — «часа»):",
+          "target_text": "I take the train to the city. The trip is two hours.",
+          "translation_ru": "Я еду на поезде в город. Поездка занимает два часа.",
+          "explain_ru": "Train — поезд, trip — поездка.",
+          "audio": "en/2-7/sp-01.mp3"
+        },
+        {
+          "id": "en-2-7-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Моя поездка (2/2): скажите, когда вы прибываете и что у вас с собой:",
+          "target_text": "I arrive at six. I have my passport and a map.",
+          "translation_ru": "Я прибываю в шесть. У меня есть паспорт и карта.",
+          "explain_ru": "Arrive — прибывать, passport — паспорт, map — карта.",
+          "audio": "en/2-7/sp-02.mp3"
+        },
+        {
+          "id": "en-2-7-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вам нужно такси в аэропорт:",
+          "target_text": "I need a taxi to the airport.",
+          "translation_ru": "Мне нужно такси в аэропорт.",
+          "explain_ru": "Taxi — такси, airport — аэропорт.",
+          "audio": "en/2-7/sp-03.mp3"
+        },
+        {
+          "id": "en-2-7-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, где ваш багаж и билет:",
+          "target_text": "Here is my ticket and my luggage.",
+          "translation_ru": "Вот мой билет и мой багаж.",
+          "explain_ru": "Ticket — билет, luggage — багаж (неисчисляемое слово, без -s).",
+          "audio": "en/2-7/sp-04.mp3"
+        },
+        {
+          "id": "en-2-7-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, когда уезжает автобус:",
+          "target_text": "We leave at eight o'clock by bus.",
+          "translation_ru": "Мы уезжаем в восемь часов на автобусе.",
+          "explain_ru": "Leave — уезжать / отправляться; by bus — на автобусе.",
+          "audio": "en/2-7/sp-05.mp3"
+        },
+        {
+          "id": "en-2-7-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Представьтесь как турист и попросите карту:",
+          "target_text": "Excuse me, I am a tourist. I need a map.",
+          "translation_ru": "Простите, я турист. Мне нужна карта.",
+          "explain_ru": "Tourist — турист, map — карта.",
+          "audio": "en/2-7/sp-06.mp3"
+        },
+        {
+          "id": "en-2-7-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что поезд прибывает рано:",
+          "target_text": "The train arrives early in the morning.",
+          "translation_ru": "Поезд прибывает рано утром.",
+          "explain_ru": "С the train глагол arrive получает -s: arrives.",
+          "audio": "en/2-7/sp-07.mp3"
+        },
+        {
+          "id": "en-2-7-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, когда отправляется автобус в аэропорт:",
+          "target_text": "Excuse me, when does the bus leave for the airport?",
+          "translation_ru": "Простите, когда отправляется автобус в аэропорт?",
+          "explain_ru": "When — «когда»; в вопросе с does глагол leave без -s.",
+          "audio": "en/2-7/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-7-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Расписание (1/2): прослушайте скрипт и ответьте, когда отправляется автобус:",
+          "transcript": "The bus leaves at eight. The train arrives at ten. I have the tickets.",
+          "options": ["в 8", "в 10", "в 7", "в 9"],
+          "correct_index": 0,
+          "explain_ru": "The bus leaves at eight — Автобус отправляется в 8.",
+          "audio": "en/2-7/ls-01.mp3"
+        },
+        {
+          "id": "en-2-7-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Расписание (2/2): когда прибывает поезд?",
+          "transcript": "The bus leaves at eight. The train arrives at ten. I have the tickets.",
+          "options": ["в 10", "в 8", "в 6", "в 11"],
+          "correct_index": 0,
+          "explain_ru": "The train arrives at ten — Поезд прибывает в 10.",
+          "audio": "en/2-7/ls-02.mp3"
+        },
+        {
+          "id": "en-2-7-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что забыла или потеряла Анна (where — «где»)?",
+          "transcript": "Anna is at the airport. She has her ticket, but where is her luggage?",
+          "options": ["багаж", "паспорт", "билет", "карту"],
+          "correct_index": 0,
+          "explain_ru": "Luggage — багаж.",
+          "audio": "en/2-7/ls-03.mp3"
+        },
+        {
+          "id": "en-2-7-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Куда едет Том на такси?",
+          "transcript": "Tom takes a taxi to the airport early in the morning.",
+          "options": ["в аэропорт", "в парк", "в офис", "в ресторан"],
+          "correct_index": 0,
+          "explain_ru": "To the airport — в аэропорт.",
+          "audio": "en/2-7/ls-04.mp3"
+        },
+        {
+          "id": "en-2-7-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Откуда приехал турист?",
+          "transcript": "This tourist is from Germany. He has a map of the city.",
+          "options": ["из Германии", "из Турции", "из Англии", "из России"],
+          "correct_index": 0,
+          "explain_ru": "This tourist is from Germany — Этот турист из Германии.",
+          "audio": "en/2-7/ls-05.mp3"
+        },
+        {
+          "id": "en-2-7-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что нужно показать перед поездкой?",
+          "transcript": "Excuse me, could you show your passport and ticket, please?",
+          "options": [
+            "паспорт и билет",
+            "карту и багаж",
+            "только карту",
+            "только багаж"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Passport and ticket — паспорт и билет (show — «показать»).",
+          "audio": "en/2-7/ls-06.mp3"
+        },
+        {
+          "id": "en-2-7-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Куда едут друзья на этой неделе?",
+          "transcript": "We have a trip to Turkey this week. We are very happy!",
+          "options": ["в Турцию", "в Казахстан", "в Англию", "в США"],
+          "correct_index": 0,
+          "explain_ru": "A trip to Turkey — поездка в Турцию.",
+          "audio": "en/2-7/ls-07.mp3"
+        },
+        {
+          "id": "en-2-7-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I have my passport.",
+          "accepted": ["I have my passport."],
+          "explain_ru": "I have my passport — У меня есть мой паспорт.",
+          "audio": "en/2-7/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-7-wr-01",
+          "type": "odd_one_out",
+          "origin": "source",
+          "prompt_ru": "Найди лишнее слово (не транспорт):",
+          "items": ["bus", "train", "taxi", "ticket"],
+          "odd_index": 3,
+          "explain_ru": "Ticket («билет») — не вид транспорта, в отличие от bus, train и taxi.",
+          "audio": null
+        },
+        {
+          "id": "en-2-7-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Поезд отправляется в девять»:",
+          "source_text": "Поезд отправляется в девять.",
+          "bank": ["leaves", "the", "train", "at", "nine"],
+          "accepted": ["The train leaves at nine"],
+          "explain_ru": "The train leaves at nine — Поезд отправляется в девять.",
+          "audio": null
+        },
+        {
+          "id": "en-2-7-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в предложении «Автобус прибывает в семь»:",
+          "buggy_text": "The bus arrive at seven.",
+          "accepted": ["The bus arrives at seven."],
+          "explain_ru": "С существительным в единственном числе (the bus) нужен глагол с -s: arrives.",
+          "audio": null
+        },
+        {
+          "id": "en-2-7-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "trip", "right": "поездка" },
+            { "left": "luggage", "right": "багаж" },
+            { "left": "airport", "right": "аэропорт" },
+            { "left": "tourist", "right": "турист" }
+          ],
+          "explain_ru": "Trip — поездка, luggage — багаж, airport — аэропорт, tourist — турист.",
+          "audio": null
+        },
+        {
+          "id": "en-2-7-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "arrive", "right": "прибывать" },
+            { "left": "leave", "right": "уезжать" },
+            { "left": "map", "right": "карта" },
+            { "left": "passport", "right": "паспорт" }
+          ],
+          "explain_ru": "Arrive — прибывать, leave — уезжать, map — карта, passport — паспорт.",
+          "audio": null
+        },
+        {
+          "id": "en-2-7-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Мне нужно такси»:",
+          "source_text": "Мне нужно такси.",
+          "bank": ["a", "need", "taxi", "I"],
+          "accepted": ["I need a taxi"],
+          "explain_ru": "I need a taxi — Мне нужно такси.",
+          "audio": null
+        },
+        {
+          "id": "en-2-7-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении «Поезд уезжает в восемь»:",
+          "buggy_text": "The train leave at eight.",
+          "accepted": ["The train leaves at eight."],
+          "explain_ru": "С the train (ед. ч.) глагол получает -s: leaves.",
+          "audio": null
+        },
+        {
+          "id": "en-2-7-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «билет» на английский:",
+          "source_text": "билет",
+          "accepted": ["ticket"],
+          "explain_ru": "Ticket — билет.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-7-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "В аэропорту: прочитайте текст (bag — «сумка», hotel — «отель») и ответьте на вопросы:",
+          "passage": "A tourist is at the airport. He has a passport and one big bag. He needs a taxi to the hotel.",
+          "questions": [
+            {
+              "question_ru": "Что есть у туриста?",
+              "options": [
+                "паспорт и большая сумка",
+                "карта и билет",
+                "два билета на поезд",
+                "автобус и такси"
+              ],
+              "correct_index": 0,
+              "accepted": ["паспорт и большая сумка", "passport and one big bag"]
+            },
+            {
+              "question_ru": "Что ему нужно?",
+              "options": ["такси", "автобус", "поезд", "карта"],
+              "correct_index": 0,
+              "accepted": ["такси", "taxi", "a taxi"]
+            }
+          ],
+          "explain_ru": "He has a passport and one big bag — У него паспорт и одна большая сумка; He needs a taxi — Ему нужно такси.",
+          "audio": null
+        },
+        {
+          "id": "en-2-7-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «luggage»:",
+          "question_text": "luggage",
+          "options": ["багаж", "билет", "поездка", "карта"],
+          "correct_index": 0,
+          "explain_ru": "Luggage — багаж.",
+          "audio": null
+        },
+        {
+          "id": "en-2-7-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «arrive»:",
+          "question_text": "arrive",
+          "options": ["прибывать", "уезжать", "начинать", "просыпаться"],
+          "correct_index": 0,
+          "explain_ru": "Arrive — прибывать (антоним — leave).",
+          "audio": null
+        },
+        {
+          "id": "en-2-7-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «leave»:",
+          "question_text": "leave",
+          "options": ["уезжать", "прибывать", "понимать", "носить"],
+          "correct_index": 0,
+          "explain_ru": "Leave — уезжать, отправляться.",
+          "audio": null
+        },
+        {
+          "id": "en-2-7-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «trip»:",
+          "question_text": "trip",
+          "options": ["поездка", "поезд", "аэропорт", "турист"],
+          "correct_index": 0,
+          "explain_ru": "Trip — поездка, путешествие.",
+          "audio": null
+        },
+        {
+          "id": "en-2-7-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «bus»:",
+          "question_text": "bus",
+          "options": ["автобус", "поезд", "такси", "билет"],
+          "correct_index": 0,
+          "explain_ru": "Bus — автобус.",
+          "audio": null
+        },
+        {
+          "id": "en-2-7-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «tourist»:",
+          "question_text": "tourist",
+          "options": ["турист", "сосед", "коллега", "студент"],
+          "correct_index": 0,
+          "explain_ru": "Tourist — турист.",
+          "audio": null
+        },
+        {
+          "id": "en-2-7-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткое объявление и ответьте на вопрос:",
+          "passage": "Train to London: leaves at 8 o'clock, arrives at 11 o'clock. Please have your ticket and passport.",
+          "questions": [
+            {
+              "question_ru": "Во сколько поезд прибывает в Лондон?",
+              "options": ["в 11 часов", "в 8 часов", "в 9 часов", "в 10 часов"],
+              "correct_index": 0,
+              "accepted": ["в 11 часов", "at 11", "11"]
+            }
+          ],
+          "explain_ru": "Arrives at 11 o'clock — прибывает в 11 часов.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

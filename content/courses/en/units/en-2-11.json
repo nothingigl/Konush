@@ -83,16 +83,399 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-11-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Приглашение: пригласите собеседника на ужин и подарите цветы:",
+          "target_text": "Would you like to have dinner with me tonight? You look beautiful. These flowers are for you.",
+          "translation_ru": "Хочешь поужинать со мной сегодня вечером? Ты выглядишь прекрасно. Эти цветы для тебя.",
+          "explain_ru": "Would you like to...? — вежливое приглашение; tonight — сегодня вечером.",
+          "audio": "en/2-11/sp-01.mp3"
+        },
+        {
+          "id": "en-2-11-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас сегодня вечером свидание:",
+          "target_text": "I have a date tonight. I am nervous, but I am happy.",
+          "translation_ru": "У меня сегодня вечером свидание. Я нервничаю, но я счастлив.",
+          "explain_ru": "Have a date — быть на свидании / иметь свидание; nervous — нервничающий.",
+          "audio": "en/2-11/sp-02.mp3"
+        },
+        {
+          "id": "en-2-11-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что это романтичный ресторан со свечой:",
+          "target_text": "This is a romantic restaurant. There is a candle on the table.",
+          "translation_ru": "Это романтичный ресторан. На столе стоит свеча.",
+          "explain_ru": "Romantic — романтичный; candle — свеча.",
+          "audio": "en/2-11/sp-03.mp3"
+        },
+        {
+          "id": "en-2-11-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Пригласите на прогулку в парк:",
+          "target_text": "I invite you for a walk in the park.",
+          "translation_ru": "Я приглашаю тебя на прогулку в парк.",
+          "explain_ru": "Invite — приглашать; a walk — прогулка (существительное).",
+          "audio": "en/2-11/sp-04.mp3"
+        },
+        {
+          "id": "en-2-11-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Сделайте комплимент улыбке:",
+          "target_text": "You have a beautiful smile.",
+          "translation_ru": "У тебя красивая улыбка.",
+          "explain_ru": "Smile может быть и глаголом (улыбаться), и существительным (улыбка).",
+          "audio": "en/2-11/sp-05.mp3"
+        },
+        {
+          "id": "en-2-11-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Поблагодарите за комплимент:",
+          "target_text": "Thank you for the nice compliment.",
+          "translation_ru": "Спасибо за приятный комплимент.",
+          "explain_ru": "Thank you for... — спасибо за...; compliment — комплимент.",
+          "audio": "en/2-11/sp-06.mp3"
+        },
+        {
+          "id": "en-2-11-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас есть небольшой подарок:",
+          "target_text": "I have a small gift for you.",
+          "translation_ru": "У меня есть для тебя небольшой подарок.",
+          "explain_ru": "Gift — подарок.",
+          "audio": "en/2-11/sp-07.mp3"
+        },
+        {
+          "id": "en-2-11-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что прогулка сегодня вечером очень романтичная:",
+          "target_text": "Our walk tonight is very romantic.",
+          "translation_ru": "Наша прогулка сегодня вечером очень романтичная.",
+          "explain_ru": "Walk — прогулка; tonight — сегодня вечером.",
+          "audio": "en/2-11/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-11-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Ужин (1/2): прослушайте скрипт («brings» — приносит) и ответьте, кого пригласил Том:",
+          "transcript": "Tom invites Anna to dinner. He brings flowers. She smiles. They are beautiful, she says.",
+          "options": ["Анну", "Сару", "Кейт", "Эмму"],
+          "correct_index": 0,
+          "explain_ru": "Tom invites Anna to dinner — Том приглашает Анну на ужин.",
+          "audio": "en/2-11/ls-01.mp3"
+        },
+        {
+          "id": "en-2-11-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Ужин (2/2): что принёс Том?",
+          "transcript": "Tom invites Anna to dinner. He brings flowers. She smiles. They are beautiful, she says.",
+          "options": ["цветы", "торт", "книгу", "кофе"],
+          "correct_index": 0,
+          "explain_ru": "He brings flowers — Он приносит цветы.",
+          "audio": "en/2-11/ls-02.mp3"
+        },
+        {
+          "id": "en-2-11-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как себя чувствует Алекс перед свиданием?",
+          "transcript": "Alex has a date tonight. He is nervous, so he takes a walk in the park.",
+          "options": ["он нервничает", "он голоден", "он устал от работы", "он опаздывает на поезд"],
+          "correct_index": 0,
+          "explain_ru": "He is nervous — Он нервничает.",
+          "audio": "en/2-11/ls-03.mp3"
+        },
+        {
+          "id": "en-2-11-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что есть на столе в ресторане?",
+          "transcript": "The dinner is romantic. There is a red candle and a small gift on the table.",
+          "options": [
+            "красная свеча и маленький подарок",
+            "суп и салат",
+            "меню и счёт",
+            "тетрадь и книга"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A red candle and a small gift — красная свеча и маленький подарок.",
+          "audio": "en/2-11/ls-04.mp3"
+        },
+        {
+          "id": "en-2-11-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему девушка улыбается?",
+          "transcript": "He gives her a nice compliment. She smiles and says thank you.",
+          "options": [
+            "он сделал ей приятный комплимент",
+            "она сдала экзамен",
+            "она нашла свой ключ",
+            "она приехала в отель"
+          ],
+          "correct_index": 0,
+          "explain_ru": "He gives her a nice compliment — Он делает ей приятный комплимент.",
+          "audio": "en/2-11/ls-05.mp3"
+        },
+        {
+          "id": "en-2-11-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Куда пара идёт после ужина?",
+          "transcript": "After dinner they go for a walk in the quiet park.",
+          "options": ["на прогулку в тихий парк", "в библиотеку", "в аэропорт", "в магазин одежды"],
+          "correct_index": 0,
+          "explain_ru": "Go for a walk in the quiet park — идти на прогулку в тихий парк.",
+          "audio": "en/2-11/ls-06.mp3"
+        },
+        {
+          "id": "en-2-11-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Когда свидание у Сары?",
+          "transcript": "Sara wears a beautiful dress. Her romantic date is tonight at seven.",
+          "options": ["сегодня вечером в семь", "утром в девять", "днём в два", "в понедельник утром"],
+          "correct_index": 0,
+          "explain_ru": "Tonight at seven — сегодня вечером в семь.",
+          "audio": "en/2-11/ls-07.mp3"
+        },
+        {
+          "id": "en-2-11-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "You look beautiful tonight.",
+          "accepted": ["You look beautiful tonight."],
+          "explain_ru": "You look beautiful tonight — Ты выглядишь прекрасно сегодня вечером.",
+          "audio": "en/2-11/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-11-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Я приглашаю тебя на ужин»:",
+          "source_text": "Я приглашаю тебя на ужин.",
+          "bank": ["invite", "you", "I", "dinner", "to"],
+          "accepted": ["I invite you to dinner"],
+          "explain_ru": "Invite someone to dinner — приглашать кого-либо на ужин.",
+          "audio": null
+        },
+        {
+          "id": "en-2-11-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите и исправьте ошибку в комплименте:",
+          "buggy_text": "You looks beautiful.",
+          "accepted": ["You look beautiful."],
+          "explain_ru": "С you глагол употребляется без окончания -s: You look beautiful.",
+          "audio": null
+        },
+        {
+          "id": "en-2-11-wr-03",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Соберите комплимент со словами beautiful и smile («У тебя красивая улыбка»):",
+          "source_text": "У тебя красивая улыбка.",
+          "bank": ["have", "you", "beautiful", "a", "smile"],
+          "accepted": ["You have a beautiful smile"],
+          "explain_ru": "You have a beautiful smile — естественный комплимент по-английски.",
+          "audio": null
+        },
+        {
+          "id": "en-2-11-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "date", "right": "свидание" },
+            { "left": "flowers", "right": "цветы" },
+            { "left": "gift", "right": "подарок" },
+            { "left": "candle", "right": "свеча" }
+          ],
+          "explain_ru": "Date — свидание, flowers — цветы, gift — подарок, candle — свеча.",
+          "audio": null
+        },
+        {
+          "id": "en-2-11-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "romantic", "right": "романтичный" },
+            { "left": "nervous", "right": "нервничающий" },
+            { "left": "compliment", "right": "комплимент" },
+            { "left": "tonight", "right": "сегодня вечером" }
+          ],
+          "explain_ru": "Romantic — романтичный, nervous — нервничающий, compliment — комплимент, tonight — сегодня вечером.",
+          "audio": null
+        },
+        {
+          "id": "en-2-11-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "He invite Anna to a walk.",
+          "accepted": ["He invites Anna to a walk."],
+          "explain_ru": "После he к глаголу добавляется -s: He invites Anna.",
+          "audio": null
+        },
+        {
+          "id": "en-2-11-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Эти цветы для тебя»:",
+          "source_text": "Эти цветы для тебя.",
+          "bank": ["flowers", "for", "these", "you", "are"],
+          "accepted": ["These flowers are for you"],
+          "explain_ru": "These flowers are for you — Эти цветы для тебя.",
+          "audio": null
+        },
+        {
+          "id": "en-2-11-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «свидание» по-английски:",
+          "source_text": "свидание",
+          "accepted": ["date"],
+          "explain_ru": "Date — свидание.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-11-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Ресторан: прочитайте текст («gives» — даёт) и ответьте на вопросы:",
+          "passage": "The restaurant is romantic. There are candles on the table. Tom is nervous, but he smiles. He gives Anna a small gift.",
+          "questions": [
+            {
+              "question_ru": "Что на столе?",
+              "options": ["свечи", "книги", "тетради", "ключи"],
+              "correct_index": 0,
+              "accepted": ["свечи", "candles"]
+            },
+            {
+              "question_ru": "Что даёт Том?",
+              "options": ["маленький подарок", "карту города", "билет на поезд", "полотенце"],
+              "correct_index": 0,
+              "accepted": ["маленький подарок", "подарок", "a small gift", "gift"]
+            }
+          ],
+          "explain_ru": "There are candles on the table — На столе свечи; He gives Anna a small gift — Он даёт Анне маленький подарок.",
+          "audio": null
+        },
+        {
+          "id": "en-2-11-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «invite»:",
+          "question_text": "invite",
+          "options": ["приглашать", "улыбаться", "нервничать", "готовить"],
+          "correct_index": 0,
+          "explain_ru": "Invite — приглашать.",
+          "audio": null
+        },
+        {
+          "id": "en-2-11-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «nervous»:",
+          "question_text": "nervous",
+          "options": ["нервничающий", "счастливый", "голодный", "красивый"],
+          "correct_index": 0,
+          "explain_ru": "Nervous — нервничающий.",
+          "audio": null
+        },
+        {
+          "id": "en-2-11-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «compliment»:",
+          "question_text": "compliment",
+          "options": ["комплимент", "свидание", "подарок", "прогулка"],
+          "correct_index": 0,
+          "explain_ru": "Compliment — комплимент.",
+          "audio": null
+        },
+        {
+          "id": "en-2-11-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «candle»:",
+          "question_text": "candle",
+          "options": ["свеча", "цветы", "подарок", "улыбка"],
+          "correct_index": 0,
+          "explain_ru": "Candle — свеча.",
+          "audio": null
+        },
+        {
+          "id": "en-2-11-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «tonight»:",
+          "question_text": "tonight",
+          "options": ["сегодня вечером", "завтра утром", "каждый день", "поздно ночью"],
+          "correct_index": 0,
+          "explain_ru": "Tonight — сегодня вечером.",
+          "audio": null
+        },
+        {
+          "id": "en-2-11-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «gift»:",
+          "question_text": "gift",
+          "options": ["подарок", "свеча", "прогулка", "цветы"],
+          "correct_index": 0,
+          "explain_ru": "Gift — подарок.",
+          "audio": null
+        },
+        {
+          "id": "en-2-11-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткую историю о свидании и ответьте на вопрос:",
+          "passage": "Tonight Max and Kate have their first date. Max brings flowers and gives Kate a nice compliment. After dinner they take a walk near the bridge.",
+          "questions": [
+            {
+              "question_ru": "Что Макс и Кейт делают после ужина?",
+              "options": [
+                "идут на прогулку рядом с мостом",
+                "идут в университет",
+                "едут в аэропорт",
+                "смотрят фильм дома"
+              ],
+              "correct_index": 0,
+              "accepted": ["идут на прогулку рядом с мостом", "идут на прогулку"]
+            }
+          ],
+          "explain_ru": "Take a walk near the bridge — идут на прогулку рядом с мостом.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

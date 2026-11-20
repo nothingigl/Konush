@@ -83,16 +83,408 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-2-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "О себе (1/2): расскажите о своей жизни и свободном времени:",
+          "target_text": "I am single. I live alone. I am busy, but I am happy. In my free time I read.",
+          "translation_ru": "Я не женат / не замужем. Я живу один / одна. Я занят(а), но счастлив(а). В свободное время я читаю.",
+          "explain_ru": "Live alone — жить одному; in my free time — в моё свободное время.",
+          "audio": "en/2-2/sp-01.mp3"
+        },
+        {
+          "id": "en-2-2-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "О себе (2/2): расскажите про женатого друга:",
+          "target_text": "He is married. He lives with his wife.",
+          "translation_ru": "Он женат. Он живёт со своей женой.",
+          "explain_ru": "Married — женат / замужем; with — «с».",
+          "audio": "en/2-2/sp-02.mp3"
+        },
+        {
+          "id": "en-2-2-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про своего парня:",
+          "target_text": "My boyfriend is very nice and happy.",
+          "translation_ru": "Мой парень очень приятный и счастливый.",
+          "explain_ru": "Boyfriend — парень (молодой человек).",
+          "audio": "en/2-2/sp-03.mp3"
+        },
+        {
+          "id": "en-2-2-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про девушку и совместные прогулки:",
+          "target_text": "My girlfriend and I walk in the park together.",
+          "translation_ru": "Моя девушка и я гуляем в парке вместе.",
+          "explain_ru": "Girlfriend — девушка, together — вместе.",
+          "audio": "en/2-2/sp-04.mp3"
+        },
+        {
+          "id": "en-2-2-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, где вы родились:",
+          "target_text": "I was born in Kazakhstan.",
+          "translation_ru": "Я родился / родилась в Казахстане.",
+          "explain_ru": "I was born in... — устойчивая фраза «я родился в...».",
+          "audio": "en/2-2/sp-05.mp3"
+        },
+        {
+          "id": "en-2-2-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите про соседа по комнате:",
+          "target_text": "My roommate is a student. We cook dinner together.",
+          "translation_ru": "Мой сосед по комнате — студент. Мы готовим ужин вместе.",
+          "explain_ru": "Roommate — сосед / соседка по комнате.",
+          "audio": "en/2-2/sp-06.mp3"
+        },
+        {
+          "id": "en-2-2-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы и ваш друг одного возраста (same — «одинаковый»):",
+          "target_text": "My friend and I are the same age.",
+          "translation_ru": "Мой друг и я одного возраста.",
+          "explain_ru": "Age — возраст; the same age — одного возраста.",
+          "audio": "en/2-2/sp-07.mp3"
+        },
+        {
+          "id": "en-2-2-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, чем вы занимаетесь в свободное время:",
+          "target_text": "In my free time I swim and play football.",
+          "translation_ru": "В свободное время я плаваю и играю в футбол.",
+          "explain_ru": "Free time — свободное время.",
+          "audio": "en/2-2/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-2-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Сестры (1/2): прослушайте скрипт и ответьте, кто замужем:",
+          "transcript": "Sara is married. She lives with her husband. Her sister is single and lives with a roommate.",
+          "options": ["Сара", "сестра Сары", "обе сестры", "никто"],
+          "correct_index": 0,
+          "explain_ru": "Sara is married — Сара замужем.",
+          "audio": "en/2-2/ls-01.mp3"
+        },
+        {
+          "id": "en-2-2-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Сестры (2/2): с кем живёт сестра Сары?",
+          "transcript": "Sara is married. She lives with her husband. Her sister is single and lives with a roommate.",
+          "options": [
+            "с соседкой по комнате",
+            "с мужем",
+            "с родителями",
+            "одна"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Her sister is single and lives with a roommate — Её сестра не замужем и живёт с соседкой по комнате.",
+          "audio": "en/2-2/ls-02.mp3"
+        },
+        {
+          "id": "en-2-2-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "С кем живёт Том?",
+          "transcript": "Tom is not married. He has a girlfriend, and they live together.",
+          "options": ["со своей девушкой", "один", "с братом", "с коллегой"],
+          "correct_index": 0,
+          "explain_ru": "He has a girlfriend, and they live together — У него есть девушка, и они живут вместе.",
+          "audio": "en/2-2/ls-03.mp3"
+        },
+        {
+          "id": "en-2-2-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где родилась Анна?",
+          "transcript": "Anna was born in Germany, and now she lives in England.",
+          "options": ["в Германии", "в Англии", "в Турции", "в России"],
+          "correct_index": 0,
+          "explain_ru": "Anna was born in Germany — Анна родилась в Германии.",
+          "audio": "en/2-2/ls-04.mp3"
+        },
+        {
+          "id": "en-2-2-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что любит делать парень Кейт в свободное время?",
+          "transcript": "Kate has a boyfriend. In his free time he likes to cook and sing.",
+          "options": [
+            "готовить и петь",
+            "плавать и рисовать",
+            "играть в футбол",
+            "читать и гулять"
+          ],
+          "correct_index": 0,
+          "explain_ru": "In his free time he likes to cook and sing — В свободное время он любит готовить и петь.",
+          "audio": "en/2-2/ls-05.mp3"
+        },
+        {
+          "id": "en-2-2-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как живёт Али?",
+          "transcript": "Ali is busy every day, but he is happy. He does not live alone.",
+          "options": [
+            "он занятой, счастливый и живёт не один",
+            "он живёт один и не занят",
+            "он несчастлив и живёт один",
+            "он не работает и всегда свободен"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Busy — занятой, happy — счастливый, does not live alone — живёт не один.",
+          "audio": "en/2-2/ls-06.mp3"
+        },
+        {
+          "id": "en-2-2-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О чём спрашивает собеседник?",
+          "transcript": "What is your age? Are you twenty or thirty?",
+          "options": [
+            "о возрасте",
+            "о стране",
+            "о хобби",
+            "о семейном положении"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Age — возраст.",
+          "audio": "en/2-2/ls-07.mp3"
+        },
+        {
+          "id": "en-2-2-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "We are happy together.",
+          "accepted": ["We are happy together."],
+          "explain_ru": "We are happy together — Мы счастливы вместе.",
+          "audio": "en/2-2/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-2-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Я родился / родилась в России»:",
+          "source_text": "Я родился в России.",
+          "bank": ["born", "I", "was", "in", "Russia"],
+          "accepted": ["I was born in Russia"],
+          "explain_ru": "I was born in Russia — Я родился / родилась в России.",
+          "audio": null
+        },
+        {
+          "id": "en-2-2-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в предложении «Она живёт одна»:",
+          "buggy_text": "She live alone.",
+          "accepted": ["She lives alone."],
+          "explain_ru": "После she к глаголу в Present Simple добавляется окончание -s: She lives alone.",
+          "audio": null
+        },
+        {
+          "id": "en-2-2-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Найди пару (антоним): напишите противоположное слову single (не женат / не замужем):",
+          "source_text": "single ↔ ___",
+          "accepted": ["married"],
+          "explain_ru": "Single (не женат / не замужем) ↔ married (женат / замужем).",
+          "audio": null
+        },
+        {
+          "id": "en-2-2-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "boyfriend", "right": "парень" },
+            { "left": "girlfriend", "right": "девушка" },
+            { "left": "roommate", "right": "сосед по комнате" },
+            { "left": "live alone", "right": "жить одному" }
+          ],
+          "explain_ru": "Boyfriend — парень, girlfriend — девушка, roommate — сосед по комнате, live alone — жить одному.",
+          "audio": null
+        },
+        {
+          "id": "en-2-2-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "age", "right": "возраст" },
+            { "left": "busy", "right": "занятой" },
+            { "left": "happy", "right": "счастливый" },
+            { "left": "together", "right": "вместе" }
+          ],
+          "explain_ru": "Age — возраст, busy — занятой, happy — счастливый, together — вместе.",
+          "audio": null
+        },
+        {
+          "id": "en-2-2-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Я живу один»:",
+          "source_text": "Я живу один.",
+          "bank": ["alone", "I", "live"],
+          "accepted": ["I live alone"],
+          "explain_ru": "Live alone — жить одному.",
+          "audio": null
+        },
+        {
+          "id": "en-2-2-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "They is married.",
+          "accepted": ["They are married."],
+          "explain_ru": "С they используется форма are: They are married.",
+          "audio": null
+        },
+        {
+          "id": "en-2-2-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите на английский «свободное время»:",
+          "source_text": "свободное время",
+          "accepted": ["free time"],
+          "explain_ru": "Free time — свободное время.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-2-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Алекс: прочитайте текст и ответьте на вопросы:",
+          "passage": "Alex is 25 years old. He is single. He has a roommate. They are busy, but they are happy together.",
+          "questions": [
+            {
+              "question_ru": "Сколько Алексу лет?",
+              "options": ["25", "22", "30", "19"],
+              "correct_index": 0,
+              "accepted": ["25", "двадцать пять"]
+            },
+            {
+              "question_ru": "С кем живёт Алекс?",
+              "options": [
+                "с соседом по комнате",
+                "с женой",
+                "с родителями",
+                "один"
+              ],
+              "correct_index": 0,
+              "accepted": ["с соседом", "с соседом по комнате", "roommate"]
+            }
+          ],
+          "explain_ru": "Alex is 25 years old — Алексу 25 лет; He has a roommate — У него есть сосед по комнате.",
+          "audio": null
+        },
+        {
+          "id": "en-2-2-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «live alone»:",
+          "question_text": "live alone",
+          "options": ["жить одному", "жить вместе", "быть занятым", "быть счастливым"],
+          "correct_index": 0,
+          "explain_ru": "Live alone — жить одному.",
+          "audio": null
+        },
+        {
+          "id": "en-2-2-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «free time»:",
+          "question_text": "free time",
+          "options": ["свободное время", "возраст", "рабочий день", "хорошее время"],
+          "correct_index": 0,
+          "explain_ru": "Free time — свободное время.",
+          "audio": null
+        },
+        {
+          "id": "en-2-2-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «born»:",
+          "question_text": "born",
+          "options": ["рождённый", "занятой", "женатый", "счастливый"],
+          "correct_index": 0,
+          "explain_ru": "Born — рождённый (I was born in... — я родился в...).",
+          "audio": null
+        },
+        {
+          "id": "en-2-2-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «boyfriend»:",
+          "question_text": "boyfriend",
+          "options": ["парень", "девушка", "сосед по комнате", "брат"],
+          "correct_index": 0,
+          "explain_ru": "Boyfriend — парень.",
+          "audio": null
+        },
+        {
+          "id": "en-2-2-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «girlfriend»:",
+          "question_text": "girlfriend",
+          "options": ["девушка", "парень", "сестра", "жена"],
+          "correct_index": 0,
+          "explain_ru": "Girlfriend — девушка.",
+          "audio": null
+        },
+        {
+          "id": "en-2-2-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «age»:",
+          "question_text": "age",
+          "options": ["возраст", "имя", "фамилия", "страна"],
+          "correct_index": 0,
+          "explain_ru": "Age — возраст.",
+          "audio": null
+        },
+        {
+          "id": "en-2-2-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте анкету и ответьте на вопрос:",
+          "passage": "Name: Emma. Age: 24. Born in: Turkey. Status: married. Free time: dance and travel with her husband.",
+          "questions": [
+            {
+              "question_ru": "Где родилась Эмма?",
+              "options": ["в Турции", "в Англии", "в Германии", "в России"],
+              "correct_index": 0,
+              "accepted": ["в Турции", "Turkey"]
+            }
+          ],
+          "explain_ru": "Born in: Turkey — родилась в Турции.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

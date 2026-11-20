@@ -83,16 +83,421 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-5-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Что на мне? (1/2): опишите свою одежду (blue — «синий», black — «чёрный»):",
+          "target_text": "I wear jeans, a blue shirt and black shoes.",
+          "translation_ru": "Я ношу джинсы, синюю рубашку и чёрные туфли.",
+          "explain_ru": "Wear — носить (одежду); jeans и shoes употребляются без артикля a.",
+          "audio": "en/2-5/sp-01.mp3"
+        },
+        {
+          "id": "en-2-5-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Что на мне? (2/2): расскажите про тёплую одежду (cold — «холодно», so — «поэтому»):",
+          "target_text": "Today it is cold, so I wear a coat and a hat.",
+          "translation_ru": "Сегодня холодно, поэтому я ношу пальто и шапку.",
+          "explain_ru": "Coat — пальто, hat — шапка / шляпа.",
+          "audio": "en/2-5/sp-02.mp3"
+        },
+        {
+          "id": "en-2-5-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что на ней платье и юбка нравятся вашей сестре:",
+          "target_text": "My sister likes this dress and that skirt.",
+          "translation_ru": "Моей сестре нравится это платье и та юбка.",
+          "explain_ru": "Dress — платье, skirt — юбка.",
+          "audio": "en/2-5/sp-03.mp3"
+        },
+        {
+          "id": "en-2-5-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вам нужна новая куртка (new — «новый»):",
+          "target_text": "I need a new jacket and warm socks.",
+          "translation_ru": "Мне нужна новая куртка и тёплые носки.",
+          "explain_ru": "Jacket — куртка, socks — носки (warm — «тёплый»).",
+          "audio": "en/2-5/sp-04.mp3"
+        },
+        {
+          "id": "en-2-5-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, какой свитер носит ваш друг:",
+          "target_text": "My friend wears a big sweater.",
+          "translation_ru": "Мой друг носит большой свитер.",
+          "explain_ru": "Sweater — свитер; с he / my friend глагол получает -s: wears.",
+          "audio": "en/2-5/sp-05.mp3"
+        },
+        {
+          "id": "en-2-5-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите о размере в магазине:",
+          "target_text": "Excuse me, what is your size?",
+          "translation_ru": "Простите, какой у вас размер?",
+          "explain_ru": "Size — размер.",
+          "audio": "en/2-5/sp-06.mp3"
+        },
+        {
+          "id": "en-2-5-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про рубашку и джинсы:",
+          "target_text": "He wears a nice shirt and jeans.",
+          "translation_ru": "Он носит красивую рубашку и джинсы.",
+          "explain_ru": "Shirt — рубашка, jeans — джинсы.",
+          "audio": "en/2-5/sp-07.mp3"
+        },
+        {
+          "id": "en-2-5-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы носите носки и туфли:",
+          "target_text": "I wear socks and shoes every day.",
+          "translation_ru": "Я ношу носки и туфли каждый день.",
+          "explain_ru": "Socks — носки, shoes — туфли / обувь.",
+          "audio": "en/2-5/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-5-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Два наряда (1/2): прослушайте скрипт (red — «красный», white — «белый», gray — «серый») и ответьте, что на ней:",
+          "transcript": "She wears a red dress and a white jacket. He wears jeans and a gray sweater.",
+          "options": [
+            "красное платье и белая куртка",
+            "джинсы и серый свитер",
+            "синяя рубашка и юбка",
+            "чёрное пальто и шапка"
+          ],
+          "correct_index": 0,
+          "explain_ru": "She wears a red dress and a white jacket — На ней красное платье и белая куртка.",
+          "audio": "en/2-5/ls-01.mp3"
+        },
+        {
+          "id": "en-2-5-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Два наряда (2/2): что на нём?",
+          "transcript": "She wears a red dress and a white jacket. He wears jeans and a gray sweater.",
+          "options": [
+            "джинсы и серый свитер",
+            "красное платье и белая куртка",
+            "рубашка и пальто",
+            "шапка и носки"
+          ],
+          "correct_index": 0,
+          "explain_ru": "He wears jeans and a gray sweater — На нём джинсы и серый свитер.",
+          "audio": "en/2-5/ls-02.mp3"
+        },
+        {
+          "id": "en-2-5-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что ищет покупатель в магазине?",
+          "transcript": "Hello! I need a small coat and a hat, please.",
+          "options": [
+            "маленькое пальто и шапку",
+            "большую куртку и джинсы",
+            "платье и туфли",
+            "свитер и носки"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A small coat and a hat — маленькое пальто и шапка.",
+          "audio": "en/2-5/ls-03.mp3"
+        },
+        {
+          "id": "en-2-5-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что носит Анна на работу в офис?",
+          "transcript": "Anna works in an office. She wears a shirt and a skirt.",
+          "options": [
+            "рубашку и юбку",
+            "джинсы и свитер",
+            "пальто и шапку",
+            "куртку и кроссовки"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A shirt and a skirt — рубашка и юбка.",
+          "audio": "en/2-5/ls-04.mp3"
+        },
+        {
+          "id": "en-2-5-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что не может найти Макс?",
+          "transcript": "I have a problem. Where are my socks and my shoes?",
+          "options": [
+            "носки и туфли",
+            "куртку и шапку",
+            "рубашку и джинсы",
+            "пальто и свитер"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Socks and shoes — носки и туфли.",
+          "audio": "en/2-5/ls-05.mp3"
+        },
+        {
+          "id": "en-2-5-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой размер нужен Эмме (small — «маленький»)?",
+          "transcript": "I like this sweater. Do you have it in size small?",
+          "options": [
+            "маленький (small)",
+            "большой (big)",
+            "средний (medium)",
+            "она не знает размер"
+          ],
+          "correct_index": 0,
+          "explain_ru": "In size small — маленького размера.",
+          "audio": "en/2-5/ls-06.mp3"
+        },
+        {
+          "id": "en-2-5-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что любит носить дедушка?",
+          "transcript": "My grandfather wears a hat and a big coat in the park.",
+          "options": [
+            "шляпу и большое пальто",
+            "джинсы и куртку",
+            "свитер и рубашку",
+            "только рубашку"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A hat and a big coat — шляпа и большое пальто.",
+          "audio": "en/2-5/ls-07.mp3"
+        },
+        {
+          "id": "en-2-5-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I wear a jacket.",
+          "accepted": ["I wear a jacket."],
+          "explain_ru": "I wear a jacket — Я ношу куртку.",
+          "audio": "en/2-5/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-5-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Единственное и множественное число: соедините существительное с его формой множественного числа:",
+          "pairs": [
+            { "left": "shirt", "right": "shirts" },
+            { "left": "dress", "right": "dresses" },
+            { "left": "hat", "right": "hats" },
+            { "left": "skirt", "right": "skirts" }
+          ],
+          "explain_ru": "После -ss добавляется -es (dress → dresses), к остальным — -s. А jeans, shoes, socks обычно всегда во множественном числе.",
+          "audio": null
+        },
+        {
+          "id": "en-2-5-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в предложении «Эти туфли новые» (these — «эти», new — «новый»):",
+          "buggy_text": "These shoe is new.",
+          "accepted": ["These shoes are new."],
+          "explain_ru": "После these существительное и глагол ставятся во множественном числе: These shoes are new.",
+          "audio": null
+        },
+        {
+          "id": "en-2-5-wr-03",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите вопрос «Какой у вас размер?»:",
+          "source_text": "Какой у вас размер?",
+          "bank": ["size", "what", "your", "is"],
+          "accepted": ["What is your size"],
+          "explain_ru": "What is your size? — Какой у вас размер?",
+          "audio": null
+        },
+        {
+          "id": "en-2-5-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините предметы одежды с переводом:",
+          "pairs": [
+            { "left": "jacket", "right": "куртка" },
+            { "left": "coat", "right": "пальто" },
+            { "left": "sweater", "right": "свитер" },
+            { "left": "jeans", "right": "джинсы" }
+          ],
+          "explain_ru": "Jacket — куртка, coat — пальто, sweater — свитер, jeans — джинсы.",
+          "audio": null
+        },
+        {
+          "id": "en-2-5-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "shoes", "right": "туфли, обувь" },
+            { "left": "socks", "right": "носки" },
+            { "left": "wear", "right": "носить" },
+            { "left": "size", "right": "размер" }
+          ],
+          "explain_ru": "Shoes — туфли / обувь, socks — носки, wear — носить, size — размер.",
+          "audio": null
+        },
+        {
+          "id": "en-2-5-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Она носит платье»:",
+          "source_text": "Она носит платье.",
+          "bank": ["dress", "wears", "a", "she"],
+          "accepted": ["She wears a dress"],
+          "explain_ru": "С she к глаголу wear добавляется -s: She wears a dress.",
+          "audio": null
+        },
+        {
+          "id": "en-2-5-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении «Он носит свитер»:",
+          "buggy_text": "He wear a sweater.",
+          "accepted": ["He wears a sweater."],
+          "explain_ru": "После he нужен суффикс -s: He wears a sweater.",
+          "audio": null
+        },
+        {
+          "id": "en-2-5-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «юбка» на английский:",
+          "source_text": "юбка",
+          "accepted": ["skirt"],
+          "explain_ru": "Skirt — юбка.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-5-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "В магазине: прочитайте диалог (Medium — «средний», blue — «синий») и ответьте на вопросы:",
+          "passage": "— Hello. I need a jacket. — What size? — Medium. — Here is a blue jacket. — Thank you.",
+          "questions": [
+            {
+              "question_ru": "Что покупает человек?",
+              "options": ["куртку", "пальто", "рубашку", "свитер"],
+              "correct_index": 0,
+              "accepted": ["куртку", "jacket"]
+            },
+            {
+              "question_ru": "Какой размер ему нужен?",
+              "options": ["средний", "маленький", "большой", "он не сказал"],
+              "correct_index": 0,
+              "accepted": ["средний", "Medium", "medium"]
+            }
+          ],
+          "explain_ru": "I need a jacket — Мне нужна куртка; Medium — средний размер.",
+          "audio": null
+        },
+        {
+          "id": "en-2-5-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «coat»:",
+          "question_text": "coat",
+          "options": ["пальто", "куртка", "свитер", "рубашка"],
+          "correct_index": 0,
+          "explain_ru": "Coat — пальто.",
+          "audio": null
+        },
+        {
+          "id": "en-2-5-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «sweater»:",
+          "question_text": "sweater",
+          "options": ["свитер", "юбка", "платье", "шапка"],
+          "correct_index": 0,
+          "explain_ru": "Sweater — свитер.",
+          "audio": null
+        },
+        {
+          "id": "en-2-5-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «skirt»:",
+          "question_text": "skirt",
+          "options": ["юбка", "рубашка", "платье", "носки"],
+          "correct_index": 0,
+          "explain_ru": "Skirt — юбка (не путайте со словом shirt — рубашка).",
+          "audio": null
+        },
+        {
+          "id": "en-2-5-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «shirt»:",
+          "question_text": "shirt",
+          "options": ["рубашка", "юбка", "куртка", "обувь"],
+          "correct_index": 0,
+          "explain_ru": "Shirt — рубашка.",
+          "audio": null
+        },
+        {
+          "id": "en-2-5-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «hat»:",
+          "question_text": "hat",
+          "options": ["шапка, шляпа", "пальто", "носки", "размер"],
+          "correct_index": 0,
+          "explain_ru": "Hat — шапка, шляпа.",
+          "audio": null
+        },
+        {
+          "id": "en-2-5-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не предмет одежды):",
+          "items": ["dress", "jeans", "socks", "size"],
+          "odd_index": 3,
+          "explain_ru": "Size — «размер», а dress, jeans и socks — предметы одежды.",
+          "audio": null
+        },
+        {
+          "id": "en-2-5-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий текст и ответьте на вопрос:",
+          "passage": "Kate goes to a shop with her friend. Kate needs new shoes and socks. Her friend wants a nice dress.",
+          "questions": [
+            {
+              "question_ru": "Что хочет купить подруга Кейт?",
+              "options": ["платье", "туфли", "носки", "джинсы"],
+              "correct_index": 0,
+              "accepted": ["платье", "dress", "a nice dress"]
+            }
+          ],
+          "explain_ru": "Her friend wants a nice dress — Её подруга хочет красивое платье.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"
