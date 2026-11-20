@@ -83,16 +83,403 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-19-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Хочу в отпуск (1/2): скажите о желании отдохнуть на пляже:",
+          "target_text": "I want to go on vacation. I would like to relax on the beach.",
+          "translation_ru": "Я хочу поехать в отпуск. Я бы хотел отдохнуть на пляже.",
+          "explain_ru": "Go on vacation — поехать в отпуск; relax on the beach — отдыхать на пляже.",
+          "audio": "en/2-19/sp-01.mp3"
+        },
+        {
+          "id": "en-2-19-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Хочу в отпуск (2/2): расскажите, что вы кладёте в багаж:",
+          "target_text": "I pack my swimsuit and sunscreen.",
+          "translation_ru": "Я упаковываю купальник и крем от загара.",
+          "explain_ru": "Swimsuit — купальник; sunscreen — крем от загара.",
+          "audio": "en/2-19/sp-02.mp3"
+        },
+        {
+          "id": "en-2-19-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы плаваете в море каждое утро:",
+          "target_text": "We swim in the sea every morning.",
+          "translation_ru": "Мы плаваем в море каждое утро.",
+          "explain_ru": "In the sea — в море (с артиклем the).",
+          "audio": "en/2-19/sp-03.mp3"
+        },
+        {
+          "id": "en-2-19-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите океан:",
+          "target_text": "The ocean is big and beautiful.",
+          "translation_ru": "Океан большой и красивый.",
+          "explain_ru": "Ocean — океан (произносится [ˈoʊʃən]).",
+          "audio": "en/2-19/sp-04.mp3"
+        },
+        {
+          "id": "en-2-19-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что на острове сегодня жарко:",
+          "target_text": "It is hot on the island today.",
+          "translation_ru": "Сегодня на острове жарко.",
+          "explain_ru": "В слове island буква s не читается: [ˈaɪlənd].",
+          "audio": "en/2-19/sp-05.mp3"
+        },
+        {
+          "id": "en-2-19-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, где находится курорт:",
+          "target_text": "Our resort is near the beach.",
+          "translation_ru": "Наш курорт рядом с пляжем.",
+          "explain_ru": "Resort — курорт; near the beach — рядом с пляжем.",
+          "audio": "en/2-19/sp-06.mp3"
+        },
+        {
+          "id": "en-2-19-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваш чемодан большой и готов:",
+          "target_text": "My suitcase is big and ready.",
+          "translation_ru": "Мой чемодан большой и готов.",
+          "explain_ru": "Suitcase — чемодан; ready — готов.",
+          "audio": "en/2-19/sp-07.mp3"
+        },
+        {
+          "id": "en-2-19-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что хотите сувенир с экскурсии:",
+          "target_text": "I want a souvenir from the tour.",
+          "translation_ru": "Я хочу сувенир с экскурсии.",
+          "explain_ru": "Souvenir — сувенир; tour — экскурсия.",
+          "audio": "en/2-19/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-19-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "На остров (1/2): прослушайте запись и ответьте, куда едут герои (weather — погода, stay — останавливаться):",
+          "transcript": "We go to an island. The weather is hot. We stay at a small resort for one week.",
+          "options": ["на остров", "в старый город", "в университет", "на озеро"],
+          "correct_index": 0,
+          "explain_ru": "We go to an island — Мы едем на остров.",
+          "audio": "en/2-19/ls-01.mp3"
+        },
+        {
+          "id": "en-2-19-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "На остров (2/2): на какой срок они едут?",
+          "transcript": "We go to an island. The weather is hot. We stay at a small resort for one week.",
+          "options": ["на неделю", "на два дня", "на две недели", "на вечер"],
+          "correct_index": 0,
+          "explain_ru": "For one week — на одну неделю.",
+          "audio": "en/2-19/ls-02.mp3"
+        },
+        {
+          "id": "en-2-19-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Куда говорящий едет в отпуск на следующей неделе?",
+          "transcript": "Next week I go on vacation to the sea.",
+          "options": ["на море", "в музей", "в офис", "в парк"],
+          "correct_index": 0,
+          "explain_ru": "Go on vacation to the sea — поехать в отпуск на море.",
+          "audio": "en/2-19/ls-03.mp3"
+        },
+        {
+          "id": "en-2-19-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что говорящий описывает как очень большое?",
+          "transcript": "The ocean is very big. The beach is quiet and nice.",
+          "options": ["океан", "чемодан", "отель", "курорт"],
+          "correct_index": 0,
+          "explain_ru": "The ocean is very big — Океан очень большой.",
+          "audio": "en/2-19/ls-04.mp3"
+        },
+        {
+          "id": "en-2-19-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что Анна кладёт в чемодан?",
+          "transcript": "Anna packs her suitcase. She takes a swimsuit, a hat and sunscreen.",
+          "options": [
+            "купальник, шляпу и крем от загара",
+            "пальто, свитер и носки",
+            "книги, тетрадь и компьютер",
+            "плед, мяч и бутерброд"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Swimsuit (купальник), hat (шляпа), sunscreen (крем от загара).",
+          "audio": "en/2-19/ls-05.mp3"
+        },
+        {
+          "id": "en-2-19-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где семья хочет отдохнуть?",
+          "transcript": "Our family wants to relax at a small resort near the sea.",
+          "options": [
+            "на маленьком курорте у моря",
+            "в большом городе",
+            "в центре у площади",
+            "в парке у озера"
+          ],
+          "correct_index": 0,
+          "explain_ru": "At a small resort near the sea — на маленьком курорте у моря.",
+          "audio": "en/2-19/ls-06.mp3"
+        },
+        {
+          "id": "en-2-19-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что есть у Тома для мамы после экскурсии?",
+          "transcript": "After the tour, Tom has a nice souvenir for his mother.",
+          "options": ["сувенир", "билет", "карта", "паспорт"],
+          "correct_index": 0,
+          "explain_ru": "After the tour — после экскурсии; souvenir — сувенир.",
+          "audio": "en/2-19/ls-07.mp3"
+        },
+        {
+          "id": "en-2-19-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "It is hot on the beach.",
+          "accepted": ["It is hot on the beach."],
+          "explain_ru": "It is hot on the beach — На пляже жарко.",
+          "audio": "en/2-19/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-19-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Я хочу отдохнуть на пляже»:",
+          "source_text": "Я хочу отдохнуть на пляже.",
+          "bank": ["relax", "want", "to", "I", "beach", "on", "the"],
+          "accepted": ["I want to relax on the beach"],
+          "explain_ru": "I want to relax (я хочу отдохнуть) + on the beach (на пляже).",
+          "audio": null
+        },
+        {
+          "id": "en-2-19-wr-02",
+          "type": "odd_one_out",
+          "origin": "source",
+          "prompt_ru": "Найди лишнее: выберите слово, которое не относится к природе и воде:",
+          "items": ["beach", "sea", "island", "suitcase"],
+          "odd_index": 3,
+          "explain_ru": "Suitcase — чемодан (предмет багажа), а beach, sea и island — природные места.",
+          "audio": null
+        },
+        {
+          "id": "en-2-19-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите ошибку в глаголе и напишите правильное предложение:",
+          "buggy_text": "We goes to the sea.",
+          "accepted": ["We go to the sea."],
+          "explain_ru": "С местоимением we окончание -es не нужно: We go to the sea.",
+          "audio": null
+        },
+        {
+          "id": "en-2-19-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова об отпуске с переводом:",
+          "pairs": [
+            { "left": "vacation", "right": "отпуск" },
+            { "left": "resort", "right": "курорт" },
+            { "left": "island", "right": "остров" },
+            { "left": "ocean", "right": "океан" }
+          ],
+          "explain_ru": "Vacation — отпуск, resort — курорт, island — остров, ocean — океан.",
+          "audio": null
+        },
+        {
+          "id": "en-2-19-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините вещи и занятия в отпуске с переводом:",
+          "pairs": [
+            { "left": "swimsuit", "right": "купальник" },
+            { "left": "suitcase", "right": "чемодан" },
+            { "left": "souvenir", "right": "сувенир" },
+            { "left": "tour", "right": "экскурсия" }
+          ],
+          "explain_ru": "Swimsuit — купальник, suitcase — чемодан, souvenir — сувенир, tour — экскурсия.",
+          "audio": null
+        },
+        {
+          "id": "en-2-19-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Остров жаркий»:",
+          "source_text": "Остров жаркий.",
+          "bank": ["island", "hot", "is", "the"],
+          "accepted": ["The island is hot"],
+          "explain_ru": "The island is hot — Остров жаркий.",
+          "audio": null
+        },
+        {
+          "id": "en-2-19-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "He relax on vacation.",
+          "accepted": ["He relaxes on vacation."],
+          "explain_ru": "После he к глаголу на -x добавляется -es: He relaxes on vacation.",
+          "audio": null
+        },
+        {
+          "id": "en-2-19-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Допишите пропущенное слово «океан» по-английски:",
+          "source_text": "We go to the ___ (океан).",
+          "accepted": ["ocean"],
+          "explain_ru": "Ocean — океан.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-19-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Чемодан Марии: прочитайте текст и ответьте на вопросы (buy — покупать, join — присоединиться):",
+          "passage": "Maria packs her suitcase: a swimsuit, a hat and sunscreen. She wants to buy souvenirs and join a tour.",
+          "questions": [
+            {
+              "question_ru": "Что Мария кладёт в чемодан?",
+              "options": [
+                "купальник, шляпу и крем от загара",
+                "куртку, джинсы и туфли",
+                "паспорт, карту и билет",
+                "книгу, тетрадь и полотенце"
+              ],
+              "correct_index": 0,
+              "accepted": ["купальник, шляпу и крем от загара", "купальник, шляпу, крем"]
+            },
+            {
+              "question_ru": "Что Мария хочет купить?",
+              "options": ["сувениры", "цветы", "фрукты", "одежду"],
+              "correct_index": 0,
+              "accepted": ["сувениры", "souvenirs"]
+            }
+          ],
+          "explain_ru": "A swimsuit, a hat and sunscreen — купальник, шляпа и крем от загара; buy souvenirs — купить сувениры.",
+          "audio": null
+        },
+        {
+          "id": "en-2-19-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «vacation»:",
+          "question_text": "vacation",
+          "options": ["отпуск", "экскурсия", "курорт", "чемодан"],
+          "correct_index": 0,
+          "explain_ru": "Vacation — отпуск.",
+          "audio": null
+        },
+        {
+          "id": "en-2-19-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «resort»:",
+          "question_text": "resort",
+          "options": ["курорт", "пляж", "остров", "море"],
+          "correct_index": 0,
+          "explain_ru": "Resort — курорт.",
+          "audio": null
+        },
+        {
+          "id": "en-2-19-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «souvenir»:",
+          "question_text": "souvenir",
+          "options": ["сувенир", "купальник", "чемодан", "отпуск"],
+          "correct_index": 0,
+          "explain_ru": "Souvenir — сувенир.",
+          "audio": null
+        },
+        {
+          "id": "en-2-19-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «tour»:",
+          "question_text": "tour",
+          "options": ["экскурсия", "остров", "океан", "курорт"],
+          "correct_index": 0,
+          "explain_ru": "Tour — экскурсия, тур.",
+          "audio": null
+        },
+        {
+          "id": "en-2-19-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «relax»:",
+          "question_text": "relax",
+          "options": ["отдыхать", "упаковывать", "прибывать", "уезжать"],
+          "correct_index": 0,
+          "explain_ru": "Relax — отдыхать, расслабляться.",
+          "audio": null
+        },
+        {
+          "id": "en-2-19-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «ocean»:",
+          "question_text": "ocean",
+          "options": ["океан", "озеро", "море", "пляж"],
+          "correct_index": 0,
+          "explain_ru": "Ocean — океан.",
+          "audio": null
+        },
+        {
+          "id": "en-2-19-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий рассказ об отпуске и ответьте на вопрос:",
+          "passage": "My family has a vacation next week. We go to a small island in the sea. It is hot, so we relax on the beach and swim.",
+          "questions": [
+            {
+              "question_ru": "Где семья будет отдыхать?",
+              "options": [
+                "на пляже маленького острова",
+                "в шумном центре города",
+                "на озере в парке",
+                "дома в квартире"
+              ],
+              "correct_index": 0,
+              "accepted": ["на пляже маленького острова", "на пляже", "на острове"]
+            }
+          ],
+          "explain_ru": "We go to a small island in the sea... we relax on the beach — Мы едем на маленький остров в море и отдыхаем на пляже.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,406 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-8-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "На ресепшене: скажите о своей брони (подставьте своё имя, здесь Anna):",
+          "target_text": "Hello, I have a reservation. My name is Anna. I would like a single room for two nights.",
+          "translation_ru": "Здравствуйте, у меня бронь. Меня зовут Анна. Я бы хотела одноместный номер на две ночи.",
+          "explain_ru": "Reservation — бронь, single room — одноместный номер, for two nights — на две ночи.",
+          "audio": "en/2-8/sp-01.mp3"
+        },
+        {
+          "id": "en-2-8-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите на стойке регистрации, что вы хотите заселиться:",
+          "target_text": "Excuse me, I would like to check in at the reception.",
+          "translation_ru": "Простите, я бы хотел(а) заселиться на стойке регистрации.",
+          "explain_ru": "Check in — заселиться, reception — стойка регистрации.",
+          "audio": "en/2-8/sp-02.mp3"
+        },
+        {
+          "id": "en-2-8-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, во сколько выселение:",
+          "target_text": "When is check out at this hotel?",
+          "translation_ru": "Во сколько выселение в этом отеле?",
+          "explain_ru": "Check out — выселиться / выселение, hotel — отель.",
+          "audio": "en/2-8/sp-03.mp3"
+        },
+        {
+          "id": "en-2-8-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите дополнительное полотенце (clean — «чистое»):",
+          "target_text": "Could you give me a clean towel, please?",
+          "translation_ru": "Не могли бы вы дать мне чистое полотенце, пожалуйста?",
+          "explain_ru": "Towel — полотенце (give me — «дайте мне»).",
+          "audio": "en/2-8/sp-04.mp3"
+        },
+        {
+          "id": "en-2-8-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про ключ и этаж:",
+          "target_text": "Here is my key. My room is on the second floor.",
+          "translation_ru": "Вот мой ключ. Мой номер на втором этаже.",
+          "explain_ru": "Key — ключ, on the second floor — на втором этаже (second — «второй»).",
+          "audio": "en/2-8/sp-05.mp3"
+        },
+        {
+          "id": "en-2-8-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите кровать и ванную в номере:",
+          "target_text": "The room has a big bed and a nice bathroom.",
+          "translation_ru": "В номере большая кровать и хорошая ванная.",
+          "explain_ru": "Bed — кровать, bathroom — ванная.",
+          "audio": "en/2-8/sp-06.mp3"
+        },
+        {
+          "id": "en-2-8-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы остаётесь на одну ночь:",
+          "target_text": "I need a single room for one night.",
+          "translation_ru": "Мне нужен одноместный номер на одну ночь.",
+          "explain_ru": "Single room — одноместный номер, night — ночь.",
+          "audio": "en/2-8/sp-07.mp3"
+        },
+        {
+          "id": "en-2-8-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы хотите выселиться рано утром:",
+          "target_text": "I would like to check out early in the morning.",
+          "translation_ru": "Я бы хотел(а) выселиться рано утром.",
+          "explain_ru": "Check out — выселиться; early in the morning — рано утром.",
+          "audio": "en/2-8/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-8-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Ваш номер (1/2): прослушайте скрипт (third — «третий») и ответьте, на каком этаже номер:",
+          "transcript": "Your room is on the third floor. Here is the key. Check out is at eleven.",
+          "options": ["на 3-м этаже", "на 1-м этаже", "на 2-м этаже", "на 5-м этаже"],
+          "correct_index": 0,
+          "explain_ru": "On the third floor — на третьем этаже.",
+          "audio": "en/2-8/ls-01.mp3"
+        },
+        {
+          "id": "en-2-8-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Ваш номер (2/2): во сколько выселение?",
+          "transcript": "Your room is on the third floor. Here is the key. Check out is at eleven.",
+          "options": ["в 11", "в 10", "в 12", "в 9"],
+          "correct_index": 0,
+          "explain_ru": "Check out is at eleven — Выселение в 11.",
+          "audio": "en/2-8/ls-02.mp3"
+        },
+        {
+          "id": "en-2-8-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Когда можно заселиться в отель?",
+          "transcript": "Welcome to our hotel! Check in is at two o'clock in the afternoon.",
+          "options": [
+            "в 2 часа дня",
+            "в 11 утра",
+            "в 9 вечера",
+            "в 8 утра"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Check in is at two o'clock in the afternoon — Заселение в 2 часа после полудня.",
+          "audio": "en/2-8/ls-03.mp3"
+        },
+        {
+          "id": "en-2-8-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где нужно оставить ключ?",
+          "transcript": "Please leave your key at the reception before you leave.",
+          "options": [
+            "на стойке регистрации",
+            "на кровати",
+            "в ванной",
+            "в такси"
+          ],
+          "correct_index": 0,
+          "explain_ru": "At the reception — на стойке регистрации (before — «до того как»).",
+          "audio": "en/2-8/ls-04.mp3"
+        },
+        {
+          "id": "en-2-8-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Чего не хватает в ванной у гостя?",
+          "transcript": "Excuse me, there is no towel in my bathroom.",
+          "options": ["полотенца", "ключа", "кровати", "воды"],
+          "correct_index": 0,
+          "explain_ru": "No towel in my bathroom — В моей ванной нет полотенца.",
+          "audio": "en/2-8/ls-05.mp3"
+        },
+        {
+          "id": "en-2-8-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "На сколько ночей у Макса бронь?",
+          "transcript": "Max has a reservation for three nights in a single room.",
+          "options": ["на три ночи", "на одну ночь", "на две ночи", "на неделю"],
+          "correct_index": 0,
+          "explain_ru": "A reservation for three nights — бронь на три ночи.",
+          "audio": "en/2-8/ls-06.mp3"
+        },
+        {
+          "id": "en-2-8-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Саре нравится этот отель?",
+          "transcript": "The hotel is small, the bed is big, and breakfast is delicious.",
+          "options": [
+            "большая кровать и вкусный завтрак",
+            "рядом аэропорт",
+            "номер на первом этаже",
+            "есть парк и магазин"
+          ],
+          "correct_index": 0,
+          "explain_ru": "The bed is big, and breakfast is delicious — кровать большая, а завтрак вкусный.",
+          "audio": "en/2-8/ls-07.mp3"
+        },
+        {
+          "id": "en-2-8-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I have a reservation.",
+          "accepted": ["I have a reservation."],
+          "explain_ru": "I have a reservation — У меня есть бронь.",
+          "audio": "en/2-8/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-8-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите фразу «Я бы хотел(а) одноместный номер»:",
+          "source_text": "Я бы хотел(а) одноместный номер.",
+          "bank": ["room", "a", "would", "I", "like", "single"],
+          "accepted": ["I would like a single room"],
+          "explain_ru": "I would like a single room — Я бы хотел(а) одноместный номер.",
+          "audio": null
+        },
+        {
+          "id": "en-2-8-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допиши вопрос на ресепшене «Сколько ночей?» (во множественном числе):",
+          "source_text": "How many ___?",
+          "accepted": ["nights"],
+          "explain_ru": "После how many («сколько») существительное ставится во множественном числе: How many nights?",
+          "audio": null
+        },
+        {
+          "id": "en-2-8-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в предложении «Нам нужны две кровати»:",
+          "buggy_text": "We need two bed.",
+          "accepted": ["We need two beds."],
+          "explain_ru": "После числительного two существительное ставится во множественном числе: two beds.",
+          "audio": null
+        },
+        {
+          "id": "en-2-8-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова отеля с переводом:",
+          "pairs": [
+            { "left": "hotel", "right": "отель" },
+            { "left": "reservation", "right": "бронь" },
+            { "left": "reception", "right": "стойка регистрации" },
+            { "left": "floor", "right": "этаж" }
+          ],
+          "explain_ru": "Hotel — отель, reservation — бронь, reception — стойка регистрации, floor — этаж.",
+          "audio": null
+        },
+        {
+          "id": "en-2-8-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова номера с переводом:",
+          "pairs": [
+            { "left": "key", "right": "ключ" },
+            { "left": "bed", "right": "кровать" },
+            { "left": "bathroom", "right": "ванная" },
+            { "left": "towel", "right": "полотенце" }
+          ],
+          "explain_ru": "Key — ключ, bed — кровать, bathroom — ванная, towel — полотенце.",
+          "audio": null
+        },
+        {
+          "id": "en-2-8-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините выражения отеля с переводом:",
+          "pairs": [
+            { "left": "check in", "right": "заселиться" },
+            { "left": "check out", "right": "выселиться" },
+            { "left": "single room", "right": "одноместный номер" },
+            { "left": "night", "right": "ночь" }
+          ],
+          "explain_ru": "Check in — заселиться, check out — выселиться, single room — одноместный номер, night — ночь.",
+          "audio": null
+        },
+        {
+          "id": "en-2-8-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении «У него есть ключ»:",
+          "buggy_text": "He have the key.",
+          "accepted": ["He has the key."],
+          "explain_ru": "С he используется has: He has the key.",
+          "audio": null
+        },
+        {
+          "id": "en-2-8-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «полотенце» на английский:",
+          "source_text": "полотенце",
+          "accepted": ["towel"],
+          "explain_ru": "Towel — полотенце.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-8-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Номер: прочитайте описание (window — «окно») и ответьте на вопросы:",
+          "passage": "The hotel is small but nice. The room has a bed, a bathroom and a big window. There are two towels.",
+          "questions": [
+            {
+              "question_ru": "Что есть в номере?",
+              "options": [
+                "кровать, ванная и большое окно",
+                "кухня и две кровати",
+                "офис и телевизор",
+                "только кровать"
+              ],
+              "correct_index": 0,
+              "accepted": ["кровать, ванная, большое окно", "кровать, ванная и большое окно"]
+            },
+            {
+              "question_ru": "Сколько полотенец в номере?",
+              "options": ["два", "одно", "три", "ни одного"],
+              "correct_index": 0,
+              "accepted": ["два", "2", "two"]
+            }
+          ],
+          "explain_ru": "A bed, a bathroom and a big window — кровать, ванная и большое окно; two towels — два полотенца.",
+          "audio": null
+        },
+        {
+          "id": "en-2-8-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «check in»:",
+          "question_text": "check in",
+          "options": ["заселиться", "выселиться", "просыпаться", "прибывать"],
+          "correct_index": 0,
+          "explain_ru": "Check in — заселиться в отель.",
+          "audio": null
+        },
+        {
+          "id": "en-2-8-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «check out»:",
+          "question_text": "check out",
+          "options": ["выселиться", "заселиться", "уезжать", "заканчивать"],
+          "correct_index": 0,
+          "explain_ru": "Check out — выселиться из отеля.",
+          "audio": null
+        },
+        {
+          "id": "en-2-8-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «reception»:",
+          "question_text": "reception",
+          "options": ["стойка регистрации", "бронь", "этаж", "ванная"],
+          "correct_index": 0,
+          "explain_ru": "Reception — стойка регистрации (ресепшен).",
+          "audio": null
+        },
+        {
+          "id": "en-2-8-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «floor»:",
+          "question_text": "floor",
+          "options": ["этаж", "ключ", "кровать", "полотенце"],
+          "correct_index": 0,
+          "explain_ru": "Floor — этаж (а также «пол»).",
+          "audio": null
+        },
+        {
+          "id": "en-2-8-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «bathroom»:",
+          "question_text": "bathroom",
+          "options": ["ванная", "кухня", "комната", "отель"],
+          "correct_index": 0,
+          "explain_ru": "Bathroom — ванная комната.",
+          "audio": null
+        },
+        {
+          "id": "en-2-8-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «reservation»:",
+          "question_text": "reservation",
+          "options": ["бронь", "билет", "паспорт", "счёт"],
+          "correct_index": 0,
+          "explain_ru": "Reservation — бронь (в отеле или ресторане).",
+          "audio": null
+        },
+        {
+          "id": "en-2-8-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте табличку на стойке регистрации и ответьте на вопрос:",
+          "passage": "Park Hotel. Check in: 14:00. Check out: 11:00. Breakfast: 7:00 – 10:00 on the first floor.",
+          "questions": [
+            {
+              "question_ru": "На каком этаже проходит завтрак (first — «первый»)?",
+              "options": ["на первом этаже", "на втором этаже", "на третьем этаже", "в номере"],
+              "correct_index": 0,
+              "accepted": ["на первом этаже", "first floor"]
+            }
+          ],
+          "explain_ru": "On the first floor — на первом этаже.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,398 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-22-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Моя работа (1/2): расскажите о компании и профессии:",
+          "target_text": "I work in a big company. I am an engineer.",
+          "translation_ru": "Я работаю в большой компании. Я инженер.",
+          "explain_ru": "Перед словом engineer на гласный звук ставится артикль an: an engineer.",
+          "audio": "en/2-22/sp-01.mp3"
+        },
+        {
+          "id": "en-2-22-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Моя работа (2/2): скажите про занятость и зарплату:",
+          "target_text": "I work full-time. My salary is good.",
+          "translation_ru": "Я работаю полный день. Моя зарплата хорошая.",
+          "explain_ru": "Work full-time — работать полный день; salary — зарплата.",
+          "audio": "en/2-22/sp-02.mp3"
+        },
+        {
+          "id": "en-2-22-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что в понедельник у вас собеседование:",
+          "target_text": "I have a job interview on Monday.",
+          "translation_ru": "У меня собеседование в понедельник.",
+          "explain_ru": "Job interview — собеседование при приёме на работу.",
+          "audio": "en/2-22/sp-03.mp3"
+        },
+        {
+          "id": "en-2-22-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что она студентка и работает неполный день:",
+          "target_text": "She is a student, so she works part-time.",
+          "translation_ru": "Она студентка, поэтому она работает неполный день.",
+          "explain_ru": "Work part-time — работать неполный день.",
+          "audio": "en/2-22/sp-04.mp3"
+        },
+        {
+          "id": "en-2-22-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Назовите профессии папы и брата:",
+          "target_text": "My father is a driver and my brother is a chef.",
+          "translation_ru": "Мой папа водитель, а мой брат повар.",
+          "explain_ru": "Driver — водитель; chef — повар (произносится [ʃef]).",
+          "audio": "en/2-22/sp-05.mp3"
+        },
+        {
+          "id": "en-2-22-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите вашего менеджера:",
+          "target_text": "Our manager is nice and busy.",
+          "translation_ru": "Наш менеджер приятный и занятой.",
+          "explain_ru": "Manager — менеджер, руководитель.",
+          "audio": "en/2-22/sp-06.mp3"
+        },
+        {
+          "id": "en-2-22-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у каждого работника компании есть рабочий стол:",
+          "target_text": "Every worker in this company has a desk.",
+          "translation_ru": "У каждого работника в этой компании есть рабочий стол.",
+          "explain_ru": "Worker — работник; company — компания.",
+          "audio": "en/2-22/sp-07.mp3"
+        },
+        {
+          "id": "en-2-22-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вам нравится ваша работа и команда:",
+          "target_text": "I like my job and my team.",
+          "translation_ru": "Мне нравится моя работа и моя команда.",
+          "explain_ru": "Job — работа, занятие (исчисляемое существительное).",
+          "audio": "en/2-22/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-22-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Семья Али (1/2): прослушайте рассказ и ответьте, кто в семье повар:",
+          "transcript": "Ali is a driver. He works full-time. His wife is a chef. She works part-time.",
+          "options": ["жена Али", "Али", "брат Али", "сестра Али"],
+          "correct_index": 0,
+          "explain_ru": "His wife is a chef — Его жена повар.",
+          "audio": "en/2-22/ls-01.mp3"
+        },
+        {
+          "id": "en-2-22-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Семья Али (2/2): кто работает полный день?",
+          "transcript": "Ali is a driver. He works full-time. His wife is a chef. She works part-time.",
+          "options": ["Али", "его жена", "оба", "никто"],
+          "correct_index": 0,
+          "explain_ru": "Ali is a driver. He works full-time — Али работает полный день.",
+          "audio": "en/2-22/ls-02.mp3"
+        },
+        {
+          "id": "en-2-22-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что у Кейт завтра утром?",
+          "transcript": "Kate has an interview at a big company tomorrow morning.",
+          "options": [
+            "собеседование в большой компании",
+            "экзамен в университете",
+            "приём у врача",
+            "тренировка на стадионе"
+          ],
+          "correct_index": 0,
+          "explain_ru": "An interview at a big company — собеседование в большой компании.",
+          "audio": "en/2-22/ls-03.mp3"
+        },
+        {
+          "id": "en-2-22-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кем работает новый сотрудник?",
+          "transcript": "The new worker is an engineer. His salary is very good.",
+          "options": ["инженером", "водителем", "поваром", "учителем"],
+          "correct_index": 0,
+          "explain_ru": "The new worker is an engineer — Новый работник — инженер.",
+          "audio": "en/2-22/ls-04.mp3"
+        },
+        {
+          "id": "en-2-22-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Во сколько встреча у менеджера?",
+          "transcript": "Our manager has a meeting at ten o'clock.",
+          "options": ["в 10 часов", "в 9 часов", "в 2 часа", "в 5 часов"],
+          "correct_index": 0,
+          "explain_ru": "At ten o'clock — в десять часов ровно.",
+          "audio": "en/2-22/ls-05.mp3"
+        },
+        {
+          "id": "en-2-22-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какую работу ищет Том?",
+          "transcript": "Tom is a student. He needs a part-time job in a shop.",
+          "options": [
+            "работу на неполный день в магазине",
+            "работу на полный день в банке",
+            "работу поваром в отеле",
+            "работу водителем такси"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A part-time job in a shop — работа на неполный день в магазине.",
+          "audio": "en/2-22/ls-06.mp3"
+        },
+        {
+          "id": "en-2-22-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где друг говорящего работает поваром?",
+          "transcript": "My friend works full-time as a chef in a big hotel.",
+          "options": ["в большом отеле", "в школе", "в больнице", "в офисе"],
+          "correct_index": 0,
+          "explain_ru": "As a chef in a big hotel — поваром в большом отеле.",
+          "audio": "en/2-22/ls-07.mp3"
+        },
+        {
+          "id": "en-2-22-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I work in a company.",
+          "accepted": ["I work in a company."],
+          "explain_ru": "I work in a company — Я работаю в компании.",
+          "audio": "en/2-22/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-22-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Я работаю инженером» (as — в качестве):",
+          "source_text": "Я работаю инженером.",
+          "bank": ["work", "engineer", "I", "an", "as"],
+          "accepted": ["I work as an engineer"],
+          "explain_ru": "Work as an engineer — работать инженером (в качестве инженера).",
+          "audio": null
+        },
+        {
+          "id": "en-2-22-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите ошибку в глаголе и напишите верное предложение:",
+          "buggy_text": "She work in a company.",
+          "accepted": ["She works in a company."],
+          "explain_ru": "После she к глаголу добавляется окончание -s: She works in a company.",
+          "audio": null
+        },
+        {
+          "id": "en-2-22-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Угадай профессию (1/2): кто водит машину? (drives a car — водит машину)",
+          "source_text": "drives a car → ___",
+          "accepted": ["driver"],
+          "explain_ru": "Driver — водитель.",
+          "audio": null
+        },
+        {
+          "id": "en-2-22-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Угадай профессию (2/2): кто готовит еду? (makes food — готовит еду)",
+          "source_text": "makes food → ___",
+          "accepted": ["chef"],
+          "explain_ru": "Chef — повар.",
+          "audio": null
+        },
+        {
+          "id": "en-2-22-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о работе с переводом:",
+          "pairs": [
+            { "left": "salary", "right": "зарплата" },
+            { "left": "interview", "right": "собеседование" },
+            { "left": "manager", "right": "менеджер" },
+            { "left": "worker", "right": "работник" }
+          ],
+          "explain_ru": "Salary — зарплата, interview — собеседование, manager — менеджер, worker — работник.",
+          "audio": null
+        },
+        {
+          "id": "en-2-22-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова и графики работы с переводом:",
+          "pairs": [
+            { "left": "job", "right": "работа, занятие" },
+            { "left": "company", "right": "компания" },
+            { "left": "part-time", "right": "неполный день" },
+            { "left": "full-time", "right": "полный день" }
+          ],
+          "explain_ru": "Part-time — неполный день, full-time — полный день.",
+          "audio": null
+        },
+        {
+          "id": "en-2-22-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "He have a good salary.",
+          "accepted": ["He has a good salary."],
+          "explain_ru": "С he используется форма has: He has a good salary.",
+          "audio": null
+        },
+        {
+          "id": "en-2-22-wr-08",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Мой папа водитель»:",
+          "source_text": "Мой папа водитель.",
+          "bank": ["driver", "is", "father", "my", "a"],
+          "accepted": ["My father is a driver"],
+          "explain_ru": "Перед названием профессии в единственном числе ставится артикль a: a driver.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-22-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Собеседование: прочитайте текст и ответьте на вопросы («What do you do?» — «Чем вы занимаетесь?»):",
+          "passage": "Sam has a job interview today. The company is big. The manager asks, \"What do you do?\" Sam says, \"I am an engineer.\"",
+          "questions": [
+            {
+              "question_ru": "Что спрашивает менеджер?",
+              "options": [
+                "«Чем вы занимаетесь?»",
+                "«Сколько вам лет?»",
+                "«Откуда вы?»",
+                "«Какой у вас размер?»"
+              ],
+              "correct_index": 0,
+              "accepted": ["Чем вы занимаетесь?", "чем вы занимаетесь"]
+            },
+            {
+              "question_ru": "Кто Сэм по профессии?",
+              "options": ["инженер", "повар", "водитель", "менеджер"],
+              "correct_index": 0,
+              "accepted": ["инженер", "engineer"]
+            }
+          ],
+          "explain_ru": "What do you do? — стандартный вопрос о профессии; I am an engineer — Я инженер.",
+          "audio": null
+        },
+        {
+          "id": "en-2-22-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «salary»:",
+          "question_text": "salary",
+          "options": ["зарплата", "собеседование", "компания", "перерыв"],
+          "correct_index": 0,
+          "explain_ru": "Salary — зарплата.",
+          "audio": null
+        },
+        {
+          "id": "en-2-22-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «interview»:",
+          "question_text": "interview",
+          "options": ["собеседование", "встреча", "отчёт", "проект"],
+          "correct_index": 0,
+          "explain_ru": "Interview — собеседование.",
+          "audio": null
+        },
+        {
+          "id": "en-2-22-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «worker»:",
+          "question_text": "worker",
+          "options": ["работник", "начальник", "инженер", "водитель"],
+          "correct_index": 0,
+          "explain_ru": "Worker — работник, сотрудник.",
+          "audio": null
+        },
+        {
+          "id": "en-2-22-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «chef»:",
+          "question_text": "chef",
+          "options": ["повар", "водитель", "менеджер", "врач"],
+          "correct_index": 0,
+          "explain_ru": "Chef — повар.",
+          "audio": null
+        },
+        {
+          "id": "en-2-22-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «part-time»:",
+          "question_text": "part-time",
+          "options": ["неполный день", "полный день", "свободное время", "срок сдачи"],
+          "correct_index": 0,
+          "explain_ru": "Part-time — неполный рабочий день.",
+          "audio": null
+        },
+        {
+          "id": "en-2-22-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «full-time»:",
+          "question_text": "full-time",
+          "options": ["полный день", "неполный день", "выходной", "отпуск"],
+          "correct_index": 0,
+          "explain_ru": "Full-time — полный рабочий день.",
+          "audio": null
+        },
+        {
+          "id": "en-2-22-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий рассказ о работе Анны и её брата и ответьте на вопрос:",
+          "passage": "Anna is a good worker. She works full-time as a manager in a small company. Her brother is a student, so he has a part-time job as a driver.",
+          "questions": [
+            {
+              "question_ru": "Кем работает Анна?",
+              "options": ["менеджером", "водителем", "инженером", "поваром"],
+              "correct_index": 0,
+              "accepted": ["менеджером", "менеджер", "manager"]
+            }
+          ],
+          "explain_ru": "She works full-time as a manager — Она работает полный день менеджером.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

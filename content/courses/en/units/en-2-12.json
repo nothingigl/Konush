@@ -83,16 +83,401 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-12-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Наш офис: расскажите о коллеге, команде и проекте («helpful» — отзывчивый):",
+          "target_text": "My coworker is helpful. Our team has a big project. The deadline is Friday. I send an email to my boss.",
+          "translation_ru": "Мой коллега отзывчивый. У нашей команды большой проект. Срок сдачи — пятница. Я отправляю письмо начальнику.",
+          "explain_ru": "Coworker — коллега по работе; send an email — отправить электронное письмо.",
+          "audio": "en/2-12/sp-01.mp3"
+        },
+        {
+          "id": "en-2-12-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что отчёт готов:",
+          "target_text": "The report is ready for the meeting.",
+          "translation_ru": "Отчёт готов ко встрече.",
+          "explain_ru": "Be ready — быть готовым; report — отчёт.",
+          "audio": "en/2-12/sp-02.mp3"
+        },
+        {
+          "id": "en-2-12-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про компьютер на вашем рабочем столе:",
+          "target_text": "My computer is on my desk.",
+          "translation_ru": "Мой компьютер на моём рабочем столе.",
+          "explain_ru": "Desk — рабочий или письменный стол; on my desk — на моём рабочем столе.",
+          "audio": "en/2-12/sp-03.mp3"
+        },
+        {
+          "id": "en-2-12-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Предложите сделать небольшой перерыв:",
+          "target_text": "We are busy, but we need a small break.",
+          "translation_ru": "Мы заняты, но нам нужен небольшой перерыв.",
+          "explain_ru": "Break — перерыв; take a break — сделать перерыв.",
+          "audio": "en/2-12/sp-04.mp3"
+        },
+        {
+          "id": "en-2-12-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что новый принтер в офисе:",
+          "target_text": "The new printer is in the office.",
+          "translation_ru": "Новый принтер в офисе.",
+          "explain_ru": "Printer — принтер.",
+          "audio": "en/2-12/sp-05.mp3"
+        },
+        {
+          "id": "en-2-12-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваша команда готова к проекту:",
+          "target_text": "Our team is ready for the new project.",
+          "translation_ru": "Наша команда готова к новому проекту.",
+          "explain_ru": "Ready for... — готов к...",
+          "audio": "en/2-12/sp-06.mp3"
+        },
+        {
+          "id": "en-2-12-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про своего коллегу и начальника:",
+          "target_text": "My coworker and my boss are very nice.",
+          "translation_ru": "Мой коллега и мой начальник очень приятные.",
+          "explain_ru": "Два подлежащих (coworker and boss) требуют глагола are.",
+          "audio": "en/2-12/sp-07.mp3"
+        },
+        {
+          "id": "en-2-12-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, когда срок сдачи отчёта:",
+          "target_text": "The deadline for the report is Monday.",
+          "translation_ru": "Срок сдачи отчёта — понедельник.",
+          "explain_ru": "Deadline — крайний срок сдачи.",
+          "audio": "en/2-12/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-12-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Просьба (1/2): прослушайте скрипт («noon» — полдень) и ответьте, что нужно отправить:",
+          "transcript": "Please send the report by email. The deadline is Friday. We have a break at noon.",
+          "options": ["отчёт", "тетрадь", "билет", "подарок"],
+          "correct_index": 0,
+          "explain_ru": "Please send the report by email — Пожалуйста, отправьте отчёт по электронной почте.",
+          "audio": "en/2-12/ls-01.mp3"
+        },
+        {
+          "id": "en-2-12-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Просьба (2/2): когда перерыв?",
+          "transcript": "Please send the report by email. The deadline is Friday. We have a break at noon.",
+          "options": ["в полдень", "в девять утра", "в пять вечера", "в понедельник"],
+          "correct_index": 0,
+          "explain_ru": "We have a break at noon — У нас перерыв в полдень.",
+          "audio": "en/2-12/ls-02.mp3"
+        },
+        {
+          "id": "en-2-12-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что стоит на рабочем столе у Анны?",
+          "transcript": "Anna has a new computer on her desk. The printer is near her desk too.",
+          "options": ["новый компьютер", "свеча и цветы", "большая книга", "чашка чая"],
+          "correct_index": 0,
+          "explain_ru": "A new computer on her desk — новый компьютер на её рабочем столе.",
+          "audio": "en/2-12/ls-03.mp3"
+        },
+        {
+          "id": "en-2-12-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кто помогает Тому с проектом?",
+          "transcript": "Tom has a big project. His coworker Max helps him every morning.",
+          "options": ["коллега Макс", "начальник Пол", "учитель Анна", "сосед Джек"],
+          "correct_index": 0,
+          "explain_ru": "His coworker Max — его коллега по работе Макс.",
+          "audio": "en/2-12/ls-04.mp3"
+        },
+        {
+          "id": "en-2-12-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему начальник доволен?",
+          "transcript": "Our team finishes the project early. The boss is very happy.",
+          "options": [
+            "команда рано закончила проект",
+            "принтер новый",
+            "перерыв в два часа",
+            "офис рядом с парком"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Our team finishes the project early — Наша команда заканчивает проект рано.",
+          "audio": "en/2-12/ls-05.mp3"
+        },
+        {
+          "id": "en-2-12-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что происходит с принтером в офисе?",
+          "transcript": "Excuse me, there is a problem with the printer. It is not ready.",
+          "options": [
+            "с принтером проблема, он не готов",
+            "принтер очень быстрый",
+            "принтер стоит дома",
+            "начальник купил принтер"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A problem with the printer. It is not ready — Проблема с принтером, он не готов.",
+          "audio": "en/2-12/ls-06.mp3"
+        },
+        {
+          "id": "en-2-12-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что Сара делает во время перерыва?",
+          "transcript": "Sara takes a break at noon. She drinks coffee and talks with her coworker.",
+          "options": [
+            "пьёт кофе и общается с коллегой",
+            "пишет длинный отчёт",
+            "едет в аэропорт",
+            "делает домашнее задание"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Takes a break — делает перерыв; coworker — коллега по работе.",
+          "audio": "en/2-12/ls-07.mp3"
+        },
+        {
+          "id": "en-2-12-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "The report is ready.",
+          "accepted": ["The report is ready."],
+          "explain_ru": "The report is ready — Отчёт готов.",
+          "audio": "en/2-12/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-12-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Отчёт готов»:",
+          "source_text": "Отчёт готов.",
+          "bank": ["is", "the", "report", "ready"],
+          "accepted": ["The report is ready"],
+          "explain_ru": "The report is ready — Отчёт готов.",
+          "audio": null
+        },
+        {
+          "id": "en-2-12-wr-02",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Подбери глагол: соедините глагол с правильным существительным:",
+          "pairs": [
+            { "left": "send", "right": "an email" },
+            { "left": "finish", "right": "the project" },
+            { "left": "take", "right": "a break" }
+          ],
+          "explain_ru": "Устойчивые сочетания: send an email (отправить письмо), finish the project (закончить проект), take a break (сделать перерыв).",
+          "audio": null
+        },
+        {
+          "id": "en-2-12-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: исправьте ошибку в глаголе to be:",
+          "buggy_text": "My boss are nice.",
+          "accepted": ["My boss is nice."],
+          "explain_ru": "Boss — единственное число (he/she), поэтому нужен глагол is.",
+          "audio": null
+        },
+        {
+          "id": "en-2-12-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "coworker", "right": "коллега по работе" },
+            { "left": "boss", "right": "начальник" },
+            { "left": "desk", "right": "рабочий стол" },
+            { "left": "team", "right": "команда" }
+          ],
+          "explain_ru": "Coworker — коллега по работе, boss — начальник, desk — рабочий стол, team — команда.",
+          "audio": null
+        },
+        {
+          "id": "en-2-12-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините офисные слова с переводом:",
+          "pairs": [
+            { "left": "computer", "right": "компьютер" },
+            { "left": "printer", "right": "принтер" },
+            { "left": "deadline", "right": "срок сдачи" },
+            { "left": "ready", "right": "готов" }
+          ],
+          "explain_ru": "Computer — компьютер, printer — принтер, deadline — срок сдачи, ready — готов.",
+          "audio": null
+        },
+        {
+          "id": "en-2-12-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "She send an email to the team.",
+          "accepted": ["She sends an email to the team."],
+          "explain_ru": "После she к глаголу добавляется окончание -s: She sends an email.",
+          "audio": null
+        },
+        {
+          "id": "en-2-12-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Срок сдачи — пятница»:",
+          "source_text": "Срок сдачи — пятница.",
+          "bank": ["is", "deadline", "Friday", "the"],
+          "accepted": ["The deadline is Friday"],
+          "explain_ru": "The deadline is Friday — Срок сдачи — пятница.",
+          "audio": null
+        },
+        {
+          "id": "en-2-12-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «перерыв» по-английски:",
+          "source_text": "перерыв",
+          "accepted": ["break"],
+          "explain_ru": "Break — перерыв.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-12-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Наша команда: прочитайте текст и ответьте на вопросы:",
+          "passage": "Our team is small. My desk is near the window. The computer is old, but the printer is new. We have a project and a deadline on Monday.",
+          "questions": [
+            {
+              "question_ru": "Что новое в офисе?",
+              "options": ["принтер", "компьютер", "рабочий стол", "окно"],
+              "correct_index": 0,
+              "accepted": ["принтер", "printer", "the printer"]
+            },
+            {
+              "question_ru": "Когда срок сдачи проекта?",
+              "options": ["в понедельник", "в пятницу", "во вторник", "в среду"],
+              "correct_index": 0,
+              "accepted": ["в понедельник", "on Monday", "Monday"]
+            }
+          ],
+          "explain_ru": "The printer is new — Принтер новый; a deadline on Monday — срок сдачи в понедельник.",
+          "audio": null
+        },
+        {
+          "id": "en-2-12-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «coworker»:",
+          "question_text": "coworker",
+          "options": ["коллега по работе", "начальник", "сосед по комнате", "турист"],
+          "correct_index": 0,
+          "explain_ru": "Coworker — коллега по работе.",
+          "audio": null
+        },
+        {
+          "id": "en-2-12-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «desk»:",
+          "question_text": "desk",
+          "options": ["рабочий стол", "кровать", "принтер", "комната"],
+          "correct_index": 0,
+          "explain_ru": "Desk — рабочий стол.",
+          "audio": null
+        },
+        {
+          "id": "en-2-12-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «deadline»:",
+          "question_text": "deadline",
+          "options": ["срок сдачи", "перерыв", "отчёт", "встреча"],
+          "correct_index": 0,
+          "explain_ru": "Deadline — срок сдачи.",
+          "audio": null
+        },
+        {
+          "id": "en-2-12-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «report»:",
+          "question_text": "report",
+          "options": ["отчёт", "электронное письмо", "проект", "тетрадь"],
+          "correct_index": 0,
+          "explain_ru": "Report — отчёт.",
+          "audio": null
+        },
+        {
+          "id": "en-2-12-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «ready»:",
+          "question_text": "ready",
+          "options": ["готов", "занятой", "рано", "поздно"],
+          "correct_index": 0,
+          "explain_ru": "Ready — готов.",
+          "audio": null
+        },
+        {
+          "id": "en-2-12-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «email»:",
+          "question_text": "email",
+          "options": ["электронное письмо", "принтер", "компьютер", "перерыв"],
+          "correct_index": 0,
+          "explain_ru": "Email — электронное письмо.",
+          "audio": null
+        },
+        {
+          "id": "en-2-12-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку в офисе и ответьте на вопрос:",
+          "passage": "Hello Jack! The report is ready. I send it to our boss by email. Let us take a break at noon and drink coffee.",
+          "questions": [
+            {
+              "question_ru": "Кому автор отправляет отчёт по электронной почте?",
+              "options": ["начальнику", "учителю", "брату", "туристу"],
+              "correct_index": 0,
+              "accepted": ["начальнику", "our boss", "boss"]
+            }
+          ],
+          "explain_ru": "I send it to our boss by email — Я отправляю его нашему начальнику по электронной почте.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

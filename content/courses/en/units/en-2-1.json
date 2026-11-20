@@ -83,16 +83,411 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-1-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Что я ем? (1/2): расскажите о завтраке и обеде:",
+          "target_text": "For breakfast I eat eggs and bread. For lunch I eat rice and meat. I do not eat cheese.",
+          "translation_ru": "На завтрак я ем яйца и хлеб. На обед я ем рис и мясо. Я не ем сыр.",
+          "explain_ru": "Для приёмов пищи используется предлог for: for breakfast — на завтрак, for lunch — на обед.",
+          "audio": "en/2-1/sp-01.mp3"
+        },
+        {
+          "id": "en-2-1-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Что я ем? (2/2): добавьте ужин и любимый фрукт:",
+          "target_text": "For dinner I eat vegetables and soup. I like an apple.",
+          "translation_ru": "На ужин я ем овощи и суп. Мне нравится яблоко.",
+          "explain_ru": "Перед гласным звуком ставится артикль an: an apple.",
+          "audio": "en/2-1/sp-02.mp3"
+        },
+        {
+          "id": "en-2-1-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы голодны и хотите банан:",
+          "target_text": "I am hungry. I want a banana.",
+          "translation_ru": "Я голоден. Я хочу банан.",
+          "explain_ru": "Hungry — голодный, want — хотеть, banana — банан.",
+          "audio": "en/2-1/sp-03.mp3"
+        },
+        {
+          "id": "en-2-1-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Похвалите вкусный обед:",
+          "target_text": "The lunch is delicious.",
+          "translation_ru": "Обед вкусный.",
+          "explain_ru": "Delicious — очень вкусный.",
+          "audio": "en/2-1/sp-04.mp3"
+        },
+        {
+          "id": "en-2-1-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про одно яйцо и сыр:",
+          "target_text": "I eat an egg and cheese for breakfast.",
+          "translation_ru": "Я ем яйцо и сыр на завтрак.",
+          "explain_ru": "Слово egg начинается с гласного звука, поэтому an egg.",
+          "audio": "en/2-1/sp-05.mp3"
+        },
+        {
+          "id": "en-2-1-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваша мама готовит рис и овощи:",
+          "target_text": "My mother cooks rice and vegetables for dinner.",
+          "translation_ru": "Моя мама готовит рис и овощи на ужин.",
+          "explain_ru": "Rice — рис, vegetables — овощи, dinner — ужин.",
+          "audio": "en/2-1/sp-06.mp3"
+        },
+        {
+          "id": "en-2-1-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите друга, любит ли он мясо:",
+          "target_text": "Do you like meat and salad?",
+          "translation_ru": "Ты любишь мясо и салат?",
+          "explain_ru": "Вопрос с you в Present Simple начинается со вспомогательного Do.",
+          "audio": "en/2-1/sp-07.mp3"
+        },
+        {
+          "id": "en-2-1-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что яблоко и банан вкусные:",
+          "target_text": "The apple and the banana are delicious.",
+          "translation_ru": "Яблоко и банан вкусные.",
+          "explain_ru": "С двумя предметами используется глагол are.",
+          "audio": "en/2-1/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-1-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Голодный (1/2): прослушайте скрипт и ответьте, что хочет говорящий:",
+          "transcript": "I am hungry. I want an apple and a banana. I do not like cheese.",
+          "options": [
+            "яблоко и банан",
+            "сыр и хлеб",
+            "рис и мясо",
+            "суп и салат"
+          ],
+          "correct_index": 0,
+          "explain_ru": "I want an apple and a banana — Я хочу яблоко и банан.",
+          "audio": "en/2-1/ls-01.mp3"
+        },
+        {
+          "id": "en-2-1-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Голодный (2/2): что говорящий не любит?",
+          "transcript": "I am hungry. I want an apple and a banana. I do not like cheese.",
+          "options": ["сыр", "яблоки", "бананы", "яйца"],
+          "correct_index": 0,
+          "explain_ru": "I do not like cheese — Я не люблю сыр.",
+          "audio": "en/2-1/ls-02.mp3"
+        },
+        {
+          "id": "en-2-1-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что Анна ест на завтрак?",
+          "transcript": "Anna eats one egg and bread for breakfast.",
+          "options": [
+            "одно яйцо и хлеб",
+            "рис и овощи",
+            "мясо и салат",
+            "банан и молоко"
+          ],
+          "correct_index": 0,
+          "explain_ru": "One egg and bread for breakfast — одно яйцо и хлеб на завтрак.",
+          "audio": "en/2-1/ls-03.mp3"
+        },
+        {
+          "id": "en-2-1-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой ужин приготовил отец?",
+          "transcript": "My father cooks meat and vegetables for dinner. It is delicious.",
+          "options": [
+            "мясо и овощи — очень вкусно",
+            "суп и сыр — невкусно",
+            "рыбу и рис — очень вкусно",
+            "торт и чай — очень вкусно"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Meat and vegetables — мясо и овощи; delicious — вкусный.",
+          "audio": "en/2-1/ls-04.mp3"
+        },
+        {
+          "id": "en-2-1-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что ест брат на обед?",
+          "transcript": "For lunch my brother eats rice and soup.",
+          "options": [
+            "рис и суп",
+            "яйцо и сыр",
+            "яблоко и банан",
+            "хлеб и мясо"
+          ],
+          "correct_index": 0,
+          "explain_ru": "For lunch — на обед; rice and soup — рис и суп.",
+          "audio": "en/2-1/ls-05.mp3"
+        },
+        {
+          "id": "en-2-1-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Том идёт на кухню?",
+          "transcript": "Tom is very hungry. He goes to the kitchen for cheese and bread.",
+          "options": [
+            "он очень голоден",
+            "он хочет погулять",
+            "он кормит собаку",
+            "он читает меню"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Tom is very hungry — Том очень голоден.",
+          "audio": "en/2-1/ls-06.mp3"
+        },
+        {
+          "id": "en-2-1-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что Кейт НЕ ест?",
+          "transcript": "Kate likes vegetables and rice, but she does not eat meat.",
+          "options": ["мясо", "овощи", "рис", "сыр"],
+          "correct_index": 0,
+          "explain_ru": "She does not eat meat — Она не ест мясо.",
+          "audio": "en/2-1/ls-07.mp3"
+        },
+        {
+          "id": "en-2-1-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I am hungry.",
+          "accepted": ["I am hungry."],
+          "explain_ru": "I am hungry — Я голоден / голодна.",
+          "audio": "en/2-1/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-1-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Do или does? (1/2): впишите нужное слово в вопрос:",
+          "source_text": "___ you like rice?",
+          "accepted": ["Do"],
+          "explain_ru": "С местоимениями I, you, we, they в вопросе используется Do.",
+          "audio": null
+        },
+        {
+          "id": "en-2-1-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Do или does? (2/2): впишите нужное слово в вопрос:",
+          "source_text": "___ she eat meat?",
+          "accepted": ["Does"],
+          "explain_ru": "С местоимениями he, she, it в вопросе используется Does.",
+          "audio": null
+        },
+        {
+          "id": "en-2-1-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в отрицательном предложении:",
+          "buggy_text": "He don't like eggs.",
+          "accepted": ["He doesn't like eggs.", "He does not like eggs."],
+          "explain_ru": "С he / she / it отрицание строится через doesn't (does not), а не don't.",
+          "audio": null
+        },
+        {
+          "id": "en-2-1-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините приёмы пищи и прилагательные с переводом:",
+          "pairs": [
+            { "left": "breakfast", "right": "завтрак" },
+            { "left": "lunch", "right": "обед" },
+            { "left": "dinner", "right": "ужин" },
+            { "left": "delicious", "right": "вкусный" }
+          ],
+          "explain_ru": "Breakfast — завтрак, lunch — обед, dinner — ужин, delicious — вкусный.",
+          "audio": null
+        },
+        {
+          "id": "en-2-1-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините продукты с переводом:",
+          "pairs": [
+            { "left": "apple", "right": "яблоко" },
+            { "left": "banana", "right": "банан" },
+            { "left": "cheese", "right": "сыр" },
+            { "left": "egg", "right": "яйцо" }
+          ],
+          "explain_ru": "Apple — яблоко, banana — банан, cheese — сыр, egg — яйцо.",
+          "audio": null
+        },
+        {
+          "id": "en-2-1-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Я ем рис и овощи»:",
+          "source_text": "Я ем рис и овощи.",
+          "bank": ["rice", "eat", "vegetables", "and", "I"],
+          "accepted": ["I eat rice and vegetables", "I eat vegetables and rice"],
+          "explain_ru": "Порядок слов в английском: подлежащее (I) + глагол (eat) + дополнение (rice and vegetables).",
+          "audio": null
+        },
+        {
+          "id": "en-2-1-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку с артиклем:",
+          "buggy_text": "I want a apple.",
+          "accepted": ["I want an apple."],
+          "explain_ru": "Перед словом на гласный звук нужен артикль an: an apple.",
+          "audio": null
+        },
+        {
+          "id": "en-2-1-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «голодный» на английский:",
+          "source_text": "голодный",
+          "accepted": ["hungry"],
+          "explain_ru": "Hungry — голодный.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-1-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Рацион Тома: прочитайте текст (always — «всегда») и ответьте на вопросы:",
+          "passage": "Tom eats eggs for breakfast. For lunch he eats rice and vegetables. His dinner is always delicious.",
+          "questions": [
+            {
+              "question_ru": "Что Том ест на завтрак?",
+              "options": ["яйца", "рис и овощи", "сыр и хлеб", "яблоко и банан"],
+              "correct_index": 0,
+              "accepted": ["яйца", "eggs"]
+            },
+            {
+              "question_ru": "Что Том ест на обед?",
+              "options": ["рис и овощи", "яйца", "мясо и суп", "торт и чай"],
+              "correct_index": 0,
+              "accepted": ["рис и овощи", "rice and vegetables"]
+            }
+          ],
+          "explain_ru": "Tom eats eggs for breakfast — Том ест яйца на завтрак; For lunch he eats rice and vegetables — На обед он ест рис и овощи.",
+          "audio": null
+        },
+        {
+          "id": "en-2-1-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «vegetables»:",
+          "question_text": "vegetables",
+          "options": ["овощи", "мясо", "сыр", "рис"],
+          "correct_index": 0,
+          "explain_ru": "Vegetables — овощи.",
+          "audio": null
+        },
+        {
+          "id": "en-2-1-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «delicious»:",
+          "question_text": "delicious",
+          "options": ["вкусный", "голодный", "большой", "маленький"],
+          "correct_index": 0,
+          "explain_ru": "Delicious — вкусный.",
+          "audio": null
+        },
+        {
+          "id": "en-2-1-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «meat»:",
+          "question_text": "meat",
+          "options": ["мясо", "рыба", "хлеб", "яйцо"],
+          "correct_index": 0,
+          "explain_ru": "Meat — мясо.",
+          "audio": null
+        },
+        {
+          "id": "en-2-1-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «breakfast»:",
+          "question_text": "breakfast",
+          "options": ["завтрак", "обед", "ужин", "меню"],
+          "correct_index": 0,
+          "explain_ru": "Breakfast — завтрак.",
+          "audio": null
+        },
+        {
+          "id": "en-2-1-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «dinner»:",
+          "question_text": "dinner",
+          "options": ["ужин", "завтрак", "обед", "счёт"],
+          "correct_index": 0,
+          "explain_ru": "Dinner — ужин.",
+          "audio": null
+        },
+        {
+          "id": "en-2-1-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не еда):",
+          "items": ["apple", "banana", "cheese", "hungry"],
+          "odd_index": 3,
+          "explain_ru": "Hungry — это прилагательное («голодный»), а остальные слова — продукты.",
+          "audio": null
+        },
+        {
+          "id": "en-2-1-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий диалог на кухне и ответьте на вопрос:",
+          "passage": "Anna: Are you hungry, Max? Max: Yes! I would like an egg, cheese and a banana, please.",
+          "questions": [
+            {
+              "question_ru": "Что попросил Макс?",
+              "options": [
+                "яйцо, сыр и банан",
+                "рис, мясо и суп",
+                "яблоко и чай",
+                "овощи и хлеб"
+              ],
+              "correct_index": 0,
+              "accepted": ["яйцо, сыр и банан"]
+            }
+          ],
+          "explain_ru": "An egg, cheese and a banana — яйцо, сыр и банан.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

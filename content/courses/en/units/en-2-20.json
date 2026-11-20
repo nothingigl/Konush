@@ -83,16 +83,418 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-20-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "В магазине (1/2): попросите примерить куртку:",
+          "target_text": "I want to buy a jacket. Can I try it on?",
+          "translation_ru": "Я хочу купить куртку. Можно её примерить?",
+          "explain_ru": "Try on — примерять; местоимение it ставится между try и on: try it on.",
+          "audio": "en/2-20/sp-01.mp3"
+        },
+        {
+          "id": "en-2-20-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "В магазине (2/2): спросите о скидке и скажите про оплату картой:",
+          "target_text": "Do you have a discount? I pay by card.",
+          "translation_ru": "У вас есть скидка? Я плачу картой.",
+          "explain_ru": "Pay by card — платить картой; discount — скидка.",
+          "audio": "en/2-20/sp-02.mp3"
+        },
+        {
+          "id": "en-2-20-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что хотите примерить это платье:",
+          "target_text": "I want to try on this dress.",
+          "translation_ru": "Я хочу примерить это платье.",
+          "explain_ru": "Перед существительным фразовый глагол идёт слитно: try on this dress.",
+          "audio": "en/2-20/sp-03.mp3"
+        },
+        {
+          "id": "en-2-20-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что этот магазин продаёт дешёвые рубашки:",
+          "target_text": "This shop sells cheap shirts and shoes.",
+          "translation_ru": "Этот магазин продаёт дешёвые рубашки и туфли.",
+          "explain_ru": "Sell — продавать (с this shop добавляем -s: sells).",
+          "audio": "en/2-20/sp-04.mp3"
+        },
+        {
+          "id": "en-2-20-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, можно ли заплатить наличными:",
+          "target_text": "Can I pay in cash, please?",
+          "translation_ru": "Можно заплатить наличными, пожалуйста?",
+          "explain_ru": "Pay in cash — платить наличными (предлог in, но by card).",
+          "audio": "en/2-20/sp-05.mp3"
+        },
+        {
+          "id": "en-2-20-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите фразу кассира про чек и сдачу:",
+          "target_text": "Here is your receipt and your change.",
+          "translation_ru": "Вот ваш чек и ваша сдача.",
+          "explain_ru": "В слове receipt буква p не читается: [rɪˈsiːt]. Change — сдача.",
+          "audio": "en/2-20/sp-06.mp3"
+        },
+        {
+          "id": "en-2-20-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что сегодня в торговом центре большая распродажа:",
+          "target_text": "There is a big sale at the mall today.",
+          "translation_ru": "Сегодня в торговом центре большая распродажа.",
+          "explain_ru": "Sale — распродажа; at the mall — в торговом центре.",
+          "audio": "en/2-20/sp-07.mp3"
+        },
+        {
+          "id": "en-2-20-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что покупатель спрашивает о скидке:",
+          "target_text": "The customer asks about the discount.",
+          "translation_ru": "Покупатель спрашивает о скидке.",
+          "explain_ru": "Customer — покупатель; discount — скидка.",
+          "audio": "en/2-20/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-20-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Распродажа (1/2): прослушайте объявление и ответьте, какая скидка в торговом центре (thirty percent off — скидка 30%):",
+          "transcript": "There is a sale at the mall. Everything is thirty percent off. You can pay in cash or by card.",
+          "options": ["30%", "10%", "50%", "20%"],
+          "correct_index": 0,
+          "explain_ru": "Everything is thirty percent off — На всё скидка 30%.",
+          "audio": "en/2-20/ls-01.mp3"
+        },
+        {
+          "id": "en-2-20-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Распродажа (2/2): как можно оплатить покупки?",
+          "transcript": "There is a sale at the mall. Everything is thirty percent off. You can pay in cash or by card.",
+          "options": [
+            "наличными или картой",
+            "только наличными",
+            "только картой",
+            "оплата закрыта"
+          ],
+          "correct_index": 0,
+          "explain_ru": "You can pay in cash or by card — Можно заплатить наличными или картой.",
+          "audio": "en/2-20/ls-02.mp3"
+        },
+        {
+          "id": "en-2-20-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что хочет примерить покупатель?",
+          "transcript": "A customer wants to try on a sweater and jeans.",
+          "options": [
+            "свитер и джинсы",
+            "пальто и шляпу",
+            "юбку и туфли",
+            "рубашку и носки"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Try on a sweater and jeans — примерить свитер и джинсы.",
+          "audio": "en/2-20/ls-03.mp3"
+        },
+        {
+          "id": "en-2-20-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что продаёт этот маленький магазин?",
+          "transcript": "This small shop sells fresh fruit and delicious bread.",
+          "options": [
+            "свежие фрукты и вкусный хлеб",
+            "сувениры и карты",
+            "одежду и обувь",
+            "книги и тетради"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Sells fresh fruit and delicious bread — продаёт свежие фрукты и вкусный хлеб.",
+          "audio": "en/2-20/ls-04.mp3"
+        },
+        {
+          "id": "en-2-20-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему говорящий всё-таки покупает дорогую куртку?",
+          "transcript": "The jacket is expensive, but I have a discount.",
+          "options": [
+            "у него есть скидка",
+            "она его размера",
+            "это подарок маме",
+            "она нужна для отпуска"
+          ],
+          "correct_index": 0,
+          "explain_ru": "I have a discount — У меня есть скидка.",
+          "audio": "en/2-20/ls-05.mp3"
+        },
+        {
+          "id": "en-2-20-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что кассир отдаёт Анне после оплаты наличными?",
+          "transcript": "Anna pays in cash. The cashier gives her a receipt and her change.",
+          "options": [
+            "чек и сдачу",
+            "пакет и скидку",
+            "карту и корзину",
+            "куртку и чемодан"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A receipt and her change — чек и сдачу.",
+          "audio": "en/2-20/ls-06.mp3"
+        },
+        {
+          "id": "en-2-20-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Зачем Том идёт в торговый центр?",
+          "transcript": "Tom goes to the mall to buy a gift for his sister.",
+          "options": [
+            "купить подарок сестре",
+            "встретить друга",
+            "пообедать в ресторане",
+            "посмотреть фильм"
+          ],
+          "correct_index": 0,
+          "explain_ru": "To buy a gift for his sister — купить подарок своей сестре.",
+          "audio": "en/2-20/ls-07.mp3"
+        },
+        {
+          "id": "en-2-20-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I pay by card.",
+          "accepted": ["I pay by card."],
+          "explain_ru": "I pay by card — Я плачу картой.",
+          "audio": "en/2-20/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-20-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите вопрос «Можно это примерить?»:",
+          "source_text": "Можно это примерить?",
+          "bank": ["try", "can", "it", "on", "I"],
+          "accepted": ["Can I try it on"],
+          "explain_ru": "Can I try it on? — Можно мне это примерить?",
+          "audio": null
+        },
+        {
+          "id": "en-2-20-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите ошибку в числе существительного и напишите верно:",
+          "buggy_text": "I buy a jackets.",
+          "accepted": ["I buy a jacket."],
+          "explain_ru": "С артиклем a существительное ставится в единственном числе: a jacket.",
+          "audio": null
+        },
+        {
+          "id": "en-2-20-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Антоним: напишите противоположное по смыслу слово к buy (покупать):",
+          "source_text": "buy ↔ ___ (продавать)",
+          "accepted": ["sell"],
+          "explain_ru": "Buy (покупать) ↔ sell (продавать).",
+          "audio": null
+        },
+        {
+          "id": "en-2-20-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о покупках с переводом:",
+          "pairs": [
+            { "left": "discount", "right": "скидка" },
+            { "left": "receipt", "right": "чек" },
+            { "left": "sale", "right": "распродажа" },
+            { "left": "change", "right": "сдача" }
+          ],
+          "explain_ru": "Discount — скидка, receipt — чек, sale — распродажа, change — сдача.",
+          "audio": null
+        },
+        {
+          "id": "en-2-20-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова и фразы с переводом:",
+          "pairs": [
+            { "left": "try on", "right": "примерять" },
+            { "left": "customer", "right": "покупатель" },
+            { "left": "mall", "right": "торговый центр" },
+            { "left": "cash", "right": "наличные" }
+          ],
+          "explain_ru": "Try on — примерять, customer — покупатель, mall — торговый центр, cash — наличные.",
+          "audio": null
+        },
+        {
+          "id": "en-2-20-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Я плачу картой»:",
+          "source_text": "Я плачу картой.",
+          "bank": ["pay", "card", "I", "by"],
+          "accepted": ["I pay by card"],
+          "explain_ru": "I pay by card — Я плачу картой.",
+          "audio": null
+        },
+        {
+          "id": "en-2-20-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "She pay in cash at the store.",
+          "accepted": ["She pays in cash at the store."],
+          "explain_ru": "После she к глаголу добавляется -s: She pays in cash at the store.",
+          "audio": null
+        },
+        {
+          "id": "en-2-20-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Допишите пропущенное слово «чек» по-английски:",
+          "source_text": "Do you need a ___? (чек)",
+          "accepted": ["receipt"],
+          "explain_ru": "Receipt — чек (буква p пишется, но не читается).",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-20-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Покупательница: прочитайте текст и ответьте на вопросы:",
+          "passage": "The customer wants a coat. It is expensive, but there is a sale. She pays by card and takes the receipt.",
+          "questions": [
+            {
+              "question_ru": "Почему покупательница решает купить дорогое пальто?",
+              "options": [
+                "идёт распродажа",
+                "у неё день рождения",
+                "это подарок мужу",
+                "она уезжает в отпуск"
+              ],
+              "correct_index": 0,
+              "accepted": ["идёт распродажа", "распродажа", "скидки"]
+            },
+            {
+              "question_ru": "Что она забирает после оплаты?",
+              "options": ["чек", "сдачу", "корзину", "подарок"],
+              "correct_index": 0,
+              "accepted": ["чек", "receipt"]
+            }
+          ],
+          "explain_ru": "There is a sale — идёт распродажа; takes the receipt — берёт чек.",
+          "audio": null
+        },
+        {
+          "id": "en-2-20-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «try on»:",
+          "question_text": "try on",
+          "options": ["примерять", "покупать", "продавать", "платить"],
+          "correct_index": 0,
+          "explain_ru": "Try on — примерять одежду или обувь.",
+          "audio": null
+        },
+        {
+          "id": "en-2-20-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «discount»:",
+          "question_text": "discount",
+          "options": ["скидка", "сдача", "чек", "цена"],
+          "correct_index": 0,
+          "explain_ru": "Discount — скидка.",
+          "audio": null
+        },
+        {
+          "id": "en-2-20-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «change» в контексте покупок:",
+          "question_text": "change",
+          "options": ["сдача", "чек", "карта", "корзина"],
+          "correct_index": 0,
+          "explain_ru": "В магазине change означает «сдача».",
+          "audio": null
+        },
+        {
+          "id": "en-2-20-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «mall»:",
+          "question_text": "mall",
+          "options": ["торговый центр", "рынок", "площадь", "вокзал"],
+          "correct_index": 0,
+          "explain_ru": "Mall — торговый центр.",
+          "audio": null
+        },
+        {
+          "id": "en-2-20-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «sell»:",
+          "question_text": "sell",
+          "options": ["продавать", "покупать", "платить", "упаковывать"],
+          "correct_index": 0,
+          "explain_ru": "Sell — продавать.",
+          "audio": null
+        },
+        {
+          "id": "en-2-20-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «cash»:",
+          "question_text": "cash",
+          "options": ["наличные", "карта", "чек", "скидка"],
+          "correct_index": 0,
+          "explain_ru": "Cash — наличные деньги.",
+          "audio": null
+        },
+        {
+          "id": "en-2-20-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткую историю о покупках и ответьте на вопрос (gets — получает):",
+          "passage": "Kate goes to the mall on Friday. There is a big sale. She wants to try on a new skirt. She pays in cash and gets her change and receipt.",
+          "questions": [
+            {
+              "question_ru": "Как Кейт платит за юбку?",
+              "options": ["наличными", "картой", "не покупает её", "в тексте не сказано"],
+              "correct_index": 0,
+              "accepted": ["наличными", "in cash", "cash"]
+            }
+          ],
+          "explain_ru": "She pays in cash — Она платит наличными.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

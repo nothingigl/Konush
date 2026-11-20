@@ -83,16 +83,397 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-23-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "В зоопарке (1/2): расскажите, каких животных вы видите (see — видеть):",
+          "target_text": "At the zoo I see a lion and a monkey. The elephant is big. The giraffe is tall.",
+          "translation_ru": "В зоопарке я вижу льва и обезьяну. Слон большой. Жираф высокий.",
+          "explain_ru": "At the zoo — в зоопарке; tall — высокий.",
+          "audio": "en/2-23/sp-01.mp3"
+        },
+        {
+          "id": "en-2-23-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "В зоопарке (2/2): опишите ещё трёх животных (long — длинный):",
+          "target_text": "The bear is strong. The wolf is wild. The tiger has a long tail.",
+          "translation_ru": "Медведь сильный. Волк дикий. У тигра длинный хвост.",
+          "explain_ru": "Bear — медведь, wolf — волк, tiger — тигр, tail — хвост.",
+          "audio": "en/2-23/sp-02.mp3"
+        },
+        {
+          "id": "en-2-23-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Сравните хвосты слона и обезьяны (long — длинный):",
+          "target_text": "The elephant has a small tail, and the monkey has a long tail.",
+          "translation_ru": "У слона маленький хвост, а у обезьяны длинный хвост.",
+          "explain_ru": "Tail — хвост; has — имеет.",
+          "audio": "en/2-23/sp-03.mp3"
+        },
+        {
+          "id": "en-2-23-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите змею (long — длинная, quiet — тихая):",
+          "target_text": "The snake is long and quiet.",
+          "translation_ru": "Змея длинная и тихая.",
+          "explain_ru": "Snake — змея.",
+          "audio": "en/2-23/sp-04.mp3"
+        },
+        {
+          "id": "en-2-23-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что волк и медведь — дикие животные (animals — животные):",
+          "target_text": "A wolf and a bear are wild animals.",
+          "translation_ru": "Волк и медведь — дикие животные.",
+          "explain_ru": "Wild — дикий; для двух животных используется глагол are.",
+          "audio": "en/2-23/sp-05.mp3"
+        },
+        {
+          "id": "en-2-23-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите тигра:",
+          "target_text": "The tiger is big and strong.",
+          "translation_ru": "Тигр большой и сильный.",
+          "explain_ru": "Tiger — тигр; strong — сильный.",
+          "audio": "en/2-23/sp-06.mp3"
+        },
+        {
+          "id": "en-2-23-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вашей сестре нравится жираф в зоопарке:",
+          "target_text": "My sister likes the giraffe at the zoo.",
+          "translation_ru": "Моей сестре нравится жираф в зоопарке.",
+          "explain_ru": "Giraffe — жираф; at the zoo — в зоопарке.",
+          "audio": "en/2-23/sp-07.mp3"
+        },
+        {
+          "id": "en-2-23-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что лев — сильное дикое животное (animal — животное):",
+          "target_text": "The lion is a strong wild animal.",
+          "translation_ru": "Лев — сильное дикое животное.",
+          "explain_ru": "Lion — лев; strong wild animal — сильное дикое животное.",
+          "audio": "en/2-23/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-23-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Какое какое? (1/2): прослушайте запись и ответьте, какое животное смешное (funny — смешной, long — длинный):",
+          "transcript": "The tiger is strong. The monkey is funny. The snake is long.",
+          "options": ["обезьяна", "тигр", "змея", "лев"],
+          "correct_index": 0,
+          "explain_ru": "The monkey is funny — Обезьяна смешная.",
+          "audio": "en/2-23/ls-01.mp3"
+        },
+        {
+          "id": "en-2-23-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Какое какое? (2/2): какое животное длинное?",
+          "transcript": "The tiger is strong. The monkey is funny. The snake is long.",
+          "options": ["змея", "тигр", "обезьяна", "медведь"],
+          "correct_index": 0,
+          "explain_ru": "The snake is long — Змея длинная.",
+          "audio": "en/2-23/ls-02.mp3"
+        },
+        {
+          "id": "en-2-23-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что ест жираф в зоопарке?",
+          "transcript": "At the zoo, the giraffe eats fruit from a tall tree.",
+          "options": ["фрукты", "мясо", "хлеб", "сыр"],
+          "correct_index": 0,
+          "explain_ru": "The giraffe eats fruit — Жираф ест фрукты.",
+          "audio": "en/2-23/ls-03.mp3"
+        },
+        {
+          "id": "en-2-23-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что любит слон?",
+          "transcript": "The elephant is big and strong. It likes water.",
+          "options": ["воду", "молоко", "сок", "яйца"],
+          "correct_index": 0,
+          "explain_ru": "It likes water — Он любит воду.",
+          "audio": "en/2-23/ls-04.mp3"
+        },
+        {
+          "id": "en-2-23-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О каком диком животном с большим хвостом говорится в записи?",
+          "transcript": "A wolf is a wild animal. It has a big tail.",
+          "options": ["о волке", "о слоне", "о змее", "о медведе"],
+          "correct_index": 0,
+          "explain_ru": "A wolf is a wild animal — Волк — дикое животное.",
+          "audio": "en/2-23/ls-05.mp3"
+        },
+        {
+          "id": "en-2-23-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что любит медведь?",
+          "transcript": "The bear is big. It likes fish and fruit.",
+          "options": [
+            "рыбу и фрукты",
+            "суп и салат",
+            "сыр и хлеб",
+            "рис и овощи"
+          ],
+          "correct_index": 0,
+          "explain_ru": "It likes fish and fruit — Он любит рыбу и фрукты.",
+          "audio": "en/2-23/ls-06.mp3"
+        },
+        {
+          "id": "en-2-23-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кого семья хочет увидеть в зоопарке в воскресенье?",
+          "transcript": "On Sunday our family goes to the zoo to see the lion and the tiger.",
+          "options": [
+            "льва и тигра",
+            "волка и медведя",
+            "змею и обезьяну",
+            "слона и жирафа"
+          ],
+          "correct_index": 0,
+          "explain_ru": "To see the lion and the tiger — увидеть льва и тигра.",
+          "audio": "en/2-23/ls-07.mp3"
+        },
+        {
+          "id": "en-2-23-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "The giraffe is tall.",
+          "accepted": ["The giraffe is tall."],
+          "explain_ru": "The giraffe is tall — Жираф высокий.",
+          "audio": "en/2-23/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-23-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → слово (1/2): соедините животных с их названиями на английском:",
+          "pairs": [
+            { "left": "🐘", "right": "elephant" },
+            { "left": "🦁", "right": "lion" },
+            { "left": "🐒", "right": "monkey" },
+            { "left": "🐍", "right": "snake" }
+          ],
+          "explain_ru": "Elephant — слон, lion — лев, monkey — обезьяна, snake — змея.",
+          "audio": null
+        },
+        {
+          "id": "en-2-23-wr-02",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → слово (2/2): соедините животных с их названиями на английском:",
+          "pairs": [
+            { "left": "🐻", "right": "bear" },
+            { "left": "🐺", "right": "wolf" },
+            { "left": "🐯", "right": "tiger" },
+            { "left": "🦒", "right": "giraffe" }
+          ],
+          "explain_ru": "Bear — медведь, wolf — волк, tiger — тигр, giraffe — жираф.",
+          "audio": null
+        },
+        {
+          "id": "en-2-23-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите ошибку в глаголе be и напишите верное предложение:",
+          "buggy_text": "The lions is strong.",
+          "accepted": ["The lions are strong."],
+          "explain_ru": "Lions — множественное число, поэтому нужен глагол are: The lions are strong.",
+          "audio": null
+        },
+        {
+          "id": "en-2-23-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "wild", "right": "дикий" },
+            { "left": "zoo", "right": "зоопарк" },
+            { "left": "tail", "right": "хвост" },
+            { "left": "strong", "right": "сильный" }
+          ],
+          "explain_ru": "Wild — дикий, zoo — зоопарк, tail — хвост, strong — сильный.",
+          "audio": null
+        },
+        {
+          "id": "en-2-23-wr-05",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Слон сильный»:",
+          "source_text": "Слон сильный.",
+          "bank": ["is", "elephant", "the", "strong"],
+          "accepted": ["The elephant is strong"],
+          "explain_ru": "The elephant is strong — Слон сильный.",
+          "audio": null
+        },
+        {
+          "id": "en-2-23-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «У обезьяны есть хвост»:",
+          "source_text": "У обезьяны есть хвост.",
+          "bank": ["has", "tail", "a", "monkey", "the"],
+          "accepted": ["The monkey has a tail"],
+          "explain_ru": "The monkey has a tail — У обезьяны есть хвост.",
+          "audio": null
+        },
+        {
+          "id": "en-2-23-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "The bear eat fish.",
+          "accepted": ["The bear eats fish."],
+          "explain_ru": "The bear = it, поэтому к глаголу добавляется -s: The bear eats fish.",
+          "audio": null
+        },
+        {
+          "id": "en-2-23-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Допишите слово «дикий» по-английски (animal — животное):",
+          "source_text": "A lion is a ___ animal. (дикий)",
+          "accepted": ["wild"],
+          "explain_ru": "Wild — дикий.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-23-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Зоопарк: прочитайте текст и ответьте на вопросы (animals — животные, forest — лес, sleeps — спит):",
+          "passage": "The zoo is big. Wild animals live in the forest, but here they live in houses with trees. The bear sleeps, the monkeys play.",
+          "questions": [
+            {
+              "question_ru": "Что делает медведь?",
+              "options": ["спит", "играет", "бегает", "ест"],
+              "correct_index": 0,
+              "accepted": ["спит", "sleeps"]
+            },
+            {
+              "question_ru": "Что делают обезьяны?",
+              "options": ["играют", "спят", "плавают", "поют"],
+              "correct_index": 0,
+              "accepted": ["играют", "play"]
+            }
+          ],
+          "explain_ru": "The bear sleeps — Медведь спит; the monkeys play — обезьяны играют.",
+          "audio": null
+        },
+        {
+          "id": "en-2-23-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «elephant»:",
+          "question_text": "elephant",
+          "options": ["слон", "жираф", "медведь", "лев"],
+          "correct_index": 0,
+          "explain_ru": "Elephant — слон.",
+          "audio": null
+        },
+        {
+          "id": "en-2-23-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «wolf»:",
+          "question_text": "wolf",
+          "options": ["волк", "тигр", "медведь", "змея"],
+          "correct_index": 0,
+          "explain_ru": "Wolf — волк.",
+          "audio": null
+        },
+        {
+          "id": "en-2-23-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «snake»:",
+          "question_text": "snake",
+          "options": ["змея", "обезьяна", "волк", "рыба"],
+          "correct_index": 0,
+          "explain_ru": "Snake — змея.",
+          "audio": null
+        },
+        {
+          "id": "en-2-23-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «giraffe»:",
+          "question_text": "giraffe",
+          "options": ["жираф", "слон", "тигр", "лошадь"],
+          "correct_index": 0,
+          "explain_ru": "Giraffe — жираф.",
+          "audio": null
+        },
+        {
+          "id": "en-2-23-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «tail»:",
+          "question_text": "tail",
+          "options": ["хвост", "зоопарк", "дерево", "трава"],
+          "correct_index": 0,
+          "explain_ru": "Tail — хвост.",
+          "audio": null
+        },
+        {
+          "id": "en-2-23-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «strong»:",
+          "question_text": "strong",
+          "options": ["сильный", "дикий", "высокий", "большой"],
+          "correct_index": 0,
+          "explain_ru": "Strong — сильный.",
+          "audio": null
+        },
+        {
+          "id": "en-2-23-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий рассказ о походе в зоопарк и ответьте на вопрос (long — длинный):",
+          "passage": "Today Anna and her brother are at the zoo. They see a tall giraffe and a strong tiger. The monkey has a long tail and eats a banana.",
+          "questions": [
+            {
+              "question_ru": "Что ест обезьяна?",
+              "options": ["банан", "яблоко", "сыр", "бутерброд"],
+              "correct_index": 0,
+              "accepted": ["банан", "banana"]
+            }
+          ],
+          "explain_ru": "The monkey... eats a banana — Обезьяна ест банан.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

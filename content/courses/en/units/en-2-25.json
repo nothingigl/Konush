@@ -83,16 +83,416 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-25-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Прогноз (1/2): спросите про погоду и опишите солнечный тёплый день:",
+          "target_text": "What is the weather like? It is sunny and warm.",
+          "translation_ru": "Какая сегодня погода? Солнечно и тепло.",
+          "explain_ru": "What is the weather like? — стандартный вопрос «Какая погода?».",
+          "audio": "en/2-25/sp-01.mp3"
+        },
+        {
+          "id": "en-2-25-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Прогноз (2/2): опишите холодную ветреную и дождливую погоду (windy — ветрено):",
+          "target_text": "It is cold and windy. It rains.",
+          "translation_ru": "Холодно и ветрено. Идёт дождь.",
+          "explain_ru": "В английском про дождь говорят с безличным it: It rains.",
+          "audio": "en/2-25/sp-02.mp3"
+        },
+        {
+          "id": "en-2-25-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что сегодня облачно и прохладно:",
+          "target_text": "Today it is cloudy and cool.",
+          "translation_ru": "Сегодня облачно и прохладно.",
+          "explain_ru": "Cloudy — облачный; cool — прохладный.",
+          "audio": "en/2-25/sp-03.mp3"
+        },
+        {
+          "id": "en-2-25-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что утром у озера туманно:",
+          "target_text": "In the morning it is foggy near the lake.",
+          "translation_ru": "Утром у озера туманно.",
+          "explain_ru": "Foggy — туманный; near the lake — у озера.",
+          "audio": "en/2-25/sp-04.mp3"
+        },
+        {
+          "id": "en-2-25-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что сегодня вечером на море сильная буря:",
+          "target_text": "There is a big storm at sea tonight.",
+          "translation_ru": "Сегодня вечером на море большая буря.",
+          "explain_ru": "Storm — буря, шторм.",
+          "audio": "en/2-25/sp-05.mp3"
+        },
+        {
+          "id": "en-2-25-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про сильный ветер и холодный дождь:",
+          "target_text": "There is strong wind and cold rain.",
+          "translation_ru": "Дует сильный ветер и идёт холодный дождь.",
+          "explain_ru": "Wind — ветер, rain — дождь (неисчисляемые, без артикля a).",
+          "audio": "en/2-25/sp-06.mp3"
+        },
+        {
+          "id": "en-2-25-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что сегодня тёплая температура:",
+          "target_text": "The temperature is warm today.",
+          "translation_ru": "Сегодня тёплая температура.",
+          "explain_ru": "Temperature — температура (воздуха); warm — тёплый.",
+          "audio": "en/2-25/sp-07.mp3"
+        },
+        {
+          "id": "en-2-25-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что в парке лежит белый снег:",
+          "target_text": "There is white snow in the park.",
+          "translation_ru": "В парке лежит белый снег.",
+          "explain_ru": "Snow — снег; конструкция There is используется для указания наличия.",
+          "audio": "en/2-25/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-25-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Холодно (1/2): прослушайте прогноз и ответьте, какая температура (minus — минус):",
+          "transcript": "It is cold today. There is snow and wind. The temperature is minus five.",
+          "options": ["минус 5", "плюс 5", "минус 10", "ноль"],
+          "correct_index": 0,
+          "explain_ru": "The temperature is minus five — Температура минус пять.",
+          "audio": "en/2-25/ls-01.mp3"
+        },
+        {
+          "id": "en-2-25-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Холодно (2/2): что идёт сегодня?",
+          "transcript": "It is cold today. There is snow and wind. The temperature is minus five.",
+          "options": ["снег", "дождь", "буря", "туман"],
+          "correct_index": 0,
+          "explain_ru": "There is snow and wind — Идёт снег и дует ветер.",
+          "audio": "en/2-25/ls-02.mp3"
+        },
+        {
+          "id": "en-2-25-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какая погода на острове?",
+          "transcript": "What is the weather like on the island? It is sunny and warm.",
+          "options": [
+            "солнечная и тёплая",
+            "холодная и туманная",
+            "облачная и прохладная",
+            "дождливая и ветреная"
+          ],
+          "correct_index": 0,
+          "explain_ru": "It is sunny and warm — Солнечно и тепло.",
+          "audio": "en/2-25/ls-03.mp3"
+        },
+        {
+          "id": "en-2-25-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему советуют взять пальто?",
+          "transcript": "Take a coat. It is cloudy and cool this afternoon.",
+          "options": [
+            "днём облачно и прохладно",
+            "на море сильная буря",
+            "идёт сильный снег",
+            "сегодня жарко"
+          ],
+          "correct_index": 0,
+          "explain_ru": "It is cloudy and cool — Облачно и прохладно.",
+          "audio": "en/2-25/ls-04.mp3"
+        },
+        {
+          "id": "en-2-25-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему водитель едет медленно?",
+          "transcript": "It is very foggy today. The driver goes slowly.",
+          "options": [
+            "сегодня очень туманно",
+            "сегодня очень жарко",
+            "на улице многолюдно",
+            "он потерялся"
+          ],
+          "correct_index": 0,
+          "explain_ru": "It is very foggy today — Сегодня очень туманно.",
+          "audio": "en/2-25/ls-05.mp3"
+        },
+        {
+          "id": "en-2-25-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что ожидается сегодня вечером?",
+          "transcript": "There is a storm tonight. There is a lot of rain and wind.",
+          "options": [
+            "буря, много дождя и ветра",
+            "солнце и тепло",
+            "туман и снег",
+            "тихий тёплый вечер"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Storm (буря), a lot of rain and wind (много дождя и ветра).",
+          "audio": "en/2-25/ls-06.mp3"
+        },
+        {
+          "id": "en-2-25-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что герои делают из-за тёплой погоды?",
+          "transcript": "The temperature is warm today, so we relax on the beach.",
+          "options": [
+            "отдыхают на пляже",
+            "сидят дома",
+            "идут в музей",
+            "едут в аэропорт"
+          ],
+          "correct_index": 0,
+          "explain_ru": "We relax on the beach — Мы отдыхаем на пляже.",
+          "audio": "en/2-25/ls-07.mp3"
+        },
+        {
+          "id": "en-2-25-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "It is sunny and warm.",
+          "accepted": ["It is sunny and warm."],
+          "explain_ru": "It is sunny and warm — Солнечно и тепло.",
+          "audio": "en/2-25/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-25-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → слово (1/2): соедините значки погоды со словами:",
+          "pairs": [
+            { "left": "☀️", "right": "sunny" },
+            { "left": "☁️", "right": "cloudy" },
+            { "left": "🌧", "right": "rain" },
+            { "left": "❄️", "right": "snow" }
+          ],
+          "explain_ru": "Sunny — солнечный, cloudy — облачный, rain — дождь, snow — снег.",
+          "audio": null
+        },
+        {
+          "id": "en-2-25-wr-02",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → слово (2/2): соедините значки погоды со словами:",
+          "pairs": [
+            { "left": "🌬", "right": "wind" },
+            { "left": "🌫", "right": "foggy" },
+            { "left": "⛈", "right": "storm" }
+          ],
+          "explain_ru": "Wind — ветер, foggy — туманный, storm — буря.",
+          "audio": null
+        },
+        {
+          "id": "en-2-25-wr-03",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите вопрос «Какая погода?»:",
+          "source_text": "Какая погода?",
+          "bank": ["weather", "what", "the", "is", "like"],
+          "accepted": ["What is the weather like"],
+          "explain_ru": "What is the weather like? — Какая погода?",
+          "audio": null
+        },
+        {
+          "id": "en-2-25-wr-04",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите ошибку в глаголе и напишите верное предложение:",
+          "buggy_text": "It rain today.",
+          "accepted": ["It rains today."],
+          "explain_ru": "После местоимения it к глаголу добавляется окончание -s: It rains today.",
+          "audio": null
+        },
+        {
+          "id": "en-2-25-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о температуре с переводом:",
+          "pairs": [
+            { "left": "cold", "right": "холодный" },
+            { "left": "warm", "right": "тёплый" },
+            { "left": "cool", "right": "прохладный" },
+            { "left": "temperature", "right": "температура" }
+          ],
+          "explain_ru": "Cold — холодный, warm — тёплый, cool — прохладный, temperature — температура.",
+          "audio": null
+        },
+        {
+          "id": "en-2-25-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Облачно и прохладно»:",
+          "source_text": "Облачно и прохладно.",
+          "bank": ["is", "and", "it", "cloudy", "cool"],
+          "accepted": ["It is cloudy and cool", "It is cool and cloudy"],
+          "explain_ru": "It is cloudy and cool — Облачно и прохладно.",
+          "audio": null
+        },
+        {
+          "id": "en-2-25-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "The weather are cold today.",
+          "accepted": ["The weather is cold today."],
+          "explain_ru": "Weather — неисчисляемое слово в единственном числе, поэтому используется is.",
+          "audio": null
+        },
+        {
+          "id": "en-2-25-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Допишите пропущенное слово «буря» по-английски:",
+          "source_text": "There is a big ___ at sea. (буря)",
+          "accepted": ["storm"],
+          "explain_ru": "Storm — буря.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-25-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Времена года: прочитайте текст и ответьте на вопросы (spring — весна, summer — лето, autumn — осень, winter — зима):",
+          "passage": "Spring weather is warm, but sometimes cool. In summer it is sunny. In autumn there is rain and wind. In winter there is snow.",
+          "questions": [
+            {
+              "question_ru": "Когда идёт снег?",
+              "options": ["зимой", "весной", "летом", "осенью"],
+              "correct_index": 0,
+              "accepted": ["зимой", "in winter", "winter"]
+            },
+            {
+              "question_ru": "Когда бывают дождь и ветер?",
+              "options": ["осенью", "летом", "зимой", "весной"],
+              "correct_index": 0,
+              "accepted": ["осенью", "in autumn", "autumn"]
+            }
+          ],
+          "explain_ru": "In winter there is snow — Зимой идёт снег; In autumn there is rain and wind — Осенью бывают дождь и ветер.",
+          "audio": null
+        },
+        {
+          "id": "en-2-25-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «cloudy»:",
+          "question_text": "cloudy",
+          "options": ["облачный", "солнечный", "туманный", "жаркий"],
+          "correct_index": 0,
+          "explain_ru": "Cloudy — облачный.",
+          "audio": null
+        },
+        {
+          "id": "en-2-25-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «foggy»:",
+          "question_text": "foggy",
+          "options": ["туманный", "ветреный", "облачный", "холодный"],
+          "correct_index": 0,
+          "explain_ru": "Foggy — туманный.",
+          "audio": null
+        },
+        {
+          "id": "en-2-25-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «cool» в контексте погоды:",
+          "question_text": "cool",
+          "options": ["прохладный", "жаркий", "тёплый", "туманный"],
+          "correct_index": 0,
+          "explain_ru": "О погоде cool означает «прохладный» (прохладнее, чем warm, но теплее, чем cold).",
+          "audio": null
+        },
+        {
+          "id": "en-2-25-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «storm»:",
+          "question_text": "storm",
+          "options": ["буря", "снег", "ветер", "дождь"],
+          "correct_index": 0,
+          "explain_ru": "Storm — буря, шторм.",
+          "audio": null
+        },
+        {
+          "id": "en-2-25-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «temperature»:",
+          "question_text": "temperature",
+          "options": ["температура", "погода", "прогноз", "буря"],
+          "correct_index": 0,
+          "explain_ru": "Temperature — температура.",
+          "audio": null
+        },
+        {
+          "id": "en-2-25-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «snow»:",
+          "question_text": "snow",
+          "options": ["снег", "дождь", "ветер", "туман"],
+          "correct_index": 0,
+          "explain_ru": "Snow — снег.",
+          "audio": null
+        },
+        {
+          "id": "en-2-25-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий текст о погоде в выходной и ответьте на вопрос:",
+          "passage": "Today is Saturday. The weather is sunny and the temperature is warm. There is no rain and no wind. We have a picnic in the park.",
+          "questions": [
+            {
+              "question_ru": "Какая погода в субботу?",
+              "options": [
+                "солнечная и тёплая",
+                "дождливая и ветреная",
+                "холодная и снежная",
+                "облачная и туманная"
+              ],
+              "correct_index": 0,
+              "accepted": ["солнечная и тёплая", "солнечно и тепло"]
+            }
+          ],
+          "explain_ru": "The weather is sunny and the temperature is warm — Солнечная и тёплая погода.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

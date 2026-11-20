@@ -10,16 +10,203 @@
   "words": [],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-boss-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "За 60 секунд спланируйте поездку (1/2): расскажите про отпуск, отель и чемодан:",
+          "target_text": "I want to go on vacation. I book a hotel. I pack my suitcase.",
+          "translation_ru": "Я хочу поехать в отпуск. Я бронирую отель. Я упаковываю свой чемодан.",
+          "explain_ru": "Соединяет лексику юнитов 2.15 (pack), 2.19 (vacation, suitcase) и 2.26 (book).",
+          "audio": "en/2-boss/sp-01.mp3"
+        },
+        {
+          "id": "en-2-boss-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "За 60 секунд спланируйте поездку (2/2): скажите о погоде и попросите помочь с картой:",
+          "target_text": "The weather is warm. Could you help me with the map?",
+          "translation_ru": "Погода тёплая. Не могли бы вы помочь мне с картой?",
+          "explain_ru": "Объединяет юниты 2.25 (weather, warm), 2.3 (Could you help me?) и 2.7 (map).",
+          "audio": "en/2-boss/sp-02.mp3"
+        },
+        {
+          "id": "en-2-boss-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Заселитесь в отель на стойке регистрации:",
+          "target_text": "Hello, I have a reservation. I would like a single room for two nights.",
+          "translation_ru": "Здравствуйте, у меня бронь. Я бы хотел одноместный номер на две ночи.",
+          "explain_ru": "Повторяем юнит 2.8 (бронь отеля): reservation, single room, nights.",
+          "audio": "en/2-boss/sp-03.mp3"
+        },
+        {
+          "id": "en-2-boss-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите о помощи в незнакомом городе (station — вокзал):",
+          "target_text": "Excuse me, can you help me? Where is the train station? Could you speak slowly, please?",
+          "translation_ru": "Простите, вы можете мне помочь? Где железнодорожный вокзал? Не могли бы вы говорить медленно, пожалуйста?",
+          "explain_ru": "Повторяем вежливые просьбы из юнита 2.3 и транспорт из юнита 2.7.",
+          "audio": "en/2-boss/sp-04.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-boss-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Прослушайте объявление о поездке (1/2): во сколько отправляется поезд?",
+          "transcript": "The train leaves at eight. The hotel room is on the third floor. Breakfast is at seven. The weather is sunny.",
+          "options": ["в 8 часов", "в 7 часов", "в 9 часов", "в 10 часов"],
+          "correct_index": 0,
+          "explain_ru": "The train leaves at eight — Поезд отправляется в восемь.",
+          "audio": "en/2-boss/ls-01.mp3"
+        },
+        {
+          "id": "en-2-boss-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Прослушайте объявление о поездке (2/2): на каком этаже номер в отеле?",
+          "transcript": "The train leaves at eight. The hotel room is on the third floor. Breakfast is at seven. The weather is sunny.",
+          "options": ["на 3-м этаже", "на 1-м этаже", "на 2-м этаже", "на 4-м этаже"],
+          "correct_index": 0,
+          "explain_ru": "On the third floor — на третьем этаже.",
+          "audio": "en/2-boss/ls-02.mp3"
+        },
+        {
+          "id": "en-2-boss-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите вопрос по-английски:",
+          "transcript": "How much is the ticket?",
+          "accepted": ["How much is the ticket?"],
+          "explain_ru": "How much is the ticket? — Сколько стоит билет?",
+          "audio": "en/2-boss/ls-03.mp3"
+        },
+        {
+          "id": "en-2-boss-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какие документы уже есть у путешественников?",
+          "transcript": "Our destination is a small island. We depart on Monday morning. We have our passports, a visa and insurance.",
+          "options": [
+            "паспорта, виза и страховка",
+            "билеты, чек и карта",
+            "ключ, полотенце и чемодан",
+            "тетрадь, книга и меню"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Passports (паспорта), a visa (виза), insurance (страховка).",
+          "audio": "en/2-boss/ls-04.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-boss-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Переведите на английский (1/3): «Я бы хотел одноместный номер на две ночи.»",
+          "source_text": "Я бы хотел одноместный номер на две ночи.",
+          "accepted": ["I would like a single room for two nights."],
+          "explain_ru": "I would like a single room (юнит 2.8) + for two nights (на две ночи).",
+          "audio": null
+        },
+        {
+          "id": "en-2-boss-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Переведите на английский (2/3): «Сколько стоит билет?»",
+          "source_text": "Сколько стоит билет?",
+          "accepted": ["How much is the ticket?"],
+          "explain_ru": "How much is... (юнит 2.13) + the ticket (юнит 2.7).",
+          "audio": null
+        },
+        {
+          "id": "en-2-boss-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Переведите на английский (3/3): «Не могли бы вы повторить?»",
+          "source_text": "Не могли бы вы повторить?",
+          "accepted": ["Could you repeat that, please?", "Could you repeat that?"],
+          "explain_ru": "Could you repeat that, please? — вежливая просьба из юнита 2.3.",
+          "audio": null
+        },
+        {
+          "id": "en-2-boss-wr-04",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении:",
+          "buggy_text": "The train arrive at ten o'clock.",
+          "accepted": ["The train arrives at ten o'clock."],
+          "explain_ru": "The train = it, поэтому к глаголу добавляется окончание -s: arrives.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-boss-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Прочитайте рассказ о поездке Анны и ответьте на вопрос:",
+          "passage": "Anna plans a trip. She books the tickets, packs a suitcase and buys souvenirs. The weather is cold, so she takes a coat.",
+          "questions": [
+            {
+              "question_ru": "Что Анна берёт с собой из-за погоды?",
+              "options": ["пальто", "купальник", "крем от загара", "плед"],
+              "correct_index": 0,
+              "accepted": ["пальто", "coat", "a coat"]
+            }
+          ],
+          "explain_ru": "The weather is cold, so she takes a coat — Погода холодная, поэтому она берёт пальто.",
+          "audio": null
+        },
+        {
+          "id": "en-2-boss-rd-02",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте рассказ об отпуске Тома и ответьте на вопрос:",
+          "passage": "Tom has a vacation next week. On Monday he departs from the airport and arrives at a resort near the sea. The weather is sunny and warm. In the evening he goes to a concert and pays by card.",
+          "questions": [
+            {
+              "question_ru": "Какая погода на курорте?",
+              "options": [
+                "солнечная и тёплая",
+                "холодная и туманная",
+                "дождливая и ветреная",
+                "облачная и прохладная"
+              ],
+              "correct_index": 0,
+              "accepted": ["солнечная и тёплая", "солнечно и тепло", "sunny and warm"]
+            }
+          ],
+          "explain_ru": "The weather is sunny and warm — Погода солнечная и тёплая.",
+          "audio": null
+        },
+        {
+          "id": "en-2-boss-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Финальный вопрос босса Модуля 2: выберите правильный вопрос о погоде:",
+          "question_text": "Какая погода?",
+          "options": [
+            "What is the weather like?",
+            "How much is the weather?",
+            "Where is the weather from?",
+            "What do you weather?"
+          ],
+          "correct_index": 0,
+          "explain_ru": "What is the weather like? — правильный вопрос о погоде (юнит 2.25).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

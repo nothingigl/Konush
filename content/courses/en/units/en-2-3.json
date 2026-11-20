@@ -83,16 +83,418 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-3-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Потерялся (1/2): попросите о помощи на улице:",
+          "target_text": "Excuse me, can you help me? I am lost.",
+          "translation_ru": "Простите, вы можете мне помочь? Я заблудился / заблудилась.",
+          "explain_ru": "Excuse me — вежливое обращение; I am lost — я заблудился.",
+          "audio": "en/2-3/sp-01.mp3"
+        },
+        {
+          "id": "en-2-3-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Потерялся (2/2): попросите говорить медленнее и повторить:",
+          "target_text": "Could you speak slowly, please? Could you repeat that?",
+          "translation_ru": "Не могли бы вы говорить медленно, пожалуйста? Не могли бы вы повторить это?",
+          "explain_ru": "Could you — более вежливая форма просьбы, чем Can you.",
+          "audio": "en/2-3/sp-02.mp3"
+        },
+        {
+          "id": "en-2-3-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас проблема и вам нужна помощь:",
+          "target_text": "I have a problem. I need help.",
+          "translation_ru": "У меня проблема. Мне нужна помощь.",
+          "explain_ru": "Problem — проблема, need — нуждаться.",
+          "audio": "en/2-3/sp-03.mp3"
+        },
+        {
+          "id": "en-2-3-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы не знаете:",
+          "target_text": "Sorry, I don't know where the park is.",
+          "translation_ru": "Извините, я не знаю, где парк.",
+          "explain_ru": "I don't know — я не знаю (сокращение от I do not know).",
+          "audio": "en/2-3/sp-04.mp3"
+        },
+        {
+          "id": "en-2-3-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите повторить снова:",
+          "target_text": "Can you repeat that again, please?",
+          "translation_ru": "Можешь повторить это снова, пожалуйста?",
+          "explain_ru": "Repeat — повторять, again — снова.",
+          "audio": "en/2-3/sp-05.mp3"
+        },
+        {
+          "id": "en-2-3-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы не понимаете:",
+          "target_text": "Sorry, I do not understand. Please speak slowly.",
+          "translation_ru": "Извините, я не понимаю. Пожалуйста, говорите медленно.",
+          "explain_ru": "Understand — понимать, speak slowly — говорить медленно.",
+          "audio": "en/2-3/sp-06.mp3"
+        },
+        {
+          "id": "en-2-3-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Вежливо спросите, не могли бы вам помочь:",
+          "target_text": "Could you help my friend, please?",
+          "translation_ru": "Не могли бы вы помочь моему другу, пожалуйста?",
+          "explain_ru": "Could you help... — Не могли бы вы помочь...",
+          "audio": "en/2-3/sp-07.mp3"
+        },
+        {
+          "id": "en-2-3-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы понимаете сейчас, но не знаете имя:",
+          "target_text": "I understand, thank you, but I don't know his name.",
+          "translation_ru": "Я понимаю, спасибо, но я не знаю его имени.",
+          "explain_ru": "I understand — я понимаю; I don't know — я не знаю.",
+          "audio": "en/2-3/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-3-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Просьба (1/2): прослушайте скрипт и ответьте, что нужно человеку:",
+          "transcript": "Excuse me, I need help. I do not understand. Can you speak slowly, please?",
+          "options": ["помощь", "вода", "меню", "счёт"],
+          "correct_index": 0,
+          "explain_ru": "I need help — Мне нужна помощь.",
+          "audio": "en/2-3/ls-01.mp3"
+        },
+        {
+          "id": "en-2-3-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Просьба (2/2): о чём просит человек?",
+          "transcript": "Excuse me, I need help. I do not understand. Can you speak slowly, please?",
+          "options": [
+            "говорить медленнее",
+            "пойти в ресторан",
+            "назвать имя",
+            "покормить собаку"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Can you speak slowly, please? — Можете говорить медленно, пожалуйста?",
+          "audio": "en/2-3/ls-02.mp3"
+        },
+        {
+          "id": "en-2-3-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что случилось с Томом?",
+          "transcript": "Tom is lost in the big city. He has a problem.",
+          "options": [
+            "он заблудился в большом городе",
+            "он голоден",
+            "он ищет ресторан",
+            "он опоздал в школу"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Lost — заблудившийся; problem — проблема.",
+          "audio": "en/2-3/ls-03.mp3"
+        },
+        {
+          "id": "en-2-3-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О чём просит Анна?",
+          "transcript": "Could you repeat the street name again, please?",
+          "options": [
+            "повторить название улицы снова",
+            "написать своё имя",
+            "принести кофе",
+            "показать парк"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Repeat ... again — повторить снова.",
+          "audio": "en/2-3/ls-04.mp3"
+        },
+        {
+          "id": "en-2-3-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Знает ли собеседник, где больница?",
+          "transcript": "Sorry, I don't know where the hospital is. I am not from this city.",
+          "options": [
+            "нет, он не знает",
+            "да, она рядом с парком",
+            "да, он там работает",
+            "нет, больницы нет"
+          ],
+          "correct_index": 0,
+          "explain_ru": "I don't know — Я не знаю.",
+          "audio": "en/2-3/ls-05.mp3"
+        },
+        {
+          "id": "en-2-3-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кому нужна помощь?",
+          "transcript": "My grandmother needs help. Can you help her?",
+          "options": ["бабушке", "дедушке", "учителю", "соседу"],
+          "correct_index": 0,
+          "explain_ru": "My grandmother needs help — Моей бабушке нужна помощь.",
+          "audio": "en/2-3/ls-06.mp3"
+        },
+        {
+          "id": "en-2-3-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что отвечает учитель ученику?",
+          "transcript": "No problem! I can speak slowly and repeat it again.",
+          "options": [
+            "без проблем, он скажет медленно и повторит снова",
+            "он очень занят",
+            "он не понимает",
+            "он не знает ответа"
+          ],
+          "correct_index": 0,
+          "explain_ru": "No problem — без проблем; speak slowly — говорить медленно; repeat it again — повторить это снова.",
+          "audio": "en/2-3/ls-07.mp3"
+        },
+        {
+          "id": "en-2-3-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I don't know.",
+          "accepted": ["I don't know."],
+          "explain_ru": "I don't know — Я не знаю.",
+          "audio": "en/2-3/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-3-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите вежливую просьбу «Не могли бы вы повторить это, пожалуйста?»:",
+          "source_text": "Не могли бы вы повторить это, пожалуйста?",
+          "bank": ["repeat", "that", "you", "could", "please"],
+          "accepted": ["Could you repeat that please"],
+          "explain_ru": "Вежливый вопрос строится по схеме: Could + you + глагол (repeat) + that + please.",
+          "audio": null
+        },
+        {
+          "id": "en-2-3-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в предложении «Я не понимаю»:",
+          "buggy_text": "I no understand.",
+          "accepted": ["I do not understand.", "I don't understand."],
+          "explain_ru": "Отрицание с обычным глаголом строится через do not (don't), а не no.",
+          "audio": null
+        },
+        {
+          "id": "en-2-3-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Вежливее: переделайте просьбу «Can you help me?» в более вежливую с Could you и please:",
+          "source_text": "Can you help me? → ___",
+          "accepted": ["Could you help me, please?"],
+          "explain_ru": "Could you help me, please? звучит гораздо вежливее, чем Can you help me?.",
+          "audio": null
+        },
+        {
+          "id": "en-2-3-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "help", "right": "помочь, помощь" },
+            { "left": "problem", "right": "проблема" },
+            { "left": "need", "right": "нуждаться" },
+            { "left": "lost", "right": "заблудившийся" }
+          ],
+          "explain_ru": "Help — помощь, problem — проблема, need — нуждаться, lost — заблудившийся.",
+          "audio": null
+        },
+        {
+          "id": "en-2-3-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова и фразы с переводом:",
+          "pairs": [
+            { "left": "understand", "right": "понимать" },
+            { "left": "repeat", "right": "повторять" },
+            { "left": "slowly", "right": "медленно" },
+            { "left": "again", "right": "снова" }
+          ],
+          "explain_ru": "Understand — понимать, repeat — повторять, slowly — медленно, again — снова.",
+          "audio": null
+        },
+        {
+          "id": "en-2-3-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите просьбу «Можешь говорить медленно?»:",
+          "source_text": "Можешь говорить медленно?",
+          "bank": ["slowly", "can", "speak", "you"],
+          "accepted": ["Can you speak slowly"],
+          "explain_ru": "Can you speak slowly? — Можешь говорить медленно?",
+          "audio": null
+        },
+        {
+          "id": "en-2-3-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении «У него есть проблема»:",
+          "buggy_text": "He have a problem.",
+          "accepted": ["He has a problem."],
+          "explain_ru": "С he используется форма has: He has a problem.",
+          "audio": null
+        },
+        {
+          "id": "en-2-3-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски «я не знаю» (в краткой форме с апострофом):",
+          "source_text": "я не знаю",
+          "accepted": ["I don't know"],
+          "explain_ru": "I don't know — я не знаю.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-3-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "В городе: прочитайте текст (station — «вокзал», of course — «конечно», near — «рядом») и ответьте на вопросы:",
+          "passage": "A woman is lost in the city. She asks a man: \"Excuse me, can you help me? I need the station.\" He says: \"Yes, of course. It is near.\"",
+          "questions": [
+            {
+              "question_ru": "Что нужно женщине?",
+              "options": ["вокзал", "школа", "больница", "ресторан"],
+              "correct_index": 0,
+              "accepted": ["вокзал", "the station", "station"]
+            },
+            {
+              "question_ru": "Что отвечает мужчина?",
+              "options": [
+                "Да, конечно, это рядом",
+                "Извините, я не знаю",
+                "Повторите, пожалуйста",
+                "Я тоже заблудился"
+              ],
+              "correct_index": 0,
+              "accepted": ["Да, конечно, это рядом", "Yes, of course. It is near."]
+            }
+          ],
+          "explain_ru": "I need the station — Мне нужен вокзал; Yes, of course. It is near — Да, конечно. Это рядом.",
+          "audio": null
+        },
+        {
+          "id": "en-2-3-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «can you»:",
+          "question_text": "can you",
+          "options": ["можешь ли ты", "я не знаю", "повторять", "медленно"],
+          "correct_index": 0,
+          "explain_ru": "Can you — можешь ли ты / можете ли вы.",
+          "audio": null
+        },
+        {
+          "id": "en-2-3-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «could you»:",
+          "question_text": "could you",
+          "options": ["не могли бы вы", "я не знаю", "нуждаться", "понимать"],
+          "correct_index": 0,
+          "explain_ru": "Could you — не могли бы вы (вежливая просьба).",
+          "audio": null
+        },
+        {
+          "id": "en-2-3-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «speak»:",
+          "question_text": "speak",
+          "options": ["говорить", "понимать", "повторять", "нуждаться"],
+          "correct_index": 0,
+          "explain_ru": "Speak — говорить.",
+          "audio": null
+        },
+        {
+          "id": "en-2-3-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «again»:",
+          "question_text": "again",
+          "options": ["снова", "медленно", "вместе", "рядом"],
+          "correct_index": 0,
+          "explain_ru": "Again — снова, ещё раз.",
+          "audio": null
+        },
+        {
+          "id": "en-2-3-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «problem»:",
+          "question_text": "problem",
+          "options": ["проблема", "помощь", "улица", "просьба"],
+          "correct_index": 0,
+          "explain_ru": "Problem — проблема.",
+          "audio": null
+        },
+        {
+          "id": "en-2-3-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «I don't know»:",
+          "question_text": "I don't know",
+          "options": ["я не знаю", "я не понимаю", "я заблудился", "мне нужна помощь"],
+          "correct_index": 0,
+          "explain_ru": "I don't know — я не знаю.",
+          "audio": null
+        },
+        {
+          "id": "en-2-3-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте мини-диалог и ответьте на вопрос:",
+          "passage": "Ali: Excuse me, where is the shop? Max: Sorry, I don't know. Ali: Could you speak slowly, please? Max: Yes. I do not live here.",
+          "questions": [
+            {
+              "question_ru": "Почему Макс не знает, где магазин?",
+              "options": [
+                "он здесь не живёт",
+                "он не понимает Али",
+                "магазин закрыт",
+                "он спешит домой"
+              ],
+              "correct_index": 0,
+              "accepted": ["он здесь не живёт", "I do not live here"]
+            }
+          ],
+          "explain_ru": "I do not live here — Я здесь не живу.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

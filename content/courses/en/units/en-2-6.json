@@ -83,16 +83,401 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-6-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мой день (1/2): расскажите, когда вы просыпаетесь и когда начинается урок:",
+          "target_text": "I wake up at seven o'clock. My class starts at nine.",
+          "translation_ru": "Я просыпаюсь в семь часов ровно. Мой урок начинается в девять.",
+          "explain_ru": "Перед точным временем ставится предлог at: at seven o'clock, at nine.",
+          "audio": "en/2-6/sp-01.mp3"
+        },
+        {
+          "id": "en-2-6-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мой день (2/2): расскажите про окончание дня и вечер:",
+          "target_text": "I finish at five. In the evening I read.",
+          "translation_ru": "Я заканчиваю в пять. Вечером я читаю.",
+          "explain_ru": "In the evening — вечером; finish — заканчивать.",
+          "audio": "en/2-6/sp-02.mp3"
+        },
+        {
+          "id": "en-2-6-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы просыпаетесь рано утром:",
+          "target_text": "I wake up early in the morning.",
+          "translation_ru": "Я просыпаюсь рано утром.",
+          "explain_ru": "Early — рано, in the morning — утром.",
+          "audio": "en/2-6/sp-03.mp3"
+        },
+        {
+          "id": "en-2-6-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про встречу после полудня:",
+          "target_text": "I have a meeting in the afternoon.",
+          "translation_ru": "У меня встреча после полудня.",
+          "explain_ru": "Meeting — встреча, in the afternoon — после полудня (днём).",
+          "audio": "en/2-6/sp-04.mp3"
+        },
+        {
+          "id": "en-2-6-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы заканчиваете поздно вечером:",
+          "target_text": "Today I finish late in the evening.",
+          "translation_ru": "Сегодня я заканчиваю поздно вечером.",
+          "explain_ru": "Late — поздно.",
+          "audio": "en/2-6/sp-05.mp3"
+        },
+        {
+          "id": "en-2-6-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что эта неделя очень загруженная:",
+          "target_text": "This week is very busy.",
+          "translation_ru": "Эта неделя очень загруженная.",
+          "explain_ru": "Week — неделя, busy — занятой / загруженный.",
+          "audio": "en/2-6/sp-06.mp3"
+        },
+        {
+          "id": "en-2-6-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, когда начинается встреча:",
+          "target_text": "The meeting starts at ten o'clock.",
+          "translation_ru": "Встреча начинается в десять часов ровно.",
+          "explain_ru": "Start — начинать; с meeting используется форма starts.",
+          "audio": "en/2-6/sp-07.mp3"
+        },
+        {
+          "id": "en-2-6-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваш урок заканчивается рано:",
+          "target_text": "My class finishes early in the afternoon.",
+          "translation_ru": "Мой урок заканчивается рано после полудня.",
+          "explain_ru": "Finish в 3-м лице ед. ч. получает -es: finishes.",
+          "audio": "en/2-6/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-6-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Расписание (1/2): прослушайте скрипт (Monday — «понедельник», Tuesday — «вторник») и ответьте, когда встреча:",
+          "transcript": "The meeting is on Monday at ten o'clock. The class is on Tuesday at two.",
+          "options": [
+            "в понедельник в 10",
+            "во вторник в 2",
+            "в понедельник в 2",
+            "во вторник в 10"
+          ],
+          "correct_index": 0,
+          "explain_ru": "The meeting is on Monday at ten o'clock — Встреча в понедельник в 10 часов.",
+          "audio": "en/2-6/ls-01.mp3"
+        },
+        {
+          "id": "en-2-6-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Расписание (2/2): когда урок?",
+          "transcript": "The meeting is on Monday at ten o'clock. The class is on Tuesday at two.",
+          "options": [
+            "во вторник в 2",
+            "в понедельник в 10",
+            "в среду в 3",
+            "в пятницу в 9"
+          ],
+          "correct_index": 0,
+          "explain_ru": "The class is on Tuesday at two — Урок во вторник в 2.",
+          "audio": "en/2-6/ls-02.mp3"
+        },
+        {
+          "id": "en-2-6-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Когда Анна ходит в парк?",
+          "transcript": "In the morning Anna has a class. In the afternoon she walks in the park.",
+          "options": ["после полудня", "утром", "поздно вечером", "ночью"],
+          "correct_index": 0,
+          "explain_ru": "In the afternoon — после полудня (днём).",
+          "audio": "en/2-6/ls-03.mp3"
+        },
+        {
+          "id": "en-2-6-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Рано или поздно просыпается Том?",
+          "transcript": "Tom wakes up late, at eleven o'clock.",
+          "options": ["поздно, в 11 часов", "рано, в 6 часов", "в 7 часов", "в 9 часов"],
+          "correct_index": 0,
+          "explain_ru": "Late — поздно; eleven o'clock — одиннадцать часов.",
+          "audio": "en/2-6/ls-04.mp3"
+        },
+        {
+          "id": "en-2-6-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что делает Кейт каждый вечер?",
+          "transcript": "In the evening Kate cooks dinner and watches movies.",
+          "options": [
+            "готовит ужин и смотрит фильмы",
+            "идёт на встречу",
+            "просыпается рано",
+            "играет в футбол"
+          ],
+          "correct_index": 0,
+          "explain_ru": "In the evening — вечером; cooks dinner — готовит ужин (watches — «смотрит»).",
+          "audio": "en/2-6/ls-05.mp3"
+        },
+        {
+          "id": "en-2-6-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Сколько встреч у коллеги на этой неделе?",
+          "transcript": "My colleague has three meetings this week. He is very busy.",
+          "options": ["три встречи", "одна встреча", "две встречи", "пять встреч"],
+          "correct_index": 0,
+          "explain_ru": "Three meetings this week — три встречи на этой неделе.",
+          "audio": "en/2-6/ls-06.mp3"
+        },
+        {
+          "id": "en-2-6-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Во сколько заканчивается урок?",
+          "transcript": "Our class starts at one and finishes at three o'clock.",
+          "options": ["в три часа", "в час", "в два часа", "в пять часов"],
+          "correct_index": 0,
+          "explain_ru": "Finishes at three o'clock — заканчивается в три часа.",
+          "audio": "en/2-6/ls-07.mp3"
+        },
+        {
+          "id": "en-2-6-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I wake up early.",
+          "accepted": ["I wake up early."],
+          "explain_ru": "I wake up early — Я просыпаюсь рано.",
+          "audio": "en/2-6/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-6-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "at / on / in (1/3): впишите правильный предлог перед днём недели (Monday — «понедельник»):",
+          "source_text": "The meeting is ___ Monday.",
+          "accepted": ["on"],
+          "explain_ru": "С днями недели всегда используется предлог on: on Monday.",
+          "audio": null
+        },
+        {
+          "id": "en-2-6-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "at / on / in (2/3): впишите правильный предлог перед точным временем:",
+          "source_text": "The class starts ___ nine o'clock.",
+          "accepted": ["at"],
+          "explain_ru": "С точным временем всегда используется предлог at: at nine o'clock.",
+          "audio": null
+        },
+        {
+          "id": "en-2-6-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "at / on / in (3/3): впишите правильный предлог перед частью дня (work — «работать»):",
+          "source_text": "I work ___ the morning.",
+          "accepted": ["in"],
+          "explain_ru": "С частями дня (morning, afternoon, evening) используется предлог in: in the morning.",
+          "audio": null
+        },
+        {
+          "id": "en-2-6-wr-04",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Я просыпаюсь в семь»:",
+          "source_text": "Я просыпаюсь в семь.",
+          "bank": ["at", "wake", "seven", "I", "up"],
+          "accepted": ["I wake up at seven"],
+          "explain_ru": "Wake up — просыпаться; at seven — в семь.",
+          "audio": null
+        },
+        {
+          "id": "en-2-6-wr-05",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг с предлогом времени:",
+          "buggy_text": "I start work in nine o'clock.",
+          "accepted": ["I start work at nine o'clock."],
+          "explain_ru": "Перед точным часом нужен предлог at, а не in: at nine o'clock.",
+          "audio": null
+        },
+        {
+          "id": "en-2-6-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините части дня и слова времени с переводом:",
+          "pairs": [
+            { "left": "morning", "right": "утро" },
+            { "left": "afternoon", "right": "время после полудня" },
+            { "left": "evening", "right": "вечер" },
+            { "left": "week", "right": "неделя" }
+          ],
+          "explain_ru": "Morning — утро, afternoon — время после полудня, evening — вечер, week — неделя.",
+          "audio": null
+        },
+        {
+          "id": "en-2-6-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова-антонимы:",
+          "pairs": [
+            { "left": "early", "right": "late" },
+            { "left": "start", "right": "finish" },
+            { "left": "morning", "right": "evening" },
+            { "left": "big", "right": "small" }
+          ],
+          "explain_ru": "Early ↔ late (рано ↔ поздно), start ↔ finish (начинать ↔ заканчивать).",
+          "audio": null
+        },
+        {
+          "id": "en-2-6-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «поздно» на английский:",
+          "source_text": "поздно",
+          "accepted": ["late"],
+          "explain_ru": "Late — поздно.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-6-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Неделя: прочитайте расписание (Monday — «понедельник», Wednesday — «среда», Friday — «пятница») и ответьте на вопросы:",
+          "passage": "My week: Monday — class at 9. Wednesday — meeting at 3. Friday — I finish early.",
+          "questions": [
+            {
+              "question_ru": "Когда встреча?",
+              "options": [
+                "в среду в 3",
+                "в понедельник в 9",
+                "в пятницу в 3",
+                "во вторник в 2"
+              ],
+              "correct_index": 0,
+              "accepted": ["в среду в 3", "Wednesday at 3"]
+            },
+            {
+              "question_ru": "Когда автор заканчивает рано?",
+              "options": ["в пятницу", "в понедельник", "в среду", "каждый день"],
+              "correct_index": 0,
+              "accepted": ["в пятницу", "Friday"]
+            }
+          ],
+          "explain_ru": "Wednesday — meeting at 3 (встреча в среду в 3); Friday — I finish early (в пятницу заканчиваю рано).",
+          "audio": null
+        },
+        {
+          "id": "en-2-6-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «afternoon»:",
+          "question_text": "afternoon",
+          "options": ["время после полудня", "утро", "вечер", "неделя"],
+          "correct_index": 0,
+          "explain_ru": "Afternoon — время после полудня (день).",
+          "audio": null
+        },
+        {
+          "id": "en-2-6-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «wake up»:",
+          "question_text": "wake up",
+          "options": ["просыпаться", "начинать", "заканчивать", "гулять"],
+          "correct_index": 0,
+          "explain_ru": "Wake up — просыпаться.",
+          "audio": null
+        },
+        {
+          "id": "en-2-6-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «o'clock»:",
+          "question_text": "o'clock",
+          "options": ["час ровно", "неделя", "урок", "встреча"],
+          "correct_index": 0,
+          "explain_ru": "O'clock используется для обозначения ровного часа: seven o'clock.",
+          "audio": null
+        },
+        {
+          "id": "en-2-6-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «meeting»:",
+          "question_text": "meeting",
+          "options": ["встреча", "урок", "неделя", "офис"],
+          "correct_index": 0,
+          "explain_ru": "Meeting — встреча.",
+          "audio": null
+        },
+        {
+          "id": "en-2-6-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «class»:",
+          "question_text": "class",
+          "options": ["урок", "встреча", "школа", "учитель"],
+          "correct_index": 0,
+          "explain_ru": "Class — урок, занятие.",
+          "audio": null
+        },
+        {
+          "id": "en-2-6-rd-07",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте части дня по порядку (от начала дня к концу):",
+          "items_shuffled": ["evening", "morning", "afternoon"],
+          "correct_order": ["morning", "afternoon", "evening"],
+          "explain_ru": "Сначала morning (утро), затем afternoon (время после полудня), затем evening (вечер).",
+          "audio": null
+        },
+        {
+          "id": "en-2-6-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку о дне Али и ответьте на вопрос:",
+          "passage": "Ali wakes up at six o'clock. He has breakfast early. His meeting starts at ten in the morning and finishes at twelve.",
+          "questions": [
+            {
+              "question_ru": "Во сколько начинается встреча Али?",
+              "options": ["в 10 утра", "в 6 утра", "в 12 дня", "в 5 вечера"],
+              "correct_index": 0,
+              "accepted": ["в 10 утра", "at ten"]
+            }
+          ],
+          "explain_ru": "His meeting starts at ten in the morning — Его встреча начинается в 10 утра.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

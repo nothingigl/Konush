@@ -83,16 +83,403 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-15-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Скоро переезд: расскажите о переезде в новую квартиру:",
+          "target_text": "I move to a new apartment next week. I pack boxes every evening. The rent is cheap.",
+          "translation_ru": "Я переезжаю в новую квартиру на следующей неделе. Я упаковываю коробки каждый вечер. Аренда дешёвая.",
+          "explain_ru": "Move to a new apartment — переезжать в новую квартиру; pack boxes — упаковывать коробки.",
+          "audio": "en/2-15/sp-01.mp3"
+        },
+        {
+          "id": "en-2-15-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы съезжаете в пятницу:",
+          "target_text": "We move out on Friday morning.",
+          "translation_ru": "Мы съезжаем в пятницу утром.",
+          "explain_ru": "Move out — съезжать (из квартиры или дома).",
+          "audio": "en/2-15/sp-02.mp3"
+        },
+        {
+          "id": "en-2-15-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваш новый дом рядом с парком:",
+          "target_text": "Our new home is near the park.",
+          "translation_ru": "Наш новый дом рядом с парком.",
+          "explain_ru": "New home — новый дом (жилище, родной дом).",
+          "audio": "en/2-15/sp-03.mp3"
+        },
+        {
+          "id": "en-2-15-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про старую мебель и большой диван:",
+          "target_text": "The apartment has nice furniture and a big sofa.",
+          "translation_ru": "В квартире хорошая мебель и большой диван.",
+          "explain_ru": "Слово furniture неисчисляемое, артикль a с ним не используется.",
+          "audio": "en/2-15/sp-04.mp3"
+        },
+        {
+          "id": "en-2-15-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что арендодатель даёт вам ключ:",
+          "target_text": "The landlord gives us the key to the apartment.",
+          "translation_ru": "Арендодатель даёт нам ключ от квартиры.",
+          "explain_ru": "Landlord — арендодатель (хозяин сдаваемого жилья).",
+          "audio": "en/2-15/sp-05.mp3"
+        },
+        {
+          "id": "en-2-15-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что грузовик ждёт на улице:",
+          "target_text": "The big truck is on the street.",
+          "translation_ru": "Большой грузовик на улице.",
+          "explain_ru": "Truck — грузовик.",
+          "audio": "en/2-15/sp-06.mp3"
+        },
+        {
+          "id": "en-2-15-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите свой новый адрес:",
+          "target_text": "My new address is ten Park Street.",
+          "translation_ru": "Мой новый адрес — Парк-стрит, дом десять.",
+          "explain_ru": "В английском адресе номер дома обычно ставится перед названием улицы.",
+          "audio": "en/2-15/sp-07.mp3"
+        },
+        {
+          "id": "en-2-15-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы кладёте книги в большую коробку:",
+          "target_text": "I pack my books in a big box.",
+          "translation_ru": "Я упаковываю свои книги в большую коробку.",
+          "explain_ru": "Pack — упаковывать; box — коробка.",
+          "audio": "en/2-15/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-15-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "День переезда (1/2): прослушайте скрипт и ответьте, во сколько приезжает грузовик:",
+          "transcript": "The truck comes at nine. We pack the boxes and the sofa. The new address is five Green Street.",
+          "options": ["в 9", "в 5", "в 8", "в 10"],
+          "correct_index": 0,
+          "explain_ru": "The truck comes at nine — Грузовик приезжает в девять.",
+          "audio": "en/2-15/ls-01.mp3"
+        },
+        {
+          "id": "en-2-15-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "День переезда (2/2): что они упаковали?",
+          "transcript": "The truck comes at nine. We pack the boxes and the sofa. The new address is five Green Street.",
+          "options": [
+            "коробки и диван",
+            "кровать и полотенца",
+            "компьютер и принтер",
+            "цветы и свечи"
+          ],
+          "correct_index": 0,
+          "explain_ru": "We pack the boxes and the sofa — Мы упаковываем коробки и диван.",
+          "audio": "en/2-15/ls-02.mp3"
+        },
+        {
+          "id": "en-2-15-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Алекс съезжает из старой квартиры?",
+          "transcript": "Alex wants to move out because the rent is very expensive.",
+          "options": [
+            "аренда очень дорогая",
+            "квартира слишком большая",
+            "грузовик не приехал",
+            "сосед переезжает"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Move out — съезжать; the rent is very expensive — аренда очень дорогая.",
+          "audio": "en/2-15/ls-03.mp3"
+        },
+        {
+          "id": "en-2-15-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что уже есть в новом доме Сары?",
+          "transcript": "Sara likes her new home. There is new furniture in the room and a nice sofa.",
+          "options": [
+            "новая мебель и хороший диван",
+            "старый принтер и рабочий стол",
+            "корзина и пакеты",
+            "большая библиотека"
+          ],
+          "correct_index": 0,
+          "explain_ru": "New furniture and a nice sofa — новая мебель и хороший диван.",
+          "audio": "en/2-15/ls-04.mp3"
+        },
+        {
+          "id": "en-2-15-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кому Том звонит по поводу адреса и ключей?",
+          "transcript": "Tom talks to his new landlord. The landlord gives him the address and the key.",
+          "options": ["новому арендодателю", "кассиру", "начальнику", "учителю"],
+          "correct_index": 0,
+          "explain_ru": "His new landlord — его новый арендодатель.",
+          "audio": "en/2-15/ls-05.mp3"
+        },
+        {
+          "id": "en-2-15-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что лежит в маленькой коробке?",
+          "transcript": "I pack my sweater and shoes in one small box.",
+          "options": ["свитер и туфли", "диван и стол", "хлеб и масло", "цветы и торт"],
+          "correct_index": 0,
+          "explain_ru": "Sweater and shoes in one small box — свитер и туфли в одной маленькой коробке.",
+          "audio": "en/2-15/ls-06.mp3"
+        },
+        {
+          "id": "en-2-15-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где находится новая квартира Анны?",
+          "transcript": "Anna moves to a small apartment downtown. It is on the third floor.",
+          "options": [
+            "в центре города на третьем этаже",
+            "в отеле на первом этаже",
+            "рядом с аэропортом",
+            "возле университета"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A small apartment downtown. It is on the third floor — маленькая квартира в центре на третьем этаже.",
+          "audio": "en/2-15/ls-07.mp3"
+        },
+        {
+          "id": "en-2-15-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "We move next week.",
+          "accepted": ["We move next week."],
+          "explain_ru": "We move next week — Мы переезжаем на следующей неделе.",
+          "audio": "en/2-15/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-15-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Мы переезжаем на следующей неделе»:",
+          "source_text": "Мы переезжаем на следующей неделе.",
+          "bank": ["move", "we", "next", "week"],
+          "accepted": ["We move next week"],
+          "explain_ru": "We move next week — Мы переезжаем на следующей неделе.",
+          "audio": null
+        },
+        {
+          "id": "en-2-15-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите и исправьте ошибку во множественном числе:",
+          "buggy_text": "I pack the boxs.",
+          "accepted": ["I pack the boxes."],
+          "explain_ru": "Слова на -x во множественном числе получают -es: box → boxes.",
+          "audio": null
+        },
+        {
+          "id": "en-2-15-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Подбери перевод: напишите по-английски слово «аренда»:",
+          "source_text": "аренда",
+          "accepted": ["rent"],
+          "explain_ru": "Rent — аренда.",
+          "audio": null
+        },
+        {
+          "id": "en-2-15-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова темы «Переезд» с переводом:",
+          "pairs": [
+            { "left": "apartment", "right": "квартира" },
+            { "left": "furniture", "right": "мебель" },
+            { "left": "landlord", "right": "арендодатель" },
+            { "left": "address", "right": "адрес" }
+          ],
+          "explain_ru": "Apartment — квартира, furniture — мебель, landlord — арендодатель, address — адрес.",
+          "audio": null
+        },
+        {
+          "id": "en-2-15-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "sofa", "right": "диван" },
+            { "left": "truck", "right": "грузовик" },
+            { "left": "move out", "right": "съезжать" },
+            { "left": "new home", "right": "новый дом" }
+          ],
+          "explain_ru": "Sofa — диван, truck — грузовик, move out — съезжать, new home — новый дом.",
+          "audio": null
+        },
+        {
+          "id": "en-2-15-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку с неисчисляемым существительным furniture:",
+          "buggy_text": "The furniture are new.",
+          "accepted": ["The furniture is new."],
+          "explain_ru": "Furniture — неисчисляемое существительное в единственном числе, поэтому нужен глагол is.",
+          "audio": null
+        },
+        {
+          "id": "en-2-15-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Аренда дешёвая»:",
+          "source_text": "Аренда дешёвая.",
+          "bank": ["cheap", "rent", "is", "the"],
+          "accepted": ["The rent is cheap"],
+          "explain_ru": "The rent is cheap — Аренда дешёвая.",
+          "audio": null
+        },
+        {
+          "id": "en-2-15-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «упаковывать» по-английски:",
+          "source_text": "упаковывать",
+          "accepted": ["pack"],
+          "explain_ru": "Pack — упаковывать.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-15-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Новая квартира: прочитайте текст и ответьте на вопросы:",
+          "passage": "Our new apartment is on the second floor. It has a big kitchen. The landlord is nice. The rent is five hundred dollars.",
+          "questions": [
+            {
+              "question_ru": "Какая кухня в новой квартире?",
+              "options": ["большая", "маленькая", "шумная", "старая"],
+              "correct_index": 0,
+              "accepted": ["большая", "big", "a big kitchen"]
+            },
+            {
+              "question_ru": "Сколько стоит аренда?",
+              "options": ["500 долларов", "200 долларов", "50 долларов", "100 долларов"],
+              "correct_index": 0,
+              "accepted": ["500 долларов", "пятьсот долларов", "five hundred dollars", "500"]
+            }
+          ],
+          "explain_ru": "It has a big kitchen — В ней большая кухня; five hundred dollars — 500 долларов.",
+          "audio": null
+        },
+        {
+          "id": "en-2-15-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «furniture»:",
+          "question_text": "furniture",
+          "options": ["мебель", "квартира", "коробка", "адрес"],
+          "correct_index": 0,
+          "explain_ru": "Furniture — мебель.",
+          "audio": null
+        },
+        {
+          "id": "en-2-15-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «landlord»:",
+          "question_text": "landlord",
+          "options": ["арендодатель", "кассир", "начальник", "сосед"],
+          "correct_index": 0,
+          "explain_ru": "Landlord — арендодатель.",
+          "audio": null
+        },
+        {
+          "id": "en-2-15-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «move out»:",
+          "question_text": "move out",
+          "options": ["съезжать", "упаковывать", "просыпаться", "приглашать"],
+          "correct_index": 0,
+          "explain_ru": "Move out — съезжать.",
+          "audio": null
+        },
+        {
+          "id": "en-2-15-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «truck»:",
+          "question_text": "truck",
+          "options": ["грузовик", "поезд", "автобус", "такси"],
+          "correct_index": 0,
+          "explain_ru": "Truck — грузовик.",
+          "audio": null
+        },
+        {
+          "id": "en-2-15-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «new home»:",
+          "question_text": "new home",
+          "options": ["новый дом", "рабочий стол", "старый адрес", "большая комната"],
+          "correct_index": 0,
+          "explain_ru": "New home — новый дом.",
+          "audio": null
+        },
+        {
+          "id": "en-2-15-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «address»:",
+          "question_text": "address",
+          "options": ["адрес", "аренда", "этаж", "диван"],
+          "correct_index": 0,
+          "explain_ru": "Address — адрес.",
+          "audio": null
+        },
+        {
+          "id": "en-2-15-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте сообщение о переезде и ответьте на вопрос:",
+          "passage": "Tomorrow we move out of our old apartment. My friend Tom helps us pack the furniture and boxes into the truck. We are happy about our new home.",
+          "questions": [
+            {
+              "question_ru": "Кто помогает упаковать мебель и коробки в грузовик?",
+              "options": ["друг Том", "арендодатель", "начальник", "сестра Анна"],
+              "correct_index": 0,
+              "accepted": ["друг Том", "Том", "Tom"]
+            }
+          ],
+          "explain_ru": "My friend Tom helps us pack the furniture and boxes into the truck — Мой друг Том помогает нам упаковать мебель и коробки в грузовик.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

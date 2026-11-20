@@ -83,16 +83,403 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-16-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Жалобы: опишите свои симптомы врачу («throat» — горло):",
+          "target_text": "I am sick. I have a headache and a fever. My throat hurts. I need an appointment.",
+          "translation_ru": "Я болен. У меня головная боль и температура. У меня болит горло. Мне нужна запись на приём.",
+          "explain_ru": "Have a headache / a fever — иметь головную боль / температуру; hurt — болеть.",
+          "audio": "en/2-16/sp-01.mp3"
+        },
+        {
+          "id": "en-2-16-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите врачу, что у вас сильный кашель и боль:",
+          "target_text": "Doctor, I have a cough and a lot of pain.",
+          "translation_ru": "Доктор, у меня кашель и сильная боль.",
+          "explain_ru": "Cough — кашель; pain — боль (неисчисляемое).",
+          "audio": "en/2-16/sp-02.mp3"
+        },
+        {
+          "id": "en-2-16-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что медсестра в больнице очень приятная:",
+          "target_text": "The nurse at the hospital is very nice.",
+          "translation_ru": "Медсестра в больнице очень приятная.",
+          "explain_ru": "Nurse — медсестра; hospital — больница.",
+          "audio": "en/2-16/sp-03.mp3"
+        },
+        {
+          "id": "en-2-16-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вам нужно лекарство из аптеки:",
+          "target_text": "I need medicine from the pharmacy.",
+          "translation_ru": "Мне нужно лекарство из аптеки.",
+          "explain_ru": "Medicine — лекарство; pharmacy — аптека.",
+          "audio": "en/2-16/sp-04.mp3"
+        },
+        {
+          "id": "en-2-16-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы хотите быть здоровым:",
+          "target_text": "I eat vegetables because I want to be healthy.",
+          "translation_ru": "Я ем овощи, потому что хочу быть здоровым.",
+          "explain_ru": "Healthy — здоровый.",
+          "audio": "en/2-16/sp-05.mp3"
+        },
+        {
+          "id": "en-2-16-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас запись к врачу на завтра:",
+          "target_text": "I have an appointment with the doctor tomorrow.",
+          "translation_ru": "У меня запись к врачу на завтра.",
+          "explain_ru": "An appointment with the doctor — приём / запись к врачу.",
+          "audio": "en/2-16/sp-06.mp3"
+        },
+        {
+          "id": "en-2-16-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас болит голова:",
+          "target_text": "My head hurts. I have a headache.",
+          "translation_ru": "У меня болит голова. У меня головная боль.",
+          "explain_ru": "My head hurts = I have a headache.",
+          "audio": "en/2-16/sp-07.mp3"
+        },
+        {
+          "id": "en-2-16-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы не больны, вы здоровы:",
+          "target_text": "I am not sick today. I am healthy.",
+          "translation_ru": "Я сегодня не болен. Я здоров.",
+          "explain_ru": "Sick (больной) ↔ healthy (здоровый).",
+          "audio": "en/2-16/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-16-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Приём (1/2): прослушайте диалог у врача и ответьте, что у пациента:",
+          "transcript": "Doctor: What is the problem? Patient: I have a cough and a fever. Doctor: Take this medicine two times a day.",
+          "options": [
+            "кашель и температура",
+            "головная боль и боль в горле",
+            "только кашель",
+            "только температура"
+          ],
+          "correct_index": 0,
+          "explain_ru": "I have a cough and a fever — У меня кашель и температура.",
+          "audio": "en/2-16/ls-01.mp3"
+        },
+        {
+          "id": "en-2-16-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Приём (2/2): сколько раз в день принимать лекарство?",
+          "transcript": "Doctor: What is the problem? Patient: I have a cough and a fever. Doctor: Take this medicine two times a day.",
+          "options": ["два раза в день", "один раз в день", "три раза в день", "четыре раза в день"],
+          "correct_index": 0,
+          "explain_ru": "Two times a day — два раза в день.",
+          "audio": "en/2-16/ls-02.mp3"
+        },
+        {
+          "id": "en-2-16-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кто помогает Анне в больнице?",
+          "transcript": "Anna is sick and has pain. The nurse helps her and calls the doctor.",
+          "options": ["медсестра", "кассир", "арендодатель", "коллега"],
+          "correct_index": 0,
+          "explain_ru": "The nurse helps her — Медсестра помогает ей.",
+          "audio": "en/2-16/ls-03.mp3"
+        },
+        {
+          "id": "en-2-16-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Куда идёт Макс после приёма у врача?",
+          "transcript": "Max finishes his appointment at ten. Then he goes to the pharmacy for medicine.",
+          "options": ["в аптеку за лекарством", "в библиотеку", "в магазин продуктов", "в ресторан"],
+          "correct_index": 0,
+          "explain_ru": "Goes to the pharmacy for medicine — идёт в аптеку за лекарством.",
+          "audio": "en/2-16/ls-04.mp3"
+        },
+        {
+          "id": "en-2-16-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Кейт сегодня дома?",
+          "transcript": "Kate does not go to the office today. She has a big headache and a fever.",
+          "options": [
+            "у неё сильная головная боль и температура",
+            "она переезжает в новую квартиру",
+            "у неё сегодня день рождения",
+            "она готовится к экзамену"
+          ],
+          "correct_index": 0,
+          "explain_ru": "She has a big headache and a fever — У неё сильная головная боль и температура.",
+          "audio": "en/2-16/ls-05.mp3"
+        },
+        {
+          "id": "en-2-16-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как себя чувствует Пол после недели с лекарством?",
+          "transcript": "Paul takes his medicine every day. Now he has no pain and he is healthy again.",
+          "options": ["он снова здоров", "у него температура", "у него болит горло", "ему нужен новый приём"],
+          "correct_index": 0,
+          "explain_ru": "He is healthy again — Он снова здоров.",
+          "audio": "en/2-16/ls-06.mp3"
+        },
+        {
+          "id": "en-2-16-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что спрашивает медсестра у пациента?",
+          "transcript": "Nurse: Hello! Do you have an appointment with Doctor Brown today?",
+          "options": [
+            "есть ли у него запись к доктору Брауну",
+            "сколько стоит лекарство",
+            "где находится аптека",
+            "какой у него адрес"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Do you have an appointment...? — У вас есть запись на приём...?",
+          "audio": "en/2-16/ls-07.mp3"
+        },
+        {
+          "id": "en-2-16-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I have a headache.",
+          "accepted": ["I have a headache."],
+          "explain_ru": "I have a headache — У меня головная боль.",
+          "audio": "en/2-16/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-16-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «У меня головная боль»:",
+          "source_text": "У меня головная боль.",
+          "bank": ["headache", "have", "I", "a"],
+          "accepted": ["I have a headache"],
+          "explain_ru": "I have a headache — У меня головная боль (с артиклем a).",
+          "audio": null
+        },
+        {
+          "id": "en-2-16-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите и исправьте ошибку в глаголе:",
+          "buggy_text": "My head hurt.",
+          "accepted": ["My head hurts."],
+          "explain_ru": "My head = it (3-е лицо ед. ч.), поэтому нужно окончание -s: hurts.",
+          "audio": null
+        },
+        {
+          "id": "en-2-16-wr-03",
+          "type": "odd_one_out",
+          "origin": "source",
+          "prompt_ru": "Найди лишнее: выберите слово, которое обозначает симптом, а не место или профессию:",
+          "items": ["doctor", "nurse", "pharmacy", "headache"],
+          "odd_index": 3,
+          "explain_ru": "Headache (головная боль) — симптом, остальные слова связаны с врачами и аптекой.",
+          "audio": null
+        },
+        {
+          "id": "en-2-16-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините симптомы с переводом:",
+          "pairs": [
+            { "left": "pain", "right": "боль" },
+            { "left": "fever", "right": "температура" },
+            { "left": "cough", "right": "кашель" },
+            { "left": "hurt", "right": "болеть" }
+          ],
+          "explain_ru": "Pain — боль, fever — температура, cough — кашель, hurt — болеть.",
+          "audio": null
+        },
+        {
+          "id": "en-2-16-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините медицинские слова с переводом:",
+          "pairs": [
+            { "left": "doctor", "right": "врач" },
+            { "left": "nurse", "right": "медсестра" },
+            { "left": "medicine", "right": "лекарство" },
+            { "left": "pharmacy", "right": "аптека" }
+          ],
+          "explain_ru": "Doctor — врач, nurse — медсестра, medicine — лекарство, pharmacy — аптека.",
+          "audio": null
+        },
+        {
+          "id": "en-2-16-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку с артиклем перед гласным звуком:",
+          "buggy_text": "I need a appointment.",
+          "accepted": ["I need an appointment."],
+          "explain_ru": "Слово appointment начинается с гласного звука, поэтому нужен артикль an.",
+          "audio": null
+        },
+        {
+          "id": "en-2-16-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Я болен сегодня»:",
+          "source_text": "Я болен сегодня.",
+          "bank": ["sick", "am", "today", "I"],
+          "accepted": ["I am sick today"],
+          "explain_ru": "I am sick today — Я сегодня болен.",
+          "audio": null
+        },
+        {
+          "id": "en-2-16-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите антоним к слову sick (больной):",
+          "source_text": "sick ↔ ___",
+          "accepted": ["healthy"],
+          "explain_ru": "Sick (больной) ↔ healthy (здоровый).",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-16-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Том болеет: прочитайте текст и ответьте на вопросы:",
+          "passage": "Tom is sick. He has a fever and a cough. He has an appointment with the doctor at four. After that he goes to the pharmacy.",
+          "questions": [
+            {
+              "question_ru": "Во сколько у Тома приём у врача?",
+              "options": ["в 4", "в 2", "в 5", "в 9"],
+              "correct_index": 0,
+              "accepted": ["в 4", "в четыре", "at four", "4"]
+            },
+            {
+              "question_ru": "Куда Том идёт после приёма?",
+              "options": ["в аптеку", "в офис", "в университет", "в магазин"],
+              "correct_index": 0,
+              "accepted": ["в аптеку", "the pharmacy", "pharmacy"]
+            }
+          ],
+          "explain_ru": "Appointment with the doctor at four — приём у врача в 4; goes to the pharmacy — идёт в аптеку.",
+          "audio": null
+        },
+        {
+          "id": "en-2-16-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «nurse»:",
+          "question_text": "nurse",
+          "options": ["медсестра", "врач", "аптека", "пациент"],
+          "correct_index": 0,
+          "explain_ru": "Nurse — медсестра.",
+          "audio": null
+        },
+        {
+          "id": "en-2-16-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «fever»:",
+          "question_text": "fever",
+          "options": ["температура", "кашель", "лекарство", "боль"],
+          "correct_index": 0,
+          "explain_ru": "Fever — повышенная температура, жар.",
+          "audio": null
+        },
+        {
+          "id": "en-2-16-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «cough»:",
+          "question_text": "cough",
+          "options": ["кашель", "головная боль", "приём", "аптека"],
+          "correct_index": 0,
+          "explain_ru": "Cough — кашель.",
+          "audio": null
+        },
+        {
+          "id": "en-2-16-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «medicine»:",
+          "question_text": "medicine",
+          "options": ["лекарство", "больница", "запись", "боль"],
+          "correct_index": 0,
+          "explain_ru": "Medicine — лекарство.",
+          "audio": null
+        },
+        {
+          "id": "en-2-16-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «appointment»:",
+          "question_text": "appointment",
+          "options": ["приём, запись", "аптека", "кашель", "здоровый"],
+          "correct_index": 0,
+          "explain_ru": "Appointment — приём, запись к врачу.",
+          "audio": null
+        },
+        {
+          "id": "en-2-16-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «healthy»:",
+          "question_text": "healthy",
+          "options": ["здоровый", "больной", "свежий", "нервничающий"],
+          "correct_index": 0,
+          "explain_ru": "Healthy — здоровый.",
+          "audio": null
+        },
+        {
+          "id": "en-2-16-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку от врача и ответьте на вопрос:",
+          "passage": "Drink hot tea and water. Take this medicine in the morning and in the evening. If your head still hurts, call the nurse.",
+          "questions": [
+            {
+              "question_ru": "Когда нужно принимать лекарство?",
+              "options": [
+                "утром и вечером",
+                "только в полдень",
+                "только ночью",
+                "один раз в неделю"
+              ],
+              "correct_index": 0,
+              "accepted": ["утром и вечером", "in the morning and in the evening"]
+            }
+          ],
+          "explain_ru": "In the morning and in the evening — утром и вечером.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

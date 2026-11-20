@@ -83,16 +83,393 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-10-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Я учусь: расскажите о своей учёбе в университете:",
+          "target_text": "I study at the university. My favorite subject is math. I do my homework in the library.",
+          "translation_ru": "Я учусь в университете. Мой любимый предмет — математика. Я делаю домашнее задание в библиотеке.",
+          "explain_ru": "Study at the university — учиться в университете; do homework — делать домашнее задание.",
+          "audio": "en/2-10/sp-01.mp3"
+        },
+        {
+          "id": "en-2-10-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас есть урок биологии утром:",
+          "target_text": "I have a biology lesson in the morning.",
+          "translation_ru": "У меня урок биологии утром.",
+          "explain_ru": "Biology lesson — урок биологии; in the morning — утром.",
+          "audio": "en/2-10/sp-02.mp3"
+        },
+        {
+          "id": "en-2-10-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы хотите сдать экзамен:",
+          "target_text": "I study every day. I want to pass the exam.",
+          "translation_ru": "Я учусь каждый день. Я хочу сдать экзамен.",
+          "explain_ru": "Pass the exam — сдать экзамен.",
+          "audio": "en/2-10/sp-03.mp3"
+        },
+        {
+          "id": "en-2-10-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы не хотите провалить экзамен:",
+          "target_text": "I do not want to fail the math exam.",
+          "translation_ru": "Я не хочу не сдать экзамен по математике.",
+          "explain_ru": "Fail an exam — не сдать (провалить) экзамен.",
+          "audio": "en/2-10/sp-04.mp3"
+        },
+        {
+          "id": "en-2-10-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про новую тетрадь:",
+          "target_text": "I need a new notebook for my lesson.",
+          "translation_ru": "Мне нужна новая тетрадь для моего урока.",
+          "explain_ru": "Notebook — тетрадь (не путать с русским словом «ноутбук»).",
+          "audio": "en/2-10/sp-05.mp3"
+        },
+        {
+          "id": "en-2-10-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про любимый предмет:",
+          "target_text": "My favorite subject is biology.",
+          "translation_ru": "Мой любимый предмет — биология.",
+          "explain_ru": "Subject — учебный предмет.",
+          "audio": "en/2-10/sp-06.mp3"
+        },
+        {
+          "id": "en-2-10-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что библиотека тихая и большая:",
+          "target_text": "The university library is big and quiet.",
+          "translation_ru": "Университетская библиотека большая и тихая.",
+          "explain_ru": "University library — университетская библиотека; quiet — тихий.",
+          "audio": "en/2-10/sp-07.mp3"
+        },
+        {
+          "id": "en-2-10-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы делаете домашнее задание вечером:",
+          "target_text": "I do my homework in the evening.",
+          "translation_ru": "Я делаю домашнее задание вечером.",
+          "explain_ru": "Слово homework неисчисляемое, артикль a с ним не ставится.",
+          "audio": "en/2-10/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-10-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Завтра экзамен (1/2): прослушайте скрипт («hope» — надеюсь) и ответьте, что завтра:",
+          "transcript": "Tomorrow I have an exam. I study in the library. I hope I pass.",
+          "options": ["экзамен", "урок музыки", "поездка", "встреча с другом"],
+          "correct_index": 0,
+          "explain_ru": "Tomorrow I have an exam — Завтра у меня экзамен.",
+          "audio": "en/2-10/ls-01.mp3"
+        },
+        {
+          "id": "en-2-10-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Завтра экзамен (2/2): где учится говорящий?",
+          "transcript": "Tomorrow I have an exam. I study in the library. I hope I pass.",
+          "options": ["в библиотеке", "в парке", "в кафе", "дома на кухне"],
+          "correct_index": 0,
+          "explain_ru": "I study in the library — Я учусь в библиотеке.",
+          "audio": "en/2-10/ls-02.mp3"
+        },
+        {
+          "id": "en-2-10-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой любимый предмет у Тома?",
+          "transcript": "Tom is a student at the university. His favorite subject is math.",
+          "options": ["математика", "биология", "история", "искусство"],
+          "correct_index": 0,
+          "explain_ru": "His favorite subject is math — Его любимый предмет — математика.",
+          "audio": "en/2-10/ls-03.mp3"
+        },
+        {
+          "id": "en-2-10-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что нужно Саре для урока?",
+          "transcript": "Sara has a biology lesson at nine. She needs her notebook.",
+          "options": ["тетрадь", "билет", "паспорт", "карта"],
+          "correct_index": 0,
+          "explain_ru": "Notebook — тетрадь.",
+          "audio": "en/2-10/ls-04.mp3"
+        },
+        {
+          "id": "en-2-10-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что произошло с экзаменом Макса?",
+          "transcript": "Max is busy every day. He does not study, so he fails the exam.",
+          "options": [
+            "он не сдал экзамен",
+            "он сдал экзамен",
+            "экзамен завтра",
+            "он потерял тетрадь"
+          ],
+          "correct_index": 0,
+          "explain_ru": "He fails the exam — Он не сдаёт экзамен.",
+          "audio": "en/2-10/ls-05.mp3"
+        },
+        {
+          "id": "en-2-10-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где Кейт делает домашнее задание?",
+          "transcript": "After class Kate goes to the library. She does her homework there.",
+          "options": ["в библиотеке", "в ресторане", "в магазине", "в автобусе"],
+          "correct_index": 0,
+          "explain_ru": "Kate goes to the library. She does her homework there — Кейт идёт в библиотеку и делает там домашнее задание.",
+          "audio": "en/2-10/ls-06.mp3"
+        },
+        {
+          "id": "en-2-10-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Сдал ли Али экзамен по биологии?",
+          "transcript": "Ali is very happy today. He passes his biology exam.",
+          "options": ["да, сдал", "нет, не сдал", "экзамен в пятницу", "у него нет экзамена"],
+          "correct_index": 0,
+          "explain_ru": "He passes his biology exam — Он сдаёт экзамен по биологии.",
+          "audio": "en/2-10/ls-07.mp3"
+        },
+        {
+          "id": "en-2-10-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I study at the university.",
+          "accepted": ["I study at the university."],
+          "explain_ru": "I study at the university — Я учусь в университете.",
+          "audio": "en/2-10/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-10-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Я делаю домашнее задание»:",
+          "source_text": "Я делаю домашнее задание.",
+          "bank": ["homework", "do", "I", "my"],
+          "accepted": ["I do my homework"],
+          "explain_ru": "I do my homework — Я делаю своё домашнее задание.",
+          "audio": null
+        },
+        {
+          "id": "en-2-10-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: найдите и исправьте ошибку в глаголе:",
+          "buggy_text": "She study biology.",
+          "accepted": ["She studies biology."],
+          "explain_ru": "После he/she/it глагол на согласную + y меняет y на -ies: study → studies.",
+          "audio": null
+        },
+        {
+          "id": "en-2-10-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Антоним: напишите противоположное по смыслу слово для pass (сдать):",
+          "source_text": "pass ↔ ___",
+          "accepted": ["fail"],
+          "explain_ru": "Pass (сдать) ↔ fail (не сдать).",
+          "audio": null
+        },
+        {
+          "id": "en-2-10-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова темы «Учёба» с переводом:",
+          "pairs": [
+            { "left": "university", "right": "университет" },
+            { "left": "library", "right": "библиотека" },
+            { "left": "notebook", "right": "тетрадь" },
+            { "left": "subject", "right": "предмет" }
+          ],
+          "explain_ru": "University — университет, library — библиотека, notebook — тетрадь, subject — предмет.",
+          "audio": null
+        },
+        {
+          "id": "en-2-10-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "lesson", "right": "урок" },
+            { "left": "exam", "right": "экзамен" },
+            { "left": "math", "right": "математика" },
+            { "left": "biology", "right": "биология" }
+          ],
+          "explain_ru": "Lesson — урок, exam — экзамен, math — математика, biology — биология.",
+          "audio": null
+        },
+        {
+          "id": "en-2-10-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку с глаголом:",
+          "buggy_text": "He do his homework in the library.",
+          "accepted": ["He does his homework in the library."],
+          "explain_ru": "С he/she используется does: He does his homework.",
+          "audio": null
+        },
+        {
+          "id": "en-2-10-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Я учусь в библиотеке»:",
+          "source_text": "Я учусь в библиотеке.",
+          "bank": ["library", "in", "study", "I", "the"],
+          "accepted": ["I study in the library"],
+          "explain_ru": "In the library — в библиотеке.",
+          "audio": null
+        },
+        {
+          "id": "en-2-10-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «экзамен» по-английски:",
+          "source_text": "экзамен",
+          "accepted": ["exam"],
+          "explain_ru": "Exam — экзамен.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-2-10-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Неделя Анны: прочитайте текст и ответьте на вопросы:",
+          "passage": "Anna is a student. She has a math lesson on Monday and a biology exam on Friday. She has a new notebook for the lesson.",
+          "questions": [
+            {
+              "question_ru": "Когда экзамен?",
+              "options": ["в пятницу", "в понедельник", "во вторник", "в среду"],
+              "correct_index": 0,
+              "accepted": ["в пятницу", "on Friday", "Friday"]
+            },
+            {
+              "question_ru": "Какой предмет в понедельник?",
+              "options": ["математика", "биология", "история", "музыка"],
+              "correct_index": 0,
+              "accepted": ["математика", "math"]
+            }
+          ],
+          "explain_ru": "Math lesson on Monday — урок математики в понедельник; biology exam on Friday — экзамен по биологии в пятницу.",
+          "audio": null
+        },
+        {
+          "id": "en-2-10-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «subject»:",
+          "question_text": "subject",
+          "options": ["предмет", "тетрадь", "библиотека", "университет"],
+          "correct_index": 0,
+          "explain_ru": "Subject — учебный предмет.",
+          "audio": null
+        },
+        {
+          "id": "en-2-10-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «notebook»:",
+          "question_text": "notebook",
+          "options": ["тетрадь", "книга", "урок", "экзамен"],
+          "correct_index": 0,
+          "explain_ru": "Notebook — тетрадь.",
+          "audio": null
+        },
+        {
+          "id": "en-2-10-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «pass»:",
+          "question_text": "pass",
+          "options": ["сдать", "не сдать", "учиться", "повторять"],
+          "correct_index": 0,
+          "explain_ru": "Pass — сдать (экзамен).",
+          "audio": null
+        },
+        {
+          "id": "en-2-10-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «fail»:",
+          "question_text": "fail",
+          "options": ["не сдать", "сдать", "начать", "закончить"],
+          "correct_index": 0,
+          "explain_ru": "Fail — не сдать (провалить экзамен).",
+          "audio": null
+        },
+        {
+          "id": "en-2-10-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «homework»:",
+          "question_text": "homework",
+          "options": ["домашнее задание", "урок", "библиотека", "университет"],
+          "correct_index": 0,
+          "explain_ru": "Homework — домашнее задание.",
+          "audio": null
+        },
+        {
+          "id": "en-2-10-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «library»:",
+          "question_text": "library",
+          "options": ["библиотека", "университет", "офис", "школа"],
+          "correct_index": 0,
+          "explain_ru": "Library — библиотека.",
+          "audio": null
+        },
+        {
+          "id": "en-2-10-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий текст и ответьте на вопрос:",
+          "passage": "Paul is a student at a big university. His favorite subject is math. Every evening he does his homework in the library. He wants to pass his exam.",
+          "questions": [
+            {
+              "question_ru": "Что Пол делает каждый вечер?",
+              "options": [
+                "делает домашнее задание в библиотеке",
+                "играет в футбол в парке",
+                "готовит ужин дома",
+                "едет на поезде"
+              ],
+              "correct_index": 0,
+              "accepted": ["делает домашнее задание в библиотеке", "делает домашнее задание"]
+            }
+          ],
+          "explain_ru": "Every evening he does his homework in the library — Каждый вечер он делает домашнее задание в библиотеке.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"
