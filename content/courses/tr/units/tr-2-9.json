@@ -83,16 +83,408 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-9-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Откуда? (1/2): произнесите фразы с исходным падежом (-dan/-den/-tan/-ten):",
+          "target_text": "Okuldan geliyorum. İşten çıkıyorum. Köpekten korkuyorum. Müzikten hoşlanıyorum.",
+          "translation_ru": "Я прихожу из школы. Я выхожу с работы. Я боюсь собаки. Мне нравится музыка.",
+          "explain_ru": "Исходный падеж (-dan/-den; после глухих f, s, t, k, ç, ş, h, p — -tan/-ten) используется с глаголами çıkmak, korkmak, hoşlanmak.",
+          "audio": "tr/2-9/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-9-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Откуда? (2/2): ещё три фразы со словами köy, ülke и memleket:",
+          "target_text": "Köyden dönüyorum. Bu ülkeden ayrılıyorum. Memleketten geliyorum.",
+          "translation_ru": "Я возвращаюсь из деревни. Я покидаю эту страну. Я приезжаю с родины.",
+          "explain_ru": "Köyden (от köy), ülkeden (от ülke), memleketten (после глухой t — -ten). Глаголы: dönmek, ayrılmak.",
+          "audio": "tr/2-9/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-9-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух шесть глаголов этого юнита в инфинитиве:",
+          "target_text": "çıkmak, inmek, dönmek, ayrılmak, korkmak, hoşlanmak",
+          "translation_ru": "выходить, сходить, возвращаться, уходить/покидать, бояться, нравиться",
+          "explain_ru": "Все эти шесть глаголов требуют исходного падежа (-dan/-den/-tan/-ten).",
+          "audio": "tr/2-9/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-9-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите дорогу, расстояние и антонимы «далёкий / близкий»:",
+          "target_text": "Bu yol uzun. Köy şehirden uzak ama market eve yakın.",
+          "translation_ru": "Эта дорога длинная. Деревня далеко от города, но магазин близко к дому.",
+          "explain_ru": "Yol — дорога; uzak — далёкий (с -dan/-den: şehirden uzak); yakın — близкий (с -a/-e: eve yakın).",
+          "audio": "tr/2-9/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-9-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я выхожу из автобуса и иду к отелю»:",
+          "target_text": "Otobüsten iniyorum ve otele yürüyorum.",
+          "translation_ru": "Я выхожу (схожу) из автобуса и иду пешком к отелю.",
+          "explain_ru": "Otobüs оканчивается на глухую s → otobüsten. İniyorum — от глагола inmek.",
+          "audio": "tr/2-9/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-9-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про страну и родину:",
+          "target_text": "Bu ülke çok büyük. Benim memleketim uzak değil.",
+          "translation_ru": "Эта страна очень большая. Моя родина не далеко.",
+          "explain_ru": "Ülke — страна, memleket — родина (memleketim — моя родина).",
+          "audio": "tr/2-9/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-9-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Мы выходим из дома рано и возвращаемся вечером»:",
+          "target_text": "Sabah erken evden çıkıyoruz ve akşam dönüyoruz.",
+          "translation_ru": "Утром рано мы выходим из дома и вечером возвращаемся.",
+          "explain_ru": "Çıkıyoruz (от çıkmak), dönüyoruz (от dönmek).",
+          "audio": "tr/2-9/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-9-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я не боюсь кошки, мне нравится эта маленькая деревня»:",
+          "target_text": "Kediden korkmuyorum. Bu küçük köyden hoşlanıyorum.",
+          "translation_ru": "Я не боюсь кошки. Мне нравится эта маленькая деревня.",
+          "explain_ru": "Korkmuyorum (от korkmak), hoşlanıyorum (от hoşlanmak).",
+          "audio": "tr/2-9/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-9-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Из—в: прослушайте скрипт и ответьте, откуда и куда едет говорящий:",
+          "transcript": "Köyden şehre geliyorum. Otobüsten iniyorum. Evden uzak değil.",
+          "options": [
+            "Из деревни в город (köyden şehre)",
+            "Из города в деревню",
+            "Из школы в магазин",
+            "Из отеля в аэропорт"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Köyden (из деревни) şehre (в город) geliyorum. В слове şehir перед гласным аффиксом -e выпадает i: şehre.",
+          "audio": "tr/2-9/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-9-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «страна»:",
+          "transcript": "ülke",
+          "accepted": ["ülke"],
+          "explain_ru": "Ülke — страна.",
+          "audio": "tr/2-9/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-9-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «дорога»:",
+          "transcript": "yol",
+          "accepted": ["yol"],
+          "explain_ru": "Yol — дорога.",
+          "audio": "tr/2-9/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-9-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что говорит Айше про расстояние до школы?",
+          "transcript": "Okul evden uzak değil, çok yakın.",
+          "options": [
+            "Школа не далеко от дома, она очень близко",
+            "Школа очень далеко от дома",
+            "Деревня далеко от города",
+            "Дорога очень длинная"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Uzak değil (не далеко), çok yakın (очень близко).",
+          "audio": "tr/2-9/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-9-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «родина»:",
+          "transcript": "memleket",
+          "accepted": ["memleket"],
+          "explain_ru": "Memleket — родина (родные края).",
+          "audio": "tr/2-9/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-9-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки глагол «сходить» (выходить из транспорта):",
+          "transcript": "inmek",
+          "accepted": ["inmek"],
+          "explain_ru": "İnmek — сходить, выходить из транспорта (или спускаться).",
+          "audio": "tr/2-9/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-9-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Чего боится ребёнок в записи?",
+          "transcript": "Çocuk büyük köpekten korkuyor ama kediden korkmuyor.",
+          "options": [
+            "Большой собаки (büyük köpekten)",
+            "Кошки (kediden)",
+            "Автобуса (otobüsten)",
+            "Темноты"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Büyük köpekten korkuyor — боится большой собаки (от korkmak).",
+          "audio": "tr/2-9/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-9-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «деревня»:",
+          "transcript": "köy",
+          "accepted": ["köy"],
+          "explain_ru": "Köy — деревня.",
+          "audio": "tr/2-9/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-9-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Вставьте исходный падеж (-dan/-den/-tan/-ten): «Ev___ çıkıyorum.» (Я выхожу из дома)",
+          "source_text": "Ev___ çıkıyorum.",
+          "accepted": ["evden", "Evden çıkıyorum"],
+          "explain_ru": "Ev заканчивается на звонкую v и содержит переднюю e → evden.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-9-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Вставьте исходный падеж (-dan/-den/-tan/-ten): «Okul___ dönüyorum.» (Я возвращаюсь из школы)",
+          "source_text": "Okul___ dönüyorum.",
+          "accepted": ["okuldan", "Okuldan dönüyorum"],
+          "explain_ru": "Okul заканчивается на звонкую l и содержит заднюю u → okuldan.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-9-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Вставьте исходный падеж (-dan/-den/-tan/-ten): «İş___ geliyorum.» (Я иду с работы)",
+          "source_text": "İş___ geliyorum.",
+          "accepted": ["işten", "İşten geliyorum"],
+          "explain_ru": "После глухой согласной ş (из группы fıstıkçı şahap) пишется -ten: işten.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-9-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Вставьте исходный падеж (-dan/-den/-tan/-ten): «Köpek___ korkuyorum.» (Я боюсь собаки)",
+          "source_text": "Köpek___ korkuyorum.",
+          "accepted": ["köpekten", "Köpekten korkuyorum"],
+          "explain_ru": "После глухой k (fıstıkçı şahap) и передней e пишется -ten: köpekten.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-9-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы исходного падежа с переводом (1/2):",
+          "pairs": [
+            { "left": "çıkmak", "right": "выходить" },
+            { "left": "inmek", "right": "сходить" },
+            { "left": "dönmek", "right": "возвращаться" },
+            { "left": "ayrılmak", "right": "уходить, покидать" }
+          ],
+          "explain_ru": "Çıkmak, inmek, dönmek, ayrılmak.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-9-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом (2/2):",
+          "pairs": [
+            { "left": "korkmak", "right": "бояться" },
+            { "left": "hoşlanmak", "right": "нравиться" },
+            { "left": "uzak", "right": "далёкий" },
+            { "left": "yakın", "right": "близкий" }
+          ],
+          "explain_ru": "Korkmak, hoşlanmak, uzak, yakın.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-9-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: после глухой согласной s исходный падеж начинается с t («Я выхожу из автобуса»):",
+          "buggy_text": "Otobüsden iniyorum.",
+          "accepted": ["Otobüsten iniyorum."],
+          "explain_ru": "Буква s относится к глухим согласным (fıstıkçı şahap), поэтому d оглушается в t: otobüsten.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-9-wr-08",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Али возвращается из деревни»:",
+          "source_text": "Али возвращается из деревни.",
+          "bank": ["dönüyor", "köyden", "Ali"],
+          "accepted": ["Ali köyden dönüyor"],
+          "explain_ru": "Ali köyden dönüyor — Али возвращается из деревни.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-9-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Али из деревни. Прочитайте текст и ответьте на вопрос:",
+          "passage": "Ali köyden geliyor. Memleketi çok uzak. Şehirden hoşlanmıyor ama burada (здесь) çalışıyor (работает).",
+          "questions": [
+            {
+              "question_ru": "Нравится ли Али город?",
+              "options": [
+                "Нет, город ему не нравится (şehirden hoşlanmıyor)",
+                "Да, ему очень нравится город",
+                "Его родина очень близко",
+                "Он не работает в городе"
+              ],
+              "correct_index": 0,
+              "accepted": ["нет", "не нравится", "hayır"]
+            }
+          ],
+          "explain_ru": "Şehirden hoşlanmıyor — Город ему не нравится (от hoşlanmak).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-9-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильную форму исходного падежа от слова «park»:",
+          "question_text": "park + исходный падеж («из парка»)",
+          "options": ["parktan", "parkdan", "parkten", "parkden"],
+          "correct_index": 0,
+          "explain_ru": "В слове park гласная задняя (a), а последняя согласная k — глухая (fıstıkçı şahap) → -tan: parktan.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-9-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите антоним слова «uzak» (далёкий):",
+          "question_text": "uzak ↔ ?",
+          "options": ["yakın", "yol", "ülke", "köy"],
+          "correct_index": 0,
+          "explain_ru": "Uzak (далёкий) ↔ yakın (близкий).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-9-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку и ответьте на вопрос:",
+          "passage": "Yarın bu ülkeden ayrılıyorum ve memleketime dönüyorum. Yol uzun ama havaalanı otele yakın.",
+          "questions": [
+            {
+              "question_ru": "Куда возвращается автор завтра?",
+              "options": [
+                "на свою родину (memleketime)",
+                "в отель",
+                "в деревню",
+                "в библиотеку"
+              ],
+              "correct_index": 0,
+              "accepted": ["на родину", "на свою родину", "memleketime"]
+            }
+          ],
+          "explain_ru": "Memleketime dönüyorum — Я возвращаюсь на свою родину (от memleket и dönmek).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-9-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните глагол «уходить, покидать»:",
+          "target_text": "ayrılmak",
+          "translation_ru": "уходить, покидать",
+          "example_text": "Bugün otelden ayrılıyoruz.",
+          "example_ru": "Сегодня мы выезжаем из отеля.",
+          "explain_ru": "Ayrılmak требует исходного падежа: otelden ayrılmak — покидать отель.",
+          "audio": "tr/2-9/w10.mp3"
+        },
+        {
+          "id": "tr-2-9-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какую форму исходного падежа примет слово «yol» (дорога)?",
+          "question_text": "yol + -dan/-den",
+          "options": ["yoldan", "yolden", "yoltan", "yolten"],
+          "correct_index": 0,
+          "explain_ru": "Yol имеет заднюю гласную o и оканчивается на звонкую l → yoldan.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-9-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает фраза «Bu müzikten çok hoşlanıyorum»?",
+          "question_text": "Bu müzikten çok hoşlanıyorum.",
+          "options": [
+            "Мне очень нравится эта музыка.",
+            "Я боюсь этой музыки.",
+            "Я выхожу из комнаты.",
+            "Я возвращаюсь домой."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hoşlanmak — нравиться (кому-то что-то; в турецком — «я получаю удовольствие от чего-то», поэтому ставится исходный падеж -ten).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-9-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "После каких согласных исходный падеж принимает форму -tan / -ten?",
+          "question_text": "Правило fıstıkçı şahap",
+          "options": [
+            "После глухих согласных f, s, t, k, ç, ş, h, p",
+            "После всех гласных",
+            "После любых звонких согласных",
+            "Только после l и n"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Мнемоника fıstıkçı şahap содержит все 8 глухих согласных турецкого языка: f, s, t, k, ç, ş, h, p.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,411 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-17-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Семейное древо (1/2): назовите вслух родственников (öğretmen — учитель):",
+          "target_text": "Benim ablam var. Dedem yaşlı. Teyzem öğretmen.",
+          "translation_ru": "У меня есть старшая сестра. Мой дедушка пожилой. Моя тётя (сестра мамы) учитель.",
+          "explain_ru": "После гласной аффикс «мой/моя» — просто -m: abla → ablam, dede → dedem, teyze → teyzem.",
+          "audio": "tr/2-17/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-17-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Семейное древо (2/2): скажите, кто у вас есть, а кого нет:",
+          "target_text": "Abim ve kardeşim var ama ablam yok.",
+          "translation_ru": "У меня есть старший брат и младший брат/сестра, но старшей сестры нет.",
+          "explain_ru": "Abi → abim (мой старший брат), kardeş → kardeşim (мой младший брат/сестра).",
+          "audio": "tr/2-17/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-17-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Моя мама и мой папа очень вежливые и счастливые»:",
+          "target_text": "Annem ve babam çok nazik ve mutlu.",
+          "translation_ru": "Моя мама и мой папа очень вежливые и счастливые.",
+          "explain_ru": "Anne → annem (моя мама), baba → babam (мой папа).",
+          "audio": "tr/2-17/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-17-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Назовите двух бабушек по-турецки: по отцу и по матери:",
+          "target_text": "Babaannem köyde, anneannem şehirde yaşıyor.",
+          "translation_ru": "Моя бабушка по отцу живёт в деревне, а бабушка по матери — в городе.",
+          "explain_ru": "Babaanne — буквально «мама папы», anneanne — «мама мамы».",
+          "audio": "tr/2-17/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-17-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите о родственниках по линии отца: дяде (amca) и тёте (hala):",
+          "target_text": "Amcam şoför, halam hemşire.",
+          "translation_ru": "Мой дядя (брат отца) водитель, моя тётя (сестра отца) медсестра.",
+          "explain_ru": "По линии отца: amca (дядя), hala (тётя).",
+          "audio": "tr/2-17/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-17-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите о родственниках по линии матери: дяде (dayı) и тёте (teyze):",
+          "target_text": "Dayım avukat, teyzem aşçı.",
+          "translation_ru": "Мой дядя (брат мамы) адвокат, моя тётя (сестра мамы) повар.",
+          "explain_ru": "По линии матери: dayı (дядя), teyze (тётя).",
+          "audio": "tr/2-17/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-17-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Мой старший брат молодой и смешной, а младший брат любит читать книги»:",
+          "target_text": "Abim genç ve komik, kardeşim kitap okumayı seviyor.",
+          "translation_ru": "Мой старший брат молодой и смешной, а младший любит читать книги.",
+          "explain_ru": "Abi — старший брат, kardeş — младший брат или младшая сестра.",
+          "audio": "tr/2-17/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-17-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух четыре слова старшего поколения:",
+          "target_text": "dede, babaanne, anneanne, amca",
+          "translation_ru": "дедушка, бабушка по отцу, бабушка по матери, дядя по отцу",
+          "explain_ru": "В турецком языке названия родственников по линии отца и матери различаются.",
+          "audio": "tr/2-17/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-17-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Кто врач? Прослушайте скрипт и выберите ответ:",
+          "transcript": "Anneannem İzmir'de yaşıyor. Dayım doktor. Teyzem öğretmen.",
+          "options": [
+            "дядя по маме (dayım)",
+            "тётя по маме (teyzem)",
+            "бабушка по маме (anneannem)",
+            "дядя по отцу (amcam)"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Dayım doktor — Мой дядя (брат мамы) врач.",
+          "audio": "tr/2-17/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-17-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «старшая сестра»:",
+          "transcript": "abla",
+          "accepted": ["abla"],
+          "explain_ru": "Abla — старшая сестра.",
+          "audio": "tr/2-17/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-17-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «старший брат»:",
+          "transcript": "abi",
+          "accepted": ["abi"],
+          "explain_ru": "Abi (полная форма ağabey) — старший брат.",
+          "audio": "tr/2-17/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-17-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кому говорящий дарит подарки?",
+          "transcript": "Anneme çiçek, babama saat, halama kitap veriyorum.",
+          "options": [
+            "маме цветы, папе часы, тёте по отцу книгу",
+            "бабушке цветы, дедушке часы, сестре книгу",
+            "маме книгу, папе цветы, дяде часы",
+            "тёте по маме цветы, старшему брату часы"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Anneme (маме), babama (папе), halama (тёте по отцу).",
+          "audio": "tr/2-17/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-17-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «бабушка по отцу»:",
+          "transcript": "babaanne",
+          "accepted": ["babaanne"],
+          "explain_ru": "Babaanne — бабушка со стороны отца (пишется слитно, с двойной a).",
+          "audio": "tr/2-17/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-17-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «младший брат/сестра»:",
+          "transcript": "kardeş",
+          "accepted": ["kardeş"],
+          "explain_ru": "Kardeş — младший брат или младшая сестра.",
+          "audio": "tr/2-17/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-17-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кто работает фермером, а кто журналистом?",
+          "transcript": "Amcam köyde çiftçi, ablam şehirde gazeteci.",
+          "options": [
+            "дядя по отцу фермер, старшая сестра журналист",
+            "дядя по маме фермер, младшая сестра журналист",
+            "дедушка фермер, мама журналист",
+            "папа фермер, тётя журналист"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Amcam (дядя по отцу) — çiftçi, ablam (старшая сестра) — gazeteci.",
+          "audio": "tr/2-17/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-17-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «бабушка по матери»:",
+          "transcript": "anneanne",
+          "accepted": ["anneanne"],
+          "explain_ru": "Anneanne — бабушка со стороны матери.",
+          "audio": "tr/2-17/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-17-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Кто это? Соедините турецкие названия дядей и тёть с точным значением:",
+          "pairs": [
+            { "left": "hala", "right": "сестра отца" },
+            { "left": "dayı", "right": "брат матери" },
+            { "left": "teyze", "right": "сестра матери" },
+            { "left": "amca", "right": "брат отца" }
+          ],
+          "explain_ru": "По отцу: amca (дядя), hala (тётя). По матери: dayı (дядя), teyze (тётя).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-17-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Моё (1/2): образуйте форму «моя мама» от слова «anne»:",
+          "source_text": "anne → моя мама",
+          "accepted": ["annem", "benim annem"],
+          "explain_ru": "Anne оканчивается на гласную, поэтому добавляется -m: annem.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-17-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Моё (2/2): образуйте форму «мой папа» от слова «baba»:",
+          "source_text": "baba → мой папа",
+          "accepted": ["babam", "benim babam"],
+          "explain_ru": "Baba → babam (мой папа). По тому же правилу: abla → ablam, dede → dedem.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-17-wr-04",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Моё: соедините начальную форму слова с притяжательной «мой/моя»:",
+          "pairs": [
+            { "left": "anne", "right": "annem" },
+            { "left": "baba", "right": "babam" },
+            { "left": "abla", "right": "ablam" },
+            { "left": "dede", "right": "dedem" }
+          ],
+          "explain_ru": "У всех четырёх слов основа на гласную, поэтому аффикс 1-го лица — просто -m.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-17-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова семьи с переводом:",
+          "pairs": [
+            { "left": "kardeş", "right": "младший брат/сестра" },
+            { "left": "abi", "right": "старший брат" },
+            { "left": "babaanne", "right": "бабушка (по отцу)" },
+            { "left": "anneanne", "right": "бабушка (по матери)" }
+          ],
+          "explain_ru": "Kardeş, abi, babaanne, anneanne.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-17-wr-06",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «сестра отца» (тётя по отцу):",
+          "source_text": "сестра отца",
+          "accepted": ["hala"],
+          "explain_ru": "Hala — тётя, сестра отца.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-17-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Мой дедушка живёт в деревне»",
+          "source_text": "Мой дедушка живёт в деревне.",
+          "bank": ["yaşıyor", "dedem", "köyde"],
+          "accepted": ["Dedem köyde yaşıyor"],
+          "explain_ru": "Dedem köyde yaşıyor — Мой дедушка живёт в деревне.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-17-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: слово «kardeş» оканчивается на согласную, добавьте правильный аффикс «мой»:",
+          "buggy_text": "Benim kardeşm genç.",
+          "accepted": ["Benim kardeşim genç."],
+          "explain_ru": "После согласной после передней гласной e используется -im: kardeşim.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-17-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Моя семья: прочитайте текст (mühendis — инженер, üniversitede — в университете) и ответьте на вопросы:",
+          "passage": "Benim büyük bir ailem var. Annem öğretmen, babam mühendis. Ablam üniversitede okuyor. Dedem köyde yaşıyor.",
+          "questions": [
+            {
+              "question_ru": "Кем работает отец?",
+              "options": ["инженером (mühendis)", "учителем (öğretmen)", "врачом (doktor)", "фермером (çiftçi)"],
+              "correct_index": 0,
+              "accepted": ["инженер", "инженером", "mühendis"]
+            },
+            {
+              "question_ru": "Где живёт дедушка?",
+              "options": ["в деревне (köyde)", "в городе (şehirde)", "в Измире (İzmir'de)", "в отеле (otelde)"],
+              "correct_index": 0,
+              "accepted": ["в деревне", "деревне", "köyde"]
+            }
+          ],
+          "explain_ru": "Babam mühendis (папа инженер), dedem köyde yaşıyor (дедушка живёт в деревне).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-17-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Кто такая «babaanne»?",
+          "question_text": "babaanne",
+          "options": [
+            "бабушка со стороны отца",
+            "бабушка со стороны матери",
+            "тётя со стороны отца",
+            "старшая сестра"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Baba (папа) + anne (мама) = babaanne (бабушка по отцу).",
+          "audio": "tr/2-17/w07.mp3"
+        },
+        {
+          "id": "tr-2-17-rd-03",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните разницу между «dayı» и «amca»:",
+          "target_text": "dayı",
+          "translation_ru": "дядя (брат матери)",
+          "example_text": "Dayım çok komik.",
+          "example_ru": "Мой дядя (брат мамы) очень смешной.",
+          "explain_ru": "Dayı — брат матери, а amca — брат отца.",
+          "audio": "tr/2-17/w11.mp3"
+        },
+        {
+          "id": "tr-2-17-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «teyze»:",
+          "question_text": "teyze",
+          "options": [
+            "тётя (сестра матери)",
+            "тётя (сестра отца)",
+            "старшая сестра",
+            "бабушка по матери"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Teyze — сестра матери; hala — сестра отца.",
+          "audio": "tr/2-17/w10.mp3"
+        },
+        {
+          "id": "tr-2-17-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое слово обозначает старшего брата?",
+          "question_text": "старший брат",
+          "options": ["abi", "abla", "kardeş", "amca"],
+          "correct_index": 0,
+          "explain_ru": "Abi — старший брат, abla — старшая сестра, kardeş — младший брат/сестра.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-17-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий рассказ о визите к родственникам:",
+          "passage": "Bugün anneannem ve dedem bize (к нам) geliyor. Annem çorba ve pilav yapıyor. Halam ve amcam da akşam geliyor. Kardeşim çok mutlu!",
+          "questions": [
+            {
+              "question_ru": "Кто приходит вечером?",
+              "options": [
+                "тётя и дядя по отцу (halam ve amcam)",
+                "бабушка и дедушка по маме",
+                "старший брат и старшая сестра",
+                "тётя и дядя по маме"
+              ],
+              "correct_index": 0,
+              "accepted": ["тётя и дядя по отцу", "halam ve amcam", "тётя и дядя"]
+            }
+          ],
+          "explain_ru": "Halam ve amcam da akşam geliyor — Моя тётя (по отцу) и дядя (по отцу) тоже приходят вечером.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-17-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не относится к семье):",
+          "items": ["anne", "baba", "dede", "müdür"],
+          "odd_index": 3,
+          "explain_ru": "Müdür — директор (профессия/должность), остальные слова обозначают членов семьи.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-17-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте поколения от старшего к младшему (дедушка → папа → старший брат → младший брат):",
+          "items_shuffled": ["abi", "dede", "kardeş", "baba"],
+          "correct_order": ["dede", "baba", "abi", "kardeş"],
+          "explain_ru": "Dede (дедушка) → baba (папа) → abi (старший брат) → kardeş (младший брат/сестра).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

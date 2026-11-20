@@ -106,19 +106,13 @@ function formatExerciseMarkdown(ex: Exercise, index: number): string {
   return lines.join('\n');
 }
 
-function exportSectionReview(courseId: CourseId, sectionNum: number): void {
-  const coursePath = path.join(CONTENT_DIR, courseId, 'course.json');
-  const course = CourseSchema.parse(JSON.parse(fs.readFileSync(coursePath, 'utf8')));
-  const section = course.sections.find((s) => s.section === sectionNum);
-  if (!section) {
-    throw new Error(`Section ${sectionNum} not found in course "${courseId}"`);
-  }
-
-  const units: Unit[] = section.unit_ids.map((uid) => {
-    const uPath = path.join(CONTENT_DIR, courseId, 'units', `${uid}.json`);
-    return UnitSchema.parse(JSON.parse(fs.readFileSync(uPath, 'utf8')));
-  });
-
+function buildMarkdownForUnits(
+  courseId: CourseId,
+  sectionTitle: string,
+  sectionCefr: string,
+  units: Unit[],
+  partLabel?: string,
+): string {
   const totalWords = units.reduce((acc, u) => acc + u.words.length, 0);
   const totalExercises = units.reduce(
     (acc, u) =>
@@ -131,15 +125,16 @@ function exportSectionReview(courseId: CourseId, sectionNum: number): void {
   );
 
   const mdLines: string[] = [];
+  const headingSuffix = partLabel ? ` — ${partLabel}` : '';
   mdLines.push(
-    `# Пакет проверки контента: Курс \`${courseId}\` — ${section.title_ru} (Уровень ${section.cefr})`,
+    `# Пакет проверки контента: Курс \`${courseId}\` — ${sectionTitle} (Уровень ${sectionCefr})${headingSuffix}`,
   );
   mdLines.push('');
   mdLines.push(
-    `> **Назначение файла:** Самодостаточный пакет всех слов и упражнений секции для вычитки грамматики, естественности фраз, переводов и ключей внешним ревьюером (Claude) и владельцем проекта.`,
+    `> **Назначение файла:** Самодостаточный пакет слов и упражнений для вычитки грамматики, естественности фраз, переводов и ключей внешним ревьюером (Claude) и владельцем проекта.`,
   );
   mdLines.push(
-    `> **Статистика секции:** Юнитов: **${units.length}** (включая босс-юнит) · Слов: **${totalWords}** · Упражнений: **${totalExercises}**.`,
+    `> **Статистика пакета:** Юнитов: **${units.length}** · Слов: **${totalWords}** · Упражнений: **${totalExercises}**.`,
   );
   mdLines.push('');
   mdLines.push('---');
@@ -180,20 +175,99 @@ function exportSectionReview(courseId: CourseId, sectionNum: number): void {
     mdLines.push('---');
   }
 
+  return `${mdLines.join('\n')}\n`;
+}
+
+function exportSectionReview(courseId: CourseId, sectionNum: number, chunkSize?: number): void {
+  const coursePath = path.join(CONTENT_DIR, courseId, 'course.json');
+  const course = CourseSchema.parse(JSON.parse(fs.readFileSync(coursePath, 'utf8')));
+  const section = course.sections.find((s) => s.section === sectionNum);
+  if (!section) {
+    throw new Error(`Section ${sectionNum} not found in course "${courseId}"`);
+  }
+
+  const units: Unit[] = section.unit_ids.map((uid) => {
+    const uPath = path.join(CONTENT_DIR, courseId, 'units', `${uid}.json`);
+    return UnitSchema.parse(JSON.parse(fs.readFileSync(uPath, 'utf8')));
+  });
+
+  const totalWords = units.reduce((acc, u) => acc + u.words.length, 0);
+  const totalExercises = units.reduce(
+    (acc, u) =>
+      acc +
+      u.skills.speaking.exercises.length +
+      u.skills.listening.exercises.length +
+      u.skills.writing.exercises.length +
+      u.skills.reading.exercises.length,
+    0,
+  );
+
   fs.mkdirSync(REVIEWS_CONTENT_DIR, { recursive: true });
   const outPath = path.join(REVIEWS_CONTENT_DIR, `${courseId}-section-${sectionNum}.md`);
-  fs.writeFileSync(outPath, `${mdLines.join('\n')}\n`, 'utf8');
+  fs.writeFileSync(
+    outPath,
+    buildMarkdownForUnits(courseId, section.title_ru, section.cefr, units),
+    'utf8',
+  );
   console.log(
     `[content:export-review] Wrote ${outPath} (${units.length} units, ${totalWords} words, ${totalExercises} exercises)`,
   );
+
+  if (chunkSize && chunkSize > 0 && units.length > chunkSize) {
+    // Group units into balanced chunks; attach a trailing 1-unit boss remainder to the last chunk
+    const chunks: Unit[][] = [];
+    for (let i = 0; i < units.length; i += chunkSize) {
+      chunks.push(units.slice(i, i + chunkSize));
+    }
+    if (chunks.length > 1 && chunks[chunks.length - 1]!.length === 1) {
+      const bossUnit = chunks.pop()![0]!;
+      chunks[chunks.length - 1]!.push(bossUnit);
+    }
+
+    chunks.forEach((chunk, idx) => {
+      const partNum = idx + 1;
+      const firstId = chunk[0]!.id;
+      const lastId = chunk[chunk.length - 1]!.id;
+      const partPath = path.join(
+        REVIEWS_CONTENT_DIR,
+        `${courseId}-section-${sectionNum}-part-${partNum}.md`,
+      );
+      const partWords = chunk.reduce((acc, u) => acc + u.words.length, 0);
+      const partEx = chunk.reduce(
+        (acc, u) =>
+          acc +
+          u.skills.speaking.exercises.length +
+          u.skills.listening.exercises.length +
+          u.skills.writing.exercises.length +
+          u.skills.reading.exercises.length,
+        0,
+      );
+      fs.writeFileSync(
+        partPath,
+        buildMarkdownForUnits(
+          courseId,
+          section.title_ru,
+          section.cefr,
+          chunk,
+          `Часть ${partNum}/${chunks.length} (${firstId} … ${lastId})`,
+        ),
+        'utf8',
+      );
+      console.log(
+        `[content:export-review] Wrote ${partPath} (${chunk.length} units, ${partWords} words, ${partEx} exercises)`,
+      );
+    });
+  }
 }
 
 function main(): void {
   const arg = process.argv.find((a) => a.startsWith('--section='))?.split('=')[1] ?? 'tr-1';
+  const chunkArg = process.argv.find((a) => a.startsWith('--chunk-size='))?.split('=')[1];
+  const chunkSize = chunkArg ? Number.parseInt(chunkArg, 10) : undefined;
   const [courseRaw, secRaw] = arg.split('-');
   const courseId = (courseRaw === 'en' ? 'en' : 'tr') as CourseId;
   const sectionNum = Number.parseInt(secRaw ?? '1', 10);
-  exportSectionReview(courseId, sectionNum);
+  exportSectionReview(courseId, sectionNum, chunkSize);
 }
 
 main();

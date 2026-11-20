@@ -83,16 +83,412 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-14-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Портрет (1/2): опишите друга тремя признаками:",
+          "target_text": "Arkadaşım genç ve komik. Saçı uzun.",
+          "translation_ru": "Мой друг молодой и смешной. Его/её волосы длинные.",
+          "explain_ru": "Saç — волосы (в турецком обычно в единственном числе), saçı — его/её волосы.",
+          "audio": "tr/2-14/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-14-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Портрет (2/2): произнесите описание дедушки (dedem — мой дедушка):",
+          "target_text": "Dedem yaşlı ama mutlu.",
+          "translation_ru": "Мой дедушка пожилой, но счастливый.",
+          "explain_ru": "Yaşlı — пожилой (о людях; о вещах используется eski).",
+          "audio": "tr/2-14/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-14-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Али красивый и очень вежливый»:",
+          "target_text": "Ali yakışıklı ve çok nazik.",
+          "translation_ru": "Али красивый и очень вежливый.",
+          "explain_ru": "Yakışıklı используется для описания привлекательности мужчин; nazik — вежливый.",
+          "audio": "tr/2-14/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-14-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про антонимы внешности: «Этот мужчина худой, а тот полный»:",
+          "target_text": "Bu adam zayıf ama şu adam şişman.",
+          "translation_ru": "Этот мужчина худой, а тот мужчина полный.",
+          "explain_ru": "Zayıf (худой) ↔ şişman (полный).",
+          "audio": "tr/2-14/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-14-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Сегодня я немного (biraz) уставший, но не грустный»:",
+          "target_text": "Bugün biraz yorgunum ama üzgün değilim.",
+          "translation_ru": "Сегодня я немного устал, но не грустен.",
+          "explain_ru": "Yorgun + um → yorgunum (я уставший); üzgün değilim — я не грустный.",
+          "audio": "tr/2-14/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-14-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите: «Почему ты злой? Я не злой, я просто уставший»:",
+          "target_text": "Neden kızgınsın? Kızgın değilim, yorgunum.",
+          "translation_ru": "Почему ты злой? Я не злой, я устал.",
+          "explain_ru": "Kızgın + sın → kızgınsın (ты злой/сердитый).",
+          "audio": "tr/2-14/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-14-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите волосы: «Её волосы чёрные и короткие, а его волосы коричневые»:",
+          "target_text": "Onun saçı siyah ve kısa. Ali'nin saçı kahverengi.",
+          "translation_ru": "Её волосы чёрные и короткие. Волосы Али коричневые.",
+          "explain_ru": "Saç — волосы (saçı — его/её волосы).",
+          "audio": "tr/2-14/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-14-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух четыре эмоции: счастливый, грустный, злой, уставший:",
+          "target_text": "mutlu, üzgün, kızgın, yorgun",
+          "translation_ru": "счастливый, грустный, злой, уставший",
+          "explain_ru": "Все четыре прилагательных часто используются в ежедневных диалогах о настроении.",
+          "audio": "tr/2-14/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-14-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Семейная сцена: прослушайте скрипт и ответьте, кто устал?",
+          "transcript": "Dedem yaşlı ama çok mutlu. Babam yorgun. Kardeşim komik.",
+          "options": [
+            "папа (babam)",
+            "дедушка (dedem)",
+            "младший брат/сестра (kardeşim)",
+            "никто"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Babam yorgun — Мой папа устал.",
+          "audio": "tr/2-14/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-14-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «вежливый»:",
+          "transcript": "nazik",
+          "accepted": ["nazik"],
+          "explain_ru": "Nazik — вежливый, деликатный.",
+          "audio": "tr/2-14/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-14-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «красивый (о мужчине)»:",
+          "transcript": "yakışıklı",
+          "accepted": ["yakışıklı"],
+          "explain_ru": "Yakışıklı — красивый (о мужчине).",
+          "audio": "tr/2-14/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-14-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как описывают нового официанта?",
+          "transcript": "Yeni garson genç, zayıf ve çok nazik.",
+          "options": [
+            "молодой, худой и очень вежливый",
+            "пожилой, полный и грустный",
+            "молодой, злой и уставший",
+            "высокий, смешной и грустный"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Genç (молодой), zayıf (худой), çok nazik (очень вежливый).",
+          "audio": "tr/2-14/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-14-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «полный»:",
+          "transcript": "şişman",
+          "accepted": ["şişman"],
+          "explain_ru": "Şişman — полный (о телосложении).",
+          "audio": "tr/2-14/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-14-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какое настроение у Айше и Мехмета?",
+          "transcript": "Ayşe bugün üzgün ama Mehmet çok kızgın.",
+          "options": [
+            "Айше грустная, Мехмет очень злой",
+            "Айше счастливая, Мехмет уставший",
+            "Айше злая, Мехмет смешной",
+            "Оба очень счастливы"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Üzgün (грустный), kızgın (злой/сердитый).",
+          "audio": "tr/2-14/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-14-ls-07",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «волосы»:",
+          "transcript": "saç",
+          "accepted": ["saç"],
+          "explain_ru": "Saç — волосы.",
+          "audio": "tr/2-14/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-14-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «худой»:",
+          "transcript": "zayıf",
+          "accepted": ["zayıf"],
+          "explain_ru": "Zayıf — худой (также слабый).",
+          "audio": "tr/2-14/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-14-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Эмоции: соедините эмодзи и русское значение с турецким словом:",
+          "pairs": [
+            { "left": "mutlu", "right": "😊 счастливый" },
+            { "left": "üzgün", "right": "🙁 грустный" },
+            { "left": "kızgın", "right": "😠 злой" },
+            { "left": "yorgun", "right": "😴 уставший" }
+          ],
+          "explain_ru": "Mutlu (счастливый), üzgün (грустный), kızgın (злой), yorgun (уставший).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-14-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Он очень смешной»",
+          "source_text": "Он очень смешной.",
+          "bank": ["komik", "çok", "o"],
+          "accepted": ["O çok komik"],
+          "explain_ru": "O çok komik — Он/она очень смешной(-ая).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-14-wr-03",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова внешности и возраста с переводом:",
+          "pairs": [
+            { "left": "zayıf", "right": "худой" },
+            { "left": "şişman", "right": "полный" },
+            { "left": "yaşlı", "right": "пожилой" },
+            { "left": "genç", "right": "молодой" }
+          ],
+          "explain_ru": "Zayıf ↔ şişman, yaşlı ↔ genç.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-14-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините качества человека и слово «волосы» с переводом:",
+          "pairs": [
+            { "left": "yakışıklı", "right": "красивый (о мужчине)" },
+            { "left": "nazik", "right": "вежливый" },
+            { "left": "komik", "right": "смешной" },
+            { "left": "saç", "right": "волосы" }
+          ],
+          "explain_ru": "Yakışıklı, nazik, komik, saç.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-14-wr-05",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки антоним слова «yaşlı» («молодой»):",
+          "source_text": "молодой",
+          "accepted": ["genç"],
+          "explain_ru": "Genç — молодой.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-14-wr-06",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «грустный»",
+          "source_text": "грустный",
+          "accepted": ["üzgün"],
+          "explain_ru": "Üzgün — грустный.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-14-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Мой друг вежливый и счастливый»",
+          "source_text": "Мой друг вежливый и счастливый.",
+          "bank": ["mutlu", "ve", "arkadaşım", "nazik"],
+          "accepted": ["Arkadaşım nazik ve mutlu", "Arkadaşım mutlu ve nazik"],
+          "explain_ru": "Arkadaşım nazik ve mutlu — Мой друг вежливый и счастливый.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-14-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: для описания пожилого человека используется «yaşlı», а не «eski» («Мой дедушка пожилой»):",
+          "buggy_text": "Dedem eski.",
+          "accepted": ["Dedem yaşlı."],
+          "explain_ru": "Eski означает «старый» о предметах и зданиях; о возрасте людей говорят yaşlı.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-14-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Ali: прочитайте описание и ответьте на вопрос:",
+          "passage": "Ali yakışıklı ve nazik. Saçı kısa. Bugün biraz yorgun ama mutlu.",
+          "questions": [
+            {
+              "question_ru": "Какие волосы у Али?",
+              "options": [
+                "короткие (kısa)",
+                "длинные (uzun)",
+                "чёрные (siyah)",
+                "белые (beyaz)"
+              ],
+              "correct_index": 0,
+              "accepted": ["короткие", "kısa"]
+            }
+          ],
+          "explain_ru": "Saçı kısa — Его волосы короткие.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-14-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое слово используется для описания красивого мужчины?",
+          "question_text": "красивый (о мужчине)",
+          "options": ["yakışıklı", "şişman", "kızgın", "yaşlı"],
+          "correct_index": 0,
+          "explain_ru": "Yakışıklı — красивый (о мужчине); güzel чаще говорят о женщинах и предметах.",
+          "audio": "tr/2-14/w05.mp3"
+        },
+        {
+          "id": "tr-2-14-rd-03",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните прилагательное «вежливый»:",
+          "target_text": "nazik",
+          "translation_ru": "вежливый",
+          "example_text": "Bu şoför çok nazik.",
+          "example_ru": "Этот водитель очень вежливый.",
+          "explain_ru": "Nazik описывает доброго, тактичного и вежливого человека.",
+          "audio": "tr/2-14/w10.mp3"
+        },
+        {
+          "id": "tr-2-14-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какой антоним у слова «zayıf»?",
+          "question_text": "zayıf ↔ ?",
+          "options": ["şişman", "genç", "komik", "mutlu"],
+          "correct_index": 0,
+          "explain_ru": "Zayıf (худой) ↔ şişman (полный).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-14-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «Ben bugün çok yorgunum»?",
+          "question_text": "Ben bugün çok yorgunum.",
+          "options": [
+            "Я сегодня очень устал(а).",
+            "Я сегодня очень счастлив(а).",
+            "Я сегодня очень злой/злая.",
+            "Я сегодня очень смешной/смешная."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Çok yorgunum — очень уставший (я устал).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-14-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий портрет:",
+          "passage": "Ayşe genç bir doktor (врач). Saçı uzun ve siyah. O çok nazik ama bugün biraz üzgün, çünkü (потому что) çok yorgun.",
+          "questions": [
+            {
+              "question_ru": "Почему Айше сегодня немного грустная?",
+              "options": [
+                "потому что она очень устала",
+                "потому что она злая",
+                "потому что она пожилая",
+                "потому что её волосы короткие"
+              ],
+              "correct_index": 0,
+              "accepted": ["потому что устала", "устала", "çok yorgun"]
+            }
+          ],
+          "explain_ru": "Bugün biraz üzgün, çünkü çok yorgun — Сегодня немного грустная, потому что очень устала.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-14-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не обозначает эмоцию или состояние настроения):",
+          "items": ["mutlu", "üzgün", "kızgın", "saç"],
+          "odd_index": 3,
+          "explain_ru": "Saç — волосы (часть внешности), остальные слова описывают эмоции.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-14-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите верный перевод фразы «Müdür bugün kızgın»:",
+          "question_text": "Müdür bugün kızgın.",
+          "options": [
+            "Директор сегодня злой.",
+            "Директор сегодня смешной.",
+            "Директор сегодня молодой.",
+            "Директор сегодня худой."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Müdür (директор) bugün (сегодня) kızgın (злой/сердитый).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

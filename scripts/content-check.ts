@@ -25,6 +25,107 @@ const APPROVED_WORD_RU_OVERRIDES: Record<string, string> = {
   'tr-1-8-w03': 'горячий (о погоде: жаркий)',
 };
 
+function normalizeForDupCheck(text: string, locale: string): string {
+  return text
+    .toLocaleLowerCase(locale)
+    .replace(/[.,!?;:'"«»—–-]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/**
+ * Exercises from tr-section-1 whose trailing period in build_sentence.accepted was explicitly
+ * specified by the external reviewer (A3, A9) before marking section 1 as claude_ok.
+ */
+const APPROVED_BUILD_SENTENCE_PUNCT_IDS = new Set(['tr-1-3-wr-07', 'tr-1-4-wr-08']);
+
+function checkExerciseQuality(ex: Exercise, locale: string, errors: string[]): void {
+  if (ex.type === 'build_sentence') {
+    const bankHasTrailingPunct = ex.bank.some((b) => /[.!?]$/.test(b));
+    const bankTokens = ex.bank
+      .flatMap((b) => b.split(/\s+/))
+      .map((t) => normalizeForDupCheck(t, locale))
+      .filter(Boolean)
+      .sort()
+      .join('|');
+
+    for (const acc of ex.accepted) {
+      if (
+        /[.!?]$/.test(acc) &&
+        !bankHasTrailingPunct &&
+        !APPROVED_BUILD_SENTENCE_PUNCT_IDS.has(ex.id)
+      ) {
+        errors.push(
+          `Quality violation in ${ex.id}: build_sentence accepted "${acc}" ends with punctuation absent from bank`,
+        );
+      }
+      const accTokens = acc
+        .split(/\s+/)
+        .map((t) => normalizeForDupCheck(t, locale))
+        .filter(Boolean)
+        .sort()
+        .join('|');
+      if (accTokens !== bankTokens) {
+        errors.push(
+          `Quality violation in ${ex.id}: build_sentence accepted "${acc}" does not match bank tokens [${ex.bank.join(', ')}]`,
+        );
+      }
+    }
+  }
+
+  if (
+    ex.type === 'build_sentence' ||
+    ex.type === 'type_answer' ||
+    ex.type === 'listen_type' ||
+    ex.type === 'fix_bug'
+  ) {
+    const seen = new Set<string>();
+    for (const acc of ex.accepted) {
+      const norm = normalizeForDupCheck(acc, locale);
+      if (seen.has(norm)) {
+        errors.push(
+          `Quality violation in ${ex.id}: duplicate accepted answer after punctuation normalization ("${acc}")`,
+        );
+      }
+      seen.add(norm);
+    }
+  }
+
+  if (ex.type === 'match_pairs') {
+    for (const pair of ex.pairs) {
+      if (
+        pair.left.trim().toLocaleLowerCase(locale) === pair.right.trim().toLocaleLowerCase(locale)
+      ) {
+        errors.push(
+          `Quality violation in ${ex.id}: match_pairs has identical left and right ("${pair.left}")`,
+        );
+      }
+    }
+  }
+
+  if (ex.type === 'multiple_choice' || ex.type === 'listen_choose') {
+    for (const opt of ex.options) {
+      if (/^[—–-]\s/.test(opt)) {
+        errors.push(`Quality violation in ${ex.id}: option starts with leading dash ("${opt}")`);
+      }
+    }
+  }
+
+  if (ex.type === 'read_comprehension') {
+    for (const q of ex.questions) {
+      if (q.options) {
+        for (const opt of q.options) {
+          if (/^[—–-]\s/.test(opt)) {
+            errors.push(
+              `Quality violation in ${ex.id}: question option starts with leading dash ("${opt}")`,
+            );
+          }
+        }
+      }
+    }
+  }
+}
+
 function collectExerciseText(ex: Exercise): string {
   const parts: string[] = [ex.prompt_ru];
   if (ex.explain_ru) parts.push(ex.explain_ru);
@@ -219,11 +320,13 @@ function main(): void {
         ...unit.skills.reading.exercises,
       ];
 
+      const locale = courseId === 'tr' ? 'tr-TR' : 'en-US';
       for (const ex of allExercises) {
         if (globalExerciseIds.has(ex.id)) {
           errors.push(`Duplicate exercise ID: ${ex.id}`);
         }
         globalExerciseIds.add(ex.id);
+        checkExerciseQuality(ex, locale, errors);
 
         if (checkAudioFiles && ex.audio) {
           const audioFullPath = path.join(PUBLIC_AUDIO_DIR, ex.audio);

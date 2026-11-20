@@ -83,16 +83,421 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-28-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Рассказ о себе: произнесите вслух три предложения о прошлом (yıl — год, orada — там):",
+          "target_text": "Ben İstanbul'da doğdum. Orada büyüdüm. Geçen yıl taşındım.",
+          "translation_ru": "Я родился в Стамбуле. Там я вырос. В прошлом году я переехал.",
+          "explain_ru": "Прошедшее время -dı/-di/-du/-dü + личное окончание -m: doğmak → doğdum, büyümek → büyüdüm, taşınmak → taşındım.",
+          "audio": "tr/2-28/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-28-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «На прошлой неделе я встретился с другом»:",
+          "target_text": "Geçen hafta arkadaşımla buluştum.",
+          "translation_ru": "На прошлой неделе я встретился с другом.",
+          "explain_ru": "Geçen hafta — на прошлой неделе; от buluşmak после глухой ş ставится -tu: buluştum.",
+          "audio": "tr/2-28/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-28-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Неделю назад я купил новую книгу»:",
+          "target_text": "Bir hafta önce yeni bir kitap satın aldım.",
+          "translation_ru": "Неделю назад я купил новую книгу.",
+          "explain_ru": "Bir hafta önce — неделю назад; от глагола satın almak → satın aldım.",
+          "audio": "tr/2-28/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-28-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я только что пришёл, извини, я опоздал»:",
+          "target_text": "Az önce geldim, özür dilerim, geç kaldım.",
+          "translation_ru": "Я только что пришёл, прошу прощения, я опоздал.",
+          "explain_ru": "Az önce — только что; geç kaldım — от глагола geç kalmak (опоздать).",
+          "audio": "tr/2-28/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-28-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Моя старшая сестра вышла замуж в прошлом году»:",
+          "target_text": "Ablam geçen yıl evlendi.",
+          "translation_ru": "Моя старшая сестра вышла замуж в прошлом году.",
+          "explain_ru": "Evlenmek (жениться / выйти замуж) → evlendi.",
+          "audio": "tr/2-28/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-28-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Мы выиграли и очень счастливы»:",
+          "target_text": "Biz kazandık ve çok mutluyuz.",
+          "translation_ru": "Мы выиграли и очень счастливы.",
+          "explain_ru": "От глагола kazanmak (выиграть): мы выиграли — kazandık.",
+          "audio": "tr/2-28/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-28-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Две недели назад мы переехали в новый дом»:",
+          "target_text": "İki hafta önce yeni bir eve taşındık.",
+          "translation_ru": "Две недели назад мы переехали в новый дом.",
+          "explain_ru": "İki hafta önce — две недели назад; taşınmak → taşındık.",
+          "audio": "tr/2-28/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-28-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Вчера автобус опоздал, но мы встретились в парке»:",
+          "target_text": "Dün otobüs geç kaldı ama parkta buluştuk.",
+          "translation_ru": "Вчера автобус опоздал, но мы встретились в парке.",
+          "explain_ru": "Geç kalmak → geç kaldı; buluşmak → buluştuk (мы встретились).",
+          "audio": "tr/2-28/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-28-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Недавние события: прослушайте скрипт и ответьте, что купил говорящий:",
+          "transcript": "Geçen hafta arkadaşımla buluştum. Bir hafta önce yeni bir telefon satın aldım. Az önce eve geldim.",
+          "options": [
+            "новый телефон (yeni bir telefon)",
+            "новый чемодан (bavul)",
+            "билет на поезд (tren bileti)",
+            "новую книгу (kitap)"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bir hafta önce yeni bir telefon satın aldım — Неделю назад я купил новый телефон (от satın almak).",
+          "audio": "tr/2-28/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-28-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите выражение «только что» по-турецки:",
+          "transcript": "az önce",
+          "accepted": ["az önce"],
+          "explain_ru": "Az önce — только что, немного раньше.",
+          "audio": "tr/2-28/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-28-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «неделя» по-турецки:",
+          "transcript": "hafta",
+          "accepted": ["hafta"],
+          "explain_ru": "Hafta — неделя.",
+          "audio": "tr/2-28/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-28-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что случилось с Али сегодня утром?",
+          "transcript": "Ali sabah geç uyandı ve derse geç kaldı.",
+          "options": [
+            "Поздно проснулся и опоздал на урок",
+            "Рано встал и выиграл гонку",
+            "Переехал в другой город",
+            "Купил новый свитер"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Geç uyandı (поздно проснулся) ve derse geç kaldı (и опоздал на урок).",
+          "audio": "tr/2-28/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-28-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите инфинитив «вырасти» по-турецки:",
+          "transcript": "büyümek",
+          "accepted": ["büyümek"],
+          "explain_ru": "Büyümek — расти, вырасти.",
+          "audio": "tr/2-28/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-28-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите инфинитив «переехать» по-турецки:",
+          "transcript": "taşınmak",
+          "accepted": ["taşınmak"],
+          "explain_ru": "Taşınmak — переезжать, переехать.",
+          "audio": "tr/2-28/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-28-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Когда и где встретились друзья?",
+          "transcript": "Geçen hafta kütüphanede buluştuk. Sonra birlikte çay içtik.",
+          "options": [
+            "На прошлой неделе в библиотеке",
+            "Вчера в аэропорту",
+            "Год назад на пляже",
+            "Только что в банке"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Geçen hafta kütüphanede buluştuk — На прошлой неделе мы встретились в библиотеке.",
+          "audio": "tr/2-28/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-28-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите инфинитив «купить» по-турецки:",
+          "transcript": "satın almak",
+          "accepted": ["satın almak"],
+          "explain_ru": "Satın almak — покупать, купить.",
+          "audio": "tr/2-28/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-28-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Прошедшее время (1/4): поставьте «doğmak» в прошедшее время (ben — «я родился»):",
+          "source_text": "doğmak (ben) → ?",
+          "accepted": ["doğdum"],
+          "explain_ru": "Основа doğ- (гласная o, звонкая ğ) + -du + -m = doğdum.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-28-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Прошедшее время (2/4): поставьте «kazanmak» в прошедшее время (ben — «я выиграл»):",
+          "source_text": "kazanmak (ben) → ?",
+          "accepted": ["kazandım"],
+          "explain_ru": "Основа kazan- (гласная a) + -dı + -m = kazandım.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-28-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Прошедшее время (3/4): поставьте «evlenmek» в прошедшее время (ben — «я женился / вышла замуж»):",
+          "source_text": "evlenmek (ben) → ?",
+          "accepted": ["evlendim"],
+          "explain_ru": "Основа evlen- (гласная e) + -di + -m = evlendim.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-28-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Прошедшее время (4/4): поставьте «geç kalmak» в прошедшее время (ben — «я опоздал»):",
+          "source_text": "geç kalmak (ben) → ?",
+          "accepted": ["geç kaldım"],
+          "explain_ru": "Основа kal- + -dı + -m = geç kaldım.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-28-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы событий с переводом (часть 1):",
+          "pairs": [
+            { "left": "doğmak", "right": "родиться" },
+            { "left": "büyümek", "right": "вырасти" },
+            { "left": "evlenmek", "right": "жениться" },
+            { "left": "taşınmak", "right": "переехать" }
+          ],
+          "explain_ru": "Doğmak — родиться, büyümek — вырасти, evlenmek — жениться, taşınmak — переехать.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-28-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы событий с переводом (часть 2):",
+          "pairs": [
+            { "left": "kazanmak", "right": "выиграть" },
+            { "left": "buluşmak", "right": "встретиться" },
+            { "left": "satın almak", "right": "купить" },
+            { "left": "geç kalmak", "right": "опоздать" }
+          ],
+          "explain_ru": "Kazanmak — выиграть, buluşmak — встретиться, satın almak — купить, geç kalmak — опоздать.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-28-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова времени с переводом:",
+          "pairs": [
+            { "left": "geçen", "right": "прошлый" },
+            { "left": "önce", "right": "назад" },
+            { "left": "az önce", "right": "только что" },
+            { "left": "hafta", "right": "неделя" }
+          ],
+          "explain_ru": "Geçen — прошлый, önce — назад (раньше), az önce — только что, hafta — неделя.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-28-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте оглушение согласной в прошедшем времени от «buluşmak» («Я встретился с другом»):",
+          "buggy_text": "Arkadaşımla buluşdum.",
+          "accepted": ["Arkadaşımla buluştum."],
+          "explain_ru": "Основа buluş- оканчивается на глухую ş (fıstıkçı şahap), поэтому аффикс прошедшего времени начинается с t: buluştum.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-28-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Биография: прочитайте текст и ответьте на два вопроса:",
+          "passage": "Ali 1995'te doğdu. İstanbul'da büyüdü. 2020'de Ankara'ya taşındı. Geçen yıl evlendi.",
+          "questions": [
+            {
+              "question_ru": "Где вырос Али?",
+              "options": [
+                "в Стамбуле (İstanbul'da)",
+                "в Анкаре (Ankara'da)",
+                "в Измире (İzmir'de)",
+                "в деревне"
+              ],
+              "correct_index": 0,
+              "accepted": ["Стамбул", "в Стамбуле", "İstanbul'da"]
+            },
+            {
+              "question_ru": "Когда Али переехал в Анкару?",
+              "options": [
+                "в 2020 году (2020'de)",
+                "в 1995 году (1995'te)",
+                "на прошлой неделе",
+                "только что"
+              ],
+              "correct_index": 0,
+              "accepted": ["в 2020", "2020", "2020'de"]
+            }
+          ],
+          "explain_ru": "İstanbul'da büyüdü (вырос в Стамбуле). 2020'de Ankara'ya taşındı (переехал в Анкару в 2020; beş → 1995'te, yirmi → 2020'de).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-28-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Почему пишется «1995'te», но «2020'de»?",
+          "question_text": "1995'te / 2020'de",
+          "options": [
+            "beş (5) оканчивается на глухую ş → -te, а yirmi (20) на гласную i → -de",
+            "Нечётные годы всегда с -te, чётные с -de",
+            "Это случайное исключение",
+            "В 1995 году правила были другими"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Окончание выбирается по последнему слову произносимого числа: doksan beş (ş → -te), yirmi (i → -de).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-28-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «az önce»?",
+          "question_text": "Az önce eve geldim.",
+          "options": ["только что", "в прошлом году", "на следующей неделе", "давно"],
+          "correct_index": 0,
+          "explain_ru": "Az önce — только что (буквально «немного раньше»).",
+          "audio": "tr/2-28/w03.mp3"
+        },
+        {
+          "id": "tr-2-28-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий рассказ и ответьте на вопрос:",
+          "passage": "Geçen hafta büyük bir yarışta (в соревновании) arkadaşım birinci oldu ve kazandı. Bugün birlikte buluştuk ve ona bir hediye satın aldım.",
+          "questions": [
+            {
+              "question_ru": "Что автор сделал для своего друга сегодня?",
+              "options": [
+                "встретился с ним и купил подарок",
+                "опоздал и уехал домой",
+                "переехал в другую страну",
+                "потерял его телефон"
+              ],
+              "correct_index": 0,
+              "accepted": ["купил подарок", "встретился и купил подарок"]
+            }
+          ],
+          "explain_ru": "Bugün birlikte buluştuk (сегодня встретились вместе) ve ona bir hediye satın aldım (и купил ему подарок).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-28-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните глагол «buluşmak» (встретиться):",
+          "target_text": "buluşmak",
+          "translation_ru": "встретиться",
+          "example_text": "Dün parkta buluştuk.",
+          "example_ru": "Вчера мы встретились в парке.",
+          "explain_ru": "В прошедшем времени после глухой ş ставится -tu: buluştum, buluştuk.",
+          "audio": "tr/2-28/w09.mp3"
+        },
+        {
+          "id": "tr-2-28-rd-06",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте жизненные этапы по порядку («родиться → вырасти → жениться»):",
+          "items_shuffled": ["evlenmek", "doğmak", "büyümek"],
+          "correct_order": ["doğmak", "büyümek", "evlenmek"],
+          "explain_ru": "Doğmak (родиться) → büyümek (вырасти) → evlenmek (жениться / выйти замуж).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-28-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как перевести «İki hafta önce»?",
+          "question_text": "İki hafta önce",
+          "options": [
+            "две недели назад",
+            "через две недели",
+            "на прошлой неделе",
+            "только что"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Önce после промежутка времени означает «назад»: iki hafta önce — две недели назад.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-28-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильную форму прошедшего времени от «kazanmak» (они выиграли):",
+          "question_text": "Onlar ___.",
+          "options": ["kazandılar", "kazandiler", "kazantılar", "kazandular"],
+          "correct_index": 0,
+          "explain_ru": "Основа kazan- (твёрдая a, звонкая n) + -dı + -lar = kazandılar.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

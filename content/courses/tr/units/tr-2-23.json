@@ -83,16 +83,402 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-23-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Чек-лист чемодана (1/2): проверьте документы перед вылетом:",
+          "target_text": "Pasaport var. Bilet var. Vize yok!",
+          "translation_ru": "Паспорт есть. Билет есть. Визы нет!",
+          "explain_ru": "Pasaport — паспорт, bilet — билет, vize — виза.",
+          "audio": "tr/2-23/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-23-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Чек-лист чемодана (2/2): спросите про бронь и скажите, что карты нет:",
+          "target_text": "Rezervasyon var mı? Harita yok.",
+          "translation_ru": "Бронь есть? Карты нет.",
+          "explain_ru": "Rezervasyon — бронь, harita — карта.",
+          "audio": "tr/2-23/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-23-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Мой чемодан тяжёлый, но путешествие прекрасное»:",
+          "target_text": "Bavulum ağır ama seyahat çok güzel.",
+          "translation_ru": "Мой чемодан тяжёлый, но путешествие очень красивое/прекрасное.",
+          "explain_ru": "Bavul — чемодан (bavulum — мой чемодан), seyahat — путешествие.",
+          "audio": "tr/2-23/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-23-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что в отпуске вы идёте на пляж:",
+          "target_text": "Tatilde plaja gidiyorum.",
+          "translation_ru": "В отпуске я иду на пляж.",
+          "explain_ru": "Tatil — отпуск, plaj — пляж (plaja — на пляж).",
+          "audio": "tr/2-23/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-23-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Гид рассказывает про город, поездка начинается»:",
+          "target_text": "Rehber şehri anlatıyor, gezi başlıyor.",
+          "translation_ru": "Гид рассказывает про город, поездка начинается.",
+          "explain_ru": "Rehber — гид, gezi — поездка/экскурсия.",
+          "audio": "tr/2-23/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-23-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Пожелайте счастливого пути и скажите, что дорога длинная:",
+          "target_text": "İyi yolculuklar! Bu yolculuk uzun.",
+          "translation_ru": "Счастливого пути! Эта дорога длинная.",
+          "explain_ru": "Yolculuk — дорога/путешествие; «İyi yolculuklar!» — стандартное пожелание хорошей дороги.",
+          "audio": "tr/2-23/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-23-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Для Франции нужна виза и паспорт» (lazım — нужен):",
+          "target_text": "Fransa için vize ve pasaport lazım.",
+          "translation_ru": "Для Франции нужны виза и паспорт.",
+          "explain_ru": "Vize — виза, pasaport — паспорт, için — для.",
+          "audio": "tr/2-23/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-23-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я беру карту, чемодан и билет на самолёт»:",
+          "target_text": "Haritayı, bavulu ve uçak biletini alıyorum.",
+          "translation_ru": "Я беру карту, чемодан и билет на самолёт.",
+          "explain_ru": "В винительном падеже: harita → haritayı, bavul → bavulu, bilet → bileti.",
+          "audio": "tr/2-23/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-23-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Чего нет? Прослушайте скрипт и выберите ответ:",
+          "transcript": "Otel rezervasyonu var. Uçak bileti var. Ama pasaportum yok!",
+          "options": [
+            "паспорта (pasaportum yok)",
+            "брони отеля (otel rezervasyonu)",
+            "билета на самолёт (uçak bileti)",
+            "чемодана (bavul)"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Ama pasaportum yok — Но моего паспорта нет!",
+          "audio": "tr/2-23/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-23-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «путешествие» по-турецки:",
+          "transcript": "seyahat",
+          "accepted": ["seyahat"],
+          "explain_ru": "Seyahat — путешествие.",
+          "audio": "tr/2-23/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-23-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «гид» по-турецки:",
+          "transcript": "rehber",
+          "accepted": ["rehber"],
+          "explain_ru": "Rehber — гид, экскурсовод.",
+          "audio": "tr/2-23/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-23-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что рассказывает говорящий о своей поездке?",
+          "transcript": "Bu gezi çok güzel. Rehber bize harita veriyor.",
+          "options": [
+            "Поездка очень красивая, гид даёт нам карту",
+            "Поездка скучная, гид потерял билет",
+            "Отпуск закончился, визы нет",
+            "Чемодан потерялся в аэропорту"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Gezi — поездка, rehber — гид, harita — карта.",
+          "audio": "tr/2-23/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-23-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «дорога» (путь) по-турецки:",
+          "transcript": "yolculuk",
+          "accepted": ["yolculuk"],
+          "explain_ru": "Yolculuk — дорога, путешествие (от yol — дорога).",
+          "audio": "tr/2-23/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-23-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «виза» по-турецки:",
+          "transcript": "vize",
+          "accepted": ["vize"],
+          "explain_ru": "Vize — виза.",
+          "audio": "tr/2-23/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-23-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Куда едет Али и что у него с собой?",
+          "transcript": "Ali tatile gidiyor. Büyük bir bavul ve tren bileti var.",
+          "options": [
+            "Али едет в отпуск; у него большой чемодан и билет на поезд",
+            "Али идёт в школу; у него книга и тетрадь",
+            "Али едет в больницу; у него нет билета",
+            "Али идёт на пляж без чемодана"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Tatil — отпуск, bavul — чемодан, tren bileti — билет на поезд.",
+          "audio": "tr/2-23/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-23-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «пляж» по-турецки:",
+          "transcript": "plaj",
+          "accepted": ["plaj"],
+          "explain_ru": "Plaj — пляж.",
+          "audio": "tr/2-23/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-23-wr-01",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь орфографию (1/3): напишите правильно слово «паспорт»:",
+          "buggy_text": "pasprot",
+          "accepted": ["pasaport"],
+          "explain_ru": "Правильное написание: pasaport.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-23-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь орфографию (2/3): напишите правильно слово «чемодан»:",
+          "buggy_text": "bavl",
+          "accepted": ["bavul"],
+          "explain_ru": "Правильное написание: bavul.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-23-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь орфографию (3/3): напишите правильно слово «бронь»:",
+          "buggy_text": "resezvasyon",
+          "accepted": ["rezervasyon"],
+          "explain_ru": "Правильное написание: rezervasyon.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-23-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → фраза 🏖: напишите по-турецки «В отпуске я иду на пляж.»:",
+          "source_text": "🏖 В отпуске я иду на пляж.",
+          "accepted": ["Tatilde plaja gidiyorum.", "Ben tatilde plaja gidiyorum."],
+          "explain_ru": "Tatil + -de = tatilde (в отпуске); plaj + -a = plaja (на пляж).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-23-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о поездках с переводом (часть 1):",
+          "pairs": [
+            { "left": "seyahat", "right": "путешествие" },
+            { "left": "tatil", "right": "отпуск" },
+            { "left": "gezi", "right": "поездка" },
+            { "left": "yolculuk", "right": "дорога" }
+          ],
+          "explain_ru": "Seyahat — путешествие, tatil — отпуск, gezi — поездка, yolculuk — дорога.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-23-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о поездках с переводом (часть 2):",
+          "pairs": [
+            { "left": "bilet", "right": "билет" },
+            { "left": "harita", "right": "карта" },
+            { "left": "rehber", "right": "гид" },
+            { "left": "vize", "right": "виза" }
+          ],
+          "explain_ru": "Bilet — билет, harita — карта, rehber — гид, vize — виза.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-23-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите вопрос: «Где моя бронь в отеле?»:",
+          "source_text": "Где моя бронь в отеле?",
+          "bank": ["nerede", "rezervasyonum", "otel"],
+          "accepted": ["Otel rezervasyonum nerede"],
+          "explain_ru": "Otel rezervasyonum — моя бронь отеля; nerede — где.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-23-wr-08",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «У меня есть паспорт и билет»:",
+          "source_text": "У меня есть паспорт и билет.",
+          "bank": ["var", "ve", "pasaportum", "biletim"],
+          "accepted": ["Pasaportum ve biletim var", "Biletim ve pasaportum var"],
+          "explain_ru": "Pasaportum — мой паспорт, biletim — мой билет, var — есть.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-23-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Отпуск: прочитайте текст и ответьте на вопрос (yazın — летом, hazır — готова, dinlenmek — отдыхать):",
+          "passage": "Yazın tatile gidiyorum. Otel rezervasyonum hazır. Pasaportum ve biletim çantamda. Plajda dinlenmek istiyorum.",
+          "questions": [
+            {
+              "question_ru": "Что автор хочет делать в отпуске?",
+              "options": [
+                "отдыхать на пляже (plajda dinlenmek)",
+                "работать в офисе",
+                "искать визу",
+                "читать карту в поезде"
+              ],
+              "correct_index": 0,
+              "accepted": ["отдыхать на пляже", "plajda dinlenmek"]
+            }
+          ],
+          "explain_ru": "Plajda dinlenmek istiyorum — Я хочу отдыхать на пляже.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-23-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «bavul»?",
+          "question_text": "bavul",
+          "options": ["чемодан", "билет", "карта", "пляж"],
+          "correct_index": 0,
+          "explain_ru": "Bavul — чемодан.",
+          "audio": "tr/2-23/w06.mp3"
+        },
+        {
+          "id": "tr-2-23-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Кто проводит экскурсию для туристов в поездке?",
+          "question_text": "Şehri kim anlatıyor?",
+          "options": ["rehber", "bavul", "vize", "bilet"],
+          "correct_index": 0,
+          "explain_ru": "Rehber — гид, экскурсовод.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-23-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку перед дорогой и ответьте на вопрос:",
+          "passage": "Yarın uzun bir yolculuk başlıyor. İtalya'ya seyahat için vize ve pasaport hazır. Haritayı da bavula koyuyorum (кладу).",
+          "questions": [
+            {
+              "question_ru": "Куда автор кладёт карту (harita)?",
+              "options": [
+                "в чемодан (bavula)",
+                "в кошелёк",
+                "на стол",
+                "в карман"
+              ],
+              "correct_index": 0,
+              "accepted": ["в чемодан", "bavula"]
+            }
+          ],
+          "explain_ru": "Haritayı da bavula koyuyorum — Карту я тоже кладу в чемодан.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-23-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слово «gezi» (поездка, экскурсия):",
+          "target_text": "gezi",
+          "translation_ru": "поездка",
+          "example_text": "Bugün müzeye bir gezi var.",
+          "example_ru": "Сегодня есть поездка (экскурсия) в музей.",
+          "explain_ru": "Gezi часто используется для короткой поездки или экскурсии; seyahat — более дальнее путешествие.",
+          "audio": "tr/2-23/w03.mp3"
+        },
+        {
+          "id": "tr-2-23-rd-06",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не документ для поездки):",
+          "items": ["pasaport", "vize", "bilet", "plaj"],
+          "odd_index": 3,
+          "explain_ru": "Plaj — пляж (место отдыха), а pasaport, vize и bilet — документы для поездки.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-23-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что значит «Otelde rezervasyonumuz var»?",
+          "question_text": "Otelde rezervasyonumuz var.",
+          "options": [
+            "У нас есть бронь в отеле.",
+            "У нас нет билетов в отель.",
+            "В отеле нет пляжа.",
+            "Наш чемодан в отеле."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Rezervasyonumuz — наша бронь, otelde — в отеле.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-23-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте шаги поездки по порядку («бронь → дорога → пляж»):",
+          "items_shuffled": ["plaj", "rezervasyon", "yolculuk"],
+          "correct_order": ["rezervasyon", "yolculuk", "plaj"],
+          "explain_ru": "Сначала делаем бронь (rezervasyon), потом отправляемся в дорогу (yolculuk), и наконец отдыхаем на пляже (plaj).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

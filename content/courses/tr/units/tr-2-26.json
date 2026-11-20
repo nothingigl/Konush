@@ -83,16 +83,405 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-26-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Прогноз из окна: опишите погоду прямо сейчас:",
+          "target_text": "Şu anda yağmur yağıyor. Rüzgâr esiyor. Güneş parlıyor.",
+          "translation_ru": "Прямо сейчас идёт дождь. Дует ветер. Сияет солнце.",
+          "explain_ru": "Обратите внимание на глаголы: yağmak → yağıyor, esmek → esiyor, parlamak → parlıyor.",
+          "audio": "tr/2-26/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-26-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Прямо сейчас идёт снег, но облака уходят»:",
+          "target_text": "Şu anda kar yağıyor ama bulutlar gidiyor.",
+          "translation_ru": "Прямо сейчас идёт снег, но облака уходят.",
+          "explain_ru": "Kar — снег, bulut — облако (bulutlar — облака), от глагола yağmak.",
+          "audio": "tr/2-26/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-26-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я просыпаюсь и готовлюсь к школе»:",
+          "target_text": "Ben uyanıyorum ve okula hazırlanıyorum.",
+          "translation_ru": "Я просыпаюсь и готовлюсь к школе.",
+          "explain_ru": "От глаголов uyanmak (просыпаться) и hazırlanmak (готовиться).",
+          "audio": "tr/2-26/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-26-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Моя мама сейчас готовит суп и рис»:",
+          "target_text": "Annem şu anda çorba ve pilav pişiriyor.",
+          "translation_ru": "Моя мама прямо сейчас готовит суп и рис.",
+          "explain_ru": "От глагола pişirmek (готовить, варить): pişiriyor.",
+          "audio": "tr/2-26/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-26-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Дует холодный ветер, на небе чёрные облака» (gökyüzünde — на небе):",
+          "target_text": "Soğuk rüzgâr esiyor, gökyüzünde siyah bulutlar var.",
+          "translation_ru": "Дует холодный ветер, на небе чёрные облака.",
+          "explain_ru": "Rüzgâr — ветер (от глагола esmek — дуть), bulut — облако.",
+          "audio": "tr/2-26/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-26-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Утром солнце сияет, и дети просыпаются рано»:",
+          "target_text": "Sabah güneş parlıyor ve çocuklar erken uyanıyor.",
+          "translation_ru": "Утром солнце сияет, и дети просыпаются рано.",
+          "explain_ru": "От глаголов parlamak (сиять) и uyanmak (просыпаться).",
+          "audio": "tr/2-26/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-26-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Мы готовимся к поездке и варим вкусный ужин» (akşam yemeği — ужин):",
+          "target_text": "Geziye hazırlanıyoruz ve lezzetli akşam yemeği pişiriyoruz.",
+          "translation_ru": "Мы готовимся к поездке и готовим вкусный ужин.",
+          "explain_ru": "Hazırlanmak → hazırlanıyoruz, pişirmek → pişiriyoruz.",
+          "audio": "tr/2-26/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-26-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Идёт дождь, поэтому я надеваю пальто»:",
+          "target_text": "Yağmur yağıyor, bu yüzden mont giyiyorum.",
+          "translation_ru": "Идёт дождь, поэтому я надеваю пальто.",
+          "explain_ru": "Yağmur yağıyor — идёт дождь (yağmak), bu yüzden — поэтому.",
+          "audio": "tr/2-26/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-26-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Погода: прослушайте скрипт и ответьте, что может случиться:",
+          "transcript": "Şu anda hava güzel. Güneş parlıyor ama bulutlar geliyor. Yağmur yağabilir.",
+          "options": [
+            "может пойти дождь (yağmur yağabilir)",
+            "может пойти снег (kar)",
+            "скоро ночь",
+            "дует сильный ветер"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yağmur yağabilir — Может пойти дождь (форма возможности от глагола yağmak).",
+          "audio": "tr/2-26/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-26-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки «прямо сейчас»:",
+          "transcript": "şu anda",
+          "accepted": ["şu anda"],
+          "explain_ru": "Şu anda — прямо сейчас, в данный момент.",
+          "audio": "tr/2-26/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-26-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «облако» по-турецки:",
+          "transcript": "bulut",
+          "accepted": ["bulut"],
+          "explain_ru": "Bulut — облако.",
+          "audio": "tr/2-26/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-26-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что сейчас делают Али и Айше?",
+          "transcript": "Ali şu anda uyanıyor. Ayşe kahvaltı pişiriyor ve işe hazırlanıyor.",
+          "options": [
+            "Али просыпается; Айше готовит завтрак и собирается на работу",
+            "Али гуляет под дождём; Айше спит",
+            "Али готовит суп; Айше едет на поезде",
+            "Оба смотрят на снег"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Uyanmak (просыпаться), pişirmek (готовить еду), hazırlanmak (готовиться/собираться).",
+          "audio": "tr/2-26/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-26-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите инфинитив «готовить (варить)» по-турецки:",
+          "transcript": "pişirmek",
+          "accepted": ["pişirmek"],
+          "explain_ru": "Pişirmek — готовить, варить (пищу).",
+          "audio": "tr/2-26/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-26-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите инфинитив «готовиться» по-турецки:",
+          "transcript": "hazırlanmak",
+          "accepted": ["hazırlanmak"],
+          "explain_ru": "Hazırlanmak — готовиться, собираться.",
+          "audio": "tr/2-26/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-26-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какая погода сейчас на улице?",
+          "transcript": "Dışarıda kar yağıyor ve soğuk rüzgâr esiyor.",
+          "options": [
+            "Идёт снег и дует холодный ветер",
+            "Сияет яркое солнце и жарко",
+            "Идёт тёплый дождь",
+            "На небе нет ни одного облака"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kar yağıyor — идёт снег, soğuk rüzgâr esiyor — дует холодный ветер.",
+          "audio": "tr/2-26/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-26-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «солнце» по-турецки:",
+          "transcript": "güneş",
+          "accepted": ["güneş"],
+          "explain_ru": "Güneş — солнце.",
+          "audio": "tr/2-26/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-26-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → фраза (1/4) ☀️: напишите по-турецки «Солнце сияет.»:",
+          "source_text": "☀️ Солнце сияет.",
+          "accepted": ["Güneş parlıyor."],
+          "explain_ru": "Parlamak → parlıyor (конечная a сужается до ı перед -yor): Güneş parlıyor.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-26-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → фраза (2/4) 🌧: напишите по-турецки «Идёт дождь.»:",
+          "source_text": "🌧 Идёт дождь.",
+          "accepted": ["Yağmur yağıyor."],
+          "explain_ru": "Yağmur (дождь) + yağıyor (от yağmak): Yağmur yağıyor.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-26-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → фраза (3/4) ❄️: напишите по-турецки «Идёт снег.»:",
+          "source_text": "❄️ Идёт снег.",
+          "accepted": ["Kar yağıyor."],
+          "explain_ru": "Kar (снег) + yağıyor (от yağmak): Kar yağıyor.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-26-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → фраза (4/4) 💨: напишите по-турецки «Дует ветер.»:",
+          "source_text": "💨 Дует ветер.",
+          "accepted": ["Rüzgâr esiyor.", "Rüzgar esiyor."],
+          "explain_ru": "Rüzgâr (ветер) + esiyor (от esmek): Rüzgâr esiyor.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-26-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините погодные слова с переводом:",
+          "pairs": [
+            { "left": "yağmur", "right": "дождь" },
+            { "left": "kar", "right": "снег" },
+            { "left": "rüzgâr", "right": "ветер" },
+            { "left": "bulut", "right": "облако" }
+          ],
+          "explain_ru": "Yağmur — дождь, kar — снег, rüzgâr — ветер, bulut — облако.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-26-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы погоды с переводом:",
+          "pairs": [
+            { "left": "yağmak", "right": "идти (дождь, снег)" },
+            { "left": "esmek", "right": "дуть" },
+            { "left": "parlamak", "right": "сиять" },
+            { "left": "güneş", "right": "солнце" }
+          ],
+          "explain_ru": "Yağmak — идти (об осадках), esmek — дуть, parlamak — сиять.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-26-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы и выражение с переводом:",
+          "pairs": [
+            { "left": "şu anda", "right": "прямо сейчас" },
+            { "left": "uyanmak", "right": "просыпаться" },
+            { "left": "hazırlanmak", "right": "готовиться" },
+            { "left": "pişirmek", "right": "готовить (варить)" }
+          ],
+          "explain_ru": "Şu anda — прямо сейчас, uyanmak — просыпаться, hazırlanmak — готовиться, pişirmek — готовить (еду).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-26-wr-08",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Прямо сейчас идёт дождь»:",
+          "source_text": "Прямо сейчас идёт дождь.",
+          "bank": ["yağıyor", "anda", "yağmur", "şu"],
+          "accepted": ["Şu anda yağmur yağıyor"],
+          "explain_ru": "Şu anda — прямо сейчас, yağmur yağıyor — идёт дождь.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-26-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Зимнее утро: прочитайте текст и ответьте на вопрос (dışarıda — на улице/снаружи, mutfakta — на кухне):",
+          "passage": "Ayşe uyanıyor. Dışarıda kar yağıyor. Mutfakta yumurta pişiriyor.",
+          "questions": [
+            {
+              "question_ru": "Что идёт на улице (dışarıda)?",
+              "options": [
+                "снег (kar)",
+                "дождь (yağmur)",
+                "ветер (rüzgâr)",
+                "солнце (güneş)"
+              ],
+              "correct_index": 0,
+              "accepted": ["снег", "kar"]
+            }
+          ],
+          "explain_ru": "Dışarıda kar yağıyor — На улице идёт снег.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-26-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какой глагол используется с дождём и снегом (yağmur / kar)?",
+          "question_text": "Yağmur ___. / Kar ___.",
+          "options": ["yağıyor (yağmak)", "esiyor (esmek)", "parlıyor (parlamak)", "pişiriyor (pişirmek)"],
+          "correct_index": 0,
+          "explain_ru": "Для осадков (дождь, снег) в турецком используется глагол yağmak: yağmur yağıyor, kar yağıyor.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-26-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Чем отличается «hazırlanmak» от «pişirmek»?",
+          "question_text": "hazırlanmak / pişirmek",
+          "options": [
+            "hazırlanmak — готовиться (собираться), pişirmek — готовить/варить еду",
+            "hazırlanmak — спать, pişirmek — просыпаться",
+            "оба глагола означают «дуть»",
+            "hazırlanmak — варить суп, pişirmek — идти пешком"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hazırlanmak — готовиться самому (к уроку, к поездке); pişirmek — готовить (варить/жарить) пищу.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-26-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте утреннее сообщение и ответьте на вопрос:",
+          "passage": "Şu anda saat yedi. Çocuklar henüz uyanıyor. Babam çay ve yumurta pişiriyor, annem işe hazırlanıyor. Dışarıda güneş parlıyor ama biraz rüzgâr esiyor.",
+          "questions": [
+            {
+              "question_ru": "Кто готовится к работе (işe hazırlanıyor)?",
+              "options": [
+                "мама (annem)",
+                "папа (babam)",
+                "дети (çocuklar)",
+                "никто"
+              ],
+              "correct_index": 0,
+              "accepted": ["мама", "annem"]
+            }
+          ],
+          "explain_ru": "Annem işe hazırlanıyor — Моя мама готовится (собирается) на работу.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-26-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слово «rüzgâr» (ветер) и глагол «esmek» (дуть):",
+          "target_text": "rüzgâr",
+          "translation_ru": "ветер",
+          "example_text": "Bugün soğuk rüzgâr esiyor.",
+          "example_ru": "Сегодня дует холодный ветер.",
+          "explain_ru": "С крышечкой над â буква g читается мягко: rüzgâr. Ветер в турецком «дует» — esmek → esiyor.",
+          "audio": "tr/2-26/w04.mp3"
+        },
+        {
+          "id": "tr-2-26-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как образуется форма настоящего времени от глагола «parlamak» (сиять)?",
+          "question_text": "parlamak → ?",
+          "options": ["parlıyor", "parlayor", "parluyor", "parliyor"],
+          "correct_index": 0,
+          "explain_ru": "Перед -yor конечная широкая гласная основы a сужается до ı: parla- → parlıyor.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-26-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не погодное явление):",
+          "items": ["yağmur", "kar", "bulut", "uyanmak"],
+          "odd_index": 3,
+          "explain_ru": "Uyanmak — просыпаться (глагол), а yağmur (дождь), kar (снег) и bulut (облако) — существительные о погоде.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-26-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте утренние действия по порядку («просыпаться → готовить еду → готовиться к выходу»):",
+          "items_shuffled": ["hazırlanmak", "pişirmek", "uyanmak"],
+          "correct_order": ["uyanmak", "pişirmek", "hazırlanmak"],
+          "explain_ru": "Сначала просыпаемся (uyanmak), потом готовим завтрак (pişirmek), затем собираемся/готовимся к выходу (hazırlanmak).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,405 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-30-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мечты вслух: произнесите три обещания в будущем времени:",
+          "target_text": "Seneye Türkiye'ye gideceğim. Yakında Türkçe konuşacağım. Haftaya yeni bir plan yapacağım.",
+          "translation_ru": "В следующем году я поеду в Турцию. Скоро я буду говорить по-турецки. На следующей неделе я составлю новый план.",
+          "explain_ru": "В будущем времени -(y)acak/-(y)ecek перед личным окончанием -ım/-im буква k озвончается в ğ: gideceğim, konuşacağım, yapacağım.",
+          "audio": "tr/2-30/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-30-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Будущее будет красивым, у нас есть большая надежда»:",
+          "target_text": "Gelecek güzel olacak, büyük bir umudumuz var.",
+          "translation_ru": "Будущее будет прекрасным, у нас есть большая надежда.",
+          "explain_ru": "Gelecek — будущее, umut — надежда (перед гласной t → d: umudumuz).",
+          "audio": "tr/2-30/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-30-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Моя мечта — путешествовать, а моя цель — хорошо учиться»:",
+          "target_text": "Benim hayalim seyahat etmek, hedefim iyi öğrenmek.",
+          "translation_ru": "Моя мечта — путешествовать, моя цель — хорошо учиться.",
+          "explain_ru": "Hayal — мечта (hayalim — моя мечта), hedef — цель (hedefim — моя цель).",
+          "audio": "tr/2-30/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-30-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «В будущем я перееду в Стамбул»:",
+          "target_text": "İleride İstanbul'a taşınacağım.",
+          "translation_ru": "В будущем я перееду в Стамбул.",
+          "explain_ru": "İleride — в будущем (в дальнейшем); taşınmak → taşınacağım.",
+          "audio": "tr/2-30/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-30-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Мы будем планировать отпуск вместе»:",
+          "target_text": "Tatili birlikte planlayacağız.",
+          "translation_ru": "Мы будем планировать отпуск вместе.",
+          "explain_ru": "От глагола planlamak (планировать): после гласной a вставляется y → planlayacağız.",
+          "audio": "tr/2-30/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-30-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я скоро решу и напишу тебе сообщение»:",
+          "target_text": "Yakında karar vereceğim ve sana mesaj göndereceğim.",
+          "translation_ru": "Скоро я решу и отправлю тебе сообщение.",
+          "explain_ru": "От глагола karar vermek (решить): karar vereceğim.",
+          "audio": "tr/2-30/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-30-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Обещаю, я не опоздаю!»:",
+          "target_text": "Söz veriyorum, geç kalmayacağım!",
+          "translation_ru": "Обещаю, я не опоздаю!",
+          "explain_ru": "От глагола söz vermek (обещать): söz veriyorum — обещаю.",
+          "audio": "tr/2-30/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-30-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «На следующей неделе придёт мой друг, мы встретимся»:",
+          "target_text": "Haftaya arkadaşım gelecek, buluşacağız.",
+          "translation_ru": "На следующей неделе придёт мой друг, мы встретимся.",
+          "explain_ru": "Haftaya — на следующей неделе; gelecek (придёт, также слово «будущее»), buluşacağız (встретимся).",
+          "audio": "tr/2-30/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-30-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Планы: прослушайте скрипт и ответьте, когда отпуск и что будет завтра (deniz — море):",
+          "transcript": "Haftaya tatile gideceğiz. Yarın bilet alacağız. Yakında deniz göreceğiz.",
+          "options": [
+            "отпуск на следующей неделе; завтра купим билеты",
+            "отпуск в следующем году; завтра поедем домой",
+            "отпуск вчера; завтра будем работать",
+            "отпуск сегодня; завтра встретимся в музее"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Haftaya tatile gideceğiz (на следующей неделе поедем в отпуск), yarın bilet alacağız (завтра возьмём/купим билеты).",
+          "audio": "tr/2-30/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-30-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «мечта» по-турецки:",
+          "transcript": "hayal",
+          "accepted": ["hayal"],
+          "explain_ru": "Hayal — мечта.",
+          "audio": "tr/2-30/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-30-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «надежда» по-турецки:",
+          "transcript": "umut",
+          "accepted": ["umut"],
+          "explain_ru": "Umut — надежда.",
+          "audio": "tr/2-30/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-30-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что планирует сделать Али в следующем году?",
+          "transcript": "Ali seneye İtalya'ya gidecek. Şimdi seyahati planlıyor.",
+          "options": [
+            "В следующем году поедет в Италию, сейчас планирует путешествие",
+            "На следующей неделе поедет в Китай",
+            "Вчера вернулся из Испании",
+            "Хочет купить новую машину завтра"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Seneye — в следующем году; от глагола planlamak → planlıyor.",
+          "audio": "tr/2-30/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-30-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «в будущем» по-турецки:",
+          "transcript": "ileride",
+          "accepted": ["ileride"],
+          "explain_ru": "İleride — в будущем, в дальнейшем.",
+          "audio": "tr/2-30/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-30-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите глагол «решить» по-турецки:",
+          "transcript": "karar vermek",
+          "accepted": ["karar vermek"],
+          "explain_ru": "Karar vermek — решить, принять решение.",
+          "audio": "tr/2-30/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-30-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что обещает студент преподавателю?",
+          "transcript": "Söz veriyorum, her gün çalışacağım ve hedefime ulaşacağım.",
+          "options": [
+            "Обещает учиться каждый день и достичь своей цели",
+            "Обещает пойти на пляж на следующей неделе",
+            "Обещает продать старый телефон",
+            "Обещает приготовить ужин"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Söz veriyorum (от söz vermek — обещать), hedefime (к моей цели).",
+          "audio": "tr/2-30/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-30-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите глагол «планировать» по-турецки:",
+          "transcript": "planlamak",
+          "accepted": ["planlamak"],
+          "explain_ru": "Planlamak — планировать (от существительного plan).",
+          "audio": "tr/2-30/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-30-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Будущее время (1/4): поставьте «gitmek» в будущее время (ben — «я пойду/поеду»):",
+          "source_text": "gitmek (ben) → ?",
+          "accepted": ["gideceğim"],
+          "explain_ru": "В gitmek основа git- озвончается в gid-, а аффикс -ecek перед -im переходит в -eceğ-: gideceğim.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-30-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Будущее время (2/4): поставьте «almak» в будущее время (ben — «я возьму/куплю»):",
+          "source_text": "almak (ben) → ?",
+          "accepted": ["alacağım"],
+          "explain_ru": "Al- + -acak + -ım → alacağım (k → ğ перед гласной).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-30-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Будущее время (3/4): поставьте «yapmak» в будущее время (ben — «я сделаю»):",
+          "source_text": "yapmak (ben) → ?",
+          "accepted": ["yapacağım"],
+          "explain_ru": "Yap- + -acak + -ım → yapacağım (k → ğ перед гласной).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-30-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Будущее время (4/4): поставьте «gelmek» в будущее время (ben — «я приду»):",
+          "source_text": "gelmek (ben) → ?",
+          "accepted": ["geleceğim"],
+          "explain_ru": "Gel- + -ecek + -im → geleceğim (k → ğ перед гласной).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-30-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова времени с переводом:",
+          "pairs": [
+            { "left": "gelecek", "right": "будущее" },
+            { "left": "yakında", "right": "скоро" },
+            { "left": "haftaya", "right": "на следующей неделе" },
+            { "left": "seneye", "right": "в следующем году" }
+          ],
+          "explain_ru": "Gelecek — будущее, yakında — скоро, haftaya — на следующей неделе, seneye — в следующем году.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-30-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините существительные о планах с переводом:",
+          "pairs": [
+            { "left": "plan", "right": "план" },
+            { "left": "hedef", "right": "цель" },
+            { "left": "hayal", "right": "мечта" },
+            { "left": "umut", "right": "надежда" }
+          ],
+          "explain_ru": "Plan — план, hedef — цель, hayal — мечта, umut — надежда.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-30-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы и наречие с переводом:",
+          "pairs": [
+            { "left": "planlamak", "right": "планировать" },
+            { "left": "karar vermek", "right": "решить" },
+            { "left": "söz vermek", "right": "обещать" },
+            { "left": "ileride", "right": "в будущем" }
+          ],
+          "explain_ru": "Planlamak — планировать, karar vermek — решить, söz vermek — обещать, ileride — в будущем.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-30-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте озвончение согласных в будущем времени («Завтра я поеду в Анкару»):",
+          "buggy_text": "Yarın Ankara'ya gitecekim.",
+          "accepted": ["Yarın Ankara'ya gideceğim."],
+          "explain_ru": "В глаголе gitmek озвончаются оба стыка перед гласными: t → d и k → ğ: gideceğim.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-30-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Цель Айше: прочитайте текст и ответьте на вопрос (doktor olmak — стать врачом):",
+          "passage": "Ayşe'nin büyük bir hedefi var: doktor olmak. Bu yıl çok çalışacak. İleride hastanede çalışacak.",
+          "questions": [
+            {
+              "question_ru": "Какая цель у Айше (hedefi)?",
+              "options": [
+                "стать врачом (doktor olmak)",
+                "уехать в отпуск",
+                "купить отель",
+                "работать в банке"
+              ],
+              "correct_index": 0,
+              "accepted": ["стать врачом", "быть врачом", "doktor olmak"]
+            }
+          ],
+          "explain_ru": "Ayşe'nin büyük bir hedefi var: doktor olmak — У Айше большая цель: стать врачом.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-30-rd-02",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте слова будущего времени от ближайшего к дальнему («скоро → на следующей неделе → в следующем году»):",
+          "items_shuffled": ["seneye", "yakında", "haftaya"],
+          "correct_order": ["yakında", "haftaya", "seneye"],
+          "explain_ru": "Yakında (скоро) → haftaya (на следующей неделе) → seneye (в следующем году).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-30-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как по-турецки «обещать»?",
+          "question_text": "обещать",
+          "options": ["söz vermek", "karar vermek", "geç kalmak", "satın almak"],
+          "correct_index": 0,
+          "explain_ru": "Söz vermek — буквально «давать слово», то есть «обещать».",
+          "audio": "tr/2-30/w11.mp3"
+        },
+        {
+          "id": "tr-2-30-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте запись в дневнике и ответьте на вопрос:",
+          "passage": "Gelecek için iyi bir plan yapıyorum. Yakında karar vereceğim ve seneye yeni bir şehre taşınacağım. Hayalim büyük, umudum çok!",
+          "questions": [
+            {
+              "question_ru": "Когда автор планирует переехать в новый город?",
+              "options": [
+                "в следующем году (seneye)",
+                "на следующей неделе (haftaya)",
+                "завтра (yarın)",
+                "прямо сейчас (şu anda)"
+              ],
+              "correct_index": 0,
+              "accepted": ["в следующем году", "seneye"]
+            }
+          ],
+          "explain_ru": "Seneye yeni bir şehre taşınacağım — В следующем году я перееду в новый город.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-30-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните составной глагол «karar vermek» (решить):",
+          "target_text": "karar vermek",
+          "translation_ru": "решить",
+          "example_text": "Yarın karar vereceğiz.",
+          "example_ru": "Завтра мы решим.",
+          "explain_ru": "В будущем времени спрягается только вторая часть vermek: karar vereceğim, karar vereceğiz.",
+          "audio": "tr/2-30/w10.mp3"
+        },
+        {
+          "id": "tr-2-30-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Почему в слове «alacağım» (я возьму) пишется ğ вместо k?",
+          "question_text": "alacak + ım → alacağım",
+          "options": [
+            "Конечная k в аффиксе -acak/-ecek озвончается в ğ перед гласным личным окончанием",
+            "Это прошедшее время",
+            "Буква k вообще не пишется в будущем времени",
+            "Это множественное число"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Перед личными аффиксами -ım/-im (я) и -ız/-iz (мы) глухая k переходит в ğ: alacağım, alacağız.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-30-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «umut»?",
+          "question_text": "umut",
+          "options": ["надежда", "план", "цель", "мечта"],
+          "correct_index": 0,
+          "explain_ru": "Umut — надежда.",
+          "audio": "tr/2-30/w08.mp3"
+        },
+        {
+          "id": "tr-2-30-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильную форму будущего времени для «мы» от «okumak» (читать):",
+          "question_text": "Biz bu kitabı ___.",
+          "options": ["okuyacağız", "okuacağız", "okuyacakız", "okuyeceğiz"],
+          "correct_index": 0,
+          "explain_ru": "После гласной u вставляется буферная y, гласная твёрдая (-acak), k → ğ перед -ız: okuyacağız.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,402 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-16-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мини-спор (1/2): разыграйте реплики двумя голосами:",
+          "target_text": "Bence bu doğru. Sence? Emin misin? Tabii!",
+          "translation_ru": "По-моему, это правильно. А по-твоему? Ты уверен? Конечно!",
+          "explain_ru": "Bence — по-моему, sence — по-твоему, emin misin? — ты уверен?, tabii — конечно.",
+          "audio": "tr/2-16/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-16-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мини-спор (2/2): скажите удивлённо «Правда?» и «Кажется, это неправильно»:",
+          "target_text": "Gerçekten mi? Galiba bu yanlış.",
+          "translation_ru": "Правда? Кажется, это неправильно.",
+          "explain_ru": "Gerçekten mi? — «Правда? / Неужели?»; galiba — кажется.",
+          "audio": "tr/2-16/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-16-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я не понимаю, пожалуйста, снова (повторите)»:",
+          "target_text": "Anlamıyorum, tekrar lütfen.",
+          "translation_ru": "Я не понимаю, снова, пожалуйста.",
+          "explain_ru": "От глагола anlamak (понимать): anlıyorum (понимаю), anlamıyorum (не понимаю).",
+          "audio": "tr/2-16/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-16-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я не знаю. Интересно, этот поезд идёт на вокзал?»:",
+          "target_text": "Bilmiyorum. Acaba bu tren istasyona gidiyor mu?",
+          "translation_ru": "Я не знаю. Интересно, этот поезд идёт на вокзал?",
+          "explain_ru": "От глагола bilmek (знать): biliyorum (знаю), bilmiyorum (не знаю). Acaba смягчает вопрос («интересно, ... ли»).",
+          "audio": "tr/2-16/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-16-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «По-моему, это легко; я уверен»:",
+          "target_text": "Bence bu kolay. Eminim.",
+          "translation_ru": "По-моему, это легко. Я уверен.",
+          "explain_ru": "Emin + im → eminim (я уверен); emin değilim (я не уверен).",
+          "audio": "tr/2-16/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-16-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите: «По-твоему, этот ответ правильный или неправильный?»:",
+          "target_text": "Sence bu cevap doğru mu, yanlış mı?",
+          "translation_ru": "По-твоему, этот ответ правильный или неправильный?",
+          "explain_ru": "Doğru mu, yanlış mı? — правильный или неправильный?",
+          "audio": "tr/2-16/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-16-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Конечно, я тебя понимаю и знаю ответ»:",
+          "target_text": "Tabii, seni anlıyorum ve cevabı biliyorum.",
+          "translation_ru": "Конечно, я тебя понимаю и знаю ответ.",
+          "explain_ru": "Anlıyorum (от anlamak — понимать), biliyorum (от bilmek — знать).",
+          "audio": "tr/2-16/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-16-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Интересно, магазин сегодня открыт? Кажется, да»:",
+          "target_text": "Acaba market bugün açık mı? Galiba evet.",
+          "translation_ru": "Интересно, магазин сегодня открыт? Кажется, да.",
+          "explain_ru": "Acaba в начале вопроса переводится как «интересно, ... ли».",
+          "audio": "tr/2-16/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-16-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Уверен? Прослушайте диалог и ответьте: уверен ли собеседник?",
+          "transcript": "Bu doğru mu? Galiba doğru. Emin misin? Evet, eminim.",
+          "options": [
+            "да, он уверен (Evet, eminim)",
+            "нет, он не уверен",
+            "он говорит, что ответ неправильный",
+            "он не понял вопрос"
+          ],
+          "correct_index": 0,
+          "explain_ru": "В конце звучит «Evet, eminim» — «Да, я уверен».",
+          "audio": "tr/2-16/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-16-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «конечно»:",
+          "transcript": "tabii",
+          "accepted": ["tabii"],
+          "explain_ru": "Tabii пишется с двумя i — «конечно».",
+          "audio": "tr/2-16/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-16-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «кажется»:",
+          "transcript": "galiba",
+          "accepted": ["galiba"],
+          "explain_ru": "Galiba — кажется, по-видимому.",
+          "audio": "tr/2-16/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-16-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что просит говорящий?",
+          "transcript": "Özür dilerim, anlamıyorum. Tekrar söyler misin lütfen?",
+          "options": [
+            "не понимает и просит повторить снова",
+            "уверен в ответе и благодарит",
+            "знает дорогу к музею",
+            "спрашивает, сколько стоит книга"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Anlamıyorum (не понимаю, от anlamak), tekrar (снова).",
+          "audio": "tr/2-16/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-16-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «правда / действительно»:",
+          "transcript": "gerçekten",
+          "accepted": ["gerçekten"],
+          "explain_ru": "Gerçekten — правда, действительно.",
+          "audio": "tr/2-16/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-16-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какое мнение высказывает говорящий?",
+          "transcript": "Bence bu film çok güzel ama sence nasıl? Gerçekten komik!",
+          "options": [
+            "по его мнению фильм очень хороший и правда смешной",
+            "по его мнению фильм неправильный и скучный",
+            "он не знает, когда начинается фильм",
+            "он просит посмотреть фильм снова"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bence bu film çok güzel (по-моему, фильм очень хороший), gerçekten komik (правда смешной).",
+          "audio": "tr/2-16/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-16-ls-07",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите инфинитив «понимать»:",
+          "transcript": "anlamak",
+          "accepted": ["anlamak"],
+          "explain_ru": "Anlamak — понимать.",
+          "audio": "tr/2-16/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-16-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите инфинитив «знать»:",
+          "transcript": "bilmek",
+          "accepted": ["bilmek"],
+          "explain_ru": "Bilmek — знать.",
+          "audio": "tr/2-16/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-16-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Правда или ложь: ответьте по-турецки Doğru или Yanlış — «Moskova Rusya'da.»",
+          "source_text": "Moskova Rusya'da.",
+          "accepted": ["Doğru"],
+          "explain_ru": "Москва находится в России — Doğru (правильно).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-16-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Правда или ложь: ответьте по-турецки Doğru или Yanlış — «İstanbul bir ülke.»",
+          "source_text": "İstanbul bir ülke.",
+          "accepted": ["Yanlış"],
+          "explain_ru": "Стамбул — город, а не страна — Yanlış (неправильно).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-16-wr-03",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите фразу «Я не понял, снова, пожалуйста»",
+          "source_text": "Я не понял, повторите, пожалуйста.",
+          "bank": ["anlamadım", "tekrar", "lütfen"],
+          "accepted": ["Anlamadım tekrar lütfen"],
+          "explain_ru": "Anlamadım (я не понял, прошедшее время от anlamak), tekrar lütfen (снова, пожалуйста).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-16-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова мнения и предположения с переводом:",
+          "pairs": [
+            { "left": "acaba", "right": "интересно, ли" },
+            { "left": "tabii", "right": "конечно" },
+            { "left": "galiba", "right": "кажется" },
+            { "left": "gerçekten", "right": "правда" }
+          ],
+          "explain_ru": "Acaba, tabii, galiba, gerçekten.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-16-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "bence", "right": "по-моему" },
+            { "left": "sence", "right": "по-твоему" },
+            { "left": "doğru", "right": "правильно" },
+            { "left": "yanlış", "right": "неправильно" }
+          ],
+          "explain_ru": "Bence ↔ sence, doğru ↔ yanlış.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-16-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова и глаголы с переводом:",
+          "pairs": [
+            { "left": "emin", "right": "уверенный" },
+            { "left": "tekrar", "right": "снова" },
+            { "left": "anlamak", "right": "понимать" },
+            { "left": "bilmek", "right": "знать" }
+          ],
+          "explain_ru": "Emin — уверенный, tekrar — снова, anlamak — понимать, bilmek — знать.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-16-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите фразу: «По-моему, это правильно»",
+          "source_text": "По-моему, это правильно.",
+          "bank": ["doğru", "bence", "bu"],
+          "accepted": ["Bence bu doğru"],
+          "explain_ru": "Bence bu doğru — По-моему, это правильно.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-16-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: поставьте правильную гласную гармонии в вопросительной частице («Ты уверен?»):",
+          "buggy_text": "Emin mısın?",
+          "accepted": ["Emin misin?"],
+          "explain_ru": "В слове emin последняя гласная — передняя i, поэтому частица принимает форму misin: Emin misin?",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-16-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "На остановке: прочитайте диалог и ответьте на вопрос:",
+          "passage": "— Acaba bu otobüs müzeye gidiyor mu? — Galiba gidiyor. — Emin misin? — Hayır, emin değilim.",
+          "questions": [
+            {
+              "question_ru": "Уверен ли собеседник, что автобус идёт к музею?",
+              "options": [
+                "нет, он не уверен (emin değilim)",
+                "да, он полностью уверен",
+                "он говорит, что автобус идёт на вокзал",
+                "он говорит, что музей закрыт"
+              ],
+              "correct_index": 0,
+              "accepted": ["нет", "не уверен", "hayır", "emin değilim"]
+            }
+          ],
+          "explain_ru": "Hayır, emin değilim — Нет, я не уверен.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-16-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «Sence bu doğru mu?»?",
+          "question_text": "Sence bu doğru mu?",
+          "options": [
+            "По-твоему, это правильно?",
+            "По-моему, это неправильно.",
+            "Ты уверен?",
+            "Правда ли это?"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Sence — по-твоему, doğru mu — правильно ли.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-16-rd-03",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните вопросительное слово «интересно, ... ли»:",
+          "target_text": "acaba",
+          "translation_ru": "интересно, ... ли",
+          "example_text": "Acaba saat kaç?",
+          "example_ru": "Интересно, который час?",
+          "explain_ru": "Acaba делает вопрос более мягким, задумчивым или вежливым.",
+          "audio": "tr/2-16/w01.mp3"
+        },
+        {
+          "id": "tr-2-16-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод глагола «bilmek»:",
+          "question_text": "bilmek",
+          "options": ["знать", "понимать", "верить", "искать"],
+          "correct_index": 0,
+          "explain_ru": "Bilmek — знать (biliyorum — я знаю, bilmiyorum — я не знаю).",
+          "audio": "tr/2-16/w12.mp3"
+        },
+        {
+          "id": "tr-2-16-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод глагола «anlamak»:",
+          "question_text": "anlamak",
+          "options": ["понимать", "знать", "начинать", "привыкать"],
+          "correct_index": 0,
+          "explain_ru": "Anlamak — понимать (anlıyorum — я понимаю).",
+          "audio": "tr/2-16/w11.mp3"
+        },
+        {
+          "id": "tr-2-16-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий диалог на уроке:",
+          "passage": "— Ali, bu soruyu biliyor musun? — Galiba biliyorum, bence cevap kırk. — Hayır, yanlış. Tekrar bak lütfen. — Şimdi anlıyorum, cevap elli!",
+          "questions": [
+            {
+              "question_ru": "Какой ответ Али дал во второй раз, когда понял?",
+              "options": ["пятьдесят (elli)", "сорок (kırk)", "тридцать (otuz)", "шестьдесят (altmış)"],
+              "correct_index": 0,
+              "accepted": ["пятьдесят", "50", "elli"]
+            }
+          ],
+          "explain_ru": "Şimdi anlıyorum, cevap elli! — Теперь понимаю, ответ пятьдесят!",
+          "audio": null
+        },
+        {
+          "id": "tr-2-16-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не выражает мнение или степень уверенности):",
+          "items": ["bence", "galiba", "tabii", "otobüs"],
+          "odd_index": 3,
+          "explain_ru": "Otobüs — существительное («автобус»), остальные слова выражают мнение или уверенность.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-16-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать «Правда? / Неужели?» по-турецки?",
+          "question_text": "Правда?",
+          "options": ["Gerçekten mi?", "Tekrar mı?", "Yanlış mı?", "Sence mi?"],
+          "correct_index": 0,
+          "explain_ru": "Gerçekten mi? — естественная разговорная реакция «Правда?».",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

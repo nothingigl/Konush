@@ -83,16 +83,419 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-10-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Радуга вслух: назовите цвета предметов вокруг и задайте вопрос «Какого это цвета?»:",
+          "target_text": "Telefon siyah. Çanta gri. Masa (стол) kahverengi. Bu ne renk?",
+          "translation_ru": "Телефон чёрный. Сумка серая. Стол коричневый. Какого это цвета?",
+          "explain_ru": "Bu ne renk? — Какого это цвета? Kahverengi буквально значит «цвет кофе» (kahve + rengi).",
+          "audio": "tr/2-10/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-10-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Назовите вслух восемь цветов юнита:",
+          "target_text": "siyah, beyaz, turuncu, mor, pembe, kahverengi, gri, lacivert",
+          "translation_ru": "чёрный, белый, оранжевый, фиолетовый, розовый, коричневый, серый, тёмно-синий",
+          "explain_ru": "Обратите внимание на мягкое произношение lacivert (тёмно-синий).",
+          "audio": "tr/2-10/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-10-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите оттенки словами «koyu» (тёмный) и «parlak» (яркий):",
+          "target_text": "Bu ceket koyu gri. Bu elbise parlak turuncu.",
+          "translation_ru": "Эта куртка тёмно-серая. Это платье ярко-оранжевое.",
+          "explain_ru": "Koyu ставится перед цветом для тёмного оттенка, parlak — для яркого.",
+          "audio": "tr/2-10/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-10-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про белую рубашку и тёмно-синий пиджак:",
+          "target_text": "Gömlek beyaz. Ceket lacivert. Kravat mor.",
+          "translation_ru": "Рубашка белая. Пиджак тёмно-синий. Галстук фиолетовый.",
+          "explain_ru": "Beyaz — белый, lacivert — тёмно-синий, mor — фиолетовый.",
+          "audio": "tr/2-10/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-10-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про радугу и её яркие цвета:",
+          "target_text": "Gökkuşağı çok parlak ve güzel. Gökkuşağında yedi (семь) renk var.",
+          "translation_ru": "Радуга очень яркая и красивая. В радуге семь цветов.",
+          "explain_ru": "Gökkuşağı — радуга (gök — небо + kuşak — пояс).",
+          "audio": "tr/2-10/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-10-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Апельсин оранжевый, а этот цветок розовый»:",
+          "target_text": "Portakal turuncu. Bu çiçek pembe.",
+          "translation_ru": "Апельсин оранжевый. Этот цветок розовый.",
+          "explain_ru": "Turuncu — оранжевый, pembe — розовый.",
+          "audio": "tr/2-10/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-10-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Моя машина чёрная, а твоя машина белая»:",
+          "target_text": "Benim arabam siyah ama senin araban beyaz.",
+          "translation_ru": "Моя машина чёрная, но твоя машина белая.",
+          "explain_ru": "Siyah (чёрный) ↔ beyaz (белый).",
+          "audio": "tr/2-10/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-10-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите и ответьте про тёмно-фиолетовый свитер:",
+          "target_text": "Bu kazak ne renk? Koyu mor.",
+          "translation_ru": "Какого цвета этот свитер? Тёмно-фиолетовый.",
+          "explain_ru": "Ne renk — какого цвета; koyu mor — тёмно-фиолетовый.",
+          "audio": "tr/2-10/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-10-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Цвет платья: прослушайте скрипт и ответьте, какого цвета платье:",
+          "transcript": "Elbise pembe. Ceket lacivert. Ayakkabı kahverengi.",
+          "options": [
+            "розовое (pembe)",
+            "тёмно-синее (lacivert)",
+            "коричневое (kahverengi)",
+            "белое (beyaz)"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Elbise pembe — Платье розовое (ceket lacivert — пиджак тёмно-синий, ayakkabı kahverengi — обувь коричневая).",
+          "audio": "tr/2-10/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-10-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «оранжевый»:",
+          "transcript": "turuncu",
+          "accepted": ["turuncu"],
+          "explain_ru": "Turuncu — оранжевый.",
+          "audio": "tr/2-10/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-10-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «тёмно-синий»:",
+          "transcript": "lacivert",
+          "accepted": ["lacivert"],
+          "explain_ru": "Lacivert — тёмно-синий.",
+          "audio": "tr/2-10/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-10-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какие цвета у кошки и собаки в записи?",
+          "transcript": "Kedi beyaz ama köpek koyu kahverengi.",
+          "options": [
+            "Кошка белая, а собака тёмно-коричневая",
+            "Кошка чёрная, а собака серая",
+            "Кошка оранжевая, а собака белая",
+            "Обе белые"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Beyaz (белая), koyu kahverengi (тёмно-коричневая).",
+          "audio": "tr/2-10/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-10-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «радуга»:",
+          "transcript": "gökkuşağı",
+          "accepted": ["gökkuşağı"],
+          "explain_ru": "Gökkuşağı — радуга (удвоенная k, ş, ğ и ı без точки).",
+          "audio": "tr/2-10/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-10-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «яркий»:",
+          "transcript": "parlak",
+          "accepted": ["parlak"],
+          "explain_ru": "Parlak — яркий.",
+          "audio": "tr/2-10/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-10-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какого цвета яркая звезда и тёмная ночь в записи?",
+          "transcript": "Gece siyah ama yıldız çok parlak.",
+          "options": [
+            "Ночь чёрная, но звезда очень яркая",
+            "Ночь розовая, а звезда фиолетовая",
+            "Ночь серая, а радуга яркая",
+            "Звезда тёмная"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Gece siyah (ночь чёрная), yıldız çok parlak (звезда очень яркая).",
+          "audio": "tr/2-10/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-10-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «цвет»:",
+          "transcript": "renk",
+          "accepted": ["renk"],
+          "explain_ru": "Renk — цвет.",
+          "audio": "tr/2-10/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-10-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Смешай краски (1/4): kırmızı (красный) + sarı (жёлтый) → напишите цвет по-турецки:",
+          "source_text": "kırmızı + sarı = ?",
+          "accepted": ["turuncu"],
+          "explain_ru": "Красный + жёлтый = оранжевый (turuncu).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-10-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Смешай краски (2/4): siyah + beyaz → напишите цвет по-турецки:",
+          "source_text": "siyah + beyaz = ?",
+          "accepted": ["gri"],
+          "explain_ru": "Чёрный (siyah) + белый (beyaz) = серый (gri).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-10-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Смешай краски (3/4): kırmızı (красный) + mavi (синий) → напишите цвет по-турецки:",
+          "source_text": "kırmızı + mavi = ?",
+          "accepted": ["mor"],
+          "explain_ru": "Красный + синий = фиолетовый (mor).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-10-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Смешай краски (4/4): kırmızı (красный) + beyaz → напишите цвет по-турецки:",
+          "source_text": "kırmızı + beyaz = ?",
+          "accepted": ["pembe"],
+          "explain_ru": "Красный + белый = розовый (pembe).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-10-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините цвета с их русским переводом (1/2):",
+          "pairs": [
+            { "left": "siyah", "right": "чёрный" },
+            { "left": "beyaz", "right": "белый" },
+            { "left": "kahverengi", "right": "коричневый" },
+            { "left": "lacivert", "right": "тёмно-синий" }
+          ],
+          "explain_ru": "Siyah, beyaz, kahverengi, lacivert.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-10-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом (2/2):",
+          "pairs": [
+            { "left": "renk", "right": "цвет" },
+            { "left": "koyu", "right": "тёмный" },
+            { "left": "parlak", "right": "яркий" },
+            { "left": "gökkuşağı", "right": "радуга" }
+          ],
+          "explain_ru": "Renk, koyu, parlak, gökkuşağı.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-10-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите вопрос: «Какого цвета эта куртка?»:",
+          "source_text": "Какого цвета эта куртка?",
+          "bank": ["renk", "ne", "ceket", "bu"],
+          "accepted": ["Bu ceket ne renk"],
+          "explain_ru": "Bu ceket ne renk? — Какого цвета эта куртка?",
+          "audio": null
+        },
+        {
+          "id": "tr-2-10-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не цвет):",
+          "items": ["turuncu", "mor", "pembe", "sokak"],
+          "odd_index": 3,
+          "explain_ru": "Sokak — улица, а turuncu, mor и pembe — цвета.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-10-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Радуга. Прочитайте текст и ответьте на оба вопроса:",
+          "passage": "Gökkuşağında yedi (семь) renk var: kırmızı (красный), turuncu, sarı (жёлтый), yeşil (зелёный), mavi (синий), lacivert ve mor.",
+          "questions": [
+            {
+              "question_ru": "Есть ли в радуге чёрный цвет (siyah)?",
+              "options": [
+                "Нет, чёрного цвета нет",
+                "Да, чёрный цвет первый",
+                "Да, вместо тёмно-синего",
+                "В тексте не сказано"
+              ],
+              "correct_index": 0,
+              "accepted": ["нет", "hayır"]
+            },
+            {
+              "question_ru": "Сколько цветов в радуге?",
+              "options": [
+                "семь (yedi)",
+                "пять (beş)",
+                "десять (on)",
+                "три (üç)"
+              ],
+              "correct_index": 0,
+              "accepted": ["семь", "7", "yedi"]
+            }
+          ],
+          "explain_ru": "Gökkuşağında yedi renk var — В радуге семь цветов, чёрного среди них нет.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-10-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "От какого слова происходит название коричневого цвета «kahverengi»?",
+          "question_text": "kahve + rengi → kahverengi",
+          "options": [
+            "от слова kahve (кофе) — буквально «цвет кофе»",
+            "от слова kitap (книга)",
+            "от слова köy (деревня)",
+            "от слова kazak (свитер)"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kahve (кофе) + renk (цвет) → kahverengi (цвет кофе, коричневый). Перед гласной k переходит в g: rengi.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-10-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «gri»:",
+          "question_text": "gri",
+          "options": ["серый", "розовый", "фиолетовый", "яркий"],
+          "correct_index": 0,
+          "explain_ru": "Gri — серый.",
+          "audio": "tr/2-10/w07.mp3"
+        },
+        {
+          "id": "tr-2-10-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте описание одежды и ответьте на вопрос:",
+          "passage": "Ayşe bugün parlak pembe bir kazak ve koyu gri bir pantolon giyiyor. Ayakkabısı siyah.",
+          "questions": [
+            {
+              "question_ru": "Какого цвета брюки (pantolon) у Айше?",
+              "options": [
+                "тёмно-серые (koyu gri)",
+                "ярко-розовые (parlak pembe)",
+                "чёрные (siyah)",
+                "белые (beyaz)"
+              ],
+              "correct_index": 0,
+              "accepted": ["тёмно-серые", "серые", "koyu gri", "gri"]
+            }
+          ],
+          "explain_ru": "Koyu gri bir pantolon — тёмно-серые брюки.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-10-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слово «тёмно-синий»:",
+          "target_text": "lacivert",
+          "translation_ru": "тёмно-синий",
+          "example_text": "Bu ceket lacivert.",
+          "example_ru": "Этот пиджак тёмно-синий.",
+          "explain_ru": "Lacivert — тёмно-синий (цвет индиго, лазурит).",
+          "audio": "tr/2-10/w08.mp3"
+        },
+        {
+          "id": "tr-2-10-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «koyu» перед названием цвета (например, koyu mor)?",
+          "question_text": "koyu mor",
+          "options": [
+            "тёмный оттенок («тёмно-фиолетовый»)",
+            "светлый оттенок",
+            "прозрачный цвет",
+            "разноцветный"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Koyu — тёмный (и густой), koyu mor — тёмно-фиолетовый.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-10-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое сочетание переводится как «яркая радуга»?",
+          "question_text": "яркая радуга",
+          "options": ["parlak gökkuşağı", "koyu gökkuşağı", "eski gökkuşağı", "küçük gökkuşağı"],
+          "correct_index": 0,
+          "explain_ru": "Parlak — яркий, gökkuşağı — радуга.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-10-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какой цвет получается, если смешать «siyah» и «beyaz»?",
+          "question_text": "siyah + beyaz = ?",
+          "options": ["gri (серый)", "mor (фиолетовый)", "turuncu (оранжевый)", "pembe (розовый)"],
+          "correct_index": 0,
+          "explain_ru": "Siyah (чёрный) + beyaz (белый) = gri (серый).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

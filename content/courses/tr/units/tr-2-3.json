@@ -77,16 +77,418 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-3-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Интервью: задайте пять главных вопросов знакомства вслух:",
+          "target_text": "Sen kimsin? Nerelisin? Nasılsın? Ne yapıyorsun? Nereye gidiyorsun?",
+          "translation_ru": "Кто ты? Откуда ты? Как ты? Что ты делаешь? Куда ты идёшь?",
+          "explain_ru": "Kim (кто), nasıl (как), ne (что), nereye (куда). Nerelisin — откуда ты родом.",
+          "audio": "tr/2-3/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-3-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите про цену в магазине:",
+          "target_text": "Bu çanta ne kadar? Bu kahve ne kadar?",
+          "translation_ru": "Сколько стоит эта сумка? Сколько стоит этот кофе?",
+          "explain_ru": "Ne kadar — сколько (стоит / по количеству).",
+          "audio": "tr/2-3/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-3-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите «какой» и «сколько»:",
+          "target_text": "Hangi kitap yeni? Kaç elma istiyorsun?",
+          "translation_ru": "Какая книга новая? Сколько яблок ты хочешь?",
+          "explain_ru": "Hangi — какой (выбор из нескольких), kaç — сколько (счётных предметов; после kaç существительное в единственном числе).",
+          "audio": "tr/2-3/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-3-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Потренируйте вопросы «где?», «когда?» и «почему?»:",
+          "target_text": "Nerede yaşıyorsun? Ne zaman geliyorsun? Neden gülüyorsun?",
+          "translation_ru": "Где ты живёшь? Когда ты приходишь? Почему ты смеёшься?",
+          "explain_ru": "Nerede — где, ne zaman — когда, neden — почему.",
+          "audio": "tr/2-3/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-3-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Потренируйте вопросительную частицу «mi» с передними гласными:",
+          "target_text": "Bu yeni mi? Bu temiz mi? Bu ev güzel mi?",
+          "translation_ru": "Это новое? Это чистое? Этот дом красивый?",
+          "explain_ru": "Вопросительная частица mi (варианты mı/mi/mu/mü) всегда пишется отдельно от предыдущего слова.",
+          "audio": "tr/2-3/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-3-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Различайте «где?» (nerede) и «куда?» (nereye):",
+          "target_text": "Arkadaşın nerede? Arkadaşın nereye gidiyor?",
+          "translation_ru": "Где твой друг? Куда идёт твой друг?",
+          "explain_ru": "Nerede — в местном падеже (-de, «где»), nereye — в дательном падеже (-ye, «куда»).",
+          "audio": "tr/2-3/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-3-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите про предмет и человека:",
+          "target_text": "Bu ne? O kim? Bu hangi şehir?",
+          "translation_ru": "Что это? Кто это? Какой это город?",
+          "explain_ru": "Ne — о предметах («что»), kim — о людях («кто»), hangi — «какой».",
+          "audio": "tr/2-3/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-3-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Ответьте на приветствие и спросите «как дела?»:",
+          "target_text": "Merhaba! Nasılsın? İyiyim, teşekkürler.",
+          "translation_ru": "Привет! Как ты? Хорошо, спасибо.",
+          "explain_ru": "Nasıl (как) + -sın (2-е лицо) → nasılsın? İyiyim — у меня всё хорошо.",
+          "audio": "tr/2-3/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-3-ls-01",
+          "type": "listen_type",
+          "origin": "source",
+          "prompt_ru": "Ловец вопросов: прослушайте три вопроса и запишите через запятую три вопросительных слова:",
+          "transcript": "Nerede yaşıyorsun? Ne zaman geliyorsun? Neden gülüyorsun?",
+          "accepted": ["nerede, ne zaman, neden"],
+          "explain_ru": "Nerede (где), ne zaman (когда), neden (почему).",
+          "audio": "tr/2-3/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-3-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «куда»:",
+          "transcript": "nereye",
+          "accepted": ["nereye"],
+          "explain_ru": "Nereye — куда.",
+          "audio": "tr/2-3/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-3-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «какой»:",
+          "transcript": "hangi",
+          "accepted": ["hangi"],
+          "explain_ru": "Hangi — какой.",
+          "audio": "tr/2-3/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-3-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О чём спрашивает покупатель?",
+          "transcript": "Merhaba! Bu elma ne kadar?",
+          "options": [
+            "Сколько стоит это яблоко?",
+            "Где растёт это яблоко?",
+            "Почему это яблоко красное?",
+            "Когда привозят яблоки?"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Ne kadar? — Сколько стоит?",
+          "audio": "tr/2-3/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-3-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «как»:",
+          "transcript": "nasıl",
+          "accepted": ["nasıl"],
+          "explain_ru": "Nasıl — как (вторая гласная ı без точки).",
+          "audio": "tr/2-3/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-3-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «сколько»:",
+          "transcript": "kaç",
+          "accepted": ["kaç"],
+          "explain_ru": "Kaç — сколько.",
+          "audio": "tr/2-3/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-3-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой вопрос прозвучал в записи?",
+          "transcript": "Bu defter yeni mi?",
+          "options": [
+            "Эта тетрадь новая?",
+            "Чья это тетрадь?",
+            "Где эта тетрадь?",
+            "Сколько стоит эта тетрадь?"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Частица mi превращает утверждение в общий вопрос: Bu defter yeni mi?",
+          "audio": "tr/2-3/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-3-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки фразу «сколько стоит»:",
+          "transcript": "ne kadar",
+          "accepted": ["ne kadar"],
+          "explain_ru": "Ne kadar — сколько стоит.",
+          "audio": "tr/2-3/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-3-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Подберите вопросительное слово («Где ты живёшь?»): «___ yaşıyorsun?»",
+          "source_text": "___ yaşıyorsun?",
+          "accepted": ["Nerede", "Nerede yaşıyorsun"],
+          "explain_ru": "Nerede yaşıyorsun? — Где ты живёшь?",
+          "audio": null
+        },
+        {
+          "id": "tr-2-3-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Подберите вопросительное слово («Сколько у тебя детей?»): «___ çocuğun var?»",
+          "source_text": "___ çocuğun var?",
+          "accepted": ["Kaç", "Kaç çocuğun var"],
+          "explain_ru": "Kaç çocuğun var? — Сколько у тебя детей? После kaç существительное стоит в единственном числе.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-3-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Подберите вопросительное слово («Что это?»): «Bu ___?»",
+          "source_text": "Bu ___?",
+          "accepted": ["ne", "Bu ne"],
+          "explain_ru": "Bu ne? — Что это?",
+          "audio": null
+        },
+        {
+          "id": "tr-2-3-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допишите вопросительную частицу с личным окончанием («Ты студент?»): «Sen öğrenci ___?»",
+          "source_text": "Sen öğrenci ___?",
+          "accepted": ["misin", "Sen öğrenci misin"],
+          "explain_ru": "Öğrenci (студент/ученик) оканчивается на i → частица mi + окончание -sin → misin.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-3-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините вопросительные слова с переводом (1/2):",
+          "pairs": [
+            { "left": "ne", "right": "что" },
+            { "left": "kim", "right": "кто" },
+            { "left": "nerede", "right": "где" },
+            { "left": "nereye", "right": "куда" }
+          ],
+          "explain_ru": "Ne, kim, nerede, nereye.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-3-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините вопросительные слова с переводом (2/2):",
+          "pairs": [
+            { "left": "ne zaman", "right": "когда" },
+            { "left": "neden", "right": "почему" },
+            { "left": "nasıl", "right": "как" },
+            { "left": "hangi", "right": "какой" }
+          ],
+          "explain_ru": "Ne zaman, neden, nasıl, hangi.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-3-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите вопрос: «Сколько стоит эта книга?»:",
+          "source_text": "Сколько стоит эта книга?",
+          "bank": ["kadar", "kitap", "ne", "bu"],
+          "accepted": ["Bu kitap ne kadar"],
+          "explain_ru": "Bu kitap ne kadar? — Сколько стоит эта книга?",
+          "audio": null
+        },
+        {
+          "id": "tr-2-3-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: вопросительная частица mi пишется отдельно от слова («Эта комната чистая?»):",
+          "buggy_text": "Bu oda temizmi?",
+          "accepted": ["Bu oda temiz mi?"],
+          "explain_ru": "Вопросительная частица mi/mı/mu/mü в турецком всегда пишется раздельно: temiz mi?",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-3-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Знакомство. Прочитайте диалог и ответьте на оба вопроса:",
+          "passage": "— Ben Ayşe. Sen kimsin?\n— Ben Ali.\n— Nerelisin?\n— İzmirliyim.\n— Nereye gidiyorsun?\n— Okula.",
+          "questions": [
+            {
+              "question_ru": "Откуда родом Али?",
+              "options": [
+                "из Измира (İzmirliyim)",
+                "из Анкары",
+                "из Стамбула",
+                "в тексте не сказано"
+              ],
+              "correct_index": 0,
+              "accepted": ["из Измира", "Измир", "İzmir", "İzmirliyim"]
+            },
+            {
+              "question_ru": "Куда идёт Али?",
+              "options": [
+                "в школу (Okula)",
+                "домой",
+                "в ресторан",
+                "в парк"
+              ],
+              "correct_index": 0,
+              "accepted": ["в школу", "школа", "Okula"]
+            }
+          ],
+          "explain_ru": "İzmirliyim — я из Измира; Okula — в школу (дательный падеж от okul).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-3-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «neden»:",
+          "question_text": "neden",
+          "options": ["почему", "когда", "куда", "сколько"],
+          "correct_index": 0,
+          "explain_ru": "Neden — почему.",
+          "audio": "tr/2-3/w06.mp3"
+        },
+        {
+          "id": "tr-2-3-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Чем отличаются «nerede» и «nereye»?",
+          "question_text": "nerede / nereye",
+          "options": [
+            "nerede — «где», nereye — «куда»",
+            "nerede — «куда», nereye — «где»",
+            "nerede — «когда», nereye — «почему»",
+            "они означают одно и то же"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Nerede (местный падеж -de) — «где?», nereye (дательный падеж -ye) — «куда?».",
+          "audio": null
+        },
+        {
+          "id": "tr-2-3-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий диалог и ответьте на вопрос:",
+          "passage": "— Hangi kahve sıcak?\n— Şu büyük kahve sıcak.\n— Ne kadar?\n— Çok ucuz!",
+          "questions": [
+            {
+              "question_ru": "Какой кофе горячий?",
+              "options": [
+                "тот большой кофе (şu büyük kahve)",
+                "маленький кофе",
+                "холодный кофе",
+                "никакой"
+              ],
+              "correct_index": 0,
+              "accepted": ["тот большой кофе", "большой кофе", "şu büyük kahve"]
+            }
+          ],
+          "explain_ru": "Hangi — какой; şu büyük kahve sıcak — тот большой кофе горячий.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-3-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните вопросительную частицу «mi»:",
+          "target_text": "mi",
+          "translation_ru": "вопросительная частица",
+          "example_text": "Bu çay lezzetli mi?",
+          "example_ru": "Этот чай вкусный?",
+          "explain_ru": "Частица mi меняется по 4-вариантной гармонии гласных (mı, mi, mu, mü) и всегда пишется отдельно.",
+          "audio": "tr/2-3/w11.mp3"
+        },
+        {
+          "id": "tr-2-3-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какой вопрос подходит к ответу «Üç kitap» (Три книги)?",
+          "question_text": "— ___? — Üç kitap.",
+          "options": ["Kaç kitap var?", "Kim var?", "Nereye gidiyorsun?", "Neden?"],
+          "correct_index": 0,
+          "explain_ru": "Kaç — сколько (при счёте предметов).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-3-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «Ne zaman geliyorsun?»",
+          "question_text": "Ne zaman geliyorsun?",
+          "options": [
+            "Когда ты приходишь?",
+            "Куда ты идёшь?",
+            "Почему ты уходишь?",
+            "Как тебя зовут?"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Ne zaman — когда.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-3-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "В турецком вопросе с «kim» или «ne» нужна ли ещё частица «mi»?",
+          "question_text": "Sen kimsin? / Bu ne?",
+          "options": [
+            "Нет, при наличии вопросительного слова частица mi не ставится",
+            "Да, mi ставится всегда в конце любого вопроса",
+            "Только с kim",
+            "Только с ne"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Частица mi используется в общих вопросах («да/нет»), а с вопросительными словами (kim, ne, nerede и др.) не употребляется.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

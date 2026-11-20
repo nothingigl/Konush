@@ -10,16 +10,222 @@
   "words": [],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-boss-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Босс-рассказ о своём дне: произнесите вслух 5 предложений с глаголами, временем суток и местами города:",
+          "target_text": "Sabah erken kalkıyorum. Okula gidiyorum. Öğlen markete gidiyorum. Akşam parkta yürüyorum. Gece evde kitap okuyorum.",
+          "translation_ru": "Утром я рано встаю. Я иду в школу. В полдень я иду в магазин. Вечером я гуляю в парке. Ночью дома я читаю книгу.",
+          "explain_ru": "Сочетает глаголы действия (2.7), время суток (2.8) и городские места в дательном и местном падежах (2.4, 2.11).",
+          "audio": "tr/2-boss/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-boss-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Объясните маршрут по городу, используя предлоги места и транспорт:",
+          "target_text": "Önce otobüse biniyorum, sonra istasyonda iniyorum. Müze bankanın karşısında.",
+          "translation_ru": "Сначала я сажусь в автобус, потом выхожу на вокзале. Музей напротив банка.",
+          "explain_ru": "Повторяем дательный падеж (2.11), исходный/местный (2.9), расположение (2.13) и союзы (2.15).",
+          "audio": "tr/2-boss/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-boss-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите коротко о прошлых и будущих планах поездки:",
+          "target_text": "Geçen hafta uçak bileti satın aldım. Seneye Türkiye'ye gideceğim ve plajda dinleneceğim.",
+          "translation_ru": "На прошлой неделе я купил билет на самолёт. В следующем году я поеду в Турцию и буду отдыхать на пляже.",
+          "explain_ru": "Повторяем поездки (2.23), прошедшее время (2.28) и будущее время (2.30).",
+          "audio": "tr/2-boss/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-boss-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите погоду прямо сейчас и во что вы одеты:",
+          "target_text": "Şu anda yağmur yağıyor ve soğuk rüzgâr esiyor, bu yüzden kalın bir mont giyiyorum.",
+          "translation_ru": "Прямо сейчас идёт дождь и дует холодный ветер, поэтому я надеваю толстое пальто.",
+          "explain_ru": "Повторяем одежду (2.6), союзы (2.15), погоду (2.26) и описание предметов (2.29).",
+          "audio": "tr/2-boss/sp-04.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-boss-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Босс-встреча: прослушайте скрипт и ответьте, когда и где встреча:",
+          "transcript": "Yarın saat dokuzda müzede buluşacağız.",
+          "options": [
+            "завтра в девять, в музее",
+            "сегодня в восемь, в парке",
+            "завтра в десять, в библиотеке",
+            "вчера в девять, в ресторане"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yarın (завтра) saat dokuzda (в девять часов) müzede (в музее) buluşacağız (мы встретимся).",
+          "audio": "tr/2-boss/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-boss-ls-02",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Во сколько начинается собрание и на каком оно этаже?",
+          "transcript": "Toplantı saat üç buçukta başlıyor. Toplantı odası dördüncü katta.",
+          "options": [
+            "в половине четвёртого (3:30), на четвёртом этаже",
+            "в три часа, на третьем этаже",
+            "в четверть четвёртого, на пятом этаже",
+            "в четыре тридцать, на первом этаже"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Saat üç buçukta (в 3:30), dördüncü katta (на четвёртом этаже).",
+          "audio": "tr/2-boss/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-boss-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите фразу по-турецки («Извини, я опоздал»):",
+          "transcript": "Özür dilerim, geç kaldım.",
+          "accepted": ["Özür dilerim, geç kaldım."],
+          "explain_ru": "Özür dilerim (прошу прощения) + geç kaldım (я опоздал).",
+          "audio": "tr/2-boss/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-boss-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Откуда туристы и что они ищут?",
+          "transcript": "Turistler İtalya'dan geliyor. Şu anda ellerinde harita var, oteli arıyorlar.",
+          "options": [
+            "Из Италии; у них в руках карта, они ищут отель",
+            "Из Испании; они ищут аэропорт",
+            "Из Германии; они ждут поезд на вокзале",
+            "Из Франции; они покупают билеты в музей"
+          ],
+          "correct_index": 0,
+          "explain_ru": "İtalya'dan (из Италии), harita (карта), oteli arıyorlar (ищут отель).",
+          "audio": "tr/2-boss/ls-04.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-boss-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Босс-перевод: напишите по-турецки «Завтра я поеду в деревню к дедушке.»:",
+          "source_text": "Завтра я поеду в деревню к дедушке.",
+          "accepted": [
+            "Yarın köye dedemin yanına gideceğim.",
+            "Ben yarın köye dedemin yanına gideceğim."
+          ],
+          "explain_ru": "Yarın (завтра) köye (в деревню) dedemin yanına (к дедушке) gideceğim (поеду).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-boss-wr-02",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «На следующей неделе мы поедем в Турцию»:",
+          "source_text": "На следующей неделе мы поедем в Турцию.",
+          "bank": ["gideceğiz", "haftaya", "Türkiye'ye", "biz"],
+          "accepted": ["Haftaya biz Türkiye'ye gideceğiz", "Biz haftaya Türkiye'ye gideceğiz"],
+          "explain_ru": "Haftaya — на следующей неделе, Türkiye'ye — в Турцию, gideceğiz — поедем.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-boss-wr-03",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте две ошибки — падеж и озвончение («Завтра я поеду в Анкару»):",
+          "buggy_text": "Yarın Ankara'dan gidecekim.",
+          "accepted": ["Yarın Ankara'ya gideceğim."],
+          "explain_ru": "Направление «куда» требует дательного падежа -ya (Ankara'ya), а в будущем времени gitmek → gideceğim.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-boss-wr-04",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «Я хочу учить турецкий.»:",
+          "source_text": "Я хочу учить турецкий.",
+          "accepted": ["Türkçe öğrenmek istiyorum.", "Ben Türkçe öğrenmek istiyorum."],
+          "explain_ru": "Инфинитив öğrenmek стоит прямо перед istiyorum: Türkçe öğrenmek istiyorum.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-boss-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Босс-история: прочитайте текст о дороге Али и ответьте на вопрос:",
+          "passage": "Ali her gün otobüsle okula gidiyor. Okul köyden uzak. Sabah erken kalkıyor, akşam geç dönüyor.",
+          "questions": [
+            {
+              "question_ru": "Почему Али встаёт рано утром?",
+              "options": [
+                "потому что школа далеко от деревни (okul köyden uzak)",
+                "потому что он работает на рынке",
+                "потому что идёт снег",
+                "потому что у него гости"
+              ],
+              "correct_index": 0,
+              "accepted": ["школа далеко от деревни", "школа далеко", "okul köyden uzak"]
+            }
+          ],
+          "explain_ru": "Okul köyden uzak — Школа далеко от деревни.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-boss-rd-02",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку-квест по квартире и ответьте на вопрос:",
+          "passage": "Bavul kapının yanında. Pasaportum ve uçak biletim ahşap masanın üstünde, kalın kitabın altında. Süt buzdolabında ama ekmek bitti.",
+          "questions": [
+            {
+              "question_ru": "Где лежат паспорт и билет на самолёт?",
+              "options": [
+                "на деревянном столе, под толстой книгой",
+                "в холодильнике рядом с молоком",
+                "внутри чемодана у двери",
+                "в кармане пальто"
+              ],
+              "correct_index": 0,
+              "accepted": ["на столе под книгой", "на деревянном столе, под толстой книгой"]
+            }
+          ],
+          "explain_ru": "Ahşap masanın üstünde, kalın kitabın altında — На деревянном столе, под толстой книгой.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-boss-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Финальный вопрос босса Секции 2: выберите правильный вариант фразы «Я родился в 1995 году, а в 2020 году переехал в Стамбул»:",
+          "question_text": "1995___ doğdum, 2020___ İstanbul'a taşındım.",
+          "options": [
+            "1995'te ... 2020'de",
+            "1995'de ... 2020'te",
+            "1995'ta ... 2020'da",
+            "1995'ten ... 2020'den"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Beş оканчивается на глухую ş и мягкую e → 1995'te; yirmi оканчивается на гласную i → 2020'de.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"
