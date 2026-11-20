@@ -115,10 +115,40 @@
 
 ## К Этапу 5 (Озвучка через Gemini TTS)
 
-### Шаг 5.1. Получите ключ `GEMINI_API_KEY` и прослушайте образцы голосов
-1. Откройте [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey) и создайте API-ключ.
-2. Добавьте его **только** в ваш локальный файл `.env.local` *(ни в коем случае не в Vercel и не в GitHub!)*.
-3. Убедитесь, что на вашем компьютере установлен `ffmpeg` (`winget install Gyan.FFmpeg`).
+### Шаг 5.1. Установите `ffmpeg`, добавьте `GEMINI_API_KEY` и запустите генерацию MP3
+1. **Установите `ffmpeg` (один раз на Windows):**
+   ```powershell
+   winget install Gyan.FFmpeg
+   ```
+   После установки откройте новое окно PowerShell и убедитесь, что команда `ffmpeg -version` работает.
+2. **Получите бесплатный ключ Gemini API:**
+   - Откройте [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey) и нажмите **Create API key**.
+   - Добавьте ключ **только** в локальный файл `.env.local` в корне проекта *(ни в коем случае не в Vercel и не в GitHub!)*:
+     ```ini
+     GEMINI_API_KEY=ваш-ключ-из-ai-studio
+     ```
+3. **Проверьте план без траты квот (`--dry-run`):**
+   ```powershell
+   corepack.cmd pnpm tts:generate --dry-run
+   ```
+4. **Сделайте пилотный прогон на одном юните (`tr-1-1`, 28 клипов ~3 минуты) и послушайте результат:**
+   ```powershell
+   corepack.cmd pnpm tts:generate --unit=tr-1-1
+   corepack.cmd pnpm tts:budget
+   ```
+5. **Запустите генерацию всего курса (возобновляемо — можно прервать `Ctrl+C` и продолжить в любой день):**
+   ```powershell
+   # Базовый набор: все 133 юнита (3 502 файла, ~35–42 МБ)
+   corepack.cmd pnpm tts:generate
+
+   # При желании также озвучить 266 текстов чтения (~46–52 МБ суммарно):
+   corepack.cmd pnpm tts:generate --include-reading
+   ```
+6. **После завершения проверьте бюджет и целостность файлов:**
+   ```powershell
+   corepack.cmd pnpm tts:budget --strict
+   corepack.cmd pnpm content:check --strict-exercises --check-audio
+   ```
 
 ---
 

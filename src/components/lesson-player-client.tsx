@@ -1,8 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import React, { useRef, useState } from 'react';
-import { playReferenceAudio } from '@/lib/audio/speech';
+import React, { useEffect, useRef, useState } from 'react';
+import { playReferenceAudio, stopReferenceAudio } from '@/lib/audio/speech';
 import { checkTypedAnswer } from '@/lib/content/normalize';
 import type { Exercise, Unit } from '@/lib/content/schema';
 import type { SkillKey } from '@/lib/db/dexie';
@@ -16,8 +16,15 @@ const SKILL_TITLES: Record<SkillKey, string> = {
 };
 
 export function LessonPlayerClient({ unit, skill }: { unit: Unit; skill: SkillKey }) {
-  const { completeSkillSession, submitFeedback } = useAppState();
+  const { profile, completeSkillSession, submitFeedback } = useAppState();
+  const speechRate = profile.speechRate;
   const exercises = unit.skills[skill].exercises;
+
+  useEffect(() => {
+    return () => {
+      stopReferenceAudio();
+    };
+  }, []);
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [correctCount, setCorrectCount] = useState(0);
@@ -227,6 +234,7 @@ export function LessonPlayerClient({ unit, skill }: { unit: Unit; skill: SkillKe
       setMatchedLeftIndex(null);
       setCompletedPairs([]);
       setSpeakSelfGrade(null);
+      stopReferenceAudio();
       setReadingAnswers({});
       setFeedback(null);
       setRecordedAudioUrl(null);
@@ -235,6 +243,8 @@ export function LessonPlayerClient({ unit, skill }: { unit: Unit; skill: SkillKe
       setCurrentIndex(nextIdx);
       return;
     }
+
+    stopReferenceAudio();
 
     // Lesson finished — save to Dexie and sync
     const total = exercises.length;
@@ -394,6 +404,7 @@ export function LessonPlayerClient({ unit, skill }: { unit: Unit; skill: SkillKe
                   text: ex.target_text,
                   course: unit.course,
                   audioRelPath: ex.audio,
+                  rate: speechRate,
                 })
               }
               className="inline-flex items-center gap-2 rounded-xl bg-sky-600 px-4 py-2 text-sm font-bold text-white hover:bg-sky-700"
@@ -424,6 +435,7 @@ export function LessonPlayerClient({ unit, skill }: { unit: Unit; skill: SkillKe
                       text: ex.target_text,
                       course: unit.course,
                       audioRelPath: ex.audio,
+                      rate: speechRate,
                     })
                   }
                   className="rounded-xl bg-sky-600 px-4 py-2 text-xs font-bold text-white hover:bg-sky-700"
@@ -498,6 +510,7 @@ export function LessonPlayerClient({ unit, skill }: { unit: Unit; skill: SkillKe
                       text: ex.transcript,
                       course: unit.course,
                       audioRelPath: ex.audio,
+                      rate: speechRate,
                     })
                   }
                   className="rounded-2xl bg-sky-600 px-5 py-3 text-sm font-bold text-white hover:bg-sky-700"
@@ -640,6 +653,7 @@ export function LessonPlayerClient({ unit, skill }: { unit: Unit; skill: SkillKe
                       text: ex.transcript,
                       course: unit.course,
                       audioRelPath: ex.audio,
+                      rate: speechRate,
                     })
                   }
                   className="rounded-2xl bg-sky-600 px-5 py-3 text-sm font-bold text-white hover:bg-sky-700"
@@ -811,11 +825,27 @@ export function LessonPlayerClient({ unit, skill }: { unit: Unit; skill: SkillKe
         {/* 9. read_comprehension */}
         {ex.type === 'read_comprehension' && (
           <div className="mt-5 space-y-4">
-            <div
-              lang={unit.course}
-              className="whitespace-pre-line rounded-xl border border-slate-200 bg-slate-50 p-4 text-base font-semibold leading-relaxed dark:border-slate-800 dark:bg-slate-800/50"
-            >
-              {ex.passage}
+            <div className="space-y-3 rounded-xl border border-slate-200 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-800/50">
+              <div
+                lang={unit.course}
+                className="whitespace-pre-line text-base font-semibold leading-relaxed"
+              >
+                {ex.passage}
+              </div>
+              <button
+                type="button"
+                onClick={() =>
+                  void playReferenceAudio({
+                    text: ex.passage,
+                    course: unit.course,
+                    audioRelPath: ex.audio,
+                    rate: speechRate,
+                  })
+                }
+                className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-xs font-bold text-slate-700 hover:border-sky-500 hover:text-sky-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200"
+              >
+                🔊 Прослушать текст
+              </button>
             </div>
 
             {ex.questions.map((q, qIdx) => (
