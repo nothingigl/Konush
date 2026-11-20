@@ -83,16 +83,426 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-5-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Рассказ об отпуске (1/2): расскажите, куда вы ездили прошлым летом и где остановились:",
+          "target_text": "Last summer we went to the mountains. We stayed in a small hotel.",
+          "translation_ru": "Прошлым летом мы ездили в горы. Мы остановились в маленьком отеле.",
+          "explain_ru": "Last summer — прошлым летом; went — прошедшая форма от go; stayed — правильный глагол в прошедшем времени (+ed).",
+          "audio": "en/3-5/sp-01.mp3"
+        },
+        {
+          "id": "en-3-5-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Рассказ об отпуске (2/2): расскажите о фотографиях заката и виде:",
+          "target_text": "We took photos of the sunset. The view was wonderful.",
+          "translation_ru": "Мы делали фото заката. Вид был чудесный.",
+          "explain_ru": "Took photos — делал фото; sunset — закат; view — вид; wonderful — чудесный.",
+          "audio": "en/3-5/sp-02.mp3"
+        },
+        {
+          "id": "en-3-5-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы плавали в озере и наслаждались солнцем:",
+          "target_text": "We swam in the lake and enjoyed the sun.",
+          "translation_ru": "Мы плавали в озере и наслаждались солнцем.",
+          "explain_ru": "Swam — прошедшая форма от swim; enjoyed — наслаждался.",
+          "audio": "en/3-5/sp-03.mp3"
+        },
+        {
+          "id": "en-3-5-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы посетили музей и старый замок:",
+          "target_text": "We visited a museum and an old castle.",
+          "translation_ru": "Мы посетили музей и старый замок.",
+          "explain_ru": "Visited — посетил (прошедшее время от visit).",
+          "audio": "en/3-5/sp-04.mp3"
+        },
+        {
+          "id": "en-3-5-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вечером вы были уставшими, но счастливыми:",
+          "target_text": "In the evening I was tired, but I was happy.",
+          "translation_ru": "Вечером я был уставшим, но счастливым.",
+          "explain_ru": "Tired — уставший; was — прошедшая форма от am/is.",
+          "audio": "en/3-5/sp-05.mp3"
+        },
+        {
+          "id": "en-3-5-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что прошлым летом вы делали фото в горах:",
+          "target_text": "Last summer I took photos in the mountains.",
+          "translation_ru": "Прошлым летом я делал фото в горах.",
+          "explain_ru": "Last summer — прошлым летом, took photos — делал фото, mountains — горы.",
+          "audio": "en/3-5/sp-06.mp3"
+        },
+        {
+          "id": "en-3-5-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы остановились у моря и наслаждались закатом:",
+          "target_text": "We stayed near the sea and enjoyed the sunset.",
+          "translation_ru": "Мы остановились у моря и наслаждались закатом.",
+          "explain_ru": "Stayed — остановился, enjoyed — наслаждался, sunset — закат.",
+          "audio": "en/3-5/sp-07.mp3"
+        },
+        {
+          "id": "en-3-5-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что поездка была чудесной:",
+          "target_text": "Our vacation was wonderful. I enjoyed every day.",
+          "translation_ru": "Наш отпуск был чудесным. Я наслаждался каждым днём.",
+          "explain_ru": "Wonderful — чудесный, enjoyed — наслаждался.",
+          "audio": "en/3-5/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-5-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Каждый день (1/2): прослушайте рассказ об отпуске и ответьте, что делали каждый день:",
+          "transcript": "We swam in the sea every day. We visited an old castle. In the evening we were tired but happy.",
+          "options": [
+            "плавали в море",
+            "ходили в горы",
+            "читали книги",
+            "играли в футбол"
+          ],
+          "correct_index": 0,
+          "explain_ru": "We swam in the sea every day — Мы плавали в море каждый день.",
+          "audio": "en/3-5/ls-01.mp3"
+        },
+        {
+          "id": "en-3-5-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Каждый день (2/2): как говорящие чувствовали себя вечером?",
+          "transcript": "We swam in the sea every day. We visited an old castle. In the evening we were tired but happy.",
+          "options": [
+            "уставшие, но счастливые",
+            "голодные и злые",
+            "больные и нервные",
+            "занятые на работе"
+          ],
+          "correct_index": 0,
+          "explain_ru": "In the evening we were tired but happy — Вечером мы были уставшие, но счастливые.",
+          "audio": "en/3-5/ls-02.mp3"
+        },
+        {
+          "id": "en-3-5-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Куда Анна ездила прошлым летом?",
+          "transcript": "Last summer Anna went to Turkey. She stayed at a resort near the sea.",
+          "options": ["в Турцию", "в Германию", "в Англию", "в Россию"],
+          "correct_index": 0,
+          "explain_ru": "Last summer Anna went to Turkey — Прошлым летом Анна ездила в Турцию.",
+          "audio": "en/3-5/ls-03.mp3"
+        },
+        {
+          "id": "en-3-5-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что делал Том на закате?",
+          "transcript": "The sunset was beautiful. Tom took photos from the balcony.",
+          "options": [
+            "делал фото с балкона",
+            "плавал в озере",
+            "готовил ужин",
+            "звонил родителям"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Sunset — закат; took photos — делал фото.",
+          "audio": "en/3-5/ls-04.mp3"
+        },
+        {
+          "id": "en-3-5-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой вид был из номера отеля?",
+          "transcript": "Our room had a wonderful view of the mountains.",
+          "options": [
+            "чудесный вид на горы",
+            "вид на шумную улицу",
+            "вид на парковку",
+            "вид на вокзал"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A wonderful view of the mountains — чудесный вид на горы.",
+          "audio": "en/3-5/ls-05.mp3"
+        },
+        {
+          "id": "en-3-5-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кого Кейт навестила в отпуске?",
+          "transcript": "Kate visited her aunt and uncle in the old town. She enjoyed the trip.",
+          "options": [
+            "тётю и дядю",
+            "школьных друзей",
+            "коллег по офису",
+            "соседей сверху"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Visited her aunt and uncle — навестила тётю и дядю; enjoyed — наслаждалась.",
+          "audio": "en/3-5/ls-06.mp3"
+        },
+        {
+          "id": "en-3-5-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Али устал?",
+          "transcript": "Ali walked in the mountains for five hours and swam in a cold lake. Now he is tired.",
+          "options": [
+            "он пять часов гулял в горах и плавал в озере",
+            "он долго работал в офисе",
+            "он не спал всю ночь в поезде",
+            "он переезжал в новую квартиру"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Walked in the mountains and swam in a cold lake — гулял в горах и плавал в холодном озере; tired — уставший.",
+          "audio": "en/3-5/ls-07.mp3"
+        },
+        {
+          "id": "en-3-5-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "The sunset was wonderful.",
+          "accepted": ["The sunset was wonderful."],
+          "explain_ru": "Sunset — закат, wonderful — чудесный.",
+          "audio": "en/3-5/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-5-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Прошедшее время: соедините начальную форму глагола с формой Past Simple:",
+          "pairs": [
+            { "left": "go", "right": "went" },
+            { "left": "take", "right": "took" },
+            { "left": "swim", "right": "swam" },
+            { "left": "stay", "right": "stayed" },
+            { "left": "visit", "right": "visited" }
+          ],
+          "explain_ru": "Неправильные глаголы: go → went, take → took, swim → swam. Правильные (+ed): stay → stayed, visit → visited.",
+          "audio": null
+        },
+        {
+          "id": "en-3-5-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: речь идёт о прошлом годе (last year):",
+          "buggy_text": "We go to the sea last year",
+          "accepted": ["We went to the sea last year."],
+          "explain_ru": "Для прошлого года (last year) нужна прошедшая форма глагола go — went.",
+          "audio": null
+        },
+        {
+          "id": "en-3-5-wr-03",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Вид был чудесный»:",
+          "source_text": "Вид был чудесный.",
+          "bank": ["wonderful", "view", "was", "the"],
+          "accepted": ["The view was wonderful"],
+          "explain_ru": "The view was wonderful — Вид был чудесный.",
+          "audio": null
+        },
+        {
+          "id": "en-3-5-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова об отпуске с переводом:",
+          "pairs": [
+            { "left": "last summer", "right": "прошлым летом" },
+            { "left": "took photos", "right": "делал фото" },
+            { "left": "sunset", "right": "закат" },
+            { "left": "mountains", "right": "горы" }
+          ],
+          "explain_ru": "Last summer — прошлым летом, took photos — делал фото, sunset — закат, mountains — горы.",
+          "audio": null
+        },
+        {
+          "id": "en-3-5-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините остальные слова юнита с переводом:",
+          "pairs": [
+            { "left": "view", "right": "вид" },
+            { "left": "tired", "right": "уставший" },
+            { "left": "wonderful", "right": "чудесный" },
+            { "left": "enjoyed", "right": "наслаждался" }
+          ],
+          "explain_ru": "View — вид, tired — уставший, wonderful — чудесный, enjoyed — наслаждался.",
+          "audio": null
+        },
+        {
+          "id": "en-3-5-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Мы остановились в маленьком отеле»:",
+          "source_text": "Мы остановились в маленьком отеле.",
+          "bank": ["hotel", "we", "in", "stayed", "small", "a"],
+          "accepted": ["We stayed in a small hotel"],
+          "explain_ru": "Stayed — остановились (в прошедшем времени).",
+          "audio": null
+        },
+        {
+          "id": "en-3-5-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку с прошедшим временем:",
+          "buggy_text": "Last summer I swim in the sea.",
+          "accepted": ["Last summer I swam in the sea."],
+          "explain_ru": "Прошедшая форма неправильного глагола swim — swam.",
+          "audio": null
+        },
+        {
+          "id": "en-3-5-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски слово «уставший»:",
+          "source_text": "уставший",
+          "accepted": ["tired"],
+          "explain_ru": "Tired — уставший.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-5-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Бен у дяди: прочитайте текст и ответьте на вопросы:",
+          "passage": "Last summer Ben visited his uncle in the mountains. He enjoyed the fresh air and took many photos. He was tired, but he was happy.",
+          "questions": [
+            {
+              "question_ru": "Кого навещал Бен прошлым летом?",
+              "options": ["дядю", "тётю", "бабушку", "двоюродного брата"],
+              "correct_index": 0,
+              "accepted": ["дядю", "his uncle", "uncle"]
+            },
+            {
+              "question_ru": "Что делал Бен в горах?",
+              "options": [
+                "наслаждался свежим воздухом и фотографировал",
+                "плавал в море каждый день",
+                "учил иностранный язык",
+                "покупал сувениры в городе"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "фотографировал",
+                "наслаждался свежим воздухом и фотографировал",
+                "делал фото"
+              ]
+            }
+          ],
+          "explain_ru": "Visited his uncle — навещал дядю; enjoyed the fresh air and took many photos — наслаждался свежим воздухом и делал много фото.",
+          "audio": null
+        },
+        {
+          "id": "en-3-5-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «went»:",
+          "question_text": "went",
+          "options": ["ездил / ходил (от go)", "плавал (от swim)", "остановился", "посетил"],
+          "correct_index": 0,
+          "explain_ru": "Went — форма прошедшего времени от go.",
+          "audio": null
+        },
+        {
+          "id": "en-3-5-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «swam»:",
+          "question_text": "swam",
+          "options": ["плавал (от swim)", "ездил (от go)", "делал фото", "наслаждался"],
+          "correct_index": 0,
+          "explain_ru": "Swam — форма прошедшего времени от swim.",
+          "audio": null
+        },
+        {
+          "id": "en-3-5-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «sunset»:",
+          "question_text": "sunset",
+          "options": ["закат", "горы", "вид", "солнце"],
+          "correct_index": 0,
+          "explain_ru": "Sunset — закат.",
+          "audio": null
+        },
+        {
+          "id": "en-3-5-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «stayed»:",
+          "question_text": "stayed",
+          "options": ["остановился", "посетил", "наслаждался", "уехал"],
+          "correct_index": 0,
+          "explain_ru": "Stayed — остановился (например, в отеле).",
+          "audio": null
+        },
+        {
+          "id": "en-3-5-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «visited»:",
+          "question_text": "visited",
+          "options": ["посетил", "остановился", "плавал", "устал"],
+          "correct_index": 0,
+          "explain_ru": "Visited — посетил, навестил.",
+          "audio": null
+        },
+        {
+          "id": "en-3-5-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не глагол в прошедшем времени):",
+          "items": ["went", "swam", "visited", "mountains"],
+          "odd_index": 3,
+          "explain_ru": "Mountains («горы») — существительное, а went, swam и visited — глаголы в Past Simple.",
+          "audio": null
+        },
+        {
+          "id": "en-3-5-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте открытку из отпуска и ответьте на вопрос:",
+          "passage": "Hi Mom! Last summer we went to a small island. We stayed near the beach, swam every morning and took photos of the wonderful sunset.",
+          "questions": [
+            {
+              "question_ru": "Что они делали каждое утро?",
+              "options": ["плавали", "ходили в музей", "спали до обеда", "ехали в горы"],
+              "correct_index": 0,
+              "accepted": ["плавали", "swam"]
+            }
+          ],
+          "explain_ru": "Swam every morning — плавали каждое утро.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

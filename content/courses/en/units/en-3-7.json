@@ -83,16 +83,417 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-7-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Отзыв о фильме (1/2): расскажите о фильме, который вы видели вчера вечером (saw — видел):",
+          "target_text": "Last night I saw a movie. It is a comedy.",
+          "translation_ru": "Вчера вечером я видел фильм. Это комедия.",
+          "explain_ru": "Saw — прошедшее время от see; movie — фильм; comedy — комедия.",
+          "audio": "en/3-7/sp-01.mp3"
+        },
+        {
+          "id": "en-3-7-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Отзыв о фильме (2/2): расскажите про актёра, сюжет и концовку:",
+          "target_text": "The actor is funny and the story is great. The ending is a surprise.",
+          "translation_ru": "Актёр смешной, а сюжет отличный. Концовка — сюрприз.",
+          "explain_ru": "Actor — актёр, funny — смешной, story — сюжет, ending — концовка.",
+          "audio": "en/3-7/sp-02.mp3"
+        },
+        {
+          "id": "en-3-7-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Пригласите друга в кинотеатр сегодня вечером:",
+          "target_text": "Let's go to the cinema tonight.",
+          "translation_ru": "Давай пойдём в кинотеатр сегодня вечером.",
+          "explain_ru": "Let's go to the cinema — Давай пойдём в кинотеатр.",
+          "audio": "en/3-7/sp-03.mp3"
+        },
+        {
+          "id": "en-3-7-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что эта актриса очень знаменитая:",
+          "target_text": "This actress is very famous.",
+          "translation_ru": "Эта актриса очень знаменитая.",
+          "explain_ru": "Actress — актриса; famous — знаменитый.",
+          "audio": "en/3-7/sp-04.mp3"
+        },
+        {
+          "id": "en-3-7-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вам не нравятся страшные фильмы:",
+          "target_text": "I do not like scary movies. I like comedy.",
+          "translation_ru": "Я не люблю страшные фильмы. Я люблю комедию.",
+          "explain_ru": "Scary — страшный, comedy — комедия.",
+          "audio": "en/3-7/sp-05.mp3"
+        },
+        {
+          "id": "en-3-7-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что режиссёр снял отличную сцену:",
+          "target_text": "The director made a great scene.",
+          "translation_ru": "Режиссёр снял отличную сцену.",
+          "explain_ru": "Director — режиссёр, scene — сцена.",
+          "audio": "en/3-7/sp-06.mp3"
+        },
+        {
+          "id": "en-3-7-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что главный персонаж очень смешной:",
+          "target_text": "The main character is very funny.",
+          "translation_ru": "Главный персонаж очень смешной.",
+          "explain_ru": "Main character — главный персонаж.",
+          "audio": "en/3-7/sp-07.mp3"
+        },
+        {
+          "id": "en-3-7-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у истории счастливая концовка:",
+          "target_text": "The story has a happy ending.",
+          "translation_ru": "У этой истории счастливая концовка.",
+          "explain_ru": "Story — сюжет, история; happy ending — счастливая концовка.",
+          "audio": "en/3-7/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-7-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Страшное кино (1/2): прослушайте отзыв и ответьте, какой это фильм:",
+          "transcript": "This movie is scary. The main character is a young girl. The director is famous.",
+          "options": ["страшный", "смешной", "романтичный", "короткий"],
+          "correct_index": 0,
+          "explain_ru": "This movie is scary — Этот фильм страшный.",
+          "audio": "en/3-7/ls-01.mp3"
+        },
+        {
+          "id": "en-3-7-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Страшное кино (2/2): кто главный персонаж фильма?",
+          "transcript": "This movie is scary. The main character is a young girl. The director is famous.",
+          "options": [
+            "молодая девушка",
+            "знаменитый актёр",
+            "пожилой режиссёр",
+            "маленький мальчик"
+          ],
+          "correct_index": 0,
+          "explain_ru": "The main character is a young girl — Главная героиня — молодая девушка.",
+          "audio": "en/3-7/ls-02.mp3"
+        },
+        {
+          "id": "en-3-7-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Куда Анна и Том идут в пятницу вечером?",
+          "transcript": "On Friday evening Anna and Tom go to the cinema to watch a new comedy.",
+          "options": [
+            "в кинотеатр на новую комедию",
+            "в театр на концерт",
+            "в ресторан на ужин",
+            "в музей старого города"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Go to the cinema to watch a new comedy — идут в кинотеатр смотреть новую комедию.",
+          "audio": "en/3-7/ls-03.mp3"
+        },
+        {
+          "id": "en-3-7-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кто понравился Кейт в фильме?",
+          "transcript": "Kate liked the actress and the first scene, but the story was long.",
+          "options": [
+            "актриса и первая сцена",
+            "режиссёр и концовка",
+            "страшный персонаж",
+            "только музыка"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Actress — актриса; scene — сцена.",
+          "audio": "en/3-7/ls-04.mp3"
+        },
+        {
+          "id": "en-3-7-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что говорит Макс про актёра?",
+          "transcript": "This actor plays a funny character. Everybody smiles in the cinema.",
+          "options": [
+            "он играет смешного персонажа",
+            "он сам режиссёр фильма",
+            "он играет страшную роль",
+            "он поёт песню в финале"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Plays a funny character — играет смешного персонажа.",
+          "audio": "en/3-7/ls-05.mp3"
+        },
+        {
+          "id": "en-3-7-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Марии понравилась концовка?",
+          "transcript": "The movie had a scary scene, but the ending was wonderful and happy.",
+          "options": [
+            "концовка была чудесной и счастливой",
+            "фильм закончился очень быстро",
+            "в конце играла громкая музыка",
+            "режиссёр появился в кадре"
+          ],
+          "correct_index": 0,
+          "explain_ru": "The ending was wonderful and happy — Концовка была чудесной и счастливой.",
+          "audio": "en/3-7/ls-06.mp3"
+        },
+        {
+          "id": "en-3-7-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что известно о режиссёре нового фильма?",
+          "transcript": "The director of this comedy is from England. His story is very interesting.",
+          "options": [
+            "он из Англии",
+            "он из Турции",
+            "он снимает только страшные фильмы",
+            "он работает в школе"
+          ],
+          "correct_index": 0,
+          "explain_ru": "The director of this comedy is from England — Режиссёр этой комедии из Англии.",
+          "audio": "en/3-7/ls-07.mp3"
+        },
+        {
+          "id": "en-3-7-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "This comedy is funny.",
+          "accepted": ["This comedy is funny."],
+          "explain_ru": "Comedy — комедия, funny — смешной.",
+          "audio": "en/3-7/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-7-wr-01",
+          "type": "odd_one_out",
+          "origin": "source",
+          "prompt_ru": "Найди лишнее слово (не человек):",
+          "items": ["actor", "actress", "director", "ending"],
+          "odd_index": 3,
+          "explain_ru": "Ending («концовка») — часть фильма, а actor, actress и director — люди, которые делают кино.",
+          "audio": null
+        },
+        {
+          "id": "en-3-7-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Давай пойдём в кинотеатр»:",
+          "source_text": "Давай пойдём в кинотеатр.",
+          "bank": ["cinema", "to", "go", "let's", "the"],
+          "accepted": ["Let's go to the cinema"],
+          "explain_ru": "Let's go to the cinema — Давай пойдём в кинотеатр.",
+          "audio": null
+        },
+        {
+          "id": "en-3-7-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг с глаголом be:",
+          "buggy_text": "The movie are funny",
+          "accepted": ["The movie is funny."],
+          "explain_ru": "Movie — единственное число, поэтому используется is: The movie is funny.",
+          "audio": null
+        },
+        {
+          "id": "en-3-7-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о кино с переводом:",
+          "pairs": [
+            { "left": "movie", "right": "фильм" },
+            { "left": "cinema", "right": "кинотеатр" },
+            { "left": "comedy", "right": "комедия" },
+            { "left": "character", "right": "персонаж" }
+          ],
+          "explain_ru": "Movie — фильм, cinema — кинотеатр, comedy — комедия, character — персонаж.",
+          "audio": null
+        },
+        {
+          "id": "en-3-7-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините остальные слова юнита с переводом:",
+          "pairs": [
+            { "left": "story", "right": "сюжет, история" },
+            { "left": "scene", "right": "сцена" },
+            { "left": "scary", "right": "страшный" },
+            { "left": "director", "right": "режиссёр" }
+          ],
+          "explain_ru": "Story — сюжет, история; scene — сцена; scary — страшный; director — режиссёр.",
+          "audio": null
+        },
+        {
+          "id": "en-3-7-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Эта актриса знаменита»:",
+          "source_text": "Эта актриса знаменита.",
+          "bank": ["actress", "famous", "this", "is"],
+          "accepted": ["This actress is famous"],
+          "explain_ru": "This actress is famous — Эта актриса знаменита.",
+          "audio": null
+        },
+        {
+          "id": "en-3-7-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку с артиклем:",
+          "buggy_text": "He is a actor.",
+          "accepted": ["He is an actor."],
+          "explain_ru": "Слово actor начинается с гласного звука, поэтому нужен артикль an: an actor.",
+          "audio": null
+        },
+        {
+          "id": "en-3-7-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски слово «страшный»:",
+          "source_text": "страшный",
+          "accepted": ["scary"],
+          "explain_ru": "Scary — страшный.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-7-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Новая комедия: прочитайте отзыв и ответьте на вопросы:",
+          "passage": "The new comedy is in the cinema. The actress is famous. There is a funny scene at the beginning, and the ending is happy.",
+          "questions": [
+            {
+              "question_ru": "Какой жанр у нового фильма?",
+              "options": ["комедия", "страшный фильм", "документальный фильм", "концерт"],
+              "correct_index": 0,
+              "accepted": ["комедия", "comedy"]
+            },
+            {
+              "question_ru": "Какая у фильма концовка?",
+              "options": ["счастливая", "страшная", "грустная", "долгая"],
+              "correct_index": 0,
+              "accepted": ["счастливая", "happy"]
+            }
+          ],
+          "explain_ru": "The new comedy — новая комедия; the ending is happy — концовка счастливая.",
+          "audio": null
+        },
+        {
+          "id": "en-3-7-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «director»:",
+          "question_text": "director",
+          "options": ["режиссёр", "актёр", "персонаж", "сцена"],
+          "correct_index": 0,
+          "explain_ru": "Director — режиссёр.",
+          "audio": null
+        },
+        {
+          "id": "en-3-7-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «character»:",
+          "question_text": "character",
+          "options": ["персонаж", "сюжет", "концовка", "актриса"],
+          "correct_index": 0,
+          "explain_ru": "Character — персонаж.",
+          "audio": null
+        },
+        {
+          "id": "en-3-7-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «scene»:",
+          "question_text": "scene",
+          "options": ["сцена", "сюжет", "кинотеатр", "фильм"],
+          "correct_index": 0,
+          "explain_ru": "Scene — сцена (эпизод в фильме).",
+          "audio": null
+        },
+        {
+          "id": "en-3-7-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «ending»:",
+          "question_text": "ending",
+          "options": ["концовка", "начало", "комедия", "сюрприз"],
+          "correct_index": 0,
+          "explain_ru": "Ending — концовка.",
+          "audio": null
+        },
+        {
+          "id": "en-3-7-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «story»:",
+          "question_text": "story",
+          "options": ["сюжет, история", "актёр", "билет", "экран"],
+          "correct_index": 0,
+          "explain_ru": "Story — сюжет, история.",
+          "audio": null
+        },
+        {
+          "id": "en-3-7-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не прилагательное):",
+          "items": ["funny", "scary", "famous", "cinema"],
+          "odd_index": 3,
+          "explain_ru": "Cinema («кинотеатр») — существительное (место), а funny, scary и famous — прилагательные.",
+          "audio": null
+        },
+        {
+          "id": "en-3-7-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткую афишу кинотеатра и ответьте на вопрос:",
+          "passage": "Tonight at seven: Star Night. Director: Paul Green. Actors: Sam Lee and Emma White. A funny story about a friendly neighbor.",
+          "questions": [
+            {
+              "question_ru": "О ком сюжет фильма «Star Night»?",
+              "options": [
+                "о дружелюбном соседе",
+                "о знаменитом режиссёре",
+                "о поездке в горы",
+                "о страшном замке"
+              ],
+              "correct_index": 0,
+              "accepted": ["о дружелюбном соседе", "friendly neighbor"]
+            }
+          ],
+          "explain_ru": "A funny story about a friendly neighbor — смешная история о дружелюбном соседе.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

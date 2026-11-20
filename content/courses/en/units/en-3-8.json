@@ -83,16 +83,410 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-8-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "В аэропорту (1/2): скажите, во сколько ваш рейс и что вы проходите досмотр:",
+          "target_text": "My flight is at ten. I go through security.",
+          "translation_ru": "Мой рейс в десять. Я прохожу досмотр.",
+          "explain_ru": "Flight — рейс; go through security — проходить досмотр.",
+          "audio": "en/3-8/sp-01.mp3"
+        },
+        {
+          "id": "en-3-8-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "В аэропорту (2/2): назовите номер выхода на посадку и своё место:",
+          "target_text": "My gate is number twelve. I have a seat by the window.",
+          "translation_ru": "Мой выход — номер двенадцать. У меня место у окна.",
+          "explain_ru": "Gate — выход на посадку; a seat by the window — место у окна.",
+          "audio": "en/3-8/sp-02.mp3"
+        },
+        {
+          "id": "en-3-8-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы проходите регистрацию и получаете посадочный талон:",
+          "target_text": "I do check-in and get my boarding pass.",
+          "translation_ru": "Я прохожу регистрацию и получаю свой посадочный талон.",
+          "explain_ru": "Check-in — регистрация; boarding pass — посадочный талон.",
+          "audio": "en/3-8/sp-03.mp3"
+        },
+        {
+          "id": "en-3-8-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, когда самолёт взлетает и приземляется:",
+          "target_text": "The plane will take off at nine and land at twelve.",
+          "translation_ru": "Самолёт взлетит в девять и приземлится в двенадцать.",
+          "explain_ru": "Plane — самолёт, take off — взлетать, land — приземляться.",
+          "audio": "en/3-8/sp-04.mp3"
+        },
+        {
+          "id": "en-3-8-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что пилот приветствует каждого пассажира:",
+          "target_text": "The pilot says hello to every passenger.",
+          "translation_ru": "Пилот здоровается с каждым пассажиром.",
+          "explain_ru": "Pilot — пилот, passenger — пассажир.",
+          "audio": "en/3-8/sp-05.mp3"
+        },
+        {
+          "id": "en-3-8-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите сотрудника, задержан ли ваш рейс:",
+          "target_text": "Excuse me, is my flight delayed?",
+          "translation_ru": "Простите, мой рейс задержан?",
+          "explain_ru": "Delayed — задержан.",
+          "audio": "en/3-8/sp-06.mp3"
+        },
+        {
+          "id": "en-3-8-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас есть паспорт и посадочный талон:",
+          "target_text": "Here is my passport and my boarding pass.",
+          "translation_ru": "Вот мой паспорт и мой посадочный талон.",
+          "explain_ru": "Boarding pass — посадочный талон.",
+          "audio": "en/3-8/sp-07.mp3"
+        },
+        {
+          "id": "en-3-8-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, где стойка регистрации:",
+          "target_text": "Where is the check-in desk for this plane?",
+          "translation_ru": "Где стойка регистрации на этот самолёт?",
+          "explain_ru": "Check-in — регистрация, plane — самолёт.",
+          "audio": "en/3-8/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-8-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Объявление (1/2): прослушайте объявление в аэропорту и ответьте, что с рейсом 305:",
+          "transcript": "Attention, passengers. Flight 305 is delayed. The new departure time is eleven. Please wait at gate four.",
+          "options": [
+            "он задержан",
+            "он вылетает раньше",
+            "посадка уже идёт",
+            "рейс прибыл"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Flight 305 is delayed — Рейс 305 задержан.",
+          "audio": "en/3-8/ls-01.mp3"
+        },
+        {
+          "id": "en-3-8-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Объявление (2/2): у какого выхода на посадку нужно ждать?",
+          "transcript": "Attention, passengers. Flight 305 is delayed. The new departure time is eleven. Please wait at gate four.",
+          "options": ["у четвёртого (4)", "у двенадцатого (12)", "у седьмого (7)", "у первого (1)"],
+          "correct_index": 0,
+          "explain_ru": "Please wait at gate four — Пожалуйста, ждите у выхода номер 4.",
+          "audio": "en/3-8/ls-02.mp3"
+        },
+        {
+          "id": "en-3-8-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что пилот сообщает пассажирам?",
+          "transcript": "Hello, this is your pilot. Our plane is ready to take off. Please take your seat.",
+          "options": [
+            "самолёт готов взлетать, займите свои места",
+            "рейс задержан на два часа",
+            "самолёт уже приземлился",
+            "нужно пройти досмотр снова"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Pilot — пилот; plane is ready to take off — самолёт готов взлетать; seat — место.",
+          "audio": "en/3-8/ls-03.mp3"
+        },
+        {
+          "id": "en-3-8-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что должен показать пассажир на выходе на посадку?",
+          "transcript": "Every passenger needs a valid passport and a boarding pass at the gate.",
+          "options": [
+            "действительный паспорт и посадочный талон",
+            "водительские права и карту города",
+            "чек из магазина и ключ от отеля",
+            "только чемодан"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Passenger — пассажир; boarding pass — посадочный талон; gate — выход на посадку.",
+          "audio": "en/3-8/ls-04.mp3"
+        },
+        {
+          "id": "en-3-8-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Во сколько самолёт приземляется в Стамбуле?",
+          "transcript": "Our plane will land in Istanbul at six o'clock in the evening.",
+          "options": ["в шесть вечера", "в десять утра", "в полночь", "в два часа дня"],
+          "correct_index": 0,
+          "explain_ru": "Land — приземляться; at six o'clock in the evening — в шесть вечера.",
+          "audio": "en/3-8/ls-05.mp3"
+        },
+        {
+          "id": "en-3-8-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что Том делает сначала в аэропорту?",
+          "transcript": "First Tom goes to check-in with his luggage. Then he goes through security.",
+          "options": [
+            "идёт на регистрацию с багажом",
+            "ищет своё место в самолёте",
+            "покупает сувениры",
+            "звонит пилоту"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Check-in — регистрация; security — досмотр.",
+          "audio": "en/3-8/ls-06.mp3"
+        },
+        {
+          "id": "en-3-8-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какое место у Кейт в самолёте?",
+          "transcript": "Kate's seat is 14A, near the window. She likes to watch the clouds.",
+          "options": [
+            "14A у окна",
+            "4B у выхода",
+            "12C в центре",
+            "у неё нет места"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kate's seat is 14A, near the window — Место Кейт — 14A, у окна.",
+          "audio": "en/3-8/ls-07.mp3"
+        },
+        {
+          "id": "en-3-8-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "The plane is ready to land.",
+          "accepted": ["The plane is ready to land."],
+          "explain_ru": "Plane — самолёт, land — приземляться.",
+          "audio": "en/3-8/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-8-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите просьбу «Покажите ваш посадочный талон, пожалуйста»:",
+          "source_text": "Покажите ваш посадочный талон, пожалуйста.",
+          "bank": ["boarding", "pass", "your", "show", "please"],
+          "accepted": [
+            "Show your boarding pass please",
+            "Please show your boarding pass"
+          ],
+          "explain_ru": "Show your boarding pass please — Покажите ваш посадочный талон, пожалуйста.",
+          "audio": null
+        },
+        {
+          "id": "en-3-8-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Антоним: напишите противоположный по смыслу глагол к «take off» (взлетать):",
+          "source_text": "take off ↔ ___",
+          "accepted": ["land"],
+          "explain_ru": "Take off (взлетать) ↔ land (приземляться).",
+          "audio": null
+        },
+        {
+          "id": "en-3-8-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг с глаголом be:",
+          "buggy_text": "The flight are delayed",
+          "accepted": ["The flight is delayed."],
+          "explain_ru": "Flight — единственное число, поэтому используется is: The flight is delayed.",
+          "audio": null
+        },
+        {
+          "id": "en-3-8-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова об аэропорте с переводом:",
+          "pairs": [
+            { "left": "flight", "right": "рейс" },
+            { "left": "gate", "right": "выход на посадку" },
+            { "left": "security", "right": "досмотр" },
+            { "left": "check-in", "right": "регистрация" }
+          ],
+          "explain_ru": "Flight — рейс, gate — выход на посадку, security — досмотр, check-in — регистрация.",
+          "audio": null
+        },
+        {
+          "id": "en-3-8-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините остальные слова юнита с переводом:",
+          "pairs": [
+            { "left": "plane", "right": "самолёт" },
+            { "left": "pilot", "right": "пилот" },
+            { "left": "passenger", "right": "пассажир" },
+            { "left": "seat", "right": "место" }
+          ],
+          "explain_ru": "Plane — самолёт, pilot — пилот, passenger — пассажир, seat — место.",
+          "audio": null
+        },
+        {
+          "id": "en-3-8-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Я прохожу досмотр»:",
+          "source_text": "Я прохожу досмотр.",
+          "bank": ["through", "go", "security", "I"],
+          "accepted": ["I go through security"],
+          "explain_ru": "Go through security — проходить досмотр.",
+          "audio": null
+        },
+        {
+          "id": "en-3-8-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении про пилота:",
+          "buggy_text": "The pilot are friendly.",
+          "accepted": ["The pilot is friendly."],
+          "explain_ru": "Pilot — единственное число, поэтому нужен глагол is.",
+          "audio": null
+        },
+        {
+          "id": "en-3-8-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски слово «задержан» (о рейсе):",
+          "source_text": "задержан",
+          "accepted": ["delayed"],
+          "explain_ru": "Delayed — задержан.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-8-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Анна улетает: прочитайте текст и ответьте на вопросы:",
+          "passage": "Anna is at the airport. She does check-in and goes through security. Her gate is number seven, but the flight is delayed for one hour.",
+          "questions": [
+            {
+              "question_ru": "Какой номер выхода на посадку у Анны?",
+              "options": ["7", "4", "12", "1"],
+              "correct_index": 0,
+              "accepted": ["7", "семь", "седьмой", "seven"]
+            },
+            {
+              "question_ru": "На сколько задержан рейс?",
+              "options": ["на один час", "на два часа", "на полчаса", "рейс не задержан"],
+              "correct_index": 0,
+              "accepted": ["на час", "на один час", "one hour"]
+            }
+          ],
+          "explain_ru": "Her gate is number seven — Её выход номер семь; delayed for one hour — задержан на один час.",
+          "audio": null
+        },
+        {
+          "id": "en-3-8-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «boarding pass»:",
+          "question_text": "boarding pass",
+          "options": ["посадочный талон", "загранпаспорт", "багаж", "выход на посадку"],
+          "correct_index": 0,
+          "explain_ru": "Boarding pass — посадочный талон.",
+          "audio": null
+        },
+        {
+          "id": "en-3-8-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «take off»:",
+          "question_text": "take off",
+          "options": ["взлетать", "приземляться", "ждать", "регистрироваться"],
+          "correct_index": 0,
+          "explain_ru": "Take off — взлетать; land — приземляться.",
+          "audio": null
+        },
+        {
+          "id": "en-3-8-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «passenger»:",
+          "question_text": "passenger",
+          "options": ["пассажир", "пилот", "турист", "водитель"],
+          "correct_index": 0,
+          "explain_ru": "Passenger — пассажир.",
+          "audio": null
+        },
+        {
+          "id": "en-3-8-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «security»:",
+          "question_text": "security",
+          "options": ["досмотр", "регистрация", "задержка", "посадка"],
+          "correct_index": 0,
+          "explain_ru": "Security — досмотр (служба безопасности в аэропорту).",
+          "audio": null
+        },
+        {
+          "id": "en-3-8-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «check-in»:",
+          "question_text": "check-in",
+          "options": ["регистрация", "досмотр", "место", "выход"],
+          "correct_index": 0,
+          "explain_ru": "Check-in — регистрация на рейс.",
+          "audio": null
+        },
+        {
+          "id": "en-3-8-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не человек):",
+          "items": ["pilot", "passenger", "tourist", "seat"],
+          "odd_index": 3,
+          "explain_ru": "Seat («место») — предмет, а pilot, passenger и tourist — люди.",
+          "audio": null
+        },
+        {
+          "id": "en-3-8-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткое сообщение из самолёта и ответьте на вопрос:",
+          "passage": "Hi! I am on the plane in seat 9C. The pilot says we will take off in ten minutes and land in Germany at three.",
+          "questions": [
+            {
+              "question_ru": "Где приземлится самолёт в три часа?",
+              "options": ["в Германии", "в Англии", "в Турции", "в России"],
+              "correct_index": 0,
+              "accepted": ["в Германии", "Germany"]
+            }
+          ],
+          "explain_ru": "Land in Germany at three — приземлимся в Германии в три часа.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

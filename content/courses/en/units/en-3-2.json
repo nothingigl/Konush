@@ -83,16 +83,411 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-2-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мои языки (1/2): скажите, на каких языках вы говорите и какой учите:",
+          "target_text": "I speak Russian and a little English. I learn Turkish too.",
+          "translation_ru": "Я говорю по-русски и немного по-английски. Я учу турецкий тоже.",
+          "explain_ru": "Названия языков в английском всегда пишутся с заглавной буквы: Russian, English, Turkish.",
+          "audio": "en/3-2/sp-01.mp3"
+        },
+        {
+          "id": "en-3-2-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мои языки (2/2): скажите, что английский — иностранный язык для вас:",
+          "target_text": "English is a foreign language for me.",
+          "translation_ru": "Английский — иностранный язык для меня.",
+          "explain_ru": "Foreign language — иностранный язык.",
+          "audio": "en/3-2/sp-02.mp3"
+        },
+        {
+          "id": "en-3-2-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, какой ваш родной язык:",
+          "target_text": "My native language is Russian.",
+          "translation_ru": "Мой родной язык — русский.",
+          "explain_ru": "Native language — родной язык.",
+          "audio": "en/3-2/sp-03.mp3"
+        },
+        {
+          "id": "en-3-2-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваша подруга двуязычная и свободно говорит по-английски:",
+          "target_text": "My friend is bilingual. She speaks fluent English.",
+          "translation_ru": "Моя подруга двуязычная. Она свободно говорит по-английски.",
+          "explain_ru": "Bilingual — двуязычный; fluent English — свободный английский.",
+          "audio": "en/3-2/sp-04.mp3"
+        },
+        {
+          "id": "en-3-2-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите перевести новое слово:",
+          "target_text": "Could you translate this word, please?",
+          "translation_ru": "Не могли бы вы перевести это слово, пожалуйста?",
+          "explain_ru": "Translate — переводить, word — слово.",
+          "audio": "en/3-2/sp-05.mp3"
+        },
+        {
+          "id": "en-3-2-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас небольшой акцент:",
+          "target_text": "I have a small accent in English.",
+          "translation_ru": "У меня небольшой акцент в английском.",
+          "explain_ru": "Accent — акцент. Перед существительным с прилагательным ставится артикль a: a small accent.",
+          "audio": "en/3-2/sp-06.mp3"
+        },
+        {
+          "id": "en-3-2-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите нового знакомого, говорит ли он по-турецки:",
+          "target_text": "Do you speak Turkish or Russian?",
+          "translation_ru": "Вы говорите по-турецки или по-русски?",
+          "explain_ru": "После speak название языка ставится без предлога: speak Turkish.",
+          "audio": "en/3-2/sp-07.mp3"
+        },
+        {
+          "id": "en-3-2-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы учите иностранный язык каждый день:",
+          "target_text": "I learn a foreign language every day.",
+          "translation_ru": "Я учу иностранный язык каждый день.",
+          "explain_ru": "Learn — учить, foreign language — иностранный язык.",
+          "audio": "en/3-2/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-2-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Мария (1/2): прослушайте рассказ о Марии и ответьте, какой язык для неё родной:",
+          "transcript": "Maria is bilingual. Her native language is Spanish, and she speaks fluent English. She has a small accent.",
+          "options": ["испанский", "английский", "русский", "турецкий"],
+          "correct_index": 0,
+          "explain_ru": "Her native language is Spanish — Её родной язык — испанский.",
+          "audio": "en/3-2/ls-01.mp3"
+        },
+        {
+          "id": "en-3-2-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Мария (2/2): какой у Марии акцент?",
+          "transcript": "Maria is bilingual. Her native language is Spanish, and she speaks fluent English. She has a small accent.",
+          "options": ["небольшой", "очень сильный", "у неё нет акцента", "турецкий"],
+          "correct_index": 0,
+          "explain_ru": "She has a small accent — У неё небольшой акцент.",
+          "audio": "en/3-2/ls-02.mp3"
+        },
+        {
+          "id": "en-3-2-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой язык учит Али?",
+          "transcript": "Ali is from Turkey. His native language is Turkish, and now he learns Russian.",
+          "options": ["русский", "турецкий", "английский", "немецкий"],
+          "correct_index": 0,
+          "explain_ru": "Now he learns Russian — Сейчас он учит русский.",
+          "audio": "en/3-2/ls-03.mp3"
+        },
+        {
+          "id": "en-3-2-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что делает Анна на уроке?",
+          "transcript": "Anna reads an English book and translates every new word.",
+          "options": [
+            "переводит каждое новое слово",
+            "слушает музыку",
+            "пишет письмо боссу",
+            "сдаёт экзамен по биологии"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Translates every new word — переводит каждое новое слово.",
+          "audio": "en/3-2/ls-04.mp3"
+        },
+        {
+          "id": "en-3-2-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как говорит Кейт?",
+          "transcript": "Kate is bilingual. She speaks fluent Russian and fluent English.",
+          "options": [
+            "она свободно говорит по-русски и по-английски",
+            "она говорит только по-русски",
+            "она не понимает английский",
+            "она учит турецкий"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bilingual — двуязычная; fluent — свободно владеющая.",
+          "audio": "en/3-2/ls-05.mp3"
+        },
+        {
+          "id": "en-3-2-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему студенту нужна помощь?",
+          "transcript": "Excuse me, I do not understand this foreign word. Could you repeat it slowly?",
+          "options": [
+            "он не понимает иностранное слово",
+            "он забыл тетрадь",
+            "он опоздал на урок",
+            "он ищет библиотеку"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Foreign word — иностранное слово.",
+          "audio": "en/3-2/ls-06.mp3"
+        },
+        {
+          "id": "en-3-2-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что говорит учитель про акцент?",
+          "transcript": "Your Turkish accent is very good, and you know many words.",
+          "options": [
+            "турецкий акцент очень хороший",
+            "акцент слишком сильный",
+            "нужно учить больше грамматики",
+            "слово написано с ошибкой"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Your Turkish accent is very good — Твой турецкий акцент очень хороший.",
+          "audio": "en/3-2/ls-07.mp3"
+        },
+        {
+          "id": "en-3-2-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I learn English every day.",
+          "accepted": ["I learn English every day."],
+          "explain_ru": "Learn — учить, English — английский.",
+          "audio": "en/3-2/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-2-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите вопрос «Вы говорите по-английски?»:",
+          "source_text": "Вы говорите по-английски?",
+          "bank": ["speak", "do", "you", "English"],
+          "accepted": ["Do you speak English"],
+          "explain_ru": "Общий вопрос в Present Simple: Do + you + speak + English.",
+          "audio": null
+        },
+        {
+          "id": "en-3-2-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в отрицательном предложении:",
+          "buggy_text": "I speak not Turkish",
+          "accepted": ["I do not speak Turkish.", "I don't speak Turkish."],
+          "explain_ru": "В Present Simple отрицание со смысловым глаголом строится через do not (don't) перед глаголом.",
+          "audio": null
+        },
+        {
+          "id": "en-3-2-wr-03",
+          "type": "multiple_choice",
+          "origin": "source",
+          "prompt_ru": "Подбери перевод слова «translate»:",
+          "question_text": "translate",
+          "options": ["переводить", "учить", "повторять", "понимать"],
+          "correct_index": 0,
+          "explain_ru": "Translate — переводить.",
+          "audio": null
+        },
+        {
+          "id": "en-3-2-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "language", "right": "язык" },
+            { "left": "foreign", "right": "иностранный" },
+            { "left": "native", "right": "родной" },
+            { "left": "bilingual", "right": "двуязычный" }
+          ],
+          "explain_ru": "Language — язык, foreign — иностранный, native — родной, bilingual — двуязычный.",
+          "audio": null
+        },
+        {
+          "id": "en-3-2-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о языке с переводом:",
+          "pairs": [
+            { "left": "word", "right": "слово" },
+            { "left": "accent", "right": "акцент" },
+            { "left": "fluent", "right": "свободно владеющий" },
+            { "left": "learn", "right": "учить" }
+          ],
+          "explain_ru": "Word — слово, accent — акцент, fluent — свободно владеющий, learn — учить.",
+          "audio": null
+        },
+        {
+          "id": "en-3-2-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Мой родной язык — русский»:",
+          "source_text": "Мой родной язык — русский.",
+          "bank": ["is", "native", "Russian", "my", "language"],
+          "accepted": [
+            "My native language is Russian",
+            "Russian is my native language"
+          ],
+          "explain_ru": "Native language — родной язык.",
+          "audio": null
+        },
+        {
+          "id": "en-3-2-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении про Тома:",
+          "buggy_text": "Tom translate new words every day.",
+          "accepted": ["Tom translates new words every day."],
+          "explain_ru": "С he / she / it (Tom) в Present Simple к глаголу добавляется окончание -s: translates.",
+          "audio": null
+        },
+        {
+          "id": "en-3-2-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски слово «турецкий» (с заглавной буквы):",
+          "source_text": "турецкий",
+          "accepted": ["Turkish"],
+          "explain_ru": "Turkish — турецкий (названия языков всегда пишутся с большой буквы).",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-2-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Том учит русский: прочитайте текст (difficult — трудный, practices — тренируется) и ответьте на вопросы:",
+          "passage": "Tom learns Russian. He translates new words every day. The Russian accent is difficult for him, but he practices.",
+          "questions": [
+            {
+              "question_ru": "Что делает Том каждый день?",
+              "options": [
+                "переводит новые слова",
+                "ездит в Россию",
+                "смотрит фильмы",
+                "пишет письма"
+              ],
+              "correct_index": 0,
+              "accepted": ["переводит новые слова", "переводит слова", "translates new words"]
+            },
+            {
+              "question_ru": "Что ему даётся трудно?",
+              "options": ["русский акцент", "новые слова", "чтение книг", "английский язык"],
+              "correct_index": 0,
+              "accepted": ["русский акцент", "акцент", "accent"]
+            }
+          ],
+          "explain_ru": "He translates new words every day — Он переводит новые слова каждый день; The Russian accent is difficult for him — Русский акцент труден для него.",
+          "audio": null
+        },
+        {
+          "id": "en-3-2-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «bilingual»:",
+          "question_text": "bilingual",
+          "options": ["двуязычный", "иностранный", "родной", "свободно владеющий"],
+          "correct_index": 0,
+          "explain_ru": "Bilingual — двуязычный (владеющий двумя языками).",
+          "audio": null
+        },
+        {
+          "id": "en-3-2-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «fluent»:",
+          "question_text": "fluent",
+          "options": ["свободно владеющий", "иностранный", "медленный", "новый"],
+          "correct_index": 0,
+          "explain_ru": "Fluent — свободно владеющий языком.",
+          "audio": null
+        },
+        {
+          "id": "en-3-2-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «foreign»:",
+          "question_text": "foreign",
+          "options": ["иностранный", "родной", "двуязычный", "знаменитый"],
+          "correct_index": 0,
+          "explain_ru": "Foreign — иностранный.",
+          "audio": null
+        },
+        {
+          "id": "en-3-2-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «native»:",
+          "question_text": "native",
+          "options": ["родной", "иностранный", "сложный", "тихий"],
+          "correct_index": 0,
+          "explain_ru": "Native — родной.",
+          "audio": null
+        },
+        {
+          "id": "en-3-2-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «accent»:",
+          "question_text": "accent",
+          "options": ["акцент", "слово", "язык", "урок"],
+          "correct_index": 0,
+          "explain_ru": "Accent — акцент.",
+          "audio": null
+        },
+        {
+          "id": "en-3-2-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не название языка):",
+          "items": ["English", "Russian", "Turkish", "word"],
+          "odd_index": 3,
+          "explain_ru": "Word («слово») — не название языка, а English, Russian и Turkish — языки.",
+          "audio": null
+        },
+        {
+          "id": "en-3-2-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий профиль студентки и ответьте на вопрос:",
+          "passage": "Elif is a student in Istanbul. Her native language is Turkish. She speaks fluent English and learns Russian at the university.",
+          "questions": [
+            {
+              "question_ru": "Какой язык Элиф учит в университете?",
+              "options": ["русский", "турецкий", "английский", "испанский"],
+              "correct_index": 0,
+              "accepted": ["русский", "Russian"]
+            }
+          ],
+          "explain_ru": "She learns Russian at the university — Она учит русский в университете.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

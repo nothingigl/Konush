@@ -83,16 +83,421 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-15-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Идём в театр: расскажите о планах на вечер:",
+          "target_text": "Tonight we go to the theater. Our seats are in the first row. I love ballet and opera.",
+          "translation_ru": "Сегодня вечером мы идём в театр. Наши места в первом ряду. Я люблю балет и оперу.",
+          "explain_ru": "In the first row — в первом ряду; ballet — балет, opera — опера.",
+          "audio": "en/3-15/sp-01.mp3"
+        },
+        {
+          "id": "en-3-15-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что спектакль начинается в семь часов:",
+          "target_text": "The play starts at seven o'clock.",
+          "translation_ru": "Спектакль начинается в семь часов ровно.",
+          "explain_ru": "Play — спектакль, пьеса (в этом юните это существительное).",
+          "audio": "en/3-15/sp-02.mp3"
+        },
+        {
+          "id": "en-3-15-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите актёра на сцене в красивом костюме:",
+          "target_text": "The actor on the stage wears a beautiful costume.",
+          "translation_ru": "Актёр на сцене носит красивый костюм.",
+          "explain_ru": "On the stage — на сцене; costume — костюм.",
+          "audio": "en/3-15/sp-03.mp3"
+        },
+        {
+          "id": "en-3-15-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что красный занавес открывается:",
+          "target_text": "The red curtain opens slowly.",
+          "translation_ru": "Красный занавес медленно открывается.",
+          "explain_ru": "Curtain — занавес (в театре в единственном числе).",
+          "audio": "en/3-15/sp-04.mp3"
+        },
+        {
+          "id": "en-3-15-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что зрителям нравится представление и слышны громкие аплодисменты:",
+          "target_text": "The audience loves the show, and the applause is loud.",
+          "translation_ru": "Зрителям нравится шоу, и аплодисменты громкие.",
+          "explain_ru": "Audience — зрители, публика; applause — аплодисменты.",
+          "audio": "en/3-15/sp-05.mp3"
+        },
+        {
+          "id": "en-3-15-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что во время антракта мы пьём кофе:",
+          "target_text": "During the intermission, we drink coffee.",
+          "translation_ru": "Во время антракта мы пьём кофе.",
+          "explain_ru": "Intermission — антракт (перерыв между актами).",
+          "audio": "en/3-15/sp-06.mp3"
+        },
+        {
+          "id": "en-3-15-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что в конце представления люди встают:",
+          "target_text": "At the end of the performance, people stand up.",
+          "translation_ru": "В конце представления люди встают.",
+          "explain_ru": "Performance — представление; stand up — вставать.",
+          "audio": "en/3-15/sp-07.mp3"
+        },
+        {
+          "id": "en-3-15-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что зрители встают ради актёров на сцене:",
+          "target_text": "We stand up for the actors on the stage.",
+          "translation_ru": "Мы встаём ради актёров на сцене.",
+          "explain_ru": "Stand up — вставать; stage — сцена.",
+          "audio": "en/3-15/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-15-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Конец спектакля: прослушайте скрипт (applauds — «аплодирует») и ответьте, что делает публика в конце:",
+          "transcript": "The curtain opens. The actors are on the stage. After the performance the audience stands up and applauds.",
+          "options": [
+            "встаёт и аплодирует",
+            "уходит во время антракта",
+            "фотографирует занавес",
+            "сидит тихо в первом ряду"
+          ],
+          "correct_index": 0,
+          "explain_ru": "The audience stands up and applauds — Зрители встают и аплодируют.",
+          "audio": "en/3-15/ls-01.mp3"
+        },
+        {
+          "id": "en-3-15-ls-02",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "В каком ряду места у Анны и Тома?",
+          "transcript": "Anna and Tom have tickets for the opera. Their seats are in the second row.",
+          "options": [
+            "во втором ряду",
+            "в первом ряду",
+            "в пятом ряду",
+            "в десятом ряду"
+          ],
+          "correct_index": 0,
+          "explain_ru": "In the second row — во втором ряду.",
+          "audio": "en/3-15/ls-02.mp3"
+        },
+        {
+          "id": "en-3-15-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что смотрят друзья в театре?",
+          "transcript": "Tonight we watch a funny play. The story is wonderful.",
+          "options": [
+            "смешной спектакль",
+            "грустную оперу",
+            "короткий балет",
+            "страшный фильм"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A funny play — смешной спектакль.",
+          "audio": "en/3-15/ls-03.mp3"
+        },
+        {
+          "id": "en-3-15-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что происходит после представления?",
+          "transcript": "After the play, we stand up and hear loud applause.",
+          "options": [
+            "зрители встают и слышны громкие аплодисменты",
+            "начинается антракт и гаснет свет",
+            "актёры меняют костюмы",
+            "открывается красный занавес"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Stand up — вставать; loud applause — громкие аплодисменты.",
+          "audio": "en/3-15/ls-04.mp3"
+        },
+        {
+          "id": "en-3-15-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что любят родители говорящего?",
+          "transcript": "My mother loves ballet, and my father loves opera.",
+          "options": [
+            "мама любит балет, а папа — оперу",
+            "мама любит оперу, а папа — балет",
+            "оба любят кино",
+            "оба любят футбол"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Mother loves ballet, father loves opera — мама любит балет, папа любит оперу.",
+          "audio": "en/3-15/ls-05.mp3"
+        },
+        {
+          "id": "en-3-15-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Сколько длится антракт?",
+          "transcript": "There is a short intermission for fifteen minutes. We can buy tea.",
+          "options": [
+            "пятнадцать минут",
+            "пять минут",
+            "тридцать минут",
+            "один час"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A short intermission for fifteen minutes — короткий антракт на пятнадцать минут.",
+          "audio": "en/3-15/ls-06.mp3"
+        },
+        {
+          "id": "en-3-15-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что особенно понравилось Кейт?",
+          "transcript": "Kate loved the actress. Her costume was blue and very bright.",
+          "options": [
+            "актриса и её синий костюм",
+            "громкие аплодисменты",
+            "места в первом ряду",
+            "кофе в антракте"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Her costume was blue — Её костюм был синим.",
+          "audio": "en/3-15/ls-07.mp3"
+        },
+        {
+          "id": "en-3-15-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "The curtain opens.",
+          "accepted": ["The curtain opens."],
+          "explain_ru": "The curtain opens — Занавес открывается.",
+          "audio": "en/3-15/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-15-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Наши места в первом ряду»:",
+          "source_text": "Наши места в первом ряду.",
+          "bank": ["seats", "our", "row", "in", "are", "first", "the"],
+          "accepted": ["Our seats are in the first row"],
+          "explain_ru": "Our seats (подлежащее) + are + in the first row (в первом ряду).",
+          "audio": null
+        },
+        {
+          "id": "en-3-15-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в предложении в Present Simple:",
+          "buggy_text": "The play start at seven.",
+          "accepted": ["The play starts at seven."],
+          "explain_ru": "С подлежащим в 3-м лице ед. числа (the play = it) к глаголу добавляется -s: starts.",
+          "audio": null
+        },
+        {
+          "id": "en-3-15-wr-03",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Подбери перевод театральных слов:",
+          "pairs": [
+            { "left": "intermission", "right": "антракт" },
+            { "left": "performance", "right": "представление" },
+            { "left": "applause", "right": "аплодисменты" },
+            { "left": "row", "right": "ряд" }
+          ],
+          "explain_ru": "Intermission — антракт, performance — представление, applause — аплодисменты, row — ряд.",
+          "audio": null
+        },
+        {
+          "id": "en-3-15-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о театре с переводом:",
+          "pairs": [
+            { "left": "stage", "right": "сцена" },
+            { "left": "curtain", "right": "занавес" },
+            { "left": "audience", "right": "зрители" },
+            { "left": "costume", "right": "костюм" }
+          ],
+          "explain_ru": "Stage — сцена, curtain — занавес, audience — зрители, costume — костюм.",
+          "audio": null
+        },
+        {
+          "id": "en-3-15-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините жанры и действия с переводом:",
+          "pairs": [
+            { "left": "ballet", "right": "балет" },
+            { "left": "opera", "right": "опера" },
+            { "left": "play", "right": "спектакль" },
+            { "left": "stand up", "right": "вставать" }
+          ],
+          "explain_ru": "Ballet — балет, opera — опера, play — спектакль, stand up — вставать.",
+          "audio": null
+        },
+        {
+          "id": "en-3-15-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите фразу «Пожалуйста, встаньте сейчас»:",
+          "source_text": "Пожалуйста, встаньте сейчас.",
+          "bank": ["up", "please", "stand", "now"],
+          "accepted": ["Please stand up now", "Stand up now please"],
+          "explain_ru": "Stand up — вставать; вежливая просьба начинается или заканчивается словом please.",
+          "audio": null
+        },
+        {
+          "id": "en-3-15-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку с глаголом во множественном числе:",
+          "buggy_text": "The costumes is beautiful.",
+          "accepted": ["The costumes are beautiful."],
+          "explain_ru": "Со множественным числом (costumes) нужен глагол are.",
+          "audio": null
+        },
+        {
+          "id": "en-3-15-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски слово «сцена» (в театре):",
+          "source_text": "сцена",
+          "accepted": ["stage"],
+          "explain_ru": "Stage — сцена в театре.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-15-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Балет: прочитайте текст и ответьте на вопросы:",
+          "passage": "The ballet starts at seven. At nine there is a short intermission. The costumes are beautiful, and the audience loves it.",
+          "questions": [
+            {
+              "question_ru": "Когда начинается антракт?",
+              "options": ["в девять", "в семь", "в восемь", "в десять"],
+              "correct_index": 0,
+              "accepted": ["в девять", "в 9", "at nine"]
+            },
+            {
+              "question_ru": "Что красиво в этом балете?",
+              "options": ["костюмы", "билеты", "занавес", "кресла"],
+              "correct_index": 0,
+              "accepted": ["костюмы", "the costumes", "costumes"]
+            }
+          ],
+          "explain_ru": "At nine there is a short intermission — В девять короткий антракт; The costumes are beautiful — Костюмы красивые.",
+          "audio": null
+        },
+        {
+          "id": "en-3-15-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «play» в театральном значении:",
+          "question_text": "play",
+          "options": ["спектакль", "антракт", "занавес", "ряд"],
+          "correct_index": 0,
+          "explain_ru": "Play — спектакль, пьеса.",
+          "audio": null
+        },
+        {
+          "id": "en-3-15-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «stage»:",
+          "question_text": "stage",
+          "options": ["сцена", "зрители", "костюм", "балет"],
+          "correct_index": 0,
+          "explain_ru": "Stage — сцена.",
+          "audio": null
+        },
+        {
+          "id": "en-3-15-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «curtain»:",
+          "question_text": "curtain",
+          "options": ["занавес", "ряд", "опера", "аплодисменты"],
+          "correct_index": 0,
+          "explain_ru": "Curtain — занавес.",
+          "audio": null
+        },
+        {
+          "id": "en-3-15-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «applause»:",
+          "question_text": "applause",
+          "options": ["аплодисменты", "антракт", "представление", "костюм"],
+          "correct_index": 0,
+          "explain_ru": "Applause — аплодисменты.",
+          "audio": null
+        },
+        {
+          "id": "en-3-15-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «performance»:",
+          "question_text": "performance",
+          "options": ["представление", "зрители", "занавес", "ряд"],
+          "correct_index": 0,
+          "explain_ru": "Performance — представление.",
+          "audio": null
+        },
+        {
+          "id": "en-3-15-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не относится к театру):",
+          "items": ["ballet", "opera", "curtain", "luggage"],
+          "odd_index": 3,
+          "explain_ru": "Luggage — «багаж» (для поездок), а ballet, opera и curtain относятся к театру.",
+          "audio": null
+        },
+        {
+          "id": "en-3-15-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий отзыв об опере и ответьте на вопрос:",
+          "passage": "Last night we watched an opera from the third row. The performance was great. At the end, we had to stand up for the long applause.",
+          "questions": [
+            {
+              "question_ru": "Из какого ряда смотрели оперу?",
+              "options": ["из третьего", "из первого", "из второго", "из пятого"],
+              "correct_index": 0,
+              "accepted": ["из третьего", "third row"]
+            }
+          ],
+          "explain_ru": "From the third row — из третьего ряда.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

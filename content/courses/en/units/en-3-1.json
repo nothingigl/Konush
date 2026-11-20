@@ -83,16 +83,407 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-1-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мой сосед (1/2): расскажите, где он живёт и какой он:",
+          "target_text": "My neighbor lives upstairs. He is friendly. Sometimes there is noise, but he is nice.",
+          "translation_ru": "Мой сосед живёт наверху. Он дружелюбный. Иногда бывает шум, но он приятный.",
+          "explain_ru": "Upstairs — наверху (на верхнем этаже), friendly — дружелюбный, noise — шум.",
+          "audio": "en/3-1/sp-01.mp3"
+        },
+        {
+          "id": "en-3-1-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мой сосед (2/2): попросите у соседа немного сахара (sugar — сахар):",
+          "target_text": "Can I borrow some sugar?",
+          "translation_ru": "Могу я одолжить немного сахара?",
+          "explain_ru": "Borrow — взять взаймы (к себе). Can I borrow...? — Могу я одолжить...?",
+          "audio": "en/3-1/sp-02.mp3"
+        },
+        {
+          "id": "en-3-1-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы можете одолжить соседу ключ:",
+          "target_text": "I can lend you my key.",
+          "translation_ru": "Я могу одолжить тебе свой ключ.",
+          "explain_ru": "Lend — дать взаймы кому-то (от себя), в отличие от borrow.",
+          "audio": "en/3-1/sp-03.mp3"
+        },
+        {
+          "id": "en-3-1-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, где дверь и лифт:",
+          "target_text": "The door is near the elevator.",
+          "translation_ru": "Дверь рядом с лифтом.",
+          "explain_ru": "Door — дверь, elevator — лифт, near — рядом с.",
+          "audio": "en/3-1/sp-04.mp3"
+        },
+        {
+          "id": "en-3-1-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы идёте по лестнице вниз:",
+          "target_text": "I take the stairs downstairs.",
+          "translation_ru": "Я спускаюсь вниз по лестнице.",
+          "explain_ru": "Take the stairs — идти по лестнице; downstairs — вниз / внизу.",
+          "audio": "en/3-1/sp-05.mp3"
+        },
+        {
+          "id": "en-3-1-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите про двор и парковку у дома:",
+          "target_text": "Our yard is green, and the parking is big.",
+          "translation_ru": "Наш двор зелёный, а парковка большая.",
+          "explain_ru": "Yard — двор, parking — парковка.",
+          "audio": "en/3-1/sp-06.mp3"
+        },
+        {
+          "id": "en-3-1-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы проверяете почту внизу:",
+          "target_text": "Every morning I get my mail downstairs.",
+          "translation_ru": "Каждое утро я забираю свою почту внизу.",
+          "explain_ru": "Mail — почта, downstairs — внизу.",
+          "audio": "en/3-1/sp-07.mp3"
+        },
+        {
+          "id": "en-3-1-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите соседа закрыть дверь тихо:",
+          "target_text": "Please close the door. There is a lot of noise.",
+          "translation_ru": "Пожалуйста, закрой дверь. Очень шумно.",
+          "explain_ru": "Door — дверь, a lot of noise — много шума.",
+          "audio": "en/3-1/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-1-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "В подъезде (1/2): прослушайте объявление (broken — сломан) и ответьте, что сломано:",
+          "transcript": "The elevator is broken. Take the stairs. The mail is on the first floor.",
+          "options": ["лифт", "дверь", "лестница", "парковка"],
+          "correct_index": 0,
+          "explain_ru": "The elevator is broken — Лифт сломан.",
+          "audio": "en/3-1/ls-01.mp3"
+        },
+        {
+          "id": "en-3-1-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "В подъезде (2/2): где находится почта?",
+          "transcript": "The elevator is broken. Take the stairs. The mail is on the first floor.",
+          "options": [
+            "на первом этаже",
+            "на третьем этаже",
+            "во дворе",
+            "на парковке"
+          ],
+          "correct_index": 0,
+          "explain_ru": "The mail is on the first floor — Почта на первом этаже.",
+          "audio": "en/3-1/ls-02.mp3"
+        },
+        {
+          "id": "en-3-1-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где живёт сосед?",
+          "transcript": "My neighbor lives downstairs. He is very friendly.",
+          "options": ["внизу", "наверху", "в другом городе", "рядом с парком"],
+          "correct_index": 0,
+          "explain_ru": "Lives downstairs — живёт внизу; friendly — дружелюбный.",
+          "audio": "en/3-1/ls-03.mp3"
+        },
+        {
+          "id": "en-3-1-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что Анна хочет взять взаймы?",
+          "transcript": "Excuse me, can I borrow a big box? I move next week.",
+          "options": ["большую коробку", "ключ", "зонт", "машину"],
+          "correct_index": 0,
+          "explain_ru": "Can I borrow a big box? — Могу я одолжить большую коробку?",
+          "audio": "en/3-1/ls-04.mp3"
+        },
+        {
+          "id": "en-3-1-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что предлагает Том?",
+          "transcript": "I can lend you my map and my umbrella.",
+          "options": [
+            "одолжить карту и зонт",
+            "показать парковку",
+            "забрать почту",
+            "подняться по лестнице"
+          ],
+          "correct_index": 0,
+          "explain_ru": "I can lend you... — Я могу одолжить тебе...",
+          "audio": "en/3-1/ls-05.mp3"
+        },
+        {
+          "id": "en-3-1-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где гуляют дети?",
+          "transcript": "The children play in the yard. The parking is near the street.",
+          "options": ["во дворе", "на парковке", "на лестнице", "в лифте"],
+          "correct_index": 0,
+          "explain_ru": "In the yard — во дворе.",
+          "audio": "en/3-1/ls-06.mp3"
+        },
+        {
+          "id": "en-3-1-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Откуда слышен шум?",
+          "transcript": "There is noise upstairs. Our neighbors have a birthday party.",
+          "options": [
+            "сверху, у соседей вечеринка",
+            "снизу, работает лифт",
+            "с улицы, едет грузовик",
+            "из двора, лает собака"
+          ],
+          "correct_index": 0,
+          "explain_ru": "There is noise upstairs — Наверху шум.",
+          "audio": "en/3-1/ls-07.mp3"
+        },
+        {
+          "id": "en-3-1-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "Please open the door.",
+          "accepted": ["Please open the door."],
+          "explain_ru": "Door — дверь. Please open the door — Пожалуйста, откройте дверь.",
+          "audio": "en/3-1/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-1-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Антонимы: соедините противоположные по смыслу слова:",
+          "pairs": [
+            { "left": "upstairs", "right": "downstairs" },
+            { "left": "borrow", "right": "lend" }
+          ],
+          "explain_ru": "Upstairs (наверху) ↔ downstairs (внизу); borrow (взять взаймы) ↔ lend (одолжить / дать взаймы).",
+          "audio": null
+        },
+        {
+          "id": "en-3-1-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Мой сосед живёт внизу»:",
+          "source_text": "Мой сосед живёт внизу.",
+          "bank": ["lives", "neighbor", "my", "downstairs"],
+          "accepted": ["My neighbor lives downstairs"],
+          "explain_ru": "Порядок слов: My neighbor (подлежащее) + lives (глагол с -s для he/she) + downstairs (наречие места).",
+          "audio": null
+        },
+        {
+          "id": "en-3-1-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: человек просит ручку взаймы (pen — ручка):",
+          "buggy_text": "Can I lend your pen?",
+          "accepted": ["Can I borrow your pen?"],
+          "explain_ru": "Взять взаймы — borrow, а дать взаймы — lend. Поэтому: Can I borrow your pen?",
+          "audio": null
+        },
+        {
+          "id": "en-3-1-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о доме с переводом:",
+          "pairs": [
+            { "left": "elevator", "right": "лифт" },
+            { "left": "stairs", "right": "лестница" },
+            { "left": "door", "right": "дверь" },
+            { "left": "mail", "right": "почта" }
+          ],
+          "explain_ru": "Elevator — лифт, stairs — лестница, door — дверь, mail — почта.",
+          "audio": null
+        },
+        {
+          "id": "en-3-1-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините остальные слова юнита с переводом:",
+          "pairs": [
+            { "left": "noise", "right": "шум" },
+            { "left": "friendly", "right": "дружелюбный" },
+            { "left": "yard", "right": "двор" },
+            { "left": "parking", "right": "парковка" }
+          ],
+          "explain_ru": "Noise — шум, friendly — дружелюбный, yard — двор, parking — парковка.",
+          "audio": null
+        },
+        {
+          "id": "en-3-1-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Лифт рядом с дверью»:",
+          "source_text": "Лифт рядом с дверью.",
+          "bank": ["near", "the", "elevator", "is", "door", "the"],
+          "accepted": [
+            "The elevator is near the door",
+            "The door is near the elevator"
+          ],
+          "explain_ru": "The elevator is near the door — Лифт рядом с дверью.",
+          "audio": null
+        },
+        {
+          "id": "en-3-1-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку с глаголом be:",
+          "buggy_text": "Our neighbors is friendly.",
+          "accepted": ["Our neighbors are friendly."],
+          "explain_ru": "Neighbors — множественное число, поэтому нужен глагол are.",
+          "audio": null
+        },
+        {
+          "id": "en-3-1-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски слово «лестница»:",
+          "source_text": "лестница",
+          "accepted": ["stairs"],
+          "explain_ru": "Stairs — лестница (в английском употребляется во множественном числе).",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-1-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Наш дом: прочитайте текст и ответьте на вопросы:",
+          "passage": "Our building has a yard and a parking lot. The neighbors are friendly. In the evening there is no noise.",
+          "questions": [
+            {
+              "question_ru": "Что есть у дома?",
+              "options": [
+                "двор и парковка",
+                "большой магазин и парк",
+                "ресторан и библиотека",
+                "только лифт"
+              ],
+              "correct_index": 0,
+              "accepted": ["двор и парковка", "a yard and a parking lot"]
+            },
+            {
+              "question_ru": "Какие соседи в этом доме?",
+              "options": ["дружелюбные", "шумные", "занятые", "нервные"],
+              "correct_index": 0,
+              "accepted": ["дружелюбные", "friendly"]
+            }
+          ],
+          "explain_ru": "A yard and a parking lot — двор и парковка; friendly — дружелюбные.",
+          "audio": null
+        },
+        {
+          "id": "en-3-1-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «elevator»:",
+          "question_text": "elevator",
+          "options": ["лифт", "лестница", "дверь", "двор"],
+          "correct_index": 0,
+          "explain_ru": "Elevator — лифт.",
+          "audio": null
+        },
+        {
+          "id": "en-3-1-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «borrow»:",
+          "question_text": "borrow",
+          "options": ["взять взаймы", "одолжить (дать)", "продать", "отправить"],
+          "correct_index": 0,
+          "explain_ru": "Borrow — взять взаймы; lend — дать взаймы.",
+          "audio": null
+        },
+        {
+          "id": "en-3-1-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «lend»:",
+          "question_text": "lend",
+          "options": ["одолжить (дать)", "взять взаймы", "попросить", "закрыть"],
+          "correct_index": 0,
+          "explain_ru": "Lend — одолжить кому-то (дать на время).",
+          "audio": null
+        },
+        {
+          "id": "en-3-1-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «upstairs»:",
+          "question_text": "upstairs",
+          "options": ["наверху", "внизу", "рядом", "прямо"],
+          "correct_index": 0,
+          "explain_ru": "Upstairs — наверху (на верхнем этаже).",
+          "audio": null
+        },
+        {
+          "id": "en-3-1-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «parking»:",
+          "question_text": "parking",
+          "options": ["парковка", "почта", "двор", "квартира"],
+          "correct_index": 0,
+          "explain_ru": "Parking — парковка.",
+          "audio": null
+        },
+        {
+          "id": "en-3-1-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не часть дома или двора):",
+          "items": ["door", "elevator", "stairs", "friendly"],
+          "odd_index": 3,
+          "explain_ru": "Friendly («дружелюбный») — прилагательное о человеке, остальные слова относятся к дому.",
+          "audio": null
+        },
+        {
+          "id": "en-3-1-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку от соседа и ответьте на вопрос:",
+          "passage": "Hi! I am Sam from upstairs. I have your mail. Please come to my door in the evening, or I can bring it downstairs.",
+          "questions": [
+            {
+              "question_ru": "Что есть у соседа Сэма?",
+              "options": ["ваша почта", "ваш ключ", "билеты в кино", "коробки для переезда"],
+              "correct_index": 0,
+              "accepted": ["ваша почта", "почта", "mail"]
+            }
+          ],
+          "explain_ru": "I have your mail — У меня твоя почта.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

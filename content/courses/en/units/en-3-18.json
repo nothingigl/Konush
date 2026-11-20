@@ -83,16 +83,407 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-18-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Что выберу: расскажите о своих предпочтениях:",
+          "target_text": "I prefer tea to coffee. I would rather stay home. Which do you like more, cats or dogs?",
+          "translation_ru": "Я предпочитаю чай кофе. Я бы лучше остался дома. Кого ты любишь больше — кошек или собак?",
+          "explain_ru": "Prefer A to B — предпочитать A, а не B; would rather + глагол (без to) — скорее бы / предпочёл бы.",
+          "audio": "en/3-18/sp-01.mp3"
+        },
+        {
+          "id": "en-3-18-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что этот отель лучше старого:",
+          "target_text": "This hotel is better than the old one.",
+          "translation_ru": "Этот отель лучше старого.",
+          "explain_ru": "Better — сравнительная степень от good («лучше»).",
+          "audio": "en/3-18/sp-02.mp3"
+        },
+        {
+          "id": "en-3-18-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы бы скорее поехали поездом, чем автобусом:",
+          "target_text": "I would rather take the train than the bus.",
+          "translation_ru": "Я бы скорее поехал поездом, чем автобусом.",
+          "explain_ru": "После would rather глагол ставится без частицы to: would rather take.",
+          "audio": "en/3-18/sp-03.mp3"
+        },
+        {
+          "id": "en-3-18-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что мы можем выбрать любой хороший вариант:",
+          "target_text": "We can choose the first option or the second option.",
+          "translation_ru": "Мы можем выбрать первый вариант или второй вариант.",
+          "explain_ru": "Choose — выбирать; option — вариант.",
+          "audio": "en/3-18/sp-04.mp3"
+        },
+        {
+          "id": "en-3-18-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что любите оба жанра, но музыку — больше всего:",
+          "target_text": "I like both books and movies, but I like music most.",
+          "translation_ru": "Мне нравятся и книги, и фильмы, но больше всего я люблю музыку.",
+          "explain_ru": "Both — оба; most — больше всего.",
+          "audio": "en/3-18/sp-05.mp3"
+        },
+        {
+          "id": "en-3-18-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вам подходит любой из двух дней, а ни один вариант не плохой:",
+          "target_text": "Either day is fine for me. Neither day is bad.",
+          "translation_ru": "Любой из двух дней мне подходит. Ни один из дней не плохой.",
+          "explain_ru": "Either — любой из двух; neither — ни тот, ни другой.",
+          "audio": "en/3-18/sp-06.mp3"
+        },
+        {
+          "id": "en-3-18-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы хотите сок вместо кофе:",
+          "target_text": "I want juice instead of coffee.",
+          "translation_ru": "Я хочу сок вместо кофе.",
+          "explain_ru": "Instead of — вместо чего-либо.",
+          "audio": "en/3-18/sp-07.mp3"
+        },
+        {
+          "id": "en-3-18-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что в этом году вы едите меньше сахара и больше овощей:",
+          "target_text": "I eat less sugar and more vegetables now.",
+          "translation_ru": "Сейчас я ем меньше сахара и больше овощей.",
+          "explain_ru": "Less — меньше, more — больше.",
+          "audio": "en/3-18/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-18-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Десерт (1/2): прослушайте скрипт (pasta — «паста», ice cream — «мороженое») и ответьте, что говорящий любит больше:",
+          "transcript": "I like both: pizza and pasta. But I like pizza more. For dessert I choose cake instead of ice cream.",
+          "options": ["пиццу", "пасту", "мороженое", "салат"],
+          "correct_index": 0,
+          "explain_ru": "I like pizza more — Я люблю пиццу больше.",
+          "audio": "en/3-18/ls-01.mp3"
+        },
+        {
+          "id": "en-3-18-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Десерт (2/2): что говорящий выбрал на десерт?",
+          "transcript": "I like both: pizza and pasta. But I like pizza more. For dessert I choose cake instead of ice cream.",
+          "options": ["торт", "мороженое", "пиццу", "фрукты"],
+          "correct_index": 0,
+          "explain_ru": "For dessert I choose cake instead of ice cream — На десерт я выбираю торт вместо мороженого.",
+          "audio": "en/3-18/ls-02.mp3"
+        },
+        {
+          "id": "en-3-18-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какое время года Том любит больше всего?",
+          "transcript": "Tom prefers warm weather. He likes summer most of all.",
+          "options": ["лето", "зиму", "осень", "весну"],
+          "correct_index": 0,
+          "explain_ru": "He likes summer most of all — Больше всего он любит лето.",
+          "audio": "en/3-18/ls-03.mp3"
+        },
+        {
+          "id": "en-3-18-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой вариант считает лучшим Мария?",
+          "transcript": "We have two options: the bus or the train. Maria thinks the train is the better option.",
+          "options": ["поезд", "автобус", "такси", "самолёт"],
+          "correct_index": 0,
+          "explain_ru": "The train is the better option — Поезд — лучший вариант.",
+          "audio": "en/3-18/ls-04.mp3"
+        },
+        {
+          "id": "en-3-18-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что Бен предпочёл бы сделать в субботу?",
+          "transcript": "Ben is tired, so he would rather stay home and read instead of going out.",
+          "options": [
+            "остаться дома и почитать",
+            "пойти в театр с коллегами",
+            "поехать в торговый центр",
+            "пойти на стадион"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Would rather stay home and read — скорее бы остался дома и почитал.",
+          "audio": "en/3-18/ls-05.mp3"
+        },
+        {
+          "id": "en-3-18-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какая куртка понравилась Сэму?",
+          "transcript": "Sam tried on two jackets, but neither jacket was his size. He could not buy either one.",
+          "options": [
+            "ни одна не подошла по размеру",
+            "ему подошли обе куртки",
+            "он купил синюю куртку",
+            "обе куртки были дешёвыми"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Neither jacket was his size — Ни одна куртка не была его размера; either — любой из двух.",
+          "audio": "en/3-18/ls-06.mp3"
+        },
+        {
+          "id": "en-3-18-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Чего Кейт хочет меньше, а чего больше?",
+          "transcript": "Kate wants less stress and more free time this year.",
+          "options": [
+            "меньше стресса и больше свободного времени",
+            "меньше отпуска и больше работы",
+            "меньше чая и больше кофе",
+            "меньше овощей и больше сладкого"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Less stress — меньше стресса; more free time — больше свободного времени.",
+          "audio": "en/3-18/ls-07.mp3"
+        },
+        {
+          "id": "en-3-18-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I prefer tea to coffee.",
+          "accepted": ["I prefer tea to coffee."],
+          "explain_ru": "I prefer tea to coffee — Я предпочитаю чай кофе.",
+          "audio": "en/3-18/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-18-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Я предпочитаю чай кофе»:",
+          "source_text": "Я предпочитаю чай кофе.",
+          "bank": ["prefer", "I", "tea", "coffee", "to"],
+          "accepted": ["I prefer tea to coffee"],
+          "explain_ru": "С глаголом prefer для сравнения используется предлог to: prefer tea to coffee.",
+          "audio": null
+        },
+        {
+          "id": "en-3-18-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг после конструкции would rather:",
+          "buggy_text": "I would rather to stay home.",
+          "accepted": ["I would rather stay home."],
+          "explain_ru": "После would rather частица to не ставится: I would rather stay home.",
+          "audio": null
+        },
+        {
+          "id": "en-3-18-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Сравнение: напишите сравнительную степень слова good («лучше»):",
+          "source_text": "good → ___",
+          "accepted": ["better"],
+          "explain_ru": "Good — исключение: его сравнительная степень — better («лучше»).",
+          "audio": null
+        },
+        {
+          "id": "en-3-18-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о выборе с переводом:",
+          "pairs": [
+            { "left": "choose", "right": "выбирать" },
+            { "left": "both", "right": "оба" },
+            { "left": "neither", "right": "ни тот, ни другой" },
+            { "left": "option", "right": "вариант" }
+          ],
+          "explain_ru": "Choose — выбирать, both — оба, neither — ни тот, ни другой, option — вариант.",
+          "audio": null
+        },
+        {
+          "id": "en-3-18-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова сравнения с переводом:",
+          "pairs": [
+            { "left": "instead", "right": "вместо" },
+            { "left": "more", "right": "больше" },
+            { "left": "less", "right": "меньше" },
+            { "left": "most", "right": "больше всего" }
+          ],
+          "explain_ru": "Instead — вместо, more — больше, less — меньше, most — больше всего.",
+          "audio": null
+        },
+        {
+          "id": "en-3-18-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Я бы скорее выпил чаю»:",
+          "source_text": "Я бы скорее выпил чаю.",
+          "bank": ["rather", "tea", "I", "drink", "would"],
+          "accepted": ["I would rather drink tea"],
+          "explain_ru": "I would rather + глагол (drink) + дополнение (tea).",
+          "audio": null
+        },
+        {
+          "id": "en-3-18-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку со словом either в значении «любой из двух»:",
+          "buggy_text": "Either options are good.",
+          "accepted": ["Either option is good."],
+          "explain_ru": "После either ставится существительное в единственном числе и глагол is: Either option is good.",
+          "audio": null
+        },
+        {
+          "id": "en-3-18-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски слово «любой из двух»:",
+          "source_text": "любой из двух",
+          "accepted": ["either"],
+          "explain_ru": "Either — любой из двух.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-18-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Выбор Анны: прочитайте текст и ответьте на вопросы:",
+          "passage": "Anna can choose: a quiet cafe or a loud restaurant. She prefers the cafe. Neither option is cheap, but the cafe is better.",
+          "questions": [
+            {
+              "question_ru": "Что выбирает Анна?",
+              "options": [
+                "тихое кафе",
+                "громкий ресторан",
+                "оба места",
+                "остаться дома"
+              ],
+              "correct_index": 0,
+              "accepted": ["тихое кафе", "кафе", "the cafe"]
+            },
+            {
+              "question_ru": "Почему Анна выбирает кафе?",
+              "options": [
+                "оно лучше",
+                "оно очень дешёвое",
+                "там играют в игры",
+                "там работает её друг"
+              ],
+              "correct_index": 0,
+              "accepted": ["оно лучше", "the cafe is better", "it is better"]
+            }
+          ],
+          "explain_ru": "She prefers the cafe — Она предпочитает кафе; the cafe is better — кафе лучше.",
+          "audio": null
+        },
+        {
+          "id": "en-3-18-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «both»:",
+          "question_text": "both",
+          "options": ["оба", "ни тот, ни другой", "вместо", "меньше"],
+          "correct_index": 0,
+          "explain_ru": "Both — оба.",
+          "audio": null
+        },
+        {
+          "id": "en-3-18-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «neither»:",
+          "question_text": "neither",
+          "options": ["ни тот, ни другой", "оба", "любой из двух", "больше всего"],
+          "correct_index": 0,
+          "explain_ru": "Neither — ни тот, ни другой.",
+          "audio": null
+        },
+        {
+          "id": "en-3-18-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «instead»:",
+          "question_text": "instead",
+          "options": ["вместо", "лучше", "больше", "вариант"],
+          "correct_index": 0,
+          "explain_ru": "Instead — вместо.",
+          "audio": null
+        },
+        {
+          "id": "en-3-18-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «option»:",
+          "question_text": "option",
+          "options": ["вариант", "мечта", "результат", "приз"],
+          "correct_index": 0,
+          "explain_ru": "Option — вариант.",
+          "audio": null
+        },
+        {
+          "id": "en-3-18-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «less»:",
+          "question_text": "less",
+          "options": ["меньше", "больше", "лучше", "больше всего"],
+          "correct_index": 0,
+          "explain_ru": "Less — меньше.",
+          "audio": null
+        },
+        {
+          "id": "en-3-18-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не относится к выбору или сравнению):",
+          "items": ["both", "neither", "either", "diploma"],
+          "odd_index": 3,
+          "explain_ru": "Diploma — «диплом», а both, neither и either используются при выборе из двух вариантов.",
+          "audio": null
+        },
+        {
+          "id": "en-3-18-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий диалог о выходных и ответьте на вопрос:",
+          "passage": "Paul: Would you like to go to the park or to the cinema? Lisa: Either place is fine for me, but I like the park more. What do you like most? Paul: The park!",
+          "questions": [
+            {
+              "question_ru": "Куда Пол и Лиза, скорее всего, пойдут?",
+              "options": ["в парк", "в кинотеатр", "в музей", "в ресторан"],
+              "correct_index": 0,
+              "accepted": ["в парк", "the park"]
+            }
+          ],
+          "explain_ru": "Лиза любит парк больше (I like the park more), а Пол любит парк больше всего.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

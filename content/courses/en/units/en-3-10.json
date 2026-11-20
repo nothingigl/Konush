@@ -83,16 +83,426 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-10-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Вкусы: повторите фразы о разных вкусах еды:",
+          "target_text": "This soup is too salty. The cake is sweet. I like spicy food, but I do not like bitter coffee.",
+          "translation_ru": "Этот суп слишком солёный. Торт сладкий. Я люблю острую еду, но не люблю горький кофе.",
+          "explain_ru": "Too перед прилагательным означает «слишком»: too salty — слишком солёный.",
+          "audio": "en/3-10/sp-01.mp3"
+        },
+        {
+          "id": "en-3-10-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Похвалите вкусную рыбу на гриле:",
+          "target_text": "The grilled fish is very tasty.",
+          "translation_ru": "Рыба на гриле очень вкусная.",
+          "explain_ru": "Grilled — приготовленный на гриле; tasty — вкусный.",
+          "audio": "en/3-10/sp-02.mp3"
+        },
+        {
+          "id": "en-3-10-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите о завтраке из варёных яиц и сырых овощей:",
+          "target_text": "I eat boiled eggs and raw vegetables for breakfast.",
+          "translation_ru": "Я ем варёные яйца и сырые овощи на завтрак.",
+          "explain_ru": "Boiled — варёный, raw — сырой.",
+          "audio": "en/3-10/sp-03.mp3"
+        },
+        {
+          "id": "en-3-10-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у запечённого картофеля отличный вкус:",
+          "target_text": "The baked potatoes have a great taste.",
+          "translation_ru": "У запечённого картофеля отличный вкус.",
+          "explain_ru": "Baked — запечённый; taste — вкус.",
+          "audio": "en/3-10/sp-04.mp3"
+        },
+        {
+          "id": "en-3-10-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что лимон кислый, поэтому вы добавляете сахар:",
+          "target_text": "This lemon is sour, so I add sugar to my tea.",
+          "translation_ru": "Этот лимон кислый, поэтому я добавляю сахар в чай.",
+          "explain_ru": "Sour — кислый; so связывает причину и следствие («поэтому»).",
+          "audio": "en/3-10/sp-05.mp3"
+        },
+        {
+          "id": "en-3-10-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваш брат любит жареную курицу и острый рис:",
+          "target_text": "My brother likes fried chicken and spicy rice.",
+          "translation_ru": "Мой брат любит жареную курицу и острый рис.",
+          "explain_ru": "Fried — жареный, spicy — острый.",
+          "audio": "en/3-10/sp-06.mp3"
+        },
+        {
+          "id": "en-3-10-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, нравится ли собеседнику вкус горького кофе:",
+          "target_text": "Do you like the taste of bitter coffee?",
+          "translation_ru": "Тебе нравится вкус горького кофе?",
+          "explain_ru": "The taste of — вкус чего-либо; bitter — горький.",
+          "audio": "en/3-10/sp-07.mp3"
+        },
+        {
+          "id": "en-3-10-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что сырое яблоко сладкое и вкусное:",
+          "target_text": "The raw apple is sweet and tasty.",
+          "translation_ru": "Сырое яблоко сладкое и вкусное.",
+          "explain_ru": "Raw — сырой, sweet — сладкий, tasty — вкусный.",
+          "audio": "en/3-10/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-10-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Ужин (1/2): прослушайте скрипт и ответьте, как приготовлена рыба:",
+          "transcript": "The fish is grilled. The potatoes are baked. The lemon is sour.",
+          "options": ["на гриле", "варёная", "жареная", "сырая"],
+          "correct_index": 0,
+          "explain_ru": "The fish is grilled — Рыба приготовлена на гриле.",
+          "audio": "en/3-10/ls-01.mp3"
+        },
+        {
+          "id": "en-3-10-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Ужин (2/2): какой лимон?",
+          "transcript": "The fish is grilled. The potatoes are baked. The lemon is sour.",
+          "options": ["кислый", "сладкий", "солёный", "острый"],
+          "correct_index": 0,
+          "explain_ru": "The lemon is sour — Лимон кислый.",
+          "audio": "en/3-10/ls-02.mp3"
+        },
+        {
+          "id": "en-3-10-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что заказал говорящий на обед?",
+          "transcript": "I want fried fish and boiled potatoes for lunch. The food here is tasty.",
+          "options": [
+            "жареную рыбу и варёный картофель",
+            "сырые овощи и сладкий торт",
+            "запечённое мясо и горький кофе",
+            "острый суп и солёный сыр"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Fried fish — жареная рыба, boiled potatoes — варёный картофель.",
+          "audio": "en/3-10/ls-03.mp3"
+        },
+        {
+          "id": "en-3-10-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что не так с супом и чаем?",
+          "transcript": "This soup is too salty, and the tea is bitter. I want sweet juice.",
+          "options": [
+            "суп слишком солёный, а чай горький",
+            "суп сладкий, а чай кислый",
+            "суп сырой, а чай острый",
+            "суп вкусный, а чай сладкий"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Too salty — слишком солёный; bitter — горький.",
+          "audio": "en/3-10/ls-04.mp3"
+        },
+        {
+          "id": "en-3-10-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что любят Анна и Том?",
+          "transcript": "Anna likes raw vegetables, and Tom likes grilled meat.",
+          "options": [
+            "Анна — сырые овощи, Том — мясо на гриле",
+            "Анна — варёный рис, Том — жареную рыбу",
+            "Анна — сладкий торт, Том — запечённый картофель",
+            "Анна — кислый лимон, Том — горький кофе"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Raw vegetables — сырые овощи; grilled meat — мясо на гриле.",
+          "audio": "en/3-10/ls-05.mp3"
+        },
+        {
+          "id": "en-3-10-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что говорящий говорит об остром супе?",
+          "transcript": "The spicy soup has a wonderful taste. I really like it.",
+          "options": [
+            "у него чудесный вкус",
+            "он слишком солёный",
+            "он сырой и невкусный",
+            "он горький и холодный"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Has a wonderful taste — имеет чудесный вкус.",
+          "audio": "en/3-10/ls-06.mp3"
+        },
+        {
+          "id": "en-3-10-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что Кейт готовит на ужин?",
+          "transcript": "Kate cooks boiled rice and fried eggs for dinner.",
+          "options": [
+            "варёный рис и жареные яйца",
+            "запечённый картофель и рыбу на гриле",
+            "сладкий торт и салат",
+            "сырые овощи и острый суп"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Boiled rice — варёный рис, fried eggs — жареные яйца.",
+          "audio": "en/3-10/ls-07.mp3"
+        },
+        {
+          "id": "en-3-10-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "The soup is too salty.",
+          "accepted": ["The soup is too salty."],
+          "explain_ru": "The soup is too salty — Суп слишком солёный.",
+          "audio": "en/3-10/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-10-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Подбери вкус к каждому продукту (lemon — лимон, sugar — сахар, pepper — перец, salt — соль):",
+          "pairs": [
+            { "left": "lemon", "right": "sour" },
+            { "left": "sugar", "right": "sweet" },
+            { "left": "pepper", "right": "spicy" },
+            { "left": "salt", "right": "salty" }
+          ],
+          "explain_ru": "Lemon — sour (кислый), sugar — sweet (сладкий), pepper — spicy (острый), salt — salty (солёный).",
+          "audio": null
+        },
+        {
+          "id": "en-3-10-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Суп слишком солёный»:",
+          "source_text": "Суп слишком солёный.",
+          "bank": ["too", "is", "soup", "the", "salty"],
+          "accepted": ["The soup is too salty"],
+          "explain_ru": "Порядок слов: подлежащее (The soup) + глагол (is) + too salty.",
+          "audio": null
+        },
+        {
+          "id": "en-3-10-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в предложении с прилагательным:",
+          "buggy_text": "The cake is sweets.",
+          "accepted": ["The cake is sweet."],
+          "explain_ru": "Английские прилагательные не имеют окончания -s: правильно sweet, а не sweets.",
+          "audio": null
+        },
+        {
+          "id": "en-3-10-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините способы приготовления еды с переводом:",
+          "pairs": [
+            { "left": "fried", "right": "жареный" },
+            { "left": "baked", "right": "запечённый" },
+            { "left": "boiled", "right": "варёный" },
+            { "left": "grilled", "right": "на гриле" }
+          ],
+          "explain_ru": "Fried — жареный, baked — запечённый, boiled — варёный, grilled — на гриле.",
+          "audio": null
+        },
+        {
+          "id": "en-3-10-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о вкусе и продуктах с переводом:",
+          "pairs": [
+            { "left": "bitter", "right": "горький" },
+            { "left": "tasty", "right": "вкусный" },
+            { "left": "raw", "right": "сырой" },
+            { "left": "taste", "right": "вкус" }
+          ],
+          "explain_ru": "Bitter — горький, tasty — вкусный, raw — сырой, taste — вкус.",
+          "audio": null
+        },
+        {
+          "id": "en-3-10-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Рыба на гриле вкусная»:",
+          "source_text": "Рыба на гриле вкусная.",
+          "bank": ["fish", "grilled", "tasty", "the", "is"],
+          "accepted": ["The grilled fish is tasty"],
+          "explain_ru": "Определение grilled ставится перед существительным fish: The grilled fish is tasty.",
+          "audio": null
+        },
+        {
+          "id": "en-3-10-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку с глаголом во множественном числе:",
+          "buggy_text": "The potatoes is baked.",
+          "accepted": ["The potatoes are baked."],
+          "explain_ru": "С существительным во множественном числе (potatoes) нужен глагол are.",
+          "audio": null
+        },
+        {
+          "id": "en-3-10-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски слово «кислый»:",
+          "source_text": "кислый",
+          "accepted": ["sour"],
+          "explain_ru": "Sour — кислый.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-10-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Специальный ужин: прочитайте текст (chicken — «курица») и ответьте на вопросы:",
+          "passage": "The restaurant has a special dinner: fried chicken, boiled rice and a sweet cake. The chicken is spicy, but the cake is sweet and tasty.",
+          "questions": [
+            {
+              "question_ru": "Какая курица на ужин?",
+              "options": [
+                "острая и жареная",
+                "варёная и солёная",
+                "сладкая и запечённая",
+                "кислая и сырая"
+              ],
+              "correct_index": 0,
+              "accepted": ["острая и жареная", "острая, жареная", "fried and spicy"]
+            },
+            {
+              "question_ru": "Какой торт подают на десерт?",
+              "options": [
+                "сладкий и вкусный",
+                "горький и солёный",
+                "острый и кислый",
+                "сырой и солёный"
+              ],
+              "correct_index": 0,
+              "accepted": ["сладкий и вкусный", "сладкий", "sweet and tasty"]
+            }
+          ],
+          "explain_ru": "Fried chicken — жареная курица, spicy — острая; the cake is sweet and tasty — торт сладкий и вкусный.",
+          "audio": null
+        },
+        {
+          "id": "en-3-10-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «bitter»:",
+          "question_text": "bitter",
+          "options": ["горький", "сладкий", "солёный", "варёный"],
+          "correct_index": 0,
+          "explain_ru": "Bitter — горький.",
+          "audio": null
+        },
+        {
+          "id": "en-3-10-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «raw»:",
+          "question_text": "raw",
+          "options": ["сырой", "жареный", "запечённый", "на гриле"],
+          "correct_index": 0,
+          "explain_ru": "Raw — сырой.",
+          "audio": null
+        },
+        {
+          "id": "en-3-10-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «baked»:",
+          "question_text": "baked",
+          "options": ["запечённый", "варёный", "жареный", "кислый"],
+          "correct_index": 0,
+          "explain_ru": "Baked — запечённый.",
+          "audio": null
+        },
+        {
+          "id": "en-3-10-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «taste»:",
+          "question_text": "taste",
+          "options": ["вкус", "ужин", "суп", "овощи"],
+          "correct_index": 0,
+          "explain_ru": "Taste — вкус.",
+          "audio": null
+        },
+        {
+          "id": "en-3-10-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «boiled»:",
+          "question_text": "boiled",
+          "options": ["варёный", "острый", "горький", "сырой"],
+          "correct_index": 0,
+          "explain_ru": "Boiled — варёный.",
+          "audio": null
+        },
+        {
+          "id": "en-3-10-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не описывает вкус):",
+          "items": ["spicy", "sweet", "sour", "kitchen"],
+          "odd_index": 3,
+          "explain_ru": "Kitchen — «кухня» (место), а остальные слова описывают вкус еды.",
+          "audio": null
+        },
+        {
+          "id": "en-3-10-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий отзыв о кафе и ответьте на вопрос:",
+          "passage": "At the cafe, Ben drinks bitter coffee and eats a sour lemon cake. Sara has grilled meat and raw vegetables. She says the taste is wonderful.",
+          "questions": [
+            {
+              "question_ru": "Что заказала Сара?",
+              "options": [
+                "мясо на гриле и сырые овощи",
+                "горький кофе и лимонный торт",
+                "варёный рис и жареную курицу",
+                "острый суп и запечённый картофель"
+              ],
+              "correct_index": 0,
+              "accepted": ["мясо на гриле и сырые овощи", "grilled meat and raw vegetables"]
+            }
+          ],
+          "explain_ru": "Sara has grilled meat and raw vegetables — У Сары мясо на гриле и сырые овощи.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

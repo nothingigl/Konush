@@ -83,16 +83,432 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-24-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мой рецепт (flour — «мука»): продиктуйте рецепт выпечки:",
+          "target_text": "Here is my recipe. Mix two cups of flour with one egg. Add a pinch of salt. Bake in the oven for thirty minutes.",
+          "translation_ru": "Вот мой рецепт. Смешайте два стакана муки с одним яйцом. Добавьте щепотку соли. Выпекайте в духовке тридцать минут.",
+          "explain_ru": "Recipe — рецепт, mix — смешивать, cup — стакан (мера), pinch — щепотка, bake in the oven — печь в духовке.",
+          "audio": "en/3-24/sp-01.mp3"
+        },
+        {
+          "id": "en-3-24-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что сначала нужно вскипятить воду и добавить стакан риса:",
+          "target_text": "First boil the water and add one cup of rice.",
+          "translation_ru": "Сначала вскипяти воду и добавь один стакан риса.",
+          "explain_ru": "Boil — варить, кипятить; add — добавлять; cup — стакан (мера).",
+          "audio": "en/3-24/sp-02.mp3"
+        },
+        {
+          "id": "en-3-24-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите нарезать овощи и смешать каждый ингредиент:",
+          "target_text": "Cut the vegetables and mix every ingredient well.",
+          "translation_ru": "Нарежь овощи и хорошо смешай каждый ингредиент.",
+          "explain_ru": "Cut — резать, mix — смешивать, ingredient — ингредиент.",
+          "audio": "en/3-24/sp-03.mp3"
+        },
+        {
+          "id": "en-3-24-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите добавить ложку сахара и щепотку соли:",
+          "target_text": "Add one spoon of sugar and a pinch of salt.",
+          "translation_ru": "Добавь одну ложку сахара и щепотку соли.",
+          "explain_ru": "Spoon — ложка, pinch — щепотка.",
+          "audio": "en/3-24/sp-04.mp3"
+        },
+        {
+          "id": "en-3-24-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите испечь торт в духовке и подать его тёплым:",
+          "target_text": "Bake the cake in the oven and serve it warm.",
+          "translation_ru": "Испеки торт в духовке и подавай его тёплым.",
+          "explain_ru": "Bake — печь, oven — духовка, serve — подавать.",
+          "audio": "en/3-24/sp-05.mp3"
+        },
+        {
+          "id": "en-3-24-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что этот рецепт супа простой и вкусный:",
+          "target_text": "This soup recipe is easy and very tasty.",
+          "translation_ru": "Этот рецепт супа простой и очень вкусный.",
+          "explain_ru": "Recipe — рецепт, tasty — вкусный.",
+          "audio": "en/3-24/sp-06.mp3"
+        },
+        {
+          "id": "en-3-24-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите сварить картофель и подать его горячим:",
+          "target_text": "Boil the potatoes for twenty minutes, then serve hot.",
+          "translation_ru": "Вари картофель двадцать минут, затем подавай горячим.",
+          "explain_ru": "Boil — варить, serve hot — подавать горячим.",
+          "audio": "en/3-24/sp-07.mp3"
+        },
+        {
+          "id": "en-3-24-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что каждый ингредиент в этом рецепте свежий:",
+          "target_text": "Every ingredient in this recipe is fresh. Use a clean spoon.",
+          "translation_ru": "Каждый ингредиент в этом рецепте свежий. Используй чистую ложку.",
+          "explain_ru": "Ingredient — ингредиент, spoon — ложка.",
+          "audio": "en/3-24/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-24-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Варим рис (1/2): прослушайте рецепт и ответьте, что делаем сначала:",
+          "transcript": "First boil the water. Then add rice. Cut the vegetables. Serve hot.",
+          "options": [
+            "кипятим воду",
+            "режем овощи",
+            "добавляем рис",
+            "подаём блюдо"
+          ],
+          "correct_index": 0,
+          "explain_ru": "First boil the water — Сначала кипятим воду.",
+          "audio": "en/3-24/ls-01.mp3"
+        },
+        {
+          "id": "en-3-24-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Варим рис (2/2): как нужно подавать блюдо?",
+          "transcript": "First boil the water. Then add rice. Cut the vegetables. Serve hot.",
+          "options": [
+            "горячим",
+            "холодным",
+            "сладким",
+            "сырым"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Serve hot — Подавать горячим.",
+          "audio": "en/3-24/ls-02.mp3"
+        },
+        {
+          "id": "en-3-24-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что нужно сделать после смешивания продуктов для торта?",
+          "transcript": "To make this cake, mix one cup of milk, two eggs and one spoon of sugar. Then bake it in the oven.",
+          "options": [
+            "испечь его в духовке",
+            "сварить его в воде",
+            "нарезать его на кусочки",
+            "добавить щепотку соли"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Then bake it in the oven — Затем испеки его в духовке.",
+          "audio": "en/3-24/ls-03.mp3"
+        },
+        {
+          "id": "en-3-24-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой главный ингредиент в бабушкином супе?",
+          "transcript": "My grandmother gave me her secret soup recipe. The main ingredient is fresh tomatoes.",
+          "options": [
+            "свежие помидоры",
+            "жареная курица",
+            "варёный рис",
+            "сладкий сыр"
+          ],
+          "correct_index": 0,
+          "explain_ru": "The main ingredient is fresh tomatoes — Главный ингредиент — свежие помидоры.",
+          "audio": "en/3-24/ls-04.mp3"
+        },
+        {
+          "id": "en-3-24-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как подают этот фруктовый салат?",
+          "transcript": "Cut the apples and bananas, add one spoon of sugar, mix everything and serve cold.",
+          "options": [
+            "холодным",
+            "горячим",
+            "в духовке",
+            "с солью"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Serve cold — подавать холодным.",
+          "audio": "en/3-24/ls-05.mp3"
+        },
+        {
+          "id": "en-3-24-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Сколько минут нужно варить яйца?",
+          "transcript": "Boil two eggs for eight minutes. Then cut them and add a pinch of salt.",
+          "options": [
+            "восемь минут",
+            "две минуты",
+            "двадцать минут",
+            "тридцать минут"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Boil two eggs for eight minutes — Варите два яйца восемь минут.",
+          "audio": "en/3-24/ls-06.mp3"
+        },
+        {
+          "id": "en-3-24-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему нужно быть осторожным на кухне?",
+          "transcript": "Be careful! The oven is very hot. Let the bread cool before you cut it.",
+          "options": [
+            "духовка очень горячая",
+            "вода уже закипела",
+            "нож слишком большой",
+            "суп слишком солёный"
+          ],
+          "correct_index": 0,
+          "explain_ru": "The oven is very hot — Духовка очень горячая.",
+          "audio": "en/3-24/ls-07.mp3"
+        },
+        {
+          "id": "en-3-24-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите команду по-английски:",
+          "transcript": "Bake in the oven.",
+          "accepted": ["Bake in the oven."],
+          "explain_ru": "Bake in the oven — Выпекай в духовке.",
+          "audio": "en/3-24/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-24-wr-01",
+          "type": "order_items",
+          "origin": "source",
+          "prompt_ru": "Порядок: расставьте шаги приготовления в логической последовательности:",
+          "items_shuffled": ["bake", "cut", "serve", "mix"],
+          "correct_order": ["cut", "mix", "bake", "serve"],
+          "explain_ru": "Сначала режем (cut), потом смешиваем (mix), печём (bake) и подаём на стол (serve).",
+          "audio": null
+        },
+        {
+          "id": "en-3-24-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите команду «Выпекай в духовке»:",
+          "source_text": "Выпекай в духовке.",
+          "bank": ["oven", "bake", "the", "in"],
+          "accepted": ["Bake in the oven"],
+          "explain_ru": "Повелительное наклонение начинается с глагола: Bake in the oven.",
+          "audio": null
+        },
+        {
+          "id": "en-3-24-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг с артиклем a и множественным числом:",
+          "buggy_text": "Add a spoons of sugar.",
+          "accepted": ["Add a spoon of sugar."],
+          "explain_ru": "Артикль a используется только с единственным числом: a spoon (одна ложка).",
+          "audio": null
+        },
+        {
+          "id": "en-3-24-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова из рецепта с переводом:",
+          "pairs": [
+            { "left": "recipe", "right": "рецепт" },
+            { "left": "ingredient", "right": "ингредиент" },
+            { "left": "cup", "right": "чашка, стакан (мера)" },
+            { "left": "pinch", "right": "щепотка" }
+          ],
+          "explain_ru": "Recipe — рецепт, ingredient — ингредиент, cup — чашка/стакан, pinch — щепотка.",
+          "audio": null
+        },
+        {
+          "id": "en-3-24-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы и предмет на кухне с переводом:",
+          "pairs": [
+            { "left": "boil", "right": "варить" },
+            { "left": "add", "right": "добавлять" },
+            { "left": "oven", "right": "духовка" },
+            { "left": "serve", "right": "подавать" }
+          ],
+          "explain_ru": "Boil — варить, add — добавлять, oven — духовка, serve — подавать.",
+          "audio": null
+        },
+        {
+          "id": "en-3-24-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите инструкцию «Добавь щепотку соли»:",
+          "source_text": "Добавь щепотку соли.",
+          "bank": ["of", "add", "salt", "a", "pinch"],
+          "accepted": ["Add a pinch of salt"],
+          "explain_ru": "A pinch of salt — щепотка соли.",
+          "audio": null
+        },
+        {
+          "id": "en-3-24-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в 3-м лице единственного числа:",
+          "buggy_text": "She boil the water first.",
+          "accepted": ["She boils the water first."],
+          "explain_ru": "С местоимением she к глаголу добавляется окончание -s: boils.",
+          "audio": null
+        },
+        {
+          "id": "en-3-24-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «духовка» на английский:",
+          "source_text": "духовка",
+          "accepted": ["oven"],
+          "explain_ru": "Oven — духовка.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-24-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Салат: прочитайте рецепт и ответьте на вопросы:",
+          "passage": "Salad recipe: Ingredients — tomatoes, cheese, salt. Cut the tomatoes. Add cheese and a pinch of salt. Mix and serve.",
+          "questions": [
+            {
+              "question_ru": "Какие ингредиенты нужны для салата?",
+              "options": [
+                "помидоры, сыр и соль",
+                "рис, мясо и вода",
+                "мука, яйцо и сахар",
+                "яблоки, бананы и молоко"
+              ],
+              "correct_index": 0,
+              "accepted": ["помидоры, сыр и соль", "помидоры, сыр, соль", "tomatoes, cheese, salt"]
+            },
+            {
+              "question_ru": "Что нужно сделать с помидорами?",
+              "options": [
+                "нарезать их",
+                "сварить их",
+                "испечь их в духовке",
+                "помыть пол"
+              ],
+              "correct_index": 0,
+              "accepted": ["нарезать их", "режем", "резать", "cut"]
+            }
+          ],
+          "explain_ru": "Ingredients — tomatoes, cheese, salt; Cut the tomatoes — Нарежьте помидоры.",
+          "audio": null
+        },
+        {
+          "id": "en-3-24-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «pinch»:",
+          "question_text": "pinch",
+          "options": ["щепотка", "ложка", "чашка", "духовка"],
+          "correct_index": 0,
+          "explain_ru": "Pinch — щепотка.",
+          "audio": null
+        },
+        {
+          "id": "en-3-24-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «boil»:",
+          "question_text": "boil",
+          "options": ["варить", "печь", "резать", "смешивать"],
+          "correct_index": 0,
+          "explain_ru": "Boil — варить, кипятить.",
+          "audio": null
+        },
+        {
+          "id": "en-3-24-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «ingredient»:",
+          "question_text": "ingredient",
+          "options": ["ингредиент", "рецепт", "посуда", "вкус"],
+          "correct_index": 0,
+          "explain_ru": "Ingredient — ингредиент.",
+          "audio": null
+        },
+        {
+          "id": "en-3-24-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «spoon»:",
+          "question_text": "spoon",
+          "options": ["ложка", "чашка", "щепотка", "губка"],
+          "correct_index": 0,
+          "explain_ru": "Spoon — ложка.",
+          "audio": null
+        },
+        {
+          "id": "en-3-24-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «serve»:",
+          "question_text": "serve",
+          "options": ["подавать", "добавлять", "варить", "печь"],
+          "correct_index": 0,
+          "explain_ru": "Serve — подавать к столу.",
+          "audio": null
+        },
+        {
+          "id": "en-3-24-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не глагол готовки):",
+          "items": ["mix", "bake", "boil", "oven"],
+          "odd_index": 3,
+          "explain_ru": "Oven — существительное («духовка»), а mix, bake и boil — глаголы.",
+          "audio": null
+        },
+        {
+          "id": "en-3-24-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий рецепт завтрака и ответьте на вопрос:",
+          "passage": "Quick breakfast recipe: Mix one cup of milk with two eggs and one spoon of sugar. Cook for five minutes, cut a banana on top and serve warm.",
+          "questions": [
+            {
+              "question_ru": "Сколько сахара нужно добавить в этом рецепте?",
+              "options": [
+                "одну ложку",
+                "два стакана",
+                "одну щепотку",
+                "три ложки"
+              ],
+              "correct_index": 0,
+              "accepted": ["одну ложку", "одна ложка", "one spoon"]
+            }
+          ],
+          "explain_ru": "One spoon of sugar — одна ложка сахара.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"
