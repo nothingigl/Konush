@@ -129,7 +129,7 @@
           "type": "speak_repeat",
           "origin": "derived",
           "prompt_ru": "Скажите про погоду сегодня и вчера:",
-          "target_text": "Bugün hava sıcak. Dün hava soğuktu (была холодной).",
+          "target_text": "Bugün hava sıcak. Dün hava soğuktu.",
           "translation_ru": "Сегодня погода тёплая (жаркая). Вчера погода была холодной.",
           "explain_ru": "Bugün — сегодня, dün — вчера.",
           "audio": "tr/2-8/sp-05.mp3"
@@ -190,7 +190,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «завтра»:",
           "transcript": "yarın",
-          "accepted": ["yarın"],
+          "accepted": [
+            "yarın"
+          ],
           "explain_ru": "Yarın — завтра (с буквой ı без точки).",
           "audio": "tr/2-8/ls-02.mp3"
         },
@@ -200,7 +202,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «сейчас»:",
           "transcript": "şimdi",
-          "accepted": ["şimdi"],
+          "accepted": [
+            "şimdi"
+          ],
           "explain_ru": "Şimdi — сейчас.",
           "audio": "tr/2-8/ls-03.mp3"
         },
@@ -226,7 +230,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «минута»:",
           "transcript": "dakika",
-          "accepted": ["dakika"],
+          "accepted": [
+            "dakika"
+          ],
           "explain_ru": "Dakika — минута.",
           "audio": "tr/2-8/ls-05.mp3"
         },
@@ -236,7 +242,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «секунда»:",
           "transcript": "saniye",
-          "accepted": ["saniye"],
+          "accepted": [
+            "saniye"
+          ],
           "explain_ru": "Saniye — секунда.",
           "audio": "tr/2-8/ls-06.mp3"
         },
@@ -262,7 +270,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «вчера»:",
           "transcript": "dün",
-          "accepted": ["dün"],
+          "accepted": [
+            "dün"
+          ],
           "explain_ru": "Dün — вчера.",
           "audio": "tr/2-8/ls-08.mp3"
         }
@@ -275,8 +285,18 @@
           "type": "order_items",
           "origin": "source",
           "prompt_ru": "Порядок суток: расставьте части дня от утра к ночи:",
-          "items_shuffled": ["akşam", "sabah", "gece", "öğle"],
-          "correct_order": ["sabah", "öğle", "akşam", "gece"],
+          "items_shuffled": [
+            "akşam",
+            "sabah",
+            "gece",
+            "öğle"
+          ],
+          "correct_order": [
+            "sabah",
+            "öğle",
+            "akşam",
+            "gece"
+          ],
           "explain_ru": "Sabah (утро) → öğle (полдень) → akşam (вечер) → gece (ночь).",
           "audio": null
         },
@@ -286,7 +306,10 @@
           "origin": "source",
           "prompt_ru": "Допишите слово «сегодня»: «___ hava güzel.» (Сегодня погода хорошая)",
           "source_text": "___ hava güzel.",
-          "accepted": ["Bugün", "Bugün hava güzel"],
+          "accepted": [
+            "Bugün",
+            "Bugün hava güzel"
+          ],
           "explain_ru": "Bugün hava güzel — Сегодня погода хорошая.",
           "audio": null
         },
@@ -296,10 +319,22 @@
           "origin": "derived",
           "prompt_ru": "Соедините слова с их русским переводом (1/2):",
           "pairs": [
-            { "left": "dakika", "right": "минута" },
-            { "left": "saniye", "right": "секунда" },
-            { "left": "erken", "right": "рано" },
-            { "left": "geç", "right": "поздно" }
+            {
+              "left": "dakika",
+              "right": "минута"
+            },
+            {
+              "left": "saniye",
+              "right": "секунда"
+            },
+            {
+              "left": "erken",
+              "right": "рано"
+            },
+            {
+              "left": "geç",
+              "right": "поздно"
+            }
           ],
           "explain_ru": "Dakika, saniye, erken, geç.",
           "audio": null
@@ -310,10 +345,22 @@
           "origin": "derived",
           "prompt_ru": "Соедините слова с их русским переводом (2/2):",
           "pairs": [
-            { "left": "dün", "right": "вчера" },
-            { "left": "bugün", "right": "сегодня" },
-            { "left": "yarın", "right": "завтра" },
-            { "left": "şimdi", "right": "сейчас" }
+            {
+              "left": "dün",
+              "right": "вчера"
+            },
+            {
+              "left": "bugün",
+              "right": "сегодня"
+            },
+            {
+              "left": "yarın",
+              "right": "завтра"
+            },
+            {
+              "left": "şimdi",
+              "right": "сейчас"
+            }
           ],
           "explain_ru": "Dün, bugün, yarın, şimdi.",
           "audio": null
@@ -324,8 +371,15 @@
           "origin": "derived",
           "prompt_ru": "Соберите предложение: «Сейчас я пью горячий чай» (içiyorum — пью):",
           "source_text": "Сейчас я пью горячий чай.",
-          "bank": ["içiyorum", "çay", "sıcak", "şimdi"],
-          "accepted": ["Şimdi sıcak çay içiyorum"],
+          "bank": [
+            "içiyorum",
+            "çay",
+            "sıcak",
+            "şimdi"
+          ],
+          "accepted": [
+            "Şimdi sıcak çay içiyorum"
+          ],
           "explain_ru": "Şimdi sıcak çay içiyorum — Сейчас я пью горячий чай.",
           "audio": null
         },
@@ -335,7 +389,9 @@
           "origin": "derived",
           "prompt_ru": "Допишите антоним к слову «erken» («рано»): «Sabah erken değil, ___»",
           "source_text": "erken ↔ ?",
-          "accepted": ["geç"],
+          "accepted": [
+            "geç"
+          ],
           "explain_ru": "Erken (рано) ↔ geç (поздно).",
           "audio": null
         },
@@ -345,7 +401,9 @@
           "origin": "derived",
           "prompt_ru": "Исправь баг: слово «сегодня» пишется слитно и с буквой ü («Сегодня рынок открыт»):",
           "buggy_text": "Bu gun market açık.",
-          "accepted": ["Bugün market açık."],
+          "accepted": [
+            "Bugün market açık."
+          ],
           "explain_ru": "Bugün («сегодня») всегда пишется слитно и с буквой ü.",
           "audio": null
         },
@@ -354,7 +412,12 @@
           "type": "odd_one_out",
           "origin": "derived",
           "prompt_ru": "Найдите лишнее (не относится ко времени):",
-          "items": ["sabah", "akşam", "gece", "eldiven"],
+          "items": [
+            "sabah",
+            "akşam",
+            "gece",
+            "eldiven"
+          ],
           "odd_index": 3,
           "explain_ru": "Eldiven — перчатки, а sabah, akşam, gece — времена суток.",
           "audio": null
@@ -379,7 +442,10 @@
                 "ночью (gece)"
               ],
               "correct_index": 0,
-              "accepted": ["вечером", "akşam"]
+              "accepted": [
+                "вечером",
+                "akşam"
+              ]
             }
           ],
           "explain_ru": "Akşam: film — Вечером: фильм.",
@@ -391,7 +457,12 @@
           "origin": "derived",
           "prompt_ru": "Какая единица времени самая короткая?",
           "question_text": "saat / dakika / saniye",
-          "options": ["saniye (секунда)", "dakika (минута)", "saat (час)", "sabah (утро)"],
+          "options": [
+            "saniye (секунда)",
+            "dakika (минута)",
+            "saat (час)",
+            "sabah (утро)"
+          ],
           "correct_index": 0,
           "explain_ru": "Saniye (секунда) < dakika (минута) < saat (час).",
           "audio": null
@@ -402,7 +473,12 @@
           "origin": "derived",
           "prompt_ru": "Выберите перевод слова «yarın»:",
           "question_text": "yarın",
-          "options": ["завтра", "вчера", "сегодня", "сейчас"],
+          "options": [
+            "завтра",
+            "вчера",
+            "сегодня",
+            "сейчас"
+          ],
           "correct_index": 0,
           "explain_ru": "Yarın — завтра.",
           "audio": "tr/2-8/w08.mp3"
@@ -423,7 +499,11 @@
                 "вчера ночью"
               ],
               "correct_index": 0,
-              "accepted": ["завтра рано утром", "завтра утром", "yarın sabah erken"]
+              "accepted": [
+                "завтра рано утром",
+                "завтра утром",
+                "yarın sabah erken"
+              ]
             }
           ],
           "explain_ru": "Yarın sabah erken havaalanına gidiyorum — Завтра рано утром я еду в аэропорт.",
@@ -462,8 +542,16 @@
           "type": "order_items",
           "origin": "derived",
           "prompt_ru": "Расставьте дни в хронологическом порядке («вчера → сегодня → завтра»):",
-          "items_shuffled": ["yarın", "dün", "bugün"],
-          "correct_order": ["dün", "bugün", "yarın"],
+          "items_shuffled": [
+            "yarın",
+            "dün",
+            "bugün"
+          ],
+          "correct_order": [
+            "dün",
+            "bugün",
+            "yarın"
+          ],
           "explain_ru": "Dün (вчера) → bugün (сегодня) → yarın (завтра).",
           "audio": null
         },
@@ -472,8 +560,16 @@
           "type": "order_items",
           "origin": "derived",
           "prompt_ru": "Расставьте единицы времени от меньшей к большей:",
-          "items_shuffled": ["saat", "saniye", "dakika"],
-          "correct_order": ["saniye", "dakika", "saat"],
+          "items_shuffled": [
+            "saat",
+            "saniye",
+            "dakika"
+          ],
+          "correct_order": [
+            "saniye",
+            "dakika",
+            "saat"
+          ],
           "explain_ru": "Saniye (секунда) < dakika (минута) < saat (час).",
           "audio": null
         }

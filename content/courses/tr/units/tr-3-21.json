@@ -83,16 +83,403 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-21-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Экскурсия по природе (1/2): назовите вслух объекты природы по эмодзи ⛰ 🌊 🏞 🌲 🏝 🏜:",
+          "target_text": "dağ, deniz, göl, orman, ada, çöl",
+          "translation_ru": "гора, море, озеро, лес, остров, пустыня",
+          "explain_ru": "Обратите внимание на мягкое ğ в слове dağ (удлиняет гласную a) и на ö в göl и çöl.",
+          "audio": "tr/3-21/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-21-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Экскурсия по природе (2/2): скажите вслух три предложения о горах, море и лесе:",
+          "target_text": "Dağda hava soğuk. Denizde yüzüyorum. Ormanda yürüyorum.",
+          "translation_ru": "В горах воздух холодный. Я плаваю в море. Я гуляю в лесу.",
+          "explain_ru": "Местный падеж -da/-de: dağda (в горах), denizde (в море), ormanda (в лесу).",
+          "audio": "tr/3-21/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-21-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите реку и зелёную траву на берегу:",
+          "target_text": "Nehir çok uzun. Nehir kenarında yeşil çimen var.",
+          "translation_ru": "Река очень длинная. На берегу (kenarında — у края) реки есть зелёная трава.",
+          "explain_ru": "Nehir — река, çimen — трава.",
+          "audio": "tr/3-21/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-21-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите о песке и камнях на пляже:",
+          "target_text": "Plajda sıcak kum ve küçük taşlar var.",
+          "translation_ru": "На пляже есть тёплый песок и маленькие камни.",
+          "explain_ru": "Kum — песок, taş — камень (taşlar — камни).",
+          "audio": "tr/3-21/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-21-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что в пустыне жарко, а на острове свежий воздух:",
+          "target_text": "Çölde hava çok sıcak ama adada temiz hava var.",
+          "translation_ru": "В пустыне погода очень жаркая, а на острове свежий воздух.",
+          "explain_ru": "Çöl — пустыня, ada — остров, temiz hava — свежий воздух.",
+          "audio": "tr/3-21/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-21-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Полюбуйтесь природой возле озера:",
+          "target_text": "Burada doğa çok güzel. Gölün suyu temiz.",
+          "translation_ru": "Здесь природа очень красивая. Вода в озере чистая.",
+          "explain_ru": "Doğa — природа (ğ удлиняет гласную o), göl — озеро.",
+          "audio": "tr/3-21/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-21-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы любите отдыхать в лесу и в горах:",
+          "target_text": "Ormanda ve dağda dinlenmeyi seviyorum.",
+          "translation_ru": "Я люблю отдыхать в лесу и в горах.",
+          "explain_ru": "Orman — лес, dağ — гора, dinlenmek — отдыхать.",
+          "audio": "tr/3-21/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-21-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Чётко произнесите шесть слов природы в начальной форме:",
+          "target_text": "doğa, nehir, çimen, taş, kum, hava",
+          "translation_ru": "природа, река, трава, камень, песок, погода (воздух)",
+          "explain_ru": "Потренируйте мягкое ğ в doğa и звук ş в taş.",
+          "audio": "tr/3-21/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-21-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Где что? Прослушайте запись и ответьте: где река и что рядом с озером?",
+          "transcript": "Nehir ormanın içinde. Gölün yanında küçük bir ada var.",
+          "options": [
+            "река в лесу; рядом с озером маленький остров",
+            "река в пустыне; рядом с озером высокая гора",
+            "река у моря; рядом с озером большой камень",
+            "река в городе; рядом с озером парк"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Nehir ormanın içinde (река в лесу). Gölün yanında küçük bir ada var (рядом с озером есть маленький остров).",
+          "audio": "tr/3-21/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-21-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «природа»:",
+          "transcript": "doğa",
+          "accepted": ["doğa"],
+          "explain_ru": "Doğa — природа (пишется с ğ).",
+          "audio": "tr/3-21/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-21-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «пустыня»:",
+          "transcript": "çöl",
+          "accepted": ["çöl"],
+          "explain_ru": "Çöl — пустыня (с буквами ç и ö).",
+          "audio": "tr/3-21/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-21-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Куда семья поехала на выходные?",
+          "transcript": "Hafta sonu denize gitmedik. Dağa çıktık ve ormanda yürüdük.",
+          "options": [
+            "в горы и в лес (на море не поехали)",
+            "на море и на остров",
+            "в пустыню и к реке",
+            "к озеру и на пляж"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Denize gitmedik (на море не поехали), dağa çıktık (поднялись в горы), ormanda yürüdük (гуляли в лесу).",
+          "audio": "tr/3-21/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-21-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «трава»:",
+          "transcript": "çimen",
+          "accepted": ["çimen"],
+          "explain_ru": "Çimen — трава.",
+          "audio": "tr/3-21/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-21-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «река»:",
+          "transcript": "nehir",
+          "accepted": ["nehir"],
+          "explain_ru": "Nehir — река.",
+          "audio": "tr/3-21/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-21-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что есть на этом острове?",
+          "transcript": "Bu adada kum yok, sadece büyük taşlar ve temiz hava var.",
+          "options": [
+            "большие камни и свежий воздух (песка нет)",
+            "тёплый песок и длинная река",
+            "большое озеро и зелёная трава",
+            "густой лес и холодная пустыня"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kum yok (песка нет), büyük taşlar (большие камни) ve temiz hava (и свежий воздух).",
+          "audio": "tr/3-21/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-21-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите фразу «В горах холодно»:",
+          "transcript": "Dağda hava soğuk.",
+          "accepted": ["Dağda hava soğuk."],
+          "explain_ru": "Dağda — в горах, hava — воздух/погода, soğuk — холодный.",
+          "audio": "tr/3-21/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-21-wr-01",
+          "type": "odd_one_out",
+          "origin": "source",
+          "prompt_ru": "Найди лишнее: в каком из этих мест нет воды?",
+          "items": ["deniz", "göl", "nehir", "çöl"],
+          "odd_index": 3,
+          "explain_ru": "Çöl — пустыня (нет воды), а deniz (море), göl (озеро) и nehir (река) — водоёмы.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-21-wr-02",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Соедините слова с русским переводом:",
+          "pairs": [
+            { "left": "kum", "right": "песок" },
+            { "left": "taş", "right": "камень" },
+            { "left": "çimen", "right": "трава" }
+          ],
+          "explain_ru": "Kum — песок, taş — камень, çimen — трава.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-21-wr-03",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Здесь природа очень красивая»:",
+          "source_text": "Здесь природа очень красивая.",
+          "bank": ["güzel", "doğa", "çok", "burada"],
+          "accepted": ["Burada doğa çok güzel"],
+          "explain_ru": "Burada (здесь) doğa (природа) çok güzel (очень красивая).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-21-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините ещё четыре слова о природе с переводом:",
+          "pairs": [
+            { "left": "dağ", "right": "гора" },
+            { "left": "orman", "right": "лес" },
+            { "left": "ada", "right": "остров" },
+            { "left": "hava", "right": "погода, воздух" }
+          ],
+          "explain_ru": "Dağ — гора, orman — лес, ada — остров, hava — погода, воздух.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-21-wr-05",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «Я плаваю в море»",
+          "source_text": "Я плаваю в море.",
+          "accepted": ["Denizde yüzüyorum", "Ben denizde yüzüyorum"],
+          "explain_ru": "Deniz + -de = denizde (в море); yüzüyorum — я плаваю.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-21-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Мы гуляем в лесу»:",
+          "source_text": "Мы гуляем в лесу.",
+          "bank": ["yürüyoruz", "ormanda", "biz"],
+          "accepted": ["Biz ormanda yürüyoruz"],
+          "explain_ru": "Biz ormanda yürüyoruz — Мы гуляем в лесу.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-21-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: проверьте гармонию гласных в местном падеже («В озере чистая вода»):",
+          "buggy_text": "Gölda temiz su var.",
+          "accepted": ["Gölde temiz su var."],
+          "explain_ru": "В слове göl гласная переднего ряда ö, поэтому местный падеж — -de: Gölde temiz su var.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-21-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите на турецкий: «На острове есть маленький лес»",
+          "source_text": "На острове есть маленький лес.",
+          "accepted": ["Adada küçük bir orman var", "Adada küçük orman var"],
+          "explain_ru": "Ada + -da = adada (на острове), küçük bir orman (маленький лес), var (есть).",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-21-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Поход. Прочитайте рассказ и ответьте на вопрос:",
+          "passage": "Hafta sonu ormanda yürüdük. Gölde yüzdük. Çimenin üstünde dinlendik. Doğa çok güzeldi.",
+          "questions": [
+            {
+              "question_ru": "Где отдыхали участники похода?",
+              "options": [
+                "на траве (çimenin üstünde)",
+                "в пустыне (çölde)",
+                "на песке у моря (kumda)",
+                "на камне (taşın üstünde)"
+              ],
+              "correct_index": 0,
+              "accepted": ["на траве", "çimenin üstünde"]
+            }
+          ],
+          "explain_ru": "Çimenin üstünde dinlendik — Мы отдыхали на траве.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-21-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слово «nehir» (река) и его чередование при добавлении гласной:",
+          "target_text": "nehir",
+          "translation_ru": "река",
+          "example_text": "Nehir ormanın içinde akıyor (течёт).",
+          "example_ru": "Река течёт в лесу.",
+          "explain_ru": "При добавлении аффикса, начинающегося на гласную, беглая i выпадает: nehir → nehri (реку), nehrin (реки).",
+          "audio": "tr/3-21/w05.mp3"
+        },
+        {
+          "id": "tr-3-21-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «ada»:",
+          "question_text": "ada",
+          "options": ["остров", "гора", "пустыня", "камень"],
+          "correct_index": 0,
+          "explain_ru": "Ada — остров.",
+          "audio": "tr/3-21/w07.mp3"
+        },
+        {
+          "id": "tr-3-21-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое слово означает «камень»?",
+          "question_text": "камень",
+          "options": ["taş", "kum", "çimen", "dağ"],
+          "correct_index": 0,
+          "explain_ru": "Taş — камень, kum — песок, çimen — трава, dağ — гора.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-21-rd-05",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте открытку из путешествия и ответьте на вопрос:",
+          "passage": "Merhaba! Şu anda küçük bir adadayız. Deniz çok temiz. Plajda sıcak kum var ama büyük taş yok. Akşamları hava serin (прохладный) oluyor.",
+          "questions": [
+            {
+              "question_ru": "Чего НЕТ на пляже этого острова?",
+              "options": [
+                "больших камней (büyük taş yok)",
+                "тёплого песка (sıcak kum)",
+                "чистого моря (temiz deniz)",
+                "прохладного воздуха вечером"
+              ],
+              "correct_index": 0,
+              "accepted": ["больших камней", "камней", "büyük taş"]
+            }
+          ],
+          "explain_ru": "Plajda sıcak kum var ama büyük taş yok — На пляже есть тёплый песок, но нет больших камней.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-21-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как правильно сказать «на море / в море»?",
+          "question_text": "deniz + местный падеж",
+          "options": ["denizde", "denizda", "denizte", "denizta"],
+          "correct_index": 0,
+          "explain_ru": "Последняя гласная i — переднего ряда, z — звонкая согласная, поэтому deniz + -de → denizde.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-21-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «hava» в предложении «Dağda hava çok temiz»?",
+          "question_text": "Dağda hava çok temiz.",
+          "options": ["воздух", "трава", "гора", "озеро"],
+          "correct_index": 0,
+          "explain_ru": "Hava означает и «погода», и «воздух». Temiz hava — свежий, чистый воздух.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-21-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое предложение правильно описывает пустыню?",
+          "question_text": "çöl",
+          "options": [
+            "Çölde çok kum var ve hava sıcak.",
+            "Çölde büyük bir deniz ve orman var.",
+            "Çölde her gün gölde yüzüyoruz.",
+            "Çölde soğuk bir nehir ve çok çimen var."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Çölde çok kum var ve hava sıcak — В пустыне много песка и жаркая погода.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,412 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-2-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Оправдания (1/3): объясните вслух, почему не учили уроки:",
+          "target_text": "Dün ders çalışmadım. Vaktim yoktu.",
+          "translation_ru": "Вчера я не учил уроки. У меня не было времени.",
+          "explain_ru": "От ders çalışmak (учить уроки) в прошедшем отрицании (-madım/-medim): çalışmadım. У слова vakit при добавлении -im выпадает i: vaktim.",
+          "audio": "tr/3-2/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-2-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Оправдания (2/3): скажите про звонок, сообщение и готовку:",
+          "target_text": "Ali'ye telefon etmedim ama mesaj attım. Yemek yapmadım.",
+          "translation_ru": "Я не позвонил Али, но отправил сообщение. Я не готовил еду.",
+          "explain_ru": "Telefon etmek (звонить) → telefon etmedim; mesaj atmak (отправлять сообщение) → mesaj attım; yemek yapmak (готовить еду) → yemek yapmadım.",
+          "audio": "tr/3-2/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-2-sp-03",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Оправдания (3/3): добавьте ещё два оправдания (устал и не было возможности заглянуть):",
+          "target_text": "Dün gece çok yoruldum, bu yüzden sana uğramadım. Fırsatım yoktu.",
+          "translation_ru": "Вчера ночью я очень устал, поэтому не заглянул к тебе. У меня не было возможности.",
+          "explain_ru": "Yorulmak (уставать) → yoruldum; uğramak (заглянуть) → uğramadım; fırsat (возможность) → fırsatım.",
+          "audio": "tr/3-2/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-2-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что на днях вы не слышали эту новость:",
+          "target_text": "Geçen gün bu haberi duymadım.",
+          "translation_ru": "На днях я не слышал эту новость.",
+          "explain_ru": "Geçen gün — на днях, haber — новость (в винительном падеже: haberi).",
+          "audio": "tr/3-2/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-2-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вчера вы не ходили в школу и не встречались с другом:",
+          "target_text": "Dün okula gitmedim ve arkadaşımla buluşmadım.",
+          "translation_ru": "Вчера я не ходил в школу и не встречался с другом.",
+          "explain_ru": "Прошедшее отрицание -madım/-medim: gitmek → gitmedim (после передней i), buluşmak → buluşmadım (после задней u).",
+          "audio": "tr/3-2/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-2-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вчера ночью у вас не было времени готовить:",
+          "target_text": "Dün gece hiç vaktim yoktu, yemek yapmadım.",
+          "translation_ru": "Вчера ночью у меня совсем не было времени, я не готовил еду.",
+          "explain_ru": "Dün gece — вчера ночью, vakit — время (vaktim — моё время).",
+          "audio": "tr/3-2/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-2-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите друга: «Почему ты не заглянул ко мне на днях?»",
+          "target_text": "Geçen gün neden bana uğramadın?",
+          "translation_ru": "Почему ты не заглянул ко мне на днях?",
+          "explain_ru": "Uğramak (заглянуть) требует дательного падежа: bana uğramadın — ты не заглянул ко мне.",
+          "audio": "tr/3-2/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-2-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что хорошая новость пришла, но вы не устали:",
+          "target_text": "Güzel bir haber aldım. Bugün hiç yorulmadım.",
+          "translation_ru": "Я получил хорошую новость. Сегодня я совсем не устал.",
+          "explain_ru": "Haber — новость; yorulmak (уставать) → yorulmadım (я не устал).",
+          "audio": "tr/3-2/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-2-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Что не сделал? Прослушайте запись и ответьте: кому написал говорящий и чего он не делал?",
+          "transcript": "Dün gece ders çalışmadım. Ali'yi aramadım ama anneme mesaj attım.",
+          "options": [
+            "Написал маме; не учил уроки и не звонил Али",
+            "Написал Али; не звонил маме и учил уроки",
+            "Позвонил Али; не писал маме и не готовил еду",
+            "Учил уроки; не писал ни маме, ни Али"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Dün gece ders çalışmadım (вчера ночью не учил уроки), Ali'yi aramadım (не звонил Али), anneme mesaj attım (написал сообщение маме).",
+          "audio": "tr/3-2/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-2-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «новость»:",
+          "transcript": "haber",
+          "accepted": ["haber"],
+          "explain_ru": "Haber — новость.",
+          "audio": "tr/3-2/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-2-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «возможность»:",
+          "transcript": "fırsat",
+          "accepted": ["fırsat"],
+          "explain_ru": "Fırsat — возможность (пишется с ı без точки).",
+          "audio": "tr/3-2/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-2-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему говорящий не позвонил отцу?",
+          "transcript": "Geçen gün çok yoruldum ve fırsat bulamadım. Babama telefon etmedim.",
+          "options": [
+            "Очень устал и не нашёл возможности",
+            "Потерял телефон на улице",
+            "Отец был в другой стране",
+            "Он уже позвонил вчера утром"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Çok yoruldum (очень устал), fırsat bulamadım (не смог найти возможности), telefon etmedim (не позвонил).",
+          "audio": "tr/3-2/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-2-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите выражение «вчера ночью»:",
+          "transcript": "dün gece",
+          "accepted": ["dün gece"],
+          "explain_ru": "Dün gece — вчера ночью.",
+          "audio": "tr/3-2/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-2-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите выражение «на днях»:",
+          "transcript": "geçen gün",
+          "accepted": ["geçen gün"],
+          "explain_ru": "Geçen gün — на днях.",
+          "audio": "tr/3-2/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-2-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что произошло вчера с Айше?",
+          "transcript": "Ayşe dün akşam yemek yapmadı. Restorana gitti ama vakit geç olduğu için arkadaşlarına uğramadı.",
+          "options": [
+            "Не готовила еду, пошла в ресторан, но не заглянула к друзьям",
+            "Готовила еду дома и пригласила друзей",
+            "Заглянула к друзьям, но не пошла в ресторан",
+            "Весь вечер учила уроки дома"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yemek yapmadı (не готовила), restorana gitti (пошла в ресторан), uğramadı (не заглянула).",
+          "audio": "tr/3-2/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-2-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «время»:",
+          "transcript": "vakit",
+          "accepted": ["vakit"],
+          "explain_ru": "Vakit — время (с притяжательным аффиксом: vaktim — моё время).",
+          "audio": "tr/3-2/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-2-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Прошедшее отрицание (1/5): образуйте форму от «gitmek» для «ben»:",
+          "source_text": "gitmek, ben → ?",
+          "accepted": ["gitmedim", "Ben gitmedim"],
+          "explain_ru": "Gitmek → git + -me + -di + -m = gitmedim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-2-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Прошедшее отрицание (2/5): образуйте форму от «gelmek» для «sen»:",
+          "source_text": "gelmek, sen → ?",
+          "accepted": ["gelmedin", "Sen gelmedin"],
+          "explain_ru": "Gelmek → gel + -me + -di + -n = gelmedin.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-2-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Прошедшее отрицание (3/5): образуйте форму от «yapmak» для «o»:",
+          "source_text": "yapmak, o → ?",
+          "accepted": ["yapmadı", "O yapmadı"],
+          "explain_ru": "Yapmak → yap + -ma + -dı = yapmadı.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-2-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Прошедшее отрицание (4/5): образуйте форму от «uğramak» для «biz»:",
+          "source_text": "uğramak, biz → ?",
+          "accepted": ["uğramadık", "Biz uğramadık"],
+          "explain_ru": "Uğramak (заглянуть) → uğra + -ma + -dı + -k = uğramadık.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-2-wr-05",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Прошедшее отрицание (5/5): образуйте форму от «görmek» для «onlar»:",
+          "source_text": "görmek, onlar → ?",
+          "accepted": ["görmediler", "Onlar görmediler"],
+          "explain_ru": "Görmek → gör + -me + -di + -ler = görmediler.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-2-wr-06",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: со словом «dün» («вчера») нужно прошедшее время:",
+          "buggy_text": "Ben dün gelmiyorum.",
+          "accepted": ["Ben dün gelmedim."],
+          "explain_ru": "Со словом dün (вчера) используется прошедшее время -madım/-medim: Ben dün gelmedim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-2-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы и аффикс юнита с переводом:",
+          "pairs": [
+            { "left": "-madım/-medim", "right": "не (прош.)" },
+            { "left": "ders çalışmak", "right": "учить уроки" },
+            { "left": "telefon etmek", "right": "звонить" },
+            { "left": "mesaj atmak", "right": "отправлять сообщение" },
+            { "left": "yemek yapmak", "right": "готовить еду" },
+            { "left": "uğramak", "right": "заглянуть" }
+          ],
+          "explain_ru": "Обратите внимание на составные глаголы с etmek, atmak и yapmak.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-2-wr-08",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините существительные и выражения времени с переводом:",
+          "pairs": [
+            { "left": "haber", "right": "новость" },
+            { "left": "vakit", "right": "время" },
+            { "left": "fırsat", "right": "возможность" },
+            { "left": "yorulmak", "right": "уставать" },
+            { "left": "geçen gün", "right": "на днях" },
+            { "left": "dün gece", "right": "вчера ночью" }
+          ],
+          "explain_ru": "Haber, vakit, fırsat, yorulmak, geçen gün, dün gece.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-2-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Занятой день. Прочитайте текст и ответьте на вопросы:",
+          "passage": "Dün çok meşguldüm (был занят). Yemek yapmadım, ders çalışmadım. Geçen gün Ali'ye uğradım ama bugün vaktim yok.",
+          "questions": [
+            {
+              "question_ru": "Что говорящий НЕ сделал вчера?",
+              "options": [
+                "Не готовил еду и не учил уроки",
+                "Не заглянул к Али и не звонил маме",
+                "Не спал ночью и не ходил на работу",
+                "Не ел и не пил чай"
+              ],
+              "correct_index": 0,
+              "accepted": ["не готовил, не учил", "не готовил еду и не учил уроки"]
+            },
+            {
+              "question_ru": "Есть ли у него время сегодня?",
+              "options": [
+                "Нет (bugün vaktim yok)",
+                "Да, он свободен весь день",
+                "Только вечером",
+                "В тексте об этом не сказано"
+              ],
+              "correct_index": 0,
+              "accepted": ["нет", "времени нет"]
+            }
+          ],
+          "explain_ru": "Yemek yapmadım (не готовил), ders çalışmadım (не учил уроки). Bugün vaktim yok — сегодня у меня нет времени.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-2-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните формулу отрицания в прошедшем времени:",
+          "target_text": "-madım/-medim",
+          "translation_ru": "не (прош.)",
+          "example_text": "Dün mesaj atmadım, telefon etmedim.",
+          "example_ru": "Вчера я не отправлял сообщений и не звонил.",
+          "explain_ru": "Схема: основа глагола + -ma/-me + -dı/-di + личное окончание (-m, -n, -, -k, -niz, -ler). После -ma/-me аффикс времени всегда -dı/-di (никогда -du/-dü!).",
+          "audio": "tr/3-2/w01.mp3"
+        },
+        {
+          "id": "tr-3-2-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как правильно образовать прошедшее отрицание от глагола «yorulmak» («я не устал»)?",
+          "question_text": "Bugün hiç ___ .",
+          "options": ["yorulmadım", "yorulmedim", "yorulmudum", "yorulmadum"],
+          "correct_index": 0,
+          "explain_ru": "Yorulmak имеет последнюю заднюю гласную u → ставится -ma → после a всегда идёт -dı → yorulmadım.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-2-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое словосочетание переводится как «отправлять сообщение»?",
+          "question_text": "Выберите правильный глагол:",
+          "options": ["mesaj atmak", "telefon etmek", "ders çalışmak", "yemek yapmak"],
+          "correct_index": 0,
+          "explain_ru": "Mesaj atmak — отправлять сообщение (букв. «бросать сообщение»).",
+          "audio": "tr/3-2/w04.mp3"
+        },
+        {
+          "id": "tr-3-2-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильную форму слова «vakit» («моё время»):",
+          "question_text": "Bugün ___ yok.",
+          "options": ["vaktim", "vakitim", "vaktım", "vakitım"],
+          "correct_index": 0,
+          "explain_ru": "В слове vakit при присоединении гласного выпадает узкая гласная i: vakit + -im → vaktim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-2-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «fırsat»?",
+          "question_text": "fırsat",
+          "options": ["возможность", "новость", "время", "урок"],
+          "correct_index": 0,
+          "explain_ru": "Fırsat — возможность, шанс.",
+          "audio": "tr/3-2/w08.mp3"
+        },
+        {
+          "id": "tr-3-2-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать «Али не учил уроки» (от ders çalışmak)?",
+          "question_text": "Ali dün ___ .",
+          "options": ["ders çalışmadı", "ders çalışmedi", "ders çalışmıyor", "ders çalıştı"],
+          "correct_index": 0,
+          "explain_ru": "Ders çalışmak — учить уроки. В прошедшем времени в 3-м лице: ders çalışmadı.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-2-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте сообщение и ответьте на вопрос:",
+          "passage": "Merhaba Zeynep! Dün gece sana telefon etmedim çünkü çok geçti. Ama güzel bir haberim var: geçen gün yeni bir iş buldum. Yarın sana uğrayacağım.",
+          "questions": [
+            {
+              "question_ru": "Почему автор не позвонил Зейнеп вчера ночью?",
+              "options": [
+                "Потому что было слишком поздно",
+                "Потому что он устал на работе",
+                "Потому что он забыл номер телефона",
+                "Потому что не было хороших новостей"
+              ],
+              "correct_index": 0,
+              "accepted": ["было слишком поздно", "было поздно"]
+            }
+          ],
+          "explain_ru": "Çünkü çok geçti — потому что было очень поздно. Haberim var — у меня есть новость.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

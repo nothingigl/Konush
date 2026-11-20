@@ -83,16 +83,409 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-16-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Охранник (1/2): прочитайте вслух «таблички» с правилами:",
+          "target_text": "Burada park etmek yasak. Fotoğraf çekmek serbest. İçeride sessiz olun.",
+          "translation_ru": "Здесь парковаться запрещено. Фотографировать свободно (разрешено). Внутри будьте тихими.",
+          "explain_ru": "Park etmek yasak — парковка запрещена; fotoğraf çekmek serbest — фотосъёмка разрешена; sessiz olun — соблюдайте тишину.",
+          "audio": "tr/3-16/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-16-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Охранник (2/2): вежливо спросите разрешение и ответьте:",
+          "target_text": "Burada fotoğraf çekebilir miyim? Evet, serbest.",
+          "translation_ru": "Можно мне здесь сфотографировать? Да, свободно (можно).",
+          "explain_ru": "Вежливая просьба о разрешении строится через -ebilir miyim? / -abilir miyim?",
+          "audio": "tr/3-16/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-16-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите разрешения войти внутрь:",
+          "target_text": "İzin var mı? İçeri girebilir miyim?",
+          "translation_ru": "Разрешено? Можно мне войти внутрь?",
+          "explain_ru": "İzin — разрешение, içeri — внутрь, girebilir miyim? — можно мне войти?",
+          "audio": "tr/3-16/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-16-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что на табличке есть важное предупреждение:",
+          "target_text": "Tabelada büyük bir uyarı var.",
+          "translation_ru": "На табличке есть большое предупреждение.",
+          "explain_ru": "Tabela — табличка, uyarı — предупреждение.",
+          "audio": "tr/3-16/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-16-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что внутри курить запрещено, но снаружи можно:",
+          "target_text": "İçeride sigara yasak ama dışarıda serbest.",
+          "translation_ru": "Внутри сигареты (курить) запрещено, но снаружи разрешено.",
+          "explain_ru": "Sigara — сигарета, içeride — внутри, dışarıda — снаружи.",
+          "audio": "tr/3-16/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-16-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что в библиотеке это важное правило — соблюдать тишину:",
+          "target_text": "Bu önemli bir kural: burada sessiz olun.",
+          "translation_ru": "Это важное правило: будьте здесь тихими.",
+          "explain_ru": "Kural — правило, sessiz — тихий.",
+          "audio": "tr/3-16/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-16-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, можно ли выйти наружу на пять минут:",
+          "target_text": "Beş dakika dışarı çıkabilir miyim?",
+          "translation_ru": "Могу я выйти наружу на пять минут?",
+          "explain_ru": "Dışarı çıkmak — выходить наружу.",
+          "audio": "tr/3-16/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-16-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, можно ли припарковаться перед зданием:",
+          "target_text": "Burada araba park edebilir miyim?",
+          "translation_ru": "Можно мне здесь припарковать машину?",
+          "explain_ru": "Park edebilir miyim? — Могу ли я припарковаться?",
+          "audio": "tr/3-16/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-16-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Музей. Прослушайте объявление (flaş — вспышка) и ответьте: что можно, а что нельзя?",
+          "transcript": "Müzede fotoğraf çekebilirsiniz ama flaş yasak. İçeride sessiz olun.",
+          "options": [
+            "Можно фотографировать, но нельзя использовать вспышку",
+            "Нельзя фотографировать, но можно громко говорить",
+            "Можно использовать вспышку и парковаться",
+            "Нельзя входить внутрь"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Fotoğraf çekebilirsiniz (можно фотографировать), ama flaş yasak (но вспышка запрещена).",
+          "audio": "tr/3-16/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-16-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «запрещено»:",
+          "transcript": "yasak",
+          "accepted": ["yasak"],
+          "explain_ru": "Yasak — запрещено, запрет.",
+          "audio": "tr/3-16/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-16-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «правило»:",
+          "transcript": "kural",
+          "accepted": ["kural"],
+          "explain_ru": "Kural — правило.",
+          "audio": "tr/3-16/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-16-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что написано на табличке?",
+          "transcript": "Şu tabelaya bakın! Uyarı: burada park etmek yasak. Dışarıda park edebilirsiniz.",
+          "options": [
+            "Предупреждение: здесь парковаться запрещено, можно снаружи",
+            "Разрешение: здесь можно курить",
+            "Предупреждение: здесь нельзя фотографировать",
+            "Табличка указывает вход в музей"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Tabela — табличка, uyarı — предупреждение, burada park etmek yasak — здесь парковаться запрещено.",
+          "audio": "tr/3-16/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-16-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «разрешение»:",
+          "transcript": "izin",
+          "accepted": ["izin"],
+          "explain_ru": "İzin — разрешение.",
+          "audio": "tr/3-16/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-16-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «предупреждение»:",
+          "transcript": "uyarı",
+          "accepted": ["uyarı"],
+          "explain_ru": "Uyarı — предупреждение (на конце ı без точки).",
+          "audio": "tr/3-16/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-16-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Можно ли войти в комнату без разрешения (almadan — не получив)?",
+          "transcript": "Bu oda sessiz bir oda. İzin almadan içeri girmek yasak.",
+          "options": [
+            "Нет, входить внутрь без разрешения запрещено",
+            "Да, вход свободный для всех",
+            "Можно войти, если сфотографировать табличку",
+            "Входить можно только с сигаретой"
+          ],
+          "correct_index": 0,
+          "explain_ru": "İzin almadan içeri girmek yasak — Запрещено входить внутрь без разрешения.",
+          "audio": "tr/3-16/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-16-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «табличка»:",
+          "transcript": "tabela",
+          "accepted": ["tabela"],
+          "explain_ru": "Tabela — табличка, вывеска.",
+          "audio": "tr/3-16/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-16-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Знак → фраза (1/3): напишите по-турецки значение знака 🚭 («Курить запрещено»):",
+          "source_text": "🚭 → ?",
+          "accepted": ["Sigara içmek yasak"],
+          "explain_ru": "Sigara içmek — курить, yasak — запрещено.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-16-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Знак → фраза (2/3): напишите по-турецки «Парковаться запрещено» (перечёркнутый 🅿️):",
+          "source_text": "🅿️ (запрет) → ?",
+          "accepted": ["Park etmek yasak"],
+          "explain_ru": "Park etmek yasak — Парковаться запрещено.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-16-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Знак → фраза (3/3): напишите по-турецки значение знака 📷 («Фотографировать разрешено / свободно»):",
+          "source_text": "📷 → ?",
+          "accepted": ["Fotoğraf çekmek serbest"],
+          "explain_ru": "Fotoğraf çekmek serbest — Фотографировать свободно (разрешено).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-16-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допишите вопросительную частицу с личным окончанием («Можно мне здесь припарковаться?»): «Burada park edebilir ___?»",
+          "source_text": "Burada park edebilir ___?",
+          "accepted": ["miyim", "Burada park edebilir miyim"],
+          "explain_ru": "После гласной переднего ряда i в -ebilir используется частица mi + y + im → miyim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-16-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о правилах с переводом (1/2):",
+          "pairs": [
+            { "left": "izin", "right": "разрешение" },
+            { "left": "kural", "right": "правило" },
+            { "left": "uyarı", "right": "предупреждение" },
+            { "left": "tabela", "right": "табличка" }
+          ],
+          "explain_ru": "İzin, kural, uyarı, tabela.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-16-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините антонимы с переводом (2/2):",
+          "pairs": [
+            { "left": "yasak", "right": "запрещено" },
+            { "left": "serbest", "right": "свободно" },
+            { "left": "içeri", "right": "внутрь" },
+            { "left": "dışarı", "right": "наружу" }
+          ],
+          "explain_ru": "Yasak ↔ serbest, içeri ↔ dışarı.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-16-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: исправьте гармонию гласных в вопросительной частице («Можно мне здесь сфотографировать?»):",
+          "buggy_text": "Burada fotoğraf çekebilir miyım?",
+          "accepted": ["Burada fotoğraf çekebilir miyim?"],
+          "explain_ru": "После i в частице mi ставится переднее окончание -yim, а не -yım: miyim?",
+          "audio": null
+        },
+        {
+          "id": "tr-3-16-wr-08",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Кубики: соберите просьбу «Пожалуйста, будьте тихими внутри»:",
+          "source_text": "Пожалуйста, будьте тихими внутри.",
+          "bank": ["olun", "lütfen", "içeride", "sessiz"],
+          "accepted": ["Lütfen içeride sessiz olun", "İçeride lütfen sessiz olun"],
+          "explain_ru": "Lütfen içeride sessiz olun.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-16-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Правила школы. Прочитайте текст и ответьте на вопросы:",
+          "passage": "Okulda kurallar var: sınıfta telefon yasak. Dışarıda oynayabilirsiniz. İçeride koşmak yasak.",
+          "questions": [
+            {
+              "question_ru": "Где можно играть?",
+              "options": [
+                "на улице / снаружи (dışarıda)",
+                "в классе (sınıfta)",
+                "внутри школы (içeride)",
+                "играть везде запрещено"
+              ],
+              "correct_index": 0,
+              "accepted": ["на улице", "снаружи", "dışarıda"]
+            },
+            {
+              "question_ru": "Что запрещено в классе?",
+              "options": [
+                "телефон (telefon)",
+                "книга (kitap)",
+                "тетрадь (defter)",
+                "ручка (kalem)"
+              ],
+              "correct_index": 0,
+              "accepted": ["телефон", "telefon"]
+            }
+          ],
+          "explain_ru": "Sınıfta telefon yasak (в классе телефон запрещён); dışarıda oynayabilirsiniz (снаружи вы можете играть).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-16-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слово «sessiz»:",
+          "target_text": "sessiz",
+          "translation_ru": "тихий",
+          "example_text": "Kütüphanede (в библиотеке) sessiz olun.",
+          "example_ru": "В библиотеке соблюдайте тишину (будьте тихими).",
+          "explain_ru": "Ses — голос/звук, суффикс -siz означает «без»: sessiz — беззвучный, тихий.",
+          "audio": "tr/3-16/w10.mp3"
+        },
+        {
+          "id": "tr-3-16-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите антоним к слову «yasak» (запрещено):",
+          "question_text": "yasak ↔ ?",
+          "options": ["serbest", "uyarı", "kural", "sessiz"],
+          "correct_index": 0,
+          "explain_ru": "Yasak — запрещено, serbest — свободно, разрешено.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-16-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «sigara»:",
+          "question_text": "sigara",
+          "options": ["сигарета", "табличка", "разрешение", "правило"],
+          "correct_index": 0,
+          "explain_ru": "Sigara — сигарета; sigara içmek — курить.",
+          "audio": "tr/3-16/w07.mp3"
+        },
+        {
+          "id": "tr-3-16-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «uyarı»:",
+          "question_text": "uyarı",
+          "options": ["предупреждение", "разрешение", "табличка", "парковка"],
+          "correct_index": 0,
+          "explain_ru": "Uyarı — предупреждение.",
+          "audio": "tr/3-16/w11.mp3"
+        },
+        {
+          "id": "tr-3-16-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте табличку в парке и ответьте на вопрос:",
+          "passage": "Park kuralları: Fotoğraf çekmek serbest. Araba park etmek yasak. Sigara sadece dışarıda içilebilir (можно курить).",
+          "questions": [
+            {
+              "question_ru": "Что в парке разрешено свободно?",
+              "options": [
+                "фотографировать (fotoğraf çekmek)",
+                "парковать машину (park etmek)",
+                "курить внутри",
+                "ничего не разрешено"
+              ],
+              "correct_index": 0,
+              "accepted": ["фотографировать", "fotoğraf çekmek"]
+            }
+          ],
+          "explain_ru": "Fotoğraf çekmek serbest — Фотографировать свободно (разрешено).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-16-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «tabela»:",
+          "question_text": "tabela",
+          "options": ["табличка", "правило", "сигарета", "разрешение"],
+          "correct_index": 0,
+          "explain_ru": "Tabela — табличка, указатель, вывеска.",
+          "audio": "tr/3-16/w12.mp3"
+        },
+        {
+          "id": "tr-3-16-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое слово означает «внутрь»?",
+          "question_text": "«внутрь» по-турецки:",
+          "options": ["içeri", "dışarı", "sessiz", "izin"],
+          "correct_index": 0,
+          "explain_ru": "İçeri — внутрь, dışarı — наружу.",
+          "audio": "tr/3-16/w08.mp3"
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,411 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-18-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Врач-советчик (1/2): дайте вслух первые три совета:",
+          "target_text": "Bol su içmelisin. Erken yatmalısın. Spor yapmalısın.",
+          "translation_ru": "Тебе стоит пить много воды. Стоит ложиться рано. Стоит заниматься спортом.",
+          "explain_ru": "Аффикс -malısın/-melisin во 2-м лице часто используется для дружеского совета («тебе стоит...»).",
+          "audio": "tr/3-18/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-18-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Врач-советчик (2/2): дайте ещё два совета и оценку продуктов:",
+          "target_text": "Çok şeker yememelisin. Mutlaka dinlenmelisin. Şeker zararlı. Sebze faydalı.",
+          "translation_ru": "Тебе не стоит есть много сахара. Обязательно отдохни. Сахар вреден. Овощи полезны.",
+          "explain_ru": "Отрицательный совет образуется с -mamalı/-memeli: yememelisin (не стоит есть). Mutlaka — обязательно.",
+          "audio": "tr/3-18/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-18-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что заниматься спортом и отдыхать очень полезно:",
+          "target_text": "Spor yapmak ve dinlenmek çok faydalı.",
+          "translation_ru": "Заниматься спортом и отдыхать очень полезно.",
+          "explain_ru": "Spor yapmak — заниматься спортом, dinlenmek — отдыхать, faydalı — полезный.",
+          "audio": "tr/3-18/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-18-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Дайте совет (hayat — жизнь): «Для здоровой жизни нужны свежий воздух и сон»:",
+          "target_text": "Sağlıklı bir hayat için temiz hava ve uyku lazım.",
+          "translation_ru": "Для здоровой жизни нужны свежий воздух и сон.",
+          "explain_ru": "Sağlıklı — здоровый, temiz hava — свежий воздух, uyku — сон.",
+          "audio": "tr/3-18/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-18-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что во фруктах много витаминов:",
+          "target_text": "Meyvelerde bol vitamin var, mutlaka yemelisin.",
+          "translation_ru": "Во фруктах вдоволь витаминов, тебе обязательно стоит есть их.",
+          "explain_ru": "Bol — много, вдоволь; vitamin — витамин; mutlaka — обязательно.",
+          "audio": "tr/3-18/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-18-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите совета у врача:",
+          "target_text": "Doktor hanım, bana bir tavsiye verebilir misiniz?",
+          "translation_ru": "Госпожа врач, вы можете дать мне совет?",
+          "explain_ru": "Tavsiye — совет, tavsiye vermek — давать совет.",
+          "audio": "tr/3-18/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-18-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что нужно достаточно спать и пить воду:",
+          "target_text": "Yeterince uyumalısın ve bol su içmelisin.",
+          "translation_ru": "Тебе стоит достаточно спать и пить много воды.",
+          "explain_ru": "Yeterince — достаточно, uyumalısın — тебе стоит спать.",
+          "audio": "tr/3-18/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-18-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что сигареты очень вредны:",
+          "target_text": "Sigara çok zararlı, içmemelisin.",
+          "translation_ru": "Сигареты очень вредны, тебе не стоит курить.",
+          "explain_ru": "Zararlı — вредный, içmemelisin — тебе не стоит пить/курить.",
+          "audio": "tr/3-18/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-18-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Совет врача. Прослушайте запись и ответьте: чего не стоит делать и что нужно делать?",
+          "transcript": "Çok kahve içmemelisin. Bol su içmelisin ve yeterince uyumalısın.",
+          "options": [
+            "Не пить много кофе; пить много воды и достаточно спать",
+            "Пить много кофе и рано вставать",
+            "Есть много сахара и не спать днём",
+            "Не пить воду и мало отдыхать"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Çok kahve içmemelisin (не стоит пить много кофе); bol su içmelisin ve yeterince uyumalısın (пить вдоволь воды и достаточно спать).",
+          "audio": "tr/3-18/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-18-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «совет»:",
+          "transcript": "tavsiye",
+          "accepted": ["tavsiye"],
+          "explain_ru": "Tavsiye — совет, рекомендация.",
+          "audio": "tr/3-18/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-18-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «здоровый»:",
+          "transcript": "sağlıklı",
+          "accepted": ["sağlıklı"],
+          "explain_ru": "Sağlıklı — здоровый (пишется с ğ и двумя ı без точки).",
+          "audio": "tr/3-18/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-18-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой совет даёт тренер?",
+          "transcript": "Benim tavsiyem şu: düzenli spor yapmak ve temiz havada yürümek çok sağlıklı.",
+          "options": [
+            "Регулярно заниматься спортом и гулять на свежем воздухе",
+            "Меньше спать и пить кофе",
+            "Покупать больше сладкого",
+            "Сидеть дома весь день"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Spor yapmak (заниматься спортом), temiz havada yürümek (гулять на свежем воздухе), sağlıklı (здоровый).",
+          "audio": "tr/3-18/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-18-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «сон»:",
+          "transcript": "uyku",
+          "accepted": ["uyku"],
+          "explain_ru": "Uyku — сон.",
+          "audio": "tr/3-18/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-18-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «обязательно»:",
+          "transcript": "mutlaka",
+          "accepted": ["mutlaka"],
+          "explain_ru": "Mutlaka — обязательно, непременно.",
+          "audio": "tr/3-18/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-18-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что нужно человеку, который устал?",
+          "transcript": "Çok yorgunsun! Bugün mutlaka dinlenmelisin, iyi bir uyku ve vitamin lazım.",
+          "options": [
+            "Обязательно отдохнуть, хорошо поспать и принять витамины",
+            "Пойти на работу до вечера",
+            "Выпить три чашки кофе",
+            "Сделать уборку дома"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Mutlaka dinlenmelisin (обязательно отдохни), uyku (сон), vitamin (витамин).",
+          "audio": "tr/3-18/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-18-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «достаточно»:",
+          "transcript": "yeterince",
+          "accepted": ["yeterince"],
+          "explain_ru": "Yeterince — достаточно, в достаточной мере.",
+          "audio": "tr/3-18/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-18-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Совет (1/3): напишите обе формы через слэш для «içmek, sen» («стоит пить / не стоит пить»):",
+          "source_text": "içmek, sen → стоит / не стоит",
+          "accepted": ["içmelisin / içmemelisin", "içmelisin, içmemelisin"],
+          "explain_ru": "İç-meli-sin (стоит пить) / iç-me-meli-sin (не стоит пить).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-18-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Совет (2/3): напишите обе формы через слэш для «yemek, sen» («стоит есть / не стоит есть»):",
+          "source_text": "yemek, sen → стоит / не стоит",
+          "accepted": ["yemelisin / yememelisin", "yemelisin, yememelisin"],
+          "explain_ru": "Ye-meli-sin (стоит есть) / ye-me-meli-sin (не стоит есть).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-18-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Совет (3/3): напишите обе формы через слэш для «uyumak, sen» («стоит спать / не стоит спать»):",
+          "source_text": "uyumak, sen → стоит / не стоит",
+          "accepted": ["uyumalısın / uyumamalısın", "uyumalısın, uyumamalısın"],
+          "explain_ru": "Uyu-malı-sın (стоит спать) / uyu-ma-malı-sın (не стоит спать).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-18-wr-04",
+          "type": "odd_one_out",
+          "origin": "source",
+          "prompt_ru": "Найдите лишнее (единственное слово с отрицательным значением):",
+          "items": ["faydalı", "sağlıklı", "zararlı", "vitamin"],
+          "odd_index": 2,
+          "explain_ru": "Zararlı — вредный, тогда как faydalı (полезный), sağlıklı (здоровый) и vitamin (витамин) связаны с пользой.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-18-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о здоровых привычках с переводом (1/2):",
+          "pairs": [
+            { "left": "tavsiye", "right": "совет" },
+            { "left": "dinlenmek", "right": "отдыхать" },
+            { "left": "spor yapmak", "right": "заниматься спортом" },
+            { "left": "temiz hava", "right": "свежий воздух" }
+          ],
+          "explain_ru": "Tavsiye, dinlenmek, spor yapmak, temiz hava.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-18-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с их переводом (2/2):",
+          "pairs": [
+            { "left": "vitamin", "right": "витамин" },
+            { "left": "uyku", "right": "сон" },
+            { "left": "bol", "right": "много, вдоволь" },
+            { "left": "yeterince", "right": "достаточно" }
+          ],
+          "explain_ru": "Vitamin, uyku, bol, yeterince.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-18-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: исправьте гармонию гласных в отрицательном совете («Тебе не стоит есть много сахара»):",
+          "buggy_text": "Çok şeker yemamalısın.",
+          "accepted": ["Çok şeker yememelisin."],
+          "explain_ru": "Корень ye- содержит гласную переднего ряда e, поэтому оба аффикса переднего ряда: ye-me-meli-sin.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-18-wr-08",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Кубики: соберите совет «Сегодня тебе обязательно нужно отдохнуть»:",
+          "source_text": "Сегодня тебе обязательно нужно отдохнуть.",
+          "bank": ["dinlenmelisin", "mutlaka", "bugün", "sen"],
+          "accepted": [
+            "Sen bugün mutlaka dinlenmelisin",
+            "Bugün sen mutlaka dinlenmelisin"
+          ],
+          "explain_ru": "Sen bugün mutlaka dinlenmelisin.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-18-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Совет бабушки. Прочитайте текст и ответьте на вопрос:",
+          "passage": "Anneannem her zaman der ki: «Sebze ve meyve yemelisin. Temiz havada yürümelisin. Gece geç yatmamalısın.»",
+          "questions": [
+            {
+              "question_ru": "Чего бабушка советует НЕ делать?",
+              "options": [
+                "поздно ложиться спать (gece geç yatmamalısın)",
+                "есть овощи и фрукты",
+                "гулять на свежем воздухе",
+                "пить воду"
+              ],
+              "correct_index": 0,
+              "accepted": ["поздно ложиться", "поздно ложиться спать", "gece geç yatmamalısın"]
+            }
+          ],
+          "explain_ru": "Gece geç yatmamalısın — Ночью не стоит ложиться поздно.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-18-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните пару антонимов «faydalı / zararlı»:",
+          "target_text": "faydalı",
+          "translation_ru": "полезный",
+          "example_text": "Sebze faydalı ama çok şeker zararlı.",
+          "example_ru": "Овощи полезны, а много сахара вредно.",
+          "explain_ru": "Faydalı (полезный) ↔ zararlı (вредный). Оба слова образованы суффиксом -lı.",
+          "audio": "tr/3-18/w04.mp3"
+        },
+        {
+          "id": "tr-3-18-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «sağlıklı»:",
+          "question_text": "sağlıklı",
+          "options": ["здоровый", "вредный", "тихий", "срочный"],
+          "correct_index": 0,
+          "explain_ru": "Sağlık — здоровье, sağlıklı — здоровый.",
+          "audio": "tr/3-18/w02.mp3"
+        },
+        {
+          "id": "tr-3-18-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «temiz hava»:",
+          "question_text": "temiz hava",
+          "options": [
+            "свежий воздух",
+            "тёплая вода",
+            "хороший сон",
+            "здоровый совет"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Temiz — чистый, hava — воздух; temiz hava — свежий воздух.",
+          "audio": "tr/3-18/w11.mp3"
+        },
+        {
+          "id": "tr-3-18-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «dinlenmek»:",
+          "question_text": "dinlenmek",
+          "options": ["отдыхать", "заниматься спортом", "бегать", "готовить"],
+          "correct_index": 0,
+          "explain_ru": "Dinlenmek — отдыхать (не путать с dinlemek — слушать).",
+          "audio": "tr/3-18/w05.mp3"
+        },
+        {
+          "id": "tr-3-18-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте памятку о здоровье и ответьте на вопрос:",
+          "passage": "Sağlıklı kalmak (оставаться) için haftada üç kez spor yapmak gerek. Her gün bol su ve vitamin almalısın. Yeterince uyku çok önemli.",
+          "questions": [
+            {
+              "question_ru": "Сколько раз в неделю памятка советует заниматься спортом?",
+              "options": [
+                "три раза в неделю (haftada üç kez)",
+                "каждый день",
+                "один раз в неделю",
+                "два раза в месяц"
+              ],
+              "correct_index": 0,
+              "accepted": ["три раза", "три", "3", "haftada üç kez"]
+            }
+          ],
+          "explain_ru": "Haftada üç kez spor yapmak gerek — Надо заниматься спортом три раза в неделю.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-18-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «bol»:",
+          "question_text": "bol su",
+          "options": [
+            "много (вдоволь) воды",
+            "мало воды",
+            "холодной воды",
+            "без воды"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bol — обильный, много, вдоволь.",
+          "audio": "tr/3-18/w09.mp3"
+        },
+        {
+          "id": "tr-3-18-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «tavsiye»:",
+          "question_text": "tavsiye",
+          "options": ["совет", "сон", "витамин", "обязанность"],
+          "correct_index": 0,
+          "explain_ru": "Tavsiye — совет.",
+          "audio": "tr/3-18/w01.mp3"
+        }
+      ]
     }
   },
   "review": "draft"

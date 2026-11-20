@@ -10,16 +10,228 @@
   "words": [],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-boss-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Босс-монолог (40 секунд): расскажите, что болит, что нельзя, что нужно и какие планы после выздоровления:",
+          "target_text": "Başım ağrıyor ve ateşim var. Bugün spor yapamam. Bol su içmeliyim. Yarın iyileşirsem sinemaya gidelim.",
+          "translation_ru": "У меня болит голова и есть температура. Сегодня я не могу заниматься спортом. Я должен пить много воды. Если завтра я выздоровею, пойдём в кино.",
+          "explain_ru": "Объединяет симптомы (3.10), невозможность (3.15), долженствование -meli (3.17), условие -sa/-se (3.26) и предложение -elim (3.5).",
+          "audio": "tr/3-boss/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-boss-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Вежливо попросите лекарство в аптеке и уточните режим приёма:",
+          "target_text": "Pardon, bakar mısınız? Bu reçete için şurup alabilir miyim? Yemekten önce mi, yemekten sonra mı içmeliyim?",
+          "translation_ru": "Простите, позвольте обратиться? Можно взять сироп по этому рецепту? Мне нужно пить его до еды или после еды?",
+          "explain_ru": "Повторяем вежливые просьбы (3.8), аптеку (3.11) и советы/долженствование (3.17–3.18).",
+          "audio": "tr/3-boss/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-boss-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Объясните другу, почему вы не поехали в горы из-за погоды:",
+          "target_text": "Dağda fırtına ihtimali var, yol tehlikeli olabilir. O yüzden gitmedik, evde dinlendik.",
+          "translation_ru": "В горах есть вероятность бури, дорога может быть опасной. Вот почему мы не поехали, а отдыхали дома.",
+          "explain_ru": "Повторяем природу и погоду (3.21–3.22), возможность (3.23), причины (3.26) и отрицание в прошлом (3.2).",
+          "audio": "tr/3-boss/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-boss-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите свой утренний ритуал с деепричастиями и возвратными глаголами:",
+          "target_text": "Sabah kalkınca hemen yıkanıyorum ve taranıyorum. Müzik dinleyerek kendime kahve yapıyorum.",
+          "translation_ru": "Как только я встаю утром, я сразу моюсь и причёсываюсь. Слушая музыку, я делаю себе кофе.",
+          "explain_ru": "Повторяем привычки (3.14), деепричастия -ince и -erek (3.27) и возвратные формы (3.28).",
+          "audio": "tr/3-boss/sp-04.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-boss-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Босс-звонок: прослушайте сообщение и ответьте, почему человек не придёт и что он предлагает:",
+          "transcript": "Maalesef bu akşam gelemem. Hasta olduğum için doktora gitmem lazım. Hafta sonu görüşelim mi?",
+          "options": [
+            "болеет, нужно идти к врачу; предлагает увидеться в выходные",
+            "занят на работе; предлагает встретиться завтра утром",
+            "уехал в деревню; предлагает пойти в кино в понедельник",
+            "боится бури; предлагает позвонить вечером"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hasta olduğum için doktora gitmem lazım (поскольку я болен, мне нужно к врачу). Hafta sonu görüşelim mi? (увидимся в выходные?).",
+          "audio": "tr/3-boss/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-boss-ls-02",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какие правила действуют в новой больнице?",
+          "transcript": "Bu yeni hastane geçen yıl açıldı. İçeride sigara içmek yasak. Kapıda bekleyen hastalar sırayla muayene ediliyor.",
+          "options": [
+            "Открылась в прошлом году; внутри запрещено курить; пациентов осматривают по очереди",
+            "Закрывается в полдень; внутри можно фотографировать со вспышкой",
+            "Была основана в 1990 году; принимает только спортсменов",
+            "Находится в пустыне; работает только по выходным"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Açıldı (пассив 3.24), yasak (3.16), bekleyen (причастие 3.25), sırayla (3.27), muayene (3.12).",
+          "audio": "tr/3-boss/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-boss-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки фразу врача («Выздоравливайте! Не волнуйтесь.»):",
+          "transcript": "Geçmiş olsun! Merak etme.",
+          "accepted": ["Geçmiş olsun! Merak etme."],
+          "explain_ru": "Geçmiş olsun (выздоравливайте, 3.12) + Merak etme (не волнуйся, 3.4).",
+          "audio": "tr/3-boss/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-boss-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что случилось со стадионом и матчем?",
+          "transcript": "Hava yağmurlu olmasına rağmen stadyum kalabalıktı. Maç berabere bitti ama oyuncular çok iyi oynadı.",
+          "options": [
+            "Несмотря на дождь, стадион был полон; матч закончился вничью",
+            "Матч отложили из-за тумана и льда",
+            "Наша команда победила со счётом 3:1",
+            "Зрителей не было, потому что вход был закрыт"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hava yağmurlu olmasına rağmen (несмотря на дождь, 3.26), stadyum, berabere bitti (3.20).",
+          "audio": "tr/3-boss/ls-04.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-boss-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Босс-перевод (1/2): переведите на турецкий «Я не пошёл на матч, потому что у меня болела голова.»:",
+          "source_text": "Я не пошёл на матч, потому что у меня болела голова.",
+          "accepted": [
+            "Başım ağrıdığı için maça gitmedim.",
+            "Ben başım ağrıdığı için maça gitmedim."
+          ],
+          "explain_ru": "Başım ağrıdığı için (потому что у меня болела голова) maça gitmedim (я не пошёл на матч).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-boss-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Босс-перевод (2/2): переведите на турецкий «Давай завтра пойдём в парк!»:",
+          "source_text": "Давай завтра пойдём в парк!",
+          "accepted": [
+            "Hadi yarın parka gidelim!",
+            "Yarın parka gidelim!"
+          ],
+          "explain_ru": "Hadi (давай) yarın (завтра) parka (в парк) gidelim (пойдём, -elim).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-boss-wr-03",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Если завтра выздоровею, мы пойдём в кино»:",
+          "source_text": "Если завтра я выздоровею, пойдём в кино.",
+          "bank": ["gidelim", "sinemaya", "iyileşirsem", "yarın"],
+          "accepted": ["Yarın iyileşirsem sinemaya gidelim"],
+          "explain_ru": "Yarın iyileşirsem (если завтра выздоровею) sinemaya gidelim (пойдём в кино).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-boss-wr-04",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в падеже и форме глагола («Вчера я никуда не ходил»):",
+          "buggy_text": "Dün hiçbir yere gidiyorum.",
+          "accepted": ["Dün hiçbir yere gitmedim."],
+          "explain_ru": "Для dün («вчера») и отрицательного местоимения hiçbir yere нужно отрицание в прошедшем времени: gitmedim.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-boss-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Босс-история: прочитайте рассказ об Али и ответьте на вопросы:",
+          "passage": "Ali çocukken her yaz köyde futbol oynardı. Şimdi spor salonuna gidiyor. Dün antrenmandan sonra boğazı ağrıdı, bu yüzden bugün doktora gitti. Doktor «bol su içmelisin» dedi.",
+          "questions": [
+            {
+              "question_ru": "Что Али делал в детстве и что ему посоветовал врач?",
+              "options": [
+                "в детстве играл в футбол в деревне; врач посоветовал пить много воды",
+                "в детстве плавал в озере; врач посоветовал принимать сироп",
+                "в детстве катался на велосипеде; врач выдал справку на неделю",
+                "в детстве играл в теннис; врач запретил ходить в школу"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "играл в футбол в деревне; пить много воды",
+                "в детстве играл в футбол в деревне; пить много воды"
+              ]
+            }
+          ],
+          "explain_ru": "Çocukken her yaz köyde futbol oynardı (в детстве каждое лето играл в футбол в деревне). Doktor «bol su içmelisin» dedi (врач сказал «ты должен пить много воды»).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-boss-rd-02",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте выписку из поликлиники и ответьте на вопрос:",
+          "passage": "Muayene sonuçları iyi, ama üç gün evde dinlenmelisiniz. Bu hap günde iki kez, yemek yedikten sonra alınır. Yorgun hissettiğiniz için ağır (тяжёлый) spor yapmamalısınız. Kendinize iyi bakın!",
+          "questions": [
+            {
+              "question_ru": "Как и когда нужно принимать таблетку?",
+              "options": [
+                "два раза в день, после еды",
+                "три раза в день, до еды",
+                "один раз утром натощак",
+                "только перед сном"
+              ],
+              "correct_index": 0,
+              "accepted": ["два раза в день, после еды", "2 раза в день после еды"]
+            }
+          ],
+          "explain_ru": "Bu hap günde iki kez, yemek yedikten sonra alınır — Эта таблетка принимается два раза в день, после еды.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-boss-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Финальный вопрос босса Секции 3: выберите грамматически безупречное предложение «После того как пришёл домой, я, слушая музыку, приготовил себе чай»:",
+          "question_text": "Выберите правильный перевод:",
+          "options": [
+            "Eve geldikten sonra müzik dinleyerek kendime çay yaptım.",
+            "Eve gelmeden sonra müzik dinleyen kendimi çay yaptım.",
+            "Eve gelip önce müzik dinlerken kendine çay yapıldı.",
+            "Eve gelince yüzünden müzik dinleyerek kendim çay yaptım."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Eve geldikten sonra (-dıktan sonra), müzik dinleyerek (-erek), kendime çay yaptım (kendime — себе).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

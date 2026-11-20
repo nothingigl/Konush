@@ -83,16 +83,413 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-11-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Аптекарь (1/2): прочитайте вслух «этикетку» на лекарстве:",
+          "target_text": "Günde üç kez, yemekten sonra bir hap.",
+          "translation_ru": "Три раза в день, после еды одна таблетка.",
+          "explain_ru": "Günde — в день, üç kez — три раза, yemekten sonra — после еды, hap — таблетка.",
+          "audio": "tr/3-11/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-11-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Аптекарь (2/2): прочитайте вторую «этикетку» (kaşık — ложка):",
+          "target_text": "Günde iki kez, yemekten önce bir kaşık şurup.",
+          "translation_ru": "Два раза в день, перед едой одна ложка сиропа.",
+          "explain_ru": "Yemekten önce — перед едой, şurup — сироп, bir kaşık — одна ложка.",
+          "audio": "tr/3-11/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-11-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы идёте в аптеку за лекарством:",
+          "target_text": "Eczaneye gidiyorum, ilaç alacağım.",
+          "translation_ru": "Я иду в аптеку, куплю лекарство.",
+          "explain_ru": "Eczane — аптека (eczaneye — в аптеку), ilaç — лекарство.",
+          "audio": "tr/3-11/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-11-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Поздоровайтесь с фармацевтом и покажите рецепт:",
+          "target_text": "Merhaba, eczacı hanım. Reçetem burada.",
+          "translation_ru": "Здравствуйте, госпожа фармацевт. Мой рецепт здесь.",
+          "explain_ru": "Eczacı — фармацевт, reçete — рецепт (reçetem — мой рецепт).",
+          "audio": "tr/3-11/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-11-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что нужно использовать крем утром и вечером:",
+          "target_text": "Bu krem sabah ve akşam için.",
+          "translation_ru": "Этот крем для утра и вечера.",
+          "explain_ru": "Krem — крем, için — для.",
+          "audio": "tr/3-11/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-11-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы хотите быстро выздороветь:",
+          "target_text": "Çabuk iyileşmek istiyorum.",
+          "translation_ru": "Я хочу быстро выздороветь.",
+          "explain_ru": "İyileşmek — выздороветь (инфинитив перед глаголом istiyorum — хочу).",
+          "audio": "tr/3-11/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-11-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Уточните у фармацевта, когда принимать это лекарство:",
+          "target_text": "Bu ilaç yemekten önce mi, yemekten sonra mı?",
+          "translation_ru": "Это лекарство перед едой или после еды?",
+          "explain_ru": "Yemekten önce — перед едой, yemekten sonra — после еды.",
+          "audio": "tr/3-11/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-11-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, сколько раз в день нужно принимать сироп:",
+          "target_text": "Bu şurup günde kaç kez?",
+          "translation_ru": "Сколько раз в день этот сироп?",
+          "explain_ru": "Günde kaç kez? — Сколько раз в день?",
+          "audio": "tr/3-11/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-11-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Как принимать? Прослушайте скрипт и ответьте: сколько раз в день и когда нужно пить лекарство?",
+          "transcript": "Bu ilaç günde iki kez. Sabah ve akşam, yemekten sonra bir hap.",
+          "options": [
+            "Два раза в день, утром и вечером, после еды",
+            "Три раза в день, перед едой",
+            "Один раз в день, утром, перед едой",
+            "Два раза в день, днём и ночью"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Günde iki kez — два раза в день; sabah ve akşam, yemekten sonra — утром и вечером, после еды.",
+          "audio": "tr/3-11/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-11-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «аптека»:",
+          "transcript": "eczane",
+          "accepted": ["eczane"],
+          "explain_ru": "Eczane — аптека.",
+          "audio": "tr/3-11/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-11-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «рецепт»:",
+          "transcript": "reçete",
+          "accepted": ["reçete"],
+          "explain_ru": "Reçete — рецепт (пишется с ç).",
+          "audio": "tr/3-11/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-11-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что посоветовал фармацевт?",
+          "transcript": "Eczacı dedi ki: bu şurup yemekten önce, bu krem akşam için.",
+          "options": [
+            "Сироп — перед едой, крем — на вечер",
+            "Сироп — после еды, таблетки — утром",
+            "Крем — перед едой, сироп — утром",
+            "Только таблетки два раза в день"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Eczacı — фармацевт, şurup yemekten önce — сироп перед едой, krem akşam için — крем на вечер.",
+          "audio": "tr/3-11/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-11-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «лекарство»:",
+          "transcript": "ilaç",
+          "accepted": ["ilaç"],
+          "explain_ru": "İlaç — лекарство (на конце буква ç).",
+          "audio": "tr/3-11/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-11-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «выздороветь»:",
+          "transcript": "iyileşmek",
+          "accepted": ["iyileşmek"],
+          "explain_ru": "İyileşmek — выздороветь (от iyi — хороший).",
+          "audio": "tr/3-11/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-11-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Есть ли у покупателя рецепт?",
+          "transcript": "Merhaba, bu eczane açık mı? Reçetem var, hap ve şurup almak istiyorum.",
+          "options": [
+            "Да, у него есть рецепт, он хочет купить таблетки и сироп",
+            "Нет, рецепта нет, он хочет купить только крем",
+            "Аптека закрыта",
+            "У него есть рецепт только на крем"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Reçetem var — У меня есть рецепт; hap ve şurup almak istiyorum — хочу купить таблетки и сироп.",
+          "audio": "tr/3-11/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-11-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «фармацевт»:",
+          "transcript": "eczacı",
+          "accepted": ["eczacı"],
+          "explain_ru": "Eczacı — фармацевт (на конце гласная ı без точки).",
+          "audio": "tr/3-11/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-11-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допишите направительный падеж («Я иду в аптеку»): «Eczane___ gidiyorum.»",
+          "source_text": "Eczane___ gidiyorum.",
+          "accepted": ["eczaneye", "Eczaneye gidiyorum"],
+          "explain_ru": "Слово eczane оканчивается на гласную переднего ряда e, поэтому присоединяется -ye: eczaneye.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-11-wr-02",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Пары: соедините формы лекарств с их переводом:",
+          "pairs": [
+            { "left": "hap", "right": "таблетка" },
+            { "left": "şurup", "right": "сироп" },
+            { "left": "krem", "right": "крем" }
+          ],
+          "explain_ru": "Hap — таблетка, şurup — сироп, krem — крем.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-11-wr-03",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите фразу «Два раза в день»:",
+          "source_text": "Два раза в день.",
+          "bank": ["günde", "kez", "iki"],
+          "accepted": ["Günde iki kez"],
+          "explain_ru": "Günde iki kez — два раза в день.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-11-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова темы «В аптеке» с переводом:",
+          "pairs": [
+            { "left": "eczane", "right": "аптека" },
+            { "left": "eczacı", "right": "фармацевт" },
+            { "left": "reçete", "right": "рецепт" },
+            { "left": "iyileşmek", "right": "выздороветь" }
+          ],
+          "explain_ru": "Eczane — аптека, eczacı — фармацевт, reçete — рецепт, iyileşmek — выздороветь.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-11-wr-05",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Кубики: соберите инструкцию «Одна таблетка после еды»:",
+          "source_text": "Одна таблетка после еды.",
+          "bank": ["hap", "sonra", "bir", "yemekten"],
+          "accepted": ["Yemekten sonra bir hap", "Bir hap yemekten sonra"],
+          "explain_ru": "Yemekten sonra bir hap — одна таблетка после еды.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-11-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: проверьте гармонию гласных в направительном падеже («Я иду в аптеку»):",
+          "buggy_text": "Eczaneya gidiyorum.",
+          "accepted": ["Eczaneye gidiyorum."],
+          "explain_ru": "Последняя гласная в слове eczane — передняя (e), поэтому нужен аффикс -ye, а не -ya: Eczaneye gidiyorum.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-11-wr-07",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «перед едой»:",
+          "source_text": "перед едой",
+          "accepted": ["yemekten önce"],
+          "explain_ru": "Yemek + -ten (исходный падеж после глухого k) + önce = yemekten önce.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-11-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не связано с аптекой):",
+          "items": ["ilaç", "reçete", "şurup", "bavul"],
+          "odd_index": 3,
+          "explain_ru": "Bavul — чемодан, а ilaç (лекарство), reçete (рецепт) и şurup (сироп) — аптечная лексика.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-11-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "В аптеке. Прочитайте диалог и ответьте на вопрос:",
+          "passage": "— Merhaba, reçeteniz var mı? — Evet, buyurun. — Bu şurup günde üç kez. Bu krem sabah ve akşam. — Teşekkürler.",
+          "questions": [
+            {
+              "question_ru": "Сколько раз в день нужно принимать сироп?",
+              "options": [
+                "три раза (üç kez)",
+                "два раза (iki kez)",
+                "один раз (bir kez)",
+                "только вечером"
+              ],
+              "correct_index": 0,
+              "accepted": ["три", "три раза", "3", "üç", "üç kez"]
+            }
+          ],
+          "explain_ru": "Bu şurup günde üç kez — Этот сироп три раза в день.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-11-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните глагол «iyileşmek»:",
+          "target_text": "iyileşmek",
+          "translation_ru": "выздороветь",
+          "example_text": "İlaç içiyorum, çabuk iyileşeceğim.",
+          "example_ru": "Я пью лекарство, скоро выздоровею.",
+          "explain_ru": "Глагол iyileşmek образован от прилагательного iyi (хороший) + суффикс -leş- + -mek.",
+          "audio": "tr/3-11/w12.mp3"
+        },
+        {
+          "id": "tr-3-11-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильный перевод фразы «yemekten önce»:",
+          "question_text": "yemekten önce",
+          "options": [
+            "перед едой",
+            "после еды",
+            "во время еды",
+            "без еды"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Önce — до, перед; sonra — после. Yemekten önce — перед едой.",
+          "audio": "tr/3-11/w10.mp3"
+        },
+        {
+          "id": "tr-3-11-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Кто работает в аптеке (eczane)?",
+          "question_text": "Eczanede kim çalışıyor?",
+          "options": ["eczacı", "berber", "aşçı", "garson"],
+          "correct_index": 0,
+          "explain_ru": "Eczacı — фармацевт, он работает в аптеке (eczane).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-11-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «günde iki kez»?",
+          "question_text": "günde iki kez",
+          "options": [
+            "два раза в день",
+            "два дня подряд",
+            "через два дня",
+            "дважды в неделю"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Günde — в день, iki — два, kez — раз.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-11-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку фармацевта и ответьте на вопрос:",
+          "passage": "Ali'nin ateşi var. Eczacı ona bir ilaç ve bir hap verdi. İlaç yemekten sonra, günde iki kez içilecek (будет приниматься).",
+          "questions": [
+            {
+              "question_ru": "Когда Али нужно принимать лекарство?",
+              "options": [
+                "после еды, два раза в день",
+                "перед едой, три раза в день",
+                "только один раз вечером",
+                "перед сном"
+              ],
+              "correct_index": 0,
+              "accepted": ["после еды", "после еды, два раза в день", "yemekten sonra"]
+            }
+          ],
+          "explain_ru": "İlaç yemekten sonra, günde iki kez — лекарство после еды, два раза в день.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-11-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «reçete»:",
+          "question_text": "reçete",
+          "options": ["рецепт", "таблетка", "аптека", "крем"],
+          "correct_index": 0,
+          "explain_ru": "Reçete — рецепт врача.",
+          "audio": "tr/3-11/w07.mp3"
+        },
+        {
+          "id": "tr-3-11-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что нужно купить, если врач выписал «krem» и «hap»?",
+          "question_text": "krem ve hap",
+          "options": [
+            "крем и таблетки",
+            "сироп и лекарство",
+            "рецепт и сироп",
+            "таблетки и воду"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Krem — крем, hap — таблетка.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

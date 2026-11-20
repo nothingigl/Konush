@@ -83,16 +83,408 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-6-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Звонок-приглашение» (1/2): разыграйте вслух приглашение на день рождения:",
+          "target_text": "Yarın doğum günüm. Bize gelir misin? Tabii! Saat kaçta? Saat yedide. Adres ne?",
+          "translation_ru": "Завтра мой день рождения. Придёшь к нам? Конечно! Во сколько? В семь часов. Какой адрес?",
+          "explain_ru": "Doğum günü (день рождения) → doğum günüm (мой день рождения). Bize — к нам, saat kaçta — во сколько, adres — адрес.",
+          "audio": "tr/3-6/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-6-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Звонок-приглашение» (2/2): пригласите друга на вечеринку (parti) и свадьбу (düğün):",
+          "target_text": "Cumartesi partiye gelir misin? Haftaya düğünümüze gelir misin?",
+          "translation_ru": "Придёшь в субботу на вечеринку? Придёшь на следующей неделе на нашу свадьбу?",
+          "explain_ru": "Parti → partiye (на вечеринку), düğün → düğünümüze (на нашу свадьбу). Cumartesi — суббота.",
+          "audio": "tr/3-6/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-6-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Пригласите друга пойти с вами в ресторан (bizimle и beraber):",
+          "target_text": "Akşam bizimle restorana gelir misin? Beraber yemek yiyelim.",
+          "translation_ru": "Пойдёшь вечером с нами в ресторан? Поедим вместе.",
+          "explain_ru": "Bizimle — с нами, beraber — вместе.",
+          "audio": "tr/3-6/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-6-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы приглашаете всех друзей праздновать день рождения:",
+          "target_text": "Bütün arkadaşlarımı davet ediyorum. Doğum günümü beraber kutlayalım!",
+          "translation_ru": "Я приглашаю всех своих друзей. Давайте отпразднуем мой день рождения вместе!",
+          "explain_ru": "Davet etmek (приглашать) → davet ediyorum (t → d перед гласной); kutlamak (праздновать) → kutlayalım.",
+          "audio": "tr/3-6/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-6-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про вкусный торт и приглашение:",
+          "target_text": "Çok lezzetli bir pasta yaptım. Davet için teşekkürler!",
+          "translation_ru": "Я испекла очень вкусный торт. Спасибо за приглашение!",
+          "explain_ru": "Pasta — торт (не макароны! Макароны по-турецки — makarna); davet — приглашение.",
+          "audio": "tr/3-6/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-6-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите про время и адрес вечеринки:",
+          "target_text": "Parti saat kaçta başlıyor? Bana adresi mesaj atar mısın?",
+          "translation_ru": "Во сколько начинается вечеринка? Скинешь мне адрес в сообщении?",
+          "explain_ru": "Saat kaçta — во сколько; adres — адрес.",
+          "audio": "tr/3-6/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-6-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Мы хотим вместе отпраздновать свадьбу»:",
+          "target_text": "Bu güzel düğünü beraber kutlamak istiyoruz.",
+          "translation_ru": "Мы хотим вместе отпраздновать эту красивую свадьбу.",
+          "explain_ru": "Düğün — свадьба, kutlamak — праздновать, beraber — вместе.",
+          "audio": "tr/3-6/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-6-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Приходите к нам завтра вечером, поедим торт»:",
+          "target_text": "Yarın akşam bize gelin, beraber pasta yiyelim ve çay içelim.",
+          "translation_ru": "Приходите к нам завтра вечером, вместе поедим торт и выпьем чаю.",
+          "explain_ru": "Bize — к нам (вежливая просьба: gelin — приходите).",
+          "audio": "tr/3-6/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-6-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Приглашение: когда и во сколько встреча, и кто готовит торт?",
+          "transcript": "Cumartesi akşamı bizimle yemeğe gelir misin? Saat yedide, bizim evde. Pasta ben yapıyorum.",
+          "options": [
+            "В субботу вечером в 19:00; торт готовит говорящий",
+            "В пятницу утром в 7:00; торт покупают в магазине",
+            "В воскресенье в 18:00; торт готовит друг",
+            "В субботу днём; торта не будет"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Cumartesi (суббота) akşamı saat yedide (вечером в семь = 19:00). Pasta ben yapıyorum — торт делаю я.",
+          "audio": "tr/3-6/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-6-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «приглашение»:",
+          "transcript": "davet",
+          "accepted": ["davet"],
+          "explain_ru": "Davet — приглашение.",
+          "audio": "tr/3-6/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-6-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «свадьба»:",
+          "transcript": "düğün",
+          "accepted": ["düğün"],
+          "explain_ru": "Düğün — свадьба (обратите внимание на ü и мягкое ğ).",
+          "audio": "tr/3-6/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-6-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что и где празднуют друзья?",
+          "transcript": "Yarın Ali'nin doğum günü. Saat sekizde bizim evde kutluyoruz. Sen de bize gel!",
+          "options": [
+            "Завтра день рождения Али, празднуют дома у говорящего в восемь",
+            "Сегодня свадьба Али в ресторане в восемь",
+            "Завтра вечеринка в парке в семь",
+            "Через неделю день рождения Айше в отеле"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Doğum günü — день рождения; kutluyoruz — празднуем (от kutlamak); bize gel — приходи к нам.",
+          "audio": "tr/3-6/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-6-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите вопрос «во сколько»:",
+          "transcript": "saat kaçta",
+          "accepted": ["saat kaçta"],
+          "explain_ru": "Saat kaçta — во сколько (в котором часу).",
+          "audio": "tr/3-6/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-6-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «вместе»:",
+          "transcript": "beraber",
+          "accepted": ["beraber"],
+          "explain_ru": "Beraber — вместе.",
+          "audio": "tr/3-6/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-6-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что просит прислать гость?",
+          "transcript": "Davet için çok teşekkürler! Partiye geliyorum ama yeni adresinizi bilmiyorum.",
+          "options": [
+            "Он придёт на вечеринку, но не знает нового адреса",
+            "Он не может прийти на вечеринку",
+            "Он спрашивает, какой торт принести",
+            "Он спрашивает, во сколько начинается свадьба"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yeni adresinizi bilmiyorum — Я не знаю вашего нового адреса.",
+          "audio": "tr/3-6/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-6-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «торт»:",
+          "transcript": "pasta",
+          "accepted": ["pasta"],
+          "explain_ru": "Pasta — торт, пирожное.",
+          "audio": "tr/3-6/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-6-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допиши (1/2): вставьте пропущенное слово в «Seni doğum günüme ___ ediyorum» («Я приглашаю тебя на мой день рождения»):",
+          "source_text": "Seni doğum günüme ___ ediyorum.",
+          "accepted": ["davet", "Seni doğum günüme davet ediyorum"],
+          "explain_ru": "Davet etmek — приглашать. Seni doğum günüme davet ediyorum.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-6-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допиши (2/2): допишите форму глагола в «Bize gel___ misin?» («Придёшь к нам?»):",
+          "source_text": "Bize gel___ misin?",
+          "accepted": ["gelir", "ir", "Bize gelir misin"],
+          "explain_ru": "Для вежливых приглашений используется широкое время: gel + -ir → gelir misin?",
+          "audio": null
+        },
+        {
+          "id": "tr-3-6-wr-03",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите вопрос «Пойдёшь с нами?»:",
+          "source_text": "Пойдёшь с нами?",
+          "bank": ["gelir", "misin", "bizimle"],
+          "accepted": ["Bizimle gelir misin"],
+          "explain_ru": "Bizimle gelir misin? — Пойдёшь с нами?",
+          "audio": null
+        },
+        {
+          "id": "tr-3-6-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова праздника и приглашения с переводом:",
+          "pairs": [
+            { "left": "davet", "right": "приглашение" },
+            { "left": "davet etmek", "right": "приглашать" },
+            { "left": "parti", "right": "вечеринка" },
+            { "left": "doğum günü", "right": "день рождения" },
+            { "left": "kutlamak", "right": "праздновать" },
+            { "left": "pasta", "right": "торт" }
+          ],
+          "explain_ru": "Davet, davet etmek, parti, doğum günü, kutlamak, pasta.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-6-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините остальные слова юнита с переводом:",
+          "pairs": [
+            { "left": "adres", "right": "адрес" },
+            { "left": "bizimle", "right": "с нами" },
+            { "left": "bize", "right": "к нам" },
+            { "left": "beraber", "right": "вместе" },
+            { "left": "saat kaçta", "right": "во сколько" },
+            { "left": "düğün", "right": "свадьба" }
+          ],
+          "explain_ru": "Adres, bizimle, bize, beraber, saat kaçta, düğün.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-6-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Кубики: соберите предложение «Давай вместе отпразднуем день рождения»:",
+          "source_text": "Давай вместе отпразднуем твой день рождения.",
+          "bank": ["kutlayalım", "doğum", "beraber", "gününü"],
+          "accepted": ["Doğum gününü beraber kutlayalım"],
+          "explain_ru": "Doğum gününü beraber kutlayalım (kutlamak → kutlayalım).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-6-wr-07",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки вопрос «Во сколько?»:",
+          "source_text": "Во сколько?",
+          "accepted": ["Saat kaçta"],
+          "explain_ru": "Saat kaçta — во сколько (ср.: Saat kaç? — Который час?).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-6-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: с существительным «davet» используется вспомогательный глагол etmek, а не yapmak:",
+          "buggy_text": "Seni partiye davet yapıyorum.",
+          "accepted": ["Seni partiye davet ediyorum."],
+          "explain_ru": "Правильно: davet etmek → davet ediyorum (Я приглашаю).",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-6-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Свадьба. Прочитайте текст и ответьте на вопрос:",
+          "passage": "Ayşe düğününe herkesi davet ediyor. Düğün cumartesi (в субботу) saat altıda. Adres kartta (на открытке) yazıyor.",
+          "questions": [
+            {
+              "question_ru": "Что написано на открытке (kartta)?",
+              "options": [
+                "Адрес",
+                "Список подарков",
+                "Название торта",
+                "Телефон Айше"
+              ],
+              "correct_index": 0,
+              "accepted": ["адрес", "adres"]
+            }
+          ],
+          "explain_ru": "Adres kartta yazıyor — Адрес написан на открытке.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-6-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните составной глагол «приглашать»:",
+          "target_text": "davet etmek",
+          "translation_ru": "приглашать",
+          "example_text": "Sizi akşam yemeğine davet etmek istiyorum.",
+          "example_ru": "Я хочу пригласить вас на ужин.",
+          "explain_ru": "Кого приглашаем — винительный падеж (seni, sizi), куда — дательный падеж (partiye, düğüne).",
+          "audio": "tr/3-6/w02.mp3"
+        },
+        {
+          "id": "tr-3-6-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Осторожно, ложный друг переводчика! Что значит турецкое слово «pasta»?",
+          "question_text": "pasta",
+          "options": ["торт", "макароны", "суп", "подарок"],
+          "correct_index": 0,
+          "explain_ru": "Pasta — торт или пирожное (макароны по-турецки — makarna).",
+          "audio": "tr/3-6/w06.mp3"
+        },
+        {
+          "id": "tr-3-6-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Чем отличаются слова «bize» и «bizimle»?",
+          "question_text": "Выберите правильную пару значений:",
+          "options": [
+            "bize — «к нам», bizimle — «с нами»",
+            "bize — «с нами», bizimle — «к нам»",
+            "Оба слова значат «вместе»",
+            "bize — «у нас», bizimle — «от нас»"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bize (дательный падеж: к нам) — Bize gel! Bizimle (с нами) — Bizimle gel!",
+          "audio": null
+        },
+        {
+          "id": "tr-3-6-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает глагол «kutlamak»?",
+          "question_text": "kutlamak",
+          "options": ["праздновать", "приглашать", "встречаться", "отдыхать"],
+          "correct_index": 0,
+          "explain_ru": "Kutlamak — праздновать, поздравлять.",
+          "audio": "tr/3-6/w05.mp3"
+        },
+        {
+          "id": "tr-3-6-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какой вопрос уместно задать, получив приглашение на вечеринку?",
+          "question_text": "Parti ___ başlıyor?",
+          "options": ["saat kaçta", "kimse", "hiçbir yer", "neden değil"],
+          "correct_index": 0,
+          "explain_ru": "Saat kaçta — во сколько (в котором часу).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-6-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильный перевод «Вместе»:",
+          "question_text": "Выберите синоним к «birlikte» из этого юнита:",
+          "options": ["beraber", "bize", "davet", "adres"],
+          "correct_index": 0,
+          "explain_ru": "Beraber — вместе.",
+          "audio": "tr/3-6/w10.mp3"
+        },
+        {
+          "id": "tr-3-6-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте приглашение от друга и ответьте на вопрос:",
+          "passage": "Merhaba! Cuma (в пятницу) akşamı saat sekizde küçük bir parti yapıyoruz. Doğum günümü beraber kutlamak istiyoruz. Bize gelir misin? Büyük bir pasta var!",
+          "questions": [
+            {
+              "question_ru": "По какому поводу устраивают вечеринку?",
+              "options": [
+                "День рождения друга",
+                "Свадьба",
+                "Новый год",
+                "Переезд в новый дом"
+              ],
+              "correct_index": 0,
+              "accepted": ["день рождения", "doğum günü"]
+            }
+          ],
+          "explain_ru": "Doğum günümü beraber kutlamak istiyoruz — Мы хотим вместе отпраздновать мой день рождения.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

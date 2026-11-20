@@ -83,16 +83,501 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-27-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Два дела сразу (1/2): произнесите фразы с деепричастиями -erek и -ken:",
+          "target_text": "Müzik dinleyerek çalışıyorum. Yürüyerek konuşuyorum. Yemek yerken televizyon izliyorum.",
+          "translation_ru": "Я работаю, слушая музыку. Я говорю, прогуливаясь. Пока я ем, я смотрю телевизор.",
+          "explain_ru": "Суффикс -erek/-arak отвечает на вопрос «как, делая что?», а -ken — «пока, во время чего?».",
+          "audio": "tr/3-27/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-27-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Два дела сразу (2/2): скажите про порядок действий с -dıktan sonra и -meden önce:",
+          "target_text": "Yemek yedikten sonra çay içiyorum. Yatmadan önce kitap okuyorum.",
+          "translation_ru": "После того как поем, я пью чай. Перед тем как лечь спать, я читаю книгу.",
+          "explain_ru": "Конструкции -dıktan sonra («после того как») и -meden önce («до того как») меняют гласные по гармонии: yedikten sonra, yatmadan önce.",
+          "audio": "tr/3-27/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-27-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите о действиях, которые происходят одновременно и постоянно:",
+          "target_text": "Aynı anda iki iş yapıyorum. Telefon sürekli çalıyor.",
+          "translation_ru": "Я делаю два дела одновременно. Телефон постоянно звонит.",
+          "explain_ru": "Aynı anda — одновременно, sürekli — постоянно.",
+          "audio": "tr/3-27/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-27-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите говорить по очереди и заходить по одному:",
+          "target_text": "Lütfen sırayla konuşun. İçeri tek tek girin.",
+          "translation_ru": "Пожалуйста, говорите по очереди. Входите внутрь по одному.",
+          "explain_ru": "Sırayla — по очереди, tek tek — по одному.",
+          "audio": "tr/3-27/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-27-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Потренируйте деепричастие -ip («сделав и») со словом «birlikte» (вместе):",
+          "target_text": "Eve gidip yemek pişirelim, sonra birlikte yiyelim.",
+          "translation_ru": "Пойдём домой, приготовим еду и потом поедим вместе.",
+          "explain_ru": "Деепричастие -ip/-ıp/-up/-üp (gidip — пойдя и) соединяет последовательные действия; birlikte — вместе.",
+          "audio": "tr/3-27/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-27-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про «не делая чего-либо» с -meden:",
+          "target_text": "Kahvaltı etmeden evden çıkma! Düşünmeden konuşma!",
+          "translation_ru": "Не выходи из дома, не позавтракав! Не говори, не подумав!",
+          "explain_ru": "Суффикс -meden/-madan без слова önce переводится как «не делая чего-либо, без чего-либо».",
+          "audio": "tr/3-27/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-27-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы сделаете, как только придёте домой (-ince):",
+          "target_text": "Eve gelince seni ararım. Duş aldıktan sonra dinlenirim.",
+          "translation_ru": "Как только приду домой, я тебе позвоню. После того как приму душ, я отдохну.",
+          "explain_ru": "Gelince (-ince — как только придёт), aldıktan sonra (-dıktan sonra — после того как принял).",
+          "audio": "tr/3-27/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-27-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух пять наречий последовательности и совместности:",
+          "target_text": "aynı anda, sırayla, sürekli, birlikte, tek tek",
+          "translation_ru": "одновременно, по очереди, постоянно, вместе, по одному",
+          "explain_ru": "Все пять выражений часто сочетаются с деепричастиями в рассказах о распорядке дня.",
+          "audio": "tr/3-27/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-27-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Что раньше? Прослушайте запись и ответьте: что говорящий делает перед сном?",
+          "transcript": "Eve gelince önce duş alıyorum. Yemek yedikten sonra çay içiyorum. Yatmadan önce kitap okuyorum.",
+          "options": [
+            "читает книгу (kitap okuyorum)",
+            "принимает душ (duş alıyorum)",
+            "пьёт чай (çay içiyorum)",
+            "смотрит телевизор"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yatmadan önce kitap okuyorum — Перед сном я читаю книгу.",
+          "audio": "tr/3-27/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-27-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки «по очереди»:",
+          "transcript": "sırayla",
+          "accepted": [
+            "sırayla"
+          ],
+          "explain_ru": "Sırayla — по очереди (от sıra — очередь).",
+          "audio": "tr/3-27/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-27-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки «постоянно»:",
+          "transcript": "sürekli",
+          "accepted": [
+            "sürekli"
+          ],
+          "explain_ru": "Sürekli — постоянно.",
+          "audio": "tr/3-27/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-27-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как ученики отвечают на уроке?",
+          "transcript": "Öğrenciler aynı anda konuşmuyor. Sırayla ve tek tek cevap veriyorlar.",
+          "options": [
+            "Они не говорят одновременно — отвечают по очереди и по одному",
+            "Они все кричат одновременно",
+            "Они постоянно молчат",
+            "Они отвечают все вместе хором"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Aynı anda (одновременно) konuşmuyor, sırayla (по очереди) ve tek tek (по одному) cevap veriyorlar.",
+          "audio": "tr/3-27/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-27-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки «вместе»:",
+          "transcript": "birlikte",
+          "accepted": [
+            "birlikte"
+          ],
+          "explain_ru": "Birlikte — вместе (синоним beraber).",
+          "audio": "tr/3-27/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-27-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки «по одному»:",
+          "transcript": "tek tek",
+          "accepted": [
+            "tek tek"
+          ],
+          "explain_ru": "Tek tek — по одному, один за другим.",
+          "audio": "tr/3-27/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-27-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что нужно сделать до того, как есть?",
+          "transcript": "Yemek yemeden önce ellerimizi yıkamalıyız. Sonra birlikte sofraya oturalım.",
+          "options": [
+            "помыть руки, а потом вместе сесть за стол",
+            "сначала выпить чай, а потом помыть руки",
+            "поесть без рук и уйти спать",
+            "пойти в магазин по одному"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yemek yemeden önce (-meden önce — до того как есть) ellerimizi yıkamalıyız (мы должны помыть руки).",
+          "audio": "tr/3-27/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-27-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки «одновременно»:",
+          "transcript": "aynı anda",
+          "accepted": [
+            "aynı anda"
+          ],
+          "explain_ru": "Aynı anda — одновременно, в тот же момент.",
+          "audio": "tr/3-27/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-27-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Склей: подберите правильную деепричастную форму для каждого предложения:",
+          "pairs": [
+            {
+              "left": "Kahve ___ içiyorum.",
+              "right": "yapıp"
+            },
+            {
+              "left": "Şarkı söyle___ yemek yapıyorum.",
+              "right": "yerek"
+            },
+            {
+              "left": "Eve gel___ seni ararım.",
+              "right": "ince"
+            },
+            {
+              "left": "Yemek ye___ önce elini yıka.",
+              "right": "meden"
+            }
+          ],
+          "explain_ru": "Yapıp (-ip), söyleyerek (-erek), gelince (-ince), yemeden önce (-meden önce).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-27-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допишите деепричастие («Перед тем как есть, помой руки»): «Yemek ye___ önce elini yıka»",
+          "source_text": "Yemek ye___ önce elini yıka.",
+          "accepted": [
+            "meden",
+            "yemeden",
+            "Yemek yemeden önce elini yıka"
+          ],
+          "explain_ru": "Конструкция -meden önce: yemek yemeden önce (до того как есть).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-27-wr-03",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините суффиксы и конструкции с их значением:",
+          "pairs": [
+            {
+              "left": "-erek",
+              "right": "«делая»"
+            },
+            {
+              "left": "-ip",
+              "right": "«сделав и»"
+            },
+            {
+              "left": "-ince",
+              "right": "«когда, как только»"
+            },
+            {
+              "left": "-ken",
+              "right": "«пока»"
+            }
+          ],
+          "explain_ru": "-erek («делая»), -ip («сделав и»), -ince («как только»), -ken («пока»).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-27-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините конструкции времени и отрицания с переводом:",
+          "pairs": [
+            {
+              "left": "-dıktan sonra",
+              "right": "«после того как»"
+            },
+            {
+              "left": "-meden önce",
+              "right": "«до того как»"
+            },
+            {
+              "left": "-meden",
+              "right": "«не делая»"
+            }
+          ],
+          "explain_ru": "-dıktan sonra («после того как»), -meden önce («до того как»), -meden («не делая»).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-27-wr-05",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Я работаю, слушая музыку»:",
+          "source_text": "Я работаю, слушая музыку.",
+          "bank": [
+            "çalışıyorum",
+            "dinleyerek",
+            "müzik"
+          ],
+          "accepted": [
+            "Müzik dinleyerek çalışıyorum"
+          ],
+          "explain_ru": "Müzik dinleyerek çalışıyorum — Я работаю, слушая музыку.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-27-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: перед «sonra» нужна форма -dıktan/-dikten, а не -meden («После того как поел, пью чай»):",
+          "buggy_text": "Yemek yemeden sonra çay içiyorum.",
+          "accepted": [
+            "Yemek yedikten sonra çay içiyorum."
+          ],
+          "explain_ru": "«После того как» передаётся через -dıktan sonra (yedikten sonra), а -meden используется с önce («до того как»).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-27-wr-07",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте вечерние дела по порядку из текста «Eve gelince önce duş alıyorum. Yemek yedikten sonra çay içiyorum. Yatmadan önce kitap okuyorum»:",
+          "items_shuffled": [
+            "kitap okumak",
+            "duş almak",
+            "çay içmek",
+            "yemek yemek"
+          ],
+          "correct_order": [
+            "duş almak",
+            "yemek yemek",
+            "çay içmek",
+            "kitap okumak"
+          ],
+          "explain_ru": "Сначала душ (duş almak), потом ужин (yemek yemek), после ужина чай (çay içmek), перед сном книга (kitap okumak).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-27-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Допишите -ken («Пока я ем, я не говорю»): «Yemek yer___ konuşmuyorum»",
+          "source_text": "Yemek yer___ (пока ем) konuşmuyorum.",
+          "accepted": [
+            "ken",
+            "yerken",
+            "Yemek yerken konuşmuyorum"
+          ],
+          "explain_ru": "Суффикс -ken не подчиняется гармонии гласных и всегда пишется с e: yerken.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-27-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Утро Али. Прочитайте рассказ и ответьте на вопросы:",
+          "passage": "Ali kalkınca önce pencereyi açıyor. Kahve yapıp balkona (на балкон) çıkıyor. Müzik dinleyerek kahvaltı yapıyor.",
+          "questions": [
+            {
+              "question_ru": "Что Али делает сначала и что он делает под музыку?",
+              "options": [
+                "сначала открывает окно; под музыку завтракает",
+                "сначала завтракает; под музыку открывает окно",
+                "сначала принимает душ; под музыку пьёт чай",
+                "сначала читает книгу; под музыку готовит кофе"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "открывает окно; завтракает",
+                "сначала открывает окно; завтракает"
+              ]
+            }
+          ],
+          "explain_ru": "Kalkınca önce pencereyi açıyor (как только встаёт, открывает окно). Müzik dinleyerek kahvaltı yapıyor (завтракает, слушая музыку).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-27-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните неизменяемый суффикс «-ken» (пока):",
+          "target_text": "-ken",
+          "translation_ru": "«пока»",
+          "example_text": "Çalışırken müzik dinliyorum.",
+          "example_ru": "Пока я работаю, я слушаю музыку.",
+          "explain_ru": "Суффикс -ken всегда сохраняет форму -ken (не становится -kan): çocukken (в детстве), okurken (пока читаю), çalışırken (пока работаю).",
+          "audio": "tr/3-27/w04.mp3"
+        },
+        {
+          "id": "tr-3-27-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает выражение «Yemek yapıp oturdu»?",
+          "question_text": "Yemek yapıp oturdu.",
+          "options": [
+            "Приготовил(а) еду и сел(а).",
+            "Сел(а), не приготовив еду.",
+            "Готовит еду, пока сидит.",
+            "После того как сел(а), готовит еду."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Деепричастие -ip/-ıp («сделав и») соединяет два последовательных действия с одним подлежащим.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-27-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «Okula gitmeden önce kahvaltı yaparım»:",
+          "question_text": "Okula gitmeden önce kahvaltı yaparım.",
+          "options": [
+            "До того как пойти в школу, я завтракаю.",
+            "После того как приду из школы, я завтракаю.",
+            "Я иду в школу, не завтракая.",
+            "Пока я в школе, я завтракаю."
+          ],
+          "correct_index": 0,
+          "explain_ru": "-meden önce — «до того как»: okula gitmeden önce.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-27-rd-05",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку о командной работе и ответьте на вопрос:",
+          "passage": "Biz her akşam birlikte ders çalışıyoruz. Soruları tek tek okuyoruz ve sırayla cevaplıyoruz. Sürekli pratik (практика) yaptıktan sonra Türkçe çok kolay oldu.",
+          "questions": [
+            {
+              "question_ru": "Как друзья разбирают вопросы?",
+              "options": [
+                "читают по одному и отвечают по очереди",
+                "отвечают одновременно и без остановки",
+                "читают молча и не разговаривают",
+                "работают по отдельности дома"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "читают по одному и отвечают по очереди",
+                "по одному и по очереди"
+              ]
+            }
+          ],
+          "explain_ru": "Soruları tek tek okuyoruz ve sırayla cevaplıyoruz — Читаем вопросы по одному и отвечаем по очереди.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-27-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «Sözlüğe bakmadan okudum»?",
+          "question_text": "Sözlüğe (в словарь) bakmadan okudum.",
+          "options": [
+            "Я прочитал, не глядя в словарь.",
+            "Я прочитал, как только посмотрел в словарь.",
+            "Я прочитал после того, как посмотрел в словарь.",
+            "Я читал, пока смотрел в словарь."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Суффикс -meden/-madan без слова önce означает «не делая чего-либо».",
+          "audio": null
+        },
+        {
+          "id": "tr-3-27-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильный перевод «Eve gelip çantamı bıraktım»:",
+          "question_text": "Eve gelip çantamı bıraktım (оставил).",
+          "options": [
+            "Я пришёл домой и оставил сумку.",
+            "Я оставил сумку, не приходя домой.",
+            "Пока я шёл домой, я нёс сумку.",
+            "До того как прийти домой, я оставил сумку."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Gelip — деепричастие на -ip («придя и ...»).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-27-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое слово означает «постоянно»?",
+          "question_text": "постоянно",
+          "options": [
+            "sürekli",
+            "sırayla",
+            "birlikte",
+            "aynı anda"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Sürekli — постоянно, sırayla — по очереди, birlikte — вместе, aynı anda — одновременно.",
+          "audio": "tr/3-27/w10.mp3"
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,501 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-24-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Таблички (1/2): прочитайте вслух объявления в страдательном залоге:",
+          "target_text": "Burada çay satılır. Bu kapı sabah açılır.",
+          "translation_ru": "Здесь продаётся чай. Эта дверь открывается утром.",
+          "explain_ru": "Satılmak (продаваться) → satılır; açılmak (открываться) → açılır.",
+          "audio": "tr/3-24/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-24-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Таблички (2/2): произнесите фразы о языке и достопримечательности:",
+          "target_text": "Türkiye'de Türkçe konuşulur. Bu şehirde eski bir cami bulunuyor.",
+          "translation_ru": "В Турции говорят по-турецки. В этом городе находится старая мечеть (cami).",
+          "explain_ru": "Konuşmak → konuşulur (говорится); bulunmak (находиться) → bulunuyor.",
+          "audio": "tr/3-24/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-24-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, во сколько закрывается магазин и убирается комната:",
+          "target_text": "Market akşam dokuzda kapanır. Oda her gün temizlenir.",
+          "translation_ru": "Магазин закрывается в девять вечера. Комната убирается каждый день.",
+          "explain_ru": "Kapanmak (закрываться) → kapanır; temizlenmek (убираться) → temizlenir.",
+          "audio": "tr/3-24/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-24-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Сравните активное и пассивное действие с глаголами «ломать / ломаться»:",
+          "target_text": "Bardak kırıldı. Ali bardağı kırmak istemedi.",
+          "translation_ru": "Стакан разбился. Али не хотел разбивать стакан.",
+          "explain_ru": "Kırmak — ломать/разбивать (актив), kırılmak — ломаться/разбиваться (пассив).",
+          "audio": "tr/3-24/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-24-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, когда был основан университет и как пишется это слово:",
+          "target_text": "Bu okul 1980'de kuruldu. Bu kelime böyle yazılır.",
+          "translation_ru": "Эта школа была основана в 1980 году. Это слово пишется так.",
+          "explain_ru": "Kurulmak (основываться) → kuruldu; yazılmak (писаться) → yazılır.",
+          "audio": "tr/3-24/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-24-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, как это говорится по-турецки:",
+          "target_text": "Bu Türkçe nasıl söylenir? Mektup bugün gönderildi.",
+          "translation_ru": "Как это говорится по-турецки? Письмо было отправлено сегодня.",
+          "explain_ru": "Söylenmek (говориться) → söylenir; gönderilmek (отправляться) → gönderildi.",
+          "audio": "tr/3-24/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-24-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Чётко произнесите шесть глаголов страдательного залога (1/2):",
+          "target_text": "yapılmak, açılmak, kapanmak, kırılmak, satılmak, gönderilmek",
+          "translation_ru": "делаться, открываться, закрываться, ломаться, продаваться, отправляться",
+          "explain_ru": "Аффикс пассива -ıl/-il/-ul/-ül (после гласной или l — -n/-ın/-in/-un/-ün).",
+          "audio": "tr/3-24/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-24-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Чётко произнесите ещё шесть глаголов этого юнита (2/2):",
+          "target_text": "bulunmak, kurulmak, yazılmak, söylenmek, kırmak, temizlenmek",
+          "translation_ru": "находиться, основываться, писаться, говориться, ломать, убираться",
+          "explain_ru": "Обратите внимание: kırmak — активный глагол («ломать»), а остальные пять — пассивные.",
+          "audio": "tr/3-24/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-24-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Что случилось? Прослушайте запись и ответьте: что построили и что отправили?",
+          "transcript": "Bu bina 1990'da yapıldı. Kapı açıldı. Mektup gönderildi.",
+          "options": [
+            "построили здание; отправили письмо",
+            "построили школу; отправили книги",
+            "закрыли дверь; сломали стакан",
+            "основали музей; убрали комнату"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bu bina 1990'da yapıldı (от yapılmak — здание построили в 1990 году). Mektup gönderildi (от gönderilmek — письмо отправили).",
+          "audio": "tr/3-24/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-24-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки инфинитив «открываться»:",
+          "transcript": "açılmak",
+          "accepted": [
+            "açılmak"
+          ],
+          "explain_ru": "Açılmak — открываться (от açmak + -ıl).",
+          "audio": "tr/3-24/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-24-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки инфинитив «закрываться»:",
+          "transcript": "kapanmak",
+          "accepted": [
+            "kapanmak"
+          ],
+          "explain_ru": "Kapanmak — закрываться.",
+          "audio": "tr/3-24/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-24-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что произошло с музеем?",
+          "transcript": "Müze saat beşte kapandı. Yarın sabah temizlenecek ve saat dokuzda açılacak.",
+          "options": [
+            "Закрылся в пять; завтра утром его уберут, и в девять он откроется",
+            "Открылся в пять и будет продавать билеты всю ночь",
+            "Был основан пять лет назад и закрыт на ремонт",
+            "Находится рядом с вокзалом и работает без выходных"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kapandı (kapanmak — закрылся), temizlenecek (temizlenmek — будет убран), açılacak (açılmak — откроется).",
+          "audio": "tr/3-24/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-24-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки инфинитив «продаваться»:",
+          "transcript": "satılmak",
+          "accepted": [
+            "satılmak"
+          ],
+          "explain_ru": "Satılmak — продаваться (от satmak + -ıl).",
+          "audio": "tr/3-24/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-24-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки инфинитив «ломать»:",
+          "transcript": "kırmak",
+          "accepted": [
+            "kırmak"
+          ],
+          "explain_ru": "Kırmak — ломать (актив); kırılmak — ломаться (пассив).",
+          "audio": "tr/3-24/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-24-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где находится старая библиотека и когда она была основана?",
+          "transcript": "Bu şehirde çok eski bir kütüphane bulunuyor. 1950'de kuruldu.",
+          "options": [
+            "В этом городе; была основана в 1950 году",
+            "В деревне; была построена в 1990 году",
+            "Рядом с морем; закрылась вчера",
+            "В школе; была отправлена по почте"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bulunuyor (от bulunmak — находится), 1950'de kuruldu (от kurulmak — была основана в 1950 году).",
+          "audio": "tr/3-24/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-24-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите фразу «Здесь продаётся чай»:",
+          "transcript": "Burada çay satılır.",
+          "accepted": [
+            "Burada çay satılır."
+          ],
+          "explain_ru": "Burada çay satılır — Здесь продаётся чай (от satılmak).",
+          "audio": "tr/3-24/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-24-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Из актива в пассив: соедините исходный глагол с его пассивной формой в прошедшем времени:",
+          "pairs": [
+            {
+              "left": "açmak",
+              "right": "açıldı"
+            },
+            {
+              "left": "yapmak",
+              "right": "yapıldı"
+            },
+            {
+              "left": "satmak",
+              "right": "satıldı"
+            },
+            {
+              "left": "göndermek",
+              "right": "gönderildi"
+            },
+            {
+              "left": "yazmak",
+              "right": "yazıldı"
+            }
+          ],
+          "explain_ru": "Пассивные основы: açılmak → açıldı, yapılmak → yapıldı, satılmak → satıldı, gönderilmek → gönderildi, yazılmak → yazıldı.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-24-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: здесь нужно сказать «Дверь открылась / открыта» в страдательном залоге:",
+          "buggy_text": "Kapı açtı.",
+          "accepted": [
+            "Kapı açıldı."
+          ],
+          "explain_ru": "Kapı açtı означает «дверь (кого-то) открыла»; для пассива нужен глагол açılmak → Kapı açıldı.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-24-wr-03",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините пассивные инфинитивы с переводом (1/2):",
+          "pairs": [
+            {
+              "left": "kapanmak",
+              "right": "закрываться"
+            },
+            {
+              "left": "kırılmak",
+              "right": "ломаться"
+            },
+            {
+              "left": "bulunmak",
+              "right": "находиться"
+            },
+            {
+              "left": "kurulmak",
+              "right": "основываться"
+            }
+          ],
+          "explain_ru": "Kapanmak, kırılmak, bulunmak, kurulmak.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-24-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините инфинитивы с переводом (2/2):",
+          "pairs": [
+            {
+              "left": "yazılmak",
+              "right": "писаться"
+            },
+            {
+              "left": "söylenmek",
+              "right": "говориться"
+            },
+            {
+              "left": "kırmak",
+              "right": "ломать"
+            },
+            {
+              "left": "temizlenmek",
+              "right": "убираться"
+            }
+          ],
+          "explain_ru": "Yazılmak, söylenmek, kırmak, temizlenmek.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-24-wr-05",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Образуйте пассив в прошедшем времени от «göndermek» («Письмо было отправлено»): «Mektup ___»",
+          "source_text": "Mektup ___ (отправлено).",
+          "accepted": [
+            "gönderildi",
+            "Mektup gönderildi"
+          ],
+          "explain_ru": "Göndermek → gönderilmek → gönderildi.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-24-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Это здание было построено в 1990 году»:",
+          "source_text": "Это здание было построено в 1990 году.",
+          "bank": [
+            "yapıldı",
+            "1990'da",
+            "bina",
+            "bu"
+          ],
+          "accepted": [
+            "Bu bina 1990'da yapıldı"
+          ],
+          "explain_ru": "Bu bina 1990'da yapıldı (от yapılmak — делаться, строиться).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-24-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: в страдательном залоге после основы на гласную (söyle-) используется -n-, а не -l- («Как это говорится?»):",
+          "buggy_text": "Bu nasıl söylelir?",
+          "accepted": [
+            "Bu nasıl söylenir?"
+          ],
+          "explain_ru": "Основа söyle- оканчивается на гласную e, поэтому пассив — söylenmek → söylenir.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-24-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «Комната была убрана» (от temizlenmek)",
+          "source_text": "Комната была убрана.",
+          "accepted": [
+            "Oda temizlendi"
+          ],
+          "explain_ru": "Temizlemek (убирать) → temizlenmek (убираться) → Oda temizlendi.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-24-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Новости. Прочитайте заметку и ответьте на вопросы:",
+          "passage": "Şehirde yeni bir okul açıldı. Bu okul geçen yıl yapıldı. Kitaplar dün gönderildi.",
+          "questions": [
+            {
+              "question_ru": "Что открылось в городе и когда это построили?",
+              "options": [
+                "открылась новая школа; построили в прошлом году",
+                "открылся магазин; построили вчера",
+                "открылась мечеть; построили в 1990 году",
+                "открылся стадион; построили на прошлой неделе"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "школа; в прошлом году",
+                "новая школа; в прошлом году"
+              ]
+            }
+          ],
+          "explain_ru": "Yeni bir okul açıldı (açılmak — открылась новая школа), geçen yıl yapıldı (yapılmak — построена в прошлом году), gönderildi (gönderilmek).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-24-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните правило пассивного залога на примере «bulunmak» (находиться):",
+          "target_text": "bulunmak",
+          "translation_ru": "находиться",
+          "example_text": "Bu adada eski bir kale (крепость) bulunuyor.",
+          "example_ru": "На этом острове находится старая крепость.",
+          "explain_ru": "Если основа глагола оканчивается на l (как bul-mak), пассивный аффикс принимает форму -ın/-in/-un/-ün: bul-un-mak.",
+          "audio": "tr/3-24/w07.mp3"
+        },
+        {
+          "id": "tr-3-24-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильную пассивную форму от «kırmak» (ломать):",
+          "question_text": "kırmak → ?",
+          "options": [
+            "kırılmak",
+            "kırınmak",
+            "kırulmak",
+            "kırilmak"
+          ],
+          "correct_index": 0,
+          "explain_ru": "После гласной ı и согласной r добавляется -ıl: kırmak → kırılmak (ломаться).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-24-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает глагол «kurulmak»?",
+          "question_text": "kurulmak",
+          "options": [
+            "основываться",
+            "закрываться",
+            "отправляться",
+            "убираться"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kurulmak — основываться (от kurmak — основывать).",
+          "audio": "tr/3-24/w08.mp3"
+        },
+        {
+          "id": "tr-3-24-rd-05",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте объявление в кафе и ответьте на вопрос:",
+          "passage": "Kafemiz sabah sekizde açılır, akşam onda kapanır. Burada taze (свежий) çay ve kahve satılır. Masalar her saat temizlenir.",
+          "questions": [
+            {
+              "question_ru": "Во сколько закрывается кафе?",
+              "options": [
+                "в десять вечера (akşam onda)",
+                "в восемь утра (sabah sekizde)",
+                "в девять вечера",
+                "в полдень"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "в десять вечера",
+                "в 10 вечера",
+                "в 22:00",
+                "akşam onda"
+              ]
+            }
+          ],
+          "explain_ru": "Akşam onda kapanır — Закрывается в десять вечера (от kapanmak).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-24-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод предложения «Bu kelime iki n ile yazılır»:",
+          "question_text": "Bu kelime iki «n» ile yazılır.",
+          "options": [
+            "Это слово пишется с двумя «n».",
+            "Это слово говорится быстро.",
+            "Это письмо отправлено вчера.",
+            "Эта книга продаётся здесь."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yazılmak — писаться; yazılır — пишется.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-24-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какой глагол означает «убираться (быть убранным)»?",
+          "question_text": "убираться (пассив)",
+          "options": [
+            "temizlenmek",
+            "söylenmek",
+            "gönderilmek",
+            "satılmak"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Temizlenmek — убираться, söylenmek — говориться, gönderilmek — отправляться, satılmak — продаваться.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-24-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "В каком предложении использован АКТИВНЫЙ глагол (не страдательный залог)?",
+          "question_text": "Найдите активный залог:",
+          "options": [
+            "Çocuk tabağı kırmak istemedi.",
+            "Tabak dün kırıldı.",
+            "Kapı sabah açıldı.",
+            "Mektup hemen gönderildi."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kırmak — активный глагол («ломать/разбивать»), тогда как kırıldı, açıldı, gönderildi — формы пассивного залога.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

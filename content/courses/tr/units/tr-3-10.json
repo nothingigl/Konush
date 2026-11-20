@@ -83,16 +83,527 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-10-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Что болит?» (1/2): пожалуйтесь на боль в голове, горле, животе и спине:",
+          "target_text": "Başım ağrıyor. Boğazım ağrıyor. Karnım ağrıyor. Sırtım ağrıyor.",
+          "translation_ru": "У меня болит голова. У меня болит горло. У меня болит живот. У меня болит спина.",
+          "explain_ru": "От ağrımak (болеть): ağrıyor. В слове karın (живот) выпадает гласная ı: karın + -ım → karnım.",
+          "audio": "tr/3-10/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-10-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Что болит?» (2/2): скажите про температуру, кашель и чихание:",
+          "target_text": "Ateşim var. Öksürüyorum. Hapşırıyorum.",
+          "translation_ru": "У меня температура. Я кашляю. Я чихаю.",
+          "explain_ru": "Ateş (температура, жар) → ateşim var; öksürmek (кашлять) → öksürüyorum; hapşırmak (чихать) → hapşırıyorum.",
+          "audio": "tr/3-10/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-10-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас болит желудок и сильная боль в спине (mide и ağrı):",
+          "target_text": "Midem ağrıyor. Sırtımda çok ağrı var.",
+          "translation_ru": "У меня болит желудок. У меня сильная боль в спине.",
+          "explain_ru": "Mide (желудок) → midem (мой желудок); ağrı — боль (существительное).",
+          "audio": "tr/3-10/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-10-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы дрожите и, кажется, заболели гриппом (titremek и grip):",
+          "target_text": "Çok üşüyorum ve titriyorum. Galiba grip oldum.",
+          "translation_ru": "Мне очень холодно, и я дрожу. Кажется, я заболел гриппом.",
+          "explain_ru": "Titremek (дрожать) → titriyorum (перед -yor гласная e сужается в i). Grip olmak — заболеть гриппом.",
+          "audio": "tr/3-10/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-10-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас насморк и вы всё время чихаете (nezle):",
+          "target_text": "Nezlem var, sık sık hapşırıyorum.",
+          "translation_ru": "У меня насморк, я часто чихаю.",
+          "explain_ru": "Nezle — насморк (nezlem var — у меня насморк).",
+          "audio": "tr/3-10/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-10-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что сегодня нет температуры и голова уже не болит:",
+          "target_text": "Bugün ateşim yok ve artık başım ağrımıyor.",
+          "translation_ru": "Сегодня у меня нет температуры, и голова больше не болит.",
+          "explain_ru": "Отрицание от ağrımak → ağrımıyor (не болит).",
+          "audio": "tr/3-10/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-10-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите больного друга: «Что у тебя болит? Есть ли температура?»",
+          "target_text": "Neren ağrıyor? Ateşin var mı?",
+          "translation_ru": "Что у тебя болит? У тебя есть температура?",
+          "explain_ru": "Neren ağrıyor? — естественный вопрос «Где у тебя болит?».",
+          "audio": "tr/3-10/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-10-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас боль в горле, поэтому вы пьёте горячий чай:",
+          "target_text": "Boğazımda ağrı var, bu yüzden sıcak çay içiyorum.",
+          "translation_ru": "У меня боль в горле, поэтому я пью горячий чай.",
+          "explain_ru": "Boğaz — горло, boğazımda ağrı var — у меня боль в горле.",
+          "audio": "tr/3-10/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-10-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Жалобы: что болит у говорящего и что он постоянно делает?",
+          "transcript": "Dün gece ateşim vardı. Bugün boğazım ağrıyor ve çok öksürüyorum.",
+          "options": [
+            "Болит горло; много кашляет",
+            "Болит живот; часто чихает",
+            "Болит спина; сильно дрожит",
+            "Болит голова; у него насморк"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Boğazım ağrıyor (болит горло) ve çok öksürüyorum (и много кашляю).",
+          "audio": "tr/3-10/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-10-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «боль»:",
+          "transcript": "ağrı",
+          "accepted": [
+            "ağrı"
+          ],
+          "explain_ru": "Ağrı — боль (пишется с ğ и ı без точки).",
+          "audio": "tr/3-10/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-10-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «насморк»:",
+          "transcript": "nezle",
+          "accepted": [
+            "nezle"
+          ],
+          "explain_ru": "Nezle — насморк.",
+          "audio": "tr/3-10/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-10-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "На какие симптомы жалуется пациент?",
+          "transcript": "Hastayım, galiba grip oldum. Çok titriyorum ve sırtım ağrıyor.",
+          "options": [
+            "Кажется, грипп; он сильно дрожит и болит спина",
+            "У него болит зуб и насморк",
+            "У него болит желудок после ужина",
+            "Он здоров и хочет пойти в парк"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Grip oldum (заболел гриппом), titriyorum (дрожу, от titremek), sırtım ağrıyor (болит спина).",
+          "audio": "tr/3-10/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-10-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «желудок»:",
+          "transcript": "mide",
+          "accepted": [
+            "mide"
+          ],
+          "explain_ru": "Mide — желудок.",
+          "audio": "tr/3-10/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-10-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «спина»:",
+          "transcript": "sırt",
+          "accepted": [
+            "sırt"
+          ],
+          "explain_ru": "Sırt — спина (пишется с ı без точки).",
+          "audio": "tr/3-10/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-10-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему ребёнок не пошёл в школу?",
+          "transcript": "Sabah çocuğun karnı ağrıyordu ve midesi kötüydü. Bugün evde dinleniyor.",
+          "options": [
+            "Утром болел живот и было плохо с желудком",
+            "У него болело горло и был кашель",
+            "Он всю ночь чихал от насморка",
+            "Он проспал и опоздал на автобус"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Karnı ağrıyordu (болел живот, от karın) ve midesi kötüydü (и желудок был не в порядке).",
+          "audio": "tr/3-10/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-10-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «грипп»:",
+          "transcript": "grip",
+          "accepted": [
+            "grip"
+          ],
+          "explain_ru": "Grip — грипп.",
+          "audio": "tr/3-10/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-10-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики (1/2): соберите фразу «У меня болит живот»:",
+          "source_text": "У меня болит живот.",
+          "bank": [
+            "ağrıyor",
+            "karnım"
+          ],
+          "accepted": [
+            "Karnım ağrıyor"
+          ],
+          "explain_ru": "Karnım ağrıyor — У меня болит живот (karın → karnım).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-10-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики (2/2): соберите фразу «У меня температура»:",
+          "source_text": "У меня температура.",
+          "bank": [
+            "var",
+            "ateşim"
+          ],
+          "accepted": [
+            "Ateşim var"
+          ],
+          "explain_ru": "Ateşim var — У меня температура (ateş + -im).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-10-wr-03",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → фраза: соедините каждый эмодзи симптома с турецкой фразой:",
+          "pairs": [
+            {
+              "left": "🤧",
+              "right": "Hapşırıyorum."
+            },
+            {
+              "left": "🤒",
+              "right": "Ateşim var."
+            },
+            {
+              "left": "😷",
+              "right": "Öksürüyorum."
+            }
+          ],
+          "explain_ru": "🤧 Hapşırıyorum (Я чихаю), 🤒 Ateşim var (У меня температура), 😷 Öksürüyorum (Я кашляю).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-10-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы симптомов и слова «боль / температура» с переводом:",
+          "pairs": [
+            {
+              "left": "ağrı",
+              "right": "боль"
+            },
+            {
+              "left": "ağrımak",
+              "right": "болеть"
+            },
+            {
+              "left": "ateş",
+              "right": "температура"
+            },
+            {
+              "left": "öksürmek",
+              "right": "кашлять"
+            },
+            {
+              "left": "hapşırmak",
+              "right": "чихать"
+            },
+            {
+              "left": "titremek",
+              "right": "дрожать"
+            }
+          ],
+          "explain_ru": "Ağrı, ağrımak, ateş, öksürmek, hapşırmak, titremek.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-10-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините болезни и части тела с переводом:",
+          "pairs": [
+            {
+              "left": "nezle",
+              "right": "насморк"
+            },
+            {
+              "left": "grip",
+              "right": "грипп"
+            },
+            {
+              "left": "boğaz",
+              "right": "горло"
+            },
+            {
+              "left": "karın",
+              "right": "живот"
+            },
+            {
+              "left": "mide",
+              "right": "желудок"
+            },
+            {
+              "left": "sırt",
+              "right": "спина"
+            }
+          ],
+          "explain_ru": "Nezle, grip, boğaz, karın, mide, sırt.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-10-wr-06",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Образуйте форму «мой живот» от слова «karın» (не забудьте о выпадении гласной!):",
+          "source_text": "karın → ?",
+          "accepted": [
+            "karnım",
+            "benim karnım"
+          ],
+          "explain_ru": "Как и в burun → burnum, в слове karın выпадает ı: karın + -ım → karnım.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-10-wr-07",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «У меня болит спина»:",
+          "source_text": "У меня болит спина.",
+          "accepted": [
+            "Sırtım ağrıyor",
+            "Benim sırtım ağrıyor"
+          ],
+          "explain_ru": "Sırt (спина) → sırtım ağrıyor.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-10-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: в слове «karın» при добавлении -ım выпадает узкая гласная:",
+          "buggy_text": "Benim karınım çok ağrıyor.",
+          "accepted": [
+            "Benim karnım çok ağrıyor."
+          ],
+          "explain_ru": "Правильная форма — karnım (не karınım): Benim karnım çok ağrıyor.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-10-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Три пациента. Прочитайте текст и ответьте на вопросы:",
+          "passage": "Ali'nin başı ağrıyor. Ayşe'nin boğazı ağrıyor ve ateşi var. Mehmet hapşırıyor, nezlesi var.",
+          "questions": [
+            {
+              "question_ru": "У кого температура?",
+              "options": [
+                "У Айше (Ayşe)",
+                "У Али (Ali)",
+                "У Мехмета (Mehmet)",
+                "У всех троих"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "у айше",
+                "айше",
+                "ayşe"
+              ]
+            },
+            {
+              "question_ru": "У кого насморк?",
+              "options": [
+                "У Мехмета (Mehmet)",
+                "У Али (Ali)",
+                "У Айше (Ayşe)",
+                "Ни у кого"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "у мехмета",
+                "мехмет",
+                "mehmet"
+              ]
+            }
+          ],
+          "explain_ru": "Ayşe'nin ateşi var (у Айше температура), Mehmet'in nezlesi var (у Мехмета насморк).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-10-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните глагол «болеть (о части тела)» — ağrımak:",
+          "target_text": "ağrımak",
+          "translation_ru": "болеть",
+          "example_text": "Dişim çok ağrıyor, doktora gidiyorum.",
+          "example_ru": "У меня сильно болит зуб, я иду к врачу.",
+          "explain_ru": "Подлежащим выступает сама часть тела с притяжательным аффиксом (başım, boğazım, dişim) + ağrıyor.",
+          "audio": "tr/3-10/w02.mp3"
+        },
+        {
+          "id": "tr-3-10-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать «Я дрожу» от глагола «titremek»?",
+          "question_text": "Çok üşüyorum, ___ .",
+          "options": [
+            "titriyorum",
+            "titreyorum",
+            "titremiyorum",
+            "titruyorum"
+          ],
+          "correct_index": 0,
+          "explain_ru": "У глагола titremek перед -yor конечная e сужается в i: titriyorum.",
+          "audio": "tr/3-10/w12.mp3"
+        },
+        {
+          "id": "tr-3-10-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильный перевод глагола «öksürmek»:",
+          "question_text": "öksürmek",
+          "options": [
+            "кашлять",
+            "чихать",
+            "дрожать",
+            "болеть"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Öksürmek — кашлять (hapşırmak — чихать, titremek — дрожать).",
+          "audio": "tr/3-10/w04.mp3"
+        },
+        {
+          "id": "tr-3-10-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильный перевод глагола «hapşırmak»:",
+          "question_text": "hapşırmak",
+          "options": [
+            "чихать",
+            "кашлять",
+            "дрожать",
+            "спешить"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hapşırmak — чихать (hapşırıyorum — я чихаю).",
+          "audio": "tr/3-10/w05.mp3"
+        },
+        {
+          "id": "tr-3-10-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «mide»?",
+          "question_text": "mide",
+          "options": [
+            "желудок",
+            "спина",
+            "горло",
+            "насморк"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Mide — желудок (midem ağrıyor — у меня болит желудок).",
+          "audio": "tr/3-10/w10.mp3"
+        },
+        {
+          "id": "tr-3-10-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «boğaz»?",
+          "question_text": "boğaz",
+          "options": [
+            "горло",
+            "живот",
+            "спина",
+            "боль"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Boğaz — горло (а также пролив, например İstanbul Boğazı — Босфор).",
+          "audio": "tr/3-10/w08.mp3"
+        },
+        {
+          "id": "tr-3-10-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку преподавателю и ответьте на вопрос:",
+          "passage": "Merhaba hocam (учитель)! Bugün derse gelemiyorum çünkü grip oldum. Dün akşamdan beri (со вчерашнего вечера) yüksek (высокая) ateşim var, titriyorum ve boğazım çok ağrıyor. Biraz dinlenmek istiyorum.",
+          "questions": [
+            {
+              "question_ru": "Почему ученик не может прийти на урок сегодня?",
+              "options": [
+                "Он заболел гриппом: высокая температура, озноб (дрожит) и болит горло",
+                "Он уехал в деревню к дедушке",
+                "У него болит только живот после обеда",
+                "Он проспал и не успел на автобус"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "заболел гриппом",
+                "грипп и температура",
+                "болен"
+              ]
+            }
+          ],
+          "explain_ru": "Grip oldum (заболел гриппом), yüksek ateşim var (высокая температура), titriyorum (дрожу), boğazım çok ağrıyor (сильно болит горло).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

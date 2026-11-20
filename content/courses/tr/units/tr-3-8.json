@@ -83,16 +83,510 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-8-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Вежливый турист» (1/2): обратитесь, попросите воду и озвучьте вежливый ответ:",
+          "target_text": "Pardon, bakar mısınız? Bir su alabilir miyim? Tabii, buyurun.",
+          "translation_ru": "Простите, позвольте обратиться? Можно взять одну воду? Конечно, пожалуйста.",
+          "explain_ru": "Pardon, bakar mısınız? — стандартный вежливый способ привлечь внимание. Buyurun — «пожалуйста (берите / проходите)».",
+          "audio": "tr/3-8/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-8-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Вежливый турист» (2/2): попросите повторить и одолжить ручку с ответом:",
+          "target_text": "Tekrar edebilir misiniz? Zahmet olmazsa kalemi ödünç alabilir miyim? Tabii, buyurun.",
+          "translation_ru": "Повторите, пожалуйста? Если не затруднит, можно взять взаймы ручку? Конечно, пожалуйста.",
+          "explain_ru": "Tekrar edebilir misiniz — повторите, пожалуйста; zahmet olmazsa — если не затруднит; ödünç almak — брать взаймы.",
+          "audio": "tr/3-8/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-8-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Предложите гостю чай и помощь (ister misiniz и yardım edebilir miyim):",
+          "target_text": "Hoş geldiniz! Size yardım edebilir miyim? Bir çay ister misiniz?",
+          "translation_ru": "Добро пожаловать! Я могу вам помочь? Хотите чаю?",
+          "explain_ru": "Yardım edebilir miyim? — Могу я помочь? İster misiniz? — Хотите?",
+          "audio": "tr/3-8/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-8-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите подождать секундочку и ответьте «не проблема»:",
+          "target_text": "Bir saniye lütfen! Sorun değil, bekliyorum.",
+          "translation_ru": "Секундочку, пожалуйста! Не проблема, я жду.",
+          "explain_ru": "Bir saniye — секундочку; sorun değil — не проблема.",
+          "audio": "tr/3-8/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-8-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Используйте глагол rica etmek («просить») и вежливый ответ «Rica ederim»:",
+          "target_text": "Sizden bir şey rica etmek istiyorum. Tabii, buyurun!",
+          "translation_ru": "Я хочу вас кое о чём попросить. Конечно, прошу!",
+          "explain_ru": "Rica etmek — просить (вежливо). От него же происходит ответ на «спасибо»: Rica ederim (не за что).",
+          "audio": "tr/3-8/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-8-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите закрыть дверь, если не затруднит:",
+          "target_text": "Zahmet olmazsa kapıyı kapatır mısınız? Sorun değil, hemen!",
+          "translation_ru": "Если не затруднит, закроете дверь? Не проблема, сейчас!",
+          "explain_ru": "Zahmet olmazsa (если не затруднит) делает любую просьбу максимально вежливой.",
+          "audio": "tr/3-8/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-8-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите повторить медленнее:",
+          "target_text": "Pardon, anlamadım. Biraz yavaş tekrar edebilir misiniz?",
+          "translation_ru": "Простите, я не понял. Не могли бы вы повторить немного медленнее?",
+          "explain_ru": "Pardon — простите; tekrar edebilir misiniz — не могли бы вы повторить.",
+          "audio": "tr/3-8/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-8-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите взять взаймы книгу у друга:",
+          "target_text": "Bu kitabı bir hafta ödünç alabilir miyim? Tabii, sorun değil!",
+          "translation_ru": "Можно взять взаймы эту книгу на неделю? Конечно, не проблема!",
+          "explain_ru": "Ödünç almak (брать взаймы) + alabilir miyim (можно взять) → ödünç alabilir miyim?",
+          "audio": "tr/3-8/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-8-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "У стойки: что просит посетитель?",
+          "transcript": "Pardon, bakar mısınız? Bir bilet alabilir miyim? Tabii, buyurun.",
+          "options": [
+            "Билет",
+            "Воду",
+            "Карту города",
+            "Ручку взаймы"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bir bilet alabilir miyim? — Можно мне один билет?",
+          "audio": "tr/3-8/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-8-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «пожалуйста (прошу)»:",
+          "transcript": "buyurun",
+          "accepted": [
+            "buyurun"
+          ],
+          "explain_ru": "Buyurun — пожалуйста (когда что-то подают, приглашают войти или отвечают на обращение).",
+          "audio": "tr/3-8/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-8-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите фразу «не проблема»:",
+          "transcript": "sorun değil",
+          "accepted": [
+            "sorun değil"
+          ],
+          "explain_ru": "Sorun değil — не проблема.",
+          "audio": "tr/3-8/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-8-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что предлагает продавец покупателю?",
+          "transcript": "Merhaba! Size yardım edebilir miyim? Kahve ister misiniz?",
+          "options": [
+            "Помочь и угостить кофе",
+            "Подождать одну секунду",
+            "Повторить вопрос",
+            "Взять ручку взаймы"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yardım edebilir miyim? (Могу помочь?) и Kahve ister misiniz? (Хотите кофе?).",
+          "audio": "tr/3-8/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-8-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите фразу «секундочку»:",
+          "transcript": "bir saniye",
+          "accepted": [
+            "bir saniye"
+          ],
+          "explain_ru": "Bir saniye — секундочку.",
+          "audio": "tr/3-8/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-8-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «простите»:",
+          "transcript": "pardon",
+          "accepted": [
+            "pardon"
+          ],
+          "explain_ru": "Pardon — простите, извините (при обращении к незнакомцу или мелкой неловкости).",
+          "audio": "tr/3-8/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-8-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О чём просит собеседник?",
+          "transcript": "Bir saniye, zahmet olmazsa adresi tekrar edebilir misiniz?",
+          "options": [
+            "Подождать секундочку и повторить адрес",
+            "Принести счёт и стакан воды",
+            "Дать телефон взаймы",
+            "Помочь донести чемодан"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bir saniye (секундочку), zahmet olmazsa (если не затруднит), adresi tekrar edebilir misiniz (повторите адрес).",
+          "audio": "tr/3-8/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-8-ls-08",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что хочет сделать говорящий?",
+          "transcript": "Sözlüğünü bugün ödünç almak istiyorum. Rica etsem verir misin?",
+          "options": [
+            "Взять взаймы словарь на сегодня",
+            "Купить новый словарь в магазине",
+            "Подарить другу словарь",
+            "Найти потерянный словарь"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Ödünç almak — брать взаймы; rica etmek — просить.",
+          "audio": "tr/3-8/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-8-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите вежливую просьбу «Можно взять одну воду?»:",
+          "source_text": "Можно взять одну воду?",
+          "bank": [
+            "alabilir",
+            "bir",
+            "miyim",
+            "su"
+          ],
+          "accepted": [
+            "Bir su alabilir miyim"
+          ],
+          "explain_ru": "Bir su alabilir miyim? — Можно мне (взять) воду?",
+          "audio": null
+        },
+        {
+          "id": "tr-3-8-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допиши (1/2): вставьте пропущенное слово в «Yardım ___ miyim?» («Я могу помочь?»):",
+          "source_text": "Yardım ___ miyim?",
+          "accepted": [
+            "edebilir",
+            "Yardım edebilir miyim"
+          ],
+          "explain_ru": "Yardım etmek + -(y)ebilir → yardım edebilir miyim? (t → d перед гласной).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-8-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допиши (2/2): вставьте пропущенное слово в «Kalemi ödünç ___ miyim?» («Можно взять ручку взаймы?»):",
+          "source_text": "Kalemi ödünç ___ miyim?",
+          "accepted": [
+            "alabilir",
+            "Kalemi ödünç alabilir miyim"
+          ],
+          "explain_ru": "Ödünç almak → ödünç alabilir miyim?",
+          "audio": null
+        },
+        {
+          "id": "tr-3-8-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Ответьте вежливо на «Teşekkürler!» («Не за что» или «Не проблема»):",
+          "source_text": "— Teşekkürler! — ___",
+          "accepted": [
+            "Rica ederim",
+            "Sorun değil"
+          ],
+          "explain_ru": "На благодарность отвечают «Rica ederim» (не за что) или «Sorun değil» (не проблема).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-8-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините вежливые слова и глаголы с переводом:",
+          "pairs": [
+            {
+              "left": "buyurun",
+              "right": "пожалуйста (прошу)"
+            },
+            {
+              "left": "rica etmek",
+              "right": "просить"
+            },
+            {
+              "left": "zahmet olmazsa",
+              "right": "если не затруднит"
+            },
+            {
+              "left": "sorun değil",
+              "right": "не проблема"
+            },
+            {
+              "left": "ödünç almak",
+              "right": "брать взаймы"
+            },
+            {
+              "left": "pardon",
+              "right": "простите"
+            }
+          ],
+          "explain_ru": "Buyurun, rica etmek, zahmet olmazsa, sorun değil, ödünç almak, pardon.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-8-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините вежливые вопросы и фразы с переводом:",
+          "pairs": [
+            {
+              "left": "alabilir miyim",
+              "right": "можно взять"
+            },
+            {
+              "left": "ister misiniz",
+              "right": "хотите"
+            },
+            {
+              "left": "bakar mısınız",
+              "right": "позвольте обратиться"
+            },
+            {
+              "left": "bir saniye",
+              "right": "секундочку"
+            },
+            {
+              "left": "tekrar edebilir misiniz",
+              "right": "повторите, пожалуйста"
+            },
+            {
+              "left": "yardım edebilir miyim",
+              "right": "могу помочь"
+            }
+          ],
+          "explain_ru": "Готовые вежливые формулы с -ebilir/-ir — основа ежедневного общения в Турции.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-8-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Кубики: соберите вежливое предложение «Хотите один чай?»:",
+          "source_text": "Хотите чаю?",
+          "bank": [
+            "misiniz",
+            "çay",
+            "bir",
+            "ister"
+          ],
+          "accepted": [
+            "Bir çay ister misiniz"
+          ],
+          "explain_ru": "Bir çay ister misiniz? — Хотите чаю?",
+          "audio": null
+        },
+        {
+          "id": "tr-3-8-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: проверьте гармонию гласных в вопросительной частице («Простите, позвольте обратиться?»):",
+          "buggy_text": "Pardon, bakar musunuz?",
+          "accepted": [
+            "Pardon, bakar mısınız?"
+          ],
+          "explain_ru": "В слове bakar последняя гласная — a, поэтому по гармонии гласных нужна частица mısınız (не musunuz).",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-8-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "В кафе. Прочитайте диалог и ответьте на вопрос:",
+          "passage": "— Bakar mısınız? — Buyurun. — Bir çay alabilir miyim? Zahmet olmazsa şekersiz (без сахара). — Tabii, sorun değil.",
+          "questions": [
+            {
+              "question_ru": "Что заказал гость в кафе?",
+              "options": [
+                "Чай без сахара",
+                "Кофе с молоком и сахаром",
+                "Стакан холодной воды",
+                "Чай с лимоном и торт"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "чай без сахара",
+                "şekersiz çay"
+              ]
+            }
+          ],
+          "explain_ru": "Bir çay alabilir miyim? Zahmet olmazsa şekersiz — Можно чай? Если не затруднит, без сахара.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-8-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните вежливую фразу «если не затруднит»:",
+          "target_text": "zahmet olmazsa",
+          "translation_ru": "если не затруднит",
+          "example_text": "Zahmet olmazsa pencereyi açar mısınız?",
+          "example_ru": "Если не затруднит, откроете окно?",
+          "explain_ru": "Буквально: «если не будет затруднения» (zahmet — труд, хлопоты).",
+          "audio": "tr/3-8/w03.mp3"
+        },
+        {
+          "id": "tr-3-8-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "В какой ситуации говорят «Buyurun» (а не «Lütfen»)?",
+          "question_text": "Выберите правильную ситуацию для «Buyurun»:",
+          "options": [
+            "Когда подаёте что-то, приглашаете войти или отвечаете на обращение",
+            "Когда сами просите официанта принести меню",
+            "Когда извиняетесь за опоздание",
+            "Когда прощаетесь на ночь"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Lütfen — «пожалуйста» при просьбе; Buyurun — «пожалуйста, прошу» при предложении/вручении.",
+          "audio": "tr/3-8/w01.mp3"
+        },
+        {
+          "id": "tr-3-8-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что сказать, если собеседник говорит слишком быстро и вы не расслышали?",
+          "question_text": "Выберите подходящую просьбу:",
+          "options": [
+            "Pardon, tekrar edebilir misiniz?",
+            "Yardım edebilir miyim?",
+            "Bir çay ister misiniz?",
+            "Sorun değil, buyurun!"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Pardon, tekrar edebilir misiniz? — Простите, повторите, пожалуйста?",
+          "audio": null
+        },
+        {
+          "id": "tr-3-8-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает глагол «ödünç almak»?",
+          "question_text": "ödünç almak",
+          "options": [
+            "брать взаймы",
+            "просить",
+            "помогать",
+            "повторять"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Ödünç almak — брать взаймы, одалживать (на время).",
+          "audio": "tr/3-8/w05.mp3"
+        },
+        {
+          "id": "tr-3-8-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какой фразой официант или продавец предлагает помощь?",
+          "question_text": "Выберите правильный вариант:",
+          "options": [
+            "Size yardım edebilir miyim?",
+            "Bakar mısınız?",
+            "Bir su alabilir miyim?",
+            "Tekrar edebilir misiniz?"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Size yardım edebilir miyim? — Могу я вам помочь?",
+          "audio": null
+        },
+        {
+          "id": "tr-3-8-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает глагол «rica etmek»?",
+          "question_text": "rica etmek",
+          "options": [
+            "просить",
+            "отклонять",
+            "отдыхать",
+            "кричать"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Rica etmek — просить (вежливо).",
+          "audio": "tr/3-8/w02.mp3"
+        },
+        {
+          "id": "tr-3-8-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте диалог в отеле и ответьте на вопрос:",
+          "passage": "— Pardon, bakar mısınız? — Buyurun, size yardım edebilir miyim? — Bir şehir haritası alabilir miyim? — Bir saniye lütfen... Buyurun, sorun değil. Başka bir şey ister misiniz? — Hayır, teşekkürler!",
+          "questions": [
+            {
+              "question_ru": "Что попросил турист на ресепшене?",
+              "options": [
+                "Карту города",
+                "Ключ от комнаты",
+                "Стакан воды",
+                "Паспорт"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "карту города",
+                "карту",
+                "şehir haritası"
+              ]
+            }
+          ],
+          "explain_ru": "Bir şehir haritası alabilir miyim? — Можно взять карту города?",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

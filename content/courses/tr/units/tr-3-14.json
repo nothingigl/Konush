@@ -83,16 +83,398 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-14-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мой ритуал (1/2): расскажите вслух о своём утре:",
+          "target_text": "Her sabah alarmla kalkarım. Duş alırım. Giyinirim.",
+          "translation_ru": "Каждое утро я встаю по будильнику. Принимаю душ. Одеваюсь.",
+          "explain_ru": "Настоящее-будущее время (аорист на -ar/-er/-ır/-ir) выражает регулярные привычки.",
+          "audio": "tr/3-14/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-14-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мой ритуал (2/2): расскажите о своём вечере:",
+          "target_text": "Akşam dişlerimi fırçalarım ve yatarım.",
+          "translation_ru": "Вечером я чищу зубы и ложусь спать.",
+          "explain_ru": "Dişlerimi fırçalarım — я чищу (свои) зубы, yatarım — я ложусь (от yatmak).",
+          "audio": "tr/3-14/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-14-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что регулярно принимать душ и чистить зубы — хорошая привычка:",
+          "target_text": "Düzenli duş almak ve diş fırçalamak iyi bir alışkanlık.",
+          "translation_ru": "Регулярно принимать душ и чистить зубы — хорошая привычка.",
+          "explain_ru": "Düzenli — регулярно, duş almak — принимать душ, diş fırçalamak — чистить зубы, alışkanlık — привычка.",
+          "audio": "tr/3-14/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-14-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что каждый вечер вы читаете книгу и редко ложитесь поздно:",
+          "target_text": "Her akşam kitap okurum ve nadiren geç yatarım.",
+          "translation_ru": "Каждый вечер я читаю книгу и редко ложусь поздно.",
+          "explain_ru": "Her akşam — каждый вечер, nadiren — редко.",
+          "audio": "tr/3-14/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-14-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что утром вы хотите быстро одеться и побриться:",
+          "target_text": "Sabah hızlı giyinmek ve tıraş olmak istiyorum.",
+          "translation_ru": "Утром я хочу быстро одеться и побриться.",
+          "explain_ru": "Giyinmek — одеваться, tıraş olmak — бриться.",
+          "audio": "tr/3-14/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-14-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что рано ложиться и рано вставать — очень хорошо:",
+          "target_text": "Erken yatmak ve erken kalkmak çok güzel.",
+          "translation_ru": "Рано ложиться и рано вставать — очень хорошо.",
+          "explain_ru": "Yatmak — ложиться, kalkmak — вставать.",
+          "audio": "tr/3-14/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-14-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваш будильник звонит в семь утра:",
+          "target_text": "Alarm her sabah saat yedide çalar.",
+          "translation_ru": "Будильник звонит каждое утро в семь часов.",
+          "explain_ru": "Alarm — будильник, çalar — звонит (аорист от çalmak).",
+          "audio": "tr/3-14/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-14-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы не пьёте кофе по вечерам:",
+          "target_text": "Her akşam çay içerim, kahve içmem.",
+          "translation_ru": "Каждый вечер я пью чай, кофе не пью.",
+          "explain_ru": "Отрицание аориста в 1-м лице единственного числа: -mam/-mem (içmem — я не пью).",
+          "audio": "tr/3-14/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-14-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Режим Айше. Прослушайте запись и ответьте: когда встаёт Айше и как часто она поздно ложится?",
+          "transcript": "Ayşe her sabah altıda kalkar. Düzenli spor yapar. Nadiren geç yatar.",
+          "options": [
+            "Встаёт в шесть, поздно ложится редко",
+            "Встаёт в семь, поздно ложится каждый день",
+            "Встаёт в восемь, регулярно спит днём",
+            "Встаёт в шесть, никогда не занимается спортом"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Her sabah altıda kalkar — встаёт каждое утро в шесть; nadiren geç yatar — редко ложится поздно.",
+          "audio": "tr/3-14/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-14-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «привычка»:",
+          "transcript": "alışkanlık",
+          "accepted": ["alışkanlık"],
+          "explain_ru": "Alışkanlık — привычка (обратите внимание на буквы ı и ş).",
+          "audio": "tr/3-14/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-14-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «регулярно»:",
+          "transcript": "düzenli",
+          "accepted": ["düzenli"],
+          "explain_ru": "Düzenli — регулярно, упорядоченно.",
+          "audio": "tr/3-14/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-14-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что Али делает каждый вечер?",
+          "transcript": "Ali her akşam duş alır, dişlerini fırçalar ve saat onda yatar.",
+          "options": [
+            "Принимает душ, чистит зубы и ложится в десять",
+            "Бреется, завтракает и идёт на работу",
+            "Читает газету и пьёт кофе",
+            "Ставит будильник на восемь и ужинает"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Her akşam duş alır (принимает душ), dişlerini fırçalar (чистит зубы) ve saat onda yatar (ложится в 10).",
+          "audio": "tr/3-14/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-14-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «редко»:",
+          "transcript": "nadiren",
+          "accepted": ["nadiren"],
+          "explain_ru": "Nadiren — редко.",
+          "audio": "tr/3-14/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-14-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «будильник»:",
+          "transcript": "alarm",
+          "accepted": ["alarm"],
+          "explain_ru": "Alarm — будильник.",
+          "audio": "tr/3-14/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-14-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Мехмет не опаздывает на работу?",
+          "transcript": "Benim iyi bir alışkanlığım var: her sabah alarmla kalkarım, tıraş olurum ve hızlı giyinirim.",
+          "options": [
+            "Он встаёт по будильнику, бреется и быстро одевается",
+            "Он работает дома",
+            "Он не принимает душ утром",
+            "Он редко ходит на работу"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Alarmla kalkarım (встаю по будильнику), tıraş olurum (бреюсь), hızlı giyinirim (быстро одеваюсь).",
+          "audio": "tr/3-14/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-14-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки фразу «каждый вечер»:",
+          "transcript": "her akşam",
+          "accepted": ["her akşam"],
+          "explain_ru": "Her akşam — каждый вечер.",
+          "audio": "tr/3-14/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-14-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Аорист: поставьте глагол «kalkmak» в форму «ben» («я встаю»):",
+          "source_text": "kalkmak, ben → ?",
+          "accepted": ["kalkarım", "Ben kalkarım"],
+          "explain_ru": "Односложный глагол kalk- принимает аффикс -ar + -ım → kalkarım.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-14-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Аорист: поставьте глагол «yatmak» в форму «sen» («ты ложишься»):",
+          "source_text": "yatmak, sen → ?",
+          "accepted": ["yatarsın", "Sen yatarsın"],
+          "explain_ru": "Односложный глагол yat- принимает -ar + -sın → yatarsın.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-14-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Аорист: поставьте глагол «almak» в форму «o» («он берёт / принимает»):",
+          "source_text": "almak, o → ?",
+          "accepted": ["alır", "O alır"],
+          "explain_ru": "Глагол almak — исключение среди односложных: он принимает -ır → alır.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-14-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Аорист: поставьте глагол «yapmak» в форму «biz» («мы делаем»):",
+          "source_text": "yapmak, biz → ?",
+          "accepted": ["yaparız", "Biz yaparız"],
+          "explain_ru": "Односложный глагол yap- принимает -ar + -ız → yaparız.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-14-wr-05",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Аорист: поставьте глагол «gitmek» в форму «onlar» («они ходят»):",
+          "source_text": "gitmek, onlar → ?",
+          "accepted": ["giderler", "Onlar giderler"],
+          "explain_ru": "В gitmek происходит озвончение t → d: gid-er-ler → giderler.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-14-wr-06",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Отрицание в аористе: переделайте «Ben kahve içerim» в отрицательную форму («Я не пью кофе»):",
+          "source_text": "Ben kahve içerim → отрицание",
+          "accepted": ["Ben kahve içmem", "Kahve içmem"],
+          "explain_ru": "В 1-м лице отрицательный аорист образуется с помощью -mam/-mem: içmem.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-14-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините ежедневные действия с их переводом:",
+          "pairs": [
+            { "left": "duş almak", "right": "принимать душ" },
+            { "left": "diş fırçalamak", "right": "чистить зубы" },
+            { "left": "giyinmek", "right": "одеваться" },
+            { "left": "tıraş olmak", "right": "бриться" }
+          ],
+          "explain_ru": "Duş almak, diş fırçalamak, giyinmek, tıraş olmak.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-14-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: исправьте аффикс аориста у глагола kalkmak («Я каждое утро встаю в шесть»):",
+          "buggy_text": "Ben her sabah altıda kalkırım.",
+          "accepted": ["Ben her sabah altıda kalkarım."],
+          "explain_ru": "Односложный глагол kalkmak в аористе принимает -ar, а не -ır: kalkarım.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-14-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Утро Мехмета. Прочитайте текст и ответьте на вопрос:",
+          "passage": "Mehmet her sabah erken kalkar. Duş alır, tıraş olur, giyinir. Sonra kahvaltı yapar. Nadiren geç kalır.",
+          "questions": [
+            {
+              "question_ru": "Что Мехмет делает после душа?",
+              "options": [
+                "бреется и одевается (tıraş olur, giyinir)",
+                "сразу ложится спать",
+                "чистит зубы и читает книгу",
+                "занимается спортом"
+              ],
+              "correct_index": 0,
+              "accepted": ["бреется и одевается", "tıraş olur, giyinir", "tıraş olur ve giyinir"]
+            }
+          ],
+          "explain_ru": "Duş alır, tıraş olur, giyinir — Принимает душ, бреется, одевается.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-14-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните глагол «giyinmek»:",
+          "target_text": "giyinmek",
+          "translation_ru": "одеваться",
+          "example_text": "Her sabah duştan sonra hızlı giyinirim.",
+          "example_ru": "Каждое утро после душа я быстро одеваюсь.",
+          "explain_ru": "Многосложный глагол giyin- принимает в аористе узкую гласную -ir: giyinirim.",
+          "audio": "tr/3-14/w10.mp3"
+        },
+        {
+          "id": "tr-3-14-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «alışkanlık»:",
+          "question_text": "alışkanlık",
+          "options": ["привычка", "будильник", "завтрак", "расписание"],
+          "correct_index": 0,
+          "explain_ru": "Alışkanlık — привычка.",
+          "audio": "tr/3-14/w01.mp3"
+        },
+        {
+          "id": "tr-3-14-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «nadiren»?",
+          "question_text": "nadiren",
+          "options": ["редко", "регулярно", "каждое утро", "всегда"],
+          "correct_index": 0,
+          "explain_ru": "Nadiren — редко (антоним düzenli — регулярно).",
+          "audio": "tr/3-14/w03.mp3"
+        },
+        {
+          "id": "tr-3-14-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильный перевод фразы «diş fırçalamak»:",
+          "question_text": "diş fırçalamak",
+          "options": [
+            "чистить зубы",
+            "принимать душ",
+            "бриться",
+            "одеваться"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Diş — зуб, fırçalamak — чистить щёткой.",
+          "audio": "tr/3-14/w07.mp3"
+        },
+        {
+          "id": "tr-3-14-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте распорядок дня Элиф и ответьте на вопрос:",
+          "passage": "Elif'in düzenli bir hayatı (жизнь) var. Her sabah alarmla yedide kalkar. Her akşam kitap okur ve saat on birde yatar.",
+          "questions": [
+            {
+              "question_ru": "Во сколько Элиф обычно ложится спать?",
+              "options": [
+                "в одиннадцать (on birde)",
+                "в семь (yedide)",
+                "в девять (dokuzda)",
+                "в десять (onda)"
+              ],
+              "correct_index": 0,
+              "accepted": ["в одиннадцать", "в 11", "11", "on birde"]
+            }
+          ],
+          "explain_ru": "Saat on birde yatar — Ложится в одиннадцать часов.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-14-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «tıraş olmak»:",
+          "question_text": "tıraş olmak",
+          "options": ["бриться", "вставать", "ложиться", "принимать душ"],
+          "correct_index": 0,
+          "explain_ru": "Tıraş olmak — бриться.",
+          "audio": "tr/3-14/w11.mp3"
+        },
+        {
+          "id": "tr-3-14-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать «Она не пьёт молоко» в аористе (3-е лицо)?",
+          "question_text": "O süt ___.",
+          "options": ["içmez", "içmem", "içer", "içmezsin"],
+          "correct_index": 0,
+          "explain_ru": "В 3-м лице отрицательный аорист имеет аффикс -maz/-mez: içmez.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

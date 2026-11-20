@@ -124,6 +124,20 @@ function checkExerciseQuality(ex: Exercise, locale: string, errors: string[]): v
       }
     }
   }
+  if (ex.type === 'speak_repeat' && /[А-Яа-яЁё]/.test(ex.target_text)) {
+    errors.push(
+      `Quality violation in ${ex.id}: speak_repeat target_text contains Cyrillic characters ("${ex.target_text}")`,
+    );
+  }
+
+  if (
+    (ex.type === 'listen_choose' || ex.type === 'listen_type') &&
+    /[А-Яа-яЁё]/.test(ex.transcript)
+  ) {
+    errors.push(
+      `Quality violation in ${ex.id}: ${ex.type} transcript contains Cyrillic characters ("${ex.transcript}")`,
+    );
+  }
 }
 
 function collectExerciseText(ex: Exercise): string {

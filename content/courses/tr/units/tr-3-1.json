@@ -83,16 +83,425 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-1-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Нет-нет-нет» (1/3): ответьте отказом вслух с глаголами içmek и yemek:",
+          "target_text": "Kahve içiyor musun? Hayır, içmiyorum. Et yiyor musun? Hayır, yemiyorum.",
+          "translation_ru": "Ты пьёшь кофе? Нет, не пью. Ты ешь мясо? Нет, не ем.",
+          "explain_ru": "Отрицание глаголов в настоящем времени строится с аффиксом -mıyor/-miyor/-muyor/-müyor: içmek → içmiyorum, yemek → yemiyorum.",
+          "audio": "tr/3-1/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-1-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Нет-нет-нет» (2/3): ответьте отказом с глаголами bilmek и istemek:",
+          "target_text": "Türkçe biliyor musun? Henüz bilmiyorum. Şeker istiyor musun? Hayır, istemiyorum.",
+          "translation_ru": "Ты знаешь турецкий? Ещё не знаю. Ты хочешь сахар? Нет, не хочу.",
+          "explain_ru": "Henüz — ещё (не). Глаголы bilmek (знать) и istemek (хотеть) в отрицании: bilmiyorum, istemiyorum.",
+          "audio": "tr/3-1/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-1-sp-03",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Нет-нет-нет» (3/3): откажите с глаголами duymak и beğenmek:",
+          "target_text": "Beni duyuyor musun? Hayır, duymuyorum. Bu filmi beğeniyor musun? Hayır, beğenmiyorum.",
+          "translation_ru": "Ты меня слышишь? Нет, не слышу. Тебе нравится этот фильм? Нет, не нравится.",
+          "explain_ru": "Duymak (слышать) → duymuyorum (после u идёт -muyor); beğenmek (одобрять, нравиться) → beğenmiyorum.",
+          "audio": "tr/3-1/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-1-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите именное отрицание со словом değil:",
+          "target_text": "Bu çay sıcak değil. Bu soru zor değil.",
+          "translation_ru": "Этот чай не горячий. Этот вопрос не трудный.",
+          "explain_ru": "Слово değil (не) всегда ставится ПОСЛЕ прилагательного или существительного: sıcak değil, zor değil.",
+          "audio": "tr/3-1/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-1-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите о привычках со словами artık и asla:",
+          "target_text": "Artık şeker yemiyorum. Asla kahve içmiyorum.",
+          "translation_ru": "Я больше не ем сахар. Я никогда не пью кофе.",
+          "explain_ru": "Artık — больше (не), asla — никогда. Оба наречия усиливают отрицание глагола.",
+          "audio": "tr/3-1/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-1-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите фразу с конструкцией «ne… ne de» («ни… ни»):",
+          "target_text": "Ben ne et ne de balık yiyorum.",
+          "translation_ru": "Я не ем ни мясо, ни рыбу.",
+          "explain_ru": "После конструкции ne… ne de глагол в разговорном турецком часто стоит в утвердительной форме (yiyorum), так как отрицание уже передано союзом.",
+          "audio": "tr/3-1/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-1-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы ещё не готовы и не спешите (используйте değil и henüz):",
+          "target_text": "Henüz hazır değilim. Ben şimdi eve gitmiyorum.",
+          "translation_ru": "Я ещё не готов. Я сейчас не иду домой.",
+          "explain_ru": "Değil принимает личные окончания: değilim (я не…), değilsin (ты не…). Hazır — готовый.",
+          "audio": "tr/3-1/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-1-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Повторите фразу о том, что друг не слышит и не понимает:",
+          "target_text": "Ali beni duymuyor ve bu dersi anlamıyor.",
+          "translation_ru": "Али меня не слышит и не понимает этот урок.",
+          "explain_ru": "В 3-м лице ед. числа: anlamak → anlamıyor (аффикс -mıyor после a/ı), duymak → duymuyor.",
+          "audio": "tr/3-1/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-1-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Ловец «нет»: кто не хочет кофе и что не нравится «нам»?",
+          "transcript": "Ben çay içmiyorum. Ali kahve istemiyor. Biz bu filmi beğenmiyoruz.",
+          "options": [
+            "Али не хочет кофе; нам не нравится этот фильм",
+            "Я не хочу кофе; Али не нравится чай",
+            "Али не пьёт чай; мы хотим кофе",
+            "Мы не любим кофе; Али не смотрит фильм"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Ali kahve istemiyor (Али не хочет кофе). Biz bu filmi beğenmiyoruz (Нам не нравится этот фильм).",
+          "audio": "tr/3-1/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-1-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово отрицания для именного сказуемого («не»):",
+          "transcript": "değil",
+          "accepted": ["değil"],
+          "explain_ru": "Değil — не (используется с существительными и прилагательными).",
+          "audio": "tr/3-1/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-1-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что говорящий говорит о турецком языке?",
+          "transcript": "Ben henüz Türkçe bilmiyorum ama öğrenmek istiyorum.",
+          "options": [
+            "Он ещё не знает турецкий, но хочет учить",
+            "Он уже свободно говорит по-турецки",
+            "Он больше не хочет учить турецкий",
+            "Он никогда не слышал турецкий язык"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Henüz Türkçe bilmiyorum — ещё не знаю турецкий (от bilmek — знать).",
+          "audio": "tr/3-1/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-1-ls-04",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите наречие «никогда»:",
+          "transcript": "asla",
+          "accepted": ["asla"],
+          "explain_ru": "Asla — никогда.",
+          "audio": "tr/3-1/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-1-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Айше не ест в этом ресторане?",
+          "transcript": "Ayşe bu restoranı beğenmiyor. Yemekler lezzetli değil.",
+          "options": [
+            "Ей не нравится этот ресторан, еда невкусная",
+            "У неё нет денег на ресторан",
+            "Ресторан сейчас закрыт",
+            "Она уже пообедала дома"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Beğenmiyor (от beğenmek — одобрять, нравиться); lezzetli değil — невкусные.",
+          "audio": "tr/3-1/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-1-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «больше (не)»:",
+          "transcript": "artık",
+          "accepted": ["artık"],
+          "explain_ru": "Artık — больше (не), уже (пишется с буквой ı без точки).",
+          "audio": "tr/3-1/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-1-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что НЕ ест и НЕ пьёт говорящий?",
+          "transcript": "Ben ne süt ne de kahve içiyorum. Sadece su içiyorum.",
+          "options": [
+            "Ни молоко, ни кофе (пьёт только воду)",
+            "Ни чай, ни воду (пьёт только молоко)",
+            "Только кофе без молока",
+            "И молоко, и кофе, и воду"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Ne süt ne de kahve — ни молоко, ни кофе (sadece — только).",
+          "audio": "tr/3-1/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-1-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите фразу «Я не слышу»:",
+          "transcript": "Duymuyorum.",
+          "accepted": ["Duymuyorum"],
+          "explain_ru": "Duymuyorum — я не слышу (от duymak — слышать).",
+          "audio": "tr/3-1/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-1-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Сделай отрицание (1/4): превратите «Ben su içiyorum» в отрицательное предложение:",
+          "source_text": "Ben su içiyorum → ?",
+          "accepted": ["Ben su içmiyorum", "Su içmiyorum"],
+          "explain_ru": "İçmek (пить): основа iç + -miyor + -um → içmiyorum.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-1-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Сделай отрицание (2/4): превратите «Sen beni duyuyorsun» в отрицательное предложение:",
+          "source_text": "Sen beni duyuyorsun → ?",
+          "accepted": ["Sen beni duymuyorsun", "Beni duymuyorsun"],
+          "explain_ru": "Duymak (слышать): основа duy + -muyor + -sun → duymuyorsun.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-1-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Сделай отрицание (3/4): превратите «O Türkçe biliyor» в отрицательное предложение:",
+          "source_text": "O Türkçe biliyor → ?",
+          "accepted": ["O Türkçe bilmiyor", "Türkçe bilmiyor"],
+          "explain_ru": "Bilmek (знать): основа bil + -miyor → bilmiyor.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-1-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Сделай отрицание (4/4): превратите «Biz et yiyoruz» в отрицательное предложение:",
+          "source_text": "Biz et yiyoruz → ?",
+          "accepted": ["Biz et yemiyoruz", "Et yemiyoruz"],
+          "explain_ru": "Yemek (есть): в отрицании основа ye сохраняет гласную e → yemiyoruz.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-1-wr-05",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: поставьте слово değil на правильное место в предложении:",
+          "buggy_text": "Bu kitap değil güzel.",
+          "accepted": ["Bu kitap güzel değil."],
+          "explain_ru": "В турецком değil всегда стоит в конце именного сказуемого: Bu kitap güzel değil.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-1-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова отрицания и наречия с их переводом:",
+          "pairs": [
+            { "left": "değil", "right": "не (именное сказуемое)" },
+            { "left": "-mıyor", "right": "не (глагол, наст.)" },
+            { "left": "henüz", "right": "ещё (не)" },
+            { "left": "artık", "right": "больше (не)" },
+            { "left": "asla", "right": "никогда" },
+            { "left": "ne… ne de", "right": "ни… ни" }
+          ],
+          "explain_ru": "Запомните ключевые маркеры отрицания: değil, -mıyor, henüz, artık, asla, ne… ne de.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-1-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы юнита с их русским переводом:",
+          "pairs": [
+            { "left": "duymak", "right": "слышать" },
+            { "left": "beğenmek", "right": "одобрять" },
+            { "left": "içmek", "right": "пить" },
+            { "left": "yemek", "right": "есть" },
+            { "left": "bilmek", "right": "знать" },
+            { "left": "istemek", "right": "хотеть" }
+          ],
+          "explain_ru": "Основные глаголы этого юнита: duymak, beğenmek, içmek, yemek, bilmek, istemek.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-1-wr-08",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Кубики: соберите предложение «Я никогда не пью кофе»:",
+          "source_text": "Я никогда не пью кофе.",
+          "bank": ["asla", "kahve", "ben", "içmiyorum"],
+          "accepted": ["Ben asla kahve içmiyorum"],
+          "explain_ru": "Ben asla kahve içmiyorum — Я никогда не пью кофе.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-1-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Диета Али. Прочитайте текст и ответьте на вопросы:",
+          "passage": "Ali artık şeker yemiyor. Çay içiyor ama kahve içmiyor. Ne et ne de balık yiyor.",
+          "questions": [
+            {
+              "question_ru": "Что Али пьёт, а что не пьёт?",
+              "options": [
+                "Пьёт чай, но не пьёт кофе",
+                "Пьёт кофе, но не пьёт чай",
+                "Не пьёт ни чай, ни кофе",
+                "Пьёт только воду с сахаром"
+              ],
+              "correct_index": 0,
+              "accepted": ["пьёт чай, не пьёт кофе", "чай пьёт, кофе нет"]
+            },
+            {
+              "question_ru": "Ест ли Али рыбу?",
+              "options": [
+                "Нет (он не ест ни мясо, ни рыбу)",
+                "Да, он ест только рыбу",
+                "Да, он ест и мясо, и рыбу",
+                "В тексте об этом не говорится"
+              ],
+              "correct_index": 0,
+              "accepted": ["нет", "не ест"]
+            }
+          ],
+          "explain_ru": "Çay içiyor ama kahve içmiyor — пьёт чай, но не пьёт кофе. Ne et ne de balık yiyor — не ест ни мясо, ни рыбу.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-1-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните отрицательный аффикс настоящего времени (-mıyor/-miyor/-muyor/-müyor):",
+          "target_text": "-mıyor",
+          "translation_ru": "не (глагол, наст.)",
+          "example_text": "O bu dersi anlamıyor.",
+          "example_ru": "Он не понимает этот урок.",
+          "explain_ru": "Перед -yor гласная отрицания сужается по гармонии на 4: a/ı → -mıyor, e/i → -miyor, o/u → -muyor, ö/ü → -müyor.",
+          "audio": "tr/3-1/w02.mp3"
+        },
+        {
+          "id": "tr-3-1-rd-03",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните парный союз «ни… ни»:",
+          "target_text": "ne… ne de",
+          "translation_ru": "ни… ни",
+          "example_text": "Ne çay ne de kahve istiyorum.",
+          "example_ru": "Я не хочу ни чая, ни кофе.",
+          "explain_ru": "Союз ne… ne de сам несёт отрицание; глагол чаще ставят в утвердительной форме (istiyorum).",
+          "audio": "tr/3-1/w12.mp3"
+        },
+        {
+          "id": "tr-3-1-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильную форму отрицания от глагола «istemek» («он не хочет»):",
+          "question_text": "Ali süt ___ .",
+          "options": ["istemiyor", "istemıyor", "isteymiyor", "istemuyor"],
+          "correct_index": 0,
+          "explain_ru": "От istemek: основа iste → перед -yor гласная отрицания даёт форму istemiyor.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-1-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «henüz» в предложении «Henüz bilmiyorum»?",
+          "question_text": "henüz",
+          "options": ["ещё (не)", "больше (не)", "никогда", "всегда"],
+          "correct_index": 0,
+          "explain_ru": "Henüz — ещё (не). Henüz bilmiyorum — Я ещё не знаю.",
+          "audio": "tr/3-1/w09.mp3"
+        },
+        {
+          "id": "tr-3-1-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать «Он не одобряет этот план» с глаголом beğenmek?",
+          "question_text": "O bu planı ___ .",
+          "options": ["beğenmiyor", "beğenmıyor", "beğen değil", "beğenmuyor"],
+          "correct_index": 0,
+          "explain_ru": "Beğenmek — одобрять, нравиться. После гласной e ставится -miyor → beğenmiyor.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-1-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое предложение грамматически верно?",
+          "question_text": "Выберите верный вариант для «Этот фильм не старый»:",
+          "options": [
+            "Bu film eski değil.",
+            "Bu film değil eski.",
+            "Bu film eskimiyor.",
+            "Bu değil film eski."
+          ],
+          "correct_index": 0,
+          "explain_ru": "С прилагательными используется değil после прилагательного: Bu film eski değil.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-1-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий диалог и ответьте на вопрос:",
+          "passage": "— Ayşe, bu müziği beğeniyor musun? — Hayır, pek beğenmiyorum. Ayrıca (кроме того) seni iyi duymuyorum, burası çok kalabalık.",
+          "questions": [
+            {
+              "question_ru": "Нравится ли Айше музыка и хорошо ли она слышит собеседника?",
+              "options": [
+                "Музыка не очень нравится, и она плохо слышит",
+                "Музыка очень нравится, но она не слышит",
+                "Она хорошо слышит, и музыка ей нравится",
+                "Она больше не слушает музыку"
+              ],
+              "correct_index": 0,
+              "accepted": ["музыка не нравится, плохо слышит", "нет"]
+            }
+          ],
+          "explain_ru": "Pek beğenmiyorum — не очень нравится (pek — очень); seni iyi duymuyorum — плохо тебя слышу (от duymak).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,499 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-22-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Прогноз-шоу (1/2): озвучьте сегодняшнюю погоду и температуру:",
+          "target_text": "Bugün hava güneşli. Sıcaklık yirmi derece.",
+          "translation_ru": "Сегодня погода солнечная. Температура (sıcaklık) двадцать градусов.",
+          "explain_ru": "Güneşli — солнечный (güneş + -li), derece — градус.",
+          "audio": "tr/3-22/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-22-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Прогноз-шоу (2/2): расскажите о погоде на завтра и на выходные:",
+          "target_text": "Yarın yağmur yağacak. Hafta sonu fırtına var.",
+          "translation_ru": "Завтра пойдёт дождь. На выходных будет буря.",
+          "explain_ru": "Yağmur yağacak — пойдёт дождь (будущее время), fırtına — буря.",
+          "audio": "tr/3-22/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-22-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Назовите все четыре времени года по порядку:",
+          "target_text": "Bir yılda dört mevsim var: ilkbahar, yaz, sonbahar ve kış.",
+          "translation_ru": "В году четыре времени года: весна, лето, осень и зима.",
+          "explain_ru": "Mevsim — время года; ilkbahar (весна), yaz (лето), sonbahar (осень), kış (зима).",
+          "audio": "tr/3-22/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-22-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что утром туман, а воздух влажный:",
+          "target_text": "Sabah sis var ve hava çok nemli.",
+          "translation_ru": "Утром туман, и воздух очень влажный.",
+          "explain_ru": "Sis — туман, nemli — влажный.",
+          "audio": "tr/3-22/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-22-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите зимнюю погоду со льдом на дороге:",
+          "target_text": "Kışın hava soğuk, yolda buz var. Dikkat et!",
+          "translation_ru": "Зимой погода холодная, на дороге лёд. Осторожно!",
+          "explain_ru": "Kışın — зимой (наречие от kış), buz — лёд.",
+          "audio": "tr/3-22/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-22-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите про прогноз погоды на завтра:",
+          "target_text": "Yarın hava durumu nasıl? Hava güneşli mi?",
+          "translation_ru": "Какой завтра прогноз погоды? Погода солнечная?",
+          "explain_ru": "Hava durumu — прогноз погоды (буквально «состояние погоды»).",
+          "audio": "tr/3-22/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-22-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про своё любимое время года — весну:",
+          "target_text": "En sevdiğim mevsim ilkbahar. Hava sıcak değil, çok güzel.",
+          "translation_ru": "Моё любимое время года — весна. Погода не жаркая, очень хорошая.",
+          "explain_ru": "Mevsim — время года, ilkbahar — весна.",
+          "audio": "tr/3-22/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-22-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Сравните лето и осень:",
+          "target_text": "Yazın hava sıcak ve güneşli, sonbaharda yağmurlu ve nemli.",
+          "translation_ru": "Летом погода жаркая и солнечная, а осенью дождливая и влажная.",
+          "explain_ru": "Yazın — летом, sonbaharda — осенью, nemli — влажный.",
+          "audio": "tr/3-22/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-22-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Прогноз. Прослушайте сводку и ответьте: какая погода в полдень и сколько градусов?",
+          "transcript": "Hava durumu: sabah sisli, öğlen güneşli, akşam fırtına. Sıcaklık on beş derece.",
+          "options": [
+            "в полдень солнечно; 15 градусов",
+            "в полдень туманно; 20 градусов",
+            "в полдень буря; 15 градусов",
+            "в полдень солнечно; 5 градусов"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Öğlen güneşli (в полдень солнечно), sıcaklık on beş derece (температура 15 градусов); sisli — туманно.",
+          "audio": "tr/3-22/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-22-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «время года»:",
+          "transcript": "mevsim",
+          "accepted": [
+            "mevsim"
+          ],
+          "explain_ru": "Mevsim — время года.",
+          "audio": "tr/3-22/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-22-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «буря»:",
+          "transcript": "fırtına",
+          "accepted": [
+            "fırtına"
+          ],
+          "explain_ru": "Fırtına — буря (обе гласные в середине — ı без точки).",
+          "audio": "tr/3-22/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-22-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какая сегодня погода у моря?",
+          "transcript": "Bugün deniz kenarında hava çok nemli ve otuz derece.",
+          "options": [
+            "очень влажно и тридцать градусов",
+            "холодно, туман и лёд",
+            "пятнадцать градусов и буря",
+            "солнечно и десять градусов"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Çok nemli (очень влажно) ve otuz derece (и тридцать градусов).",
+          "audio": "tr/3-22/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-22-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «туман»:",
+          "transcript": "sis",
+          "accepted": [
+            "sis"
+          ],
+          "explain_ru": "Sis — туман.",
+          "audio": "tr/3-22/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-22-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «лёд»:",
+          "transcript": "buz",
+          "accepted": [
+            "buz"
+          ],
+          "explain_ru": "Buz — лёд.",
+          "audio": "tr/3-22/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-22-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О каком времени года говорит диктор?",
+          "transcript": "Bu mevsimde yapraklar düşüyor, yağmur yağıyor ve hava serin.",
+          "options": [
+            "осень (sonbahar)",
+            "лето (yaz)",
+            "зима (kış)",
+            "весна (ilkbahar)"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Sonbahar — осень (падают листья, идут дожди, прохладно).",
+          "audio": "tr/3-22/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-22-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки «прогноз погоды»:",
+          "transcript": "hava durumu",
+          "accepted": [
+            "hava durumu"
+          ],
+          "explain_ru": "Hava durumu — прогноз погоды.",
+          "audio": "tr/3-22/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-22-wr-01",
+          "type": "order_items",
+          "origin": "source",
+          "prompt_ru": "Порядок сезонов: расставьте времена года, начиная с весны:",
+          "items_shuffled": [
+            "kış",
+            "yaz",
+            "ilkbahar",
+            "sonbahar"
+          ],
+          "correct_order": [
+            "ilkbahar",
+            "yaz",
+            "sonbahar",
+            "kış"
+          ],
+          "explain_ru": "Правильный порядок: ilkbahar (весна) → yaz (лето) → sonbahar (осень) → kış (зима).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-22-wr-02",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → сезон: соедините каждый символ с временем года:",
+          "pairs": [
+            {
+              "left": "❄️",
+              "right": "kış"
+            },
+            {
+              "left": "🌸",
+              "right": "ilkbahar"
+            },
+            {
+              "left": "☀️",
+              "right": "yaz"
+            },
+            {
+              "left": "🍂",
+              "right": "sonbahar"
+            }
+          ],
+          "explain_ru": "❄️ kış (зима), 🌸 ilkbahar (весна), ☀️ yaz (лето), 🍂 sonbahar (осень).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-22-wr-03",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините погодные слова с переводом:",
+          "pairs": [
+            {
+              "left": "güneşli",
+              "right": "солнечный"
+            },
+            {
+              "left": "nemli",
+              "right": "влажный"
+            },
+            {
+              "left": "fırtına",
+              "right": "буря"
+            },
+            {
+              "left": "sis",
+              "right": "туман"
+            }
+          ],
+          "explain_ru": "Güneşli, nemli, fırtına, sis.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-22-wr-04",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Сегодня погода солнечная»:",
+          "source_text": "Сегодня погода солнечная.",
+          "bank": [
+            "güneşli",
+            "hava",
+            "bugün"
+          ],
+          "accepted": [
+            "Bugün hava güneşli"
+          ],
+          "explain_ru": "Bugün hava güneşli — Сегодня погода солнечная.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-22-wr-05",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «Двадцать градусов»",
+          "source_text": "Двадцать градусов.",
+          "accepted": [
+            "yirmi derece",
+            "20 derece"
+          ],
+          "explain_ru": "После числительного существительное в турецком стоит в единственном числе: yirmi derece (без -ler).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-22-wr-06",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: проверьте число существительного после числительного («Сегодня пятнадцать градусов»):",
+          "buggy_text": "Bugün on beş dereceler.",
+          "accepted": [
+            "Bugün on beş derece."
+          ],
+          "explain_ru": "После числительных аффикс множественного числа -lar/-ler не ставится: on beş derece.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-22-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «В выходные будет буря»:",
+          "source_text": "В выходные будет буря.",
+          "bank": [
+            "var",
+            "fırtına",
+            "sonu",
+            "hafta"
+          ],
+          "accepted": [
+            "Hafta sonu fırtına var"
+          ],
+          "explain_ru": "Hafta sonu fırtına var — На выходных (есть/будет) буря.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-22-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Допишите выражение «прогноз погоды»: «Televizyonda ___ izliyorum»",
+          "source_text": "Televizyonda ___ (прогноз погоды) izliyorum.",
+          "accepted": [
+            "hava durumu",
+            "hava durumunu",
+            "Televizyonda hava durumu izliyorum",
+            "Televizyonda hava durumunu izliyorum"
+          ],
+          "explain_ru": "Hava durumu — прогноз погоды.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-22-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Любимое время года. Прочитайте текст и ответьте на вопрос:",
+          "passage": "Ben yazı seviyorum çünkü hava sıcak ve güneşli. Kışı sevmiyorum çünkü hava soğuk ve buz var.",
+          "questions": [
+            {
+              "question_ru": "Какое время года автору не нравится и почему?",
+              "options": [
+                "зима: холодно и есть лёд",
+                "лето: слишком влажно и буря",
+                "осень: сильный туман",
+                "весна: идут дожди"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "зима",
+                "зима: холодно и лёд",
+                "зима, потому что холодно и лёд"
+              ]
+            }
+          ],
+          "explain_ru": "Kışı sevmiyorum çünkü hava soğuk ve buz var — Я не люблю зиму, потому что холодно и есть лёд.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-22-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните выражение «hava durumu» (прогноз погоды):",
+          "target_text": "hava durumu",
+          "translation_ru": "прогноз погоды",
+          "example_text": "Hava durumu bugün güneşli gösteriyor (показывает).",
+          "example_ru": "Прогноз погоды показывает, что сегодня солнечно.",
+          "explain_ru": "Hava — погода, durum — состояние; изафет hava durumu означает «прогноз погоды».",
+          "audio": "tr/3-22/w12.mp3"
+        },
+        {
+          "id": "tr-3-22-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «nemli»:",
+          "question_text": "nemli",
+          "options": [
+            "влажный",
+            "солнечный",
+            "холодный",
+            "сухой"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Nemli — влажный (от nem — влага).",
+          "audio": "tr/3-22/w08.mp3"
+        },
+        {
+          "id": "tr-3-22-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «derece»?",
+          "question_text": "Sıcaklık on derece.",
+          "options": [
+            "градус",
+            "туман",
+            "буря",
+            "лёд"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Derece — градус. Sıcaklık on derece — Температура десять градусов.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-22-rd-05",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте сводку погоды на неделю и ответьте на вопрос:",
+          "passage": "Bu hafta hava çok değişiyor (меняется). Pazartesi güneşli ve yirmi derece. Çarşamba sabah yoğun (густой) sis var. Cuma akşamı denizde fırtına bekleniyor (ожидается).",
+          "questions": [
+            {
+              "question_ru": "Когда ожидается туман?",
+              "options": [
+                "в среду утром (Çarşamba sabah)",
+                "в понедельник днём",
+                "в пятницу вечером",
+                "в субботу ночью"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "в среду утром",
+                "в среду",
+                "Çarşamba sabah"
+              ]
+            }
+          ],
+          "explain_ru": "Çarşamba sabah yoğun sis var — В среду утром густой туман.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-22-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое слово объединяет ilkbahar, yaz, sonbahar и kış?",
+          "question_text": "ilkbahar, yaz, sonbahar, kış → ?",
+          "options": [
+            "mevsim",
+            "derece",
+            "fırtına",
+            "buz"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Mevsim — время года, сезон.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-22-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильную пару «время года — признак»:",
+          "question_text": "kış ↔ ?",
+          "options": [
+            "buz (лёд)",
+            "otuz derece (30 градусов)",
+            "sıcak deniz (тёплое море)",
+            "yaz tatili (летние каникулы)"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Зимой (kış) бывает лёд (buz) и холод.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-22-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать «весной» и «осенью»?",
+          "question_text": "весной / осенью",
+          "options": [
+            "ilkbaharda / sonbaharda",
+            "ilkbaharde / sonbaharde",
+            "ilkbaharta / sonbaharta",
+            "ilkbahardan / sonbahardan"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Слова ilkbahar и sonbahar оканчиваются на звонкую r после гласной заднего ряда a → -da.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

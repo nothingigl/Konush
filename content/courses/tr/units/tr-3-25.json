@@ -83,16 +83,492 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-25-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Кто это? (1/2): опишите людей в парке с помощью причастий на -an/-en:",
+          "target_text": "Parkta koşan adam benim abim. Kitap okuyan kız benim kardeşim.",
+          "translation_ru": "Мужчина, бегущий в парке, — мой старший брат. Девочка, читающая книгу, — моя младшая сестра/брат.",
+          "explain_ru": "В турецком определительный оборот с причастием (koşan, okuyan) всегда стоит ПЕРЕД существительным.",
+          "audio": "tr/3-25/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-25-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Кто это? (2/2): скажите про мальчика, слушающего музыку:",
+          "target_text": "Müzik dinleyen çocuk Ali.",
+          "translation_ru": "Ребёнок, слушающий музыку, — Али.",
+          "explain_ru": "После основы на гласную (dinle-) вставляется соединительная y: dinle-y-en.",
+          "audio": "tr/3-25/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-25-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про приходящий автобус и уходящий поезд:",
+          "target_text": "Gelen otobüs bizimki. Giden tren Ankara'ya gidiyor.",
+          "translation_ru": "Приходящий автобус — наш. Уходящий поезд едет в Анкару.",
+          "explain_ru": "Gelmek → gelen (приходящий); gitmek → giden (уходящий, t озвончается в d).",
+          "audio": "tr/3-25/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-25-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите говорящего учителя и смеющуюся девочку:",
+          "target_text": "Türkçe konuşan öğretmen çok iyi. Gülen kız çok mutlu.",
+          "translation_ru": "Учитель, говорящий по-турецки, очень хороший. Смеющаяся девочка очень счастлива.",
+          "explain_ru": "Konuşan — говорящий, gülen — смеющийся.",
+          "audio": "tr/3-25/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-25-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите о человеке, который работает здесь и живёт в Стамбуле:",
+          "target_text": "Burada çalışan doktor İstanbul'da yaşayan arkadaşım.",
+          "translation_ru": "Врач, работающий здесь, — мой друг, живущий в Стамбуле.",
+          "explain_ru": "Çalışan — работающий, yaşayan — живущий (yaşa + y + an).",
+          "audio": "tr/3-25/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-25-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Потренируйте причастие на -dığım («книга, которую я купил / фильм, который я увидел»):",
+          "target_text": "Dün aldığım kitap çok güzel. Dün gördüğüm film komikti.",
+          "translation_ru": "Книга, которую я вчера взял/купил, очень хорошая. Фильм, который я вчера увидел, был смешным.",
+          "explain_ru": "Aldığım — «то, что я взял/купил»; gördüğüm — «то, что я увидел» (k озвончается в ğ перед -ım/-üm).",
+          "audio": "tr/3-25/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-25-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите спящего кота и ждущего у двери друга:",
+          "target_text": "Koltuğun üstünde uyuyan kedi benim. Kapıda bekleyen arkadaşım Mehmet.",
+          "translation_ru": "Кот, спящий на кресле, — мой. Друг, ждущий у двери, — Мехмет.",
+          "explain_ru": "Uyuyan — спящий (uyu + y + an), bekleyen — ждущий (bekle + y + en).",
+          "audio": "tr/3-25/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-25-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Чётко произнесите шесть причастий вслух:",
+          "target_text": "okuyan, gelen, giden, oynayan, aldığım, gördüğüm",
+          "translation_ru": "читающий, приходящий, уходящий, играющий, то что я взял, то что я увидел",
+          "explain_ru": "Обратите внимание на озвончение t → d в giden и k → ğ в aldığım, gördüğüm.",
+          "audio": "tr/3-25/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-25-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Определи человека. Прослушайте запись и ответьте: кто спит и кто ждёт?",
+          "transcript": "Odada uyuyan bebek çok tatlı. Kapıda bekleyen kişi bizim komşu.",
+          "options": [
+            "спит младенец; ждёт сосед",
+            "спит кот; ждёт учитель",
+            "спит сосед; ждёт младенец",
+            "спит брат; ждёт продавец"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Uyuyan bebek (спящий младенец, tatlı — милый), kapıda bekleyen kişi bizim komşu (человек, ждущий у двери, — наш сосед).",
+          "audio": "tr/3-25/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-25-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки причастие «читающий»:",
+          "transcript": "okuyan",
+          "accepted": [
+            "okuyan"
+          ],
+          "explain_ru": "Okuyan — читающий (oku + y + an).",
+          "audio": "tr/3-25/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-25-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки причастие «уходящий»:",
+          "transcript": "giden",
+          "accepted": [
+            "giden"
+          ],
+          "explain_ru": "Giden — уходящий (от gitmek; t переходит в d перед гласной).",
+          "audio": "tr/3-25/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-25-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какую вещь купил говорящий?",
+          "transcript": "Dün pazardan aldığım çanta çok ucuz ve güzel. Onu her gün kullanıyorum.",
+          "options": [
+            "сумку, купленную вчера на рынке",
+            "книгу, взятую в библиотеке",
+            "велосипед, увиденный в магазине",
+            "часы, подаренные другом"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Dün pazardan aldığım çanta — Сумка, которую я вчера купил на рынке.",
+          "audio": "tr/3-25/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-25-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки причастие «работающий»:",
+          "transcript": "çalışan",
+          "accepted": [
+            "çalışan"
+          ],
+          "explain_ru": "Çalışan — работающий (от çalışmak).",
+          "audio": "tr/3-25/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-25-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки «то, что я увидел»:",
+          "transcript": "gördüğüm",
+          "accepted": [
+            "gördüğüm"
+          ],
+          "explain_ru": "Gördüğüm — то, что я увидел (gör + dük + üm → gördüğüm).",
+          "audio": "tr/3-25/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-25-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кто говорит по-английски?",
+          "transcript": "İngilizce konuşan adam bizim yeni müdürümüz. Şu gülen kadın da hemşire.",
+          "options": [
+            "наш новый директор (а смеющаяся женщина — медсестра)",
+            "медсестра (а директор смеётся)",
+            "наш сосед (а женщина — учительница)",
+            "официант в ресторане"
+          ],
+          "correct_index": 0,
+          "explain_ru": "İngilizce konuşan adam bizim yeni müdürümüz — Мужчина, говорящий по-английски, наш новый директор.",
+          "audio": "tr/3-25/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-25-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки причастие «живущий»:",
+          "transcript": "yaşayan",
+          "accepted": [
+            "yaşayan"
+          ],
+          "explain_ru": "Yaşayan — живущий (yaşa + y + an).",
+          "audio": "tr/3-25/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-25-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Образуй причастия на -an/-en: соедините каждый глагол с его причастием:",
+          "pairs": [
+            {
+              "left": "gülmek",
+              "right": "gülen"
+            },
+            {
+              "left": "konuşmak",
+              "right": "konuşan"
+            },
+            {
+              "left": "çalışmak",
+              "right": "çalışan"
+            },
+            {
+              "left": "oynamak",
+              "right": "oynayan"
+            },
+            {
+              "left": "yaşamak",
+              "right": "yaşayan"
+            }
+          ],
+          "explain_ru": "После твёрдых гласных — -an (после гласной -yan), после мягких — -en (после гласной -yen).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-25-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Переведите на русский словосочетание «Dün gördüğüm film»:",
+          "source_text": "Dün gördüğüm film",
+          "accepted": [
+            "фильм, который я вчера увидел",
+            "фильм, который я увидел вчера",
+            "фильм, который я вчера видел",
+            "фильм, который я видел вчера"
+          ],
+          "explain_ru": "Dün (вчера) gördüğüm (увиденный мною) film (фильм) → «фильм, который я вчера увидел».",
+          "audio": null
+        },
+        {
+          "id": "tr-3-25-wr-03",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините причастия с их русским переводом:",
+          "pairs": [
+            {
+              "left": "gelen",
+              "right": "приходящий"
+            },
+            {
+              "left": "giden",
+              "right": "уходящий"
+            },
+            {
+              "left": "uyuyan",
+              "right": "спящий"
+            },
+            {
+              "left": "bekleyen",
+              "right": "ждущий"
+            }
+          ],
+          "explain_ru": "Gelen, giden, uyuyan, bekleyen.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-25-wr-04",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите словосочетание «дети, играющие в саду»:",
+          "source_text": "Дети, играющие в саду.",
+          "bank": [
+            "çocuklar",
+            "oynayan",
+            "bahçede"
+          ],
+          "accepted": [
+            "Bahçede oynayan çocuklar"
+          ],
+          "explain_ru": "Причастный оборот стоит перед определяемым словом: Bahçede oynayan çocuklar.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-25-wr-05",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: при добавлении -en к основе git- глухая t должна озвончиться («Уходящий поезд»):",
+          "buggy_text": "Giten tren çok hızlı.",
+          "accepted": [
+            "Giden tren çok hızlı."
+          ],
+          "explain_ru": "Глагол gitmek озвончает t → d перед гласной: giden tren.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-25-wr-06",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «книга, которую я взял» (используйте aldığım)",
+          "source_text": "Книга, которую я взял.",
+          "accepted": [
+            "aldığım kitap"
+          ],
+          "explain_ru": "Aldığım kitap — книга, которую я взял/купил.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-25-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Девочка, читающая книгу, — моя сестра»:",
+          "source_text": "Девочка, читающая книгу, — моя младшая сестра.",
+          "bank": [
+            "kardeşim",
+            "kız",
+            "okuyan",
+            "kitap"
+          ],
+          "accepted": [
+            "Kitap okuyan kız kardeşim"
+          ],
+          "explain_ru": "Kitap okuyan kız — девочка, читающая книгу; kardeşim — мой младший брат / моя младшая сестра.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-25-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: между двумя гласными нужна соединительная буква y («Ждущий человек»):",
+          "buggy_text": "Kapıda bekleen kişi bizim komşu.",
+          "accepted": [
+            "Kapıda bekleyen kişi bizim komşu."
+          ],
+          "explain_ru": "Основа bekle- оканчивается на гласную e, поэтому добавляется -yen: bekleyen.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-25-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Мой двор. Прочитайте текст и ответьте на вопросы:",
+          "passage": "Bahçede oynayan çocuklar komşumuzun çocukları. Dün gördüğüm adam şimdi kapıda bekliyor. Çok nazik biri.",
+          "questions": [
+            {
+              "question_ru": "Кто играет в саду и кого автор видел вчера?",
+              "options": [
+                "дети соседа; вежливого мужчину, который сейчас ждёт у двери",
+                "дети учителя; врача из больницы",
+                "братья Али; продавца с рынка",
+                "соседские коты; полицейского"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "дети соседа; мужчину, который ждёт у двери",
+                "дети соседа; мужчину у двери"
+              ]
+            }
+          ],
+          "explain_ru": "Bahçede oynayan çocuklar komşumuzun çocukları (дети соседа). Dün gördüğüm adam şimdi kapıda bekliyor (мужчина, которого я видел вчера, сейчас ждёт у двери).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-25-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните форму причастия объекта «aldığım» (то, что я взял/купил):",
+          "target_text": "aldığım",
+          "translation_ru": "то, что я взял",
+          "example_text": "Pazardan aldığım elmalar çok tatlı.",
+          "example_ru": "Яблоки, которые я купил на рынке, очень сладкие.",
+          "explain_ru": "Основа al- + -dık (причастие) + -ım (мой) → k озвончается в ğ → aldığım.",
+          "audio": "tr/3-25/w11.mp3"
+        },
+        {
+          "id": "tr-3-25-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «Köyde yaşayan dedem»:",
+          "question_text": "Köyde yaşayan dedem",
+          "options": [
+            "мой дедушка, живущий в деревне",
+            "мой дедушка, работающий в деревне",
+            "мой дедушка, уезжающий из деревни",
+            "мой дедушка, смеющийся в деревне"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yaşayan — живущий (от yaşamak).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-25-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как правильно образовать причастие «спящий» от «uyumak»?",
+          "question_text": "uyumak → ?",
+          "options": [
+            "uyuyan",
+            "uyuan",
+            "uyuyen",
+            "uyun"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Основа uyu- оканчивается на гласную заднего ряда u → соединительная y + -an = uyuyan.",
+          "audio": "tr/3-25/w06.mp3"
+        },
+        {
+          "id": "tr-3-25-rd-05",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку и ответьте на вопрос:",
+          "passage": "İstasyona gelen ilk tren İzmir'e gidiyor. Orada çalışan abim beni bekliyor. Onun için aldığım hediye çantamda.",
+          "questions": [
+            {
+              "question_ru": "Где лежит подарок, который автор купил для старшего брата?",
+              "options": [
+                "в сумке (çantamda)",
+                "в поезде на столе",
+                "на вокзале у кассы",
+                "дома у брата"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "в сумке",
+                "çantamda"
+              ]
+            }
+          ],
+          "explain_ru": "Onun için aldığım hediye çantamda — Подарок, который я купил для него, в моей сумке.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-25-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «gülen»:",
+          "question_text": "gülen",
+          "options": [
+            "смеющийся",
+            "приходящий",
+            "ждущий",
+            "читающий"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Gülen — смеющийся (от gülmek).",
+          "audio": "tr/3-25/w05.mp3"
+        },
+        {
+          "id": "tr-3-25-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какая форма означает «человек, говорящий по-турецки»?",
+          "question_text": "человек, говорящий по-турецки",
+          "options": [
+            "Türkçe konuşan kişi",
+            "Kişi konuşan Türkçe",
+            "Türkçe konuşen kişi",
+            "Türkçe konuştu kişi"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Определение всегда стоит перед существительным, а после гласной u используется -an: Türkçe konuşan kişi.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-25-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильный перевод «Dün gördüğüm yer»:",
+          "question_text": "Dün gördüğüm yer",
+          "options": [
+            "место, которое я вчера увидел",
+            "место, где я работаю",
+            "человек, который вчера пришёл",
+            "книга, которую я взял"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Gördüğüm — «то, что я увидел», yer — «место».",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

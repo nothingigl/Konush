@@ -119,7 +119,7 @@
           "type": "speak_repeat",
           "origin": "derived",
           "prompt_ru": "Скажите, куда вы идёте утром и вечером:",
-          "target_text": "Sabah okula gidiyorum. Akşam (вечером) restorana gidiyorum.",
+          "target_text": "Sabah okula gidiyorum. Akşam restorana gidiyorum.",
           "translation_ru": "Утром я иду в школу. Вечером я иду в ресторан.",
           "explain_ru": "Направление («куда?») передаётся дательным падежом -a/-e: okul → okula, restoran → restorana.",
           "audio": "tr/2-4/sp-04.mp3"
@@ -139,7 +139,7 @@
           "type": "speak_repeat",
           "origin": "derived",
           "prompt_ru": "Скажите про парк и магазин:",
-          "target_text": "Parkta büyük ağaçlar var. Market burada (здесь) değil.",
+          "target_text": "Parkta büyük ağaçlar var. Market burada değil.",
           "translation_ru": "В парке есть большие деревья. Магазин не здесь.",
           "explain_ru": "В местном падеже после глухой k пишется -ta: parkta.",
           "audio": "tr/2-4/sp-06.mp3"
@@ -149,7 +149,7 @@
           "type": "speak_repeat",
           "origin": "derived",
           "prompt_ru": "Скажите: «Я иду в банк и в аэропорт»:",
-          "target_text": "Bankaya gidiyorum. Sonra (потом) havaalanına gidiyorum.",
+          "target_text": "Bankaya gidiyorum. Sonra havaalanına gidiyorum.",
           "translation_ru": "Я иду в банк. Потом я еду в аэропорт.",
           "explain_ru": "Banka → bankaya; havaalanı оканчивается на аффикс принадлежности -ı, поэтому перед падежом вставляется n: havaalanına.",
           "audio": "tr/2-4/sp-07.mp3"
@@ -190,7 +190,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «библиотека»:",
           "transcript": "kütüphane",
-          "accepted": ["kütüphane"],
+          "accepted": [
+            "kütüphane"
+          ],
           "explain_ru": "Kütüphane — библиотека (две буквы ü).",
           "audio": "tr/2-4/ls-02.mp3"
         },
@@ -200,7 +202,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «аэропорт»:",
           "transcript": "havaalanı",
-          "accepted": ["havaalanı"],
+          "accepted": [
+            "havaalanı"
+          ],
           "explain_ru": "Havaalanı — аэропорт (буквально «воздушное поле», в конце ı без точки).",
           "audio": "tr/2-4/ls-03.mp3"
         },
@@ -226,7 +230,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «больница»:",
           "transcript": "hastane",
-          "accepted": ["hastane"],
+          "accepted": [
+            "hastane"
+          ],
           "explain_ru": "Hastane — больница.",
           "audio": "tr/2-4/ls-05.mp3"
         },
@@ -236,7 +242,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «вокзал»:",
           "transcript": "istasyon",
-          "accepted": ["istasyon"],
+          "accepted": [
+            "istasyon"
+          ],
           "explain_ru": "İstasyon — вокзал, станция.",
           "audio": "tr/2-4/ls-06.mp3"
         },
@@ -262,7 +270,9 @@
           "origin": "derived",
           "prompt_ru": "Прослушайте и запишите по-турецки слово «улица»:",
           "transcript": "sokak",
-          "accepted": ["sokak"],
+          "accepted": [
+            "sokak"
+          ],
           "explain_ru": "Sokak — улица.",
           "audio": "tr/2-4/ls-08.mp3"
         }
@@ -276,7 +286,9 @@
           "origin": "source",
           "prompt_ru": "Куда идти, если нужна книга? Напишите «в библиотеку» (в дательном падеже):",
           "source_text": "Нужна книга → куда?",
-          "accepted": ["kütüphaneye"],
+          "accepted": [
+            "kütüphaneye"
+          ],
           "explain_ru": "Kütüphane + -ye → kütüphaneye (в библиотеку).",
           "audio": null
         },
@@ -286,7 +298,9 @@
           "origin": "source",
           "prompt_ru": "Куда идти, если что-то болит? Напишите «в больницу» (в дательном падеже):",
           "source_text": "Болит → куда?",
-          "accepted": ["hastaneye"],
+          "accepted": [
+            "hastaneye"
+          ],
           "explain_ru": "Hastane + -ye → hastaneye (в больницу).",
           "audio": null
         },
@@ -296,7 +310,9 @@
           "origin": "source",
           "prompt_ru": "Куда идти, если нужны деньги? Напишите «в банк» (в дательном падеже):",
           "source_text": "Нужны деньги → куда?",
-          "accepted": ["bankaya"],
+          "accepted": [
+            "bankaya"
+          ],
           "explain_ru": "Banka + -ya → bankaya (в банк).",
           "audio": null
         },
@@ -306,7 +322,9 @@
           "origin": "source",
           "prompt_ru": "Куда идти, если нужен хлеб? Напишите «в магазин» (в дательном падеже):",
           "source_text": "Нужен хлеб → куда?",
-          "accepted": ["markete"],
+          "accepted": [
+            "markete"
+          ],
           "explain_ru": "Market + -e → markete (в магазин). В заимствованном слове market буква t не озвончается.",
           "audio": null
         },
@@ -316,10 +334,22 @@
           "origin": "derived",
           "prompt_ru": "Соедините городские места с переводом (1/2):",
           "pairs": [
-            { "left": "okul", "right": "школа" },
-            { "left": "park", "right": "парк" },
-            { "left": "restoran", "right": "ресторан" },
-            { "left": "otel", "right": "отель" }
+            {
+              "left": "okul",
+              "right": "школа"
+            },
+            {
+              "left": "park",
+              "right": "парк"
+            },
+            {
+              "left": "restoran",
+              "right": "ресторан"
+            },
+            {
+              "left": "otel",
+              "right": "отель"
+            }
           ],
           "explain_ru": "Okul, park, restoran, otel.",
           "audio": null
@@ -330,10 +360,22 @@
           "origin": "derived",
           "prompt_ru": "Соедините городские места с переводом (2/2):",
           "pairs": [
-            { "left": "havaalanı", "right": "аэропорт" },
-            { "left": "istasyon", "right": "вокзал" },
-            { "left": "müze", "right": "музей" },
-            { "left": "sokak", "right": "улица" }
+            {
+              "left": "havaalanı",
+              "right": "аэропорт"
+            },
+            {
+              "left": "istasyon",
+              "right": "вокзал"
+            },
+            {
+              "left": "müze",
+              "right": "музей"
+            },
+            {
+              "left": "sokak",
+              "right": "улица"
+            }
           ],
           "explain_ru": "Havaalanı, istasyon, müze, sokak.",
           "audio": null
@@ -344,8 +386,13 @@
           "origin": "derived",
           "prompt_ru": "Соберите вопрос: «Где вокзал?»:",
           "source_text": "Где вокзал?",
-          "bank": ["nerede", "istasyon"],
-          "accepted": ["İstasyon nerede"],
+          "bank": [
+            "nerede",
+            "istasyon"
+          ],
+          "accepted": [
+            "İstasyon nerede"
+          ],
           "explain_ru": "İstasyon nerede? — Где вокзал?",
           "audio": null
         },
@@ -355,7 +402,9 @@
           "origin": "derived",
           "prompt_ru": "Исправь баг: проверьте озвончение согласной k в дательном падеже («Я иду на улицу»):",
           "buggy_text": "Sokaka gidiyorum.",
-          "accepted": ["Sokağa gidiyorum."],
+          "accepted": [
+            "Sokağa gidiyorum."
+          ],
           "explain_ru": "В слове sokak перед гласным аффиксом -a глухая k переходит в ğ: sokağa.",
           "audio": null
         }
@@ -379,7 +428,10 @@
                 "всё закрыто"
               ],
               "correct_index": 0,
-              "accepted": ["библиотека", "kütüphane"]
+              "accepted": [
+                "библиотека",
+                "kütüphane"
+              ]
             }
           ],
           "explain_ru": "Kütüphane: kapalı — Библиотека: закрыто.",
@@ -391,7 +443,12 @@
           "origin": "derived",
           "prompt_ru": "Где работают медсестра (hemşire) и врач?",
           "question_text": "Hemşire nerede çalışıyor (работает)?",
-          "options": ["hastanede (в больнице)", "bankada (в банке)", "müzede (в музее)", "parkta (в парке)"],
+          "options": [
+            "hastanede (в больнице)",
+            "bankada (в банке)",
+            "müzede (в музее)",
+            "parkta (в парке)"
+          ],
           "correct_index": 0,
           "explain_ru": "Hastane — больница, hastanede — в больнице.",
           "audio": null
@@ -402,7 +459,12 @@
           "origin": "derived",
           "prompt_ru": "Выберите перевод слова «havaalanı»:",
           "question_text": "havaalanı",
-          "options": ["аэропорт", "вокзал", "улица", "отель"],
+          "options": [
+            "аэропорт",
+            "вокзал",
+            "улица",
+            "отель"
+          ],
           "correct_index": 0,
           "explain_ru": "Havaalanı — аэропорт.",
           "audio": "tr/2-4/w08.mp3"
@@ -423,7 +485,10 @@
                 "банк и библиотека"
               ],
               "correct_index": 0,
-              "accepted": ["большой ресторан и маленький магазин", "ресторан и магазин"]
+              "accepted": [
+                "большой ресторан и маленький магазин",
+                "ресторан и магазин"
+              ]
             }
           ],
           "explain_ru": "Sokakta büyük bir restoran ve küçük bir market var — На улице есть большой ресторан и маленький магазин.",
@@ -447,7 +512,12 @@
           "origin": "derived",
           "prompt_ru": "Где готовят и подают вкусную еду (aşçı ve garson)?",
           "question_text": "Aşçı ve garson nerede?",
-          "options": ["restoranda (в ресторане)", "bankada (в банке)", "istasyonda (на вокзале)", "okulda (в школе)"],
+          "options": [
+            "restoranda (в ресторане)",
+            "bankada (в банке)",
+            "istasyonda (на вокзале)",
+            "okulda (в школе)"
+          ],
           "correct_index": 0,
           "explain_ru": "Restoran — ресторан, restoranda — в ресторане.",
           "audio": null
@@ -458,7 +528,12 @@
           "origin": "derived",
           "prompt_ru": "Выберите правильную форму «в школу» от слова «okul»:",
           "question_text": "okul → куда?",
-          "options": ["okula", "okule", "okulya", "okulta"],
+          "options": [
+            "okula",
+            "okule",
+            "okulya",
+            "okulta"
+          ],
           "correct_index": 0,
           "explain_ru": "Okul оканчивается на согласную l и имеет заднюю гласную u → дательный падеж -a: okula.",
           "audio": null
@@ -468,8 +543,16 @@
           "type": "order_items",
           "origin": "derived",
           "prompt_ru": "Восстановите порядок маршрута: «школа → магазин → парк»:",
-          "items_shuffled": ["park", "okul", "market"],
-          "correct_order": ["okul", "market", "park"],
+          "items_shuffled": [
+            "park",
+            "okul",
+            "market"
+          ],
+          "correct_order": [
+            "okul",
+            "market",
+            "park"
+          ],
           "explain_ru": "Okul (школа) → market (магазин) → park (парк).",
           "audio": null
         }

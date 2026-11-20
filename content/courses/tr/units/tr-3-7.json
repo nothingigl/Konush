@@ -83,16 +83,513 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-7-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "«Да, нет, потом»: ответьте на приглашение тремя способами вслух:",
+          "target_text": "Olur, memnuniyetle! Maalesef gelemem. Bir dahaki sefer olur mu?",
+          "translation_ru": "Ладно, с удовольствием! К сожалению, не смогу прийти. В следующий раз получится?",
+          "explain_ru": "Olur — ладно; memnuniyetle — с удовольствием; maalesef — к сожалению; bir dahaki sefer — в следующий раз.",
+          "audio": "tr/3-7/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-7-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Вежливо откажитесь, объяснив, что вы заняты (çok isterdim и müsait):",
+          "target_text": "Çok isterdim ama bu akşam müsait değilim.",
+          "translation_ru": "Я бы очень хотел, но сегодня вечером я не свободен.",
+          "explain_ru": "Çok isterdim — очень хотел бы; müsait değilim — я не свободен.",
+          "audio": "tr/3-7/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-7-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Поблагодарите друга неформально и предложите другой раз (sağ ol и başka zaman):",
+          "target_text": "Davet için sağ ol! Başka zaman buluşalım.",
+          "translation_ru": "Спасибо за приглашение! Давай встретимся в другой раз.",
+          "explain_ru": "Sağ ol — неформальное «спасибо» (на «вы»: sağ olun). Başka zaman — в другой раз.",
+          "audio": "tr/3-7/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-7-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы принимаете приглашение (kabul etmek):",
+          "target_text": "Bu güzel daveti memnuniyetle kabul ediyorum.",
+          "translation_ru": "Я с удовольствием принимаю это прекрасное приглашение.",
+          "explain_ru": "Kabul etmek (принимать) → kabul ediyorum.",
+          "audio": "tr/3-7/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-7-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Выразите сожаление и предложите перенести встречу (yazık и ertelemek):",
+          "target_text": "Ne yazık! Toplantıyı yarın akşama erteleyelim mi?",
+          "translation_ru": "Как жаль! Отложим собрание на завтрашний вечер?",
+          "explain_ru": "Ne yazık! — Как жаль! Ertelemek (отложить) → erteleyelim (давай отложим).",
+          "audio": "tr/3-7/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-7-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы не хотите отклонять приглашение (reddetmek):",
+          "target_text": "Seni reddetmek istemiyorum ama bugün hiç vaktim yok.",
+          "translation_ru": "Я не хочу тебе отказывать, но сегодня у меня совсем нет времени.",
+          "explain_ru": "Reddetmek — отклонять, отказывать (обратите внимание на двойную d!).",
+          "audio": "tr/3-7/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-7-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите: «Ты завтра свободен? Пойдём в кино?»",
+          "target_text": "Yarın müsait misin? Sinemaya gidelim mi? Olur, çok isterdim!",
+          "translation_ru": "Ты завтра свободен? Пойдём в кино? Ладно, я бы очень хотел!",
+          "explain_ru": "Müsait misin? — Ты свободен? (müsait — свободен, доступен).",
+          "audio": "tr/3-7/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-7-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Пообещайте прийти в следующий раз:",
+          "target_text": "Çok yazık, bugün gelemiyorum. Bir dahaki sefer mutlaka geleceğim!",
+          "translation_ru": "Очень жаль, сегодня не могу прийти. В следующий раз обязательно приду!",
+          "explain_ru": "Bir dahaki sefer — в следующий раз; yazık — жаль.",
+          "audio": "tr/3-7/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-7-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Принял или отказал? (1/3): прослушайте реплику и определите ответ («да», «нет» или «перенос»):",
+          "transcript": "Olur, memnuniyetle geliyorum!",
+          "options": [
+            "Да (согласился)",
+            "Нет (отказался)",
+            "Перенос на другой раз",
+            "Он не расслышал вопрос"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Olur, memnuniyetle geliyorum! — Ладно, с удовольствием приду! (согласие).",
+          "audio": "tr/3-7/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-7-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Принял или отказал? (2/3): прослушайте реплику и определите ответ («да», «нет» или «перенос»):",
+          "transcript": "Maalesef bu akşam müsait değilim.",
+          "options": [
+            "Нет (отказался)",
+            "Да (согласился)",
+            "Перенос на другой раз",
+            "Он приглашает к себе"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Maalesef bu akşam müsait değilim — К сожалению, сегодня вечером я не свободен (отказ).",
+          "audio": "tr/3-7/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-7-ls-03",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Принял или отказал? (3/3): прослушайте реплику и определите ответ («да», «нет» или «перенос»):",
+          "transcript": "Çok isterdim ama bir dahaki sefer olur mu?",
+          "options": [
+            "Перенос на следующий раз",
+            "Да (согласился на сегодня)",
+            "Грубый отказ",
+            "Просьба об адресе"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Çok isterdim ama bir dahaki sefer olur mu? — Очень хотел бы, но получится в следующий раз? (перенос).",
+          "audio": "tr/3-7/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-7-ls-04",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «к сожалению»:",
+          "transcript": "maalesef",
+          "accepted": [
+            "maalesef"
+          ],
+          "explain_ru": "Maalesef — к сожалению (пишется с двумя a).",
+          "audio": "tr/3-7/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-7-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите неформальное «спасибо»:",
+          "transcript": "sağ ol",
+          "accepted": [
+            "sağ ol"
+          ],
+          "explain_ru": "Sağ ol — спасибо (пишется раздельно, с ğ).",
+          "audio": "tr/3-7/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-7-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что сделал Али с предложением о встрече?",
+          "transcript": "Ali daveti reddetmedi ama toplantıyı haftaya erteledi.",
+          "options": [
+            "Не отклонил приглашение, а отложил встречу на следующую неделю",
+            "Сразу отклонил приглашение навсегда",
+            "Пришёл на встречу сегодня утром",
+            "Забыл о встрече"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Reddetmedi (не отклонил, от reddetmek), erteledi (отложил, от ertelemek).",
+          "audio": "tr/3-7/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-7-ls-07",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «жаль»:",
+          "transcript": "yazık",
+          "accepted": [
+            "yazık"
+          ],
+          "explain_ru": "Yazık — жаль (с ı без точки).",
+          "audio": "tr/3-7/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-7-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите выражение «в другой раз»:",
+          "transcript": "başka zaman",
+          "accepted": [
+            "başka zaman"
+          ],
+          "explain_ru": "Başka zaman — в другой раз.",
+          "audio": "tr/3-7/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-7-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Подбери реплику: соедините речевую задачу с подходящим турецким ответом:",
+          "pairs": [
+            {
+              "left": "Согласиться",
+              "right": "Olur, memnuniyetle."
+            },
+            {
+              "left": "Отказать вежливо",
+              "right": "Maalesef gelemem."
+            },
+            {
+              "left": "Предложить другое время",
+              "right": "Başka zaman olur mu?"
+            }
+          ],
+          "explain_ru": "Запомните три базовые реплики: согласие, вежливый отказ и предложение другого времени.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-7-wr-02",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: личное окончание в именном отрицании ставится на слово değil:",
+          "buggy_text": "Maalesef müsaitim değil.",
+          "accepted": [
+            "Maalesef müsait değilim."
+          ],
+          "explain_ru": "Правильно: Maalesef müsait değilim (личное окончание -im переносится на değil).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-7-wr-03",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова согласия и отказа с переводом:",
+          "pairs": [
+            {
+              "left": "olur",
+              "right": "ладно"
+            },
+            {
+              "left": "memnuniyetle",
+              "right": "с удовольствием"
+            },
+            {
+              "left": "maalesef",
+              "right": "к сожалению"
+            },
+            {
+              "left": "müsait",
+              "right": "свободен"
+            },
+            {
+              "left": "başka zaman",
+              "right": "в другой раз"
+            },
+            {
+              "left": "çok isterdim",
+              "right": "очень хотел бы"
+            }
+          ],
+          "explain_ru": "Olur, memnuniyetle, maalesef, müsait, başka zaman, çok isterdim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-7-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы и выражения юнита с переводом:",
+          "pairs": [
+            {
+              "left": "kabul etmek",
+              "right": "принимать"
+            },
+            {
+              "left": "reddetmek",
+              "right": "отклонять"
+            },
+            {
+              "left": "ertelemek",
+              "right": "отложить"
+            },
+            {
+              "left": "sağ ol",
+              "right": "спасибо (неформ.)"
+            },
+            {
+              "left": "yazık",
+              "right": "жаль"
+            },
+            {
+              "left": "bir dahaki sefer",
+              "right": "в следующий раз"
+            }
+          ],
+          "explain_ru": "Kabul etmek, reddetmek, ertelemek, sağ ol, yazık, bir dahaki sefer.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-7-wr-05",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Кубики: соберите вопрос «В следующий раз получится?»:",
+          "source_text": "В следующий раз получится?",
+          "bank": [
+            "sefer",
+            "olur",
+            "dahaki",
+            "bir",
+            "mu"
+          ],
+          "accepted": [
+            "Bir dahaki sefer olur mu"
+          ],
+          "explain_ru": "Bir dahaki sefer olur mu? — В следующий раз получится?",
+          "audio": null
+        },
+        {
+          "id": "tr-3-7-wr-06",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «К сожалению, я сегодня не свободен»:",
+          "source_text": "К сожалению, я сегодня не свободен.",
+          "accepted": [
+            "Maalesef bugün müsait değilim",
+            "Bugün maalesef müsait değilim"
+          ],
+          "explain_ru": "Maalesef bugün müsait değilim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-7-wr-07",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите неформальное «спасибо» по-турецки (два слова):",
+          "source_text": "Спасибо (неформ.)",
+          "accepted": [
+            "Sağ ol"
+          ],
+          "explain_ru": "Sağ ol — спасибо (в дружеском общении).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-7-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: для «принимать (приглашение)» нужен глагол kabul etmek, а не kabul yapmak:",
+          "buggy_text": "Daveti kabul yapıyorum.",
+          "accepted": [
+            "Daveti kabul ediyorum."
+          ],
+          "explain_ru": "Правильно: kabul etmek → kabul ediyorum (Я принимаю).",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-7-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Переписка. Прочитайте диалог и ответьте на вопрос:",
+          "passage": "— Cumartesi (в субботу) sinemaya gidelim mi? — Maalesef cumartesi müsait değilim. — Pazar (в воскресенье)? — Pazar olur, memnuniyetle!",
+          "questions": [
+            {
+              "question_ru": "На какой день друзья договорились пойти в кино?",
+              "options": [
+                "На воскресенье (Pazar)",
+                "На субботу (Cumartesi)",
+                "Они совсем отменили встречу",
+                "На завтра утром"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "в воскресенье",
+                "на воскресенье",
+                "pazar"
+              ]
+            }
+          ],
+          "explain_ru": "Pazar — воскресенье (также может означать «рынок»). Pazar olur, memnuniyetle! — В воскресенье подойдёт, с удовольствием!",
+          "audio": null
+        },
+        {
+          "id": "tr-3-7-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните вежливую фразу смягчения отказа «очень хотел бы»:",
+          "target_text": "çok isterdim",
+          "translation_ru": "очень хотел бы",
+          "example_text": "Çok isterdim ama yarın çalışıyorum.",
+          "example_ru": "Я бы очень хотел, но завтра я работаю.",
+          "explain_ru": "Çok isterdim показывает, что вы цените приглашение, даже если вынуждены отказаться.",
+          "audio": "tr/3-7/w09.mp3"
+        },
+        {
+          "id": "tr-3-7-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите антоним к глаголу «kabul etmek» («принимать»):",
+          "question_text": "kabul etmek ↔ ?",
+          "options": [
+            "reddetmek",
+            "kutlamak",
+            "davet etmek",
+            "dinlenmek"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kabul etmek (принимать) ↔ reddetmek (отклонять).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-7-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает глагол «ertelemek»?",
+          "question_text": "ertelemek",
+          "options": [
+            "отложить",
+            "принять",
+            "поблагодарить",
+            "отпраздновать"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Ertelemek — отложить, перенести на другое время.",
+          "audio": "tr/3-7/w08.mp3"
+        },
+        {
+          "id": "tr-3-7-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какая фраза лучше всего подходит, если вы хотите выразить сожаление («Как жаль!»)?",
+          "question_text": "Выберите правильный вариант:",
+          "options": [
+            "Ne yazık!",
+            "Memnuniyetle!",
+            "Sağ ol!",
+            "Olur!"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yazık — жаль; Ne yazık! — Как жаль!",
+          "audio": null
+        },
+        {
+          "id": "tr-3-7-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что значит слово «memnuniyetle»?",
+          "question_text": "memnuniyetle",
+          "options": [
+            "с удовольствием",
+            "к сожалению",
+            "в другой раз",
+            "в следующий раз"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Memnuniyetle — с удовольствием.",
+          "audio": "tr/3-7/w02.mp3"
+        },
+        {
+          "id": "tr-3-7-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать другу «Спасибо, в другой раз»?",
+          "question_text": "Выберите правильную реплику:",
+          "options": [
+            "Sağ ol, başka zaman!",
+            "Yazık, memnuniyetle!",
+            "Olur, müsait değilim!",
+            "Maalesef, kabul ediyorum!"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Sağ ol — спасибо (неформ.), başka zaman — в другой раз.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-7-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткое сообщение и ответьте на вопрос:",
+          "passage": "Merhaba Emre! Doğum günü davetin için sağ ol. Çok isterdim ama maalesef yarın şehir dışında (за городом) olacağım. Bu yüzden kabul edemiyorum, ne yazık! Bir dahaki sefer mutlaka buluşalım.",
+          "questions": [
+            {
+              "question_ru": "Почему автор не может прийти на день рождения Эмре?",
+              "options": [
+                "Завтра он будет за городом",
+                "Он забыл адрес вечеринки",
+                "Он не любит вечеринки",
+                "Он заболел и пойдёт к врачу"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "он будет за городом",
+                "за городом"
+              ]
+            }
+          ],
+          "explain_ru": "Yarın şehir dışında olacağım — Завтра я буду за городом.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

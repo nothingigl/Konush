@@ -83,16 +83,398 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-20-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Награждение (1/2): торжественно объявите победителей:",
+          "target_text": "Şampiyon Ali! Birinci Ali, ikinci Mehmet, üçüncü Hasan. Madalya ve kupa Ali'ye!",
+          "translation_ru": "Чемпион — Али! Первый Али, второй Мехмет, третий Хасан. Медаль и кубок — Али!",
+          "explain_ru": "Şampiyon — чемпион, madalya — медаль, kupa — кубок. После имени собственного ставится апостроф: Ali'ye.",
+          "audio": "tr/3-20/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-20-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Награждение (2/2): объявите итоги ничейного матча:",
+          "target_text": "Maç berabere bitti. Skor iki iki.",
+          "translation_ru": "Матч закончился вничью. Счёт два — два.",
+          "explain_ru": "Berabere — вничью, skor — счёт.",
+          "audio": "tr/3-20/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-20-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что финал пройдёт на большом стадионе:",
+          "target_text": "Final büyük stadyumda olacak.",
+          "translation_ru": "Финал будет на большом стадионе.",
+          "explain_ru": "Final — финал, stadyum — стадион (stadyumda — на стадионе).",
+          "audio": "tr/3-20/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-20-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что соперник сильный (güçlü), но мы хотим победы:",
+          "target_text": "Rakip çok güçlü, ama biz galibiyet istiyoruz.",
+          "translation_ru": "Соперник очень сильный, но мы хотим победы.",
+          "explain_ru": "Rakip — соперник, galibiyet — победа.",
+          "audio": "tr/3-20/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-20-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что судья начинает соревнование:",
+          "target_text": "Hakem hazır, yarışma başlıyor!",
+          "translation_ru": "Судья готов, соревнование начинается!",
+          "explain_ru": "Hakem — судья, yarışma — соревнование.",
+          "audio": "tr/3-20/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-20-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что зрители на стадионе очень рады:",
+          "target_text": "Stadyumda seyirci çok mutlu!",
+          "translation_ru": "Зрители на стадионе очень счастливы!",
+          "explain_ru": "Seyirci — зритель, зрители (собирательно).",
+          "audio": "tr/3-20/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-20-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что наша команда выиграла кубок и стала чемпионом:",
+          "target_text": "Takımımız kupayı kazandı ve şampiyon oldu!",
+          "translation_ru": "Наша команда выиграла кубок и стала чемпионом!",
+          "explain_ru": "Kupa — кубок (kupayı — кубок в винительном падеже), şampiyon olmak — стать чемпионом.",
+          "audio": "tr/3-20/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-20-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, какой сейчас счёт в финале:",
+          "target_text": "Finalde skor kaç kaç?",
+          "translation_ru": "Какой счёт в финале?",
+          "explain_ru": "Skor kaç kaç? — естественный турецкий вопрос о счёте игры.",
+          "audio": "tr/3-20/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-20-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Новости спорта. Прослушайте запись и ответьте: кто выиграл и какой был счёт?",
+          "transcript": "Dün stadyumda büyük maç vardı. Seyirci çoktu. Takımımız üç bir kazandı.",
+          "options": [
+            "Выиграла наша команда со счётом 3:1",
+            "Матч закончился вничью 2:2",
+            "Выиграл соперник со счётом 3:1",
+            "На стадионе не было зрителей"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Takımımız üç bir kazandı — Наша команда выиграла 3:1.",
+          "audio": "tr/3-20/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-20-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «судья»:",
+          "transcript": "hakem",
+          "accepted": ["hakem"],
+          "explain_ru": "Hakem — спортивный судья, арбитр.",
+          "audio": "tr/3-20/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-20-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «соперник»:",
+          "transcript": "rakip",
+          "accepted": ["rakip"],
+          "explain_ru": "Rakip — соперник.",
+          "audio": "tr/3-20/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-20-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кто получил золотую медаль на соревновании?",
+          "transcript": "Yüzme yarışması bitti. Ayşe birinci oldu, madalya aldı ve şampiyon oldu!",
+          "options": [
+            "Айше: она заняла первое место, получила медаль и стала чемпионкой",
+            "Соревнование ещё не началось",
+            "Айше заняла второе место",
+            "Победителей не было, всё закончилось вничью"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yarışma — соревнование, madalya — медаль, şampiyon — чемпион.",
+          "audio": "tr/3-20/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-20-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «соревнование»:",
+          "transcript": "yarışma",
+          "accepted": ["yarışma"],
+          "explain_ru": "Yarışma — соревнование, конкурс (вторая гласная ı без точки).",
+          "audio": "tr/3-20/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-20-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «стадион»:",
+          "transcript": "stadyum",
+          "accepted": ["stadyum"],
+          "explain_ru": "Stadyum — стадион.",
+          "audio": "tr/3-20/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-20-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как комментатор описывает окончание финала?",
+          "transcript": "Hakem maçı bitirdi! Bu büyük bir galibiyet! Şampiyon takım kupayı alıyor.",
+          "options": [
+            "Судья закончил матч, команда празднует победу и получает кубок",
+            "Матч только начинается",
+            "Игра закончилась вничью",
+            "Судья остановил тренировку"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hakem (судья), galibiyet (победа), şampiyon (чемпион), kupa (кубок).",
+          "audio": "tr/3-20/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-20-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «зрители»:",
+          "transcript": "seyirci",
+          "accepted": ["seyirci"],
+          "explain_ru": "Seyirci — зритель, зрители.",
+          "audio": "tr/3-20/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-20-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Счёт → слово (1/4): как называется результат 2–2 по-турецки («вничью»)?",
+          "source_text": "2–2 → ?",
+          "accepted": ["berabere"],
+          "explain_ru": "Berabere — вничью (равный счёт).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-20-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Счёт → слово (2/4): как называется результат 3–1 по-турецки («победа»)?",
+          "source_text": "3–1 → ?",
+          "accepted": ["galibiyet"],
+          "explain_ru": "Galibiyet — победа.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-20-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → слово (3/4): напишите слово по эмодзи 🏆 («кубок»):",
+          "source_text": "🏆 → ?",
+          "accepted": ["kupa"],
+          "explain_ru": "Kupa — кубок.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-20-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Эмодзи → слово (4/4): напишите слово по эмодзи 🥇 («медаль»):",
+          "source_text": "🥇 → ?",
+          "accepted": ["madalya"],
+          "explain_ru": "Madalya — медаль.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-20-wr-05",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Матч закончился вничью»:",
+          "source_text": "Матч закончился вничью.",
+          "bank": ["berabere", "maç", "bitti"],
+          "accepted": ["Maç berabere bitti"],
+          "explain_ru": "Maç berabere bitti — Матч закончился вничью.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-20-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова соревнований с переводом (1/2):",
+          "pairs": [
+            { "left": "rakip", "right": "соперник" },
+            { "left": "hakem", "right": "судья" },
+            { "left": "seyirci", "right": "зрители" },
+            { "left": "yarışma", "right": "соревнование" }
+          ],
+          "explain_ru": "Rakip, hakem, seyirci, yarışma.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-20-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом (2/2):",
+          "pairs": [
+            { "left": "skor", "right": "счёт" },
+            { "left": "şampiyon", "right": "чемпион" },
+            { "left": "stadyum", "right": "стадион" },
+            { "left": "final", "right": "финал" }
+          ],
+          "explain_ru": "Skor, şampiyon, stadyum, final.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-20-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: проверьте гармонию гласных в направительном падеже («Кубок — Али!»):",
+          "buggy_text": "Kupa Ali'ya!",
+          "accepted": ["Kupa Ali'ye!"],
+          "explain_ru": "В имени Ali последняя гласная переднего ряда i, поэтому нужен аффикс -ye после апострофа: Ali'ye!",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-20-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Финал. Прочитайте текст и ответьте на вопрос:",
+          "passage": "Final saat dokuzda stadyumda. Rakip takım çok güçlü (сильный). Seyirci kalabalık. Maç berabere bitti.",
+          "questions": [
+            {
+              "question_ru": "Как закончился финальный матч?",
+              "options": [
+                "вничью (berabere)",
+                "победой соперника",
+                "победой нашей команды 3:1",
+                "матч перенесли"
+              ],
+              "correct_index": 0,
+              "accepted": ["вничью", "ничья", "berabere"]
+            }
+          ],
+          "explain_ru": "Maç berabere bitti — Матч закончился вничью.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-20-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слово «galibiyet»:",
+          "target_text": "galibiyet",
+          "translation_ru": "победа",
+          "example_text": "Bu galibiyet takımımız için çok önemli.",
+          "example_ru": "Эта победа очень важна для нашей команды.",
+          "explain_ru": "Galibiyet — победа в матче или соревновании.",
+          "audio": "tr/3-20/w12.mp3"
+        },
+        {
+          "id": "tr-3-20-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Кто следит за правилами во время матча?",
+          "question_text": "Maçta kurallara kim bakar?",
+          "options": ["hakem", "seyirci", "kupa", "skor"],
+          "correct_index": 0,
+          "explain_ru": "Hakem — судья.",
+          "audio": "tr/3-20/w07.mp3"
+        },
+        {
+          "id": "tr-3-20-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «yarışma»:",
+          "question_text": "yarışma",
+          "options": ["соревнование", "победа", "стадион", "медаль"],
+          "correct_index": 0,
+          "explain_ru": "Yarışma — соревнование.",
+          "audio": "tr/3-20/w10.mp3"
+        },
+        {
+          "id": "tr-3-20-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «rakip»:",
+          "question_text": "rakip",
+          "options": ["соперник", "судья", "чемпион", "зрители"],
+          "correct_index": 0,
+          "explain_ru": "Rakip — соперник.",
+          "audio": "tr/3-20/w06.mp3"
+        },
+        {
+          "id": "tr-3-20-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте спортивную заметку и ответьте на вопрос:",
+          "passage": "Dün koşu yarışması vardı. Final çok heyecanlıydı (захватывающий). Mehmet birinci oldu, madalya ve kupa aldı. Skor çok yakındı ama Mehmet şampiyon oldu!",
+          "questions": [
+            {
+              "question_ru": "Кто стал чемпионом в соревнованиях по бегу?",
+              "options": [
+                "Мехмет (Mehmet)",
+                "Али (Ali)",
+                "Хасан (Hasan)",
+                "Айше (Ayşe)"
+              ],
+              "correct_index": 0,
+              "accepted": ["Мехмет", "Mehmet"]
+            }
+          ],
+          "explain_ru": "Mehmet birinci oldu, madalya ve kupa aldı... Mehmet şampiyon oldu.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-20-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «seyirci»:",
+          "question_text": "seyirci",
+          "options": ["зрители", "соперник", "судья", "финал"],
+          "correct_index": 0,
+          "explain_ru": "Seyirci — зритель, зрители.",
+          "audio": "tr/3-20/w08.mp3"
+        },
+        {
+          "id": "tr-3-20-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «skor»?",
+          "question_text": "skor",
+          "options": ["счёт", "кубок", "победа", "вничью"],
+          "correct_index": 0,
+          "explain_ru": "Skor — счёт матча.",
+          "audio": "tr/3-20/w02.mp3"
+        }
+      ]
     }
   },
   "review": "draft"

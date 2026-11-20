@@ -83,16 +83,410 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-13-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Машина времени (1/2): расскажите вслух о детстве:",
+          "target_text": "Çocukken bahçede oynardım. Her yaz köye giderdim.",
+          "translation_ru": "В детстве я играл в саду. Каждое лето я ездил в деревню.",
+          "explain_ru": "Форма аориста прошедшего времени (-ardım/-erdim) обозначает регулярные привычки в прошлом.",
+          "audio": "tr/3-13/sp-01.mp3"
+        },
+        {
+          "id": "tr-3-13-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Машина времени (2/2): расскажите о выходных в детстве:",
+          "target_text": "Hafta sonları bisiklete binerdim.",
+          "translation_ru": "По выходным я катался на велосипеде.",
+          "explain_ru": "Hafta sonları — по выходным, bisiklete binmek — кататься на велосипеде.",
+          "audio": "tr/3-13/sp-02.mp3"
+        },
+        {
+          "id": "tr-3-13-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что раньше вы каждый вечер слушали сказки:",
+          "target_text": "Eskiden her akşam masal dinlerdim.",
+          "translation_ru": "Раньше я каждый вечер слушал сказки.",
+          "explain_ru": "Eskiden — раньше, masal — сказка, dinlerdim — я слушал (обычно).",
+          "audio": "tr/3-13/sp-03.mp3"
+        },
+        {
+          "id": "tr-3-13-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что в детстве вы играли в игры во дворе:",
+          "target_text": "Çocukken mahallede oyun oynardık.",
+          "translation_ru": "В детстве мы играли в игры во дворе.",
+          "explain_ru": "Mahalle — район, двор; oyun — игра; oynardık — мы играли.",
+          "audio": "tr/3-13/sp-04.mp3"
+        },
+        {
+          "id": "tr-3-13-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите о дедушке в молодости:",
+          "target_text": "Dedem gençken her sabah erken kalkardı.",
+          "translation_ru": "Мой дедушка в молодости каждое утро вставал рано.",
+          "explain_ru": "Gençken — в молодости (genç + суффикс -ken «когда был...»).",
+          "audio": "tr/3-13/sp-05.mp3"
+        },
+        {
+          "id": "tr-3-13-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что раньше у вас было много игрушек:",
+          "target_text": "Eskiden çok oyuncak vardı.",
+          "translation_ru": "Раньше было много игрушек.",
+          "explain_ru": "Oyuncak — игрушка, vardı — было.",
+          "audio": "tr/3-13/sp-06.mp3"
+        },
+        {
+          "id": "tr-3-13-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что летом вы играли с мячом в саду:",
+          "target_text": "Her yaz bahçede top oynardım.",
+          "translation_ru": "Каждое лето я играл в мяч в саду.",
+          "explain_ru": "Top — мяч, bahçede — в саду.",
+          "audio": "tr/3-13/sp-07.mp3"
+        },
+        {
+          "id": "tr-3-13-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что в молодости папа ездил на работу на велосипеде:",
+          "target_text": "Babam gençken işe bisiklet ile giderdi.",
+          "translation_ru": "Мой папа в молодости ездил на работу на велосипеде.",
+          "explain_ru": "Bisiklet — велосипед, giderdi — он ездил (обычно).",
+          "audio": "tr/3-13/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-13-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Детство Али. Прослушайте рассказ и ответьте: что Али слушал вечером?",
+          "transcript": "Ali çocukken mahallede top oynardı. Akşam anneannesinden masal dinlerdi. Her yaz dedesine giderdi.",
+          "options": [
+            "Сказки (masal)",
+            "Музыку",
+            "Новости по радио",
+            "Рассказы друзей"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Akşam anneannesinden masal dinlerdi — Вечером он слушал сказки от бабушки.",
+          "audio": "tr/3-13/ls-01.mp3"
+        },
+        {
+          "id": "tr-3-13-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «в детстве»:",
+          "transcript": "çocukken",
+          "accepted": ["çocukken"],
+          "explain_ru": "Çocukken — в детстве (çocuk + -ken, пишется с двойным k).",
+          "audio": "tr/3-13/ls-02.mp3"
+        },
+        {
+          "id": "tr-3-13-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «велосипед»:",
+          "transcript": "bisiklet",
+          "accepted": ["bisiklet"],
+          "explain_ru": "Bisiklet — велосипед.",
+          "audio": "tr/3-13/ls-03.mp3"
+        },
+        {
+          "id": "tr-3-13-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что делала Айше по выходным раньше?",
+          "transcript": "Ayşe eskiden hafta sonları bahçede kitap okurdu. Bazen oyun oynardı.",
+          "options": [
+            "Читала книги в саду и иногда играла",
+            "Ездила в деревню к дедушке",
+            "Слушала сказки каждый вечер",
+            "Каталась на велосипеде в школе"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Hafta sonları bahçede kitap okurdu — по выходным читала книги в саду.",
+          "audio": "tr/3-13/ls-04.mp3"
+        },
+        {
+          "id": "tr-3-13-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «игрушка»:",
+          "transcript": "oyuncak",
+          "accepted": ["oyuncak"],
+          "explain_ru": "Oyuncak — игрушка.",
+          "audio": "tr/3-13/ls-05.mp3"
+        },
+        {
+          "id": "tr-3-13-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «район, двор»:",
+          "transcript": "mahalle",
+          "accepted": ["mahalle"],
+          "explain_ru": "Mahalle — район, квартал, двор (с двойным l).",
+          "audio": "tr/3-13/ls-06.mp3"
+        },
+        {
+          "id": "tr-3-13-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О ком и о каком времени говорится в записи?",
+          "transcript": "Annem gençken çok güzel masal anlatırdı ve bize küçük oyuncak alırdı.",
+          "options": [
+            "О маме в молодости: она рассказывала сказки и покупала игрушки",
+            "О дедушке в детстве: он играл в мяч",
+            "О друге: он катался на велосипеде",
+            "О бабушке: она работала в саду"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Annem gençken — мама в молодости; masal anlatırdı — рассказывала сказки; oyuncak alırdı — покупала игрушки.",
+          "audio": "tr/3-13/ls-07.mp3"
+        },
+        {
+          "id": "tr-3-13-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «раньше»:",
+          "transcript": "eskiden",
+          "accepted": ["eskiden"],
+          "explain_ru": "Eskiden — раньше, прежде (от eski — старый + -den).",
+          "audio": "tr/3-13/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-13-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Привычка в прошлом: поставьте глагол «oynamak» в форму «ben» («я играл»):",
+          "source_text": "oynamak, ben → ?",
+          "accepted": ["oynardım", "Ben oynardım"],
+          "explain_ru": "Основа oyna- (на гласную) + -r + -dım → oynardım.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-13-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Привычка в прошлом: поставьте глагол «gitmek» в форму «biz» («мы ходили»):",
+          "source_text": "gitmek, biz → ?",
+          "accepted": ["giderdik", "Biz giderdik"],
+          "explain_ru": "В gitmek при присоединении гласной t озвончается в d: gid-er-dik → giderdik.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-13-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Привычка в прошлом: поставьте глагол «binmek» в форму «sen» («ты садился / катался»):",
+          "source_text": "binmek, sen → ?",
+          "accepted": ["binerdin", "Sen binerdin"],
+          "explain_ru": "Односложный глагол bin- принимает -er + -din → binerdin.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-13-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Привычка в прошлом: поставьте глагол «okumak» в форму «o» («он читал»):",
+          "source_text": "okumak, o → ?",
+          "accepted": ["okurdu", "O okurdu"],
+          "explain_ru": "Основа oku- (на гласную) + -r + -du → okurdu.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-13-wr-05",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Привычка в прошлом: поставьте глагол «dinlemek» в форму «onlar» («они слушали»):",
+          "source_text": "dinlemek, onlar → ?",
+          "accepted": ["dinlerlerdi", "Onlar dinlerlerdi"],
+          "explain_ru": "Основа dinle- + -r + -ler + -di → dinlerlerdi.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-13-wr-06",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: поставьте глагол в прошедшее привычное время («Раньше я пил много кофе»):",
+          "buggy_text": "Eskiden çok kahve içerim.",
+          "accepted": ["Eskiden çok kahve içerdim."],
+          "explain_ru": "Со словом eskiden («раньше») нужен аорист прошедшего времени içerdim, а не настоящего içerim.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-13-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о детстве с их переводом:",
+          "pairs": [
+            { "left": "oyuncak", "right": "игрушка" },
+            { "left": "top", "right": "мяч" },
+            { "left": "masal", "right": "сказка" },
+            { "left": "oyun", "right": "игра" }
+          ],
+          "explain_ru": "Oyuncak — игрушка, top — мяч, masal — сказка, oyun — игра.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-13-wr-08",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Кубики: соберите предложение «По выходным мы играли в игры в саду»:",
+          "source_text": "По выходным мы играли в игры в саду.",
+          "bank": ["oynardık", "bahçede", "hafta sonları", "oyun"],
+          "accepted": ["Hafta sonları bahçede oyun oynardık"],
+          "explain_ru": "Hafta sonları bahçede oyun oynardık.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-3-13-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Рассказ дедушки. Прочитайте текст и ответьте на вопросы:",
+          "passage": "Dedem gençken köyde yaşardı. Her sabah erken kalkardı. Hafta sonları bahçede çalışırdı. Akşamları bize masal anlatırdı.",
+          "questions": [
+            {
+              "question_ru": "Что дедушка делал каждое утро?",
+              "options": [
+                "рано вставал (erken kalkardı)",
+                "играл в мяч (top oynardı)",
+                "катался на велосипеде",
+                "ходил на рынок"
+              ],
+              "correct_index": 0,
+              "accepted": ["рано вставал", "вставал рано", "erken kalkardı"]
+            },
+            {
+              "question_ru": "Что дедушка рассказывал вечером?",
+              "options": [
+                "сказки (masal)",
+                "новости",
+                "рецепты",
+                "песни"
+              ],
+              "correct_index": 0,
+              "accepted": ["сказки", "сказку", "masal"]
+            }
+          ],
+          "explain_ru": "Her sabah erken kalkardı (каждое утро рано вставал); akşamları bize masal anlatırdı (вечерами рассказывал нам сказки).",
+          "audio": null
+        },
+        {
+          "id": "tr-3-13-rd-02",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните конструкцию со словом «çocukken»:",
+          "target_text": "çocukken",
+          "translation_ru": "в детстве",
+          "example_text": "Çocukken her yaz köye giderdim.",
+          "example_ru": "В детстве я каждое лето ездил в деревню.",
+          "explain_ru": "Неизменяемый суффикс -ken означает «будучи кем-то / когда был...»: çocukken (в детстве), gençken (в молодости).",
+          "audio": "tr/3-13/w01.mp3"
+        },
+        {
+          "id": "tr-3-13-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «her yaz»:",
+          "question_text": "her yaz",
+          "options": [
+            "каждое лето",
+            "по выходным",
+            "в молодости",
+            "каждое утро"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Her — каждый, yaz — лето.",
+          "audio": "tr/3-13/w04.mp3"
+        },
+        {
+          "id": "tr-3-13-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «mahalle»:",
+          "question_text": "mahalle",
+          "options": ["район, двор", "сад", "велосипед", "сказка"],
+          "correct_index": 0,
+          "explain_ru": "Mahalle — район, квартал, двор.",
+          "audio": "tr/3-13/w11.mp3"
+        },
+        {
+          "id": "tr-3-13-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать «Мы раньше пили чай» (привычка в прошлом)?",
+          "question_text": "Eskiden biz çay ___.",
+          "options": ["içerdik", "içeriz", "içiyorum", "içeceğiz"],
+          "correct_index": 0,
+          "explain_ru": "Для регулярного действия в прошлом (eskiden) используется форма на -erdik: içerdik.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-13-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте воспоминание Мехмета и ответьте на вопрос:",
+          "passage": "Eskiden küçük bir mahallede yaşardık. Çocukken kırmızı bir bisikletim vardı. Hafta sonları arkadaşlarımla top oynardık.",
+          "questions": [
+            {
+              "question_ru": "Что Мехмет делал с друзьями по выходным?",
+              "options": [
+                "играл в мяч (top oynardık)",
+                "слушал сказки",
+                "работал в саду",
+                "ходил в аптеку"
+              ],
+              "correct_index": 0,
+              "accepted": ["играл в мяч", "играли в мяч", "top oynardık"]
+            }
+          ],
+          "explain_ru": "Hafta sonları arkadaşlarımla top oynardık — По выходным мы с друзьями играли в мяч.",
+          "audio": null
+        },
+        {
+          "id": "tr-3-13-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «bahçe»:",
+          "question_text": "bahçe",
+          "options": ["сад", "игрушка", "игра", "мяч"],
+          "correct_index": 0,
+          "explain_ru": "Bahçe — сад.",
+          "audio": "tr/3-13/w06.mp3"
+        },
+        {
+          "id": "tr-3-13-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильный перевод «gençken»:",
+          "question_text": "gençken",
+          "options": ["в молодости", "в детстве", "раньше", "по выходным"],
+          "correct_index": 0,
+          "explain_ru": "Genç — молодой, gençken — в молодости.",
+          "audio": "tr/3-13/w02.mp3"
+        }
+      ]
     }
   },
   "review": "draft"
