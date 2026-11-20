@@ -83,16 +83,413 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-13-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Опиши комнату (1/2): назовите расположение книги, сумки (çanta) и лампы (lamba):",
+          "target_text": "Kitap masanın üstünde. Çanta sandalyenin yanında. Lamba köşede.",
+          "translation_ru": "Книга на столе. Сумка рядом со стулом. Лампа в углу.",
+          "explain_ru": "В турецком пространственные отношения строятся через изафет: masa-nın üst-ü-nde (на верху стола), sandalye-nin yan-ı-nda (рядом со стулом).",
+          "audio": "tr/2-13/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-13-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Опиши комнату (2/2): потренируйте формы altında, önünde, arkasında:",
+          "target_text": "Kedi masanın altında. Araba evin önünde. Park bankanın arkasında.",
+          "translation_ru": "Кошка под столом. Машина перед домом. Парк за банком.",
+          "explain_ru": "Alt (низ) → altında (под), ön (перед) → önünde (перед), arka (зад) → arkasında (за).",
+          "audio": "tr/2-13/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-13-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Ключ внутри сумки, а собака снаружи дома»:",
+          "target_text": "Anahtar çantanın içinde, köpek evin dışında.",
+          "translation_ru": "Ключ внутри сумки, собака снаружи дома.",
+          "explain_ru": "İç (внутри) → içinde; dış (снаружи) → dışında.",
+          "audio": "tr/2-13/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-13-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Дерево в середине парка, а отель напротив вокзала»:",
+          "target_text": "Ağaç parkın ortasında. Otel istasyonun karşısında.",
+          "translation_ru": "Дерево в середине парка. Отель напротив вокзала.",
+          "explain_ru": "Orta (середина) → ortasında; karşı (напротив) → karşısında.",
+          "audio": "tr/2-13/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-13-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Магазин справа, а аптека/библиотека слева» (библиотека — kütüphane):",
+          "target_text": "Market sağda, kütüphane solda.",
+          "translation_ru": "Магазин справа, библиотека слева.",
+          "explain_ru": "Sağ (право) → sağda (справа); sol (лево) → solda (слева).",
+          "audio": "tr/2-13/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-13-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Ресторан на углу, справа от музея»:",
+          "target_text": "Restoran köşede, müzenin sağında.",
+          "translation_ru": "Ресторан на углу, справа от музея.",
+          "explain_ru": "Köşe → köşede (на углу); müzenin sağında — справа от музея.",
+          "audio": "tr/2-13/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-13-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Назовите вслух пары противоположностей: верх — низ, перед — зад, право — лево:",
+          "target_text": "üst ve alt, ön ve arka, sağ ve sol",
+          "translation_ru": "верх и низ, перед и зад, право и лево",
+          "explain_ru": "Эти короткие слова служат основой для большинства пространственных предлогов в турецком.",
+          "audio": "tr/2-13/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-13-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Телефон слева от тетради, а ручка внутри комнаты»:",
+          "target_text": "Telefon defterin solunda, kalem odanın içinde.",
+          "translation_ru": "Телефон слева от тетради, ручка внутри комнаты.",
+          "explain_ru": "Solunda (слева от), içinde (внутри).",
+          "audio": "tr/2-13/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-13-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Где кто? Прослушайте скрипт и ответьте: где кошка и где птица?",
+          "transcript": "Kedi masanın altında. Köpek kapının önünde. Kuş ağaçta.",
+          "options": [
+            "кошка под столом, птица на дереве",
+            "кошка на столе, птица перед дверью",
+            "кошка за дверью, птица под деревом",
+            "кошка в углу, птица в комнате"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kedi masanın altında (под столом), kuş ağaçta (на дереве).",
+          "audio": "tr/2-13/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-13-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «угол»:",
+          "transcript": "köşe",
+          "accepted": ["köşe"],
+          "explain_ru": "Köşe — угол (köşede — в углу / на углу).",
+          "audio": "tr/2-13/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-13-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «напротив»:",
+          "transcript": "karşı",
+          "accepted": ["karşı"],
+          "explain_ru": "Karşı — напротив (karşısında — напротив чего-то).",
+          "audio": "tr/2-13/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-13-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где находятся очки и кошелёк?",
+          "transcript": "Gözlük masanın üstünde. Cüzdan çantanın içinde.",
+          "options": [
+            "очки на столе, кошелёк внутри сумки",
+            "очки под столом, кошелёк рядом с сумкой",
+            "очки за стулом, кошелёк на столе",
+            "очки в углу, кошелёк снаружи"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Masanın üstünde (на столе), çantanın içinde (внутри сумки).",
+          "audio": "tr/2-13/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-13-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «середина»:",
+          "transcript": "orta",
+          "accepted": ["orta"],
+          "explain_ru": "Orta — середина (ortasında — посередине).",
+          "audio": "tr/2-13/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-13-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где находятся банк и отель?",
+          "transcript": "Banka sağda, otel solda. Otobüs istasyonun önünde.",
+          "options": [
+            "банк справа, отель слева, автобус перед вокзалом",
+            "банк слева, отель справа, автобус за вокзалом",
+            "банк напротив отеля, автобус внутри парка",
+            "банк в углу, отель напротив школы"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Sağda (справа), solda (слева), istasyonun önünde (перед вокзалом).",
+          "audio": "tr/2-13/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-13-ls-07",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «снаружи»:",
+          "transcript": "dış",
+          "accepted": ["dış"],
+          "explain_ru": "Dış — внешняя сторона / снаружи (dışında — вне/снаружи).",
+          "audio": "tr/2-13/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-13-ls-08",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где стоят дети?",
+          "transcript": "Çocuklar okulun dışında, büyük ağacın yanında.",
+          "options": [
+            "снаружи школы, рядом с большим деревом",
+            "внутри школы, перед дверью",
+            "посередине парка, напротив банка",
+            "за домом, слева от машины"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Okulun dışında (снаружи школы), ağacın yanında (рядом с деревом).",
+          "audio": "tr/2-13/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-13-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допишите изафет: «Kitap masa___ üst___» («на столе»):",
+          "source_text": "Kitap masa___ üst___",
+          "accepted": ["masanın üstünde", "Kitap masanın üstünde"],
+          "explain_ru": "Masa + nın (родительный падеж) + üst + ü + nde (принадлежность + местный падеж) → masanın üstünde.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-13-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допишите изафет: «Araba ev___ ön___» («перед домом»):",
+          "source_text": "Araba ev___ ön___",
+          "accepted": ["evin önünde", "Araba evin önünde"],
+          "explain_ru": "Ev + in + ön + ü + nde → evin önünde.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-13-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допишите изафет: «Çanta sandalye___ alt___» («под стулом»):",
+          "source_text": "Çanta sandalye___ alt___",
+          "accepted": ["sandalyenin altında", "Çanta sandalyenin altında"],
+          "explain_ru": "Sandalye + nin + alt + ı + nda → sandalyenin altında.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-13-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова расположения с переводом (часть 1):",
+          "pairs": [
+            { "left": "üst", "right": "верх" },
+            { "left": "alt", "right": "низ" },
+            { "left": "ön", "right": "перед" },
+            { "left": "arka", "right": "зад" }
+          ],
+          "explain_ru": "Üst — верх, alt — низ, ön — перед, arka — зад.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-13-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова расположения с переводом (часть 2):",
+          "pairs": [
+            { "left": "yan", "right": "бок/рядом" },
+            { "left": "iç", "right": "внутри" },
+            { "left": "dış", "right": "снаружи" },
+            { "left": "orta", "right": "середина" }
+          ],
+          "explain_ru": "Yan — бок/рядом, iç — внутри, dış — снаружи, orta — середина.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-13-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините направления и ориентиры с переводом:",
+          "pairs": [
+            { "left": "karşı", "right": "напротив" },
+            { "left": "sağ", "right": "право" },
+            { "left": "sol", "right": "лево" },
+            { "left": "köşe", "right": "угол" }
+          ],
+          "explain_ru": "Karşı — напротив, sağ — право, sol — лево, köşe — угол.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-13-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Магазин напротив школы»",
+          "source_text": "Магазин напротив школы.",
+          "bank": ["karşısında", "market", "okulun"],
+          "accepted": ["Market okulun karşısında"],
+          "explain_ru": "Market okulun karşısında — Магазин напротив школы.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-13-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: вставьте буферную букву «n» перед местным падежом («Кошка под столом»):",
+          "buggy_text": "Kedi masanın altıda.",
+          "accepted": ["Kedi masanın altında."],
+          "explain_ru": "После аффикса принадлежности 3-го лица (-ı/-i/-u/-ü) перед падежом всегда ставится буферная n: altında.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-13-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Карта улицы: прочитайте описание и ответьте на вопросы:",
+          "passage": "Market okulun karşısında. Banka marketin yanında. Park bankanın arkasında.",
+          "questions": [
+            {
+              "question_ru": "Что находится напротив школы?",
+              "options": ["магазин (market)", "банк (banka)", "парк (park)", "отель (otel)"],
+              "correct_index": 0,
+              "accepted": ["магазин", "market"]
+            },
+            {
+              "question_ru": "Что находится за банком?",
+              "options": ["парк (park)", "школа (okul)", "магазин (market)", "вокзал (istasyon)"],
+              "correct_index": 0,
+              "accepted": ["парк", "park"]
+            }
+          ],
+          "explain_ru": "Market okulun karşısında (магазин напротив школы), park bankanın arkasında (парк за банком).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-13-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «odanın ortasında»?",
+          "question_text": "odanın ortasında",
+          "options": ["посередине комнаты", "в углу комнаты", "снаружи комнаты", "напротив комнаты"],
+          "correct_index": 0,
+          "explain_ru": "Oda (комната) + orta (середина) → odanın ortasında.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-13-rd-03",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слово «напротив» в изафете:",
+          "target_text": "karşı",
+          "translation_ru": "напротив",
+          "example_text": "Otel parkın karşısında.",
+          "example_ru": "Отель напротив парка.",
+          "explain_ru": "После гласной ı в karşı добавляется буферная s: karşısında.",
+          "audio": "tr/2-13/w09.mp3"
+        },
+        {
+          "id": "tr-2-13-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какой антоним у слова «iç» (внутри)?",
+          "question_text": "iç ↔ ?",
+          "options": ["dış", "yan", "üst", "sol"],
+          "correct_index": 0,
+          "explain_ru": "İç (внутри) ↔ dış (снаружи).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-13-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «Sandalye masanın sağında»?",
+          "question_text": "Sandalye masanın sağında.",
+          "options": [
+            "Стул справа от стола.",
+            "Стул слева от стола.",
+            "Стул под столом.",
+            "Стул на столе."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Sağ — право; masanın sağında — справа от стола.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-13-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте описание комнаты:",
+          "passage": "Odanın ortasında büyük bir masa (стол) var. Masanın üstünde sıcak çay var. Köşede yeni bir sandalye var. Sandalyenin solunda benim çantam var.",
+          "questions": [
+            {
+              "question_ru": "Где стоит новая табуретка/стул (yeni bir sandalye)?",
+              "options": [
+                "в углу (köşede)",
+                "посередине комнаты (odanın ortasında)",
+                "на столе (masanın üstünde)",
+                "снаружи комнаты (odanın dışında)"
+              ],
+              "correct_index": 0,
+              "accepted": ["в углу", "köşede"]
+            }
+          ],
+          "explain_ru": "Köşede yeni bir sandalye var — В углу стоит новый стул.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-13-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не обозначает пространственное положение):",
+          "items": ["üst", "alt", "yan", "tren"],
+          "odd_index": 3,
+          "explain_ru": "Tren — поезд, остальные слова указывают положение в пространстве.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-13-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать «за домом»?",
+          "question_text": "за домом",
+          "options": ["evin arkasında", "evin önünde", "evin içinde", "evin üstünde"],
+          "correct_index": 0,
+          "explain_ru": "Arka (зад) → evin arkasında (за домом).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

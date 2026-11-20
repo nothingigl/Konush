@@ -83,16 +83,411 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-19-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Шкала частоты (1/2): скажите про воду и чай с наречиями her zaman и sık sık:",
+          "target_text": "Ben her zaman su içiyorum. Ben sık sık çay içiyorum.",
+          "translation_ru": "Я всегда пью воду. Я часто пью чай.",
+          "explain_ru": "Her zaman — всегда, sık sık — часто.",
+          "audio": "tr/2-19/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-19-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Шкала частоты (2/2): скажите про кофе и молоко с наречиями bazen и hiç:",
+          "target_text": "Ben bazen kahve içiyorum. Ben hiç süt içmiyorum.",
+          "translation_ru": "Я иногда пью кофе. Я никогда не пью молоко.",
+          "explain_ru": "С наречием hiç («никогда / совсем») глагол обязательно стоит в отрицательной форме: içmiyorum.",
+          "audio": "tr/2-19/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-19-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про количество: «Я хочу много воды, немного сыра и мало сахара»:",
+          "target_text": "Çok su, biraz peynir ve az şeker istiyorum.",
+          "translation_ru": "Я хочу много воды, немного сыра и мало сахара.",
+          "explain_ru": "Çok (много/очень), biraz (немного), az (мало).",
+          "audio": "tr/2-19/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-19-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я сразу прихожу! Автобус ещё не приходит»:",
+          "target_text": "Hemen geliyorum! Otobüs henüz gelmiyor.",
+          "translation_ru": "Я сразу иду! Автобус ещё не приходит.",
+          "explain_ru": "Hemen — сразу/немедленно; henüz («ещё не») используется с отрицанием.",
+          "audio": "tr/2-19/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-19-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я уже устал, больше не пью кофе»:",
+          "target_text": "Artık çok yorgunum, artık kahve içmiyorum.",
+          "translation_ru": "Я уже очень устал, больше не пью кофе.",
+          "explain_ru": "Artık в утверждении значит «уже / отныне», а с отрицанием — «больше не».",
+          "audio": "tr/2-19/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-19-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я обычно читаю дома, но сегодня снова иду в библиотеку»:",
+          "target_text": "Ben genellikle evde okuyorum ama bugün yine kütüphaneye gidiyorum.",
+          "translation_ru": "Я обычно читаю дома, но сегодня снова иду в библиотеку.",
+          "explain_ru": "Genellikle — обычно, yine — снова/опять.",
+          "audio": "tr/2-19/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-19-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Урок ещё не начинается, мы немного ждём»:",
+          "target_text": "Ders henüz başlamıyor, biraz bekliyoruz.",
+          "translation_ru": "Урок ещё не начинается, мы немного ждём.",
+          "explain_ru": "Henüz başlamıyor — ещё не начинается.",
+          "audio": "tr/2-19/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-19-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Мы часто ходим в парк, а иногда едим рыбу в ресторане»:",
+          "target_text": "Biz sık sık parka gidiyoruz, bazen restoranda balık yiyoruz.",
+          "translation_ru": "Мы часто ходим в парк, иногда едим рыбу в ресторане.",
+          "explain_ru": "Sık sık (часто) и bazen (иногда) обычно стоят перед глагольной группой.",
+          "audio": "tr/2-19/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-19-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Привычки Али: прослушайте скрипт и выберите, что он делает всегда и чего никогда не делает:",
+          "transcript": "Ben her zaman erken kalkıyorum. Bazen geç yatıyorum. Hiç kahve içmiyorum.",
+          "options": [
+            "всегда рано встаёт; никогда не пьёт кофе",
+            "всегда поздно ложится; никогда не пьёт чай",
+            "всегда пьёт кофе; никогда не встаёт рано",
+            "иногда рано встаёт; всегда пьёт молоко"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Her zaman erken kalkıyorum (всегда рано встаю), hiç kahve içmiyorum (никогда не пью кофе).",
+          "audio": "tr/2-19/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-19-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите наречие «обычно»:",
+          "transcript": "genellikle",
+          "accepted": ["genellikle"],
+          "explain_ru": "Genellikle — обычно.",
+          "audio": "tr/2-19/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-19-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите наречие «сразу»:",
+          "transcript": "hemen",
+          "accepted": ["hemen"],
+          "explain_ru": "Hemen — сразу, немедленно.",
+          "audio": "tr/2-19/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-19-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что сказано о поездке и времени?",
+          "transcript": "Tren henüz gelmiyor, bu yüzden biraz bekliyoruz. Ama hemen biniyoruz.",
+          "options": [
+            "поезд ещё не пришёл, немного ждут, но сразу сядут",
+            "поезд уже ушёл, они едут на автобусе",
+            "поезд приходит всегда вовремя",
+            "они никогда не ездят на поезде"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Henüz gelmiyor (ещё не приходит), biraz bekliyoruz (немного ждём), hemen (сразу).",
+          "audio": "tr/2-19/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-19-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите наречие «уже / больше (не)»:",
+          "transcript": "artık",
+          "accepted": ["artık"],
+          "explain_ru": "Artık — уже / больше (с отрицанием).",
+          "audio": "tr/2-19/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-19-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите наречие «ещё (не)»:",
+          "transcript": "henüz",
+          "accepted": ["henüz"],
+          "explain_ru": "Henüz — ещё (не).",
+          "audio": "tr/2-19/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-19-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как изменилась привычка Айше (eskiden — раньше)?",
+          "transcript": "Ayşe artık çok az şeker alıyor. Eskiden çok şeker alıyordu ama artık almıyor.",
+          "options": [
+            "теперь она берёт очень мало сахара (больше не берёт много)",
+            "она всегда берёт много сахара",
+            "она снова купила сахар",
+            "она никогда не пьёт чай"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Artık çok az şeker alıyor — Теперь/уже она берёт очень мало сахара.",
+          "audio": "tr/2-19/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-19-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите наречие «снова»:",
+          "transcript": "yine",
+          "accepted": ["yine"],
+          "explain_ru": "Yine — снова, опять.",
+          "audio": "tr/2-19/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-19-wr-01",
+          "type": "order_items",
+          "origin": "source",
+          "prompt_ru": "Шкала: расставьте наречия частоты от самого частого к самому редкому:",
+          "items_shuffled": ["bazen", "her zaman", "hiç", "sık sık"],
+          "correct_order": ["her zaman", "sık sık", "bazen", "hiç"],
+          "explain_ru": "Her zaman (всегда) → sık sık (часто) → bazen (иногда) → hiç (никогда).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-19-wr-02",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините наречия меры и частоты с переводом:",
+          "pairs": [
+            { "left": "çok", "right": "очень/много" },
+            { "left": "az", "right": "мало" },
+            { "left": "biraz", "right": "немного" },
+            { "left": "genellikle", "right": "обычно" }
+          ],
+          "explain_ru": "Çok — очень/много, az — мало, biraz — немного, genellikle — обычно.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-19-wr-03",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините наречия времени с переводом:",
+          "pairs": [
+            { "left": "hemen", "right": "сразу" },
+            { "left": "yine", "right": "снова" },
+            { "left": "artık", "right": "уже/больше" },
+            { "left": "henüz", "right": "ещё (не)" }
+          ],
+          "explain_ru": "Hemen — сразу, yine — снова, artık — уже/больше, henüz — ещё (не).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-19-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините наречия частоты с переводом:",
+          "pairs": [
+            { "left": "her zaman", "right": "всегда" },
+            { "left": "sık sık", "right": "часто" },
+            { "left": "bazen", "right": "иногда" },
+            { "left": "hiç", "right": "никогда/совсем" }
+          ],
+          "explain_ru": "Her zaman, sık sık, bazen, hiç.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-19-wr-05",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки наречие «немного»:",
+          "source_text": "немного",
+          "accepted": ["biraz"],
+          "explain_ru": "Biraz — немного (пишется слитно: bir + az).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-19-wr-06",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки наречие «часто» (два слова):",
+          "source_text": "часто",
+          "accepted": ["sık sık"],
+          "explain_ru": "Sık sık — часто.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-19-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Я никогда не пью кофе»",
+          "source_text": "Я никогда не пью кофе.",
+          "bank": ["kahve", "ben", "içmiyorum", "hiç"],
+          "accepted": ["Ben hiç kahve içmiyorum"],
+          "explain_ru": "Ben hiç kahve içmiyorum — Я никогда (совсем) не пью кофе.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-19-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: со словом «hiç» глагол в отрицательном смысле обязан стоять в отрицательной форме («Я никогда не пью молоко»):",
+          "buggy_text": "Ben hiç süt içiyorum.",
+          "accepted": ["Ben hiç süt içmiyorum."],
+          "explain_ru": "После hiç («никогда/совсем») необходимо отрицание -mı/-mi/-mu/-mü: içmiyorum.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-19-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "По дороге: прочитайте текст (otobüsle — на автобусе) и ответьте на вопрос:",
+          "passage": "Ali genellikle otobüsle işe gidiyor. Bazen yürüyor. Bugün yine geç kalıyor.",
+          "questions": [
+            {
+              "question_ru": "Как Али обычно ездит на работу?",
+              "options": [
+                "на автобусе (otobüsle)",
+                "пешком (yürüyor)",
+                "на поезде (trenle)",
+                "на машине (arabayla)"
+              ],
+              "correct_index": 0,
+              "accepted": ["на автобусе", "автобусом", "otobüsle"]
+            }
+          ],
+          "explain_ru": "Ali genellikle otobüsle işe gidiyor — Али обычно ездит на работу на автобусе.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-19-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «Henüz bilmiyorum»?",
+          "question_text": "Henüz bilmiyorum.",
+          "options": [
+            "Я ещё не знаю.",
+            "Я уже знаю.",
+            "Я сразу знаю.",
+            "Я снова знаю."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Henüz — ещё (не), bilmiyorum — не знаю.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-19-rd-03",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните наречие «уже / больше (не)»:",
+          "target_text": "artık",
+          "translation_ru": "уже / больше (с отрицанием)",
+          "example_text": "Artık geç, eve gidiyorum.",
+          "example_ru": "Уже поздно, я иду домой.",
+          "explain_ru": "Artık подчёркивает перемену состояния: раньше было иначе, а теперь — так.",
+          "audio": "tr/2-19/w10.mp3"
+        },
+        {
+          "id": "tr-2-19-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «hemen»:",
+          "question_text": "hemen",
+          "options": ["сразу", "иногда", "обычно", "мало"],
+          "correct_index": 0,
+          "explain_ru": "Hemen — сразу, сию минуту.",
+          "audio": "tr/2-19/w08.mp3"
+        },
+        {
+          "id": "tr-2-19-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какой антоним у слова «çok» (много)?",
+          "question_text": "çok ↔ ?",
+          "options": ["az", "yine", "hemen", "artık"],
+          "correct_index": 0,
+          "explain_ru": "Çok (много) ↔ az (мало).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-19-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку о распорядке дня:",
+          "passage": "Ben her zaman sabah yedi buçukta kalkıyorum. Genellikle evde kahvaltı yapıyorum, bazen sokakta biraz yürüyorum. Akşam sık sık kitap okuyorum ama artık geç yatmıyorum.",
+          "questions": [
+            {
+              "question_ru": "Чего рассказчик больше не делает?",
+              "options": [
+                "больше не ложится поздно (artık geç yatmıyorum)",
+                "больше не завтракает дома",
+                "больше не читает книги",
+                "больше не встаёт в 7:30"
+              ],
+              "correct_index": 0,
+              "accepted": ["не ложится поздно", "поздно ложиться", "artık geç yatmıyorum"]
+            }
+          ],
+          "explain_ru": "Artık geç yatmıyorum — Я больше не ложусь поздно.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-19-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не наречие количества):",
+          "items": ["çok", "az", "biraz", "hemen"],
+          "odd_index": 3,
+          "explain_ru": "Hemen («сразу») — наречие времени, остальные три обозначают количество/меру.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-19-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «Bugün yine geç kalıyor»?",
+          "question_text": "Bugün yine geç kalıyor.",
+          "options": [
+            "Сегодня он/она снова опаздывает.",
+            "Сегодня он/она приходит рано.",
+            "Сегодня он/она никогда не опаздывает.",
+            "Сегодня он/она сразу уходит."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yine — снова, geç kalmak — опаздывать.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

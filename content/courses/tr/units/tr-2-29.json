@@ -83,16 +83,412 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-29-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Ощупай и опиши: опишите вслух предметы вокруг по материалу и форме:",
+          "target_text": "Bu masa ahşap ve kare. Bu bardak cam ve yuvarlak. Bu defter kalın.",
+          "translation_ru": "Этот стол деревянный и квадратный. Этот стакан стеклянный и круглый. Эта тетрадь толстая.",
+          "explain_ru": "В турецком существительные материала (cam — стекло, demir — железо) перед другим существительным работают как определения: cam bardak (стеклянный стакан).",
+          "audio": "tr/2-29/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-29-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Эта дорога широкая и ровная, а та улица узкая»:",
+          "target_text": "Bu yol geniş ve düz ama şu sokak dar.",
+          "translation_ru": "Эта дорога широкая и ровная, а та улица узкая.",
+          "explain_ru": "Geniş — широкий, düz — ровный, dar — узкий.",
+          "audio": "tr/2-29/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-29-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Эта книга толстая, а бумага тонкая»:",
+          "target_text": "Bu kitap kalın ama kağıt ince.",
+          "translation_ru": "Эта книга толстая, но бумага тонкая.",
+          "explain_ru": "Kalın — толстый, ince — тонкий, kağıt — бумага.",
+          "audio": "tr/2-29/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-29-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Железная дверь тяжёлая, а деревянный стул лёгкий»:",
+          "target_text": "Demir kapı ağır ama ahşap sandalye hafif.",
+          "translation_ru": "Железная дверь тяжёлая, а деревянный стул лёгкий.",
+          "explain_ru": "Demir — железный, ahşap — деревянный.",
+          "audio": "tr/2-29/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-29-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Эта ткань мягкая и тонкая, она для рубашки» (yumuşak — мягкий):",
+          "target_text": "Bu kumaş yumuşak ve ince, gömlek için.",
+          "translation_ru": "Эта ткань мягкая и тонкая, она для рубашки.",
+          "explain_ru": "Kumaş — ткань, ince — тонкий.",
+          "audio": "tr/2-29/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-29-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Зеркало круглое, а ковёр квадратный»:",
+          "target_text": "Ayna yuvarlak ama halı kare.",
+          "translation_ru": "Зеркало круглое, а ковёр квадратный.",
+          "explain_ru": "Yuvarlak — круглый, kare — квадратный.",
+          "audio": "tr/2-29/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-29-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Эти брюки узкие, я хочу широкие брюки»:",
+          "target_text": "Bu pantolon dar, geniş bir pantolon istiyorum.",
+          "translation_ru": "Эти брюки узкие, я хочу широкие брюки.",
+          "explain_ru": "Dar — узкий, geniş — широкий.",
+          "audio": "tr/2-29/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-29-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «У меня белая бумага и ровная линейка» (cetvel — линейка):",
+          "target_text": "Benim beyaz bir kağıt ve düz bir cetvelim var.",
+          "translation_ru": "У меня есть белая бумага и ровная линейка.",
+          "explain_ru": "Kağıt — бумага, düz — ровный/прямой.",
+          "audio": "tr/2-29/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-29-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Дверь и окно: прослушайте скрипт и ответьте, какая дверь (pencere — окно):",
+          "transcript": "Bu kapı demir, ağır ve kalın. Şu pencere cam, ince ve geniş.",
+          "options": [
+            "железная, тяжёлая и толстая (demir, ağır ve kalın)",
+            "стеклянная, тонкая и широкая",
+            "деревянная, лёгкая и узкая",
+            "круглая и ровная"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bu kapı demir, ağır ve kalın — Эта дверь железная, тяжёлая и толстая.",
+          "audio": "tr/2-29/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-29-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «круглый» по-турецки:",
+          "transcript": "yuvarlak",
+          "accepted": ["yuvarlak"],
+          "explain_ru": "Yuvarlak — круглый.",
+          "audio": "tr/2-29/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-29-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «ткань» по-турецки:",
+          "transcript": "kumaş",
+          "accepted": ["kumaş"],
+          "explain_ru": "Kumaş — ткань.",
+          "audio": "tr/2-29/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-29-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что сказано про свитер и рубашку?",
+          "transcript": "Bu kazak kalın ve sıcak. Şu gömlek ince kumaş.",
+          "options": [
+            "Свитер толстый и тёплый, а рубашка из тонкой ткани",
+            "Свитер тонкий, а рубашка толстая",
+            "Обе вещи узкие и короткие",
+            "Свитер железный, а рубашка бумажная"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kalın — толстый, ince kumaş — тонкая ткань.",
+          "audio": "tr/2-29/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-29-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «ровный» по-турецки:",
+          "transcript": "düz",
+          "accepted": ["düz"],
+          "explain_ru": "Düz — ровный, прямой.",
+          "audio": "tr/2-29/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-29-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «деревянный» по-турецки:",
+          "transcript": "ahşap",
+          "accepted": ["ahşap"],
+          "explain_ru": "Ahşap — деревянный.",
+          "audio": "tr/2-29/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-29-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какая улица и какая дорога описаны в скрипте?",
+          "transcript": "Köyde yol dar ama şehirde yol geniş ve düz.",
+          "options": [
+            "В деревне дорога узкая, а в городе широкая и ровная",
+            "В деревне дорога широкая, а в городе узкая",
+            "В деревне дорога стеклянная",
+            "Обе дороги очень узкие"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Dar — узкий, geniş — широкий, düz — ровный.",
+          "audio": "tr/2-29/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-29-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «квадратный» по-турецки:",
+          "transcript": "kare",
+          "accepted": ["kare"],
+          "explain_ru": "Kare — квадратный, квадрат.",
+          "audio": "tr/2-29/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-29-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Из чего? Соедините каждый предмет с его материалом:",
+          "pairs": [
+            { "left": "bardak", "right": "cam" },
+            { "left": "masa", "right": "ahşap" },
+            { "left": "defter", "right": "kağıt" },
+            { "left": "gömlek", "right": "kumaş" }
+          ],
+          "explain_ru": "Стакан (bardak) — стекло (cam), стол (masa) — дерево (ahşap), тетрадь (defter) — бумага (kağıt), рубашка (gömlek) — ткань (kumaş).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-29-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Антонимы (1/2): напишите антоним к слову «geniş» (широкий):",
+          "source_text": "geniş ↔ ?",
+          "accepted": ["dar"],
+          "explain_ru": "Geniş (широкий) ↔ dar (узкий).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-29-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Антонимы (2/2): напишите антоним к слову «kalın» (толстый):",
+          "source_text": "kalın ↔ ?",
+          "accepted": ["ince"],
+          "explain_ru": "Kalın (толстый) ↔ ince (тонкий).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-29-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините формы и свойства с переводом:",
+          "pairs": [
+            { "left": "yuvarlak", "right": "круглый" },
+            { "left": "kare", "right": "квадратный" },
+            { "left": "düz", "right": "ровный" },
+            { "left": "demir", "right": "железный" }
+          ],
+          "explain_ru": "Yuvarlak — круглый, kare — квадратный, düz — ровный, demir — железный.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-29-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините прилагательные размера с переводом:",
+          "pairs": [
+            { "left": "kalın", "right": "толстый" },
+            { "left": "ince", "right": "тонкий" },
+            { "left": "geniş", "right": "широкий" },
+            { "left": "dar", "right": "узкий" }
+          ],
+          "explain_ru": "Kalın ↔ ince, geniş ↔ dar.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-29-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Этот деревянный стол очень широкий»:",
+          "source_text": "Этот деревянный стол очень широкий.",
+          "bank": ["geniş", "ahşap", "çok", "masa", "bu"],
+          "accepted": ["Bu ahşap masa çok geniş"],
+          "explain_ru": "Bu ahşap masa — этот деревянный стол, çok geniş — очень широкий.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-29-wr-07",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки слово «стекло»:",
+          "source_text": "стекло",
+          "accepted": ["cam"],
+          "explain_ru": "Cam — стекло (читается «джам»).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-29-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (форма, а не материал):",
+          "items": ["ahşap", "demir", "kağıt", "yuvarlak"],
+          "odd_index": 3,
+          "explain_ru": "Yuvarlak — круглый (форма), а ahşap, demir и kağıt — материалы.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-29-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Новый дом: прочитайте текст и ответьте на вопрос (pencereleri — его окна):",
+          "passage": "Yeni evimizin kapısı ahşap. Pencereleri geniş. Mutfağın masası yuvarlak.",
+          "questions": [
+            {
+              "question_ru": "Какой стол на кухне (mutfağın masası)?",
+              "options": [
+                "круглый (yuvarlak)",
+                "квадратный (kare)",
+                "узкий (dar)",
+                "железный (demir)"
+              ],
+              "correct_index": 0,
+              "accepted": ["круглый", "yuvarlak"]
+            }
+          ],
+          "explain_ru": "Mutfağın masası yuvarlak — Стол на кухне круглый.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-29-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Из какого материала обычно делают ключи (anahtar) и ложки?",
+          "question_text": "Anahtar neden yapılır?",
+          "options": ["demir", "kağıt", "kumaş", "cam"],
+          "correct_index": 0,
+          "explain_ru": "Demir — железо / железный.",
+          "audio": "tr/2-29/w02.mp3"
+        },
+        {
+          "id": "tr-2-29-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает слово «kumaş»?",
+          "question_text": "kumaş",
+          "options": ["ткань", "бумага", "стекло", "дерево"],
+          "correct_index": 0,
+          "explain_ru": "Kumaş — ткань.",
+          "audio": "tr/2-29/w05.mp3"
+        },
+        {
+          "id": "tr-2-29-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте описание комнаты и ответьте на вопрос:",
+          "passage": "Odamız dar ama çok temiz. Masamız kare ve ahşap. Masanın üstünde kalın bir kitap, ince bir kağıt ve cam bir bardak var.",
+          "questions": [
+            {
+              "question_ru": "Какая форма у стола (masa)?",
+              "options": [
+                "квадратная (kare)",
+                "круглая (yuvarlak)",
+                "узкая (dar)",
+                "тонкая (ince)"
+              ],
+              "correct_index": 0,
+              "accepted": ["квадратная", "квадратный", "kare"]
+            }
+          ],
+          "explain_ru": "Masamız kare ve ahşap — Наш стол квадратный и деревянный.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-29-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слово «kağıt» (бумага):",
+          "target_text": "kağıt",
+          "translation_ru": "бумага",
+          "example_text": "Bu kağıt çok ince ve beyaz.",
+          "example_ru": "Эта бумага очень тонкая и белая.",
+          "explain_ru": "В турецком языке встречается написание kağıt (и традиционное kâğıt); в этом курсе пишем kağıt.",
+          "audio": "tr/2-29/w04.mp3"
+        },
+        {
+          "id": "tr-2-29-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как перевести «Bu sokak çok dar, araba giremiyor»?",
+          "question_text": "Bu sokak çok dar.",
+          "options": [
+            "Эта улица очень узкая.",
+            "Эта улица очень широкая.",
+            "Эта улица очень длинная.",
+            "Эта улица очень ровная."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Dar — узкий, sokak — улица.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-29-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «Düz bir yol»?",
+          "question_text": "düz bir yol",
+          "options": [
+            "ровная (прямая) дорога",
+            "толстая книга",
+            "стеклянная дверь",
+            "круглая тарелка"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Düz — ровный/прямой, yol — дорога.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-29-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите антоним к «ince» (тонкий):",
+          "question_text": "ince ↔ ?",
+          "options": ["kalın", "dar", "düz", "kare"],
+          "correct_index": 0,
+          "explain_ru": "İnce (тонкий) ↔ kalın (толстый).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

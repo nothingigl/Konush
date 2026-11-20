@@ -83,16 +83,406 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-18-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Кто есть кто (1/2): укажите на предметы и людей (komşu — сосед):",
+          "target_text": "Bu bir kitap. Şu bir kalem. Biz arkadaşız. Onlar komşu.",
+          "translation_ru": "Это книга. То ручка. Мы друзья. Они соседи.",
+          "explain_ru": "Bu указывает на близкий предмет, şu — на более отдалённый; biz arkadaşız — мы друзья.",
+          "audio": "tr/2-18/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-18-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Кто есть кто (2/2): скажите «Все здесь. Никого нет» (burada — здесь):",
+          "target_text": "Herkes burada. Kimse yok.",
+          "translation_ru": "Все здесь. Никого нет.",
+          "explain_ru": "Herkes — все люди (глагол в единственном числе). Kimse yok — никого нет.",
+          "audio": "tr/2-18/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-18-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите все шесть личных местоимений подряд:",
+          "target_text": "ben, sen, o, biz, siz, onlar",
+          "translation_ru": "я, ты, он/она, мы, вы, они",
+          "explain_ru": "В турецком местоимение o не различает род (он, она, оно).",
+          "audio": "tr/2-18/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-18-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я студент, ты врач, а вы учитель?»:",
+          "target_text": "Ben öğrenciyim, sen doktorsun, siz öğretmen misiniz?",
+          "translation_ru": "Я студент, ты врач, а вы учитель?",
+          "explain_ru": "Личные окончания сказуемого согласуются с местоимением: -yim (ben), -sun (sen), -siniz (siz).",
+          "audio": "tr/2-18/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-18-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Яблоки свежие, все они вкусные»:",
+          "target_text": "Elmalar yeni, hepsi çok lezzetli.",
+          "translation_ru": "Яблоки свежие, все они очень вкусные.",
+          "explain_ru": "Hepsi означает «всё» или «все они» (о предметах и людях).",
+          "audio": "tr/2-18/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-18-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите: «Есть ли другой вопрос? Нет, это всё»:",
+          "target_text": "Başka soru var mı? Hayır, hepsi bu.",
+          "translation_ru": "Есть ещё (другой) вопрос? Нет, это всё.",
+          "explain_ru": "Başka — другой/ещё; hepsi bu — это всё.",
+          "audio": "tr/2-18/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-18-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Он мой друг, она моя старшая сестра, они счастливы»:",
+          "target_text": "O benim arkadaşım, o benim ablam, onlar çok mutlu.",
+          "translation_ru": "Он мой друг, она моя старшая сестра, они очень счастливы.",
+          "explain_ru": "Одно и то же местоимение o используется и для «он», и для «она».",
+          "audio": "tr/2-18/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-18-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «В комнате есть кто-нибудь? Нет, никого нет»:",
+          "target_text": "Odada kimse var mı? Hayır, kimse yok.",
+          "translation_ru": "В комнате есть кто-нибудь? Нет, никого нет.",
+          "explain_ru": "В вопросе kimse значит «кто-нибудь», а с отрицанием (yok / değil) — «никто».",
+          "audio": "tr/2-18/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-18-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Кто здесь? Прослушайте скрипт и ответьте: есть ли кто-то в последней фразе?",
+          "transcript": "Biz öğrenciyiz. Onlar öğretmen. Herkes burada. Kimse yok.",
+          "options": [
+            "никого нет (последняя фраза — Kimse yok)",
+            "все здесь",
+            "здесь только учителя",
+            "здесь только студенты"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Последняя фраза скрипта — «Kimse yok» («Никого нет»).",
+          "audio": "tr/2-18/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-18-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «все (люди)»:",
+          "transcript": "herkes",
+          "accepted": ["herkes"],
+          "explain_ru": "Herkes — все (о людях); пишется с s на конце, не с z.",
+          "audio": "tr/2-18/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-18-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «всё / все они»:",
+          "transcript": "hepsi",
+          "accepted": ["hepsi"],
+          "explain_ru": "Hepsi — всё / все они.",
+          "audio": "tr/2-18/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-18-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что просит покупатель?",
+          "transcript": "Bu gömlek çok küçük. Başka bir gömlek var mı?",
+          "options": [
+            "эта рубашка мала, он спрашивает другую рубашку",
+            "эта рубашка дорога, он берёт её",
+            "он покупает все рубашки сразу",
+            "он ищет свои брюки"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Başka bir gömlek var mı? — Есть ли другая рубашка?",
+          "audio": "tr/2-18/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-18-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «другой»:",
+          "transcript": "başka",
+          "accepted": ["başka"],
+          "explain_ru": "Başka — другой, иной, ещё.",
+          "audio": "tr/2-18/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-18-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кто присутствует на собрании?",
+          "transcript": "Siz hazır mısınız? Evet, herkes toplantıda. Hepsi burada.",
+          "options": [
+            "все на собрании, все они здесь",
+            "никого нет на собрании",
+            "пришёл только один человек",
+            "собрание перенесли на завтра"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Herkes toplantıda. Hepsi burada — Все на собрании. Все они здесь.",
+          "audio": "tr/2-18/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-18-ls-07",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «никто / кто-то»:",
+          "transcript": "kimse",
+          "accepted": ["kimse"],
+          "explain_ru": "Kimse — никто (с отрицанием) / кто-то (в вопросе).",
+          "audio": "tr/2-18/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-18-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите местоимение «они»:",
+          "transcript": "onlar",
+          "accepted": ["onlar"],
+          "explain_ru": "Onlar — они.",
+          "audio": "tr/2-18/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-18-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Вставьте местоимение (1/4): «___ öğrenciyim» («Я студент»):",
+          "source_text": "___ öğrenciyim",
+          "accepted": ["Ben", "Ben öğrenciyim"],
+          "explain_ru": "Окончание -yim указывает на 1-е лицо единственного числа → Ben.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-18-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Вставьте местоимение (2/4): «___ doktorsun» («Ты врач»):",
+          "source_text": "___ doktorsun",
+          "accepted": ["Sen", "Sen doktorsun"],
+          "explain_ru": "Окончание -sun указывает на 2-е лицо единственного числа → Sen.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-18-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Вставьте местоимение (3/4): «___ evdeyiz» («Мы дома»):",
+          "source_text": "___ evdeyiz",
+          "accepted": ["Biz", "Biz evdeyiz"],
+          "explain_ru": "Окончание -yiz указывает на 1-е лицо множественного числа → Biz.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-18-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Вставьте местоимение (4/4): «___ burada» («Они здесь»):",
+          "source_text": "___ burada (Они здесь)",
+          "accepted": ["Onlar", "Onlar burada"],
+          "explain_ru": "Onlar — «они»: Onlar burada.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-18-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините личные местоимения с переводом:",
+          "pairs": [
+            { "left": "ben", "right": "я" },
+            { "left": "sen", "right": "ты" },
+            { "left": "o", "right": "он/она" },
+            { "left": "siz", "right": "вы" }
+          ],
+          "explain_ru": "Ben — я, sen — ты, o — он/она, siz — вы.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-18-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините указательные и обобщительные местоимения с переводом:",
+          "pairs": [
+            { "left": "bu", "right": "этот" },
+            { "left": "şu", "right": "тот" },
+            { "left": "herkes", "right": "все (люди)" },
+            { "left": "kimse", "right": "никто/кто-то" }
+          ],
+          "explain_ru": "Bu — этот, şu — тот, herkes — все, kimse — никто/кто-то.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-18-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Все его любят»",
+          "source_text": "Все его любят.",
+          "bank": ["seviyor", "herkes", "onu"],
+          "accepted": ["Herkes onu seviyor"],
+          "explain_ru": "Herkes onu seviyor — Все его/её любят (после herkes глагол в 3-м лице ед. ч.).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-18-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: исправьте опечатку в слове «все» (на конце пишется s, не z):",
+          "buggy_text": "Herkez burada.",
+          "accepted": ["Herkes burada."],
+          "explain_ru": "Правильное написание — herkes (через s на конце).",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-18-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Мой друг: прочитайте текст (birlikte — вместе) и ответьте на вопрос:",
+          "passage": "Bu benim arkadaşım. O çok nazik. Biz her gün birlikte çalışıyoruz. Herkes onu seviyor.",
+          "questions": [
+            {
+              "question_ru": "Кто его любит?",
+              "options": ["все (herkes)", "только я", "никто (kimse)", "только его семья"],
+              "correct_index": 0,
+              "accepted": ["все", "herkes"]
+            }
+          ],
+          "explain_ru": "Herkes onu seviyor — Все его любят.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-18-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Чем отличаются «herkes» и «hepsi»?",
+          "question_text": "herkes vs hepsi",
+          "options": [
+            "herkes — только о людях («все люди»), а hepsi — «всё» или «все они» (о вещах и людях)",
+            "herkes значит «никто», а hepsi — «кто-то»",
+            "herkes — «этот», а hepsi — «тот»",
+            "Разницы нет"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Herkes geldi (Все пришли — о людях); kitapların hepsi yeni (Все книги новые).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-18-rd-03",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слово «другой»:",
+          "target_text": "başka",
+          "translation_ru": "другой / ещё",
+          "example_text": "Başka bir çay istiyorum.",
+          "example_ru": "Я хочу другой (ещё один) чай.",
+          "explain_ru": "Başka ставится перед существительным (часто с bir): başka bir kitap.",
+          "audio": "tr/2-18/w12.mp3"
+        },
+        {
+          "id": "tr-2-18-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите верный перевод фразы «Siz nerelisiniz?»:",
+          "question_text": "Siz nerelisiniz?",
+          "options": [
+            "Откуда вы?",
+            "Откуда ты?",
+            "Откуда они?",
+            "Откуда мы?"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Siz — вежливое «Вы» или множественное «вы».",
+          "audio": null
+        },
+        {
+          "id": "tr-2-18-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «Bu çanta eski, şu çanta yeni»?",
+          "question_text": "Bu çanta eski, şu çanta yeni.",
+          "options": [
+            "Эта сумка старая, та сумка новая.",
+            "Та сумка старая, эта сумка новая.",
+            "Все сумки новые.",
+            "Никакой сумки нет."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bu — этот (близко), şu — тот (дальше).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-18-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий диалог в классе:",
+          "passage": "— Bugün herkes derste mi? — Hayır, Ali ve Ayşe yok ama diğer (другие) öğrenciler burada. — Başka kimse yok mu? — Hayır, hepsi bu.",
+          "questions": [
+            {
+              "question_ru": "Кого нет сегодня на уроке?",
+              "options": [
+                "Али и Айше",
+                "никого нет на уроке",
+                "все на месте",
+                "учителя нет"
+              ],
+              "correct_index": 0,
+              "accepted": ["Али и Айше", "Ali ve Ayşe"]
+            }
+          ],
+          "explain_ru": "Hayır, Ali ve Ayşe yok — Нет, Али и Айше отсутствуют.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-18-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не личное местоимение):",
+          "items": ["ben", "biz", "onlar", "başka"],
+          "odd_index": 3,
+          "explain_ru": "Başka («другой») — определительное слово, остальные три — личные местоимения.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-18-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте личные местоимения единственного числа по порядку (1-е → 2-е → 3-е лицо):",
+          "items_shuffled": ["o", "ben", "sen"],
+          "correct_order": ["ben", "sen", "o"],
+          "explain_ru": "Ben (я) → sen (ты) → o (он/она).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,403 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-2-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Раздача (1/2): произнесите фразы с дательным падежом (-a/-e):",
+          "target_text": "Anneme hediye veriyorum. Arkadaşıma mesaj gönderiyorum. Ali'ye cevap veriyorum.",
+          "translation_ru": "Я даю маме подарок. Я отправляю другу сообщение. Я отвечаю Али.",
+          "explain_ru": "Дательный падеж (-a/-e; после гласной -ya/-ye) отвечает на вопрос «кому?»: anneme (маме), arkadaşıma (другу), Ali'ye (Али). Глаголы: vermek, göndermek.",
+          "audio": "tr/2-2/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-2-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Раздача (2/2): ещё три фразы с anne (мама), baba (папа) и arkadaş (друг):",
+          "target_text": "Anneme yardım ediyorum. Babama mektup gösteriyorum. Arkadaşıma odayı anlatıyorum.",
+          "translation_ru": "Я помогаю маме. Я показываю папе письмо. Я рассказываю другу про комнату.",
+          "explain_ru": "Глаголы yardım etmek (помогать), göstermek (показывать) и anlatmak (рассказывать) управляют дательным падежом.",
+          "audio": "tr/2-2/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-2-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите вслух шесть глаголов этого юнита в инфинитиве:",
+          "target_text": "vermek, göndermek, söylemek, göstermek, anlatmak, yardım etmek",
+          "translation_ru": "давать, отправлять, сказать, показывать, рассказывать, помогать",
+          "explain_ru": "Инфинитив в турецком оканчивается на -mak или -mek по гармонии гласных.",
+          "audio": "tr/2-2/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-2-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я говорю Али ответ»:",
+          "target_text": "Ali'ye cevabı söylüyorum.",
+          "translation_ru": "Я говорю Али ответ.",
+          "explain_ru": "От глагола söylemek: перед -yor гласная e сужается в ü → söylüyorum. В слове cevap перед гласной p → b: cevabı.",
+          "audio": "tr/2-2/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-2-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Этот вопрос лёгкий, а тот ответ трудный»:",
+          "target_text": "Bu soru kolay ama şu cevap zor.",
+          "translation_ru": "Этот вопрос лёгкий, но тот ответ трудный.",
+          "explain_ru": "Soru — вопрос, cevap — ответ.",
+          "audio": "tr/2-2/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-2-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Мы даём ребёнку подарок и деньги»:",
+          "target_text": "Biz çocuğa hediye ve para veriyoruz.",
+          "translation_ru": "Мы даём ребёнку подарок и деньги.",
+          "explain_ru": "В слове çocuk перед гласной -a согласная k озвончается в ğ: çocuğa.",
+          "audio": "tr/2-2/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-2-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Ты показываешь другу новую машину»:",
+          "target_text": "Sen arkadaşına yeni arabayı gösteriyorsun.",
+          "translation_ru": "Ты показываешь другу новую машину.",
+          "explain_ru": "Глагол göstermek (показывать): кому — arkadaşına, что — arabayı.",
+          "audio": "tr/2-2/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-2-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Он отправляет папе длинное письмо»:",
+          "target_text": "O babaya uzun bir mektup gönderiyor.",
+          "translation_ru": "Он отправляет папе длинное письмо.",
+          "explain_ru": "Babaya — папе (после гласной a вставляется буферная y). Mektup — письмо.",
+          "audio": "tr/2-2/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-2-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Кому? Прослушайте скрипт: кому НЕ дают деньги и что отправили Али?",
+          "transcript": "Ali'ye mektup gönderiyorum. Ayşe'ye hediye veriyorum. Mehmet'e para vermiyorum.",
+          "options": [
+            "Мехмету не дают деньги; Али отправили письмо",
+            "Али не дают деньги; Мехмету отправили подарок",
+            "Айше не дают деньги; Али отправили сообщение",
+            "Мехмету дали деньги; Айше отправили письмо"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Ali'ye mektup gönderiyorum (отправляю письмо Али), Mehmet'e para vermiyorum (не даю денег Мехмету).",
+          "audio": "tr/2-2/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-2-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «подарок»:",
+          "transcript": "hediye",
+          "accepted": ["hediye"],
+          "explain_ru": "Hediye — подарок.",
+          "audio": "tr/2-2/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-2-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «письмо»:",
+          "transcript": "mektup",
+          "accepted": ["mektup"],
+          "explain_ru": "Mektup — письмо.",
+          "audio": "tr/2-2/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-2-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что делает говорящий?",
+          "transcript": "Ben anneme yardım ediyorum ve ona bir soru söylüyorum.",
+          "options": [
+            "Помогает маме и задаёт (говорит) ей вопрос",
+            "Отправляет другу деньги",
+            "Показывает папе старую книгу",
+            "Рассказывает другу про собаку"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yardım ediyorum (от yardım etmek — помогать), soru (вопрос), söylüyorum (от söylemek — сказать).",
+          "audio": "tr/2-2/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-2-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «сообщение»:",
+          "transcript": "mesaj",
+          "accepted": ["mesaj"],
+          "explain_ru": "Mesaj — сообщение.",
+          "audio": "tr/2-2/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-2-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «деньги»:",
+          "transcript": "para",
+          "accepted": ["para"],
+          "explain_ru": "Para — деньги.",
+          "audio": "tr/2-2/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-2-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что делает друг в записи?",
+          "transcript": "Arkadaşım bana yeni saatini gösteriyor ve hikayeyi (историю) anlatıyor.",
+          "options": [
+            "Показывает мне свои новые часы и рассказывает историю",
+            "Даёт мне кошелёк и отправляет письмо",
+            "Помогает мне и отвечает на вопрос",
+            "Открывает дверь и берёт ключи"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Gösteriyor (от göstermek — показывать), anlatıyor (от anlatmak — рассказывать).",
+          "audio": "tr/2-2/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-2-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «ответ»:",
+          "transcript": "cevap",
+          "accepted": ["cevap"],
+          "explain_ru": "Cevap — ответ.",
+          "audio": "tr/2-2/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-2-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Поставьте имя в дательный падеж: «Ben Ali___ para veriyorum.» (Я даю деньги Али)",
+          "source_text": "Ben Ali___ para veriyorum.",
+          "accepted": ["Ali'ye", "Ben Ali'ye para veriyorum"],
+          "explain_ru": "После имени собственного ставится апостроф; так как Ali оканчивается на гласную i, добавляется -ye: Ali'ye.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-2-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Поставьте слово «baba» (папа) в дательный падеж: «O baba___ mektup gönderiyor.»",
+          "source_text": "O baba___ mektup gönderiyor.",
+          "accepted": ["babaya", "O babaya mektup gönderiyor"],
+          "explain_ru": "После гласной a вставляется соединительная y + аффикс -a: babaya.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-2-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Поставьте слово «çocuk» в дательный падеж: «Biz çocuk___ hediye veriyoruz.»",
+          "source_text": "Biz çocuk___ hediye veriyoruz.",
+          "accepted": ["çocuğa", "Biz çocuğa hediye veriyoruz"],
+          "explain_ru": "Перед гласным аффиксом -a глухая k на конце многосложного слова озвончается в ğ: çocuk → çocuğa.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-2-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы с их переводом (1/2):",
+          "pairs": [
+            { "left": "vermek", "right": "давать" },
+            { "left": "göndermek", "right": "отправлять" },
+            { "left": "söylemek", "right": "сказать" },
+            { "left": "göstermek", "right": "показывать" }
+          ],
+          "explain_ru": "Vermek, göndermek, söylemek, göstermek.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-2-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы и существительные с переводом (2/2):",
+          "pairs": [
+            { "left": "anlatmak", "right": "рассказывать" },
+            { "left": "yardım etmek", "right": "помогать" },
+            { "left": "soru", "right": "вопрос" },
+            { "left": "cevap", "right": "ответ" }
+          ],
+          "explain_ru": "Anlatmak, yardım etmek, soru, cevap.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-2-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Я отправляю другу сообщение»:",
+          "source_text": "Я отправляю другу сообщение.",
+          "bank": ["mesaj", "gönderiyorum", "arkadaşıma", "ben"],
+          "accepted": ["Ben arkadaşıma mesaj gönderiyorum"],
+          "explain_ru": "Ben arkadaşıma mesaj gönderiyorum.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-2-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: проверьте дательный падеж после имени «Ayşe» («Я даю Айше подарок»):",
+          "buggy_text": "Ayşe'a hediye veriyorum.",
+          "accepted": ["Ayşe'ye hediye veriyorum."],
+          "explain_ru": "Ayşe оканчивается на переднюю гласную e, поэтому нужны соединительная y и -e: Ayşe'ye.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-2-wr-08",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не существительное):",
+          "items": ["hediye", "mektup", "para", "anlatmak"],
+          "odd_index": 3,
+          "explain_ru": "Anlatmak — глагол («рассказывать»), остальные три слова — существительные.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-2-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "День Айше. Прочитайте текст и ответьте на вопрос:",
+          "passage": "Ayşe arkadaşına mesaj gönderiyor. Arkadaşı cevap veriyor. Sonra (потом) Ayşe annesine yardım ediyor.",
+          "questions": [
+            {
+              "question_ru": "Кому помогает Айше?",
+              "options": [
+                "маме (annesine)",
+                "другу (arkadaşına)",
+                "папе (babasına)",
+                "Али (Ali'ye)"
+              ],
+              "correct_index": 0,
+              "accepted": ["маме", "своей маме", "annesine"]
+            }
+          ],
+          "explain_ru": "Sonra Ayşe annesine yardım ediyor — Потом Айше помогает своей маме.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-2-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает глагол «göstermek»?",
+          "question_text": "göstermek",
+          "options": ["показывать", "отправлять", "рассказывать", "давать"],
+          "correct_index": 0,
+          "explain_ru": "Göstermek — показывать.",
+          "audio": "tr/2-2/w04.mp3"
+        },
+        {
+          "id": "tr-2-2-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильную форму «помогаю» от глагола «yardım etmek»:",
+          "question_text": "Ben anneme ___.",
+          "options": ["yardım ediyorum", "yardım etiyorum", "yardım edıyorum", "yardım atıyorum"],
+          "correct_index": 0,
+          "explain_ru": "В глаголе etmek согласная t перед гласной озвончается в d: yardım ediyorum.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-2-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку и ответьте на вопрос:",
+          "passage": "Merhaba! Ben Ali. Babama mektup gönderiyorum. Kardeşime (моему брату/сестре) yeni bir kitap gösteriyorum ve ona küçük bir hediye veriyorum.",
+          "questions": [
+            {
+              "question_ru": "Кому Али отправляет письмо (mektup)?",
+              "options": [
+                "папе (babama)",
+                "брату/сестре (kardeşime)",
+                "другу (arkadaşıma)",
+                "маме (anneme)"
+              ],
+              "correct_index": 0,
+              "accepted": ["папе", "своему папе", "babama"]
+            }
+          ],
+          "explain_ru": "Babama mektup gönderiyorum — Я отправляю папе письмо.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-2-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните составной глагол «помогать»:",
+          "target_text": "yardım etmek",
+          "translation_ru": "помогать",
+          "example_text": "Arkadaşıma yardım ediyorum.",
+          "example_ru": "Я помогаю своему другу.",
+          "explain_ru": "Yardım — помощь, etmek — делать. Спрягается вторая часть: yardım ediyorum.",
+          "audio": "tr/2-2/w06.mp3"
+        },
+        {
+          "id": "tr-2-2-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какую форму дательного падежа примет слово «kedi» (кошка)?",
+          "question_text": "kedi + дательный падеж («кошке»)",
+          "options": ["kediye", "kedia", "kedie", "kedya"],
+          "correct_index": 0,
+          "explain_ru": "Kedi оканчивается на переднюю гласную i, поэтому добавляется буферная y + e: kediye.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-2-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «Sana bir soru söylüyorum» (sana — тебе)?",
+          "question_text": "Sana bir soru söylüyorum.",
+          "options": [
+            "Я говорю тебе вопрос.",
+            "Я даю тебе деньги.",
+            "Я отправляю тебе письмо.",
+            "Я показываю тебе подарок."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Soru — вопрос, söylüyorum — говорю (от söylemek).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-2-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите пару антонимов из этого юнита:",
+          "question_text": "soru ↔ ?",
+          "options": ["cevap", "para", "mesaj", "hediye"],
+          "correct_index": 0,
+          "explain_ru": "Soru — вопрос, cevap — ответ.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,408 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-11-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Маршрут (1/2): расскажите дорогу вслух с глаголами binmek и varmak:",
+          "target_text": "Otobüse biniyorum. İstasyona varıyorum. Trene biniyorum.",
+          "translation_ru": "Я сажусь в автобус. Прибываю на вокзал. Сажусь в поезд.",
+          "explain_ru": "Глаголы binmek (садиться в транспорт) и varmak (прибывать) требуют дательного падежа -a/-e: otobüse, istasyona, trene.",
+          "audio": "tr/2-11/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-11-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Маршрут (2/2): добавьте фразу о начале урока (ders — урок):",
+          "target_text": "Derse başlıyorum.",
+          "translation_ru": "Я начинаю урок.",
+          "explain_ru": "От глагола başlamak (начинать): перед -iyor конечная a сужается в ı → başlıyorum. Ders + e → derse.",
+          "audio": "tr/2-11/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-11-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы входите в комнату и привыкаете к новому городу:",
+          "target_text": "Odaya giriyorum. Yeni şehre alışıyorum.",
+          "translation_ru": "Я вхожу в комнату. Я привыкаю к новому городу.",
+          "explain_ru": "От глаголов girmek (входить) и alışmak (привыкать). После гласной в oda вставляется буферная y: odaya. В şehir выпадает i: şehre.",
+          "audio": "tr/2-11/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-11-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы верите другу и благодарите его:",
+          "target_text": "Arkadaşıma inanıyorum ve ona teşekkür ediyorum.",
+          "translation_ru": "Я верю моему другу и благодарю его.",
+          "explain_ru": "Глаголы inanmak (верить) и teşekkür etmek (благодарить) управляют дательным падежом. В etmek перед гласной t озвончается в d: ediyorum.",
+          "audio": "tr/2-11/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-11-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы похожи на папу (babam — мой папа) и смеётесь над этим вопросом:",
+          "target_text": "Ben babama benziyorum. Bu soruya gülüyorum.",
+          "translation_ru": "Я похож(а) на моего папу. Я смеюсь над этим вопросом.",
+          "explain_ru": "От глаголов benzemek (быть похожим; e → i: benziyorum) и gülmek (смеяться). Soru + y + a → soruya.",
+          "audio": "tr/2-11/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-11-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы присоединяетесь к уроку и садитесь в поезд:",
+          "target_text": "Derse katılıyorum, sonra trene biniyorum.",
+          "translation_ru": "Я присоединяюсь к уроку, потом сажусь в поезд.",
+          "explain_ru": "Katılmak (присоединяться) требует дательного падежа: derse katılıyorum.",
+          "audio": "tr/2-11/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-11-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите названия транспорта в начальной форме и в дательном падеже:",
+          "target_text": "otobüs — otobüse, tren — trene",
+          "translation_ru": "автобус — в автобус, поезд — в поезд",
+          "explain_ru": "Оба слова с передними гласными (ü, e), поэтому дательный падеж принимает -e.",
+          "audio": "tr/2-11/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-11-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Мы прибываем в отель и входим в ресторан»:",
+          "target_text": "Otele varıyoruz ve restorana giriyoruz.",
+          "translation_ru": "Мы прибываем в отель и входим в ресторан.",
+          "explain_ru": "Otel → otele (e — передняя гласная), restoran → restorana (a — задняя гласная).",
+          "audio": "tr/2-11/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-11-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Путь Айше: прослушайте скрипт и выберите правильный порядок действий:",
+          "transcript": "Ayşe otobüse biniyor. Okula varıyor. Derse başlıyor.",
+          "options": [
+            "садится в автобус, приезжает в школу, начинает урок",
+            "садится в поезд, идёт в парк, слушает музыку",
+            "выходит из автобуса, идёт в магазин, читает книгу",
+            "приезжает на вокзал, входит в отель, отдыхает"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Otobüse biniyor (садится в автобус) → okula varıyor (прибывает в школу) → derse başlıyor (начинает урок).",
+          "audio": "tr/2-11/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-11-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «автобус»:",
+          "transcript": "otobüs",
+          "accepted": ["otobüs"],
+          "explain_ru": "Otobüs — автобус.",
+          "audio": "tr/2-11/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-11-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки слово «поезд»:",
+          "transcript": "tren",
+          "accepted": ["tren"],
+          "explain_ru": "Tren — поезд.",
+          "audio": "tr/2-11/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-11-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что делает говорящий?",
+          "transcript": "Yeni okula alışıyorum ve arkadaşlarıma teşekkür ediyorum.",
+          "options": [
+            "привыкает к новой школе и благодарит друзей",
+            "уходит из школы и ждёт поезд",
+            "смеётся над друзьями и входит в комнату",
+            "верит учителю и бежит в парк"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yeni okula alışıyorum (привыкаю к новой школе, от alışmak) и arkadaşlarıma teşekkür ediyorum (благодарю друзей, от teşekkür etmek).",
+          "audio": "tr/2-11/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-11-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите инфинитив «верить»:",
+          "transcript": "inanmak",
+          "accepted": ["inanmak"],
+          "explain_ru": "İnanmak — верить (кому-чему: дательный падеж -a/-e).",
+          "audio": "tr/2-11/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-11-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О чём говорится в реплике?",
+          "transcript": "Ali babasına benziyor. Kardeşi de çok gülüyor.",
+          "options": [
+            "Али похож на своего папу, а его брат/сестра много смеётся",
+            "Али благодарит папу и садится в автобус",
+            "Али входит в дом и начинает урок",
+            "Али ждёт поезд на вокзале"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Babasına benziyor (похож на папу, от benzemek), çok gülüyor (много смеётся, от gülmek).",
+          "audio": "tr/2-11/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-11-ls-07",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите фразу «в поезд» (в дательном падеже):",
+          "transcript": "trene",
+          "accepted": ["trene"],
+          "explain_ru": "Tren + e → trene (в поезд / на поезд).",
+          "audio": "tr/2-11/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-11-ls-08",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Куда присоединяется и куда входит Мехмет?",
+          "transcript": "Mehmet derse katılıyor, sonra kütüphaneye giriyor.",
+          "options": [
+            "присоединяется к уроку, потом входит в библиотеку",
+            "садится в автобус, потом едет на вокзал",
+            "привыкает к городу, потом идёт в банк",
+            "благодарит друга, потом выходит из дома"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Derse katılıyor (от katılmak — присоединяться), kütüphaneye giriyor (от girmek — входить).",
+          "audio": "tr/2-11/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-11-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допишите -a/-e: «Tren___ biniyorum» (введите слово целиком с окончанием):",
+          "source_text": "Tren___ biniyorum",
+          "accepted": ["trene", "Trene biniyorum"],
+          "explain_ru": "Tren заканчивается на согласную после передней гласной e → trene.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-11-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допишите -a/-e: «Oda___ giriyorum» (введите слово с окончанием):",
+          "source_text": "Oda___ giriyorum",
+          "accepted": ["odaya", "Odaya giriyorum"],
+          "explain_ru": "Oda заканчивается на гласную a, поэтому перед -a вставляется соединительная y → odaya.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-11-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допишите -a/-e: «Ders___ başlıyoruz» (введите слово с окончанием):",
+          "source_text": "Ders___ başlıyoruz",
+          "accepted": ["derse", "Derse başlıyoruz"],
+          "explain_ru": "Ders имеет переднюю гласную e → derse (начинаем урок).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-11-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допишите -a/-e: «Ben babam___ benziyorum» (введите слово с окончанием):",
+          "source_text": "Ben babam___ benziyorum",
+          "accepted": ["babama", "Ben babama benziyorum"],
+          "explain_ru": "Babam заканчивается на m после задней гласной a → babama (похож на папу).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-11-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы движения и начала с переводом:",
+          "pairs": [
+            { "left": "binmek", "right": "садиться (в транспорт)" },
+            { "left": "girmek", "right": "входить" },
+            { "left": "varmak", "right": "прибывать" },
+            { "left": "başlamak", "right": "начинать" }
+          ],
+          "explain_ru": "Все четыре глагола требуют дательного падежа (-a/-e).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-11-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините глаголы юнита с переводом:",
+          "pairs": [
+            { "left": "benzemek", "right": "быть похожим" },
+            { "left": "inanmak", "right": "верить" },
+            { "left": "gülmek", "right": "смеяться" },
+            { "left": "katılmak", "right": "присоединяться" }
+          ],
+          "explain_ru": "Benzemek, inanmak, gülmek, katılmak — все они управляют дательным падежом.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-11-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Я сажусь в автобус»",
+          "source_text": "Я сажусь в автобус.",
+          "bank": ["biniyorum", "ben", "otobüse"],
+          "accepted": ["Ben otobüse biniyorum"],
+          "explain_ru": "Порядок слов: подлежащее (Ben) + дополнение в дательном падеже (otobüse) + глагол (biniyorum).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-11-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: поставьте слово «otobüs» в правильный падеж (дательный):",
+          "buggy_text": "Ben otobüsa biniyorum.",
+          "accepted": ["Ben otobüse biniyorum."],
+          "explain_ru": "Последняя гласная в otobüs — передняя ü, поэтому по гармонии гласных нужен аффикс -e: otobüse.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-11-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Первый день: прочитайте текст и ответьте на вопрос:",
+          "passage": "Ali yeni bir okula varıyor. Odaya giriyor. Arkadaşlarına teşekkür ediyor. Derse başlıyor.",
+          "questions": [
+            {
+              "question_ru": "Что Али делает после того, как входит в комнату?",
+              "options": [
+                "благодарит друзей и начинает урок",
+                "садится в автобус и едет домой",
+                "выходит из школы и звонит маме",
+                "идёт в ресторан и пьёт чай"
+              ],
+              "correct_index": 0,
+              "accepted": ["благодарит друзей и начинает урок", "благодарит друзей", "начинает урок"]
+            }
+          ],
+          "explain_ru": "Arkadaşlarına teşekkür ediyor (благодарит друзей) и derse başlıyor (начинает урок).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-11-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает глагол «alışmak»?",
+          "question_text": "alışmak",
+          "options": ["привыкать", "прибывать", "верить", "смеяться"],
+          "correct_index": 0,
+          "explain_ru": "Alışmak — привыкать (к чему-либо в дательном падеже: şehre alışmak).",
+          "audio": "tr/2-11/w09.mp3"
+        },
+        {
+          "id": "tr-2-11-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает глагол «teşekkür etmek»?",
+          "question_text": "teşekkür etmek",
+          "options": ["благодарить", "присоединяться", "начинать", "быть похожим"],
+          "correct_index": 0,
+          "explain_ru": "Teşekkür etmek — благодарить (кого-либо в дательном падеже: sana teşekkür ediyorum).",
+          "audio": "tr/2-11/w10.mp3"
+        },
+        {
+          "id": "tr-2-11-rd-04",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните глагол «присоединяться»:",
+          "target_text": "katılmak",
+          "translation_ru": "присоединяться",
+          "example_text": "Ben de derse katılıyorum.",
+          "example_ru": "Я тоже присоединяюсь к уроку.",
+          "explain_ru": "Katılmak требует дательного падежа -a/-e.",
+          "audio": "tr/2-11/w08.mp3"
+        },
+        {
+          "id": "tr-2-11-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильную форму дательного падежа для слова «hastane» (больница):",
+          "question_text": "hastane + -a/-e",
+          "options": ["hastaneye", "hastanea", "hastanaya", "hastanede"],
+          "correct_index": 0,
+          "explain_ru": "После конечной гласной e вставляется буферная y и добавляется -e → hastaneye.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-11-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте мини-историю о поездке:",
+          "passage": "Sabah erken kalkıyorum. İstasyona varıyorum ve trene biniyorum. Yeni şehre alışıyorum ama hâlâ (всё ещё) köyümü seviyorum.",
+          "questions": [
+            {
+              "question_ru": "На какой транспорт садится рассказчик на вокзале?",
+              "options": [
+                "на поезд (trene)",
+                "на автобус (otobüse)",
+                "в машину (arabaya)",
+                "идёт пешком"
+              ],
+              "correct_index": 0,
+              "accepted": ["на поезд", "поезд", "trene", "tren"]
+            }
+          ],
+          "explain_ru": "İstasyona varıyorum ve trene biniyorum — Прибываю на вокзал и сажусь в поезд.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-11-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «Sana inanıyorum»?",
+          "question_text": "Sana inanıyorum.",
+          "options": [
+            "Я тебе верю.",
+            "Я над тобой смеюсь.",
+            "Я на тебя похож.",
+            "Я тебя благодарю."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Sana — дательный падеж от sen (тебе), inanıyorum — верю (от inanmak).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-11-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте шаги утреннего маршрута по порядку:",
+          "items_shuffled": ["Derse başlıyorum.", "Otobüse biniyorum.", "Okula varıyorum."],
+          "correct_order": ["Otobüse biniyorum.", "Okula varıyorum.", "Derse başlıyorum."],
+          "explain_ru": "Сначала садимся в автобус (binmek), потом прибываем в школу (varmak), затем начинаем урок (başlamak).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,407 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-24-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Кто рядом? Опишите вслух троих людей (meşgul — занят):",
+          "target_text": "Komşum nazik. Patronum meşgul. Bu bebek çok komik.",
+          "translation_ru": "Мой сосед вежливый. Мой босс занят. Этот младенец очень смешной.",
+          "explain_ru": "Komşu — сосед, patron — босс, bebek — младенец.",
+          "audio": "tr/2-24/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-24-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Здесь много людей, на улице большая толпа»:",
+          "target_text": "Burada çok insan var, sokakta büyük bir kalabalık var.",
+          "translation_ru": "Здесь много людей, на улице большая толпа.",
+          "explain_ru": "İnsan — человек, kalabalık — толпа (а также «многолюдный»).",
+          "audio": "tr/2-24/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-24-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите в ресторане: «Сколько персон? — Нас три человека»:",
+          "target_text": "Kaç kişi? Biz üç kişiyiz.",
+          "translation_ru": "Сколько персон (человек)? Нас трое.",
+          "explain_ru": "При счёте людей в турецком обычно используется слово kişi (персона/человек): üç kişi.",
+          "audio": "tr/2-24/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-24-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Он не иностранец, он наш знакомый»:",
+          "target_text": "O yabancı değil, o bizim tanıdığımız.",
+          "translation_ru": "Он не иностранец, он наш знакомый.",
+          "explain_ru": "Yabancı — иностранец/чужой, tanıdık — знакомый (перед гласной k → ğ: tanıdığımız).",
+          "audio": "tr/2-24/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-24-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «В магазине много клиентов и туристов»:",
+          "target_text": "Markette çok müşteri ve turist var.",
+          "translation_ru": "В магазине много клиентов и туристов.",
+          "explain_ru": "После çok («много») существительные müşteri и turist обычно стоят в единственном числе.",
+          "audio": "tr/2-24/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-24-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «В больнице медсестра помогает больному»:",
+          "target_text": "Hastanede hemşire hastaya yardım ediyor.",
+          "translation_ru": "В больнице медсестра помогает больному.",
+          "explain_ru": "Hasta — больной (и прилагательное, и существительное); hastaya — больному.",
+          "audio": "tr/2-24/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-24-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Вечером к нам приходят гости»:",
+          "target_text": "Akşam bize misafir geliyor.",
+          "translation_ru": "Вечером к нам приходит гость (приходят гости).",
+          "explain_ru": "Misafir — гость.",
+          "audio": "tr/2-24/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-24-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Этот человек — мой знакомый, он работает с моим боссом»:",
+          "target_text": "Bu insan benim tanıdığım, patronumla çalışıyor.",
+          "translation_ru": "Этот человек — мой знакомый, он работает с моим боссом.",
+          "explain_ru": "Tanıdık — знакомый, patron — босс.",
+          "audio": "tr/2-24/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-24-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Дома гости: прослушайте скрипт и ответьте, кто спит:",
+          "transcript": "Bugün evde misafirler var. Komşular geliyor. Bebek uyuyor.",
+          "options": [
+            "младенец (bebek)",
+            "соседи (komşular)",
+            "гости (misafirler)",
+            "босс (patron)"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bebek uyuyor — Младенец спит.",
+          "audio": "tr/2-24/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-24-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «клиент» по-турецки:",
+          "transcript": "müşteri",
+          "accepted": ["müşteri"],
+          "explain_ru": "Müşteri — клиент, покупатель.",
+          "audio": "tr/2-24/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-24-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «иностранец» по-турецки:",
+          "transcript": "yabancı",
+          "accepted": ["yabancı"],
+          "explain_ru": "Yabancı — иностранец (также «незнакомый, чужой»).",
+          "audio": "tr/2-24/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-24-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Сколько человек пришло в ресторан?",
+          "transcript": "Restoranda beş kişi var. Hepsi müşteri.",
+          "options": [
+            "пять человек, все — клиенты",
+            "три человека, все — соседи",
+            "пять туристов в парке",
+            "один больной в больнице"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Beş kişi — пять человек (персон), hepsi müşteri — все клиенты.",
+          "audio": "tr/2-24/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-24-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «знакомый» по-турецки:",
+          "transcript": "tanıdık",
+          "accepted": ["tanıdık"],
+          "explain_ru": "Tanıdık — знакомый.",
+          "audio": "tr/2-24/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-24-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «толпа» по-турецки:",
+          "transcript": "kalabalık",
+          "accepted": ["kalabalık"],
+          "explain_ru": "Kalabalık — толпа.",
+          "audio": "tr/2-24/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-24-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кто разговаривает с туристом?",
+          "transcript": "Bir turist müzeyi arıyor. Komşum ona yardım ediyor.",
+          "options": [
+            "Сосед помогает туристу найти музей",
+            "Босс ищет клиента в банке",
+            "Младенец спит в отеле",
+            "Гость едет в аэропорт"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Bir turist müzeyi arıyor (турист ищет музей). Komşum ona yardım ediyor (мой сосед ему помогает).",
+          "audio": "tr/2-24/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-24-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «босс» по-турецки:",
+          "transcript": "patron",
+          "accepted": ["patron"],
+          "explain_ru": "Patron — босс, начальник.",
+          "audio": "tr/2-24/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-24-wr-01",
+          "type": "odd_one_out",
+          "origin": "source",
+          "prompt_ru": "Лишнее слово: выберите слово, которое не обозначает одного человека:",
+          "items": ["komşu", "misafir", "müşteri", "kalabalık"],
+          "odd_index": 3,
+          "explain_ru": "Kalabalık — толпа (не отдельный человек), остальные три слова — сосед, гость, клиент.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-24-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Множественное число (1/3): образуйте форму от «turist»:",
+          "source_text": "turist → ?",
+          "accepted": ["turistler"],
+          "explain_ru": "Последняя гласная i мягкая → -ler: turistler.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-24-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Множественное число (2/3): образуйте форму от «hasta»:",
+          "source_text": "hasta → ?",
+          "accepted": ["hastalar"],
+          "explain_ru": "Последняя гласная a твёрдая → -lar: hastalar.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-24-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Множественное число (3/3): образуйте форму от «insan»:",
+          "source_text": "insan → ?",
+          "accepted": ["insanlar"],
+          "explain_ru": "Последняя гласная a твёрдая → -lar: insanlar.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-24-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом (часть 1):",
+          "pairs": [
+            { "left": "insan", "right": "человек" },
+            { "left": "kişi", "right": "персона" },
+            { "left": "komşu", "right": "сосед" },
+            { "left": "misafir", "right": "гость" }
+          ],
+          "explain_ru": "İnsan — человек, kişi — персона, komşu — сосед, misafir — гость.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-24-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом (часть 2):",
+          "pairs": [
+            { "left": "yabancı", "right": "иностранец" },
+            { "left": "müşteri", "right": "клиент" },
+            { "left": "patron", "right": "босс" },
+            { "left": "bebek", "right": "младенец" }
+          ],
+          "explain_ru": "Yabancı — иностранец, müşteri — клиент, patron — босс, bebek — младенец.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-24-wr-07",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом (часть 3):",
+          "pairs": [
+            { "left": "hasta", "right": "больной" },
+            { "left": "turist", "right": "турист" },
+            { "left": "tanıdık", "right": "знакомый" },
+            { "left": "kalabalık", "right": "толпа" }
+          ],
+          "explain_ru": "Hasta — больной, turist — турист, tanıdık — знакомый, kalabalık — толпа.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-24-wr-08",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Этот младенец очень смешной»:",
+          "source_text": "Этот младенец очень смешной.",
+          "bank": ["komik", "bu", "çok", "bebek"],
+          "accepted": ["Bu bebek çok komik"],
+          "explain_ru": "Bu bebek — этот младенец, çok komik — очень смешной.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-24-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Улица: прочитайте текст и ответьте на вопрос (fotoğraf çekiyor — фотографируют, soruyor — спрашивает):",
+          "passage": "Sokakta çok kalabalık var. Turistler fotoğraf çekiyor. Bir yabancı yol soruyor.",
+          "questions": [
+            {
+              "question_ru": "Что спрашивает иностранец (bir yabancı)?",
+              "options": [
+                "дорогу (yol)",
+                "цену",
+                "время",
+                "билет"
+              ],
+              "correct_index": 0,
+              "accepted": ["дорогу", "дорога", "yol"]
+            }
+          ],
+          "explain_ru": "Bir yabancı yol soruyor — Один иностранец спрашивает дорогу.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-24-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое слово означает «персона / человек (при счёте)»?",
+          "question_text": "İki ___ için masa lütfen.",
+          "options": ["kişi", "kalabalık", "patron", "hasta"],
+          "correct_index": 0,
+          "explain_ru": "İki kişi için — на двоих (на две персоны).",
+          "audio": "tr/2-24/w02.mp3"
+        },
+        {
+          "id": "tr-2-24-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите антоним по смыслу к слову «tanıdık» (знакомый):",
+          "question_text": "tanıdık ↔ ?",
+          "options": ["yabancı", "komşu", "misafir", "bebek"],
+          "correct_index": 0,
+          "explain_ru": "Tanıdık (знакомый) противопоставляется слову yabancı (чужой, незнакомый, иностранец).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-24-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте записку с работы и ответьте на вопрос:",
+          "passage": "Bugün patron ofiste değil çünkü hasta. Müşteriler bekliyor. Bir tanıdık bize yardım ediyor.",
+          "questions": [
+            {
+              "question_ru": "Почему босса нет в офисе?",
+              "options": [
+                "потому что он болен (hasta)",
+                "потому что он в отпуске",
+                "потому что у него гости",
+                "потому что он спит"
+              ],
+              "correct_index": 0,
+              "accepted": ["болен", "он болен", "hasta"]
+            }
+          ],
+          "explain_ru": "Bugün patron ofiste değil çünkü hasta — Сегодня босса нет в офисе, потому что он болен.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-24-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните слово «misafir» (гость):",
+          "target_text": "misafir",
+          "translation_ru": "гость",
+          "example_text": "Evimizde misafirler var.",
+          "example_ru": "У нас дома гости.",
+          "explain_ru": "Misafir — гость (в турецкой культуре очень частое и тёплое слово).",
+          "audio": "tr/2-24/w04.mp3"
+        },
+        {
+          "id": "tr-2-24-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает предложение «Komşumuz çok nazik bir insan»?",
+          "question_text": "Komşumuz çok nazik bir insan.",
+          "options": [
+            "Наш сосед — очень вежливый человек.",
+            "Наш босс — строгий турист.",
+            "Этот гость — больной человек.",
+            "На улице большая толпа."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Komşumuz — наш сосед, çok nazik bir insan — очень вежливый человек.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-24-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите правильную форму множественного числа от «bebek»:",
+          "question_text": "bebek → ?",
+          "options": ["bebekler", "bebeklar", "bebeğler", "bebeklerimlar"],
+          "correct_index": 0,
+          "explain_ru": "В слове bebek последняя гласная e (мягкая), поэтому -ler: bebekler (перед согласным l буква k не озвончается).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-24-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Кто приходит в ресторан или магазин за покупкой?",
+          "question_text": "Restorana kim geliyor?",
+          "options": ["müşteri", "bebek", "kalabalık", "hasta"],
+          "correct_index": 0,
+          "explain_ru": "Müşteri — клиент, посетитель.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

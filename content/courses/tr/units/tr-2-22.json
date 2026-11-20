@@ -83,16 +83,417 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-22-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Хочу / не хочу (1/2): произнесите вслух три фразы с инфинитивами (yemeği — это блюдо):",
+          "target_text": "Türkçe öğrenmek istiyorum. Çok uyumak istemiyorum. Bu yemeği denemek istiyorum.",
+          "translation_ru": "Я хочу учить турецкий. Я не хочу много спать. Я хочу попробовать это блюдо.",
+          "explain_ru": "После инфинитива на -mak/-mek ставится глагол istiyorum («хочу») или istemiyorum («не хочу»).",
+          "audio": "tr/2-22/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-22-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Хочу / не хочу (2/2): скажите фразы с глаголами yaşamak и unutmak:",
+          "target_text": "İstanbul'da yaşamak istiyorum. Hiçbir şeyi unutmak istemiyorum.",
+          "translation_ru": "Я хочу жить в Стамбуле. Я не хочу ничего забывать.",
+          "explain_ru": "Yaşamak — жить, unutmak — забывать.",
+          "audio": "tr/2-22/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-22-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я хочу понимать и хорошо думать»:",
+          "target_text": "Anlamak ve iyi düşünmek istiyorum.",
+          "translation_ru": "Я хочу понимать и хорошо думать.",
+          "explain_ru": "Anlamak (твёрдые гласные → -mak), düşünmek (мягкие гласные → -mek).",
+          "audio": "tr/2-22/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-22-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я хочу вспомнить это слово и закончить урок»:",
+          "target_text": "Bu kelimeyi hatırlamak ve dersi bitirmek istiyorum.",
+          "translation_ru": "Я хочу вспомнить это слово и закончить урок.",
+          "explain_ru": "Hatırlamak — вспоминать, bitirmek — заканчивать (kelime — слово).",
+          "audio": "tr/2-22/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-22-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я хочу выбрать новую книгу и использовать телефон»:",
+          "target_text": "Yeni bir kitap seçmek ve telefonu kullanmak istiyorum.",
+          "translation_ru": "Я хочу выбрать новую книгу и использовать телефон.",
+          "explain_ru": "Seçmek — выбирать, kullanmak — использовать.",
+          "audio": "tr/2-22/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-22-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что Али хочет преподавать, а ты хочешь учиться:",
+          "target_text": "Ali öğretmek istiyor, sen öğrenmek istiyorsun.",
+          "translation_ru": "Али хочет преподавать, ты хочешь учиться.",
+          "explain_ru": "Не путайте близкие глаголы: öğrenmek (учиться самому) и öğretmek (преподавать другому).",
+          "audio": "tr/2-22/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-22-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Мы хотим рано спать, потому что мы устали»:",
+          "target_text": "Erken uyumak istiyoruz çünkü yorgunuz.",
+          "translation_ru": "Мы хотим рано спать, потому что мы устали.",
+          "explain_ru": "Uyumak — спать, erken — рано, çünkü — потому что.",
+          "audio": "tr/2-22/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-22-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Они хотят жить в Турции и пробовать вкусную еду»:",
+          "target_text": "Onlar Türkiye'de yaşamak ve lezzetli yemek denemek istiyorlar.",
+          "translation_ru": "Они хотят жить в Турции и пробовать вкусную еду.",
+          "explain_ru": "Yaşamak — жить, denemek — пробовать.",
+          "audio": "tr/2-22/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-22-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Кто что хочет? Прослушайте скрипт и выберите правильный ответ:",
+          "transcript": "Ben Türkçe öğrenmek istiyorum. Ali Türkçe öğretmek istiyor. Ayşe hiçbir şeyi unutmak istemiyor.",
+          "options": [
+            "я хочу учить турецкий; Али хочет преподавать турецкий",
+            "я хочу преподавать; Али хочет спать",
+            "Айше хочет преподавать; я хочу всё забыть",
+            "Али хочет учить турецкий; Айше хочет жить в Турции"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Öğrenmek — учить(ся), öğretmek — преподавать, unutmak — забывать.",
+          "audio": "tr/2-22/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-22-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите инфинитив «вспоминать» по-турецки:",
+          "transcript": "hatırlamak",
+          "accepted": ["hatırlamak"],
+          "explain_ru": "Hatırlamak — вспоминать, помнить.",
+          "audio": "tr/2-22/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-22-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите инфинитив «думать» по-турецки:",
+          "transcript": "düşünmek",
+          "accepted": ["düşünmek"],
+          "explain_ru": "Düşünmek — думать (гласная ü мягкая → окончание -mek).",
+          "audio": "tr/2-22/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-22-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что хочет сделать говорящий сейчас?",
+          "transcript": "Önce biraz düşünmek, sonra kitabı bitirmek istiyorum.",
+          "options": [
+            "Сначала немного подумать, потом закончить книгу",
+            "Сначала поспать, потом выбрать фильм",
+            "Сначала забыть урок, потом пойти домой",
+            "Сначала попробовать суп, потом использовать карту"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Düşünmek — думать, bitirmek — заканчивать.",
+          "audio": "tr/2-22/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-22-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите инфинитив «выбирать» по-турецки:",
+          "transcript": "seçmek",
+          "accepted": ["seçmek"],
+          "explain_ru": "Seçmek — выбирать.",
+          "audio": "tr/2-22/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-22-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите инфинитив «использовать» по-турецки:",
+          "transcript": "kullanmak",
+          "accepted": ["kullanmak"],
+          "explain_ru": "Kullanmak — использовать, пользоваться.",
+          "audio": "tr/2-22/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-22-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О чём говорит студент?",
+          "transcript": "Her dersi anlamak ve yeni kelimeleri hatırlamak istiyorum.",
+          "options": [
+            "Хочет понимать каждый урок и вспоминать новые слова",
+            "Хочет забыть старые слова и спать",
+            "Хочет выбрать новый телефон",
+            "Хочет преподавать в университете"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Anlamak — понимать, hatırlamak — вспоминать.",
+          "audio": "tr/2-22/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-22-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите инфинитив «заканчивать» по-турецки:",
+          "transcript": "bitirmek",
+          "accepted": ["bitirmek"],
+          "explain_ru": "Bitirmek — заканчивать, завершать.",
+          "audio": "tr/2-22/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-22-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Я хочу попробовать это блюдо» (yemeği — это блюдо):",
+          "source_text": "Я хочу попробовать это блюдо.",
+          "bank": ["istiyorum", "yemeği", "denemek", "bu"],
+          "accepted": ["Bu yemeği denemek istiyorum"],
+          "explain_ru": "Инфинитив denemek стоит прямо перед личным глаголом istiyorum: Bu yemeği denemek istiyorum.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-22-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Допишите глагол («Я хочу жить в Стамбуле»): «İstanbul'da yaşamak ___»",
+          "source_text": "İstanbul'da yaşamak ___",
+          "accepted": ["istiyorum", "İstanbul'da yaşamak istiyorum"],
+          "explain_ru": "İstanbul'da yaşamak istiyorum — Я хочу жить в Стамбуле.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-22-wr-03",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините инфинитивы с переводом (часть 1):",
+          "pairs": [
+            { "left": "öğrenmek", "right": "учить(ся)" },
+            { "left": "öğretmek", "right": "преподавать" },
+            { "left": "anlamak", "right": "понимать" },
+            { "left": "düşünmek", "right": "думать" }
+          ],
+          "explain_ru": "Öğrenmek — учиться, öğretmek — преподавать, anlamak — понимать, düşünmek — думать.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-22-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините инфинитивы с переводом (часть 2):",
+          "pairs": [
+            { "left": "hatırlamak", "right": "вспоминать" },
+            { "left": "unutmak", "right": "забывать" },
+            { "left": "bitirmek", "right": "заканчивать" },
+            { "left": "denemek", "right": "пробовать" }
+          ],
+          "explain_ru": "Hatırlamak и unutmak — антонимы (вспоминать / забывать).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-22-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините инфинитивы с переводом (часть 3):",
+          "pairs": [
+            { "left": "seçmek", "right": "выбирать" },
+            { "left": "kullanmak", "right": "использовать" },
+            { "left": "yaşamak", "right": "жить" },
+            { "left": "uyumak", "right": "спать" }
+          ],
+          "explain_ru": "Seçmek — выбирать, kullanmak — использовать, yaşamak — жить, uyumak — спать.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-22-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Ты хочешь выбрать новую рубашку?»:",
+          "source_text": "Ты хочешь выбрать новую рубашку?",
+          "bank": ["musun", "yeni", "seçmek", "gömlek", "istiyor"],
+          "accepted": ["Yeni gömlek seçmek istiyor musun"],
+          "explain_ru": "Вопросительная частица musun пишется отдельно после istiyor.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-22-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте гармонию гласных в инфинитиве («Я хочу понимать»):",
+          "buggy_text": "Ben anlamek istiyorum.",
+          "accepted": ["Ben anlamak istiyorum."],
+          "explain_ru": "В корне anla- последняя гласная твёрдая (a), поэтому инфинитив образуется с -mak: anlamak.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-22-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-турецки: «Я не хочу забывать»:",
+          "source_text": "Я не хочу забывать.",
+          "accepted": ["Unutmak istemiyorum.", "Ben unutmak istemiyorum."],
+          "explain_ru": "Unutmak — забывать, istemiyorum — не хочу.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-22-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Планы: прочитайте текст и ответьте на вопрос (kelimeler — слова, önemli — важно, İspanyolca — испанский):",
+          "passage": "Ben çok şey öğrenmek istiyorum. Önce Türkçe, sonra İspanyolca. Her gün yeni kelimeler kullanmak önemli.",
+          "questions": [
+            {
+              "question_ru": "Какой язык автор хочет выучить сначала?",
+              "options": [
+                "турецкий (Türkçe)",
+                "испанский (İspanyolca)",
+                "английский",
+                "французский"
+              ],
+              "correct_index": 0,
+              "accepted": ["турецкий", "Türkçe"]
+            }
+          ],
+          "explain_ru": "Önce Türkçe, sonra İspanyolca — Сначала турецкий, потом испанский.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-22-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Чем отличается «öğrenmek» от «öğretmek»?",
+          "question_text": "öğrenmek / öğretmek",
+          "options": [
+            "öğrenmek — учить(ся), öğretmek — преподавать",
+            "öğrenmek — преподавать, öğretmek — забывать",
+            "оба слова означают «спать»",
+            "öğrenmek — выбирать, öğretmek — жить"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Öğrenmek — учиться самому; öğretmek — учить кого-то, преподавать (отсюда öğretmen — учитель).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-22-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите антоним к глаголу «hatırlamak» (вспоминать):",
+          "question_text": "hatırlamak ↔ ?",
+          "options": ["unutmak", "uyumak", "yaşamak", "kullanmak"],
+          "correct_index": 0,
+          "explain_ru": "Hatırlamak (вспоминать) ↔ unutmak (забывать).",
+          "audio": "tr/2-22/w06.mp3"
+        },
+        {
+          "id": "tr-2-22-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте заметку и ответьте на вопрос:",
+          "passage": "Bugün çok işim var ama akşam erken uyumak istiyorum. Önce işi bitirmek, sonra yeni bir kitap seçmek istiyorum.",
+          "questions": [
+            {
+              "question_ru": "Что автор хочет сделать перед тем, как выбрать новую книгу?",
+              "options": [
+                "закончить работу (işi bitirmek)",
+                "поспать (uyumak)",
+                "приготовить завтрак",
+                "пойти в банк"
+              ],
+              "correct_index": 0,
+              "accepted": ["закончить работу", "işi bitirmek"]
+            }
+          ],
+          "explain_ru": "Önce işi bitirmek, sonra yeni bir kitap seçmek istiyorum — Сначала закончить работу, потом выбрать новую книгу.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-22-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните глагол «denemek» (пробовать):",
+          "target_text": "denemek",
+          "translation_ru": "пробовать",
+          "example_text": "Bu çorbayı denemek istiyorum.",
+          "example_ru": "Я хочу попробовать этот суп.",
+          "explain_ru": "Основа dene- оканчивается на мягкую e, поэтому инфинитив — denemek.",
+          "audio": "tr/2-22/w08.mp3"
+        },
+        {
+          "id": "tr-2-22-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "По какому правилу выбирается окончание инфинитива -mak или -mek?",
+          "question_text": "anla-mak / düşün-mek",
+          "options": [
+            "После твёрдых гласных (a, ı, o, u) — -mak; после мягких (e, i, ö, ü) — -mek",
+            "Всегда пишется -mak",
+            "Для людей -mek, для предметов -mak",
+            "Зависит от числа слов в предложении"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Это малая гармония гласных (двухвариантная): твёрдые → -mak, мягкие → -mek.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-22-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите глагол с другим окончанием инфинитива (-mak вместо -mek):",
+          "items": ["öğrenmek", "seçmek", "bitirmek", "kullanmak"],
+          "odd_index": 3,
+          "explain_ru": "Kullanmak имеет твёрдую основу и окончание -mak, остальные три — мягкие основы на -mek.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-22-rd-08",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что означает «Bu telefonu kullanmak kolay»?",
+          "question_text": "Bu telefonu kullanmak kolay.",
+          "options": [
+            "Пользоваться этим телефоном легко.",
+            "Этот телефон дорогой.",
+            "Я забыл этот телефон.",
+            "Я хочу спать."
+          ],
+          "correct_index": 0,
+          "explain_ru": "Инфинитив в турецком может быть подлежащим: kullanmak kolay — использовать легко.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,391 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-5-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Счёт вперёд: посчитайте десятками от 10 до 100:",
+          "target_text": "on, yirmi, otuz, kırk, elli, altmış, yetmiş, seksen, doksan, yüz",
+          "translation_ru": "10, 20, 30, 40, 50, 60, 70, 80, 90, 100",
+          "explain_ru": "Обратите внимание: altmış (60) пишется с буквой t (от altı — шесть), а yetmiş (70) — с t (от yedi — семь).",
+          "audio": "tr/2-5/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-5-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Счёт назад: посчитайте десятками от 100 до 10:",
+          "target_text": "yüz, doksan, seksen, yetmiş, altmış, elli, kırk, otuz, yirmi, on",
+          "translation_ru": "100, 90, 80, 70, 60, 50, 40, 30, 20, 10",
+          "explain_ru": "Обратный счёт отлично закрепляет быстрое припоминание чисел.",
+          "audio": "tr/2-5/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-5-sp-03",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Назовите вслух вразброс 100, 50, 1000, 0:",
+          "target_text": "yüz, elli, bin, sıfır",
+          "translation_ru": "100, 50, 1000, 0",
+          "explain_ru": "Sıfır — 0 (обе гласные — ı без точки), yüz — 100, bin — 1000.",
+          "audio": "tr/2-5/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-5-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Назовите цены в магазине (в турецких лирах):",
+          "target_text": "Ekmek on lira. Çay yirmi lira. Kahve altmış lira.",
+          "translation_ru": "Хлеб — 10 лир. Чай — 20 лир. Кофе — 60 лир.",
+          "explain_ru": "После числительных существительное всегда стоит в единственном числе: on lira (не liralar).",
+          "audio": "tr/2-5/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-5-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Назовите круглые суммы: 30, 40, 80, 90 лир:",
+          "target_text": "Otuz lira. Kırk lira. Seksen lira. Doksan lira.",
+          "translation_ru": "30 лир. 40 лир. 80 лир. 90 лир.",
+          "explain_ru": "Otuz (30), kırk (40), seksen (80), doksan (90).",
+          "audio": "tr/2-5/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-5-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите цену и назовите большую сумму (1000 лир):",
+          "target_text": "Bu saat ne kadar? Bu saat bin lira.",
+          "translation_ru": "Сколько стоят эти часы? Эти часы стоят тысячу лир.",
+          "explain_ru": "В турецком говорят просто bin (не bir bin) и yüz (не bir yüz).",
+          "audio": "tr/2-5/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-5-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Произнесите пары с похожим звучанием (60 / 70 и 80 / 90):",
+          "target_text": "altmış, yetmiş; seksen, doksan",
+          "translation_ru": "60, 70; 80, 90",
+          "explain_ru": "Altmış — 60, yetmiş — 70, seksen — 80, doksan — 90.",
+          "audio": "tr/2-5/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-5-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «В моем кошельке ноль лир, но в банке пятьсот лир»:",
+          "target_text": "Cüzdanımda sıfır lira var ama bankada beş (пять) yüz lira var.",
+          "translation_ru": "В моём кошельке ноль лир, но в банке пятьсот лир.",
+          "explain_ru": "Сотни образуются просто: beş yüz (500).",
+          "audio": "tr/2-5/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-5-ls-01",
+          "type": "listen_type",
+          "origin": "source",
+          "prompt_ru": "Касса: прослушайте суммы и запишите их цифрами через запятую:",
+          "transcript": "Elli lira. Yetmiş lira. Doksan lira. Yüz lira.",
+          "accepted": ["50, 70, 90, 100"],
+          "explain_ru": "Elli (50), yetmiş (70), doksan (90), yüz (100).",
+          "audio": "tr/2-5/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-5-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки число «60»:",
+          "transcript": "altmış",
+          "accepted": ["altmış"],
+          "explain_ru": "Altmış — 60.",
+          "audio": "tr/2-5/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-5-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки число «40»:",
+          "transcript": "kırk",
+          "accepted": ["kırk"],
+          "explain_ru": "Kırk — 40 (с гласной ı без точки).",
+          "audio": "tr/2-5/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-5-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Сколько стоит сумка в записи?",
+          "transcript": "Bu yeni çanta seksen lira.",
+          "options": [
+            "80 лир (seksen)",
+            "90 лир (doksan)",
+            "70 лир (yetmiş)",
+            "60 лир (altmış)"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Seksen lira — 80 лир.",
+          "audio": "tr/2-5/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-5-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки число «0»:",
+          "transcript": "sıfır",
+          "accepted": ["sıfır"],
+          "explain_ru": "Sıfır — 0.",
+          "audio": "tr/2-5/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-5-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки число «1000»:",
+          "transcript": "bin",
+          "accepted": ["bin"],
+          "explain_ru": "Bin — 1000.",
+          "audio": "tr/2-5/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-5-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какие три числа прозвучали в записи?",
+          "transcript": "Yirmi. Otuz. Yüz.",
+          "options": [
+            "20, 30, 100",
+            "10, 40, 1000",
+            "20, 50, 100",
+            "30, 60, 90"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yirmi (20), otuz (30), yüz (100).",
+          "audio": "tr/2-5/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-5-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите по-турецки число «70»:",
+          "transcript": "yetmiş",
+          "accepted": ["yetmiş"],
+          "explain_ru": "Yetmiş — 70.",
+          "audio": "tr/2-5/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-5-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Арифметика (1/4): запишите ответ по-турецки — yirmi + otuz = ?",
+          "source_text": "yirmi + otuz = ?",
+          "accepted": ["elli"],
+          "explain_ru": "20 (yirmi) + 30 (otuz) = 50 (elli).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-5-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Арифметика (2/4): запишите ответ по-турецки — yüz − kırk = ?",
+          "source_text": "yüz − kırk = ?",
+          "accepted": ["altmış"],
+          "explain_ru": "100 (yüz) − 40 (kırk) = 60 (altmış).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-5-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Арифметика (3/4): запишите ответ по-турецки — on + yetmiş = ?",
+          "source_text": "on + yetmiş = ?",
+          "accepted": ["seksen"],
+          "explain_ru": "10 (on) + 70 (yetmiş) = 80 (seksen).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-5-wr-04",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Арифметика (4/4): запишите ответ по-турецки — doksan − elli = ?",
+          "source_text": "doksan − elli = ?",
+          "accepted": ["kırk"],
+          "explain_ru": "90 (doksan) − 50 (elli) = 40 (kırk).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-5-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините числа с цифрами (1/2):",
+          "pairs": [
+            { "left": "sıfır", "right": "0" },
+            { "left": "on", "right": "10" },
+            { "left": "yirmi", "right": "20" },
+            { "left": "otuz", "right": "30" }
+          ],
+          "explain_ru": "Sıfır (0), on (10), yirmi (20), otuz (30).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-5-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините числа с цифрами (2/2):",
+          "pairs": [
+            { "left": "yetmiş", "right": "70" },
+            { "left": "doksan", "right": "90" },
+            { "left": "yüz", "right": "100" },
+            { "left": "bin", "right": "1000" }
+          ],
+          "explain_ru": "Yetmiş (70), doksan (90), yüz (100), bin (1000).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-5-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: после числительного существительное стоит в единственном числе («двадцать книг»):",
+          "buggy_text": "yirmi kitaplar",
+          "accepted": ["yirmi kitap"],
+          "explain_ru": "В турецком языке после любого числительного (yirmi, otuz, yüz и т.д.) аффикс -lar/-ler не добавляется: yirmi kitap.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-5-wr-08",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Эта книга стоит пятьдесят лир»:",
+          "source_text": "Эта книга стоит пятьдесят лир.",
+          "bank": ["lira", "elli", "kitap", "bu"],
+          "accepted": ["Bu kitap elli lira"],
+          "explain_ru": "Bu kitap elli lira — Эта книга стоит пятьдесят лир.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-5-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Цены. Прочитайте ценник и посчитайте общую сумму:",
+          "passage": "Kitap yirmi lira. Defter on lira. Kalem beş (пять) lira.",
+          "questions": [
+            {
+              "question_ru": "Сколько всего за три вещи?",
+              "options": [
+                "35 лир (otuz beş lira)",
+                "30 лир (otuz lira)",
+                "25 лир (yirmi beş lira)",
+                "40 лир (kırk lira)"
+              ],
+              "correct_index": 0,
+              "accepted": ["otuz beş lira", "otuz beş", "35", "35 лир"]
+            }
+          ],
+          "explain_ru": "20 (yirmi) + 10 (on) + 5 (beş) = 35 (otuz beş lira).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-5-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какое число означает слово «seksen»?",
+          "question_text": "seksen",
+          "options": ["80", "60", "70", "90"],
+          "correct_index": 0,
+          "explain_ru": "Seksen — 80.",
+          "audio": "tr/2-5/w09.mp3"
+        },
+        {
+          "id": "tr-2-5-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как сказать по-турецки «1000»?",
+          "question_text": "1000",
+          "options": ["bin", "yüz", "doksan", "elli"],
+          "correct_index": 0,
+          "explain_ru": "Bin — 1000 (а yüz — 100).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-5-rd-04",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте ценник в магазине и ответьте на вопрос:",
+          "passage": "Market: Ekmek on lira. Peynir altmış lira. Balık yüz lira. Gözlük bin lira.",
+          "questions": [
+            {
+              "question_ru": "Что стоит ровно сто лир (yüz lira)?",
+              "options": [
+                "рыба (balık)",
+                "сыр (peynir)",
+                "хлеб (ekmek)",
+                "очки (gözlük)"
+              ],
+              "correct_index": 0,
+              "accepted": ["рыба", "balık"]
+            }
+          ],
+          "explain_ru": "Balık yüz lira — Рыба стоит сто лир.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-5-rd-05",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните правописание числа «60»:",
+          "target_text": "altmış",
+          "translation_ru": "60",
+          "example_text": "Bu çorba altmış lira.",
+          "example_ru": "Этот суп стоит шестьдесят лир.",
+          "explain_ru": "В слове altmış пишется буква t (не «almış»).",
+          "audio": "tr/2-5/w07.mp3"
+        },
+        {
+          "id": "tr-2-5-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Что больше: «yetmiş» или «kırk»?",
+          "question_text": "yetmiş / kırk",
+          "options": ["yetmiş (70 > 40)", "kırk (40 > 70)", "они равны", "yetmiş — это 17"],
+          "correct_index": 0,
+          "explain_ru": "Yetmiş — 70, kırk — 40.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-5-rd-07",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Как будет «120» по-турецки?",
+          "question_text": "120",
+          "options": ["yüz yirmi", "bin yirmi", "on yirmi", "yirmi yüz"],
+          "correct_index": 0,
+          "explain_ru": "Составные числа читаются от большего разряда к меньшему: yüz (100) + yirmi (20) = yüz yirmi.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-5-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте числа по возрастанию (от меньшего к большему):",
+          "items_shuffled": ["doksan", "otuz", "sıfır", "altmış"],
+          "correct_order": ["sıfır", "otuz", "altmış", "doksan"],
+          "explain_ru": "Sıfır (0) < otuz (30) < altmış (60) < doksan (90).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,408 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-15-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Склейка фраз (1/2): соедините две части союзами ama и çünkü:",
+          "target_text": "Çay istiyorum ama şeker istemiyorum. Eve gidiyorum çünkü yorgunum.",
+          "translation_ru": "Я хочу чай, но не хочу сахар. Я иду домой, потому что устал(а).",
+          "explain_ru": "Ama (но) вводит противопоставление, çünkü (потому что) объясняет причину.",
+          "audio": "tr/2-15/sp-01.mp3"
+        },
+        {
+          "id": "tr-2-15-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Склейка фраз (2/2): скажите последовательность действий с önce и sonra:",
+          "target_text": "Önce kahvaltı yapıyorum, sonra işe gidiyorum.",
+          "translation_ru": "Сначала я завтракаю, потом иду на работу.",
+          "explain_ru": "Пара önce ... sonra ... (сначала ... потом ...) задаёт чёткий порядок действий.",
+          "audio": "tr/2-15/sp-02.mp3"
+        },
+        {
+          "id": "tr-2-15-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Эта куртка красивая, однако дорогая; может быть, завтра куплю» (alıyorum — беру/покупаю):",
+          "target_text": "Bu ceket güzel fakat pahalı. Belki yarın alıyorum.",
+          "translation_ru": "Эта куртка красивая, однако дорогая. Может быть, завтра куплю.",
+          "explain_ru": "Fakat (однако) — более книжный синоним ama; belki — может быть.",
+          "audio": "tr/2-15/sp-03.mp3"
+        },
+        {
+          "id": "tr-2-15-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я еду на автобусе или на поезде; кроме того, иду пешком»:",
+          "target_text": "Otobüse ya da trene biniyorum, ayrıca biraz yürüyorum.",
+          "translation_ru": "Я сажусь в автобус или поезд, кроме того, немного иду пешком.",
+          "explain_ru": "Ya da — или (пишется раздельно), ayrıca — кроме того.",
+          "audio": "tr/2-15/sp-04.mp3"
+        },
+        {
+          "id": "tr-2-15-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Этот подарок для тебя, то есть твой»:",
+          "target_text": "Bu hediye senin için, yani senin.",
+          "translation_ru": "Этот подарок для тебя, то есть твой.",
+          "explain_ru": "Послелог için с личными местоимениями требует родительного падежа: benim için, senin için, onun için. Yani — то есть.",
+          "audio": "tr/2-15/sp-05.mp3"
+        },
+        {
+          "id": "tr-2-15-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Погода (hava) холодная, поэтому я надеваю пальто и свитер»:",
+          "target_text": "Hava soğuk, bu yüzden mont ve kazak giyiyorum.",
+          "translation_ru": "Погода холодная, поэтому я надеваю пальто и свитер.",
+          "explain_ru": "Bu yüzden — поэтому, по этой причине.",
+          "audio": "tr/2-15/sp-06.mp3"
+        },
+        {
+          "id": "tr-2-15-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Я покупаю цветы для мамы, потому что сегодня её день» (günü — её день):",
+          "target_text": "Annem için çiçek alıyorum çünkü bugün mutlu.",
+          "translation_ru": "Я беру цветы для мамы, потому что сегодня она счастлива.",
+          "explain_ru": "С существительными послелог için стоит после начальной формы: annem için (для моей мамы).",
+          "audio": "tr/2-15/sp-07.mp3"
+        },
+        {
+          "id": "tr-2-15-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите: «Урок в девять, то есть рано; может быть, поеду на автобусе»:",
+          "target_text": "Ders saat dokuzda, yani erken. Belki otobüse biniyorum.",
+          "translation_ru": "Урок в девять, то есть рано. Может быть, сяду в автобус.",
+          "explain_ru": "Yani (то есть) поясняет мысль, belki (может быть) выражает предположение.",
+          "audio": "tr/2-15/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-15-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Причина и следствие: прослушайте скрипт и ответьте, почему говорящий рано ложится спать?",
+          "transcript": "Önce kahvaltı yapıyorum, sonra işe gidiyorum. Yorgunum, bu yüzden erken yatıyorum.",
+          "options": [
+            "потому что устал (yorgunum)",
+            "потому что идёт на концерт",
+            "потому что завтракает вечером",
+            "потому что погода холодная"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Yorgunum, bu yüzden erken yatıyorum — Я устал, поэтому рано ложусь.",
+          "audio": "tr/2-15/ls-01.mp3"
+        },
+        {
+          "id": "tr-2-15-ls-02",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите союз «потому что»:",
+          "transcript": "çünkü",
+          "accepted": ["çünkü"],
+          "explain_ru": "Çünkü — потому что.",
+          "audio": "tr/2-15/ls-02.mp3"
+        },
+        {
+          "id": "tr-2-15-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «однако»:",
+          "transcript": "fakat",
+          "accepted": ["fakat"],
+          "explain_ru": "Fakat — однако.",
+          "audio": "tr/2-15/ls-03.mp3"
+        },
+        {
+          "id": "tr-2-15-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что сказано об Али и его планах?",
+          "transcript": "Ali belki parka ya da müzeye gidiyor. Ayrıca arkadaşı için kitap alıyor.",
+          "options": [
+            "может пойти в парк или музей, а ещё покупает книгу для друга",
+            "идёт на работу и покупает хлеб для мамы",
+            "не хочет идти в парк, потому что устал",
+            "сначала идёт в банк, потом в больницу"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Belki (может быть), ya da (или), ayrıca (кроме того), arkadaşı için (для друга).",
+          "audio": "tr/2-15/ls-04.mp3"
+        },
+        {
+          "id": "tr-2-15-ls-05",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите союз «кроме того»:",
+          "transcript": "ayrıca",
+          "accepted": ["ayrıca"],
+          "explain_ru": "Ayrıca — кроме того, к тому же.",
+          "audio": "tr/2-15/ls-05.mp3"
+        },
+        {
+          "id": "tr-2-15-ls-06",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите связку «поэтому»:",
+          "transcript": "bu yüzden",
+          "accepted": ["bu yüzden"],
+          "explain_ru": "Bu yüzden — поэтому (дословно: «по этой причине»).",
+          "audio": "tr/2-15/ls-06.mp3"
+        },
+        {
+          "id": "tr-2-15-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Айше не берёт эту сумку?",
+          "transcript": "Bu çanta çok güzel fakat çok pahalı, yani ucuz değil.",
+          "options": [
+            "она красивая, но очень дорогая (не дешёвая)",
+            "она грязная и старая",
+            "она маленькая и тяжёлая",
+            "она закрыта в магазине"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Güzel fakat çok pahalı, yani ucuz değil — красивая, однако очень дорогая, то есть не дешёвая.",
+          "audio": "tr/2-15/ls-07.mp3"
+        },
+        {
+          "id": "tr-2-15-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и запишите слово «может быть»:",
+          "transcript": "belki",
+          "accepted": ["belki"],
+          "explain_ru": "Belki — может быть, возможно.",
+          "audio": "tr/2-15/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-15-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Соедини: вставьте «поэтому» в фразу «Hava soğuk, ___ mont giyiyorum»:",
+          "source_text": "Hava soğuk, ___ mont giyiyorum.",
+          "accepted": ["bu yüzden", "Hava soğuk, bu yüzden mont giyiyorum"],
+          "explain_ru": "Погода холодная, поэтому (bu yüzden) надеваю пальто.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-15-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Соедини: вставьте «но» в фразу «Su istiyorum ___ çay istemiyorum»:",
+          "source_text": "Su istiyorum ___ çay istemiyorum.",
+          "accepted": ["ama", "fakat", "Su istiyorum ama çay istemiyorum"],
+          "explain_ru": "Противопоставление передаётся союзом ama (или fakat).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-15-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Соедини: вставьте «или» в вопрос «Çay ___ kahve?»:",
+          "source_text": "Çay ___ kahve?",
+          "accepted": ["ya da", "Çay ya da kahve"],
+          "explain_ru": "Выбор между вариантами выражается союзом ya da (или).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-15-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините базовые союзы с переводом:",
+          "pairs": [
+            { "left": "ve", "right": "и" },
+            { "left": "ama", "right": "но" },
+            { "left": "fakat", "right": "однако" },
+            { "left": "çünkü", "right": "потому что" }
+          ],
+          "explain_ru": "Ve — и, ama — но, fakat — однако, çünkü — потому что.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-15-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините союзы последовательности и добавления с переводом:",
+          "pairs": [
+            { "left": "ya da", "right": "или" },
+            { "left": "ayrıca", "right": "кроме того" },
+            { "left": "önce", "right": "сначала" },
+            { "left": "sonra", "right": "потом" }
+          ],
+          "explain_ru": "Ya da — или, ayrıca — кроме того, önce — сначала, sonra — потом.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-15-wr-06",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините связки и послелог с переводом:",
+          "pairs": [
+            { "left": "yani", "right": "то есть" },
+            { "left": "bu yüzden", "right": "поэтому" },
+            { "left": "belki", "right": "может быть" },
+            { "left": "için", "right": "для/ради" }
+          ],
+          "explain_ru": "Yani — то есть, bu yüzden — поэтому, belki — может быть, için — для/ради.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-15-wr-07",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение: «Я иду домой, потому что устал»",
+          "source_text": "Я иду домой, потому что устал.",
+          "bank": ["çünkü", "gidiyorum", "eve", "yorgunum"],
+          "accepted": ["Eve gidiyorum çünkü yorgunum"],
+          "explain_ru": "Eve gidiyorum çünkü yorgunum — Я иду домой, потому что устал.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-15-wr-08",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправь баг: с послелогом «için» личное местоимение «ben» ставится в родительный падеж («Это для меня»):",
+          "buggy_text": "Bu ben için.",
+          "accepted": ["Bu benim için."],
+          "explain_ru": "С местоимениями ben, sen, o, biz, siz послелог için требует формы benim/senin/onun/bizim/sizin için.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "tr-2-15-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Утро: прочитайте текст и ответьте на вопрос:",
+          "passage": "Ali çay içiyor ama Ayşe kahve içiyor. Önce kahvaltı yapıyorlar, sonra işe gidiyorlar.",
+          "questions": [
+            {
+              "question_ru": "Что пьёт Али?",
+              "options": ["чай (çay)", "кофе (kahve)", "молоко (süt)", "воду (su)"],
+              "correct_index": 0,
+              "accepted": ["чай", "çay"]
+            }
+          ],
+          "explain_ru": "Ali çay içiyor ama Ayşe kahve içiyor — Али пьёт чай, а Айше пьёт кофе.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-15-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Чем отличаются «çünkü» и «bu yüzden»?",
+          "question_text": "çünkü vs bu yüzden",
+          "options": [
+            "çünkü вводит причину («потому что»), а bu yüzden — следствие («поэтому»)",
+            "çünkü значит «или», а bu yüzden — «и»",
+            "Они полностью взаимозаменяемы в любом месте",
+            "çünkü значит «сначала», а bu yüzden — «потом»"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Eve gidiyorum çünkü yorgunum (причина) vs Yorgunum, bu yüzden eve gidiyorum (следствие).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-15-rd-03",
+          "type": "word_card",
+          "origin": "derived",
+          "prompt_ru": "Запомните послелог «для/ради»:",
+          "target_text": "için",
+          "translation_ru": "для / ради",
+          "example_text": "Bu kitap senin için.",
+          "example_ru": "Эта книга для тебя.",
+          "explain_ru": "Послелог için всегда стоит после слова, к которому относится.",
+          "audio": "tr/2-15/w12.mp3"
+        },
+        {
+          "id": "tr-2-15-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «ayrıca»:",
+          "question_text": "ayrıca",
+          "options": ["кроме того", "может быть", "сначала", "то есть"],
+          "correct_index": 0,
+          "explain_ru": "Ayrıca — кроме того, вдобавок.",
+          "audio": "tr/2-15/w06.mp3"
+        },
+        {
+          "id": "tr-2-15-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Какой союз подходит по смыслу: «Bugün toplantı yok, ___ evde çalışıyorum» («Сегодня собрания нет, поэтому я работаю дома»)?",
+          "question_text": "Bugün toplantı yok, ___ evde çalışıyorum.",
+          "options": ["bu yüzden", "çünkü", "ya da", "için"],
+          "correct_index": 0,
+          "explain_ru": "Вторая часть — следствие первой, поэтому нужен союз bu yüzden (поэтому).",
+          "audio": null
+        },
+        {
+          "id": "tr-2-15-rd-06",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткое сообщение:",
+          "passage": "Bugün hava çok soğuk, bu yüzden parka gitmiyorum. Önce sıcak çorba içiyorum, sonra belki evde film izliyorum. Ayrıca yarınki ders için kitap okuyorum.",
+          "questions": [
+            {
+              "question_ru": "Почему рассказчик не идёт в парк?",
+              "options": [
+                "потому что погода очень холодная",
+                "потому что у него собрание",
+                "потому что он устал",
+                "потому что парк закрыт"
+              ],
+              "correct_index": 0,
+              "accepted": ["холодно", "погода холодная", "hava çok soğuk"]
+            }
+          ],
+          "explain_ru": "Bugün hava çok soğuk, bu yüzden parka gitmiyorum — Сегодня очень холодно, поэтому я не иду в парк.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-15-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее (не союз и не связка):",
+          "items": ["ve", "ama", "fakat", "film"],
+          "odd_index": 3,
+          "explain_ru": "Film — существительное («фильм»), остальные слова — союзы.",
+          "audio": null
+        },
+        {
+          "id": "tr-2-15-rd-08",
+          "type": "order_items",
+          "origin": "derived",
+          "prompt_ru": "Расставьте фразы утра в хронологическом порядке (сначала → потом → вечером):",
+          "items_shuffled": [
+            "Sonra işe gidiyorum.",
+            "Önce kahvaltı yapıyorum.",
+            "Akşam eve dönüyorum ve film izliyorum."
+          ],
+          "correct_order": [
+            "Önce kahvaltı yapıyorum.",
+            "Sonra işe gidiyorum.",
+            "Akşam eve dönüyorum ve film izliyorum."
+          ],
+          "explain_ru": "Önce (сначала) → sonra (потом) → akşam (вечером).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"
