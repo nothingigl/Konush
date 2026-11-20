@@ -83,16 +83,419 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-13-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Разговор (1/2): разыграйте приветствие и ответ:",
+          "target_text": "How are you? Fine, thanks. And you?",
+          "translation_ru": "Как дела? Хорошо, спасибо. А у тебя?",
+          "explain_ru": "How are you? — Как дела? Fine, thanks. And you? — Хорошо, спасибо. А у тебя?",
+          "audio": "en/3-13/sp-01.mp3"
+        },
+        {
+          "id": "en-3-13-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Разговор (2/2): ответьте про дела в последнее время:",
+          "target_text": "Not bad. I am busy lately. As usual!",
+          "translation_ru": "Неплохо. Я занят в последнее время. Как обычно!",
+          "explain_ru": "Not bad — неплохо; lately — в последнее время; as usual — как обычно.",
+          "audio": "en/3-13/sp-02.mp3"
+        },
+        {
+          "id": "en-3-13-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что чувствуете себя отлично и расслабленно:",
+          "target_text": "I feel great and relaxed today.",
+          "translation_ru": "Сегодня я чувствую себя отлично и расслабленно.",
+          "explain_ru": "Great — отлично, relaxed — расслабленный.",
+          "audio": "en/3-13/sp-03.mp3"
+        },
+        {
+          "id": "en-3-13-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что дела так себе и вы обеспокоены из-за экзамена:",
+          "target_text": "Things are so-so. I am worried about the exam.",
+          "translation_ru": "Дела так себе. Я переживаю из-за экзамена.",
+          "explain_ru": "So-so — так себе; worried about — обеспокоен чем-либо.",
+          "audio": "en/3-13/sp-04.mp3"
+        },
+        {
+          "id": "en-3-13-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что в последнее время вы в стрессе на работе:",
+          "target_text": "I am very stressed at work lately.",
+          "translation_ru": "В последнее время я в сильном стрессе на работе.",
+          "explain_ru": "Stressed — в стрессе; lately обычно ставится в конце предложения.",
+          "audio": "en/3-13/sp-05.mp3"
+        },
+        {
+          "id": "en-3-13-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вашей семьи всё хорошо, как обычно:",
+          "target_text": "My family is fine, as usual.",
+          "translation_ru": "У моей семьи всё хорошо, как обычно.",
+          "explain_ru": "Fine — хорошо; as usual — как обычно.",
+          "audio": "en/3-13/sp-06.mp3"
+        },
+        {
+          "id": "en-3-13-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваш друг всё ещё обеспокоен:",
+          "target_text": "My friend is still worried about his job.",
+          "translation_ru": "Мой друг всё ещё переживает из-за своей работы.",
+          "explain_ru": "Still — всё ещё (ставится после глагола is).",
+          "audio": "en/3-13/sp-07.mp3"
+        },
+        {
+          "id": "en-3-13-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Поприветствуйте подругу и спросите, как у неё дела:",
+          "target_text": "Hello, Anna! How are you? I am great, and you?",
+          "translation_ru": "Привет, Анна! Как дела? У меня отлично, а у тебя?",
+          "explain_ru": "And you? — короткий и естественный способ вернуть вопрос собеседнику.",
+          "audio": "en/3-13/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-13-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Как дела на работе? (1/2): прослушайте скрипт и ответьте, что у говорящего на работе:",
+          "transcript": "How are things? So-so. I am stressed at work, but my family is great.",
+          "options": ["стресс", "отпуск", "праздник", "переезд"],
+          "correct_index": 0,
+          "explain_ru": "I am stressed at work — У меня стресс на работе.",
+          "audio": "en/3-13/ls-01.mp3"
+        },
+        {
+          "id": "en-3-13-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Как дела на работе? (2/2): как дела у семьи говорящего?",
+          "transcript": "How are things? So-so. I am stressed at work, but my family is great.",
+          "options": ["отлично", "так себе", "плохо", "неплохо"],
+          "correct_index": 0,
+          "explain_ru": "My family is great — У моей семьи всё отлично.",
+          "audio": "en/3-13/ls-02.mp3"
+        },
+        {
+          "id": "en-3-13-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как чувствует себя Кейт в последнее время?",
+          "transcript": "Kate is a little worried lately because she has a big exam.",
+          "options": [
+            "немного обеспокоена",
+            "полностью расслаблена",
+            "очень голодна",
+            "устала от отпуска"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Worried lately — обеспокоена в последнее время.",
+          "audio": "en/3-13/ls-03.mp3"
+        },
+        {
+          "id": "en-3-13-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как дела у Бена в воскресенье?",
+          "transcript": "It is Sunday, and Ben is fine and relaxed at home.",
+          "options": [
+            "хорошо и расслабленно",
+            "в стрессе на работе",
+            "он переживает из-за встречи",
+            "дела так себе"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Fine and relaxed — хорошо и расслабленно.",
+          "audio": "en/3-13/ls-04.mp3"
+        },
+        {
+          "id": "en-3-13-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что отвечает Мария о своей неделе?",
+          "transcript": "My week is not bad. I work a lot, as usual.",
+          "options": [
+            "неплохо, много работает, как обычно",
+            "ужасно, она заболела",
+            "отлично, она на пляже",
+            "так себе, она потеряла ключи"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Not bad — неплохо; as usual — как обычно.",
+          "audio": "en/3-13/ls-05.mp3"
+        },
+        {
+          "id": "en-3-13-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где сейчас находится Том?",
+          "transcript": "It is eight in the evening, and Tom is still in the office.",
+          "options": [
+            "всё ещё в офисе",
+            "уже дома на диване",
+            "в парке с собакой",
+            "в ресторане с друзьями"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Still in the office — всё ещё в офисе.",
+          "audio": "en/3-13/ls-06.mp3"
+        },
+        {
+          "id": "en-3-13-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что спрашивает собеседник в ответ?",
+          "transcript": "How are you today? I am great, thanks. And you?",
+          "options": [
+            "а у тебя как дела?",
+            "где ты живёшь?",
+            "сколько тебе лет?",
+            "что ты ешь?"
+          ],
+          "correct_index": 0,
+          "explain_ru": "And you? — А у тебя? / А ты?",
+          "audio": "en/3-13/ls-07.mp3"
+        },
+        {
+          "id": "en-3-13-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите вопрос по-английски:",
+          "transcript": "How are you?",
+          "accepted": ["How are you?"],
+          "explain_ru": "How are you? — Как дела?",
+          "audio": "en/3-13/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-13-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите фразу «У меня хорошо, спасибо»:",
+          "source_text": "У меня хорошо, спасибо.",
+          "bank": ["thanks", "fine", "I", "am"],
+          "accepted": ["I am fine thanks"],
+          "explain_ru": "Порядок слов: I am fine thanks.",
+          "audio": null
+        },
+        {
+          "id": "en-3-13-wr-02",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Подбери антонимы (противоположные состояния):",
+          "pairs": [
+            { "left": "great", "right": "so-so" },
+            { "left": "relaxed", "right": "stressed" }
+          ],
+          "explain_ru": "Great («отлично») противопоставляется so-so («так себе»), а relaxed («расслабленный») — stressed («в стрессе»).",
+          "audio": null
+        },
+        {
+          "id": "en-3-13-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в вопросе «Как дела?»:",
+          "buggy_text": "How is you?",
+          "accepted": ["How are you?"],
+          "explain_ru": "С местоимением you всегда используется форма глагола are, а не is.",
+          "audio": null
+        },
+        {
+          "id": "en-3-13-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините полезные выражения с переводом:",
+          "pairs": [
+            { "left": "lately", "right": "в последнее время" },
+            { "left": "still", "right": "всё ещё" },
+            { "left": "as usual", "right": "как обычно" },
+            { "left": "and you", "right": "а у тебя" }
+          ],
+          "explain_ru": "Lately — в последнее время, still — всё ещё, as usual — как обычно, and you — а у тебя.",
+          "audio": null
+        },
+        {
+          "id": "en-3-13-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините ответы о самочувствии с переводом:",
+          "pairs": [
+            { "left": "fine", "right": "хорошо" },
+            { "left": "not bad", "right": "неплохо" },
+            { "left": "worried", "right": "обеспокоенный" },
+            { "left": "how are you", "right": "как дела" }
+          ],
+          "explain_ru": "Fine — хорошо, not bad — неплохо, worried — обеспокоенный, how are you — как дела.",
+          "audio": null
+        },
+        {
+          "id": "en-3-13-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Я сегодня расслаблен»:",
+          "source_text": "Я сегодня расслаблен.",
+          "bank": ["relaxed", "I", "today", "am"],
+          "accepted": ["I am relaxed today", "Today I am relaxed"],
+          "explain_ru": "I am relaxed today — Я расслаблен сегодня.",
+          "audio": null
+        },
+        {
+          "id": "en-3-13-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку с глаголом-связкой:",
+          "buggy_text": "She still stressed at work.",
+          "accepted": ["She is still stressed at work."],
+          "explain_ru": "В английском предложении нельзя опускать глагол-связку is: She is still stressed.",
+          "audio": null
+        },
+        {
+          "id": "en-3-13-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите короткий встречный вопрос «а у тебя» на английский:",
+          "source_text": "а у тебя",
+          "accepted": ["and you"],
+          "explain_ru": "And you? — А у тебя?",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-13-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Звонок: прочитайте текст и ответьте на вопросы:",
+          "passage": "Sam is still at work. He is stressed, but his friend calls him. \"How are you?\" \"Not bad. Just tired.\"",
+          "questions": [
+            {
+              "question_ru": "Что отвечает Сэм на вопрос друга?",
+              "options": ["неплохо", "отлично", "так себе", "как обычно"],
+              "correct_index": 0,
+              "accepted": ["неплохо", "not bad"]
+            },
+            {
+              "question_ru": "Как Сэм себя чувствует?",
+              "options": [
+                "устал и в стрессе",
+                "расслаблен и весел",
+                "голоден и зол",
+                "здоров и бодр"
+              ],
+              "correct_index": 0,
+              "accepted": ["устал и в стрессе", "устал", "tired"]
+            }
+          ],
+          "explain_ru": "Not bad — неплохо; Just tired — просто устал; He is stressed — он в стрессе.",
+          "audio": null
+        },
+        {
+          "id": "en-3-13-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «fine»:",
+          "question_text": "fine",
+          "options": ["хорошо", "так себе", "в стрессе", "обеспокоенный"],
+          "correct_index": 0,
+          "explain_ru": "Fine — хорошо.",
+          "audio": null
+        },
+        {
+          "id": "en-3-13-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «so-so»:",
+          "question_text": "so-so",
+          "options": ["так себе", "отлично", "неплохо", "как обычно"],
+          "correct_index": 0,
+          "explain_ru": "So-so — так себе.",
+          "audio": null
+        },
+        {
+          "id": "en-3-13-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «lately»:",
+          "question_text": "lately",
+          "options": ["в последнее время", "всё ещё", "как обычно", "а у тебя"],
+          "correct_index": 0,
+          "explain_ru": "Lately — в последнее время.",
+          "audio": null
+        },
+        {
+          "id": "en-3-13-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «as usual»:",
+          "question_text": "as usual",
+          "options": ["как обычно", "в последнее время", "неплохо", "так себе"],
+          "correct_index": 0,
+          "explain_ru": "As usual — как обычно.",
+          "audio": null
+        },
+        {
+          "id": "en-3-13-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «worried»:",
+          "question_text": "worried",
+          "options": ["обеспокоенный", "расслабленный", "дружелюбный", "голодный"],
+          "correct_index": 0,
+          "explain_ru": "Worried — обеспокоенный.",
+          "audio": null
+        },
+        {
+          "id": "en-3-13-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не описывает самочувствие или настроение):",
+          "items": ["stressed", "worried", "relaxed", "balcony"],
+          "odd_index": 3,
+          "explain_ru": "Balcony — «балкон», а stressed, worried и relaxed описывают состояние человека.",
+          "audio": null
+        },
+        {
+          "id": "en-3-13-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте сообщение Эммы другу и ответьте на вопрос:",
+          "passage": "Hi Max! I am on vacation now, so I feel great and relaxed. Last week I was worried about work, but today everything is fine.",
+          "questions": [
+            {
+              "question_ru": "Как Эмма чувствует себя сегодня?",
+              "options": [
+                "отлично и расслабленно",
+                "в стрессе и устала",
+                "обеспокоена работой",
+                "так себе"
+              ],
+              "correct_index": 0,
+              "accepted": ["отлично и расслабленно", "great and relaxed"]
+            }
+          ],
+          "explain_ru": "I feel great and relaxed — Я чувствую себя отлично и расслабленно.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,436 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-14-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Хорошие новости: поделитесь радостной вестью (Guess what — «Знаешь что?»):",
+          "target_text": "I have good news! I finally got a job. I am so happy. Guess what? I passed the exam!",
+          "translation_ru": "У меня хорошая новость! Я наконец получил работу. Я так счастлив. Знаешь что? Я сдал экзамен!",
+          "explain_ru": "Слово news в английском неисчисляемое (без артикля a): I have good news!",
+          "audio": "en/3-14/sp-01.mp3"
+        },
+        {
+          "id": "en-3-14-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы хотите получить работу в большой компании:",
+          "target_text": "I want to get a job in a big company.",
+          "translation_ru": "Я хочу получить работу в большой компании.",
+          "explain_ru": "Get a job — получить работу, устроиться на работу.",
+          "audio": "en/3-14/sp-02.mp3"
+        },
+        {
+          "id": "en-3-14-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы наконец планируете переехать в новый город:",
+          "target_text": "We finally plan to move to a new city.",
+          "translation_ru": "Мы наконец планируем переехать в новый город.",
+          "explain_ru": "Finally — наконец; move — переезжать.",
+          "audio": "en/3-14/sp-03.mp3"
+        },
+        {
+          "id": "en-3-14-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы удивились повышению на работе:",
+          "target_text": "I was very surprised by my promotion.",
+          "translation_ru": "Я был очень удивлён своим повышением.",
+          "explain_ru": "Surprised — удивлённый; promotion — повышение.",
+          "audio": "en/3-14/sp-04.mp3"
+        },
+        {
+          "id": "en-3-14-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про неожиданную новость о помолвке сестры:",
+          "target_text": "My sister is engaged! That is unexpected news.",
+          "translation_ru": "Моя сестра помолвлена! Это неожиданная новость.",
+          "explain_ru": "Engaged — помолвлен(а); unexpected — неожиданный.",
+          "audio": "en/3-14/sp-05.mp3"
+        },
+        {
+          "id": "en-3-14-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что хотите сдать экзамен и выиграть матч:",
+          "target_text": "I hope to pass the exam and win the match.",
+          "translation_ru": "Я надеюсь сдать экзамен и выиграть матч.",
+          "explain_ru": "Pass — сдать (экзамен), win — выиграть.",
+          "audio": "en/3-14/sp-06.mp3"
+        },
+        {
+          "id": "en-3-14-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что хотите рассказать родителям хорошую новость:",
+          "target_text": "I want to tell my parents the good news.",
+          "translation_ru": "Я хочу рассказать родителям хорошую новость.",
+          "explain_ru": "Tell — рассказывать, говорить кому-то (без предлога to: tell my parents).",
+          "audio": "en/3-14/sp-07.mp3"
+        },
+        {
+          "id": "en-3-14-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваш брат собирается переехать в Англию:",
+          "target_text": "My brother wants to move to England and get a job.",
+          "translation_ru": "Мой брат хочет переехать в Англию и получить работу.",
+          "explain_ru": "Move to — переехать куда-либо; get a job — получить работу.",
+          "audio": "en/3-14/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-14-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Помолвка (1/2): прослушайте диалог и ответьте, какая новость у Анны:",
+          "transcript": "Anna: I have news. I am engaged! Tom: Wow, I am so surprised. Congratulations!",
+          "options": [
+            "Анна помолвлена",
+            "Анна переезжает в другой город",
+            "Анна получила повышение",
+            "Анна сдала экзамен"
+          ],
+          "correct_index": 0,
+          "explain_ru": "I am engaged — Я помолвлена.",
+          "audio": "en/3-14/ls-01.mp3"
+        },
+        {
+          "id": "en-3-14-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Помолвка (2/2): как реагирует Том?",
+          "transcript": "Anna: I have news. I am engaged! Tom: Wow, I am so surprised. Congratulations!",
+          "options": [
+            "он удивлён и поздравляет",
+            "он расстроен и молчит",
+            "он не понимает новость",
+            "он просит повторить"
+          ],
+          "correct_index": 0,
+          "explain_ru": "I am so surprised. Congratulations! — Я так удивлён. Поздравляю!",
+          "audio": "en/3-14/ls-02.mp3"
+        },
+        {
+          "id": "en-3-14-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О чём мечтает Марк?",
+          "transcript": "Mark hopes to get a job as an engineer and finally move to a new apartment.",
+          "options": [
+            "получить работу инженера и переехать в новую квартиру",
+            "поехать на пляж и купить сувениры",
+            "выиграть матч и пойти в кино",
+            "поступить в университет и выучить турецкий"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Get a job — получить работу; finally move — наконец переехать.",
+          "audio": "en/3-14/ls-03.mp3"
+        },
+        {
+          "id": "en-3-14-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "О чём просит говорящий?",
+          "transcript": "Please tell me your good news! I am ready to listen.",
+          "options": [
+            "рассказать хорошую новость",
+            "подписать важный документ",
+            "помочь упаковать коробки",
+            "принести меню и счёт"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Please tell me your good news — Пожалуйста, расскажи мне свою хорошую новость.",
+          "audio": "en/3-14/ls-04.mp3"
+        },
+        {
+          "id": "en-3-14-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какую новость Сара рассказала о своей команде?",
+          "transcript": "Sara says our team can win the game on Saturday. That is unexpected!",
+          "options": [
+            "команда может выиграть, и это неожиданно",
+            "матч перенесли на воскресенье",
+            "тренер уехал в отпуск",
+            "команда уже проиграла"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Win the game — выиграть игру; unexpected — неожиданный.",
+          "audio": "en/3-14/ls-05.mp3"
+        },
+        {
+          "id": "en-3-14-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что случилось с Полом на работе?",
+          "transcript": "Paul got an unexpected promotion this week. His coworkers are happy for him.",
+          "options": [
+            "он получил неожиданное повышение",
+            "он уволился из компании",
+            "он пропустил собеседование",
+            "он заболел и остался дома"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Got an unexpected promotion — получил неожиданное повышение.",
+          "audio": "en/3-14/ls-06.mp3"
+        },
+        {
+          "id": "en-3-14-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Кейт учится каждый вечер в библиотеке?",
+          "transcript": "Kate studies every evening because she wants to pass her biology exam.",
+          "options": [
+            "она хочет сдать экзамен по биологии",
+            "она ищет книгу о путешествиях",
+            "она ждёт там своего брата",
+            "она работает в библиотеке"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Pass her biology exam — сдать экзамен по биологии.",
+          "audio": "en/3-14/ls-07.mp3"
+        },
+        {
+          "id": "en-3-14-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I have good news.",
+          "accepted": ["I have good news."],
+          "explain_ru": "I have good news — У меня хорошая новость.",
+          "audio": "en/3-14/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-14-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Прошедшее время: соедините глаголы с их формой в Past Simple:",
+          "pairs": [
+            { "left": "win", "right": "won" },
+            { "left": "get", "right": "got" },
+            { "left": "tell", "right": "told" },
+            { "left": "pass", "right": "passed" }
+          ],
+          "explain_ru": "Win → won, get → got, tell → told (неправильные глаголы); pass → passed (правильный).",
+          "audio": null
+        },
+        {
+          "id": "en-3-14-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «У меня хорошая новость»:",
+          "source_text": "У меня хорошая новость.",
+          "bank": ["good", "I", "have", "news"],
+          "accepted": ["I have good news"],
+          "explain_ru": "Порядок слов: I have good news (без артикля a перед news).",
+          "audio": null
+        },
+        {
+          "id": "en-3-14-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг: поставьте глагол в прошедшее время (yesterday — «вчера»):",
+          "buggy_text": "I get a promotion yesterday.",
+          "accepted": ["I got a promotion yesterday."],
+          "explain_ru": "Со словом yesterday нужен Past Simple: get → got.",
+          "audio": null
+        },
+        {
+          "id": "en-3-14-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "surprised", "right": "удивлённый" },
+            { "left": "finally", "right": "наконец" },
+            { "left": "unexpected", "right": "неожиданный" },
+            { "left": "move", "right": "переезжать" }
+          ],
+          "explain_ru": "Surprised — удивлённый, finally — наконец, unexpected — неожиданный, move — переезжать.",
+          "audio": null
+        },
+        {
+          "id": "en-3-14-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините важные события с переводом:",
+          "pairs": [
+            { "left": "get a job", "right": "получить работу" },
+            { "left": "engaged", "right": "помолвлен" },
+            { "left": "promotion", "right": "повышение" },
+            { "left": "good news", "right": "хорошая новость" }
+          ],
+          "explain_ru": "Get a job — получить работу, engaged — помолвлен, promotion — повышение, good news — хорошая новость.",
+          "audio": null
+        },
+        {
+          "id": "en-3-14-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Я хочу получить работу»:",
+          "source_text": "Я хочу получить работу.",
+          "bank": ["job", "want", "to", "a", "get", "I"],
+          "accepted": ["I want to get a job"],
+          "explain_ru": "Want to + глагол: I want to get a job.",
+          "audio": null
+        },
+        {
+          "id": "en-3-14-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку с артиклем перед неисчисляемым словом news:",
+          "buggy_text": "I have a news for you.",
+          "accepted": ["I have news for you."],
+          "explain_ru": "News — неисчисляемое существительное, артикль a с ним не используется.",
+          "audio": null
+        },
+        {
+          "id": "en-3-14-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски глагол «рассказывать»:",
+          "source_text": "рассказывать",
+          "accepted": ["tell"],
+          "explain_ru": "Tell — рассказывать.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-14-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Новость для семьи: прочитайте текст (proud — «гордый») и ответьте на вопросы:",
+          "passage": "Ben tells his family the news: he got a promotion. They are surprised and happy. His mother says, \"We are proud of you!\"",
+          "questions": [
+            {
+              "question_ru": "Какую новость Бен рассказал семье?",
+              "options": [
+                "он получил повышение",
+                "он помолвлен",
+                "он переезжает в деревню",
+                "он выиграл билет"
+              ],
+              "correct_index": 0,
+              "accepted": ["он получил повышение", "повышение", "promotion"]
+            },
+            {
+              "question_ru": "Что говорит мама Бена?",
+              "options": [
+                "Мы гордимся тобой!",
+                "Это так себе новость.",
+                "Повторите, пожалуйста.",
+                "Увидимся завтра."
+              ],
+              "correct_index": 0,
+              "accepted": ["Мы гордимся тобой", "We are proud of you"]
+            }
+          ],
+          "explain_ru": "He got a promotion — Он получил повышение; We are proud of you — Мы гордимся тобой.",
+          "audio": null
+        },
+        {
+          "id": "en-3-14-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «finally»:",
+          "question_text": "finally",
+          "options": ["наконец", "всё ещё", "обычно", "рано"],
+          "correct_index": 0,
+          "explain_ru": "Finally — наконец.",
+          "audio": null
+        },
+        {
+          "id": "en-3-14-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод выражения «get a job»:",
+          "question_text": "get a job",
+          "options": ["получить работу", "сдать экзамен", "переехать", "выиграть матч"],
+          "correct_index": 0,
+          "explain_ru": "Get a job — получить работу.",
+          "audio": null
+        },
+        {
+          "id": "en-3-14-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «engaged»:",
+          "question_text": "engaged",
+          "options": ["помолвлен", "удивлённый", "занятой", "счастливый"],
+          "correct_index": 0,
+          "explain_ru": "Engaged — помолвлен(а).",
+          "audio": null
+        },
+        {
+          "id": "en-3-14-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод глагола «pass»:",
+          "question_text": "pass",
+          "options": ["сдать", "проиграть", "рассказывать", "переезжать"],
+          "correct_index": 0,
+          "explain_ru": "Pass — сдать (экзамен, тест).",
+          "audio": null
+        },
+        {
+          "id": "en-3-14-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «unexpected»:",
+          "question_text": "unexpected",
+          "options": ["неожиданный", "знаменитый", "просторный", "дружелюбный"],
+          "correct_index": 0,
+          "explain_ru": "Unexpected — неожиданный.",
+          "audio": null
+        },
+        {
+          "id": "en-3-14-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не является глаголом):",
+          "items": ["move", "pass", "win", "promotion"],
+          "odd_index": 3,
+          "explain_ru": "Promotion — существительное («повышение»), а move, pass и win — глаголы.",
+          "audio": null
+        },
+        {
+          "id": "en-3-14-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткое письмо Али и ответьте на вопрос:",
+          "passage": "Hi Sam! I have good news to tell you. I will move to London next month because I want to get a job there. Also, I hope our football team can win on Sunday!",
+          "questions": [
+            {
+              "question_ru": "Почему Али переезжает в Лондон?",
+              "options": [
+                "он хочет получить там работу",
+                "он едет туда на концерт",
+                "он хочет выучить французский",
+                "его сестра там помолвлена"
+              ],
+              "correct_index": 0,
+              "accepted": ["он хочет получить там работу", "to get a job"]
+            }
+          ],
+          "explain_ru": "Because I want to get a job there — потому что я хочу получить там работу.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

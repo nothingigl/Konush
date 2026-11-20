@@ -83,16 +83,436 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-23-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Лагерь: расскажите о поездке в летний лагерь в прошедшем времени:",
+          "target_text": "Last summer I went to a camp. We slept in cabins. In the evening we sat around the campfire and ate marshmallows.",
+          "translation_ru": "Прошлым летом я ездил в лагерь. Мы спали в домиках. Вечером мы сидели у костра и ели зефир.",
+          "explain_ru": "Неправильные глаголы в Past Simple: go → went, sleep → slept, sit → sat, eat → ate.",
+          "audio": "en/3-23/sp-01.mp3"
+        },
+        {
+          "id": "en-3-23-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите, что вы упаковали в рюкзак:",
+          "target_text": "I packed my backpack, a flashlight and a warm sleeping bag.",
+          "translation_ru": "Я собрал свой рюкзак, фонарик и тёплый спальный мешок.",
+          "explain_ru": "Backpack — рюкзак, flashlight — фонарик, sleeping bag — спальный мешок.",
+          "audio": "en/3-23/sp-02.mp3"
+        },
+        {
+          "id": "en-3-23-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вожатый повёл вас в поход в лес:",
+          "target_text": "Our counselor took us hiking in the green forest.",
+          "translation_ru": "Наш вожатый повёл нас в поход в зелёный лес.",
+          "explain_ru": "Counselor — вожатый, hiking — поход, forest — лес.",
+          "audio": "en/3-23/sp-03.mp3"
+        },
+        {
+          "id": "en-3-23-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите про палатку и каноэ:",
+          "target_text": "We slept in a tent near the lake and went in a canoe.",
+          "translation_ru": "Мы спали в палатке у озера и катались на каноэ.",
+          "explain_ru": "Tent — палатка, canoe — каноэ.",
+          "audio": "en/3-23/sp-04.mp3"
+        },
+        {
+          "id": "en-3-23-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что каждый вечер вы сидели у костра и ели сладкий зефир:",
+          "target_text": "Every evening we sat by the campfire and ate a sweet marshmallow.",
+          "translation_ru": "Каждый вечер мы сидели у костра и ели сладкий зефир.",
+          "explain_ru": "Campfire — костёр, marshmallow — зефир.",
+          "audio": "en/3-23/sp-05.mp3"
+        },
+        {
+          "id": "en-3-23-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Опишите уютный домик рядом с лесом:",
+          "target_text": "Our cabin is small and cozy, right next to the forest.",
+          "translation_ru": "Наш домик маленький и уютный, прямо рядом с лесом.",
+          "explain_ru": "Cabin — домик, forest — лес.",
+          "audio": "en/3-23/sp-06.mp3"
+        },
+        {
+          "id": "en-3-23-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Напомните другу взять фонарик и спальный мешок:",
+          "target_text": "Do not forget your flashlight and your sleeping bag for the tent.",
+          "translation_ru": "Не забудь свой фонарик и спальный мешок для палатки.",
+          "explain_ru": "Flashlight — фонарик, sleeping bag — спальный мешок, tent — палатка.",
+          "audio": "en/3-23/sp-07.mp3"
+        },
+        {
+          "id": "en-3-23-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вам нравится летний лагерь и походы:",
+          "target_text": "I love summer camp, hiking and riding a canoe on the lake.",
+          "translation_ru": "Я люблю летний лагерь, походы и катание на каноэ по озеру.",
+          "explain_ru": "Camp — лагерь, hiking — поход, canoe — каноэ.",
+          "audio": "en/3-23/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-23-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Инструкция (1/2): прослушайте слова вожатого и ответьте, что нужно взять с собой:",
+          "transcript": "The counselor says: Take your flashlight and sleeping bag. Tomorrow we go hiking and canoeing.",
+          "options": [
+            "фонарик и спальный мешок",
+            "зонт и чемодан",
+            "книгу и словарь",
+            "веник и губку"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Take your flashlight and sleeping bag — Возьми фонарик и спальный мешок.",
+          "audio": "en/3-23/ls-01.mp3"
+        },
+        {
+          "id": "en-3-23-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Инструкция (2/2): какие планы на завтра?",
+          "transcript": "The counselor says: Take your flashlight and sleeping bag. Tomorrow we go hiking and canoeing.",
+          "options": [
+            "поход и каноэ",
+            "уборка и стирка",
+            "кино и ужин",
+            "поездка на поезде"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Tomorrow we go hiking and canoeing — Завтра мы идём в поход и катаемся на каноэ.",
+          "audio": "en/3-23/ls-02.mp3"
+        },
+        {
+          "id": "en-3-23-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что Анна положила в рюкзак перед походом?",
+          "transcript": "Anna put a flashlight and a warm sweater in her backpack before hiking in the forest.",
+          "options": [
+            "фонарик и тёплый свитер",
+            "зефир и ложку",
+            "журнал и фото",
+            "карту и билет"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A flashlight and a warm sweater in her backpack — фонарик и тёплый свитер в рюкзак.",
+          "audio": "en/3-23/ls-03.mp3"
+        },
+        {
+          "id": "en-3-23-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где спали ребята в лагере?",
+          "transcript": "We did not sleep in a cabin. We slept in a big tent inside our warm sleeping bags.",
+          "options": [
+            "в большой палатке в спальных мешках",
+            "в маленьком домике",
+            "в отеле у моря",
+            "у дяди в деревне"
+          ],
+          "correct_index": 0,
+          "explain_ru": "In a big tent inside our warm sleeping bags — в большой палатке в тёплых спальных мешках.",
+          "audio": "en/3-23/ls-04.mp3"
+        },
+        {
+          "id": "en-3-23-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "С кем Том катался на каноэ утром?",
+          "transcript": "In the morning Tom took a canoe on the quiet lake with his friendly counselor.",
+          "options": [
+            "со своим дружелюбным вожатым",
+            "со своей младшей сестрой",
+            "со старым соседом",
+            "один"
+          ],
+          "correct_index": 0,
+          "explain_ru": "With his friendly counselor — со своим дружелюбным вожатым.",
+          "audio": "en/3-23/ls-05.mp3"
+        },
+        {
+          "id": "en-3-23-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что все делали после ужина у костра?",
+          "transcript": "After dinner everyone sat around the campfire, told stories and ate sweet marshmallows.",
+          "options": [
+            "рассказывали истории и ели сладкий зефир",
+            "плавали в озере и спали",
+            "смотрели мультфильмы",
+            "собирали рюкзаки"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Told stories and ate sweet marshmallows — рассказывали истории и ели сладкий зефир.",
+          "audio": "en/3-23/ls-06.mp3"
+        },
+        {
+          "id": "en-3-23-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что больше всего понравилось Марии в летнем лагере?",
+          "transcript": "Last summer Maria went to a camp near the mountains. She loved hiking in the forest every day.",
+          "options": [
+            "походы в лес",
+            "катание на велосипеде",
+            "жизнь в городе",
+            "игры на пляже"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Loved hiking in the forest — полюбила походы в лес.",
+          "audio": "en/3-23/ls-07.mp3"
+        },
+        {
+          "id": "en-3-23-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите предложение по-английски:",
+          "transcript": "We went to camp.",
+          "accepted": ["We went to camp."],
+          "explain_ru": "We went to camp — Мы ездили в лагерь.",
+          "audio": "en/3-23/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-23-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Прошедшее время: соедините глаголы с их формой в Past Simple:",
+          "pairs": [
+            { "left": "sleep", "right": "slept" },
+            { "left": "eat", "right": "ate" },
+            { "left": "sit", "right": "sat" },
+            { "left": "go", "right": "went" }
+          ],
+          "explain_ru": "Неправильные глаголы: sleep → slept, eat → ate, sit → sat, go → went.",
+          "audio": null
+        },
+        {
+          "id": "en-3-23-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Мы ездили в лагерь»:",
+          "source_text": "Мы ездили в лагерь.",
+          "bank": ["went", "camp", "we", "to"],
+          "accepted": ["We went to camp"],
+          "explain_ru": "Went — форма прошедшего времени от go.",
+          "audio": null
+        },
+        {
+          "id": "en-3-23-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в прошедшем времени неправильного глагола:",
+          "buggy_text": "We eated marshmallows.",
+          "accepted": ["We ate marshmallows."],
+          "explain_ru": "Глагол eat — неправильный, его форма в Past Simple: ate (не eated).",
+          "audio": null
+        },
+        {
+          "id": "en-3-23-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о лагере с переводом:",
+          "pairs": [
+            { "left": "tent", "right": "палатка" },
+            { "left": "campfire", "right": "костёр" },
+            { "left": "counselor", "right": "вожатый" },
+            { "left": "canoe", "right": "каноэ" }
+          ],
+          "explain_ru": "Tent — палатка, campfire — костёр, counselor — вожатый, canoe — каноэ.",
+          "audio": null
+        },
+        {
+          "id": "en-3-23-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините вещи для похода с переводом:",
+          "pairs": [
+            { "left": "cabin", "right": "домик" },
+            { "left": "flashlight", "right": "фонарик" },
+            { "left": "sleeping bag", "right": "спальный мешок" },
+            { "left": "backpack", "right": "рюкзак" }
+          ],
+          "explain_ru": "Cabin — домик, flashlight — фонарик, sleeping bag — спальный мешок, backpack — рюкзак.",
+          "audio": null
+        },
+        {
+          "id": "en-3-23-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Мы спали в палатке»:",
+          "source_text": "Мы спали в палатке.",
+          "bank": ["slept", "a", "in", "we", "tent"],
+          "accepted": ["We slept in a tent"],
+          "explain_ru": "Slept — прошедшее время от sleep.",
+          "audio": null
+        },
+        {
+          "id": "en-3-23-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте форму глагола sleep в прошедшем времени:",
+          "buggy_text": "I sleeped in my sleeping bag.",
+          "accepted": ["I slept in my sleeping bag."],
+          "explain_ru": "Sleep — неправильный глагол: в Past Simple правильно slept.",
+          "audio": null
+        },
+        {
+          "id": "en-3-23-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите «спальный мешок» на английский:",
+          "source_text": "спальный мешок",
+          "accepted": ["sleeping bag", "a sleeping bag"],
+          "explain_ru": "Sleeping bag — спальный мешок.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-23-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Лагерь у озера: прочитайте текст и ответьте на вопросы:",
+          "passage": "The camp is near a lake and a forest. Kids live in cabins and make a campfire every evening. The counselor tells stories.",
+          "questions": [
+            {
+              "question_ru": "Где находится лагерь?",
+              "options": [
+                "у озера и леса",
+                "в центре старого города",
+                "рядом с аэропортом",
+                "на шумной улице"
+              ],
+              "correct_index": 0,
+              "accepted": ["у озера и леса", "near a lake and a forest"]
+            },
+            {
+              "question_ru": "Что дети делают каждый вечер?",
+              "options": [
+                "разводят костёр",
+                "стирают одежду",
+                "ходят в кино",
+                "пекут торт"
+              ],
+              "correct_index": 0,
+              "accepted": ["разводят костёр", "make a campfire"]
+            }
+          ],
+          "explain_ru": "Near a lake and a forest — у озера и леса; make a campfire — разводят костёр.",
+          "audio": null
+        },
+        {
+          "id": "en-3-23-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «counselor»:",
+          "question_text": "counselor",
+          "options": ["вожатый", "режиссёр", "пилот", "поклонник"],
+          "correct_index": 0,
+          "explain_ru": "Counselor — вожатый в лагере.",
+          "audio": null
+        },
+        {
+          "id": "en-3-23-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «flashlight»:",
+          "question_text": "flashlight",
+          "options": ["фонарик", "костёр", "лампа", "салют"],
+          "correct_index": 0,
+          "explain_ru": "Flashlight — фонарик.",
+          "audio": null
+        },
+        {
+          "id": "en-3-23-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «marshmallow»:",
+          "question_text": "marshmallow",
+          "options": ["зефир", "конфета", "торт", "сыр"],
+          "correct_index": 0,
+          "explain_ru": "Marshmallow — зефир (маршмеллоу).",
+          "audio": null
+        },
+        {
+          "id": "en-3-23-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «hiking»:",
+          "question_text": "hiking",
+          "options": ["поход", "лагерь", "лес", "каноэ"],
+          "correct_index": 0,
+          "explain_ru": "Hiking — пеший поход.",
+          "audio": null
+        },
+        {
+          "id": "en-3-23-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «backpack»:",
+          "question_text": "backpack",
+          "options": ["рюкзак", "палатка", "домик", "спальный мешок"],
+          "correct_index": 0,
+          "explain_ru": "Backpack — рюкзак.",
+          "audio": null
+        },
+        {
+          "id": "en-3-23-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (еда, а не ночлег):",
+          "items": ["tent", "cabin", "sleeping bag", "marshmallow"],
+          "odd_index": 3,
+          "explain_ru": "Marshmallow — зефир (сладость), а tent, cabin и sleeping bag связаны с ночлегом.",
+          "audio": null
+        },
+        {
+          "id": "en-3-23-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте открытку от Бена из лагеря и ответьте на вопрос:",
+          "passage": "Hi Mom! Summer camp is amazing. Today we went hiking in the forest with our backpacks and rode a canoe on the lake. Tonight we sleep in a tent.",
+          "questions": [
+            {
+              "question_ru": "Где Бен будет спать сегодня ночью?",
+              "options": [
+                "в палатке",
+                "в домике",
+                "в отеле",
+                "дома"
+              ],
+              "correct_index": 0,
+              "accepted": ["в палатке", "in a tent", "tent"]
+            }
+          ],
+          "explain_ru": "Tonight we sleep in a tent — Сегодня ночью мы спим в палатке.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

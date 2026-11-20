@@ -83,16 +83,432 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-20-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "О важном: скажите о доверии, семье и честности друга:",
+          "target_text": "I trust my best friend. I miss my family. A good friend is honest.",
+          "translation_ru": "Я доверяю своему лучшему другу. Я скучаю по семье. Хороший друг честный.",
+          "explain_ru": "Trust — доверять, miss — скучать (без предлога: miss my family), honest — честный.",
+          "audio": "en/3-20/sp-01.mp3"
+        },
+        {
+          "id": "en-3-20-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что любите семью и говорите о своих чувствах:",
+          "target_text": "I love my family and talk about my feelings.",
+          "translation_ru": "Я люблю свою семью и говорю о своих чувствах.",
+          "explain_ru": "Love — любить, feelings — чувства.",
+          "audio": "en/3-20/sp-02.mp3"
+        },
+        {
+          "id": "en-3-20-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите друга, умеет ли он хранить секрет:",
+          "target_text": "Can you keep a secret? I trust you.",
+          "translation_ru": "Ты умеешь хранить секрет? Я тебе доверяю.",
+          "explain_ru": "To keep a secret — хранить секрет.",
+          "audio": "en/3-20/sp-03.mp3"
+        },
+        {
+          "id": "en-3-20-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что друзья иногда спорят, но прощают друг друга:",
+          "target_text": "Friends sometimes argue, but they forgive each other.",
+          "translation_ru": "Друзья иногда спорят, но они прощают друг друга.",
+          "explain_ru": "Argue — спорить, forgive — прощать, each other — друг друга.",
+          "audio": "en/3-20/sp-04.mp3"
+        },
+        {
+          "id": "en-3-20-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что чувствуете себя одиноко, когда скучаете по друзьям:",
+          "target_text": "I feel lonely when I miss my old friends.",
+          "translation_ru": "Я чувствую себя одиноким, когда скучаю по старым друзьям.",
+          "explain_ru": "Feel lonely — чувствовать себя одиноким.",
+          "audio": "en/3-20/sp-05.mp3"
+        },
+        {
+          "id": "en-3-20-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что доверие и поддержка важны в отношениях:",
+          "target_text": "Trust and support are important in a relationship.",
+          "translation_ru": "Доверие и поддержка важны в отношениях.",
+          "explain_ru": "Support — поддержка, relationship — отношения.",
+          "audio": "en/3-20/sp-06.mp3"
+        },
+        {
+          "id": "en-3-20-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что он не ревнивый и честный:",
+          "target_text": "He is not jealous. He is honest and kind.",
+          "translation_ru": "Он не ревнивый. Он честный и добрый.",
+          "explain_ru": "Jealous — ревнивый, honest — честный.",
+          "audio": "en/3-20/sp-07.mp3"
+        },
+        {
+          "id": "en-3-20-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Поблагодарите за любовь и поддержку:",
+          "target_text": "Thank you for your love and support.",
+          "translation_ru": "Спасибо тебе за твою любовь и поддержку.",
+          "explain_ru": "Love — любовь/любить, support — поддержка.",
+          "audio": "en/3-20/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-20-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Анна и Том (1/2): прослушайте текст (each other — «друг друга») и ответьте, что они иногда делают:",
+          "transcript": "Anna and Tom argue sometimes. But they forgive each other. They are honest and support each other.",
+          "options": [
+            "спорят",
+            "переезжают",
+            "ревнуют",
+            "забывают секреты"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Anna and Tom argue sometimes — Анна и Том иногда спорят.",
+          "audio": "en/3-20/ls-01.mp3"
+        },
+        {
+          "id": "en-3-20-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Анна и Том (2/2): что они делают друг для друга?",
+          "transcript": "Anna and Tom argue sometimes. But they forgive each other. They are honest and support each other.",
+          "options": [
+            "поддерживают друг друга",
+            "покупают подарки",
+            "пишут письма",
+            "готовят ужин"
+          ],
+          "correct_index": 0,
+          "explain_ru": "They forgive each other and support each other — Они прощают и поддерживают друг друга.",
+          "audio": "en/3-20/ls-02.mp3"
+        },
+        {
+          "id": "en-3-20-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Как Бен чувствует себя в новом городе?",
+          "transcript": "Ben moved to a new city last month. He feels lonely and misses his parents every day.",
+          "options": [
+            "он чувствует себя одиноким и скучает по родителям",
+            "он счастлив и совсем не скучает",
+            "он спорит с соседями каждый день",
+            "он забыл своих старых друзей"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Feels lonely — чувствует себя одиноким; misses his parents — скучает по родителям.",
+          "audio": "en/3-20/ls-03.mp3"
+        },
+        {
+          "id": "en-3-20-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кому Кейт рассказала свой секрет?",
+          "transcript": "Kate told her sister a big secret. She knows her sister is honest and she trusts her.",
+          "options": [
+            "своей сестре",
+            "своему дяде",
+            "новому коллеге",
+            "соседу сверху"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Kate told her sister a big secret — Кейт рассказала сестре большой секрет.",
+          "audio": "en/3-20/ls-04.mp3"
+        },
+        {
+          "id": "en-3-20-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что важно в хороших отношениях по словам говорящего?",
+          "transcript": "In a good relationship, people talk about their feelings and love each other.",
+          "options": [
+            "говорить о чувствах и любить друг друга",
+            "никогда не встречаться с друзьями",
+            "хранить секреты от семьи",
+            "часто спорить о работе"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Talk about their feelings — говорить о своих чувствах; relationship — отношения.",
+          "audio": "en/3-20/ls-05.mp3"
+        },
+        {
+          "id": "en-3-20-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Каким был младший брат сначала?",
+          "transcript": "My little brother was jealous when I got a new bike, so I let him ride it too.",
+          "options": [
+            "ревнивым",
+            "одиноким",
+            "уставшим",
+            "удивлённым"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Jealous — ревнивый (также может означать «завидующий»).",
+          "audio": "en/3-20/ls-06.mp3"
+        },
+        {
+          "id": "en-3-20-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что сделал друг Марии после ссоры?",
+          "transcript": "Maria said sorry after they argued, and her friend decided to forgive her.",
+          "options": [
+            "простил её",
+            "переехал в другой город",
+            "не ответил ей",
+            "уехал в отпуск"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Decided to forgive her — решил простить её.",
+          "audio": "en/3-20/ls-07.mp3"
+        },
+        {
+          "id": "en-3-20-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I trust you.",
+          "accepted": ["I trust you."],
+          "explain_ru": "I trust you — Я тебе доверяю.",
+          "audio": "en/3-20/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-20-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите фразу «Я тебе доверяю»:",
+          "source_text": "Я тебе доверяю.",
+          "bank": ["trust", "I", "you"],
+          "accepted": ["I trust you"],
+          "explain_ru": "Глагол trust употребляется без предлога: I trust you.",
+          "audio": null
+        },
+        {
+          "id": "en-3-20-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Подбери слово (keep — «хранить»): впишите пропущенное английское слово:",
+          "source_text": "to keep a ___",
+          "accepted": ["secret"],
+          "explain_ru": "To keep a secret — хранить секрет.",
+          "audio": null
+        },
+        {
+          "id": "en-3-20-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в предложении в 3-м лице единственного числа:",
+          "buggy_text": "She miss her family.",
+          "accepted": ["She misses her family."],
+          "explain_ru": "После he/she/it к глаголам на -ss добавляется окончание -es: misses.",
+          "audio": null
+        },
+        {
+          "id": "en-3-20-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "feelings", "right": "чувства" },
+            { "left": "argue", "right": "спорить" },
+            { "left": "forgive", "right": "прощать" },
+            { "left": "love", "right": "любить" }
+          ],
+          "explain_ru": "Feelings — чувства, argue — спорить, forgive — прощать, love — любить.",
+          "audio": null
+        },
+        {
+          "id": "en-3-20-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините прилагательные и существительное с переводом:",
+          "pairs": [
+            { "left": "lonely", "right": "одинокий" },
+            { "left": "jealous", "right": "ревнивый" },
+            { "left": "honest", "right": "честный" },
+            { "left": "relationship", "right": "отношения" }
+          ],
+          "explain_ru": "Lonely — одинокий, jealous — ревнивый, honest — честный, relationship — отношения.",
+          "audio": null
+        },
+        {
+          "id": "en-3-20-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Моя семья даёт мне поддержку»:",
+          "source_text": "Моя семья даёт мне поддержку.",
+          "bank": ["gives", "support", "my", "me", "family"],
+          "accepted": ["My family gives me support"],
+          "explain_ru": "My family = it, поэтому глагол gives с окончанием -s.",
+          "audio": null
+        },
+        {
+          "id": "en-3-20-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в отрицании:",
+          "buggy_text": "They does not argue.",
+          "accepted": ["They do not argue.", "They don't argue."],
+          "explain_ru": "С местоимением they используется вспомогательный глагол do, а не does.",
+          "audio": null
+        },
+        {
+          "id": "en-3-20-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «отношения» на английский:",
+          "source_text": "отношения",
+          "accepted": ["relationship"],
+          "explain_ru": "Relationship — отношения.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-20-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Новый город: прочитайте текст и ответьте на вопросы:",
+          "passage": "Sara feels lonely in the new city. She misses her friends. She tells her mother about her feelings, and her mother gives her support.",
+          "questions": [
+            {
+              "question_ru": "Что чувствует Сара в новом городе?",
+              "options": [
+                "одиночество",
+                "ревность",
+                "усталость",
+                "удивление"
+              ],
+              "correct_index": 0,
+              "accepted": ["одиночество", "lonely"]
+            },
+            {
+              "question_ru": "Кто поддерживает Сару?",
+              "options": [
+                "мама",
+                "подруга",
+                "брат",
+                "сосед"
+              ],
+              "correct_index": 0,
+              "accepted": ["мама", "её мама", "her mother", "mother"]
+            }
+          ],
+          "explain_ru": "Sara feels lonely — Сара чувствует одиночество; her mother gives her support — её мама поддерживает её.",
+          "audio": null
+        },
+        {
+          "id": "en-3-20-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «jealous»:",
+          "question_text": "jealous",
+          "options": ["ревнивый", "честный", "одинокий", "гордый"],
+          "correct_index": 0,
+          "explain_ru": "Jealous — ревнивый.",
+          "audio": null
+        },
+        {
+          "id": "en-3-20-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «forgive»:",
+          "question_text": "forgive",
+          "options": ["прощать", "спорить", "скучать", "доверять"],
+          "correct_index": 0,
+          "explain_ru": "Forgive — прощать.",
+          "audio": null
+        },
+        {
+          "id": "en-3-20-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «honest»:",
+          "question_text": "honest",
+          "options": ["честный", "ревнивый", "загадочный", "ленивый"],
+          "correct_index": 0,
+          "explain_ru": "Honest — честный.",
+          "audio": null
+        },
+        {
+          "id": "en-3-20-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «relationship»:",
+          "question_text": "relationship",
+          "options": ["отношения", "поддержка", "секрет", "чувства"],
+          "correct_index": 0,
+          "explain_ru": "Relationship — отношения.",
+          "audio": null
+        },
+        {
+          "id": "en-3-20-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «secret»:",
+          "question_text": "secret",
+          "options": ["секрет", "традиция", "новость", "достижение"],
+          "correct_index": 0,
+          "explain_ru": "Secret — секрет.",
+          "audio": null
+        },
+        {
+          "id": "en-3-20-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не глагол):",
+          "items": ["trust", "love", "forgive", "lonely"],
+          "odd_index": 3,
+          "explain_ru": "Lonely — прилагательное («одинокий»), а остальные слова — глаголы.",
+          "audio": null
+        },
+        {
+          "id": "en-3-20-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий разговор друзей и ответьте на вопрос:",
+          "passage": "Tom: I am sorry we argued yesterday. You are my best friend and I love our friendship. Sam: Do not worry, I forgive you. Let us always be honest about our feelings.",
+          "questions": [
+            {
+              "question_ru": "Как Сэм отреагировал на извинение Тома?",
+              "options": [
+                "он простил Тома",
+                "он снова начал спорить",
+                "он рассказал секрет",
+                "он ушёл домой"
+              ],
+              "correct_index": 0,
+              "accepted": ["он простил Тома", "простил", "I forgive you"]
+            }
+          ],
+          "explain_ru": "I forgive you — Я тебя прощаю.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

@@ -83,16 +83,424 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-3-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "В офисе (1/2): попросите копию удостоверения личности и подпись на бланке:",
+          "target_text": "I need a copy of my ID card. Please sign this form.",
+          "translation_ru": "Мне нужна копия моего удостоверения личности. Пожалуйста, подпишите этот бланк.",
+          "explain_ru": "A copy of my ID card — копия моего удостоверения личности; sign this form — подпишите этот бланк.",
+          "audio": "en/3-3/sp-01.mp3"
+        },
+        {
+          "id": "en-3-3-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "В офисе (2/2): спросите, действителен ли этот документ:",
+          "target_text": "Is this document valid?",
+          "translation_ru": "Этот документ действителен?",
+          "explain_ru": "Valid — действительный; в вопросе с глаголом is он выносится на первое место.",
+          "audio": "en/3-3/sp-02.mp3"
+        },
+        {
+          "id": "en-3-3-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что вы заполняете заявление:",
+          "target_text": "I fill out the application and write my signature.",
+          "translation_ru": "Я заполняю заявление и ставлю свою подпись.",
+          "explain_ru": "Fill out — заполнять, application — заявление, signature — подпись.",
+          "audio": "en/3-3/sp-03.mp3"
+        },
+        {
+          "id": "en-3-3-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваши права просрочены:",
+          "target_text": "My license is expired. I need a new one.",
+          "translation_ru": "Мои права просрочены. Мне нужны новые.",
+          "explain_ru": "License — права / лицензия; expired — просроченный.",
+          "audio": "en/3-3/sp-04.mp3"
+        },
+        {
+          "id": "en-3-3-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что у вас есть справка из университета:",
+          "target_text": "I have a certificate from my university.",
+          "translation_ru": "У меня есть справка из моего университета.",
+          "explain_ru": "Certificate — справка, сертификат.",
+          "audio": "en/3-3/sp-05.mp3"
+        },
+        {
+          "id": "en-3-3-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите, нужна ли подпись на копии:",
+          "target_text": "Do you need my signature on this copy?",
+          "translation_ru": "Вам нужна моя подпись на этой копии?",
+          "explain_ru": "Signature — подпись, copy — копия.",
+          "audio": "en/3-3/sp-06.mp3"
+        },
+        {
+          "id": "en-3-3-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваш паспорт и удостоверение действительны:",
+          "target_text": "My passport and my ID card are valid.",
+          "translation_ru": "Мой паспорт и моё удостоверение личности действительны.",
+          "explain_ru": "ID card — удостоверение личности; с двумя подлежащими ставится are.",
+          "audio": "en/3-3/sp-07.mp3"
+        },
+        {
+          "id": "en-3-3-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите помочь заполнить бланк:",
+          "target_text": "Could you help me fill out this form, please?",
+          "translation_ru": "Не могли бы вы помочь мне заполнить этот бланк, пожалуйста?",
+          "explain_ru": "Fill out this form — заполнить этот бланк.",
+          "audio": "en/3-3/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-3-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "У окошка (1/2): прослушайте сотрудника и ответьте, что нужно сделать:",
+          "transcript": "Please fill out the form and sign here. Your passport is expired.",
+          "options": [
+            "заполнить бланк и подписать",
+            "сделать копию прав",
+            "принести справку завтра",
+            "оплатить счёт картой"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Fill out the form and sign here — Заполните бланк и подпишите здесь.",
+          "audio": "en/3-3/ls-01.mp3"
+        },
+        {
+          "id": "en-3-3-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "У окошка (2/2): что не так с паспортом?",
+          "transcript": "Please fill out the form and sign here. Your passport is expired.",
+          "options": [
+            "он просрочен",
+            "он забыт дома",
+            "на нём нет подписи",
+            "нужна его копия"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Your passport is expired — Ваш паспорт просрочен.",
+          "audio": "en/3-3/ls-02.mp3"
+        },
+        {
+          "id": "en-3-3-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой документ нужен в банке?",
+          "transcript": "Please show your ID card and sign this document.",
+          "options": [
+            "удостоверение личности",
+            "билет на поезд",
+            "справка из больницы",
+            "водительские права"
+          ],
+          "correct_index": 0,
+          "explain_ru": "ID card — удостоверение личности; document — документ.",
+          "audio": "en/3-3/ls-03.mp3"
+        },
+        {
+          "id": "en-3-3-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что забыл сделать Том?",
+          "transcript": "Tom fills out the application, but he forgets his signature.",
+          "options": [
+            "поставить подпись",
+            "сделать копию",
+            "взять удостоверение",
+            "проверить визу"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Signature — подпись; application — заявление.",
+          "audio": "en/3-3/ls-04.mp3"
+        },
+        {
+          "id": "en-3-3-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой документ просит менеджер?",
+          "transcript": "We need a copy of your certificate and your driver's license.",
+          "options": [
+            "копию сертификата и водительские права",
+            "только паспорт",
+            "новый бланк и чек",
+            "билет и карту города"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Certificate — сертификат / справка; license — права / лицензия.",
+          "audio": "en/3-3/ls-05.mp3"
+        },
+        {
+          "id": "en-3-3-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что сотрудник говорит про визу?",
+          "transcript": "Good news! Your visa is valid for one year.",
+          "options": [
+            "виза действительна один год",
+            "виза просрочена",
+            "нужно новое заявление",
+            "виза готова завтра"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Valid for one year — действительна один год.",
+          "audio": "en/3-3/ls-06.mp3"
+        },
+        {
+          "id": "en-3-3-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где находится принтер для копий?",
+          "transcript": "You can make a copy of your document near the reception desk.",
+          "options": [
+            "рядом со стойкой регистрации",
+            "на втором этаже",
+            "в библиотеке",
+            "в магазине на углу"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Make a copy — сделать копию; near the reception desk — рядом со стойкой регистрации.",
+          "audio": "en/3-3/ls-07.mp3"
+        },
+        {
+          "id": "en-3-3-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "Please sign this document.",
+          "accepted": ["Please sign this document."],
+          "explain_ru": "Sign — подписывать, document — документ.",
+          "audio": "en/3-3/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-3-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Антонимы: напишите противоположное по смыслу слово к «valid» (действительный):",
+          "source_text": "valid ↔ ___",
+          "accepted": ["expired"],
+          "explain_ru": "Valid (действительный) ↔ expired (просроченный).",
+          "audio": null
+        },
+        {
+          "id": "en-3-3-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите просьбу «Заполните бланк»:",
+          "source_text": "Заполните бланк.",
+          "bank": ["fill", "form", "out", "the"],
+          "accepted": ["Fill out the form", "Fill the form out"],
+          "explain_ru": "Фразовый глагол fill out (заполнять) в повелительном наклонении стоит в начале: Fill out the form.",
+          "audio": null
+        },
+        {
+          "id": "en-3-3-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в вежливой просьбе:",
+          "buggy_text": "Please signs here",
+          "accepted": ["Please sign here."],
+          "explain_ru": "В повелительном наклонении (просьбе) глагол используется без окончания -s: Please sign here.",
+          "audio": null
+        },
+        {
+          "id": "en-3-3-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "document", "right": "документ" },
+            { "left": "ID card", "right": "удостоверение личности" },
+            { "left": "copy", "right": "копия" },
+            { "left": "application", "right": "заявление" }
+          ],
+          "explain_ru": "Document — документ, ID card — удостоверение личности, copy — копия, application — заявление.",
+          "audio": null
+        },
+        {
+          "id": "en-3-3-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о документах с переводом:",
+          "pairs": [
+            { "left": "sign", "right": "подписывать" },
+            { "left": "signature", "right": "подпись" },
+            { "left": "license", "right": "права, лицензия" },
+            { "left": "certificate", "right": "справка, сертификат" }
+          ],
+          "explain_ru": "Sign — подписывать, signature — подпись, license — права/лицензия, certificate — справка/сертификат.",
+          "audio": null
+        },
+        {
+          "id": "en-3-3-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Мой сертификат действителен»:",
+          "source_text": "Мой сертификат действителен.",
+          "bank": ["certificate", "valid", "my", "is"],
+          "accepted": ["My certificate is valid"],
+          "explain_ru": "My certificate is valid — Мой сертификат действителен.",
+          "audio": null
+        },
+        {
+          "id": "en-3-3-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку с глаголом be:",
+          "buggy_text": "My ID card are expired.",
+          "accepted": ["My ID card is expired."],
+          "explain_ru": "ID card — единственное число, поэтому нужен глагол is.",
+          "audio": null
+        },
+        {
+          "id": "en-3-3-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски фразовый глагол «заполнять»:",
+          "source_text": "заполнять",
+          "accepted": ["fill out"],
+          "explain_ru": "Fill out — заполнять (бланк, анкету, заявление).",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-3-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Водительские права: прочитайте текст и ответьте на вопрос:",
+          "passage": "Anna needs a driver's license. She brings her ID card, a copy of her passport and a signed application. Everything is ready.",
+          "questions": [
+            {
+              "question_ru": "Что приносит Анна?",
+              "options": [
+                "удостоверение, копию паспорта и подписанное заявление",
+                "только просроченный паспорт и бланк",
+                "справку из школы и билет",
+                "копию договора аренды и ключ"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "удостоверение, копию паспорта, подписанное заявление",
+                "удостоверение, копию паспорта и подписанное заявление"
+              ]
+            }
+          ],
+          "explain_ru": "Her ID card, a copy of her passport and a signed application — удостоверение личности, копия паспорта и подписанное заявление.",
+          "audio": null
+        },
+        {
+          "id": "en-3-3-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «certificate»:",
+          "question_text": "certificate",
+          "options": ["справка, сертификат", "заявление", "подпись", "копия"],
+          "correct_index": 0,
+          "explain_ru": "Certificate — справка, сертификат.",
+          "audio": null
+        },
+        {
+          "id": "en-3-3-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «signature»:",
+          "question_text": "signature",
+          "options": ["подпись", "подписывать", "бланк", "документ"],
+          "correct_index": 0,
+          "explain_ru": "Signature — подпись (существительное), а sign — подписывать (глагол).",
+          "audio": null
+        },
+        {
+          "id": "en-3-3-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «expired»:",
+          "question_text": "expired",
+          "options": ["просроченный", "действительный", "готовый", "новый"],
+          "correct_index": 0,
+          "explain_ru": "Expired — просроченный.",
+          "audio": null
+        },
+        {
+          "id": "en-3-3-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «license»:",
+          "question_text": "license",
+          "options": ["права, лицензия", "заявление", "анкета", "страховка"],
+          "correct_index": 0,
+          "explain_ru": "License — права, лицензия.",
+          "audio": null
+        },
+        {
+          "id": "en-3-3-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «application»:",
+          "question_text": "application",
+          "options": ["заявление", "копия", "подпись", "удостоверение"],
+          "correct_index": 0,
+          "explain_ru": "Application — заявление.",
+          "audio": null
+        },
+        {
+          "id": "en-3-3-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (глагол, а не документ):",
+          "items": ["document", "form", "certificate", "fill out"],
+          "odd_index": 3,
+          "explain_ru": "Fill out («заполнять») — глагол, а document, form и certificate — виды бумаг и документов.",
+          "audio": null
+        },
+        {
+          "id": "en-3-3-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткую инструкцию в офисе и ответьте на вопрос:",
+          "passage": "Step 1: Fill out the form. Step 2: Put your signature at the bottom. Step 3: Bring a copy of your valid ID card.",
+          "questions": [
+            {
+              "question_ru": "Что нужно сделать на третьем шаге?",
+              "options": [
+                "принести копию действительного удостоверения личности",
+                "заполнить анкету",
+                "поставить подпись",
+                "получить справку"
+              ],
+              "correct_index": 0,
+              "accepted": ["принести копию действительного удостоверения личности", "копию удостоверения"]
+            }
+          ],
+          "explain_ru": "Bring a copy of your valid ID card — Принесите копию вашего действительного удостоверения личности.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

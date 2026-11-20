@@ -83,16 +83,405 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-4-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Большая семья (1/2): расскажите о дядях, тёте и самом младшем двоюродном брате:",
+          "target_text": "I have two uncles and an aunt. My cousin is the youngest in the family.",
+          "translation_ru": "У меня два дяди и тётя. Мой двоюродный брат — самый младший в семье.",
+          "explain_ru": "Перед словом aunt ставится артикль an (гласный звук); the youngest — самый младший.",
+          "audio": "en/3-4/sp-01.mp3"
+        },
+        {
+          "id": "en-3-4-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Большая семья (2/2): скажите, что у вашей сестры близнецы:",
+          "target_text": "My sister has twins.",
+          "translation_ru": "У моей сестры близнецы.",
+          "explain_ru": "Twins — близнецы.",
+          "audio": "en/3-4/sp-02.mp3"
+        },
+        {
+          "id": "en-3-4-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите про племянника и племянницу:",
+          "target_text": "I have a nephew and a niece.",
+          "translation_ru": "У меня есть племянник и племянница.",
+          "explain_ru": "Nephew — племянник, niece — племянница.",
+          "audio": "en/3-4/sp-03.mp3"
+        },
+        {
+          "id": "en-3-4-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите о внуке и внучке бабушки:",
+          "target_text": "My grandmother loves her grandson and her granddaughter.",
+          "translation_ru": "Моя бабушка любит своего внука и свою внучку.",
+          "explain_ru": "Grandson — внук, granddaughter — внучка.",
+          "audio": "en/3-4/sp-04.mp3"
+        },
+        {
+          "id": "en-3-4-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваши родственники живут в большом городе:",
+          "target_text": "My relatives live in a big city.",
+          "translation_ru": "Мои родственники живут в большом городе.",
+          "explain_ru": "Relatives — родственники.",
+          "audio": "en/3-4/sp-05.mp3"
+        },
+        {
+          "id": "en-3-4-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваша старшая сестра — врач:",
+          "target_text": "My oldest sister is a doctor.",
+          "translation_ru": "Моя самая старшая сестра — врач.",
+          "explain_ru": "Oldest — самый старший.",
+          "audio": "en/3-4/sp-06.mp3"
+        },
+        {
+          "id": "en-3-4-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что малыш улыбается:",
+          "target_text": "The baby is happy and smiles.",
+          "translation_ru": "Малыш счастлив и улыбается.",
+          "explain_ru": "Baby — малыш.",
+          "audio": "en/3-4/sp-07.mp3"
+        },
+        {
+          "id": "en-3-4-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваши дядя и тётя очень дружелюбные:",
+          "target_text": "My uncle and my aunt are very friendly.",
+          "translation_ru": "Мой дядя и моя тётя очень дружелюбные.",
+          "explain_ru": "Uncle — дядя, aunt — тётя, friendly — дружелюбный.",
+          "audio": "en/3-4/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-4-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Анна (1/2): прослушайте рассказ о семье Анны и ответьте, кто малыш:",
+          "transcript": "Anna is the oldest sister. Her nephew is a baby. Her cousins live in Canada.",
+          "options": ["племянник", "двоюродный брат", "внук", "племянница"],
+          "correct_index": 0,
+          "explain_ru": "Her nephew is a baby — Её племянник — малыш.",
+          "audio": "en/3-4/ls-01.mp3"
+        },
+        {
+          "id": "en-3-4-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Анна (2/2): где живут двоюродные братья и сёстры Анны?",
+          "transcript": "Anna is the oldest sister. Her nephew is a baby. Her cousins live in Canada.",
+          "options": ["в Канаде", "в Англии", "в Германии", "в Турции"],
+          "correct_index": 0,
+          "explain_ru": "Her cousins live in Canada — Её двоюродные живут в Канаде.",
+          "audio": "en/3-4/ls-02.mp3"
+        },
+        {
+          "id": "en-3-4-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кто у дедушки с бабушкой живёт рядом?",
+          "transcript": "My grandfather has one grandson and two granddaughters. They live near his house.",
+          "options": [
+            "один внук и две внучки",
+            "два племянника и племянница",
+            "близнецы и малыш",
+            "дядя и тётя"
+          ],
+          "correct_index": 0,
+          "explain_ru": "One grandson and two granddaughters — один внук и две внучки.",
+          "audio": "en/3-4/ls-03.mp3"
+        },
+        {
+          "id": "en-3-4-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кто близнецы в семье Тома?",
+          "transcript": "Tom's brother and sister are twins. They are ten years old.",
+          "options": [
+            "брат и сестра Тома",
+            "дядя и тётя Тома",
+            "двоюродные братья Тома",
+            "племянник и племянница Тома"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Tom's brother and sister are twins — Брат и сестра Тома — близнецы.",
+          "audio": "en/3-4/ls-04.mp3"
+        },
+        {
+          "id": "en-3-4-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кто самая младшая в семье?",
+          "transcript": "My niece is the youngest in our family. She is a small baby.",
+          "options": ["племянница", "внучка", "тётя", "двоюродная сестра"],
+          "correct_index": 0,
+          "explain_ru": "My niece is the youngest — Моя племянница — самая младшая.",
+          "audio": "en/3-4/ls-05.mp3"
+        },
+        {
+          "id": "en-3-4-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Куда приедут все родственники в пятницу?",
+          "transcript": "All our relatives come to our new apartment on Friday for a big dinner.",
+          "options": [
+            "в новую квартиру на большой ужин",
+            "в парк на пикник",
+            "в отель на берегу моря",
+            "в ресторан в центре"
+          ],
+          "correct_index": 0,
+          "explain_ru": "All our relatives come to our new apartment — Все наши родственники приходят в нашу новую квартиру.",
+          "audio": "en/3-4/ls-06.mp3"
+        },
+        {
+          "id": "en-3-4-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Кем работает дядя Марии?",
+          "transcript": "Maria's uncle is an engineer, and her aunt is a teacher.",
+          "options": ["инженером", "учителем", "поваром", "врачом"],
+          "correct_index": 0,
+          "explain_ru": "Maria's uncle is an engineer — Дядя Марии — инженер.",
+          "audio": "en/3-4/ls-07.mp3"
+        },
+        {
+          "id": "en-3-4-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "My cousin is very nice.",
+          "accepted": ["My cousin is very nice."],
+          "explain_ru": "Cousin — двоюродный брат или двоюродная сестра.",
+          "audio": "en/3-4/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-4-wr-01",
+          "type": "match_pairs",
+          "origin": "source",
+          "prompt_ru": "Пары: соедините парных родственников:",
+          "pairs": [
+            { "left": "uncle", "right": "aunt" },
+            { "left": "nephew", "right": "niece" },
+            { "left": "grandson", "right": "granddaughter" }
+          ],
+          "explain_ru": "Uncle ↔ aunt (дядя и тётя); nephew ↔ niece (племянник и племянница); grandson ↔ granddaughter (внук и внучка).",
+          "audio": null
+        },
+        {
+          "id": "en-3-4-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Мой брат — самый старший»:",
+          "source_text": "Мой брат — самый старший.",
+          "bank": ["oldest", "is", "brother", "my", "the"],
+          "accepted": ["My brother is the oldest"],
+          "explain_ru": "Перед превосходной степенью (oldest) ставится артикль the: My brother is the oldest.",
+          "audio": null
+        },
+        {
+          "id": "en-3-4-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в предложении о двоюродных братьях:",
+          "buggy_text": "She have two cousin",
+          "accepted": ["She has two cousins."],
+          "explain_ru": "С местоимением she используется has, а после two нужно множественное число cousins.",
+          "audio": null
+        },
+        {
+          "id": "en-3-4-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "relatives", "right": "родственники" },
+            { "left": "twins", "right": "близнецы" },
+            { "left": "baby", "right": "малыш" },
+            { "left": "cousin", "right": "двоюродный брат, сестра" }
+          ],
+          "explain_ru": "Relatives — родственники, twins — близнецы, baby — малыш, cousin — двоюродный брат / сестра.",
+          "audio": null
+        },
+        {
+          "id": "en-3-4-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова о возрасте и семье с переводом:",
+          "pairs": [
+            { "left": "oldest", "right": "самый старший" },
+            { "left": "youngest", "right": "самый младший" },
+            { "left": "grandson", "right": "внук" },
+            { "left": "granddaughter", "right": "внучка" }
+          ],
+          "explain_ru": "Oldest — самый старший, youngest — самый младший, grandson — внук, granddaughter — внучка.",
+          "audio": null
+        },
+        {
+          "id": "en-3-4-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «У моей тёти есть близнецы»:",
+          "source_text": "У моей тёти есть близнецы.",
+          "bank": ["twins", "my", "has", "aunt"],
+          "accepted": ["My aunt has twins"],
+          "explain_ru": "My aunt has twins — У моей тёти близнецы.",
+          "audio": null
+        },
+        {
+          "id": "en-3-4-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку в предложении про племянницу:",
+          "buggy_text": "My niece are the youngest.",
+          "accepted": ["My niece is the youngest."],
+          "explain_ru": "Niece — единственное число, поэтому нужен глагол is.",
+          "audio": null
+        },
+        {
+          "id": "en-3-4-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски слово «родственники»:",
+          "source_text": "родственники",
+          "accepted": ["relatives"],
+          "explain_ru": "Relatives — родственники.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-4-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Воскресный ужин: прочитайте текст и ответьте на вопросы:",
+          "passage": "On Sunday all our relatives come to dinner: two uncles, an aunt, three cousins and a baby nephew.",
+          "questions": [
+            {
+              "question_ru": "Сколько двоюродных приходят на ужин?",
+              "options": ["три", "два", "один", "четыре"],
+              "correct_index": 0,
+              "accepted": ["три", "three", "3"]
+            },
+            {
+              "question_ru": "Кто малыш на этом ужине?",
+              "options": ["племянник", "внук", "племянница", "двоюродный брат"],
+              "correct_index": 0,
+              "accepted": ["племянник", "nephew"]
+            }
+          ],
+          "explain_ru": "Three cousins — три двоюродных; a baby nephew — малыш-племянник.",
+          "audio": null
+        },
+        {
+          "id": "en-3-4-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «niece»:",
+          "question_text": "niece",
+          "options": ["племянница", "племянник", "тётя", "внучка"],
+          "correct_index": 0,
+          "explain_ru": "Niece — племянница; nephew — племянник.",
+          "audio": null
+        },
+        {
+          "id": "en-3-4-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «grandson»:",
+          "question_text": "grandson",
+          "options": ["внук", "внучка", "дедушка", "сын"],
+          "correct_index": 0,
+          "explain_ru": "Grandson — внук.",
+          "audio": null
+        },
+        {
+          "id": "en-3-4-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «granddaughter»:",
+          "question_text": "granddaughter",
+          "options": ["внучка", "внук", "дочь", "бабушка"],
+          "correct_index": 0,
+          "explain_ru": "Granddaughter — внучка.",
+          "audio": null
+        },
+        {
+          "id": "en-3-4-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «twins»:",
+          "question_text": "twins",
+          "options": ["близнецы", "родственники", "малыши", "родители"],
+          "correct_index": 0,
+          "explain_ru": "Twins — близнецы.",
+          "audio": null
+        },
+        {
+          "id": "en-3-4-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «youngest»:",
+          "question_text": "youngest",
+          "options": ["самый младший", "самый старший", "высокий", "дружелюбный"],
+          "correct_index": 0,
+          "explain_ru": "Youngest — самый младший; oldest — самый старший.",
+          "audio": null
+        },
+        {
+          "id": "en-3-4-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не член семьи):",
+          "items": ["uncle", "aunt", "nephew", "oldest"],
+          "odd_index": 3,
+          "explain_ru": "Oldest («самый старший») — прилагательное, а uncle, aunt и nephew — члены семьи.",
+          "audio": null
+        },
+        {
+          "id": "en-3-4-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткую открытку от бабушки и ответьте на вопрос:",
+          "passage": "Dear family, my oldest grandson turns twenty today! My youngest granddaughter draws a card for him. All relatives are very happy.",
+          "questions": [
+            {
+              "question_ru": "Что делает самая младшая внучка?",
+              "options": [
+                "рисует открытку для брата",
+                "печёт торт",
+                "звонит тёте",
+                "играет в футбол"
+              ],
+              "correct_index": 0,
+              "accepted": ["рисует открытку", "рисует открытку для брата"]
+            }
+          ],
+          "explain_ru": "My youngest granddaughter draws a card for him — Моя самая младшая внучка рисует ему открытку.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

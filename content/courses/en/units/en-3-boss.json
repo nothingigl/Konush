@@ -10,16 +10,243 @@
   "words": [],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-boss-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "За 60 секунд расскажите о прошлом лете (1/2): повторите пример (можно подставить своё место):",
+          "target_text": "Last summer I went to the mountains. We stayed in a small hotel. I took photos. I was tired but happy.",
+          "translation_ru": "Прошлым летом я ездил в горы. Мы остановились в маленьком отеле. Я делал фото. Я был уставшим, но счастливым.",
+          "explain_ru": "Соединяет лексику и прошедшее время из юнита 3.5: went, stayed, took photos, tired.",
+          "audio": "en/3-boss/sp-01.mp3"
+        },
+        {
+          "id": "en-3-boss-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "За 60 секунд расскажите о прошлом лете (2/2): добавьте план на выходные:",
+          "target_text": "This weekend I usually sleep in.",
+          "translation_ru": "В эти выходные я обычно сплю подольше.",
+          "explain_ru": "Sleep in — поспать подольше (юнит 3.9 «Выходные»).",
+          "audio": "en/3-boss/sp-02.mp3"
+        },
+        {
+          "id": "en-3-boss-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Поделитесь хорошей новостью об экзамене и дипломе:",
+          "target_text": "I have good news! I finally passed the exam and graduated from university.",
+          "translation_ru": "У меня хорошая новость! Я наконец сдал экзамен и окончил университет.",
+          "explain_ru": "Объединяет юниты 3.14 (good news, finally, passed) и 3.17 (graduated).",
+          "audio": "en/3-boss/sp-03.mp3"
+        },
+        {
+          "id": "en-3-boss-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите о своей ежедневной практике английского и гордости за прогресс:",
+          "target_text": "I practice English daily, and I am proud of my progress.",
+          "translation_ru": "Я практикую английский ежедневно, и я горжусь своим прогрессом.",
+          "explain_ru": "Объединяет юниты 3.17 (proud of) и 3.25 (practice daily, progress).",
+          "audio": "en/3-boss/sp-04.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-boss-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Рассказ о прошлых выходных (1/2): что приготовила Анна?",
+          "transcript": "Last weekend we had a barbecue. Anna made a sweet cake. Tom was late. We talked for three hours.",
+          "options": [
+            "сладкий торт",
+            "острый суп",
+            "варёный рис",
+            "фруктовый салат"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Anna made a sweet cake — Анна приготовила сладкий торт.",
+          "audio": "en/3-boss/ls-01.mp3"
+        },
+        {
+          "id": "en-3-boss-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Рассказ о прошлых выходных (2/2): кто опоздал?",
+          "transcript": "Last weekend we had a barbecue. Anna made a sweet cake. Tom was late. We talked for three hours.",
+          "options": [
+            "Том",
+            "Анна",
+            "Сара",
+            "Бен"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Tom was late — Том опоздал.",
+          "audio": "en/3-boss/ls-02.mp3"
+        },
+        {
+          "id": "en-3-boss-ls-03",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "I have good news.",
+          "accepted": ["I have good news."],
+          "explain_ru": "I have good news — У меня хорошая новость (юнит 3.14).",
+          "audio": "en/3-boss/ls-03.mp3"
+        },
+        {
+          "id": "en-3-boss-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Где Бен спал в летнем лагере два года назад?",
+          "transcript": "Two years ago Ben went to a summer camp in the forest. He slept in a cabin, sat around the campfire and ate marshmallows.",
+          "options": [
+            "в домике",
+            "в палатке",
+            "в отеле",
+            "у дяди"
+          ],
+          "correct_index": 0,
+          "explain_ru": "He slept in a cabin — Он спал в домике (юниты 3.16 и 3.23).",
+          "audio": "en/3-boss/ls-04.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-boss-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Переведите на английский (1/3): «В детстве я любил мультфильмы.»",
+          "source_text": "В детстве я любил мультфильмы.",
+          "accepted": [
+            "As a child, I liked cartoons.",
+            "When I was a child, I liked cartoons."
+          ],
+          "explain_ru": "As a child, I liked cartoons — выражение из юнита 3.11 «Детство».",
+          "audio": null
+        },
+        {
+          "id": "en-3-boss-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Переведите на английский (2/3): «Он получил повышение.»",
+          "source_text": "Он получил повышение.",
+          "accepted": ["He got a promotion."],
+          "explain_ru": "Got — прошедшее время от get; a promotion — повышение (юнит 3.14).",
+          "audio": null
+        },
+        {
+          "id": "en-3-boss-wr-03",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Переведите на английский (3/3): «Я бы лучше остался дома.»",
+          "source_text": "Я бы лучше остался дома.",
+          "accepted": [
+            "I would rather stay at home.",
+            "I would rather stay home."
+          ],
+          "explain_ru": "После would rather глагол идёт без частицы to: would rather stay (юнит 3.18).",
+          "audio": null
+        },
+        {
+          "id": "en-3-boss-wr-04",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте глагол в прошедшем времени:",
+          "buggy_text": "Yesterday we go to the theater and watched a comedy.",
+          "accepted": ["Yesterday we went to the theater and watched a comedy."],
+          "explain_ru": "Со словом yesterday используется Past Simple: go → went.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-boss-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Прочитайте рассказ о хорошей новости Сары и ответьте на вопросы:",
+          "passage": "Sara has good news. She passed the exam and now she has a diploma. Her family celebrates with a big dinner. She says, \"I am so happy and proud.\"",
+          "questions": [
+            {
+              "question_ru": "Какая хорошая новость у Сары?",
+              "options": [
+                "она сдала экзамен и получила диплом",
+                "она поехала в летний лагерь",
+                "она выиграла награду в кино",
+                "она переехала в новую квартиру"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "она сдала экзамен и получила диплом",
+                "сдала экзамен и получила диплом",
+                "passed the exam and has a diploma"
+              ]
+            },
+            {
+              "question_ru": "Как семья отмечает эту новость?",
+              "options": [
+                "большим ужином",
+                "походом в лес",
+                "поездкой на море",
+                "посещением балета"
+              ],
+              "correct_index": 0,
+              "accepted": ["большим ужином", "with a big dinner", "a big dinner"]
+            }
+          ],
+          "explain_ru": "Passed the exam and now she has a diploma — сдала экзамен и получила диплом; celebrates with a big dinner — отмечает большим ужином.",
+          "audio": null
+        },
+        {
+          "id": "en-3-boss-rd-02",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте рассказ о новой квартире Тома и ответьте на вопрос:",
+          "passage": "Last year Tom moved to a new apartment. His neighbor upstairs is very friendly and is a native speaker of English. On weekends they cook together using Tom's favorite recipe and practice vocabulary.",
+          "questions": [
+            {
+              "question_ru": "Кто живёт этажом выше Тома?",
+              "options": [
+                "дружелюбный сосед, носитель английского языка",
+                "знаменитый режиссёр из журнала",
+                "его двоюродный брат из Канады",
+                "вожатый из летнего лагеря"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "дружелюбный сосед, носитель английского языка",
+                "дружелюбный сосед",
+                "his friendly neighbor"
+              ]
+            }
+          ],
+          "explain_ru": "His neighbor upstairs is very friendly and is a native speaker of English — Его сосед сверху очень дружелюбный и носитель английского языка.",
+          "audio": null
+        },
+        {
+          "id": "en-3-boss-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Финальный вопрос босса Модуля 3: выберите грамматически правильное предложение о прошлом:",
+          "question_text": "Два года назад мы посетили старый замок.",
+          "options": [
+            "Two years ago we visited an old castle.",
+            "Two years ago we visit an old castle.",
+            "Two years ago we are visited an old castle.",
+            "Two years ago we visits an old castle."
+          ],
+          "correct_index": 0,
+          "explain_ru": "С указателем прошлого two years ago используется Past Simple: visited (юниты 3.5 и 3.16).",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

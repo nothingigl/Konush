@@ -83,16 +83,428 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-9-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мои выходные (1/2): расскажите про субботу и привычку спать подольше:",
+          "target_text": "On weekends I usually sleep in. On Saturday I go out with friends.",
+          "translation_ru": "По выходным я обычно сплю подольше. В субботу я выхожу куда-то с друзьями.",
+          "explain_ru": "Usually стоит перед смысловым глаголом: I usually sleep in. С днями недели используется предлог on: on Saturday.",
+          "audio": "en/3-9/sp-01.mp3"
+        },
+        {
+          "id": "en-3-9-sp-02",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Мои выходные (2/2): расскажите про воскресенье и барбекю:",
+          "target_text": "On Sunday I stay home and relax. Sometimes we have a barbecue.",
+          "translation_ru": "В воскресенье я остаюсь дома и отдыхаю. Иногда мы устраиваем барбекю.",
+          "explain_ru": "Stay home — оставаться дома; sometimes — иногда; have a barbecue — устраивать барбекю.",
+          "audio": "en/3-9/sp-02.mp3"
+        },
+        {
+          "id": "en-3-9-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что в свободный день вы любите ленивое утро:",
+          "target_text": "On my free day I like a lazy morning.",
+          "translation_ru": "В мой свободный день я люблю ленивое утро.",
+          "explain_ru": "Free day — свободный день; lazy — ленивый.",
+          "audio": "en/3-9/sp-03.mp3"
+        },
+        {
+          "id": "en-3-9-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что в эти выходные нет ничего особенного:",
+          "target_text": "This weekend? Nothing special. I just stay home.",
+          "translation_ru": "В эти выходные? Ничего особенного. Я просто останусь дома.",
+          "explain_ru": "Nothing special — ничего особенного; stay home — оставаться дома.",
+          "audio": "en/3-9/sp-04.mp3"
+        },
+        {
+          "id": "en-3-9-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Спросите друга, что он обычно делает по выходным:",
+          "target_text": "What do you usually do on the weekend?",
+          "translation_ru": "Что ты обычно делаешь на выходных?",
+          "explain_ru": "On the weekend — на выходных; usually — обычно.",
+          "audio": "en/3-9/sp-05.mp3"
+        },
+        {
+          "id": "en-3-9-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что иногда в субботу вы ходите в кино:",
+          "target_text": "Sometimes on Saturday I go out to the cinema.",
+          "translation_ru": "Иногда в субботу я выхожу в кинотеатр.",
+          "explain_ru": "Sometimes — иногда, Saturday — суббота, go out — выходить куда-то.",
+          "audio": "en/3-9/sp-06.mp3"
+        },
+        {
+          "id": "en-3-9-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Пригласите соседа на барбекю во дворе в воскресенье:",
+          "target_text": "We have a barbecue in the yard on Sunday. Would you like to come?",
+          "translation_ru": "У нас барбекю во дворе в воскресенье. Хочешь прийти?",
+          "explain_ru": "Barbecue — барбекю, on Sunday — в воскресенье.",
+          "audio": "en/3-9/sp-07.mp3"
+        },
+        {
+          "id": "en-3-9-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что сегодня у вас свободный день и вы хотите поспать подольше:",
+          "target_text": "Today is my free day, so I want to sleep in.",
+          "translation_ru": "Сегодня мой свободный день, поэтому я хочу поспать подольше.",
+          "explain_ru": "Free day — свободный день, sleep in — поспать подольше.",
+          "audio": "en/3-9/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-9-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Ленивый день: прослушайте рассказ и ответьте, что делает говорящий:",
+          "transcript": "This weekend I have a lazy day. Nothing special. I sleep in and watch movies.",
+          "options": [
+            "спит подольше и смотрит фильмы",
+            "идёт на работу и пишет отчёт",
+            "едет в аэропорт",
+            "готовит барбекю для гостей"
+          ],
+          "correct_index": 0,
+          "explain_ru": "I sleep in and watch movies — Я сплю подольше и смотрю фильмы.",
+          "audio": "en/3-9/ls-01.mp3"
+        },
+        {
+          "id": "en-3-9-ls-02",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что Анна обычно делает в субботу вечером?",
+          "transcript": "On Saturday evening Anna usually likes to go out with her friends.",
+          "options": [
+            "выходит куда-то с друзьями",
+            "остаётся дома и учится",
+            "ложится спать рано",
+            "убирает квартиру"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Usually likes to go out with her friends — обычно любит выходить куда-то с друзьями.",
+          "audio": "en/3-9/ls-02.mp3"
+        },
+        {
+          "id": "en-3-9-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какие планы у Тома на воскресенье?",
+          "transcript": "Tom says: On Sunday I stay home. Nothing special, I just read and drink tea.",
+          "options": [
+            "остаться дома, почитать и попить чаю",
+            "пойти на футбольный матч",
+            "поехать в горы на поезде",
+            "встретиться с начальником"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Stay home — остаться дома; nothing special — ничего особенного.",
+          "audio": "en/3-9/ls-03.mp3"
+        },
+        {
+          "id": "en-3-9-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Когда семья устраивает барбекю?",
+          "transcript": "When the weather is warm and sunny, we sometimes have a barbecue in the yard.",
+          "options": [
+            "иногда, когда погода тёплая и солнечная",
+            "каждый понедельник утром",
+            "только зимой в снег",
+            "никогда"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Sometimes have a barbecue — иногда устраиваем барбекю.",
+          "audio": "en/3-9/ls-04.mp3"
+        },
+        {
+          "id": "en-3-9-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Кейт рада пятнице?",
+          "transcript": "Kate is happy because Saturday is her free day. She can sleep in until ten.",
+          "options": [
+            "в субботу у неё свободный день и можно поспать подольше",
+            "в субботу у неё экзамен",
+            "в субботу она работает полный день",
+            "в субботу она переезжает"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Free day — свободный день; sleep in — поспать подольше.",
+          "audio": "en/3-9/ls-05.mp3"
+        },
+        {
+          "id": "en-3-9-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Какой выходной любит Макс?",
+          "transcript": "Max works hard all week, so on Sunday he wants a lazy day at home.",
+          "options": [
+            "ленивый день дома",
+            "долгую поездку на автобусе",
+            "шумную вечеринку до полуночи",
+            "тренировку на стадионе"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A lazy day at home — ленивый день дома.",
+          "audio": "en/3-9/ls-06.mp3"
+        },
+        {
+          "id": "en-3-9-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что обычно делает Али на выходных?",
+          "transcript": "On the weekend Ali usually visits his parents and cooks dinner with them.",
+          "options": [
+            "навещает родителей и готовит с ними ужин",
+            "ходит в торговый центр",
+            "работает в офисе",
+            "летит на самолёте"
+          ],
+          "correct_index": 0,
+          "explain_ru": "On the weekend Ali usually visits his parents — На выходных Али обычно навещает родителей.",
+          "audio": "en/3-9/ls-07.mp3"
+        },
+        {
+          "id": "en-3-9-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "On Sunday I stay home.",
+          "accepted": ["On Sunday I stay home."],
+          "explain_ru": "On Sunday — в воскресенье; stay home — оставаться дома.",
+          "audio": "en/3-9/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-9-wr-01",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Частота: выберите подходящее по смыслу слово (usually / never) и впишите его в пропуск:",
+          "source_text": "I ___ sleep in on Sunday.",
+          "accepted": ["usually"],
+          "explain_ru": "Usually — обычно. В воскресенье люди обычно спят подольше: I usually sleep in on Sunday.",
+          "audio": null
+        },
+        {
+          "id": "en-3-9-wr-02",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите вопрос «Что ты делаешь на выходных?»:",
+          "source_text": "Что ты делаешь на выходных?",
+          "bank": ["do", "what", "you", "do", "weekend", "on", "the"],
+          "accepted": ["What do you do on the weekend"],
+          "explain_ru": "Первое do — вспомогательный глагол для вопроса, второе do — смысловой глагол «делать».",
+          "audio": null
+        },
+        {
+          "id": "en-3-9-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в порядке слов с наречием частоты:",
+          "buggy_text": "I go usually out",
+          "accepted": ["I usually go out."],
+          "explain_ru": "Наречие частоты usually ставится перед смысловым глаголом: I usually go out.",
+          "audio": null
+        },
+        {
+          "id": "en-3-9-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините фразы о выходных с переводом:",
+          "pairs": [
+            { "left": "sleep in", "right": "поспать подольше" },
+            { "left": "stay home", "right": "остаться дома" },
+            { "left": "go out", "right": "выйти куда-то" },
+            { "left": "free day", "right": "свободный день" }
+          ],
+          "explain_ru": "Sleep in — поспать подольше, stay home — остаться дома, go out — выйти куда-то, free day — свободный день.",
+          "audio": null
+        },
+        {
+          "id": "en-3-9-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините остальные слова юнита с переводом:",
+          "pairs": [
+            { "left": "lazy", "right": "ленивый" },
+            { "left": "barbecue", "right": "барбекю" },
+            { "left": "sometimes", "right": "иногда" },
+            { "left": "nothing special", "right": "ничего особенного" }
+          ],
+          "explain_ru": "Lazy — ленивый, barbecue — барбекю, sometimes — иногда, nothing special — ничего особенного.",
+          "audio": null
+        },
+        {
+          "id": "en-3-9-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Иногда у нас барбекю»:",
+          "source_text": "Иногда у нас барбекю.",
+          "bank": ["have", "we", "a", "barbecue", "sometimes"],
+          "accepted": [
+            "Sometimes we have a barbecue",
+            "We sometimes have a barbecue"
+          ],
+          "explain_ru": "Sometimes может стоять в начале предложения или перед смысловым глаголом.",
+          "audio": null
+        },
+        {
+          "id": "en-3-9-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку с предлогом перед днём недели:",
+          "buggy_text": "I relax in Saturday.",
+          "accepted": ["I relax on Saturday."],
+          "explain_ru": "С днями недели используется предлог on: on Saturday, on Sunday.",
+          "audio": null
+        },
+        {
+          "id": "en-3-9-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Напишите по-английски слово «выходные»:",
+          "source_text": "выходные",
+          "accepted": ["weekend"],
+          "explain_ru": "Weekend — выходные (суббота и воскресенье).",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-9-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Свободный день Бена: прочитайте текст и ответьте на вопросы:",
+          "passage": "Ben has a free day. He stays home, cooks lunch and relaxes. His friends invite him for a barbecue in the evening.",
+          "questions": [
+            {
+              "question_ru": "Что делает Бен днём?",
+              "options": [
+                "остаётся дома, готовит обед и отдыхает",
+                "идёт в офис на встречу",
+                "едет в магазин за одеждой",
+                "летит к родителям"
+              ],
+              "correct_index": 0,
+              "accepted": [
+                "готовит и отдыхает",
+                "остаётся дома, готовит обед и отдыхает"
+              ]
+            },
+            {
+              "question_ru": "Куда друзья зовут Бена вечером?",
+              "options": ["на барбекю", "в кинотеатр", "на концерт", "в ресторан"],
+              "correct_index": 0,
+              "accepted": ["на барбекю", "барбекю", "barbecue"]
+            }
+          ],
+          "explain_ru": "Stays home, cooks lunch and relaxes — остаётся дома, готовит обед и отдыхает; invite him for a barbecue — приглашают его на барбекю.",
+          "audio": null
+        },
+        {
+          "id": "en-3-9-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «nothing special»:",
+          "question_text": "nothing special",
+          "options": ["ничего особенного", "свободный день", "ленивое утро", "каждые выходные"],
+          "correct_index": 0,
+          "explain_ru": "Nothing special — ничего особенного.",
+          "audio": null
+        },
+        {
+          "id": "en-3-9-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод фразы «sleep in»:",
+          "question_text": "sleep in",
+          "options": ["поспать подольше", "лечь спать рано", "остаться дома", "выйти куда-то"],
+          "correct_index": 0,
+          "explain_ru": "Sleep in — поспать подольше (не вставать по будильнику).",
+          "audio": null
+        },
+        {
+          "id": "en-3-9-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «lazy»:",
+          "question_text": "lazy",
+          "options": ["ленивый", "занятой", "уставший", "счастливый"],
+          "correct_index": 0,
+          "explain_ru": "Lazy — ленивый.",
+          "audio": null
+        },
+        {
+          "id": "en-3-9-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «Saturday»:",
+          "question_text": "Saturday",
+          "options": ["суббота", "воскресенье", "пятница", "понедельник"],
+          "correct_index": 0,
+          "explain_ru": "Saturday — суббота; Sunday — воскресенье.",
+          "audio": null
+        },
+        {
+          "id": "en-3-9-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «usually»:",
+          "question_text": "usually",
+          "options": ["обычно", "иногда", "никогда", "всегда"],
+          "correct_index": 0,
+          "explain_ru": "Usually — обычно; sometimes — иногда.",
+          "audio": null
+        },
+        {
+          "id": "en-3-9-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не день недели и не выходные):",
+          "items": ["Saturday", "Sunday", "weekend", "barbecue"],
+          "odd_index": 3,
+          "explain_ru": "Barbecue («барбекю») — еда / отдых на природе, а Saturday, Sunday и weekend обозначают время.",
+          "audio": null
+        },
+        {
+          "id": "en-3-9-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткий диалог о планах на выходные и ответьте на вопрос:",
+          "passage": "Sara: What do you do on the weekend, Tom? Tom: On Saturday I usually go out to the park. On Sunday I am lazy — I stay home and sleep in.",
+          "questions": [
+            {
+              "question_ru": "Куда Том обычно ходит в субботу?",
+              "options": ["в парк", "в кинотеатр", "в магазин", "в библиотеку"],
+              "correct_index": 0,
+              "accepted": ["в парк", "park", "to the park"]
+            }
+          ],
+          "explain_ru": "On Saturday I usually go out to the park — В субботу я обычно хожу в парк.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"

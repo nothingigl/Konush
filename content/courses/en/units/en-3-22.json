@@ -83,16 +83,432 @@
   ],
   "skills": {
     "speaking": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-22-sp-01",
+          "type": "speak_repeat",
+          "origin": "source",
+          "prompt_ru": "Я фанат: расскажите о любимом актёре и его автографе:",
+          "target_text": "I am a big fan of this actor. He is famous and popular. I have his autograph.",
+          "translation_ru": "Я большой поклонник этого актёра. Он знаменитый и популярный. У меня есть его автограф.",
+          "explain_ru": "Fan — поклонник, famous — знаменитый, popular — популярный, autograph — автограф.",
+          "audio": "en/3-22/sp-01.mp3"
+        },
+        {
+          "id": "en-3-22-sp-02",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что эта молодая певица — звезда с большим талантом:",
+          "target_text": "This young singer is a big star and has great talent.",
+          "translation_ru": "Эта молодая певица — большая звезда, и у неё огромный талант.",
+          "explain_ru": "Star — звезда, talent — талант.",
+          "audio": "en/3-22/sp-02.mp3"
+        },
+        {
+          "id": "en-3-22-sp-03",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что она дала интервью популярному журналу:",
+          "target_text": "She gave an interview to a popular magazine.",
+          "translation_ru": "Она дала интервью популярному журналу.",
+          "explain_ru": "Interview — интервью, magazine — журнал.",
+          "audio": "en/3-22/sp-03.mp3"
+        },
+        {
+          "id": "en-3-22-sp-04",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Расскажите о начале карьеры и награде:",
+          "target_text": "His career started five years ago, and he won an award.",
+          "translation_ru": "Его карьера началась пять лет назад, и он выиграл награду.",
+          "explain_ru": "Career — карьера, award — награда, won — прошедшее время от win.",
+          "audio": "en/3-22/sp-04.mp3"
+        },
+        {
+          "id": "en-3-22-sp-05",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Попросите сделать фото и получить автограф:",
+          "target_text": "Can I take a photo with you and get your autograph?",
+          "translation_ru": "Можно сделать с вами фото и получить ваш автограф?",
+          "explain_ru": "Take a photo — сделать фото, autograph — автограф.",
+          "audio": "en/3-22/sp-05.mp3"
+        },
+        {
+          "id": "en-3-22-sp-06",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что режиссёр богатый и знаменитый:",
+          "target_text": "The director is rich and famous, and many fans love his movies.",
+          "translation_ru": "Режиссёр богатый и знаменитый, и многие поклонники любят его фильмы.",
+          "explain_ru": "Rich — богатый, famous — знаменитый, fans — поклонники.",
+          "audio": "en/3-22/sp-06.mp3"
+        },
+        {
+          "id": "en-3-22-sp-07",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что актриса выиграла большую награду в прошлом году:",
+          "target_text": "The actress won a big award for her comedy last year.",
+          "translation_ru": "Актриса выиграла большую награду за свою комедию в прошлом году.",
+          "explain_ru": "Award — награда, last year — в прошлом году.",
+          "audio": "en/3-22/sp-07.mp3"
+        },
+        {
+          "id": "en-3-22-sp-08",
+          "type": "speak_repeat",
+          "origin": "derived",
+          "prompt_ru": "Скажите, что ваша сестра читает журнал о любимой звезде:",
+          "target_text": "My sister reads a magazine about her favorite star.",
+          "translation_ru": "Моя сестра читает журнал о своей любимой звезде.",
+          "explain_ru": "Magazine — журнал, star — звезда.",
+          "audio": "en/3-22/sp-08.mp3"
+        }
+      ]
     },
     "listening": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-22-ls-01",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Интервью (1/2): прослушайте текст (humble — «скромная») и ответьте, когда началась карьера певицы:",
+          "transcript": "The singer gives an interview. She is rich and famous, but she is humble. Her career started ten years ago.",
+          "options": [
+            "10 лет назад",
+            "2 года назад",
+            "5 лет назад",
+            "в прошлом месяце"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Her career started ten years ago — Её карьера началась десять лет назад.",
+          "audio": "en/3-22/ls-01.mp3"
+        },
+        {
+          "id": "en-3-22-ls-02",
+          "type": "listen_choose",
+          "origin": "source",
+          "prompt_ru": "Интервью (2/2): какая певица, несмотря на богатство и славу?",
+          "transcript": "The singer gives an interview. She is rich and famous, but she is humble. Her career started ten years ago.",
+          "options": [
+            "скромная",
+            "ревнивая",
+            "ленивая",
+            "строгая"
+          ],
+          "correct_index": 0,
+          "explain_ru": "She is humble — Она скромная.",
+          "audio": "en/3-22/ls-02.mp3"
+        },
+        {
+          "id": "en-3-22-ls-03",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что поклонник попросил у звезды после концерта?",
+          "transcript": "After the concert, a fan asked the popular star for a photo and an autograph.",
+          "options": [
+            "фото и автограф",
+            "интервью и журнал",
+            "билет и программу",
+            "книгу и подарок"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A photo and an autograph — фото и автограф.",
+          "audio": "en/3-22/ls-03.mp3"
+        },
+        {
+          "id": "en-3-22-ls-04",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что выиграла молодая актриса вчера вечером?",
+          "transcript": "Last night the young actress won her first big award. Her fans were very happy.",
+          "options": [
+            "свою первую большую награду",
+            "новую машину",
+            "поездку на море",
+            "конкурс песен"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Won her first big award — выиграла свою первую большую награду.",
+          "audio": "en/3-22/ls-04.mp3"
+        },
+        {
+          "id": "en-3-22-ls-05",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Почему Том купил журнал?",
+          "transcript": "Tom bought a magazine because there is a photo and an interview with his favorite actor inside.",
+          "options": [
+            "внутри есть фото и интервью с его любимым актёром",
+            "там есть рецепт вкусного торта",
+            "там есть карта города",
+            "журнал был бесплатным"
+          ],
+          "correct_index": 0,
+          "explain_ru": "A photo and an interview — фото и интервью; magazine — журнал.",
+          "audio": "en/3-22/ls-05.mp3"
+        },
+        {
+          "id": "en-3-22-ls-06",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Что сказано об этом молодом артисте?",
+          "transcript": "He is not rich yet, but he has a lot of talent and a good career ahead.",
+          "options": [
+            "он ещё не богат, но у него много таланта",
+            "он уже очень богат и знаменит",
+            "он закончил свою карьеру",
+            "он не даёт интервью"
+          ],
+          "correct_index": 0,
+          "explain_ru": "Not rich yet — ещё не богат; a lot of talent — много таланта.",
+          "audio": "en/3-22/ls-06.mp3"
+        },
+        {
+          "id": "en-3-22-ls-07",
+          "type": "listen_choose",
+          "origin": "derived",
+          "prompt_ru": "Когда звезда комедии стала знаменитой?",
+          "transcript": "This comedy star became famous after one funny movie two years ago.",
+          "options": [
+            "два года назад после смешного фильма",
+            "десять лет назад после концерта",
+            "вчера после интервью",
+            "в прошлом месяце после спектакля"
+          ],
+          "correct_index": 0,
+          "explain_ru": "After one funny movie two years ago — после одного смешного фильма два года назад.",
+          "audio": "en/3-22/ls-07.mp3"
+        },
+        {
+          "id": "en-3-22-ls-08",
+          "type": "listen_type",
+          "origin": "derived",
+          "prompt_ru": "Прослушайте и напишите фразу по-английски:",
+          "transcript": "She is very famous.",
+          "accepted": ["She is very famous."],
+          "explain_ru": "She is very famous — Она очень знаменита.",
+          "audio": "en/3-22/ls-08.mp3"
+        }
+      ]
     },
     "writing": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-22-wr-01",
+          "type": "build_sentence",
+          "origin": "source",
+          "prompt_ru": "Кубики: соберите предложение «Она очень знаменита»:",
+          "source_text": "Она очень знаменита.",
+          "bank": ["famous", "is", "she", "very"],
+          "accepted": ["She is very famous"],
+          "explain_ru": "Порядок слов: подлежащее (She) + глагол (is) + very famous.",
+          "audio": null
+        },
+        {
+          "id": "en-3-22-wr-02",
+          "type": "type_answer",
+          "origin": "source",
+          "prompt_ru": "Подбери английское слово по определению («подпись звезды»):",
+          "source_text": "a signature of a star",
+          "accepted": ["autograph", "an autograph"],
+          "explain_ru": "Autograph — автограф, подпись знаменитости.",
+          "audio": null
+        },
+        {
+          "id": "en-3-22-wr-03",
+          "type": "fix_bug",
+          "origin": "source",
+          "prompt_ru": "Исправь баг в глаголе have:",
+          "buggy_text": "He have a big talent.",
+          "accepted": ["He has a big talent."],
+          "explain_ru": "С местоимениями he / she / it используется форма has: He has.",
+          "audio": null
+        },
+        {
+          "id": "en-3-22-wr-04",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините слова с переводом:",
+          "pairs": [
+            { "left": "star", "right": "звезда" },
+            { "left": "fan", "right": "поклонник" },
+            { "left": "popular", "right": "популярный" },
+            { "left": "rich", "right": "богатый" }
+          ],
+          "explain_ru": "Star — звезда, fan — поклонник, popular — популярный, rich — богатый.",
+          "audio": null
+        },
+        {
+          "id": "en-3-22-wr-05",
+          "type": "match_pairs",
+          "origin": "derived",
+          "prompt_ru": "Соедините ещё четыре слова с переводом:",
+          "pairs": [
+            { "left": "interview", "right": "интервью" },
+            { "left": "magazine", "right": "журнал" },
+            { "left": "career", "right": "карьера" },
+            { "left": "award", "right": "награда" }
+          ],
+          "explain_ru": "Interview — интервью, magazine — журнал, career — карьера, award — награда.",
+          "audio": null
+        },
+        {
+          "id": "en-3-22-wr-06",
+          "type": "build_sentence",
+          "origin": "derived",
+          "prompt_ru": "Соберите предложение «Звезда выиграла большую награду»:",
+          "source_text": "Звезда выиграла большую награду.",
+          "bank": ["won", "a", "star", "the", "award", "big"],
+          "accepted": ["The star won a big award"],
+          "explain_ru": "Won — прошедшее время от глагола win (выигрывать).",
+          "audio": null
+        },
+        {
+          "id": "en-3-22-wr-07",
+          "type": "fix_bug",
+          "origin": "derived",
+          "prompt_ru": "Исправьте ошибку с окончанием глагола:",
+          "buggy_text": "I wants his photo and autograph.",
+          "accepted": ["I want his photo and autograph."],
+          "explain_ru": "С местоимением I глагол используется без окончания -s: I want.",
+          "audio": null
+        },
+        {
+          "id": "en-3-22-wr-08",
+          "type": "type_answer",
+          "origin": "derived",
+          "prompt_ru": "Переведите слово «журнал» на английский:",
+          "source_text": "журнал",
+          "accepted": ["magazine"],
+          "explain_ru": "Magazine — журнал.",
+          "audio": null
+        }
+      ]
     },
     "reading": {
-      "exercises": []
+      "exercises": [
+        {
+          "id": "en-3-22-rd-01",
+          "type": "read_comprehension",
+          "origin": "source",
+          "prompt_ru": "Журнал: прочитайте текст и ответьте на вопросы:",
+          "passage": "The magazine has an interview with a young star. He has talent and wins awards. Many fans want his photo.",
+          "questions": [
+            {
+              "question_ru": "Что публикует журнал?",
+              "options": [
+                "интервью с молодой звездой",
+                "список новых фильмов",
+                "рецепт от известного повара",
+                "объявление о концерте"
+              ],
+              "correct_index": 0,
+              "accepted": ["интервью с молодой звездой", "публикует интервью", "интервью", "an interview with a young star"]
+            },
+            {
+              "question_ru": "Что хотят многие фанаты?",
+              "options": [
+                "его фото",
+                "его диплом",
+                "его костюм",
+                "его билет"
+              ],
+              "correct_index": 0,
+              "accepted": ["его фото", "фото", "his photo", "photo"]
+            }
+          ],
+          "explain_ru": "Has an interview with a young star — публикует интервью с молодой звездой; want his photo — хотят его фото.",
+          "audio": null
+        },
+        {
+          "id": "en-3-22-rd-02",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «autograph»:",
+          "question_text": "autograph",
+          "options": ["автограф", "интервью", "награда", "журнал"],
+          "correct_index": 0,
+          "explain_ru": "Autograph — автограф.",
+          "audio": null
+        },
+        {
+          "id": "en-3-22-rd-03",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «career»:",
+          "question_text": "career",
+          "options": ["карьера", "талант", "поклонник", "звезда"],
+          "correct_index": 0,
+          "explain_ru": "Career — карьера.",
+          "audio": null
+        },
+        {
+          "id": "en-3-22-rd-04",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «award»:",
+          "question_text": "award",
+          "options": ["награда", "фото", "секрет", "журнал"],
+          "correct_index": 0,
+          "explain_ru": "Award — награда.",
+          "audio": null
+        },
+        {
+          "id": "en-3-22-rd-05",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «rich»:",
+          "question_text": "rich",
+          "options": ["богатый", "знаменитый", "популярный", "честный"],
+          "correct_index": 0,
+          "explain_ru": "Rich — богатый.",
+          "audio": null
+        },
+        {
+          "id": "en-3-22-rd-06",
+          "type": "multiple_choice",
+          "origin": "derived",
+          "prompt_ru": "Выберите перевод слова «talent»:",
+          "question_text": "talent",
+          "options": ["талант", "карьера", "мечта", "результат"],
+          "correct_index": 0,
+          "explain_ru": "Talent — талант.",
+          "audio": null
+        },
+        {
+          "id": "en-3-22-rd-07",
+          "type": "odd_one_out",
+          "origin": "derived",
+          "prompt_ru": "Найдите лишнее слово (не прилагательное):",
+          "items": ["famous", "popular", "rich", "magazine"],
+          "odd_index": 3,
+          "explain_ru": "Magazine — существительное («журнал»), а остальные слова — прилагательные.",
+          "audio": null
+        },
+        {
+          "id": "en-3-22-rd-08",
+          "type": "read_comprehension",
+          "origin": "derived",
+          "prompt_ru": "Прочитайте короткую историю Анны и ответьте на вопрос:",
+          "passage": "Yesterday Anna went to the theater. Outside she met a famous actor. She is his big fan, so she took a photo with him and got his autograph.",
+          "questions": [
+            {
+              "question_ru": "Кого Анна встретила у театра?",
+              "options": [
+                "знаменитого актёра",
+                "популярную певицу",
+                "журналиста",
+                "своего учителя"
+              ],
+              "correct_index": 0,
+              "accepted": ["знаменитого актёра", "a famous actor"]
+            }
+          ],
+          "explain_ru": "She met a famous actor — Она встретила знаменитого актёра.",
+          "audio": null
+        }
+      ]
     }
   },
   "review": "draft"
