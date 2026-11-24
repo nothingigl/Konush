@@ -9,6 +9,11 @@ import type {
   SpeechRatePreference,
   ThemePreference,
 } from '@/lib/db/dexie';
+import {
+  clearOfflineMediaCacheOnly,
+  getOfflineCacheBreakdown,
+  type OfflineCacheBreakdown,
+} from '@/lib/pwa/offline';
 
 export default function SettingsPage() {
   const {
@@ -23,38 +28,35 @@ export default function SettingsPage() {
     signOut,
   } = useAppState();
 
-  const [storageEstimate, setStorageEstimate] = useState<string>('Вычисляется...');
+  const [storageInfo, setStorageInfo] = useState<OfflineCacheBreakdown | null>(null);
   const [confirmDelete, setConfirmDelete] = useState(false);
   const [statusMessage, setStatusMessage] = useState<string | null>(null);
 
+  const refreshStorageInfo = async () => {
+    const breakdown = await getOfflineCacheBreakdown();
+    setStorageInfo(breakdown);
+  };
+
   useEffect(() => {
     let active = true;
-    const loadEstimate = async () => {
-      if (typeof navigator === 'undefined' || !navigator.storage?.estimate) {
-        if (active) setStorageEstimate('Не поддерживается браузером');
-        return;
-      }
-      try {
-        const est = await navigator.storage.estimate();
-        const usedMb = ((est.usage ?? 0) / (1024 * 1024)).toFixed(2);
-        const quotaMb = ((est.quota ?? 0) / (1024 * 1024)).toFixed(0);
-        if (active) setStorageEstimate(`${usedMb} МБ из ${quotaMb} МБ`);
-      } catch {
-        if (active) setStorageEstimate('Недоступно');
-      }
-    };
-    void loadEstimate();
+    void getOfflineCacheBreakdown().then((breakdown) => {
+      if (active) setStorageInfo(breakdown);
+    });
     return () => {
       active = false;
     };
   }, [unitProgressMap]);
 
-  const handleClearOfflineCaches = async () => {
-    if (typeof window !== 'undefined' && 'caches' in window) {
-      const keys = await caches.keys();
-      await Promise.all(keys.map((k) => caches.delete(k)));
-    }
+  const handleClearMediaCacheOnly = async () => {
+    await clearOfflineMediaCacheOnly();
+    await refreshStorageInfo();
+    setStatusMessage('Офлайн-кэш страниц и аудио очищен. Ваш прогресс обучения сохранён.');
+  };
+
+  const handleClearAllOfflineData = async () => {
+    await clearOfflineMediaCacheOnly();
     await clearLocalData();
+    await refreshStorageInfo();
     setStatusMessage('Офлайн-кэш и локальные данные очищены.');
   };
 
@@ -191,8 +193,30 @@ export default function SettingsPage() {
       <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs dark:border-slate-800 dark:bg-slate-900">
         <h2 className="text-lg font-bold">3. Офлайн-данные и память устройства</h2>
         <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
-          Занято в хранилище браузера: <strong>{storageEstimate}</strong>
+          Занято в хранилище браузера:{' '}
+          <strong>
+            {storageInfo === null
+              ? 'Вычисляется…'
+              : storageInfo.quotaMb > 0
+                ? `${storageInfo.usedMb.toFixed(2)} МБ из ${storageInfo.quotaMb.toFixed(0)} МБ`
+                : 'Определяется браузером'}
+          </strong>
         </p>
+        {storageInfo && (
+          <p className="mt-1 text-xs text-slate-500">
+            В офлайн-кэше: страниц — <strong>{storageInfo.contentEntries}</strong>, аудиоклипов —{' '}
+            <strong>{storageInfo.audioEntries}</strong>.
+          </p>
+        )}
+        {storageInfo?.quotaLow && (
+          <div
+            role="alert"
+            className="mt-3 rounded-xl border border-amber-300 bg-amber-50 px-3.5 py-2.5 text-xs font-semibold text-amber-900 dark:border-amber-800 dark:bg-amber-950 dark:text-amber-200"
+          >
+            Свободное место в хранилище браузера почти закончилось. Вы можете очистить офлайн-кэш
+            кнопкой ниже — ваш прогресс при этом сохранится.
+          </div>
+        )}
         <div className="mt-4 flex flex-wrap gap-3">
           <button
             type="button"
@@ -216,10 +240,18 @@ export default function SettingsPage() {
 
           <button
             type="button"
-            onClick={() => void handleClearOfflineCaches()}
+            onClick={() => void handleClearMediaCacheOnly()}
+            className="rounded-xl border border-sky-300 bg-sky-50 px-4 py-2 text-xs font-bold text-sky-900 hover:bg-sky-100 dark:border-sky-800 dark:bg-sky-950 dark:text-sky-200"
+          >
+            Очистить офлайн-кэш (сохранить прогресс)
+          </button>
+
+          <button
+            type="button"
+            onClick={() => void handleClearAllOfflineData()}
             className="rounded-xl border border-amber-300 bg-amber-50 px-4 py-2 text-xs font-bold text-amber-900 hover:bg-amber-100 dark:border-amber-800 dark:bg-amber-950 dark:text-amber-200"
           >
-            Очистить офлайн-данные
+            Очистить все локальные данные
           </button>
         </div>
       </section>

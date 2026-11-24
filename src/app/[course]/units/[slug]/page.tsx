@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { UnitDetailClient } from '@/components/unit-detail-client';
-import { getAllUnitsForCourse, getUnitBySlug } from '@/lib/content/loader';
+import { getAllUnitsForCourse, getCourseData, getUnitBySlug } from '@/lib/content/loader';
 import { CourseIdSchema } from '@/lib/content/schema';
+import { buildUnitJsonLd, getCourseLanguageLabel, SITE_NAME } from '@/lib/seo/site';
 
 export function generateStaticParams() {
   const params: Array<{ course: string; slug: string }> = [];
@@ -27,17 +28,31 @@ export async function generateMetadata({
   const unit = getUnitBySlug(parsed.data, slug);
   if (!unit) return {};
 
-  const langLabel = unit.course === 'tr' ? 'Турецкий язык' : 'Английский язык';
+  const langLabel = getCourseLanguageLabel(unit.course);
   const wordsPreview = unit.words
     .slice(0, 5)
     .map((w) => `${w.text} (${w.ru})`)
     .join(', ');
 
+  const canonical = `/${unit.course}/units/${unit.slug}`;
+  const title = `${unit.title_ru} — ${langLabel}`;
+  const description = unit.boss
+    ? `Босс-вызов секции ${unit.section} (${langLabel}): практика говорения, слушания, письма и чтения в ${SITE_NAME}.`
+    : `Урок «${unit.title_ru}» (${langLabel}): ${unit.words.length} слов (${wordsPreview}) и 4 мини-игры по навыкам бесплатно в ${SITE_NAME}.`;
+
   return {
-    title: `${unit.title_ru} — ${langLabel} | Konuş!`,
-    description: unit.boss
-      ? `Босс-вызов секции ${unit.section} (${langLabel}): практика говорения, слушания, письма и чтения в Konuş!.`
-      : `Урок «${unit.title_ru}» (${langLabel}): ${unit.words.length} слов (${wordsPreview}) и 4 мини-игры по навыкам в Konuş!.`,
+    title,
+    description,
+    alternates: {
+      canonical,
+    },
+    openGraph: {
+      type: 'article',
+      locale: 'ru_RU',
+      url: canonical,
+      title: `${title} | ${SITE_NAME}`,
+      description,
+    },
   };
 }
 
@@ -57,5 +72,17 @@ export default async function UnitPage({
     notFound();
   }
 
-  return <UnitDetailClient unit={unit} />;
+  const course = getCourseData(parsed.data);
+  const sectionCefr = course.sections.find((s) => s.section === unit.section)?.cefr ?? 'A1';
+  const jsonLd = buildUnitJsonLd(unit, sectionCefr);
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <UnitDetailClient unit={unit} />
+    </>
+  );
 }

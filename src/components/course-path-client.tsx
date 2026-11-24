@@ -1,8 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import { useAppState } from './providers/app-provider';
+import { useState } from 'react';
 import type { Course } from '@/lib/content/schema';
+import { downloadSectionForOffline } from '@/lib/pwa/offline';
+import { useAppState } from './providers/app-provider';
 
 export interface CourseUnitSummary {
   id: string;
@@ -23,11 +25,39 @@ export function CoursePathClient({
   units: CourseUnitSummary[];
 }) {
   const { unitProgressMap } = useAppState();
+  const [downloadingSection, setDownloadingSection] = useState<number | null>(null);
+  const [downloadProgress, setDownloadProgress] = useState<Record<number, string>>({});
   const unitById = new Map(units.map((u) => [u.id, u]));
 
   const recommendedUnitId =
     units.find((u) => u.exerciseCount > 0 && !unitProgressMap[u.id]?.completedAt)?.id ??
     units[0]?.id;
+
+  const handleDownloadSection = async (sectionNum: number, sectionUnits: CourseUnitSummary[]) => {
+    if (downloadingSection !== null || sectionUnits.length === 0) return;
+    setDownloadingSection(sectionNum);
+    setDownloadProgress((prev) => ({
+      ...prev,
+      [sectionNum]: `Скачивание 0/${sectionUnits.length}…`,
+    }));
+
+    const result = await downloadSectionForOffline({
+      courseId: course.id,
+      unitSlugs: sectionUnits.map((u) => u.slug),
+      onProgress: (completed, total) => {
+        setDownloadProgress((prev) => ({
+          ...prev,
+          [sectionNum]: `Скачивание ${completed}/${total}…`,
+        }));
+      },
+    });
+
+    setDownloadingSection(null);
+    setDownloadProgress((prev) => ({
+      ...prev,
+      [sectionNum]: result.messageRu,
+    }));
+  };
 
   return (
     <main className="mx-auto flex max-w-5xl flex-col gap-8 px-4 py-8">
@@ -59,10 +89,32 @@ export function CoursePathClient({
                 <h2 className="mt-1 text-xl font-bold">{sec.title_ru}</h2>
                 <p className="text-sm text-slate-600 dark:text-slate-400">{sec.description_ru}</p>
               </div>
-              <div className="text-xs font-semibold text-slate-500">
-                {sectionUnits.length > 0
-                  ? `${sectionUnits.length} юнитов`
-                  : `${sec.planned_topics?.length ?? 0} тем в плане`}
+              <div className="flex flex-col items-end gap-1.5">
+                <div className="text-xs font-semibold text-slate-500">
+                  {sectionUnits.length > 0
+                    ? `${sectionUnits.length} юнитов`
+                    : `${sec.planned_topics?.length ?? 0} тем в плане`}
+                </div>
+                {sectionUnits.length > 0 && (
+                  <button
+                    type="button"
+                    disabled={downloadingSection !== null}
+                    onClick={() => void handleDownloadSection(sec.section, sectionUnits)}
+                    className="rounded-xl border border-slate-300 bg-white px-3 py-1.5 text-xs font-bold text-slate-700 hover:border-sky-500 hover:text-sky-700 disabled:opacity-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
+                  >
+                    {downloadingSection === sec.section
+                      ? (downloadProgress[sec.section] ?? 'Скачивание…')
+                      : '📥 Скачать секцию для офлайна'}
+                  </button>
+                )}
+                {downloadProgress[sec.section] && downloadingSection !== sec.section && (
+                  <div
+                    role="status"
+                    className="text-[11px] font-semibold text-emerald-700 dark:text-emerald-400"
+                  >
+                    {downloadProgress[sec.section]}
+                  </div>
+                )}
               </div>
             </div>
 
@@ -105,9 +157,7 @@ export function CoursePathClient({
                         <h3 className="mt-1.5 font-bold">{u.title_ru}</h3>
                         <p className="mt-1 text-xs text-slate-500">
                           {u.boss ? 'Босс-марафон' : `${u.wordCount} слов`} ·{' '}
-                          {u.exerciseCount > 0
-                            ? `${u.exerciseCount} упр. (Демо готов)`
-                            : 'Каркас слов готов'}
+                          {u.exerciseCount > 0 ? `${u.exerciseCount} упр.` : 'Скоро'}
                         </p>
                       </div>
 
