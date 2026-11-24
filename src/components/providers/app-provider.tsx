@@ -206,13 +206,10 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
             void triggerSync();
           } else if (event === 'SIGNED_OUT') {
             void (async () => {
-              const current = await ensureLocalProfile();
-              await db.localProfile.put({
-                ...current,
-                userId: null,
-                email: null,
-                displayName: 'Гость',
-              });
+              const current = await ensureLocalProfile(db);
+              if (current.userId !== null) {
+                await resetLocalData(db);
+              }
               await reloadFromDexie();
             })();
           }
@@ -365,17 +362,17 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const signOut = useCallback(async () => {
+    const db = getLocalDb();
+    try {
+      await synchronizeWithCloud(db);
+    } catch {
+      // Best-effort flush before signing out
+    }
     const supabase = await getSupabaseBrowserClient();
     if (supabase) {
       await supabase.auth.signOut();
     }
-    const db = getLocalDb();
-    const current = await ensureLocalProfile(db);
-    await db.localProfile.put({
-      ...current,
-      userId: null,
-      email: null,
-    });
+    await resetLocalData(db);
     await reloadFromDexie();
   }, [reloadFromDexie]);
 

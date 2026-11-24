@@ -11,6 +11,14 @@ export function getSiteUrl(): string {
   if (raw && /^https?:\/\//i.test(raw)) {
     return raw.replace(/\/+$/, '');
   }
+  const vercelProd = process.env.VERCEL_PROJECT_PRODUCTION_URL?.trim();
+  if (vercelProd) {
+    return `https://${vercelProd.replace(/^https?:\/\//i, '').replace(/\/+$/, '')}`;
+  }
+  const vercelUrl = process.env.VERCEL_URL?.trim();
+  if (vercelUrl) {
+    return `https://${vercelUrl.replace(/^https?:\/\//i, '').replace(/\/+$/, '')}`;
+  }
   return 'http://localhost:3000';
 }
 

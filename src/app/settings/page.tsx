@@ -31,6 +31,7 @@ export default function SettingsPage() {
   const [storageInfo, setStorageInfo] = useState<OfflineCacheBreakdown | null>(null);
   const [confirmDelete, setConfirmDelete] = useState(false);
   const [statusMessage, setStatusMessage] = useState<string | null>(null);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   const refreshStorageInfo = async () => {
     const breakdown = await getOfflineCacheBreakdown();
@@ -76,6 +77,15 @@ export default function SettingsPage() {
           className="rounded-2xl border border-emerald-300 bg-emerald-50 px-4 py-3 text-xs font-bold text-emerald-900 dark:border-emerald-800 dark:bg-emerald-950 dark:text-emerald-200"
         >
           {statusMessage}
+        </div>
+      )}
+
+      {errorMessage && (
+        <div
+          role="alert"
+          className="rounded-2xl border border-rose-300 bg-rose-50 px-4 py-3 text-xs font-bold text-rose-900 dark:border-rose-800 dark:bg-rose-950 dark:text-rose-200"
+        >
+          {errorMessage}
         </div>
       )}
 
@@ -299,10 +309,20 @@ export default function SettingsPage() {
                   <button
                     type="button"
                     onClick={() => {
-                      void deleteAccount().then(() => {
-                        setConfirmDelete(false);
-                        setStatusMessage('Ваш аккаунт и все данные полностью удалены.');
-                      });
+                      setErrorMessage(null);
+                      void deleteAccount()
+                        .then(() => {
+                          setConfirmDelete(false);
+                          setStatusMessage('Ваш аккаунт и все данные полностью удалены.');
+                        })
+                        .catch((err: unknown) => {
+                          setConfirmDelete(false);
+                          setErrorMessage(
+                            err instanceof Error
+                              ? err.message
+                              : 'Не удалось удалить аккаунт. Проверьте подключение к сети.',
+                          );
+                        });
                     }}
                     className="rounded-xl bg-rose-600 px-4 py-2 text-xs font-bold text-white hover:bg-rose-700"
                   >

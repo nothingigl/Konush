@@ -112,7 +112,7 @@ export async function updateLocalProfilePreferences(
 }
 
 /**
- * Marks a unit's vocabulary list as reviewed ("РџСЂРѕС‡РёС‚Р°Р№С‚Рµ СЃРїРёСЃРѕРє РІСЃР»СѓС… РґРІР° СЂР°Р·Р°") in Dexie.
+ * Marks a unit's vocabulary list as reviewed ("Прочитайте список вслух два раза") in Dexie.
  */
 export async function recordWordsCompleted(
   unitId: string,
@@ -308,9 +308,7 @@ export async function reportExerciseIssue(
 ): Promise<void> {
   const trimmed = params.message.trim();
   if (trimmed.length < 3) {
-    throw new Error(
-      'РЎРѕРѕР±С‰РµРЅРёРµ РґРѕР»Р¶РЅРѕ СЃРѕРґРµСЂР¶Р°С‚СЊ РЅРµ РјРµРЅРµРµ 3 СЃРёРјРІРѕР»РѕРІ',
-    );
+    throw new Error('Сообщение должно содержать не менее 3 символов');
   }
   await enqueueSyncChange(db, 'content_feedback', `${params.exerciseId}-${Date.now()}`, {
     course_id: params.courseId,
@@ -380,11 +378,14 @@ export async function synchronizeWithCloud(
   try {
     // 1. Sync Profile
     const localProfile = await ensureLocalProfile(db);
-    const { data: remoteProfileRow } = await supabase
+    const { data: remoteProfileRow, error: profileSelectError } = await supabase
       .from('profiles')
       .select('*')
       .eq('id', userId)
       .maybeSingle();
+    if (profileSelectError) {
+      throw new Error(`Ошибка чтения профиля: ${profileSelectError.message}`);
+    }
 
     let mergedProfile: LocalProfileRecord;
     if (remoteProfileRow) {
@@ -393,9 +394,7 @@ export async function synchronizeWithCloud(
         userId,
         email: user.email ?? null,
         displayName:
-          (remoteProfileRow.display_name as string | null) ??
-          user.email?.split('@')[0] ??
-          'РЈС‡РµРЅРёРє',
+          (remoteProfileRow.display_name as string | null) ?? user.email?.split('@')[0] ?? 'Ученик',
         avatarKey: (remoteProfileRow.avatar_key as string | null) ?? 'elif',
         uiLang: 'ru',
         preferredCourse: (remoteProfileRow.preferred_course as CourseId | null) ?? 'tr',
@@ -412,15 +411,15 @@ export async function synchronizeWithCloud(
         userId,
         email: user.email ?? null,
         displayName:
-          localProfile.displayName !== 'Р“РѕСЃС‚СЊ'
+          localProfile.displayName !== 'Гость'
             ? localProfile.displayName
-            : (user.email?.split('@')[0] ?? 'РЈС‡РµРЅРёРє'),
+            : (user.email?.split('@')[0] ?? 'Ученик'),
         updatedAt: new Date().toISOString(),
       };
     }
 
     await db.localProfile.put(mergedProfile);
-    await supabase.from('profiles').upsert({
+    const { error: profileUpsertError } = await supabase.from('profiles').upsert({
       id: userId,
       display_name: mergedProfile.displayName,
       avatar_key: mergedProfile.avatarKey,
@@ -429,12 +428,18 @@ export async function synchronizeWithCloud(
       daily_goal_xp: mergedProfile.dailyGoalXp,
       updated_at: mergedProfile.updatedAt,
     });
+    if (profileUpsertError) {
+      throw new Error(`Ошибка сохранения профиля: ${profileUpsertError.message}`);
+    }
 
     // 2. Sync unit_progress (guest progress + multi-device merge)
-    const [localUnits, { data: remoteUnits }] = await Promise.all([
+    const [localUnits, { data: remoteUnits, error: unitsSelectError }] = await Promise.all([
       db.unitProgress.toArray(),
       supabase.from('unit_progress').select('*').eq('user_id', userId),
     ]);
+    if (unitsSelectError) {
+      throw new Error(`Ошибка чтения прогресса юнитов: ${unitsSelectError.message}`);
+    }
 
     const localUnitMap = new Map(localUnits.map((u) => [u.unitId, u]));
     const remoteUnitMap = new Map<string, LocalUnitProgressRecord>();
@@ -480,14 +485,22 @@ export async function synchronizeWithCloud(
     }
 
     if (unitsToUpsertRemote.length > 0) {
-      await supabase.from('unit_progress').upsert(unitsToUpsertRemote);
+      const { error: unitsUpsertError } = await supabase
+        .from('unit_progress')
+        .upsert(unitsToUpsertRemote);
+      if (unitsUpsertError) {
+        throw new Error(`Ошибка сохранения прогресса юнитов: ${unitsUpsertError.message}`);
+      }
     }
 
     // 3. Sync review_state (LWW by updated_at)
-    const [localReviews, { data: remoteReviews }] = await Promise.all([
+    const [localReviews, { data: remoteReviews, error: reviewsSelectError }] = await Promise.all([
       db.reviewState.toArray(),
       supabase.from('review_state').select('*').eq('user_id', userId),
     ]);
+    if (reviewsSelectError) {
+      throw new Error(`Ошибка чтения расписания повторений: ${reviewsSelectError.message}`);
+    }
 
     const localReviewMap = new Map(localReviews.map((r) => [r.unitId, r]));
     const remoteReviewMap = new Map<string, LocalReviewStateRecord>();
@@ -524,14 +537,22 @@ export async function synchronizeWithCloud(
     }
 
     if (reviewsToUpsertRemote.length > 0) {
-      await supabase.from('review_state').upsert(reviewsToUpsertRemote);
+      const { error: reviewsUpsertError } = await supabase
+        .from('review_state')
+        .upsert(reviewsToUpsertRemote);
+      if (reviewsUpsertError) {
+        throw new Error(`Ошибка сохранения повторений: ${reviewsUpsertError.message}`);
+      }
     }
 
     // 4. Sync daily_activity (GREATEST / Math.max for xp, lessons, seconds)
-    const [localDays, { data: remoteDays }] = await Promise.all([
+    const [localDays, { data: remoteDays, error: daysSelectError }] = await Promise.all([
       db.dailyActivity.toArray(),
       supabase.from('daily_activity').select('*').eq('user_id', userId),
     ]);
+    if (daysSelectError) {
+      throw new Error(`Ошибка чтения дневной активности: ${daysSelectError.message}`);
+    }
 
     const localDayMap = new Map(localDays.map((d) => [d.day, d]));
     const remoteDayMap = new Map<string, LocalDailyActivityRecord>();
@@ -568,11 +589,17 @@ export async function synchronizeWithCloud(
     }
 
     if (daysToUpsertRemote.length > 0) {
-      await supabase.from('daily_activity').upsert(daysToUpsertRemote);
+      const { error: daysUpsertError } = await supabase
+        .from('daily_activity')
+        .upsert(daysToUpsertRemote);
+      if (daysUpsertError) {
+        throw new Error(`Ошибка сохранения активности: ${daysUpsertError.message}`);
+      }
     }
 
     // 5. Flush queued content_feedback items and clear syncQueue
     const queuedItems = await db.syncQueue.toArray();
+    let feedbackError: string | null = null;
     for (const item of queuedItems) {
       if (item.table === 'content_feedback') {
         const { error: fbError } = await supabase.from('content_feedback').insert({
@@ -581,6 +608,8 @@ export async function synchronizeWithCloud(
         });
         if (!fbError && item.id !== undefined) {
           await db.syncQueue.delete(item.id);
+        } else if (fbError) {
+          feedbackError = fbError.message;
         }
       } else if (item.id !== undefined) {
         await db.syncQueue.delete(item.id);
@@ -588,6 +617,15 @@ export async function synchronizeWithCloud(
     }
 
     const remainingCount = await db.syncQueue.count();
+    if (feedbackError) {
+      return {
+        state: 'error',
+        lastSyncedAt: new Date().toISOString(),
+        pendingCount: remainingCount,
+        errorMessage: `Ошибка отправки отзыва: ${feedbackError}`,
+      };
+    }
+
     return {
       state: 'synced',
       lastSyncedAt: new Date().toISOString(),

@@ -65,6 +65,9 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
+  // Never intercept or cache auth callbacks or auth endpoints
+  if (url.pathname.startsWith('/auth')) return;
+
   // Audio clips: Cache-first in dedicated audio cache with size control
   if (url.pathname.startsWith('/audio/')) {
     event.respondWith(

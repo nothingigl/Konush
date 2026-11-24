@@ -1,13 +1,14 @@
 'use client';
 
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import React, { useState } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import React, { Suspense, useState } from 'react';
 import { useAppState } from '@/components/providers/app-provider';
 import { getSupabaseBrowserClient } from '@/lib/supabase/client';
 
-export default function AuthPage() {
+function AuthPageContent() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const { profile, supabaseEnabled, triggerSync } = useAppState();
   const [mode, setMode] = useState<'signin' | 'signup'>('signin');
   const [email, setEmail] = useState('');
@@ -17,6 +18,12 @@ export default function AuthPage() {
   const [message, setMessage] = useState<string | null>(null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
+  const callbackError =
+    searchParams.get('error') === 'callback_failed'
+      ? 'Не удалось завершить вход по ссылке. Попробуйте войти снова или запросить новое письмо.'
+      : null;
+  const displayedError = errorMsg ?? callbackError;
+
   const handleEmailAuth = async (e: React.FormEvent) => {
     e.preventDefault();
     setErrorMsg(null);
@@ -25,7 +32,7 @@ export default function AuthPage() {
     const supabase = await getSupabaseBrowserClient();
     if (!supabase) {
       setErrorMsg(
-        'Облачная синхронизация Supabase ещё не подключена в .env.local. Вы можете заниматься в гостевом режиме.',
+        'Облачная синхронизация Supabase ещё не подключена в переменных окружения. Вы можете заниматься в гостевом режиме.',
       );
       return;
     }
@@ -190,12 +197,12 @@ export default function AuthPage() {
             />
           </div>
 
-          {errorMsg && (
+          {displayedError && (
             <p
               role="alert"
               className="rounded-xl bg-rose-50 p-3 text-xs font-medium text-rose-800 dark:bg-rose-950 dark:text-rose-200"
             >
-              {errorMsg}
+              {displayedError}
             </p>
           )}
 
@@ -245,5 +252,19 @@ export default function AuthPage() {
         </div>
       </div>
     </main>
+  );
+}
+
+export default function AuthPage() {
+  return (
+    <Suspense
+      fallback={
+        <main className="mx-auto max-w-md px-4 py-10 text-sm text-slate-500">
+          Загрузка формы входа…
+        </main>
+      }
+    >
+      <AuthPageContent />
+    </Suspense>
   );
 }
