@@ -19,6 +19,8 @@
     "content:check": "tsx scripts/content-check.ts",
     "content:export-review": "tsx scripts/content-export-review.ts",
     "tts:sample-voices": "tsx scripts/tts/sample-voices.ts",
+    "tts:generate": "tsx scripts/tts/generate.ts",
+    "tts:budget": "tsx scripts/tts/budget.ts",
     "secrets:check": "tsx scripts/secret-scan.ts",
     "prepare": "tsx scripts/install-hooks.ts"
   },
