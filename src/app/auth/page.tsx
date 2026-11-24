@@ -22,7 +22,7 @@ export default function AuthPage() {
     setErrorMsg(null);
     setMessage(null);
 
-    const supabase = getSupabaseBrowserClient();
+    const supabase = await getSupabaseBrowserClient();
     if (!supabase) {
       setErrorMsg(
         'Облачная синхронизация Supabase ещё не подключена в .env.local. Вы можете заниматься в гостевом режиме.',
@@ -72,7 +72,7 @@ export default function AuthPage() {
 
   const handleGoogleLogin = async () => {
     setErrorMsg(null);
-    const supabase = getSupabaseBrowserClient();
+    const supabase = await getSupabaseBrowserClient();
     if (!supabase) {
       setErrorMsg('Supabase не настроен в переменных окружения.');
       return;
