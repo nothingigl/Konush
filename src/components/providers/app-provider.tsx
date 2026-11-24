@@ -15,7 +15,6 @@ import {
   type SpeechRatePreference,
   type ThemePreference,
 } from '@/lib/db/dexie';
-import { getSupabaseBrowserClient, isSupabaseConfigured } from '@/lib/supabase/client';
 import {
   deleteAccountAndLocalData,
   ensureLocalProfile,
@@ -32,7 +31,7 @@ import { computeStreakDays, toLocalDayString } from '@/lib/sync/merge';
 export interface AppContextValue {
   ready: boolean;
   isOnline: boolean;
-  supabaseEnabled: boolean;
+  cloudSyncEnabled: boolean;
   profile: LocalProfileRecord;
   unitProgressMap: Record<string, LocalUnitProgressRecord>;
   reviewStateMap: Record<string, LocalReviewStateRecord>;
@@ -97,7 +96,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     errorMessage: null,
   });
 
-  const supabaseEnabled = isSupabaseConfigured();
+  const cloudSyncEnabled = false;
 
   // Apply theme (light/dark/system) and font-scale to document.documentElement
   useEffect(() => {
@@ -161,7 +160,6 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
-    const db = getLocalDb();
     const init = async () => {
       setIsOnline(navigator.onLine);
       await reloadFromDexie();
@@ -195,39 +193,11 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       }
     }, 60_000);
 
-    let unsubscribeAuth: (() => void) | null = null;
-    let disposed = false;
-
-    if (isSupabaseConfigured()) {
-      void getSupabaseBrowserClient().then((supabase) => {
-        if (!supabase || disposed) return;
-        const authSub = supabase.auth.onAuthStateChange((event) => {
-          if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED' || event === 'USER_UPDATED') {
-            void triggerSync();
-          } else if (event === 'SIGNED_OUT') {
-            void (async () => {
-              const current = await ensureLocalProfile();
-              await db.localProfile.put({
-                ...current,
-                userId: null,
-                email: null,
-                displayName: 'Гость',
-              });
-              await reloadFromDexie();
-            })();
-          }
-        });
-        unsubscribeAuth = () => authSub.data.subscription.unsubscribe();
-      });
-    }
-
     return () => {
-      disposed = true;
       window.removeEventListener('online', handleOnline);
       window.removeEventListener('offline', handleOffline);
       document.removeEventListener('visibilitychange', handleVisibility);
       window.clearInterval(intervalId);
-      unsubscribeAuth?.();
     };
   }, [reloadFromDexie, triggerSync]);
 
@@ -365,10 +335,6 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const signOut = useCallback(async () => {
-    const supabase = await getSupabaseBrowserClient();
-    if (supabase) {
-      await supabase.auth.signOut();
-    }
     const db = getLocalDb();
     const current = await ensureLocalProfile(db);
     await db.localProfile.put({
@@ -398,7 +364,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       value={{
         ready,
         isOnline,
-        supabaseEnabled,
+        cloudSyncEnabled,
         profile,
         unitProgressMap,
         reviewStateMap,

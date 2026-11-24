@@ -1,19 +1,16 @@
 'use client';
 
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 import React, { useState } from 'react';
 import { useAppState } from '@/components/providers/app-provider';
-import { getSupabaseBrowserClient } from '@/lib/supabase/client';
 
 export default function AuthPage() {
-  const router = useRouter();
-  const { profile, supabaseEnabled, triggerSync } = useAppState();
+  const { profile, cloudSyncEnabled } = useAppState();
   const [mode, setMode] = useState<'signin' | 'signup'>('signin');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [displayName, setDisplayName] = useState('');
-  const [loading, setLoading] = useState(false);
+  const [loading] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
@@ -22,70 +19,18 @@ export default function AuthPage() {
     setErrorMsg(null);
     setMessage(null);
 
-    const supabase = await getSupabaseBrowserClient();
-    if (!supabase) {
-      setErrorMsg(
-        'Облачная синхронизация Supabase ещё не подключена в .env.local. Вы можете заниматься в гостевом режиме.',
+    if (!cloudSyncEnabled) {
+      setMessage(
+        'Облачная база данных пока не подключена — сейчас прогресс сохраняется локально в вашем браузере (IndexedDB).',
       );
-      return;
-    }
-
-    setLoading(true);
-    try {
-      if (mode === 'signup') {
-        const { data, error } = await supabase.auth.signUp({
-          email: email.trim(),
-          password,
-          options: {
-            data: {
-              full_name: displayName.trim() || email.split('@')[0],
-            },
-            emailRedirectTo: `${window.location.origin}/auth/callback`,
-          },
-        });
-        if (error) throw error;
-
-        if (data.session) {
-          await triggerSync();
-          router.push('/');
-        } else {
-          setMessage(
-            'Проверьте вашу почту для подтверждения аккаунта. После входа ваш локальный прогресс автоматически перенесётся в профиль.',
-          );
-        }
-      } else {
-        const { error } = await supabase.auth.signInWithPassword({
-          email: email.trim(),
-          password,
-        });
-        if (error) throw error;
-
-        await triggerSync();
-        router.push('/');
-      }
-    } catch (err) {
-      setErrorMsg((err as Error).message);
-    } finally {
-      setLoading(false);
     }
   };
 
   const handleGoogleLogin = async () => {
     setErrorMsg(null);
-    const supabase = await getSupabaseBrowserClient();
-    if (!supabase) {
-      setErrorMsg('Supabase не настроен в переменных окружения.');
-      return;
-    }
-    const { error } = await supabase.auth.signInWithOAuth({
-      provider: 'google',
-      options: {
-        redirectTo: `${window.location.origin}/auth/callback`,
-      },
-    });
-    if (error) {
-      setErrorMsg(error.message);
-    }
+    setMessage(
+      'Вход через Google заработает после подключения облачной базы данных. Сейчас вы можете заниматься в гостевом режиме.',
+    );
   };
 
   return (
@@ -99,12 +44,11 @@ export default function AuthPage() {
           объединится с вашим облачным аккаунтом.
         </p>
 
-        {!supabaseEnabled && (
+        {!cloudSyncEnabled && (
           <div className="mt-4 rounded-xl border border-amber-300 bg-amber-50 p-3 text-xs text-amber-900 dark:border-amber-800 dark:bg-amber-950/60 dark:text-amber-200">
-            <strong>Локальный/гостевой режим:</strong> Переменные{' '}
-            <code>NEXT_PUBLIC_SUPABASE_URL</code> и <code>NEXT_PUBLIC_SUPABASE_ANON_KEY</code> ещё
-            не заданы. Все уроки и сохранение прогресса в браузере (IndexedDB) работают полностью, а
-            после добавления ключей Supabase включится синхронизация между устройствами.
+            <strong>Локальный режим:</strong> Облачная база данных ещё не подключена. Все уроки и
+            сохранение прогресса в браузере (IndexedDB) работают полностью, а после подключения БД
+            здесь включится синхронизация между устройствами.
           </div>
         )}
 

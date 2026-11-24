@@ -1,8 +1,7 @@
-﻿import type { CourseId } from '../content/schema';
+import type { CourseId } from '../content/schema';
 import {
   getDefaultLocalProfile,
   getLocalDb,
-  type DailyGoalXp,
   type LocalDailyActivityRecord,
   type LocalProfileRecord,
   type LocalReviewStateRecord,
@@ -11,15 +10,7 @@ import {
   type SyncTableName,
   type TurkceDuoDatabase,
 } from '../db/dexie';
-import { getSupabaseBrowserClient } from '../supabase/client';
-import {
-  computeNextReviewSchedule,
-  mergeDailyActivity,
-  mergeProfile,
-  mergeReviewState,
-  mergeUnitProgress,
-  toLocalDayString,
-} from './merge';
+import { computeNextReviewSchedule, toLocalDayString } from './merge';
 
 /**
  * Enqueues or updates a pending change in `syncQueue` (deduplicating by table + recordKey
@@ -328,13 +319,9 @@ export interface SyncStatusReport {
 }
 
 /**
- * Performs a full bidirectional synchronization between local Dexie and Supabase:
- * 1. Checks if browser is online and user is authenticated in Supabase;
- * 2. Pulls remote rows (`profiles`, `unit_progress`, `review_state`, `daily_activity`);
- * 3. Merges local (including any guest progress created prior to login) and remote rows
- *    using the deterministic conflict resolution rules (`merge.ts`);
- * 4. Writes merged state back to Dexie and upserts changed/local-only rows to Supabase;
- * 5. Flushes any queued `content_feedback` items and clears processed `syncQueue` items.
+ * Placeholder cloud synchronization hook.
+ * Currently operates in local-only (IndexedDB / Dexie) mode until a cloud database
+ * backend is connected. Conflict-resolution helpers remain in `merge.ts`.
  */
 export async function synchronizeWithCloud(
   db: TurkceDuoDatabase = getLocalDb(),
@@ -350,280 +337,21 @@ export async function synchronizeWithCloud(
     };
   }
 
-  const supabase = await getSupabaseBrowserClient();
-  if (!supabase) {
-    return {
-      state: 'guest',
-      lastSyncedAt: null,
-      pendingCount,
-      errorMessage: null,
-    };
-  }
-
-  const {
-    data: { session },
-    error: sessionError,
-  } = await supabase.auth.getSession();
-
-  if (sessionError || !session?.user) {
-    return {
-      state: 'guest',
-      lastSyncedAt: null,
-      pendingCount,
-      errorMessage: null,
-    };
-  }
-
-  const user = session.user;
-  const userId = user.id;
-
-  try {
-    // 1. Sync Profile
-    const localProfile = await ensureLocalProfile(db);
-    const { data: remoteProfileRow } = await supabase
-      .from('profiles')
-      .select('*')
-      .eq('id', userId)
-      .maybeSingle();
-
-    let mergedProfile: LocalProfileRecord;
-    if (remoteProfileRow) {
-      const remoteMapped: LocalProfileRecord = {
-        id: 'current',
-        userId,
-        email: user.email ?? null,
-        displayName:
-          (remoteProfileRow.display_name as string | null) ??
-          user.email?.split('@')[0] ??
-          'РЈС‡РµРЅРёРє',
-        avatarKey: (remoteProfileRow.avatar_key as string | null) ?? 'elif',
-        uiLang: 'ru',
-        preferredCourse: (remoteProfileRow.preferred_course as CourseId | null) ?? 'tr',
-        dailyGoalXp: (remoteProfileRow.daily_goal_xp as DailyGoalXp | null) ?? 20,
-        updatedAt: (remoteProfileRow.updated_at as string | null) ?? new Date(0).toISOString(),
-      };
-      mergedProfile = mergeProfile(
-        { ...localProfile, userId, email: user.email ?? null },
-        remoteMapped,
-      );
-    } else {
-      mergedProfile = {
-        ...localProfile,
-        userId,
-        email: user.email ?? null,
-        displayName:
-          localProfile.displayName !== 'Р“РѕСЃС‚СЊ'
-            ? localProfile.displayName
-            : (user.email?.split('@')[0] ?? 'РЈС‡РµРЅРёРє'),
-        updatedAt: new Date().toISOString(),
-      };
-    }
-
-    await db.localProfile.put(mergedProfile);
-    await supabase.from('profiles').upsert({
-      id: userId,
-      display_name: mergedProfile.displayName,
-      avatar_key: mergedProfile.avatarKey,
-      ui_lang: mergedProfile.uiLang,
-      preferred_course: mergedProfile.preferredCourse,
-      daily_goal_xp: mergedProfile.dailyGoalXp,
-      updated_at: mergedProfile.updatedAt,
-    });
-
-    // 2. Sync unit_progress (guest progress + multi-device merge)
-    const [localUnits, { data: remoteUnits }] = await Promise.all([
-      db.unitProgress.toArray(),
-      supabase.from('unit_progress').select('*').eq('user_id', userId),
-    ]);
-
-    const localUnitMap = new Map(localUnits.map((u) => [u.unitId, u]));
-    const remoteUnitMap = new Map<string, LocalUnitProgressRecord>();
-    for (const row of remoteUnits ?? []) {
-      const rec: LocalUnitProgressRecord = {
-        unitId: row.unit_id as string,
-        courseId: row.course_id as CourseId,
-        wordsDone: Boolean(row.words_done),
-        speakingBest: (row.speaking_best as number | null) ?? null,
-        listeningBest: (row.listening_best as number | null) ?? null,
-        writingBest: (row.writing_best as number | null) ?? null,
-        readingBest: (row.reading_best as number | null) ?? null,
-        completedAt: (row.completed_at as string | null) ?? null,
-        updatedAt: (row.updated_at as string) ?? new Date().toISOString(),
-      };
-      remoteUnitMap.set(rec.unitId, rec);
-    }
-
-    const allUnitIds = new Set([...localUnitMap.keys(), ...remoteUnitMap.keys()]);
-    const unitsToUpsertRemote: Array<Record<string, unknown>> = [];
-
-    for (const unitId of allUnitIds) {
-      const loc = localUnitMap.get(unitId);
-      const rem = remoteUnitMap.get(unitId);
-      const merged = loc && rem ? mergeUnitProgress(loc, rem) : (loc ?? rem)!;
-      await db.unitProgress.put(merged);
-
-      // Push to Supabase if local had changes or didn't exist remotely
-      if (!rem || JSON.stringify(merged) !== JSON.stringify(rem)) {
-        unitsToUpsertRemote.push({
-          user_id: userId,
-          unit_id: merged.unitId,
-          course_id: merged.courseId,
-          words_done: merged.wordsDone,
-          speaking_best: merged.speakingBest,
-          listening_best: merged.listeningBest,
-          writing_best: merged.writingBest,
-          reading_best: merged.readingBest,
-          completed_at: merged.completedAt,
-          updated_at: merged.updatedAt,
-        });
-      }
-    }
-
-    if (unitsToUpsertRemote.length > 0) {
-      await supabase.from('unit_progress').upsert(unitsToUpsertRemote);
-    }
-
-    // 3. Sync review_state (LWW by updated_at)
-    const [localReviews, { data: remoteReviews }] = await Promise.all([
-      db.reviewState.toArray(),
-      supabase.from('review_state').select('*').eq('user_id', userId),
-    ]);
-
-    const localReviewMap = new Map(localReviews.map((r) => [r.unitId, r]));
-    const remoteReviewMap = new Map<string, LocalReviewStateRecord>();
-    for (const row of remoteReviews ?? []) {
-      const rec: LocalReviewStateRecord = {
-        unitId: row.unit_id as string,
-        courseId: row.course_id as CourseId,
-        step: Number(row.step),
-        dueAt: row.due_at as string,
-        updatedAt: row.updated_at as string,
-      };
-      remoteReviewMap.set(rec.unitId, rec);
-    }
-
-    const allReviewIds = new Set([...localReviewMap.keys(), ...remoteReviewMap.keys()]);
-    const reviewsToUpsertRemote: Array<Record<string, unknown>> = [];
-
-    for (const unitId of allReviewIds) {
-      const loc = localReviewMap.get(unitId);
-      const rem = remoteReviewMap.get(unitId);
-      const merged = loc && rem ? mergeReviewState(loc, rem) : (loc ?? rem)!;
-      await db.reviewState.put(merged);
-
-      if (!rem || JSON.stringify(merged) !== JSON.stringify(rem)) {
-        reviewsToUpsertRemote.push({
-          user_id: userId,
-          unit_id: merged.unitId,
-          course_id: merged.courseId,
-          step: merged.step,
-          due_at: merged.dueAt,
-          updated_at: merged.updatedAt,
-        });
-      }
-    }
-
-    if (reviewsToUpsertRemote.length > 0) {
-      await supabase.from('review_state').upsert(reviewsToUpsertRemote);
-    }
-
-    // 4. Sync daily_activity (GREATEST / Math.max for xp, lessons, seconds)
-    const [localDays, { data: remoteDays }] = await Promise.all([
-      db.dailyActivity.toArray(),
-      supabase.from('daily_activity').select('*').eq('user_id', userId),
-    ]);
-
-    const localDayMap = new Map(localDays.map((d) => [d.day, d]));
-    const remoteDayMap = new Map<string, LocalDailyActivityRecord>();
-    for (const row of remoteDays ?? []) {
-      const rec: LocalDailyActivityRecord = {
-        day: row.day as string,
-        xp: Number(row.xp),
-        lessons: Number(row.lessons),
-        seconds: Number(row.seconds),
-        updatedAt: row.updated_at as string,
-      };
-      remoteDayMap.set(rec.day, rec);
-    }
-
-    const allDays = new Set([...localDayMap.keys(), ...remoteDayMap.keys()]);
-    const daysToUpsertRemote: Array<Record<string, unknown>> = [];
-
-    for (const day of allDays) {
-      const loc = localDayMap.get(day);
-      const rem = remoteDayMap.get(day);
-      const merged = loc && rem ? mergeDailyActivity(loc, rem) : (loc ?? rem)!;
-      await db.dailyActivity.put(merged);
-
-      if (!rem || JSON.stringify(merged) !== JSON.stringify(rem)) {
-        daysToUpsertRemote.push({
-          user_id: userId,
-          day: merged.day,
-          xp: merged.xp,
-          lessons: merged.lessons,
-          seconds: merged.seconds,
-          updated_at: merged.updatedAt,
-        });
-      }
-    }
-
-    if (daysToUpsertRemote.length > 0) {
-      await supabase.from('daily_activity').upsert(daysToUpsertRemote);
-    }
-
-    // 5. Flush queued content_feedback items and clear syncQueue
-    const queuedItems = await db.syncQueue.toArray();
-    for (const item of queuedItems) {
-      if (item.table === 'content_feedback') {
-        const { error: fbError } = await supabase.from('content_feedback').insert({
-          user_id: userId,
-          ...item.payload,
-        });
-        if (!fbError && item.id !== undefined) {
-          await db.syncQueue.delete(item.id);
-        }
-      } else if (item.id !== undefined) {
-        await db.syncQueue.delete(item.id);
-      }
-    }
-
-    const remainingCount = await db.syncQueue.count();
-    return {
-      state: 'synced',
-      lastSyncedAt: new Date().toISOString(),
-      pendingCount: remainingCount,
-      errorMessage: null,
-    };
-  } catch (err) {
-    return {
-      state: 'error',
-      lastSyncedAt: null,
-      pendingCount: await db.syncQueue.count(),
-      errorMessage: (err as Error).message,
-    };
-  }
+  return {
+    state: 'guest',
+    lastSyncedAt: null,
+    pendingCount,
+    errorMessage: null,
+  };
 }
 
 /**
- * Deletes the authenticated user's account in Supabase via `delete_my_account()` RPC
- * and clears all local IndexedDB records.
+ * Clears all local IndexedDB records. When a cloud database is connected later,
+ * remote account deletion will be triggered here prior to local reset.
  */
 export async function deleteAccountAndLocalData(
   db: TurkceDuoDatabase = getLocalDb(),
 ): Promise<void> {
-  const supabase = await getSupabaseBrowserClient();
-  if (supabase) {
-    const {
-      data: { session },
-    } = await supabase.auth.getSession();
-    if (session?.user) {
-      const { error } = await supabase.rpc('delete_my_account');
-      if (error) {
-        throw new Error(`Ошибка удаления аккаунта в облаке: ${error.message}`);
-      }
-      await supabase.auth.signOut();
-    }
-  }
   await resetLocalData(db);
 }
 

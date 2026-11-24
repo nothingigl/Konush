@@ -1,5 +1,3 @@
-import fs from 'node:fs';
-import path from 'node:path';
 import { describe, expect, it } from 'vitest';
 import robots from '../../../app/robots';
 import sitemap from '../../../app/sitemap';
@@ -7,7 +5,7 @@ import { getAllUnitsForCourse, getCourseData, getUnitById } from '../../content/
 import { collectUnitOfflineUrls } from '../../pwa/offline';
 import { buildCourseJsonLd, buildUnitJsonLd, SITE_NAME } from '../site';
 
-describe('Stage 6 MVP SEO, JSON-LD, keepalive, and offline helpers', () => {
+describe('Stage 6 MVP SEO, JSON-LD, and offline helpers', () => {
   it('generates sitemap with all 133 public unit URLs and zero private routes', () => {
     const entries = sitemap();
     const urls = entries.map((e) => e.url);
@@ -66,14 +64,5 @@ describe('Stage 6 MVP SEO, JSON-LD, keepalive, and offline helpers', () => {
     ]);
     expect(audioUrls.length).toBeGreaterThanOrEqual(20);
     expect(audioUrls.every((u) => u.startsWith('/audio/tr/1-1/'))).toBe(true);
-  });
-
-  it('defines scheduled Supabase keepalive workflow using only anon key and healthcheck table', () => {
-    const workflowPath = path.join(process.cwd(), '.github', 'workflows', 'keepalive.yml');
-    const yaml = fs.readFileSync(workflowPath, 'utf8');
-    expect(yaml).toContain('schedule:');
-    expect(yaml).toContain('rest/v1/healthcheck');
-    expect(yaml).toContain('SUPABASE_ANON_KEY');
-    expect(yaml).not.toContain('SERVICE_ROLE');
   });
 });
