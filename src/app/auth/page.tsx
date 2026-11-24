@@ -25,7 +25,7 @@ export default function AuthPage() {
     const supabase = await getSupabaseBrowserClient();
     if (!supabase) {
       setErrorMsg(
-        'Облачная синхронизация Supabase ещё не подключена в .env.local. Вы можете заниматься в гостевом режиме.',
+        'Облачная синхронизация Supabase ещё не подключена в переменных окружения (.env.local / Vercel). Вы можете заниматься в гостевом режиме.',
       );
       return;
     }
@@ -102,9 +102,10 @@ export default function AuthPage() {
         {!supabaseEnabled && (
           <div className="mt-4 rounded-xl border border-amber-300 bg-amber-50 p-3 text-xs text-amber-900 dark:border-amber-800 dark:bg-amber-950/60 dark:text-amber-200">
             <strong>Локальный/гостевой режим:</strong> Переменные{' '}
-            <code>NEXT_PUBLIC_SUPABASE_URL</code> и <code>NEXT_PUBLIC_SUPABASE_ANON_KEY</code> ещё
-            не заданы. Все уроки и сохранение прогресса в браузере (IndexedDB) работают полностью, а
-            после добавления ключей Supabase включится синхронизация между устройствами.
+            <code>NEXT_PUBLIC_SUPABASE_URL</code> и <code>NEXT_PUBLIC_SUPABASE_ANON_KEY</code> (или{' '}
+            <code>NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY</code>) ещё не заданы. Все уроки и сохранение
+            прогресса в браузере (IndexedDB) работают полностью, а после добавления ключей Supabase
+            и повторного деплоя включится синхронизация между устройствами.
           </div>
         )}
 

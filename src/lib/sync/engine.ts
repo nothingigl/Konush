@@ -1,4 +1,4 @@
-﻿import type { CourseId } from '../content/schema';
+import type { CourseId } from '../content/schema';
 import {
   getDefaultLocalProfile,
   getLocalDb,
@@ -380,11 +380,14 @@ export async function synchronizeWithCloud(
   try {
     // 1. Sync Profile
     const localProfile = await ensureLocalProfile(db);
-    const { data: remoteProfileRow } = await supabase
+    const { data: remoteProfileRow, error: profileSelectError } = await supabase
       .from('profiles')
       .select('*')
       .eq('id', userId)
       .maybeSingle();
+    if (profileSelectError) {
+      throw new Error(`profiles select failed: ${profileSelectError.message}`);
+    }
 
     let mergedProfile: LocalProfileRecord;
     if (remoteProfileRow) {
@@ -420,7 +423,7 @@ export async function synchronizeWithCloud(
     }
 
     await db.localProfile.put(mergedProfile);
-    await supabase.from('profiles').upsert({
+    const { error: profileUpsertError } = await supabase.from('profiles').upsert({
       id: userId,
       display_name: mergedProfile.displayName,
       avatar_key: mergedProfile.avatarKey,
@@ -429,12 +432,18 @@ export async function synchronizeWithCloud(
       daily_goal_xp: mergedProfile.dailyGoalXp,
       updated_at: mergedProfile.updatedAt,
     });
+    if (profileUpsertError) {
+      throw new Error(`profiles upsert failed: ${profileUpsertError.message}`);
+    }
 
     // 2. Sync unit_progress (guest progress + multi-device merge)
-    const [localUnits, { data: remoteUnits }] = await Promise.all([
+    const [localUnits, { data: remoteUnits, error: unitsSelectError }] = await Promise.all([
       db.unitProgress.toArray(),
       supabase.from('unit_progress').select('*').eq('user_id', userId),
     ]);
+    if (unitsSelectError) {
+      throw new Error(`unit_progress select failed: ${unitsSelectError.message}`);
+    }
 
     const localUnitMap = new Map(localUnits.map((u) => [u.unitId, u]));
     const remoteUnitMap = new Map<string, LocalUnitProgressRecord>();
@@ -480,14 +489,22 @@ export async function synchronizeWithCloud(
     }
 
     if (unitsToUpsertRemote.length > 0) {
-      await supabase.from('unit_progress').upsert(unitsToUpsertRemote);
+      const { error: unitsUpsertError } = await supabase
+        .from('unit_progress')
+        .upsert(unitsToUpsertRemote);
+      if (unitsUpsertError) {
+        throw new Error(`unit_progress upsert failed: ${unitsUpsertError.message}`);
+      }
     }
 
     // 3. Sync review_state (LWW by updated_at)
-    const [localReviews, { data: remoteReviews }] = await Promise.all([
+    const [localReviews, { data: remoteReviews, error: reviewsSelectError }] = await Promise.all([
       db.reviewState.toArray(),
       supabase.from('review_state').select('*').eq('user_id', userId),
     ]);
+    if (reviewsSelectError) {
+      throw new Error(`review_state select failed: ${reviewsSelectError.message}`);
+    }
 
     const localReviewMap = new Map(localReviews.map((r) => [r.unitId, r]));
     const remoteReviewMap = new Map<string, LocalReviewStateRecord>();
@@ -524,14 +541,22 @@ export async function synchronizeWithCloud(
     }
 
     if (reviewsToUpsertRemote.length > 0) {
-      await supabase.from('review_state').upsert(reviewsToUpsertRemote);
+      const { error: reviewsUpsertError } = await supabase
+        .from('review_state')
+        .upsert(reviewsToUpsertRemote);
+      if (reviewsUpsertError) {
+        throw new Error(`review_state upsert failed: ${reviewsUpsertError.message}`);
+      }
     }
 
     // 4. Sync daily_activity (GREATEST / Math.max for xp, lessons, seconds)
-    const [localDays, { data: remoteDays }] = await Promise.all([
+    const [localDays, { data: remoteDays, error: daysSelectError }] = await Promise.all([
       db.dailyActivity.toArray(),
       supabase.from('daily_activity').select('*').eq('user_id', userId),
     ]);
+    if (daysSelectError) {
+      throw new Error(`daily_activity select failed: ${daysSelectError.message}`);
+    }
 
     const localDayMap = new Map(localDays.map((d) => [d.day, d]));
     const remoteDayMap = new Map<string, LocalDailyActivityRecord>();
@@ -568,7 +593,12 @@ export async function synchronizeWithCloud(
     }
 
     if (daysToUpsertRemote.length > 0) {
-      await supabase.from('daily_activity').upsert(daysToUpsertRemote);
+      const { error: daysUpsertError } = await supabase
+        .from('daily_activity')
+        .upsert(daysToUpsertRemote);
+      if (daysUpsertError) {
+        throw new Error(`daily_activity upsert failed: ${daysUpsertError.message}`);
+      }
     }
 
     // 5. Flush queued content_feedback items and clear syncQueue
