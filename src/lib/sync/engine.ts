@@ -350,7 +350,7 @@ export async function synchronizeWithCloud(
     };
   }
 
-  const supabase = getSupabaseBrowserClient();
+  const supabase = await getSupabaseBrowserClient();
   if (!supabase) {
     return {
       state: 'guest',
@@ -611,7 +611,7 @@ export async function synchronizeWithCloud(
 export async function deleteAccountAndLocalData(
   db: TurkceDuoDatabase = getLocalDb(),
 ): Promise<void> {
-  const supabase = getSupabaseBrowserClient();
+  const supabase = await getSupabaseBrowserClient();
   if (supabase) {
     const {
       data: { session },
@@ -619,9 +619,7 @@ export async function deleteAccountAndLocalData(
     if (session?.user) {
       const { error } = await supabase.rpc('delete_my_account');
       if (error) {
-        throw new Error(
-          `РћС€РёР±РєР° СѓРґР°Р»РµРЅРёСЏ Р°РєРєР°СѓРЅС‚Р° РІ РѕР±Р»Р°РєРµ: ${error.message}`,
-        );
+        throw new Error(`Ошибка удаления аккаунта в облаке: ${error.message}`);
       }
       await supabase.auth.signOut();
     }

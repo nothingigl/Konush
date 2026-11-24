@@ -15,6 +15,8 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "audit:mobile": "tsx scripts/audit-mobile.ts",
     "content:init": "tsx scripts/content-init.ts",
     "content:check": "tsx scripts/content-check.ts",
     "content:export-review": "tsx scripts/content-export-review.ts",

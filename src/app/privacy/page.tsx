@@ -7,7 +7,9 @@ export default function PrivacyPage() {
         <span className="inline-block rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold text-emerald-900 dark:bg-emerald-950 dark:text-emerald-200">
           Конфиденциальность простым языком
         </span>
-        <h1 className="mt-3 text-3xl font-extrabold tracking-tight">Политика конфиденциальности</h1>
+        <h1 className="mt-3 break-words text-2xl font-extrabold tracking-tight sm:text-3xl">
+          Политика конфиденциальности
+        </h1>
         <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
           Мы придерживаемся принципа минимального сбора данных: никаких рекламных пикселей, никаких
           сторонних трекеров и никакой продажи данных.

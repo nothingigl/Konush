@@ -1,7 +1,6 @@
 'use client';
 
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
-import { DEMO_EN_UNIT, DEMO_TR_UNIT } from '@/lib/content/demo-units';
 import type { CourseId, Unit } from '@/lib/content/schema';
 import {
   getDefaultLocalProfile,
@@ -83,9 +82,7 @@ const AppContext = createContext<AppContextValue | null>(null);
 
 export function AppProvider({ children }: { children: React.ReactNode }) {
   const [ready, setReady] = useState(false);
-  const [isOnline, setIsOnline] = useState(() =>
-    typeof navigator !== 'undefined' ? navigator.onLine : true,
-  );
+  const [isOnline, setIsOnline] = useState(true);
   const [profile, setProfile] = useState<LocalProfileRecord>(getDefaultLocalProfile());
   const [unitProgressMap, setUnitProgressMap] = useState<Record<string, LocalUnitProgressRecord>>(
     {},
@@ -166,24 +163,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
 
     const db = getLocalDb();
     const init = async () => {
-      const nowIso = new Date().toISOString();
-      await db.cachedUnits.bulkPut([
-        {
-          unitId: DEMO_TR_UNIT.id,
-          courseId: DEMO_TR_UNIT.course,
-          slug: DEMO_TR_UNIT.slug,
-          data: DEMO_TR_UNIT,
-          cachedAt: nowIso,
-        },
-        {
-          unitId: DEMO_EN_UNIT.id,
-          courseId: DEMO_EN_UNIT.course,
-          slug: DEMO_EN_UNIT.slug,
-          data: DEMO_EN_UNIT,
-          cachedAt: nowIso,
-        },
-      ]);
-
+      setIsOnline(navigator.onLine);
       await reloadFromDexie();
       setReady(true);
       await triggerSync();
@@ -215,30 +195,39 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       }
     }, 60_000);
 
-    const supabase = getSupabaseBrowserClient();
-    const authSub = supabase?.auth.onAuthStateChange((event) => {
-      if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED' || event === 'USER_UPDATED') {
-        void triggerSync();
-      } else if (event === 'SIGNED_OUT') {
-        void (async () => {
-          const current = await ensureLocalProfile();
-          await db.localProfile.put({
-            ...current,
-            userId: null,
-            email: null,
-            displayName: 'Гость',
-          });
-          await reloadFromDexie();
-        })();
-      }
-    });
+    let unsubscribeAuth: (() => void) | null = null;
+    let disposed = false;
+
+    if (isSupabaseConfigured()) {
+      void getSupabaseBrowserClient().then((supabase) => {
+        if (!supabase || disposed) return;
+        const authSub = supabase.auth.onAuthStateChange((event) => {
+          if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED' || event === 'USER_UPDATED') {
+            void triggerSync();
+          } else if (event === 'SIGNED_OUT') {
+            void (async () => {
+              const current = await ensureLocalProfile();
+              await db.localProfile.put({
+                ...current,
+                userId: null,
+                email: null,
+                displayName: 'Гость',
+              });
+              await reloadFromDexie();
+            })();
+          }
+        });
+        unsubscribeAuth = () => authSub.data.subscription.unsubscribe();
+      });
+    }
 
     return () => {
+      disposed = true;
       window.removeEventListener('online', handleOnline);
       window.removeEventListener('offline', handleOffline);
       document.removeEventListener('visibilitychange', handleVisibility);
       window.clearInterval(intervalId);
-      authSub?.data.subscription.unsubscribe();
+      unsubscribeAuth?.();
     };
   }, [reloadFromDexie, triggerSync]);
 
@@ -376,7 +365,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const signOut = useCallback(async () => {
-    const supabase = getSupabaseBrowserClient();
+    const supabase = await getSupabaseBrowserClient();
     if (supabase) {
       await supabase.auth.signOut();
     }
