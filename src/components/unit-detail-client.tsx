@@ -7,6 +7,7 @@ import { playReferenceAudio } from '@/lib/audio/speech';
 import { getCharacterPersona } from '@/lib/content/characters';
 import type { Unit } from '@/lib/content/schema';
 import type { SkillKey } from '@/lib/db/dexie';
+import { downloadUnitForOffline } from '@/lib/pwa/offline';
 import { useAppState } from './providers/app-provider';
 
 const SKILL_META: Array<{
@@ -86,17 +87,10 @@ export function UnitDetailClient({ unit }: { unit: Unit }) {
 
   const handleOfflineDownload = async () => {
     await cacheUnitOffline(unit);
-    if (typeof window !== 'undefined' && 'caches' in window) {
-      try {
-        const cache = await caches.open('turkce-duo-content-v1');
-        await cache.add(window.location.pathname);
-      } catch {
-        // Ignore cache error if offline
-      }
-    }
-    setOfflineSaved(true);
-    setShareMsg('Юнит сохранён в браузере для работы без интернета!');
-    setTimeout(() => setShareMsg(null), 3000);
+    const result = await downloadUnitForOffline(unit);
+    setOfflineSaved(!result.quotaExceeded);
+    setShareMsg(result.messageRu);
+    setTimeout(() => setShareMsg(null), 4000);
   };
 
   const getBestScore = (skill: SkillKey): number | null => {

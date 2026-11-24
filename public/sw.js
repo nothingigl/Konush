@@ -1,6 +1,7 @@
-const SHELL_CACHE = 'turkce-duo-shell-v1';
-const CONTENT_CACHE = 'turkce-duo-content-v1';
-const AUDIO_CACHE = 'turkce-duo-audio-v1';
+const SHELL_CACHE = 'konus-shell-v2';
+const CONTENT_CACHE = 'konus-content-v2';
+const AUDIO_CACHE = 'konus-audio-v2';
+const MAX_AUDIO_CACHE_ENTRIES = 800;
 
 const PRECACHE_URLS = [
   '/',
@@ -12,13 +13,37 @@ const PRECACHE_URLS = [
   '/en/units/1-1-learn-basic-phrases',
 ];
 
+async function safeCachePut(cache, request, response) {
+  try {
+    await cache.put(request, response);
+  } catch {
+    // Gracefully ignore QuotaExceededError so offline playback never crashes
+  }
+}
+
+async function trimAudioCacheIfNeeded(cache) {
+  try {
+    const keys = await cache.keys();
+    if (keys.length <= MAX_AUDIO_CACHE_ENTRIES) return;
+    const toDelete = keys.slice(0, keys.length - MAX_AUDIO_CACHE_ENTRIES);
+    await Promise.all(toDelete.map((key) => cache.delete(key)));
+  } catch {
+    // Ignore eviction errors
+  }
+}
+
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches
       .open(SHELL_CACHE)
-      .then((cache) => cache.addAll(PRECACHE_URLS).catch(() => undefined))
-      .then(() => self.skipWaiting()),
+      .then((cache) => cache.addAll(PRECACHE_URLS).catch(() => undefined)),
   );
+});
+
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    void self.skipWaiting();
+  }
 });
 
 self.addEventListener('activate', (event) => {
@@ -40,7 +65,7 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
-  // Audio clips: Cache-first in separate audio cache
+  // Audio clips: Cache-first in dedicated audio cache with size control
   if (url.pathname.startsWith('/audio/')) {
     event.respondWith(
       caches.open(AUDIO_CACHE).then(async (cache) => {
@@ -48,7 +73,8 @@ self.addEventListener('fetch', (event) => {
         if (cached) return cached;
         const response = await fetch(request);
         if (response.ok) {
-          void cache.put(request, response.clone());
+          await safeCachePut(cache, request, response.clone());
+          void trimAudioCacheIfNeeded(cache);
         }
         return response;
       }),
@@ -56,15 +82,19 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Static Next.js bundles & icons: Cache-first
-  if (url.pathname.startsWith('/_next/static/') || url.pathname.startsWith('/icons/')) {
+  // Static Next.js bundles, icons & character SVGs: Cache-first
+  if (
+    url.pathname.startsWith('/_next/static/') ||
+    url.pathname.startsWith('/icons/') ||
+    url.pathname.startsWith('/characters/')
+  ) {
     event.respondWith(
       caches.open(SHELL_CACHE).then(async (cache) => {
         const cached = await cache.match(request);
         if (cached) return cached;
         const response = await fetch(request);
         if (response.ok) {
-          void cache.put(request, response.clone());
+          await safeCachePut(cache, request, response.clone());
         }
         return response;
       }),
@@ -78,7 +108,7 @@ self.addEventListener('fetch', (event) => {
       .then(async (response) => {
         if (response.ok) {
           const cache = await caches.open(CONTENT_CACHE);
-          void cache.put(request, response.clone());
+          await safeCachePut(cache, request, response.clone());
         }
         return response;
       })

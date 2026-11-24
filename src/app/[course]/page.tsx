@@ -1,10 +1,43 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { CoursePathClient, type CourseUnitSummary } from '@/components/course-path-client';
 import { getAllUnitsForCourse, getCourseData } from '@/lib/content/loader';
 import { CourseIdSchema } from '@/lib/content/schema';
+import { buildCourseJsonLd, getCourseLanguageLabel, SITE_NAME } from '@/lib/seo/site';
 
 export function generateStaticParams() {
   return [{ course: 'tr' }, { course: 'en' }];
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ course: string }>;
+}): Promise<Metadata> {
+  const { course: rawCourse } = await params;
+  const parsed = CourseIdSchema.safeParse(rawCourse);
+  if (!parsed.success) return {};
+
+  const courseId = parsed.data;
+  const course = getCourseData(courseId);
+  const allUnits = getAllUnitsForCourse(courseId);
+  const langLabel = getCourseLanguageLabel(courseId);
+  const canonical = `/${courseId}`;
+
+  return {
+    title: `${course.title_ru} (${allUnits.length} юнитов)`,
+    description: `${course.description_ru} Все ${allUnits.length} юнитов открыты бесплатно: говорение, слушание, письмо, чтение и повторения 1→3→7→14 дней.`,
+    alternates: {
+      canonical,
+    },
+    openGraph: {
+      type: 'website',
+      locale: 'ru_RU',
+      url: canonical,
+      title: `${course.title_ru} — ${langLabel} | ${SITE_NAME}`,
+      description: course.description_ru,
+    },
+  };
 }
 
 export default async function CoursePage({ params }: { params: Promise<{ course: string }> }) {
@@ -33,5 +66,15 @@ export default async function CoursePage({ params }: { params: Promise<{ course:
       u.skills.reading.exercises.length,
   }));
 
-  return <CoursePathClient course={course} units={summaries} />;
+  const jsonLd = buildCourseJsonLd(course, allUnits.length);
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <CoursePathClient course={course} units={summaries} />
+    </>
+  );
 }

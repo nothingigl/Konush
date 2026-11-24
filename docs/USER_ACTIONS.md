@@ -77,20 +77,20 @@
 Откройте в панели Supabase **Authentication → Email Templates** и вставьте русские шаблоны:
 
 1. **Confirm signup (Подтверждение регистрации):**
-   - **Subject:** `Подтвердите регистрацию в Türkçe Duo`
+   - **Subject:** `Подтвердите регистрацию в Konuş!`
    - **Body (HTML):**
      ```html
-     <h2>Добро пожаловать в Türkçe Duo!</h2>
+     <h2>Добро пожаловать в Konuş!</h2>
      <p>Нажмите на кнопку ниже, чтобы подтвердить вашу почту и сохранить прогресс обучения в облаке:</p>
      <p><a href="{{ .ConfirmationURL }}" style="display:inline-block;padding:10px 20px;background:#0284c7;color:#ffffff;text-decoration:none;border-radius:8px;font-weight:bold;">Подтвердить почту</a></p>
      <p>Если вы не регистрировались на сайте, просто проигнорируйте это письмо.</p>
      ```
 2. **Reset Password (Сброс пароля):**
-   - **Subject:** `Восстановление пароля в Türkçe Duo`
+   - **Subject:** `Восстановление пароля в Konuş!`
    - **Body (HTML):**
      ```html
      <h2>Сброс пароля</h2>
-     <p>Вы запросили восстановление пароля в Türkçe Duo. Перейдите по ссылке ниже, чтобы задать новый пароль:</p>
+     <p>Вы запросили восстановление пароля в Konuş!. Перейдите по ссылке ниже, чтобы задать новый пароль:</p>
      <p><a href="{{ .ConfirmationURL }}" style="display:inline-block;padding:10px 20px;background:#0284c7;color:#ffffff;text-decoration:none;border-radius:8px;font-weight:bold;">Задать новый пароль</a></p>
      ```
 
