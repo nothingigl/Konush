@@ -1,36 +1,106 @@
 'use client';
 
 import Link from 'next/link';
-import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import React, { useState, useSyncExternalStore } from 'react';
 import { useAppState } from '@/components/providers/app-provider';
+import { getSupabaseBrowserClient } from '@/lib/supabase/client';
+import { formatSupabaseAuthError } from '@/lib/supabase/errors';
+
+const subscribeNoop = () => () => {};
+
+function getCallbackErrorSnapshot(): string | null {
+  if (typeof window === 'undefined') return null;
+  const params = new URLSearchParams(window.location.search);
+  return params.get('error') === 'callback_failed'
+    ? 'Не удалось завершить вход по ссылке. Попробуйте войти снова или проверьте настройки Redirect URLs в Supabase.'
+    : null;
+}
 
 export default function AuthPage() {
-  const { profile, cloudSyncEnabled } = useAppState();
+  const router = useRouter();
+  const { profile, cloudSyncEnabled, triggerSync } = useAppState();
   const [mode, setMode] = useState<'signin' | 'signup'>('signin');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [displayName, setDisplayName] = useState('');
-  const [loading] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const callbackError = useSyncExternalStore(subscribeNoop, getCallbackErrorSnapshot, () => null);
+  const displayedError = errorMsg ?? callbackError;
 
   const handleEmailAuth = async (e: React.FormEvent) => {
     e.preventDefault();
     setErrorMsg(null);
     setMessage(null);
 
-    if (!cloudSyncEnabled) {
-      setMessage(
-        'Облачная база данных пока не подключена — сейчас прогресс сохраняется локально в вашем браузере (IndexedDB).',
+    const supabase = await getSupabaseBrowserClient();
+    if (!supabase) {
+      setErrorMsg(
+        'Облачная синхронизация Supabase ещё не подключена в переменных окружения (Vercel / .env.local). Вы можете заниматься в гостевом режиме.',
       );
+      return;
+    }
+
+    setLoading(true);
+    try {
+      const normalizedEmail = email.trim();
+      if (mode === 'signup') {
+        const { data, error } = await supabase.auth.signUp({
+          email: normalizedEmail,
+          password,
+          options: {
+            data: {
+              full_name: displayName.trim() || normalizedEmail.split('@')[0],
+            },
+            emailRedirectTo: `${window.location.origin}/auth/callback`,
+          },
+        });
+        if (error) throw error;
+
+        if (data.session) {
+          await triggerSync();
+          router.push('/');
+        } else {
+          setMessage(
+            'Проверьте вашу почту для подтверждения аккаунта. После входа ваш локальный прогресс автоматически перенесётся в профиль.',
+          );
+        }
+      } else {
+        const { error } = await supabase.auth.signInWithPassword({
+          email: normalizedEmail,
+          password,
+        });
+        if (error) throw error;
+
+        await triggerSync();
+        router.push('/');
+      }
+    } catch (err) {
+      setErrorMsg(formatSupabaseAuthError((err as Error).message));
+    } finally {
+      setLoading(false);
     }
   };
 
   const handleGoogleLogin = async () => {
     setErrorMsg(null);
-    setMessage(
-      'Вход через Google заработает после подключения облачной базы данных. Сейчас вы можете заниматься в гостевом режиме.',
-    );
+    setMessage(null);
+    const supabase = await getSupabaseBrowserClient();
+    if (!supabase) {
+      setErrorMsg('Supabase не настроен в переменных окружения.');
+      return;
+    }
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: 'google',
+      options: {
+        redirectTo: `${window.location.origin}/auth/callback`,
+      },
+    });
+    if (error) {
+      setErrorMsg(formatSupabaseAuthError(error.message));
+    }
   };
 
   return (
@@ -46,9 +116,12 @@ export default function AuthPage() {
 
         {!cloudSyncEnabled && (
           <div className="mt-4 rounded-xl border border-amber-300 bg-amber-50 p-3 text-xs text-amber-900 dark:border-amber-800 dark:bg-amber-950/60 dark:text-amber-200">
-            <strong>Локальный режим:</strong> Облачная база данных ещё не подключена. Все уроки и
-            сохранение прогресса в браузере (IndexedDB) работают полностью, а после подключения БД
-            здесь включится синхронизация между устройствами.
+            <strong>Локальный/гостевой режим:</strong> Переменные{' '}
+            <code>NEXT_PUBLIC_SUPABASE_URL</code> и публичный ключ Supabase (
+            <code>NEXT_PUBLIC_SUPABASE_ANON_KEY</code> или{' '}
+            <code>NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY</code>) ещё не заданы. Все уроки и сохранение
+            прогресса в браузере (IndexedDB) работают полностью, а после подключения Supabase и
+            повторного деплоя включится синхронизация между устройствами.
           </div>
         )}
 
@@ -134,12 +207,12 @@ export default function AuthPage() {
             />
           </div>
 
-          {errorMsg && (
+          {displayedError && (
             <p
               role="alert"
               className="rounded-xl bg-rose-50 p-3 text-xs font-medium text-rose-800 dark:bg-rose-950 dark:text-rose-200"
             >
-              {errorMsg}
+              {displayedError}
             </p>
           )}
 

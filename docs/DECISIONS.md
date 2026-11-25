@@ -124,3 +124,14 @@
 - **Сохранение облика и архитектуры:**
   - Весь UI сайта, включая страницу `/auth`, профиль, настройки и уроки, сохранён без визуальных потерь.
   - Локальная БД браузера (`Dexie` / IndexedDB) и детерминированные функции слияния (`src/lib/sync/merge.ts`) оставлены в рабочем состоянии, чтобы в дальнейшем можно было легко подключить новую облачную БД и авторизацию.
+
+---
+
+## 10. Чистая пересборка интеграции Supabase с нуля (Vercel ↔ Supabase)
+
+- **Конфигурация (`src/lib/supabase/config.ts`):** единый статический резолвер публичных ключей, автоматически поддерживающий `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` и `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY` (включая интеграцию Vercel Marketplace ↔ Supabase), без использования `service_role` на клиенте.
+- **Исправление схемы (`supabase/migrations/0001_initial_schema.sql`):** поле `content_feedback.user_id` сделано nullable, чтобы `ON DELETE SET NULL` корректно срабатывало при вызове `delete_my_account()` даже при наличии отправленных пользователем репортов (при этом RLS-политика `INSERT` по-прежнему требует `user_id = auth.uid()`).
+- **Надёжность синхронизации и диагностика:**
+  - В `src/lib/sync/engine.ts` добавлена строгая проверка `error` на каждом PostgREST-запросе (`.select()`, `.upsert()`, `.insert()`, `.rpc()`), исправлены кодировки строк по умолчанию.
+  - В `src/app/auth/callback/route.ts` учтены заголовки `x-forwarded-host` / `x-forwarded-proto` на Vercel и защита от open-redirect.
+  - Добавлен безопасный read-only эндпоинт `/api/supabase-health` (без утечки URL/ключей), проверяющий наличие env-переменных, доступность Supabase и применение миграции `0001_initial_schema.sql`.
