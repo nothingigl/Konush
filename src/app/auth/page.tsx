@@ -2,13 +2,24 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import React, { useState } from 'react';
+import React, { useState, useSyncExternalStore } from 'react';
 import { useAppState } from '@/components/providers/app-provider';
 import { getSupabaseBrowserClient } from '@/lib/supabase/client';
+import { formatSupabaseAuthError } from '@/lib/supabase/errors';
+
+const subscribeNoop = () => () => {};
+
+function getCallbackErrorSnapshot(): string | null {
+  if (typeof window === 'undefined') return null;
+  const params = new URLSearchParams(window.location.search);
+  return params.get('error') === 'callback_failed'
+    ? 'Не удалось завершить вход по ссылке. Попробуйте войти снова или проверьте настройки Redirect URLs в Supabase.'
+    : null;
+}
 
 export default function AuthPage() {
   const router = useRouter();
-  const { profile, supabaseEnabled, triggerSync } = useAppState();
+  const { profile, cloudSyncEnabled, triggerSync } = useAppState();
   const [mode, setMode] = useState<'signin' | 'signup'>('signin');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -16,6 +27,8 @@ export default function AuthPage() {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const callbackError = useSyncExternalStore(subscribeNoop, getCallbackErrorSnapshot, () => null);
+  const displayedError = errorMsg ?? callbackError;
 
   const handleEmailAuth = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -25,20 +38,21 @@ export default function AuthPage() {
     const supabase = await getSupabaseBrowserClient();
     if (!supabase) {
       setErrorMsg(
-        'Облачная синхронизация Supabase ещё не подключена в .env.local. Вы можете заниматься в гостевом режиме.',
+        'Облачная синхронизация Supabase ещё не подключена в переменных окружения (Vercel / .env.local). Вы можете заниматься в гостевом режиме.',
       );
       return;
     }
 
     setLoading(true);
     try {
+      const normalizedEmail = email.trim();
       if (mode === 'signup') {
         const { data, error } = await supabase.auth.signUp({
-          email: email.trim(),
+          email: normalizedEmail,
           password,
           options: {
             data: {
-              full_name: displayName.trim() || email.split('@')[0],
+              full_name: displayName.trim() || normalizedEmail.split('@')[0],
             },
             emailRedirectTo: `${window.location.origin}/auth/callback`,
           },
@@ -55,7 +69,7 @@ export default function AuthPage() {
         }
       } else {
         const { error } = await supabase.auth.signInWithPassword({
-          email: email.trim(),
+          email: normalizedEmail,
           password,
         });
         if (error) throw error;
@@ -64,7 +78,7 @@ export default function AuthPage() {
         router.push('/');
       }
     } catch (err) {
-      setErrorMsg((err as Error).message);
+      setErrorMsg(formatSupabaseAuthError((err as Error).message));
     } finally {
       setLoading(false);
     }
@@ -72,6 +86,7 @@ export default function AuthPage() {
 
   const handleGoogleLogin = async () => {
     setErrorMsg(null);
+    setMessage(null);
     const supabase = await getSupabaseBrowserClient();
     if (!supabase) {
       setErrorMsg('Supabase не настроен в переменных окружения.');
@@ -84,7 +99,7 @@ export default function AuthPage() {
       },
     });
     if (error) {
-      setErrorMsg(error.message);
+      setErrorMsg(formatSupabaseAuthError(error.message));
     }
   };
 
@@ -99,12 +114,14 @@ export default function AuthPage() {
           объединится с вашим облачным аккаунтом.
         </p>
 
-        {!supabaseEnabled && (
+        {!cloudSyncEnabled && (
           <div className="mt-4 rounded-xl border border-amber-300 bg-amber-50 p-3 text-xs text-amber-900 dark:border-amber-800 dark:bg-amber-950/60 dark:text-amber-200">
             <strong>Локальный/гостевой режим:</strong> Переменные{' '}
-            <code>NEXT_PUBLIC_SUPABASE_URL</code> и <code>NEXT_PUBLIC_SUPABASE_ANON_KEY</code> ещё
-            не заданы. Все уроки и сохранение прогресса в браузере (IndexedDB) работают полностью, а
-            после добавления ключей Supabase включится синхронизация между устройствами.
+            <code>NEXT_PUBLIC_SUPABASE_URL</code> и публичный ключ Supabase (
+            <code>NEXT_PUBLIC_SUPABASE_ANON_KEY</code> или{' '}
+            <code>NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY</code>) ещё не заданы. Все уроки и сохранение
+            прогресса в браузере (IndexedDB) работают полностью, а после подключения Supabase и
+            повторного деплоя включится синхронизация между устройствами.
           </div>
         )}
 
@@ -190,12 +207,12 @@ export default function AuthPage() {
             />
           </div>
 
-          {errorMsg && (
+          {displayedError && (
             <p
               role="alert"
               className="rounded-xl bg-rose-50 p-3 text-xs font-medium text-rose-800 dark:bg-rose-950 dark:text-rose-200"
             >
-              {errorMsg}
+              {displayedError}
             </p>
           )}
 

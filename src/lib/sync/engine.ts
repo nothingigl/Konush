@@ -1,4 +1,4 @@
-﻿import type { CourseId } from '../content/schema';
+import type { CourseId } from '../content/schema';
 import {
   getDefaultLocalProfile,
   getLocalDb,
@@ -329,12 +329,13 @@ export interface SyncStatusReport {
 
 /**
  * Performs a full bidirectional synchronization between local Dexie and Supabase:
- * 1. Checks if browser is online and user is authenticated in Supabase;
+ * 1. Checks online status, Supabase config, and active user session;
  * 2. Pulls remote rows (`profiles`, `unit_progress`, `review_state`, `daily_activity`);
- * 3. Merges local (including any guest progress created prior to login) and remote rows
- *    using the deterministic conflict resolution rules (`merge.ts`);
- * 4. Writes merged state back to Dexie and upserts changed/local-only rows to Supabase;
- * 5. Flushes any queued `content_feedback` items and clears processed `syncQueue` items.
+ * 3. Merges local (including pre-login guest progress) and remote rows deterministically;
+ * 4. Persists merged rows locally and upserts changed/local-only rows to Supabase;
+ * 5. Flushes queued `content_feedback` reports and clears processed queue items.
+ *
+ * Every PostgREST response error is explicitly checked and surfaced in `SyncStatusReport`.
  */
 export async function synchronizeWithCloud(
   db: TurkceDuoDatabase = getLocalDb(),
@@ -378,13 +379,17 @@ export async function synchronizeWithCloud(
   const userId = user.id;
 
   try {
-    // 1. Sync Profile
+    // 1. Sync profiles
     const localProfile = await ensureLocalProfile(db);
-    const { data: remoteProfileRow } = await supabase
+    const { data: remoteProfileRow, error: profileSelectError } = await supabase
       .from('profiles')
       .select('*')
       .eq('id', userId)
       .maybeSingle();
+
+    if (profileSelectError) {
+      throw new Error(`profiles select failed: ${profileSelectError.message}`);
+    }
 
     let mergedProfile: LocalProfileRecord;
     if (remoteProfileRow) {
@@ -393,9 +398,7 @@ export async function synchronizeWithCloud(
         userId,
         email: user.email ?? null,
         displayName:
-          (remoteProfileRow.display_name as string | null) ??
-          user.email?.split('@')[0] ??
-          'РЈС‡РµРЅРёРє',
+          (remoteProfileRow.display_name as string | null) ?? user.email?.split('@')[0] ?? 'Ученик',
         avatarKey: (remoteProfileRow.avatar_key as string | null) ?? 'elif',
         uiLang: 'ru',
         preferredCourse: (remoteProfileRow.preferred_course as CourseId | null) ?? 'tr',
@@ -412,15 +415,15 @@ export async function synchronizeWithCloud(
         userId,
         email: user.email ?? null,
         displayName:
-          localProfile.displayName !== 'Р“РѕСЃС‚СЊ'
+          localProfile.displayName && localProfile.displayName !== 'Гость'
             ? localProfile.displayName
-            : (user.email?.split('@')[0] ?? 'РЈС‡РµРЅРёРє'),
+            : (user.email?.split('@')[0] ?? 'Ученик'),
         updatedAt: new Date().toISOString(),
       };
     }
 
     await db.localProfile.put(mergedProfile);
-    await supabase.from('profiles').upsert({
+    const { error: profileUpsertError } = await supabase.from('profiles').upsert({
       id: userId,
       display_name: mergedProfile.displayName,
       avatar_key: mergedProfile.avatarKey,
@@ -429,12 +432,18 @@ export async function synchronizeWithCloud(
       daily_goal_xp: mergedProfile.dailyGoalXp,
       updated_at: mergedProfile.updatedAt,
     });
+    if (profileUpsertError) {
+      throw new Error(`profiles upsert failed: ${profileUpsertError.message}`);
+    }
 
     // 2. Sync unit_progress (guest progress + multi-device merge)
-    const [localUnits, { data: remoteUnits }] = await Promise.all([
+    const [localUnits, { data: remoteUnits, error: unitsSelectError }] = await Promise.all([
       db.unitProgress.toArray(),
       supabase.from('unit_progress').select('*').eq('user_id', userId),
     ]);
+    if (unitsSelectError) {
+      throw new Error(`unit_progress select failed: ${unitsSelectError.message}`);
+    }
 
     const localUnitMap = new Map(localUnits.map((u) => [u.unitId, u]));
     const remoteUnitMap = new Map<string, LocalUnitProgressRecord>();
@@ -462,7 +471,6 @@ export async function synchronizeWithCloud(
       const merged = loc && rem ? mergeUnitProgress(loc, rem) : (loc ?? rem)!;
       await db.unitProgress.put(merged);
 
-      // Push to Supabase if local had changes or didn't exist remotely
       if (!rem || JSON.stringify(merged) !== JSON.stringify(rem)) {
         unitsToUpsertRemote.push({
           user_id: userId,
@@ -480,14 +488,22 @@ export async function synchronizeWithCloud(
     }
 
     if (unitsToUpsertRemote.length > 0) {
-      await supabase.from('unit_progress').upsert(unitsToUpsertRemote);
+      const { error: unitsUpsertError } = await supabase
+        .from('unit_progress')
+        .upsert(unitsToUpsertRemote);
+      if (unitsUpsertError) {
+        throw new Error(`unit_progress upsert failed: ${unitsUpsertError.message}`);
+      }
     }
 
     // 3. Sync review_state (LWW by updated_at)
-    const [localReviews, { data: remoteReviews }] = await Promise.all([
+    const [localReviews, { data: remoteReviews, error: reviewsSelectError }] = await Promise.all([
       db.reviewState.toArray(),
       supabase.from('review_state').select('*').eq('user_id', userId),
     ]);
+    if (reviewsSelectError) {
+      throw new Error(`review_state select failed: ${reviewsSelectError.message}`);
+    }
 
     const localReviewMap = new Map(localReviews.map((r) => [r.unitId, r]));
     const remoteReviewMap = new Map<string, LocalReviewStateRecord>();
@@ -524,14 +540,22 @@ export async function synchronizeWithCloud(
     }
 
     if (reviewsToUpsertRemote.length > 0) {
-      await supabase.from('review_state').upsert(reviewsToUpsertRemote);
+      const { error: reviewsUpsertError } = await supabase
+        .from('review_state')
+        .upsert(reviewsToUpsertRemote);
+      if (reviewsUpsertError) {
+        throw new Error(`review_state upsert failed: ${reviewsUpsertError.message}`);
+      }
     }
 
     // 4. Sync daily_activity (GREATEST / Math.max for xp, lessons, seconds)
-    const [localDays, { data: remoteDays }] = await Promise.all([
+    const [localDays, { data: remoteDays, error: daysSelectError }] = await Promise.all([
       db.dailyActivity.toArray(),
       supabase.from('daily_activity').select('*').eq('user_id', userId),
     ]);
+    if (daysSelectError) {
+      throw new Error(`daily_activity select failed: ${daysSelectError.message}`);
+    }
 
     const localDayMap = new Map(localDays.map((d) => [d.day, d]));
     const remoteDayMap = new Map<string, LocalDailyActivityRecord>();
@@ -568,10 +592,15 @@ export async function synchronizeWithCloud(
     }
 
     if (daysToUpsertRemote.length > 0) {
-      await supabase.from('daily_activity').upsert(daysToUpsertRemote);
+      const { error: daysUpsertError } = await supabase
+        .from('daily_activity')
+        .upsert(daysToUpsertRemote);
+      if (daysUpsertError) {
+        throw new Error(`daily_activity upsert failed: ${daysUpsertError.message}`);
+      }
     }
 
-    // 5. Flush queued content_feedback items and clear syncQueue
+    // 5. Flush queued content_feedback items and clear processed syncQueue entries
     const queuedItems = await db.syncQueue.toArray();
     for (const item of queuedItems) {
       if (item.table === 'content_feedback') {
@@ -606,7 +635,7 @@ export async function synchronizeWithCloud(
 
 /**
  * Deletes the authenticated user's account in Supabase via `delete_my_account()` RPC
- * and clears all local IndexedDB records.
+ * (security definer, no service_role key on client) and clears all local IndexedDB records.
  */
 export async function deleteAccountAndLocalData(
   db: TurkceDuoDatabase = getLocalDb(),

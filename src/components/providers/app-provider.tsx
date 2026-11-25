@@ -32,7 +32,7 @@ import { computeStreakDays, toLocalDayString } from '@/lib/sync/merge';
 export interface AppContextValue {
   ready: boolean;
   isOnline: boolean;
-  supabaseEnabled: boolean;
+  cloudSyncEnabled: boolean;
   profile: LocalProfileRecord;
   unitProgressMap: Record<string, LocalUnitProgressRecord>;
   reviewStateMap: Record<string, LocalReviewStateRecord>;
@@ -97,7 +97,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     errorMessage: null,
   });
 
-  const supabaseEnabled = isSupabaseConfigured();
+  const cloudSyncEnabled = isSupabaseConfigured();
 
   // Apply theme (light/dark/system) and font-scale to document.documentElement
   useEffect(() => {
@@ -206,7 +206,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
             void triggerSync();
           } else if (event === 'SIGNED_OUT') {
             void (async () => {
-              const current = await ensureLocalProfile();
+              const current = await ensureLocalProfile(db);
               await db.localProfile.put({
                 ...current,
                 userId: null,
@@ -398,7 +398,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       value={{
         ready,
         isOnline,
-        supabaseEnabled,
+        cloudSyncEnabled,
         profile,
         unitProgressMap,
         reviewStateMap,

@@ -1,16 +1,15 @@
 -- =============================================================================
 -- Migration: 0001_initial_schema.sql
--- Project:   Türkçe Duo (working title) — Free Turkish & English PWA
+-- Project:   Konuş! — Free Turkish & English PWA
 -- Purpose:   User-owned data tables, indexes, Row Level Security (RLS),
---            automatic profile creation trigger, and self-service account
---            deletion RPC without requiring service_role on the client.
+--            automatic profile creation trigger, keepalive healthcheck,
+--            and self-service account deletion RPC (no service_role on client).
 -- =============================================================================
 
--- Enable cryptographic UUID generation if not already active
 create extension if not exists "pgcrypto";
 
 -- -----------------------------------------------------------------------------
--- 1. Helper trigger function for automatic updated_at maintenance
+-- 1. Automatic updated_at trigger helper
 -- -----------------------------------------------------------------------------
 create or replace function public.set_updated_at()
 returns trigger
@@ -25,8 +24,7 @@ end;
 $$;
 
 -- -----------------------------------------------------------------------------
--- 2. Table: public.profiles
---    Stores user profile and learning preferences.
+-- 2. public.profiles — User profile and learning preferences
 -- -----------------------------------------------------------------------------
 create table if not exists public.profiles (
   id uuid primary key references auth.users(id) on delete cascade,
@@ -39,7 +37,7 @@ create table if not exists public.profiles (
   updated_at timestamptz not null default now()
 );
 
-comment on table public.profiles is 'User profile and preferences synced across devices.';
+comment on table public.profiles is 'User profile and learning preferences synced across devices.';
 
 drop trigger if exists trg_profiles_updated_at on public.profiles;
 create trigger trg_profiles_updated_at
@@ -47,8 +45,7 @@ create trigger trg_profiles_updated_at
   for each row execute function public.set_updated_at();
 
 -- -----------------------------------------------------------------------------
--- 3. Table: public.unit_progress
---    Stores per-unit and per-skill completion state for a user.
+-- 3. public.unit_progress — Per-unit and 4-skill completion scores
 -- -----------------------------------------------------------------------------
 create table if not exists public.unit_progress (
   user_id uuid not null references auth.users(id) on delete cascade,
@@ -78,8 +75,7 @@ create trigger trg_unit_progress_updated_at
   for each row execute function public.set_updated_at();
 
 -- -----------------------------------------------------------------------------
--- 4. Table: public.review_state
---    Spaced repetition schedule (1 -> 3 -> 7 -> 14 days) per unit.
+-- 4. public.review_state — Spaced repetition schedule (1 -> 3 -> 7 -> 14 days)
 --    step: 0 = not started, 1 = +1d, 2 = +3d, 3 = +7d, 4 = +14d, 5 = graduated
 -- -----------------------------------------------------------------------------
 create table if not exists public.review_state (
@@ -106,9 +102,7 @@ create trigger trg_review_state_updated_at
   for each row execute function public.set_updated_at();
 
 -- -----------------------------------------------------------------------------
--- 5. Table: public.daily_activity
---    Tracks daily XP, completed lessons, and practice duration for streaks.
---    Conflict resolution uses GREATEST(xp), GREATEST(lessons), GREATEST(seconds).
+-- 5. public.daily_activity — Daily XP, lessons, and practice duration
 -- -----------------------------------------------------------------------------
 create table if not exists public.daily_activity (
   user_id uuid not null references auth.users(id) on delete cascade,
@@ -134,13 +128,14 @@ create trigger trg_daily_activity_updated_at
   for each row execute function public.set_updated_at();
 
 -- -----------------------------------------------------------------------------
--- 6. Table: public.content_feedback
---    Stores "Report an issue" messages from exercises.
---    Authenticated users can only INSERT; SELECT/UPDATE/DELETE are forbidden.
+-- 6. public.content_feedback — Write-only exercise error reports
+--    user_id is nullable so ON DELETE SET NULL succeeds when a user deletes
+--    their account while preserving anonymized content bug reports.
+--    RLS INSERT policy still requires user_id = auth.uid().
 -- -----------------------------------------------------------------------------
 create table if not exists public.content_feedback (
   id uuid primary key default gen_random_uuid(),
-  user_id uuid not null references auth.users(id) on delete set null,
+  user_id uuid references auth.users(id) on delete set null,
   course_id text not null default 'tr' check (course_id in ('tr', 'en')),
   unit_id text not null check (char_length(unit_id) between 3 and 64),
   exercise_id text not null check (char_length(exercise_id) between 3 and 96),
@@ -154,9 +149,7 @@ create index if not exists idx_content_feedback_user_id
   on public.content_feedback (user_id);
 
 -- -----------------------------------------------------------------------------
--- 7. Table: public.healthcheck
---    Single-row public read-only table pinged by scheduled GitHub Action
---    to prevent free-tier Supabase project pausing.
+-- 7. public.healthcheck — Public read-only single row for health/keepalive
 -- -----------------------------------------------------------------------------
 create table if not exists public.healthcheck (
   id int primary key check (id = 1),
@@ -164,7 +157,7 @@ create table if not exists public.healthcheck (
   checked_at timestamptz not null default now()
 );
 
-comment on table public.healthcheck is 'Read-only healthcheck table for keepalive pings.';
+comment on table public.healthcheck is 'Read-only healthcheck table for connectivity and keepalive checks.';
 
 insert into public.healthcheck (id, status, checked_at)
 values (1, 'ok', now())
@@ -181,7 +174,7 @@ alter table public.daily_activity enable row level security;
 alter table public.content_feedback enable row level security;
 alter table public.healthcheck enable row level security;
 
--- 8.1 profiles: only owner (id = auth.uid()) can SELECT, INSERT, UPDATE, DELETE
+-- 8.1 profiles
 drop policy if exists "profiles_select_own" on public.profiles;
 create policy "profiles_select_own"
   on public.profiles for select
@@ -207,7 +200,7 @@ create policy "profiles_delete_own"
   to authenticated
   using (id = auth.uid());
 
--- 8.2 unit_progress: only owner (user_id = auth.uid())
+-- 8.2 unit_progress
 drop policy if exists "unit_progress_select_own" on public.unit_progress;
 create policy "unit_progress_select_own"
   on public.unit_progress for select
@@ -233,7 +226,7 @@ create policy "unit_progress_delete_own"
   to authenticated
   using (user_id = auth.uid());
 
--- 8.3 review_state: only owner (user_id = auth.uid())
+-- 8.3 review_state
 drop policy if exists "review_state_select_own" on public.review_state;
 create policy "review_state_select_own"
   on public.review_state for select
@@ -259,7 +252,7 @@ create policy "review_state_delete_own"
   to authenticated
   using (user_id = auth.uid());
 
--- 8.4 daily_activity: only owner (user_id = auth.uid())
+-- 8.4 daily_activity
 drop policy if exists "daily_activity_select_own" on public.daily_activity;
 create policy "daily_activity_select_own"
   on public.daily_activity for select
@@ -285,14 +278,14 @@ create policy "daily_activity_delete_own"
   to authenticated
   using (user_id = auth.uid());
 
--- 8.5 content_feedback: ONLY INSERT for authenticated users (reading is forbidden)
+-- 8.5 content_feedback (INSERT only for authenticated users)
 drop policy if exists "content_feedback_insert_own" on public.content_feedback;
 create policy "content_feedback_insert_own"
   on public.content_feedback for insert
   to authenticated
   with check (user_id = auth.uid());
 
--- 8.6 healthcheck: read-only SELECT for everyone (anon and authenticated)
+-- 8.6 healthcheck (read-only SELECT for anon and authenticated)
 drop policy if exists "healthcheck_select_all" on public.healthcheck;
 create policy "healthcheck_select_all"
   on public.healthcheck for select
@@ -300,7 +293,7 @@ create policy "healthcheck_select_all"
   using (true);
 
 -- =============================================================================
--- 9. Trigger: Automatic profile creation on user signup
+-- 9. Trigger: Automatically create a profile row on auth.users signup
 -- =============================================================================
 create or replace function public.handle_new_user()
 returns trigger
@@ -336,8 +329,6 @@ create trigger on_auth_user_created
 
 -- =============================================================================
 -- 10. RPC: Self-service account deletion (delete_my_account)
---     Deletes the caller's auth.users row (cascading to all user tables).
---     Does NOT require service_role key on the client.
 -- =============================================================================
 create or replace function public.delete_my_account()
 returns void
