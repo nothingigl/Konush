@@ -1,25 +1,59 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { useAppState } from './providers/app-provider';
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const { isOnline, profile, dueReviews, todayXp, streakDays, syncStatus, setTheme, triggerSync } =
-    useAppState();
+  const router = useRouter();
+  const {
+    isOnline,
+    profile,
+    dueReviews,
+    todayXp,
+    streakDays,
+    syncStatus,
+    setTheme,
+    setPreferredCourse,
+    triggerSync,
+  } = useAppState();
 
   const isPlayerRoute = pathname?.includes('/play/');
 
-  const syncLabel = !isOnline
-    ? '📡 Офлайн'
+  const activeCourse: 'tr' | 'en' = pathname?.startsWith('/en')
+    ? 'en'
+    : pathname?.startsWith('/tr')
+      ? 'tr'
+      : profile.preferredCourse;
+
+  const handleToggleCourse = () => {
+    const nextCourse: 'tr' | 'en' = activeCourse === 'tr' ? 'en' : 'tr';
+    void setPreferredCourse(nextCourse);
+    if (pathname?.startsWith('/tr') || pathname?.startsWith('/en')) {
+      router.push(`/${nextCourse}`);
+    }
+  };
+
+  const syncIcon = !isOnline
+    ? '📡'
     : syncStatus.state === 'syncing'
-      ? '🔄 Синхр...'
+      ? '🔄'
       : syncStatus.state === 'synced'
-        ? '☁️ В облаке'
+        ? '☁️'
         : syncStatus.state === 'error'
-          ? '⚠️ Ошибка'
-          : '👤 Гость';
+          ? '⚠️'
+          : '👤';
+
+  const syncTitle = !isOnline
+    ? 'Офлайн-режим'
+    : syncStatus.state === 'syncing'
+      ? 'Синхронизация...'
+      : syncStatus.state === 'synced'
+        ? 'Сохранено в облаке'
+        : syncStatus.state === 'error'
+          ? 'Ошибка синхронизации — нажмите для повтора'
+          : 'Гостевой режим (локально)';
 
   const currentTheme = profile.theme ?? 'system';
   const cycleTheme = () => {
@@ -28,167 +62,240 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   };
   const themeIcon = currentTheme === 'dark' ? '🌙' : currentTheme === 'light' ? '☀️' : '🌓';
 
+  const isHomeActive = pathname === '/';
+  const isMapActive = pathname?.startsWith('/tr') || pathname?.startsWith('/en');
+  const isReviewActive = pathname === '/review';
+  const isProfileActive = pathname === '/profile' || pathname === '/auth';
+  const isSettingsActive =
+    pathname === '/settings' ||
+    pathname === '/welcome' ||
+    pathname === '/about' ||
+    pathname === '/privacy';
+
   return (
-    <div className="flex min-h-screen flex-col bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+    <div className="flex min-h-screen flex-col bg-[#f4f7fb] text-slate-900 dark:bg-[#0b1020] dark:text-slate-100">
       {!isPlayerRoute && (
-        <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/95 backdrop-blur-xs dark:border-slate-800 dark:bg-slate-900/95">
-          <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-3 py-2.5 sm:px-4 sm:py-3">
-            <div className="flex flex-wrap items-center gap-2 sm:gap-4">
+        <header className="sticky top-0 z-30 border-b border-slate-200/80 bg-white/90 backdrop-blur-md dark:border-slate-800/80 dark:bg-[#0f1629]/90">
+          <div className="mx-auto flex h-13 max-w-5xl flex-nowrap items-center justify-between gap-2 px-3 sm:px-4">
+            {/* Left: Compact Brand + 1-tap Course Switcher */}
+            <div className="flex shrink-0 items-center gap-2">
               <Link
                 href="/"
-                className="flex items-center gap-2 text-lg font-black tracking-tight text-sky-600 dark:text-sky-400"
+                aria-label="Konuş! Главная"
+                className="flex items-center gap-1.5 font-black tracking-tight text-sky-600 dark:text-sky-400"
               >
-                <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-sky-600 text-xs font-black text-white shadow-xs">
+                <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-gradient-to-br from-sky-500 to-indigo-600 text-xs font-black text-white shadow-sm">
                   K!
                 </span>
-                <span>Konuş!</span>
+                <span className="hidden text-base sm:inline">Konuş!</span>
               </Link>
 
-              <nav
-                className="flex flex-wrap items-center gap-1 text-xs font-semibold sm:text-sm"
-                aria-label="Основная навигация"
+              <button
+                type="button"
+                onClick={handleToggleCourse}
+                title="Переключить язык курса (Турецкий / Английский)"
+                className={`btn-3d inline-flex items-center gap-1 rounded-xl border border-b-2 px-2.5 py-1 text-xs font-extrabold ${
+                  activeCourse === 'tr'
+                    ? 'border-rose-200 border-b-rose-300 bg-rose-50 text-rose-800 hover:bg-rose-100 dark:border-rose-800/70 dark:border-b-rose-950 dark:bg-rose-950/50 dark:text-rose-200'
+                    : 'border-indigo-200 border-b-indigo-300 bg-indigo-50 text-indigo-800 hover:bg-indigo-100 dark:border-indigo-800/70 dark:border-b-indigo-950 dark:bg-indigo-950/50 dark:text-indigo-200'
+                }`}
               >
-                <Link
-                  href="/tr"
-                  className={`rounded-lg px-2.5 py-1.5 transition ${
-                    pathname?.startsWith('/tr')
-                      ? 'bg-sky-100 text-sky-900 dark:bg-sky-950 dark:text-sky-200'
-                      : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
-                  }`}
-                >
-                  🇹🇷 Турецкий
-                </Link>
-                <Link
-                  href="/en"
-                  className={`rounded-lg px-2.5 py-1.5 transition ${
-                    pathname?.startsWith('/en')
-                      ? 'bg-sky-100 text-sky-900 dark:bg-sky-950 dark:text-sky-200'
-                      : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
-                  }`}
-                >
-                  🇬🇧 Английский
-                </Link>
-                <Link
-                  href="/review"
-                  className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1.5 transition ${
-                    pathname === '/review'
-                      ? 'bg-amber-100 text-amber-950 dark:bg-amber-950 dark:text-amber-200'
-                      : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
-                  }`}
-                >
-                  <span>🔁 Повторение</span>
-                  {dueReviews.length > 0 && (
-                    <span className="rounded-full bg-amber-600 px-1.5 text-[11px] font-bold text-white">
-                      {dueReviews.length}
-                    </span>
-                  )}
-                </Link>
-              </nav>
+                <span className="text-sm leading-none">{activeCourse === 'tr' ? '🇹🇷' : '🇬🇧'}</span>
+                <span>{activeCourse === 'tr' ? 'TR' : 'EN'}</span>
+                <span className="text-[10px] opacity-60">⇄</span>
+              </button>
             </div>
 
-            <div className="flex flex-wrap items-center gap-1.5 text-xs sm:gap-2 sm:text-sm">
+            {/* Center: Desktop-only sleek single-row navigation */}
+            <nav className="hidden items-center gap-1 md:flex" aria-label="Основная навигация">
+              <Link
+                href="/"
+                className={`rounded-xl px-3 py-1.5 text-xs font-extrabold transition ${
+                  isHomeActive
+                    ? 'bg-sky-100 text-sky-900 dark:bg-sky-950/80 dark:text-sky-200'
+                    : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800/70'
+                }`}
+              >
+                🎯 Урок
+              </Link>
+              <Link
+                href={`/${activeCourse}`}
+                className={`rounded-xl px-3 py-1.5 text-xs font-extrabold transition ${
+                  isMapActive
+                    ? 'bg-sky-100 text-sky-900 dark:bg-sky-950/80 dark:text-sky-200'
+                    : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800/70'
+                }`}
+              >
+                🗺 Карта
+              </Link>
+              <Link
+                href="/review"
+                className={`inline-flex items-center gap-1 rounded-xl px-3 py-1.5 text-xs font-extrabold transition ${
+                  isReviewActive
+                    ? 'bg-amber-100 text-amber-950 dark:bg-amber-950/80 dark:text-amber-200'
+                    : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800/70'
+                }`}
+              >
+                <span>🔁 Повтор</span>
+                {dueReviews.length > 0 && (
+                  <span className="rounded-full bg-amber-500 px-1.5 text-[10px] font-black text-white">
+                    {dueReviews.length}
+                  </span>
+                )}
+              </Link>
+              <Link
+                href="/profile"
+                className={`rounded-xl px-3 py-1.5 text-xs font-extrabold transition ${
+                  isProfileActive
+                    ? 'bg-slate-200 text-slate-900 dark:bg-slate-800 dark:text-white'
+                    : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800/70'
+                }`}
+              >
+                👤 Профиль
+              </Link>
+              <Link
+                href="/settings"
+                aria-label="Настройки"
+                className={`rounded-xl px-2.5 py-1.5 text-xs font-extrabold transition ${
+                  isSettingsActive
+                    ? 'bg-slate-200 text-slate-900 dark:bg-slate-800 dark:text-white'
+                    : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800/70'
+                }`}
+              >
+                ⚙️
+              </Link>
+            </nav>
+
+            {/* Right: Ultra-compact status pills */}
+            <div className="flex shrink-0 items-center gap-1.5 text-xs">
               <span
                 title="Серия дней подряд"
-                className="inline-flex items-center gap-1 rounded-full bg-amber-50 px-2.5 py-1 font-bold text-amber-800 dark:bg-amber-950/70 dark:text-amber-300"
+                className="inline-flex items-center gap-1 rounded-full bg-amber-100/90 px-2 py-1 font-black text-amber-800 dark:bg-amber-950/80 dark:text-amber-300"
               >
-                🔥 {streakDays} дн.
+                <span>🔥</span>
+                <span>{streakDays}</span>
               </span>
 
               <span
                 title="Дневная цель XP"
-                className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-1 font-bold text-emerald-800 dark:bg-emerald-950/70 dark:text-emerald-300"
+                className="inline-flex items-center gap-1 rounded-full bg-emerald-100/90 px-2 py-1 font-black text-emerald-800 dark:bg-emerald-950/80 dark:text-emerald-300"
               >
-                ⚡ {todayXp}/{profile.dailyGoalXp} XP
+                <span>⚡</span>
+                <span>
+                  {todayXp}/{profile.dailyGoalXp}
+                </span>
               </span>
+
+              <button
+                type="button"
+                onClick={() => void triggerSync()}
+                title={syncTitle}
+                aria-label={syncTitle}
+                className="relative flex h-8 w-8 items-center justify-center rounded-xl border border-slate-200 bg-slate-50 text-sm hover:bg-slate-100 dark:border-slate-700/80 dark:bg-slate-800/80 dark:hover:bg-slate-800"
+              >
+                <span>{syncIcon}</span>
+                {syncStatus.pendingCount > 0 && (
+                  <span className="absolute -right-1 -top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-sky-500 px-1 text-[10px] font-black text-white">
+                    {syncStatus.pendingCount}
+                  </span>
+                )}
+              </button>
 
               <button
                 type="button"
                 onClick={cycleTheme}
                 aria-label="Переключить тему оформления"
                 title={`Тема: ${currentTheme}`}
-                className="rounded-lg border border-slate-200 bg-slate-50 px-2 py-1 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800"
+                className="flex h-8 w-8 items-center justify-center rounded-xl border border-slate-200 bg-slate-50 text-sm hover:bg-slate-100 dark:border-slate-700/80 dark:bg-slate-800/80 dark:hover:bg-slate-800"
               >
                 {themeIcon}
               </button>
-
-              <button
-                type="button"
-                onClick={() => void triggerSync()}
-                title="Статус синхронизации"
-                className="inline-flex items-center gap-1 rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
-              >
-                <span>{syncLabel}</span>
-                {syncStatus.pendingCount > 0 && (
-                  <span className="rounded-full bg-sky-600 px-1.5 text-[11px] text-white">
-                    {syncStatus.pendingCount}
-                  </span>
-                )}
-              </button>
-
-              <Link
-                href="/profile"
-                className={`rounded-lg px-2 py-1.5 font-semibold ${
-                  pathname === '/profile'
-                    ? 'bg-slate-200 text-slate-900 dark:bg-slate-800 dark:text-white'
-                    : 'text-slate-700 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
-                }`}
-              >
-                Профиль
-              </Link>
-
-              <Link
-                href="/settings"
-                aria-label="Настройки"
-                className={`rounded-lg px-2 py-1.5 font-semibold ${
-                  pathname === '/settings'
-                    ? 'bg-slate-200 text-slate-900 dark:bg-slate-800 dark:text-white'
-                    : 'text-slate-700 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
-                }`}
-              >
-                ⚙️
-              </Link>
-
-              {!profile.userId && (
-                <Link
-                  href="/auth"
-                  className="rounded-lg bg-sky-600 px-3 py-1.5 font-bold text-white hover:bg-sky-700"
-                >
-                  Войти
-                </Link>
-              )}
             </div>
           </div>
         </header>
       )}
 
-      <div className="flex-1">{children}</div>
+      <div className={`flex-1 ${!isPlayerRoute ? 'pb-20 md:pb-6' : ''}`}>{children}</div>
 
+      {/* Mobile Bottom Navigation Bar */}
       {!isPlayerRoute && (
-        <footer className="mt-12 border-t border-slate-200 bg-white py-6 text-xs text-slate-500 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-400">
-          <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-4">
-            <div className="flex items-center gap-2">
-              <span className="font-bold text-slate-800 dark:text-slate-200">Konuş!</span>
-              <span>— бесплатный PWA для практики турецкого и английского (0 ₽, без рекламы)</span>
-            </div>
-            <nav className="flex flex-wrap gap-4 font-medium" aria-label="Ссылки в подвале">
-              <Link href="/welcome" className="hover:text-sky-600 dark:hover:text-sky-400">
-                Выбор цели
-              </Link>
-              <Link href="/review" className="hover:text-sky-600 dark:hover:text-sky-400">
-                Повторение 1/3/7/14
-              </Link>
-              <Link href="/settings" className="hover:text-sky-600 dark:hover:text-sky-400">
-                Настройки
-              </Link>
-              <Link href="/about" className="hover:text-sky-600 dark:hover:text-sky-400">
-                О проекте
-              </Link>
-              <Link href="/privacy" className="hover:text-sky-600 dark:hover:text-sky-400">
-                Конфиденциальность
-              </Link>
-            </nav>
+        <nav
+          aria-label="Мобильная навигация"
+          className="pb-safe fixed inset-x-0 bottom-0 z-30 border-t border-slate-200/80 bg-white/95 backdrop-blur-md md:hidden dark:border-slate-800/80 dark:bg-[#0f1629]/95"
+        >
+          <div className="mx-auto grid max-w-lg grid-cols-5 px-1 pt-1.5">
+            <Link
+              href="/"
+              className={`flex flex-col items-center gap-0.5 rounded-xl py-1 text-[10px] font-extrabold transition ${
+                isHomeActive
+                  ? 'text-sky-600 dark:text-sky-400'
+                  : 'text-slate-500 dark:text-slate-400'
+              }`}
+            >
+              <span className={`text-lg leading-none ${isHomeActive ? 'scale-110' : ''}`}>🎯</span>
+              <span>Урок</span>
+            </Link>
+
+            <Link
+              href={`/${activeCourse}`}
+              className={`flex flex-col items-center gap-0.5 rounded-xl py-1 text-[10px] font-extrabold transition ${
+                isMapActive
+                  ? 'text-sky-600 dark:text-sky-400'
+                  : 'text-slate-500 dark:text-slate-400'
+              }`}
+            >
+              <span className={`text-lg leading-none ${isMapActive ? 'scale-110' : ''}`}>🗺</span>
+              <span>Карта</span>
+            </Link>
+
+            <Link
+              href="/review"
+              className={`relative flex flex-col items-center gap-0.5 rounded-xl py-1 text-[10px] font-extrabold transition ${
+                isReviewActive
+                  ? 'text-amber-600 dark:text-amber-400'
+                  : 'text-slate-500 dark:text-slate-400'
+              }`}
+            >
+              <span className={`text-lg leading-none ${isReviewActive ? 'scale-110' : ''}`}>
+                🔁
+              </span>
+              <span>Повтор</span>
+              {dueReviews.length > 0 && (
+                <span className="absolute right-3 top-0.5 flex h-4 min-w-4 items-center justify-center rounded-full bg-amber-500 px-1 text-[9px] font-black text-white">
+                  {dueReviews.length}
+                </span>
+              )}
+            </Link>
+
+            <Link
+              href="/profile"
+              className={`flex flex-col items-center gap-0.5 rounded-xl py-1 text-[10px] font-extrabold transition ${
+                isProfileActive
+                  ? 'text-sky-600 dark:text-sky-400'
+                  : 'text-slate-500 dark:text-slate-400'
+              }`}
+            >
+              <span className={`text-lg leading-none ${isProfileActive ? 'scale-110' : ''}`}>
+                👤
+              </span>
+              <span>Профиль</span>
+            </Link>
+
+            <Link
+              href="/settings"
+              className={`flex flex-col items-center gap-0.5 rounded-xl py-1 text-[10px] font-extrabold transition ${
+                isSettingsActive
+                  ? 'text-sky-600 dark:text-sky-400'
+                  : 'text-slate-500 dark:text-slate-400'
+              }`}
+            >
+              <span className={`text-lg leading-none ${isSettingsActive ? 'scale-110' : ''}`}>
+                ⚙️
+              </span>
+              <span>Ещё</span>
+            </Link>
           </div>
-        </footer>
+        </nav>
       )}
     </div>
   );
